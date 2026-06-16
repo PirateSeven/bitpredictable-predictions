@@ -197,18 +197,14 @@ def fit(model, X: np.ndarray, y: np.ndarray, device, val_split=0.1) -> float:
     X_tr, y_tr   = X[:-n_val], y[:-n_val]
     X_val, y_val = X[-n_val:], y[-n_val:]
 
-    # Shuffle once then use sequential access — avoids per-epoch random indexing
-    # which causes cache misses on large arrays (slower than one contiguous copy).
-    perm = np.random.permutation(len(X_tr))
-    X_tr_shuf = np.ascontiguousarray(X_tr[perm])
-    y_tr_shuf = np.ascontiguousarray(y_tr[perm])
+    # shuffle=False: sequential access avoids cache thrashing on Cortex-A57 (2MB L2).
+    # Data is already diverse — 15 coins interleaved — so epoch-level shuffle adds little.
     tr_loader = DataLoader(
-        TensorDataset(torch.from_numpy(X_tr_shuf), torch.from_numpy(y_tr_shuf)),
+        TensorDataset(torch.from_numpy(X_tr), torch.from_numpy(y_tr)),
         batch_size=BATCH_SIZE, shuffle=False,
     )
     val_loader = DataLoader(
-        TensorDataset(torch.from_numpy(np.ascontiguousarray(X_val)),
-                      torch.from_numpy(np.ascontiguousarray(y_val))),
+        TensorDataset(torch.from_numpy(X_val), torch.from_numpy(y_val)),
         batch_size=BATCH_SIZE,
     )
 
