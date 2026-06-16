@@ -10,6 +10,7 @@ Each result includes a `sources` list for frontend citations.
 
 import logging
 import os
+import time
 from typing import Any, Dict, List, Optional, Tuple
 
 import requests as _requests
@@ -18,6 +19,18 @@ from dotenv import load_dotenv
 load_dotenv()
 
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
+
+# Free tier: 15 req/min → minimum 4.5s between calls
+_GEMINI_MIN_INTERVAL = 4.5
+_gemini_last_call = 0.0
+
+
+def _gemini_rate_wait() -> None:
+    global _gemini_last_call
+    elapsed = time.time() - _gemini_last_call
+    if elapsed < _GEMINI_MIN_INTERVAL:
+        time.sleep(_GEMINI_MIN_INTERVAL - elapsed)
+    _gemini_last_call = time.time()
 
 logger = logging.getLogger(__name__)
 
@@ -119,20 +132,27 @@ def _gemini_commentary(ctx: dict, headlines: list) -> Tuple[str, str]:
         headlines_text=headlines_text,
     )
 
-    resp = _requests.post(
-        _GEMINI_URL,
-        params={"key": GEMINI_API_KEY},
-        json={"contents": [{"parts": [{"text": prompt}]}]},
-        timeout=30,
-    )
-    if not resp.ok:
-        # Raise without the URL (which contains the API key) in the message
-        raise _requests.HTTPError(
-            "{} {} Error: {}".format(resp.status_code, "Client" if resp.status_code < 500 else "Server", resp.reason),
-            response=resp,
+    for attempt in range(3):
+        _gemini_rate_wait()
+        resp = _requests.post(
+            _GEMINI_URL,
+            params={"key": GEMINI_API_KEY},
+            json={"contents": [{"parts": [{"text": prompt}]}]},
+            timeout=30,
         )
-    text = resp.json()["candidates"][0]["content"]["parts"][0]["text"]
-    return _parse_bilingual(text)
+        if resp.status_code == 429:
+            retry_after = int(resp.headers.get("Retry-After", 60))
+            logger.warning("[commentary] Gemini rate limited — waiting %ds (attempt %d/3)", retry_after, attempt + 1)
+            time.sleep(retry_after)
+            continue
+        if not resp.ok:
+            raise _requests.HTTPError(
+                "{} {} Error: {}".format(resp.status_code, "Client" if resp.status_code < 500 else "Server", resp.reason),
+                response=resp,
+            )
+        text = resp.json()["candidates"][0]["content"]["parts"][0]["text"]
+        return _parse_bilingual(text)
+    raise _requests.HTTPError("429 Too Many Requests after 3 attempts")
 
 
 def _parse_bilingual(raw: str) -> Tuple[str, str]:
