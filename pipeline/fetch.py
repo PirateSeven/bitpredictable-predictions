@@ -20,7 +20,7 @@ SLEEP_BETWEEN_CALLS = 2.1  # Demo key: 30 req/min
 MAX_RETRIES = 3
 
 _CACHE_DIR = Path(__file__).resolve().parent.parent / "cache"
-_CACHE_TTL_HOURS = 6  # reuse cached data if fetched within the last 6 hours
+_CACHE_TTL_HOURS = 2.5  # reuse cached data if fetched within the last 2.5 hours (predict runs every 3h)
 
 
 def _cache_ok(path: Path) -> bool:
