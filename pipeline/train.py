@@ -14,6 +14,7 @@ Fixes vs v1:
 
 import gc
 import logging
+import pickle
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
@@ -52,6 +53,8 @@ CV_FOLDS      = 1    # single fold for first run; increase once training is prov
 CV_TEST_DAYS  = 14
 MODEL_PATH    = Path("model.pt")
 BEST_WEIGHTS  = Path("best_weights.pt")
+_CACHE_DIR    = Path(__file__).resolve().parent.parent / "cache"
+_CV_CKPT      = _CACHE_DIR / "cv_checkpoint.pkl"
 
 
 # ── Float32 scaler ─────────────────────────────────────────────────────────────
@@ -251,9 +254,31 @@ def walk_forward_cv(
     test_size = CV_TEST_DAYS * 24   # 14 days × 24h = 336 sequences per fold per coin
     fold_step = test_size // 2      # 168 — step between consecutive fold boundaries
 
+    # ── Resume from checkpoint if available ───────────────────────────────────
+    completed = {}  # {fold_index: mae}
+    if _CV_CKPT.exists():
+        with open(str(_CV_CKPT), "rb") as f:
+            ckpt = pickle.load(f)
+        if ckpt.get("cv_folds") == CV_FOLDS:
+            completed = ckpt.get("folds", {})
+            if completed:
+                tqdm.write(
+                    f"Resuming CV: {len(completed)}/{CV_FOLDS} fold(s) already done "
+                    f"(maes={[round(v,2) for v in completed.values()]})"
+                )
+        else:
+            tqdm.write("CV checkpoint config changed — starting fresh")
+
     maes = []
     fold_bar = tqdm(range(CV_FOLDS), desc="Walk-forward CV", unit="fold", dynamic_ncols=True)
     for fold in fold_bar:
+        # ── Skip if this fold is already done ─────────────────────────────────
+        if fold in completed:
+            mae = completed[fold]
+            maes.append(mae)
+            fold_bar.set_postfix(mae=f"{mae:.2f}% (cached)")
+            tqdm.write(f"CV Fold {fold+1}/{CV_FOLDS} | skipped (cached mae={mae:.2f}%)")
+            continue
         X_tr_parts,  y_tr_parts  = [], []
         X_val_parts, y_val_parts = [], []
 
@@ -314,9 +339,19 @@ def walk_forward_cv(
             f"24h MAE: {mae:.2f}%"
         )
 
+        # ── Save checkpoint so this fold is not repeated on retry ─────────────
+        completed[fold] = mae
+        _CACHE_DIR.mkdir(exist_ok=True)
+        with open(str(_CV_CKPT), "wb") as f:
+            pickle.dump({"cv_folds": CV_FOLDS, "folds": completed}, f)
+
         del model, val_loader, X_val_sc, y_val_f32
         gc.collect()
         torch.cuda.empty_cache()
+
+    # ── Clear checkpoint on successful completion ──────────────────────────────
+    if _CV_CKPT.exists():
+        _CV_CKPT.unlink()
 
     if not maes:
         logger.warning("Walk-forward CV produced no results.")
