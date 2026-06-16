@@ -9,7 +9,7 @@ import numpy as np
 import pandas as pd
 import ta as _ta
 
-SEQ_LEN = 96    # hours of lookback (4 days — captures weekly patterns better)
+SEQ_LEN = 48    # hours of lookback (2 days); reduced from 96 for Jetson Nano Maxwell GPU
 HORIZON = 24    # hours to predict ahead
 
 FEATURE_NAMES = [

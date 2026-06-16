@@ -42,8 +42,8 @@ logger = logging.getLogger(__name__)
 # ── Hyperparameters ────────────────────────────────────────────────────────────
 TOP_N_COINS   = 15   # reduced for Jetson Nano 4GB
 TRAIN_DAYS    = 90
-HIDDEN_SIZE   = 64   # reduced from 128 to fit in 4GB unified memory
-NUM_LAYERS    = 2
+HIDDEN_SIZE   = 32   # reduced from 64; 4x less LSTM work for Maxwell GPU
+NUM_LAYERS    = 1    # reduced from 2; 2x less LSTM work
 DROPOUT       = 0.2
 BATCH_SIZE    = 256  # large batch = better Maxwell GPU utilisation (data is zero-copy)
 MAX_EPOCHS    = 50   # early stopping fires well before 50 in practice
@@ -197,13 +197,18 @@ def fit(model, X: np.ndarray, y: np.ndarray, device, val_split=0.1) -> float:
     X_tr, y_tr   = X[:-n_val], y[:-n_val]
     X_val, y_val = X[-n_val:], y[-n_val:]
 
-    # from_numpy: zero-copy — tensor shares memory with the numpy array
+    # Shuffle once then use sequential access — avoids per-epoch random indexing
+    # which causes cache misses on large arrays (slower than one contiguous copy).
+    perm = np.random.permutation(len(X_tr))
+    X_tr_shuf = np.ascontiguousarray(X_tr[perm])
+    y_tr_shuf = np.ascontiguousarray(y_tr[perm])
     tr_loader = DataLoader(
-        TensorDataset(torch.from_numpy(X_tr), torch.from_numpy(y_tr)),
-        batch_size=BATCH_SIZE, shuffle=True,
+        TensorDataset(torch.from_numpy(X_tr_shuf), torch.from_numpy(y_tr_shuf)),
+        batch_size=BATCH_SIZE, shuffle=False,
     )
     val_loader = DataLoader(
-        TensorDataset(torch.from_numpy(X_val), torch.from_numpy(y_val)),
+        TensorDataset(torch.from_numpy(np.ascontiguousarray(X_val)),
+                      torch.from_numpy(np.ascontiguousarray(y_val))),
         batch_size=BATCH_SIZE,
     )
 
