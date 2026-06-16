@@ -26,6 +26,7 @@ from sklearn.preprocessing import StandardScaler
 from torch.optim import Adam
 from torch.optim.lr_scheduler import ReduceLROnPlateau
 from torch.utils.data import DataLoader, TensorDataset
+from tqdm import tqdm
 
 from pipeline.fetch import fetch_coin_list, fetch_hourly
 from pipeline.features import N_FEATURES, SEQ_LEN, HORIZON, build_sequences
@@ -190,7 +191,8 @@ def fit(model, X: np.ndarray, y: np.ndarray, device, val_split=0.1) -> float:
     best_val       = float("inf")
     patience_count = 0
 
-    for epoch in range(1, MAX_EPOCHS + 1):
+    epoch_bar = tqdm(range(1, MAX_EPOCHS + 1), desc="  epochs", unit="ep", leave=False, dynamic_ncols=True)
+    for epoch in epoch_bar:
         tr_loss  = train_epoch(model, tr_loader, optimizer, device)
         val_loss = eval_epoch(model, val_loader, device)
         scheduler.step(val_loss)
@@ -202,11 +204,10 @@ def fit(model, X: np.ndarray, y: np.ndarray, device, val_split=0.1) -> float:
         else:
             patience_count += 1
             if patience_count >= ES_PATIENCE:
-                logger.info(f"Early stopping at epoch {epoch}")
+                tqdm.write(f"  Early stopping at epoch {epoch}")
                 break
 
-        if epoch % 10 == 0:
-            logger.info(f"  epoch {epoch:3d} | train {tr_loss:.4f} | val {val_loss:.4f}")
+        epoch_bar.set_postfix(tr=f"{tr_loss:.4f}", val=f"{val_loss:.4f}", best=f"{best_val:.4f}")
 
     model.load_state_dict(torch.load(BEST_WEIGHTS, map_location=device))
     if BEST_WEIGHTS.exists():
@@ -232,7 +233,8 @@ def walk_forward_cv(
     fold_step = test_size // 2      # 168 — step between consecutive fold boundaries
 
     maes = []
-    for fold in range(CV_FOLDS):
+    fold_bar = tqdm(range(CV_FOLDS), desc="Walk-forward CV", unit="fold", dynamic_ncols=True)
+    for fold in fold_bar:
         X_tr_parts,  y_tr_parts  = [], []
         X_val_parts, y_val_parts = [], []
 
@@ -279,7 +281,8 @@ def walk_forward_cv(
         )
         mae = cumulative_24h_mae(model, val_loader, device)
         maes.append(mae)
-        logger.info(
+        fold_bar.set_postfix(mae=f"{mae:.2f}%", train=len(X_tr), val=len(X_val))
+        tqdm.write(
             f"CV Fold {fold+1}/{CV_FOLDS} | "
             f"train={len(X_tr):,}  val={len(X_val):,} | "
             f"24h MAE: {mae:.2f}%"
@@ -316,7 +319,7 @@ def main():
     all_X_per_coin: List[np.ndarray] = []
     all_y_per_coin: List[np.ndarray] = []
 
-    for coin_id in coin_ids:
+    for coin_id in tqdm(coin_ids, desc="Fetching data", unit="coin", dynamic_ncols=True):
         try:
             df = fetch_hourly(coin_id, TRAIN_DAYS)
             X, y = build_sequences(df, btc_df=btc_df, eth_df=eth_df, for_training=True)
@@ -324,9 +327,9 @@ def main():
                 continue
             all_X_per_coin.append(X)
             all_y_per_coin.append(y)
-            logger.info(f"  [{coin_id}] {len(X)} sequences")
+            tqdm.write(f"  [{coin_id}] {len(X)} sequences")
         except Exception as e:
-            logger.error(f"  [{coin_id}] skipped: {e}")
+            tqdm.write(f"  [{coin_id}] skipped: {e}")
 
     if not all_X_per_coin:
         raise RuntimeError("No training data fetched. Check API key and network.")
@@ -346,7 +349,7 @@ def main():
         X_all.reshape(-1, N_FEATURES)
     ).reshape(shape).astype(np.float32)
 
-    logger.info("Training final model on all data...")
+    logger.info(f"Training final model on all data ({len(X_all):,} sequences)...")
     model = QuantileLSTM(N_FEATURES, HIDDEN_SIZE, NUM_LAYERS, DROPOUT, HORIZON).to(device)
     fit(model, X_scaled, y_all.astype(np.float32), device)
 

@@ -6,4 +6,5 @@ ta>=0.11
 scikit-learn>=0.24,<1.0
 requests>=2.25
 python-dotenv>=0.17
+tqdm>=4.60
 # google-generativeai does not support Python 3.6; commentary falls back to rule-based templates

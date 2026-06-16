@@ -20,6 +20,7 @@ from __future__ import annotations
 
 from typing import Dict, List, Optional
 import fcntl
+from tqdm import tqdm
 import logging
 import os
 import sys
@@ -290,7 +291,9 @@ def run_inference() -> None:
     eth_df = fetch_hourly("ethereum", FETCH_DAYS)
 
     results = []
-    for coin_id in coin_ids:
+    coin_bar = tqdm(coin_ids, desc="Inferring coins", unit="coin", dynamic_ncols=True)
+    for coin_id in coin_bar:
+        coin_bar.set_postfix(coin=coin_id, ok=len(results))
         try:
             df = fetch_hourly(coin_id, FETCH_DAYS)
 
@@ -327,13 +330,14 @@ def run_inference() -> None:
                 "signal":     inferred["signal"],
                 "commentary": commentary,
             })
-            logger.info(
+            tqdm.write(
                 f"[{coin_id}] {inferred['signal']['direction']} "
                 f"{inferred['signal']['changePercent24h']:+.2f}%  "
                 f"conf={inferred['signal']['confidence']:.2f}"
             )
 
         except Exception as e:
+            tqdm.write(f"[{coin_id}] failed: {e}")
             logger.error(f"[{coin_id}] failed: {e}", exc_info=True)
 
     if len(results) < MIN_COINS:
