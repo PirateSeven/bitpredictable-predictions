@@ -15,7 +15,7 @@ import json
 import logging
 import subprocess
 from pathlib import Path
-from typing import Any
+from typing import Any, Dict, List
 
 logger = logging.getLogger(__name__)
 
@@ -26,7 +26,7 @@ MODEL_VERSION = "lstm-2.0.0"
 # ── Main entry point ───────────────────────────────────────────────────────────
 
 def write_predictions(
-    coin_results: list[dict[str, Any]],
+    coin_results: List[Dict[str, Any]],
     generated_at_iso: str,
     model_version: str = MODEL_VERSION,
 ) -> None:
@@ -61,12 +61,12 @@ def write_predictions(
 # ── Series helpers ─────────────────────────────────────────────────────────────
 
 def build_series(
-    actual_prices: list[float],       # 168 hourly prices (7 days display window)
-    actual_times: list[str],          # ISO timestamps for those 168 hours
-    backtest_preds: list[list[float]], # 7 × 24 predicted hourly % returns (from 7 backtest windows)
-    future_preds: list[float],        # 24 predicted hourly % returns (future window)
-    future_times: list[str],          # ISO timestamps for the next 24 hours
-) -> list[dict]:
+    actual_prices: List[float],       # 168 hourly prices (7 days display window)
+    actual_times: List[str],          # ISO timestamps for those 168 hours
+    backtest_preds: List[List[float]], # 7 × 24 predicted hourly % returns (from 7 backtest windows)
+    future_preds: List[float],        # 24 predicted hourly % returns (future window)
+    future_times: List[str],          # ISO timestamps for the next 24 hours
+) -> List[Dict]:
     """
     Build a 192-point series (168 actual + 24 future).
     All indexes are normalised so that actual_prices[0] = 100.
@@ -108,10 +108,10 @@ def build_series(
 
 
 def compute_signal(
-    series: list[dict],
-    q10_preds: list[float],
-    q90_preds: list[float],
-) -> dict:
+    series: List[Dict],
+    q10_preds: List[float],
+    q90_preds: List[float],
+) -> Dict:
     """
     Derive direction, changePercent24h, and confidence from the series and quantiles.
     """

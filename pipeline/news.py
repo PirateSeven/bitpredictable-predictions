@@ -12,6 +12,7 @@ Sources (all free, no additional API key needed except CoinGecko key you already
 import logging
 import time
 import xml.etree.ElementTree as ET
+from typing import Dict, List, Optional
 from urllib.request import Request, urlopen
 
 import requests
@@ -94,7 +95,7 @@ def fetch_global_market() -> dict:
 
 # ── CoinGecko community sentiment ─────────────────────────────────────────────
 
-def fetch_coin_sentiment(coin_id: str) -> dict | None:
+def fetch_coin_sentiment(coin_id: str) -> Optional[Dict]:
     """
     Returns CoinGecko community data including sentiment_votes_up/down_percentage.
     Returns None on failure (non-fatal).
@@ -130,7 +131,7 @@ def fetch_coin_sentiment(coin_id: str) -> dict | None:
 
 # ── RSS news headlines ─────────────────────────────────────────────────────────
 
-def fetch_market_headlines(limit: int = 5) -> list[dict]:
+def fetch_market_headlines(limit: int = 5) -> List[Dict]:
     """
     Fetch recent crypto market headlines from free RSS feeds.
     Returns list of {"title": str, "url": str | None, "source": str}.
