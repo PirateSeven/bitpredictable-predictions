@@ -163,9 +163,12 @@ def _git_push(generated_at_iso: str) -> None:
         if diff.returncode == 0:
             logger.info("No prediction changes to commit.")
             return
-        subprocess.run(["git", "commit", "-m", f"Update predictions {tag}"], check=True)
+        subprocess.run(["git", "commit", "-m", "Update predictions {}".format(tag)], check=True)
         subprocess.run(["git", "push", "origin", "main"], check=True)
-        logger.info(f"Pushed predictions to GitHub [{tag}]")
+        logger.info("Pushed predictions to GitHub [%s]", tag)
+    except OSError as e:
+        logger.warning("git push skipped (insufficient memory to fork): %s", e)
+        logger.info("predictions/ written locally — run 'git add predictions/ && git push' manually.")
     except subprocess.CalledProcessError as e:
-        logger.error(f"git push failed: {e}")
+        logger.error("git push failed: %s", e)
         raise
