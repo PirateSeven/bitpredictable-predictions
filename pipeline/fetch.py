@@ -4,6 +4,7 @@ import logging
 import os
 import random
 import time
+from typing import Dict, List
 
 import pandas as pd
 import requests
@@ -59,7 +60,7 @@ def _fetch_with_retry(url: str, params: dict) -> dict:
     raise RuntimeError(f"CoinGecko request failed after {MAX_RETRIES} retries: {url}")
 
 
-def fetch_coin_list(n: int = 50) -> list[str]:
+def fetch_coin_list(n: int = 50) -> List[str]:
     """Return top-N coin IDs ordered by market cap."""
     data = _fetch_with_retry(
         f"{COINGECKO_API_BASE}/coins/markets",

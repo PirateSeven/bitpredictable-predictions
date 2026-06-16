@@ -11,8 +11,9 @@ from __future__ import annotations
 
 import logging
 import os
-from typing import Any
+from typing import Any, Dict, List, Optional, Tuple
 
+import requests as _requests
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -21,12 +22,17 @@ GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 
 logger = logging.getLogger(__name__)
 
-CommentaryResult = dict[str, Any]
+CommentaryResult = Dict[str, Any]
 # {
 #   "en": str,
 #   "ja": str,
 #   "sources": [{"label": str, "value": str, "url": str | None}]
 # }
+
+_GEMINI_URL = (
+    "https://generativelanguage.googleapis.com/v1beta"
+    "/models/gemini-2.0-flash:generateContent"
+)
 
 
 def generate_commentary(
@@ -36,11 +42,11 @@ def generate_commentary(
     direction: str,
     change_pct_24h: float,
     confidence: float,
-    last_features: dict[str, float],
-    fear_greed: dict[str, Any],
-    global_market: dict[str, float],
-    coin_sentiment: dict[str, Any] | None = None,
-    news_headlines: list[dict] | None = None,
+    last_features: Dict[str, float],
+    fear_greed: Dict[str, Any],
+    global_market: Dict[str, float],
+    coin_sentiment: Optional[Dict[str, Any]] = None,
+    news_headlines: Optional[List[dict]] = None,
 ) -> CommentaryResult:
     ctx = _build_context(
         coin_id, symbol, name, direction, change_pct_24h, confidence,
@@ -64,47 +70,68 @@ def generate_commentary(
 
 # ── Gemini ─────────────────────────────────────────────────────────────────────
 
-def _gemini_commentary(ctx: dict, headlines: list[dict]) -> tuple[str, str]:
-    import google.generativeai as genai
-
-    genai.configure(api_key=GEMINI_API_KEY)
-    model = genai.GenerativeModel("gemini-2.0-flash")
-
+def _gemini_commentary(ctx: dict, headlines: list) -> Tuple[str, str]:
     headlines_text = (
-        "\n".join(f"  - {h['title']} ({h.get('source', '')})" for h in headlines[:5])
+        "\n".join("  - {} ({})".format(h["title"], h.get("source", "")) for h in headlines[:5])
         if headlines else "  (no recent headlines)"
     )
 
-    prompt = f"""You are a concise crypto market analyst. Generate prediction commentary for {ctx['name']} ({ctx['symbol']}).
+    prompt = (
+        "You are a concise crypto market analyst. Generate prediction commentary"
+        " for {name} ({symbol}).\n\n"
+        "Technical signals:\n"
+        "- Predicted 24h direction: {direction}, {change_pct:+.1f}% (confidence: {conf}%)\n"
+        "- RSI-14: {rsi:.0f} — {rsi_signal}\n"
+        "- Bollinger Band %B: {bb:.2f} — {bb_signal} band\n"
+        "- 24h actual return: {ret_24h:+.2f}%\n"
+        "- Volume ratio: {vol_r:.1f}x average ({vol_signal})\n"
+        "- Short-term trend (SMA7/SMA24): {trend_signal}\n\n"
+        "Market context:\n"
+        "- Fear & Greed Index: {fg_val} — {fg_class}\n"
+        "- Total crypto market cap 24h change: {mcap_ret:+.2f}%\n"
+        "- BTC 24h return: {btc_ret:+.2f}%\n"
+        "{sent_line}\n"
+        "Recent news:\n{headlines_text}\n\n"
+        "Write EXACTLY this format (no extra text, no markdown):\n"
+        "[EN]\n(2-3 sentences in English. Factual, not promotional.)\n"
+        "[JA]\n(Same content in natural Japanese.)"
+    ).format(
+        name=ctx["name"],
+        symbol=ctx["symbol"],
+        direction=ctx["direction"].upper(),
+        change_pct=ctx["change_pct"],
+        conf=int(ctx["confidence"] * 100),
+        rsi=ctx["rsi"],
+        rsi_signal=ctx["rsi_signal"],
+        bb=ctx["bb"],
+        bb_signal=ctx["bb_signal"],
+        ret_24h=ctx["ret_24h"],
+        vol_r=ctx["vol_r"],
+        vol_signal=ctx["vol_signal"],
+        trend_signal=ctx["trend_signal"],
+        fg_val=ctx["fg_val"],
+        fg_class=ctx["fg_class"],
+        mcap_ret=ctx["mcap_ret"],
+        btc_ret=ctx["btc_ret"],
+        sent_line=(
+            "- CoinGecko community: {:.0f}% bullish".format(ctx["sent_up"])
+            if ctx["sent_up"] is not None else ""
+        ),
+        headlines_text=headlines_text,
+    )
 
-Technical signals:
-- Predicted 24h direction: {ctx['direction'].upper()}, {ctx['change_pct']:+.1f}% (confidence: {int(ctx['confidence']*100)}%)
-- RSI-14: {ctx['rsi']:.0f} — {ctx['rsi_signal']}
-- Bollinger Band %B: {ctx['bb']:.2f} — {ctx['bb_signal']} band
-- 24h actual return: {ctx['ret_24h']:+.2f}%
-- Volume ratio: {ctx['vol_r']:.1f}× average ({ctx['vol_signal']})
-- Short-term trend (SMA7/SMA24): {ctx['trend_signal']}
-
-Market context:
-- Fear & Greed Index: {ctx['fg_val']} — {ctx['fg_class']}
-- Total crypto market cap 24h change: {ctx['mcap_ret']:+.2f}%
-- BTC 24h return: {ctx['btc_ret']:+.2f}% ({'aligned with forecast' if ctx['btc_aligned'] else 'diverging from forecast'})
-{f"- CoinGecko community: {ctx['sent_up']:.0f}% bullish" if ctx['sent_up'] is not None else ""}
-
-Recent news:
-{headlines_text}
-
-Write EXACTLY this format (no extra text, no markdown):
-[EN]
-(2-3 sentences in English explaining the prediction basis, citing specific signals. Factual, not promotional.)
-[JA]
-(Same content in natural Japanese.)"""
-
-    response = model.generate_content(prompt)
-    return _parse_bilingual(response.text)
+    resp = _requests.post(
+        _GEMINI_URL,
+        params={"key": GEMINI_API_KEY},
+        json={"contents": [{"parts": [{"text": prompt}]}]},
+        timeout=30,
+    )
+    resp.raise_for_status()
+    text = resp.json()["candidates"][0]["content"]["parts"][0]["text"]
+    return _parse_bilingual(text)
 
 
-def _parse_bilingual(raw: str) -> tuple[str, str]:
+def _parse_bilingual(raw: str) -> Tuple[str, str]:
     en, ja = "", ""
     if "[EN]" in raw and "[JA]" in raw:
         try:
@@ -123,7 +150,7 @@ def _parse_bilingual(raw: str) -> tuple[str, str]:
 
 def _build_context(
     coin_id: str, symbol: str, name: str, direction: str, change_pct: float, confidence: float,
-    feat: dict[str, float], fg: dict, gm: dict, cs: dict | None,
+    feat: Dict[str, float], fg: dict, gm: dict, cs: Optional[dict],
 ) -> dict:
     rsi    = feat.get("rsi_14", 0.5) * 100
     bb     = feat.get("bb_pct_b", 0.5)
@@ -157,8 +184,8 @@ def _build_context(
 
 def _build_sources(
     ctx: dict, coin_id: str, fg: dict, gm: dict,
-    cs: dict | None, headlines: list[dict] | None,
-) -> list[dict]:
+    cs: Optional[dict], headlines: Optional[list],
+) -> List[dict]:
     src = [
         {
             "label": "Fear & Greed Index",

@@ -3,6 +3,8 @@ Feature engineering: hourly price/volume DataFrame → LSTM input sequences.
 Output shape: X (N, SEQ_LEN, N_FEATURES), y (N, HORIZON)
 """
 
+from typing import Optional, Union, Tuple
+
 import numpy as np
 import pandas as pd
 import ta as _ta
@@ -91,9 +93,9 @@ def _time_features(index: pd.DatetimeIndex) -> pd.DataFrame:
 
 
 def _market_signal_features(
-    index: pd.DatetimeIndex,
-    btc_df: pd.DataFrame | None,
-    eth_df: pd.DataFrame | None,
+    index,          # pd.DatetimeIndex
+    btc_df,         # Optional[pd.DataFrame]
+    eth_df,         # Optional[pd.DataFrame]
 ) -> pd.DataFrame:
     def _ret(df, n):
         if df is None:
@@ -112,8 +114,8 @@ def _market_signal_features(
 
 def build_feature_df(
     df: pd.DataFrame,
-    btc_df: pd.DataFrame | None = None,
-    eth_df: pd.DataFrame | None = None,
+    btc_df: Optional[pd.DataFrame] = None,
+    eth_df: Optional[pd.DataFrame] = None,
 ) -> pd.DataFrame:
     """
     Compute all 23 features for every row of df.
@@ -135,12 +137,12 @@ def build_feature_df(
 
 def build_sequences(
     df: pd.DataFrame,
-    btc_df: pd.DataFrame | None = None,
-    eth_df: pd.DataFrame | None = None,
+    btc_df: Optional[pd.DataFrame] = None,
+    eth_df: Optional[pd.DataFrame] = None,
     seq_len: int = SEQ_LEN,
     horizon: int = HORIZON,
     for_training: bool = True,
-) -> tuple[np.ndarray, np.ndarray] | np.ndarray:
+) -> Union[Tuple[np.ndarray, np.ndarray], np.ndarray]:
     """
     Build LSTM input sequences.
 

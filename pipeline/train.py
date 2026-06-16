@@ -16,6 +16,7 @@ import logging
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
+from typing import List
 
 import numpy as np
 import torch
@@ -113,11 +114,15 @@ def total_loss(out: torch.Tensor, y: torch.Tensor) -> torch.Tensor:
 def get_device() -> torch.device:
     if torch.cuda.is_available():
         d = torch.device("cuda")
-    elif torch.backends.mps.is_available():
-        d = torch.device("mps")
     else:
-        d = torch.device("cpu")
-    logger.info(f"Using device: {d}")
+        try:
+            if torch.backends.mps.is_available():
+                d = torch.device("mps")
+            else:
+                d = torch.device("cpu")
+        except AttributeError:
+            d = torch.device("cpu")
+    logger.info("Using device: %s", d)
     return d
 
 
@@ -203,14 +208,15 @@ def fit(model, X: np.ndarray, y: np.ndarray, device, val_split=0.1) -> float:
             logger.info(f"  epoch {epoch:3d} | train {tr_loss:.4f} | val {val_loss:.4f}")
 
     model.load_state_dict(torch.load(BEST_WEIGHTS, map_location=device))
-    BEST_WEIGHTS.unlink(missing_ok=True)
+    if BEST_WEIGHTS.exists():
+        BEST_WEIGHTS.unlink()
     return best_val
 
 
 # ── Walk-forward CV ────────────────────────────────────────────────────────────
 def walk_forward_cv(
-    all_X: list[np.ndarray],
-    all_y: list[np.ndarray],
+    all_X: List[np.ndarray],
+    all_y: List[np.ndarray],
     device: torch.device,
 ) -> float:
     """
@@ -299,8 +305,8 @@ def main():
     btc_df = fetch_hourly("bitcoin",  TRAIN_DAYS)
     eth_df = fetch_hourly("ethereum", TRAIN_DAYS)
 
-    all_X_per_coin: list[np.ndarray] = []
-    all_y_per_coin: list[np.ndarray] = []
+    all_X_per_coin: List[np.ndarray] = []
+    all_y_per_coin: List[np.ndarray] = []
 
     for coin_id in coin_ids:
         try:
