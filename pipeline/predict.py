@@ -18,6 +18,7 @@ Safety:
 
 from __future__ import annotations
 
+from typing import Dict, List, Optional
 import fcntl
 import logging
 import os
@@ -92,7 +93,8 @@ class SingleInstance:
         if self._fh:
             fcntl.flock(self._fh, fcntl.LOCK_UN)
             self._fh.close()
-        self._path.unlink(missing_ok=True)
+        if self._path.exists():
+            self._path.unlink()
 
 
 # ── Device + model loading ─────────────────────────────────────────────────────
@@ -100,8 +102,11 @@ class SingleInstance:
 def _get_device() -> torch.device:
     if torch.cuda.is_available():
         return torch.device("cuda")
-    if torch.backends.mps.is_available():
-        return torch.device("mps")
+    try:
+        if torch.backends.mps.is_available():
+            return torch.device("mps")
+    except AttributeError:
+        pass
     return torch.device("cpu")
 
 
@@ -151,7 +156,7 @@ def _infer_coin(
     scaler,
     device: torch.device,
     generated_at: datetime,
-) -> dict | None:
+) -> Optional[Dict]:
     """
     Returns a dict ready for write_predictions, or None on failure.
     """
@@ -247,7 +252,7 @@ def _iso_offset(ts, hours: int) -> str:
 
 # ── Sanity check ───────────────────────────────────────────────────────────────
 
-def _sanity_check(results: list[dict]) -> None:
+def _sanity_check(results: List[Dict]) -> None:
     for r in results:
         chg = r["signal"]["changePercent24h"]
         if abs(chg) > MAX_IMPLAUSIBLE:
@@ -345,7 +350,7 @@ def run_inference() -> None:
     logger.info(f"Done — {len(results)} predictions pushed.")
 
 
-def _enrich_metadata(results: list[dict], coin_ids: list[str]) -> None:
+def _enrich_metadata(results: List[Dict], coin_ids: List[str]) -> None:
     import time
     from pipeline.fetch import _fetch_with_retry, COINGECKO_API_BASE
 
