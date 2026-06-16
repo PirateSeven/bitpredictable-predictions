@@ -2,10 +2,17 @@
 Train a quantile LSTM on 90 days of CoinGecko hourly data.
 Saves model.pt to the repo root.
 Run: python pipeline/train.py
+
+Fixes vs v1:
+  - QuantileLSTM uses attention pooling over all hidden states (not just h[-1])
+  - Walk-forward CV splits each coin's sequences by time independently
+    → prevents cross-coin temporal leakage
+  - Scaler is fit inside each CV fold on training data only
+    → eliminates data leakage from validation period
+  - CV metric: 24h cumulative return MAE (matches what the site displays)
 """
 
 import logging
-import pickle
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
@@ -37,7 +44,7 @@ DROPOUT       = 0.2
 BATCH_SIZE    = 256
 MAX_EPOCHS    = 150
 LR            = 1e-3
-ES_PATIENCE   = 15      # early stopping patience (epochs)
+ES_PATIENCE   = 15
 CV_FOLDS      = 5
 CV_TEST_DAYS  = 14
 MODEL_PATH    = Path("model.pt")
@@ -46,12 +53,20 @@ BEST_WEIGHTS  = Path("best_weights.pt")
 
 # ── Model ──────────────────────────────────────────────────────────────────────
 class QuantileLSTM(nn.Module):
+    """
+    2-layer LSTM with additive attention pooling over all hidden states.
+    Attention prevents throwing away temporal information from early timesteps
+    (the flaw in using only h[-1]).
+    """
+
     def __init__(self, input_size, hidden_size, num_layers, dropout, horizon):
         super().__init__()
         self.lstm = nn.LSTM(
             input_size, hidden_size, num_layers,
             batch_first=True, dropout=dropout if num_layers > 1 else 0.0,
         )
+        # Single learned attention query (no bias — avoids position bias)
+        self.attn = nn.Linear(hidden_size, 1, bias=False)
         self.fc = nn.Sequential(
             nn.Linear(hidden_size, 64),
             nn.ReLU(),
@@ -62,14 +77,15 @@ class QuantileLSTM(nn.Module):
         self.head_q90 = nn.Linear(64, horizon)
 
     def forward(self, x):
-        _, (h, _) = self.lstm(x)
-        h = h[-1]           # last layer hidden state: (batch, hidden)
+        out, _ = self.lstm(x)                           # (batch, seq_len, hidden)
+        w = torch.softmax(self.attn(out), dim=1)        # (batch, seq_len, 1)
+        h = (w * out).sum(dim=1)                        # (batch, hidden)
         h = self.fc(h)
         return torch.stack([
             self.head_q10(h),
             self.head_med(h),
             self.head_q90(h),
-        ], dim=1)            # (batch, 3, horizon)
+        ], dim=1)                                        # (batch, 3, horizon)
 
 
 # ── Loss ───────────────────────────────────────────────────────────────────────
@@ -85,7 +101,7 @@ def total_loss(out: torch.Tensor, y: torch.Tensor) -> torch.Tensor:
         + quantile_loss(med, y, 0.5)
         + quantile_loss(q90, y, 0.9)
     )
-    # Soft monotonicity penalty: q10 ≤ med ≤ q90
+    # Soft monotonicity: q10 ≤ med ≤ q90
     mono = (
         torch.mean(torch.relu(q10 - med))
         + torch.mean(torch.relu(med - q90))
@@ -130,22 +146,27 @@ def eval_epoch(model, loader, device):
     return total / len(loader.dataset)
 
 
-def median_mae(model, loader, device) -> float:
-    """MAE of the median head's first-step prediction vs actual."""
+def cumulative_24h_mae(model, loader, device) -> float:
+    """
+    MAE of the 24h compounded predicted return vs actual.
+    This matches what the site displays as the accuracy score.
+    """
     model.eval()
     errs = []
     with torch.no_grad():
         for xb, yb in loader:
-            pred = model(xb.to(device))[:, 1, 0].cpu().numpy()
-            actual = yb[:, 0].numpy()
-            errs.extend(np.abs(pred - actual).tolist())
+            pred_med = model(xb.to(device))[:, 1, :].cpu().numpy()  # (batch, 24)
+            actual   = yb.cpu().numpy()                              # (batch, 24)
+            pred_cum   = (np.cumprod(1 + pred_med / 100, axis=1)[:, -1] - 1) * 100
+            actual_cum = (np.cumprod(1 + actual   / 100, axis=1)[:, -1] - 1) * 100
+            errs.extend(np.abs(pred_cum - actual_cum).tolist())
     return float(np.mean(errs))
 
 
-def fit(model, X, y, device, val_split=0.1) -> float:
-    """Train model with early stopping. Returns best val loss."""
-    n_val = max(1, int(len(X) * val_split))
-    X_tr, y_tr = X[:-n_val], y[:-n_val]
+def fit(model, X: np.ndarray, y: np.ndarray, device, val_split=0.1) -> float:
+    """Train with early stopping. Returns best val loss."""
+    n_val  = max(1, int(len(X) * val_split))
+    X_tr, y_tr   = X[:-n_val], y[:-n_val]
     X_val, y_val = X[-n_val:], y[-n_val:]
 
     tr_loader = DataLoader(
@@ -160,7 +181,7 @@ def fit(model, X, y, device, val_split=0.1) -> float:
     optimizer = Adam(model.parameters(), lr=LR, weight_decay=1e-5)
     scheduler = ReduceLROnPlateau(optimizer, patience=5, factor=0.5, verbose=False)
 
-    best_val = float("inf")
+    best_val       = float("inf")
     patience_count = 0
 
     for epoch in range(1, MAX_EPOCHS + 1):
@@ -179,7 +200,7 @@ def fit(model, X, y, device, val_split=0.1) -> float:
                 break
 
         if epoch % 10 == 0:
-            logger.info(f"Epoch {epoch:3d} | train {tr_loss:.4f} | val {val_loss:.4f}")
+            logger.info(f"  epoch {epoch:3d} | train {tr_loss:.4f} | val {val_loss:.4f}")
 
     model.load_state_dict(torch.load(BEST_WEIGHTS, map_location=device))
     BEST_WEIGHTS.unlink(missing_ok=True)
@@ -187,37 +208,82 @@ def fit(model, X, y, device, val_split=0.1) -> float:
 
 
 # ── Walk-forward CV ────────────────────────────────────────────────────────────
-def walk_forward_cv(X: np.ndarray, y: np.ndarray, device: torch.device) -> float:
-    """5-fold walk-forward CV. Returns average median MAE."""
-    n = len(X)
-    test_size  = CV_TEST_DAYS * 24
-    fold_step  = test_size // 2
-    fold_start = n - CV_FOLDS * fold_step - test_size
+def walk_forward_cv(
+    all_X: list[np.ndarray],
+    all_y: list[np.ndarray],
+    device: torch.device,
+) -> float:
+    """
+    True temporal walk-forward CV.
 
-    if fold_start <= 0:
-        logger.warning("Not enough data for walk-forward CV. Skipping.")
-        return float("nan")
+    Each coin's sequences are split independently in time so that the
+    test window is always strictly newer than the training window.
+    The scaler is re-fit on each fold's training data to prevent
+    data leakage from the validation period into normalisation.
+    """
+    test_size = CV_TEST_DAYS * 24   # 14 days × 24h = 336 sequences per fold per coin
+    fold_step = test_size // 2      # 168 — step between consecutive fold boundaries
 
     maes = []
     for fold in range(CV_FOLDS):
-        val_end   = fold_start + (fold + 1) * fold_step + test_size
-        val_start = val_end - test_size
-        X_tr, y_tr   = X[:val_start], y[:val_start]
-        X_val, y_val = X[val_start:val_end], y[val_start:val_end]
+        X_tr_parts,  y_tr_parts  = [], []
+        X_val_parts, y_val_parts = [], []
+
+        for X_coin, y_coin in zip(all_X, all_y):
+            n = len(X_coin)
+            # fold CV_FOLDS-1 = most recent window; fold 0 = oldest
+            val_end   = n - (CV_FOLDS - 1 - fold) * fold_step
+            val_start = val_end - test_size
+
+            if val_start < SEQ_LEN:
+                continue  # not enough training history for this coin/fold
+
+            X_tr_parts.append(X_coin[:val_start])
+            y_tr_parts.append(y_coin[:val_start])
+            X_val_parts.append(X_coin[val_start:val_end])
+            y_val_parts.append(y_coin[val_start:val_end])
+
+        if not X_tr_parts:
+            logger.warning(f"Fold {fold+1}/{CV_FOLDS}: no valid coins, skipping")
+            continue
+
+        X_tr  = np.concatenate(X_tr_parts,  axis=0)
+        y_tr  = np.concatenate(y_tr_parts,  axis=0)
+        X_val = np.concatenate(X_val_parts, axis=0)
+        y_val = np.concatenate(y_val_parts, axis=0)
+
+        # Fit scaler on TRAINING data only — no leakage from validation period
+        fold_scaler = StandardScaler()
+        shape_tr  = X_tr.shape
+        shape_val = X_val.shape
+        X_tr_sc  = fold_scaler.fit_transform(
+            X_tr.reshape(-1, N_FEATURES)
+        ).reshape(shape_tr).astype(np.float32)
+        X_val_sc = fold_scaler.transform(
+            X_val.reshape(-1, N_FEATURES)
+        ).reshape(shape_val).astype(np.float32)
 
         model = QuantileLSTM(N_FEATURES, HIDDEN_SIZE, NUM_LAYERS, DROPOUT, HORIZON).to(device)
-        fit(model, X_tr, y_tr, device)
+        fit(model, X_tr_sc, y_tr.astype(np.float32), device)
 
         val_loader = DataLoader(
-            TensorDataset(torch.tensor(X_val), torch.tensor(y_val)),
+            TensorDataset(torch.tensor(X_val_sc), torch.tensor(y_val.astype(np.float32))),
             batch_size=BATCH_SIZE,
         )
-        mae = median_mae(model, val_loader, device)
+        mae = cumulative_24h_mae(model, val_loader, device)
         maes.append(mae)
-        logger.info(f"CV Fold {fold+1}/{CV_FOLDS} | median MAE: {mae:.4f} index pts")
+        logger.info(
+            f"CV Fold {fold+1}/{CV_FOLDS} | "
+            f"train={len(X_tr):,}  val={len(X_val):,} | "
+            f"24h MAE: {mae:.2f}%"
+        )
+
+    if not maes:
+        logger.warning("Walk-forward CV produced no results.")
+        return float("nan")
 
     cv_mae = float(np.mean(maes))
-    logger.info(f"Walk-forward CV MAE: {cv_mae:.4f} index pts (target ≤ 2.5)")
+    logger.info(f"Walk-forward CV 24h MAE: {cv_mae:.2f}% (target ≤ 5%)")
     return cv_mae
 
 
@@ -225,7 +291,7 @@ def walk_forward_cv(X: np.ndarray, y: np.ndarray, device: torch.device) -> float
 def main():
     device = get_device()
 
-    # 1. Fetch data
+    # 1. Fetch data — build per-coin sequence arrays (order preserved for CV)
     logger.info("Fetching coin list...")
     coin_ids = fetch_coin_list(TOP_N_COINS)
 
@@ -233,39 +299,44 @@ def main():
     btc_df = fetch_hourly("bitcoin",  TRAIN_DAYS)
     eth_df = fetch_hourly("ethereum", TRAIN_DAYS)
 
-    all_X, all_y = [], []
+    all_X_per_coin: list[np.ndarray] = []
+    all_y_per_coin: list[np.ndarray] = []
+
     for coin_id in coin_ids:
         try:
             df = fetch_hourly(coin_id, TRAIN_DAYS)
             X, y = build_sequences(df, btc_df=btc_df, eth_df=eth_df, for_training=True)
             if len(X) == 0:
                 continue
-            all_X.append(X)
-            all_y.append(y)
-            logger.info(f"[{coin_id}] {len(X)} sequences")
+            all_X_per_coin.append(X)
+            all_y_per_coin.append(y)
+            logger.info(f"  [{coin_id}] {len(X)} sequences")
         except Exception as e:
-            logger.error(f"[{coin_id}] skipped: {e}")
+            logger.error(f"  [{coin_id}] skipped: {e}")
 
-    X_all = np.concatenate(all_X, axis=0)
-    y_all = np.concatenate(all_y, axis=0)
-    logger.info(f"Total sequences: {len(X_all)}")
+    if not all_X_per_coin:
+        raise RuntimeError("No training data fetched. Check API key and network.")
 
-    # 2. Normalise features (fit on training data)
-    scaler = StandardScaler()
-    shape = X_all.shape
-    X_scaled = scaler.fit_transform(X_all.reshape(-1, N_FEATURES)).reshape(shape)
-    X_scaled = X_scaled.astype(np.float32)
-
-    # 3. Walk-forward CV
+    # 2. Walk-forward CV (scaler fit per-fold inside, no global leakage)
     logger.info("Running walk-forward CV...")
-    cv_mae = walk_forward_cv(X_scaled, y_all, device)
+    cv_mae = walk_forward_cv(all_X_per_coin, all_y_per_coin, device)
 
-    # 4. Final model on all data
+    # 3. Final model: concatenate all coins, fit global scaler on full dataset
+    X_all = np.concatenate(all_X_per_coin, axis=0)
+    y_all = np.concatenate(all_y_per_coin, axis=0)
+    logger.info(f"Total sequences: {len(X_all):,}")
+
+    scaler = StandardScaler()
+    shape  = X_all.shape
+    X_scaled = scaler.fit_transform(
+        X_all.reshape(-1, N_FEATURES)
+    ).reshape(shape).astype(np.float32)
+
     logger.info("Training final model on all data...")
     model = QuantileLSTM(N_FEATURES, HIDDEN_SIZE, NUM_LAYERS, DROPOUT, HORIZON).to(device)
-    fit(model, X_scaled, y_all, device)
+    fit(model, X_scaled, y_all.astype(np.float32), device)
 
-    # 5. Save
+    # 4. Save
     torch.save({
         "model_state_dict": model.state_dict(),
         "model_config": {
@@ -276,21 +347,19 @@ def main():
             "seq_len":     SEQ_LEN,
             "horizon":     HORIZON,
         },
-        "scaler_mean":   scaler.mean_.tolist(),
-        "scaler_scale":  scaler.scale_.tolist(),
-        "feature_names": list(X_all.shape),
-        "trained_at":    datetime.now(timezone.utc).isoformat(),
-        "cv_mae":        cv_mae,
-        "version":       "lstm-1.0.0",
+        "scaler_mean":  scaler.mean_.tolist(),
+        "scaler_scale": scaler.scale_.tolist(),
+        "trained_at":   datetime.now(timezone.utc).isoformat(),
+        "cv_mae_24h":   cv_mae,
+        "version":      "lstm-2.0.0",
     }, MODEL_PATH)
     logger.info(f"Saved model to {MODEL_PATH}")
 
-    # Commit updated model
     import subprocess
     subprocess.run(["git", "add", "model.pt"], check=True)
     subprocess.run(
-        ["git", "commit", "-m", f"Update model (cv_mae={cv_mae:.3f})"],
-        check=False,  # no-op if nothing changed
+        ["git", "commit", "-m", f"Update model v2 (cv_24h_mae={cv_mae:.2f}%)"],
+        check=False,
     )
     subprocess.run(["git", "push", "origin", "main"], check=True)
     logger.info("Pushed model.pt to GitHub")

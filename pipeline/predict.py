@@ -3,7 +3,7 @@ Daily inference entry point.
 Run: python pipeline/predict.py
 
 Per-coin steps:
-  1. Fetch 10 days of hourly OHLCV (enough for SEQ_LEN lookback + 7-day backtest)
+  1. Fetch 14 days of hourly OHLCV (SEQ_LEN=96h lookback + 7-day backtest + buffer)
   2. Build 8 inference windows: 7 backtest (24h each) + 1 future (24h)
   3. Batch forward pass → q10/med/q90 per window
   4. Construct CoinPrediction series + signal
@@ -42,9 +42,9 @@ LOCK_PATH  = REPO_ROOT / "predict.lock"
 LOG_DIR    = REPO_ROOT / "logs"
 
 TOP_N_COINS      = 50
-FETCH_DAYS       = 10   # SEQ_LEN=48h lookback + 7-day display + buffer
+FETCH_DAYS       = 14   # SEQ_LEN=96h lookback + 7-day display + buffer → need ~264h = 11 days
 BACKTEST_WINDOWS = 7    # one 24h window per display day
-MIN_RAW_ROWS     = SEQ_LEN + BACKTEST_WINDOWS * HORIZON  # 48 + 168 = 216
+MIN_RAW_ROWS     = SEQ_LEN + BACKTEST_WINDOWS * HORIZON  # 96 + 168 = 264
 MIN_COINS        = 10
 MAX_IMPLAUSIBLE  = 50.0  # % — flag if any 24h prediction exceeds this
 
@@ -132,10 +132,10 @@ def _load_model(device: torch.device):
     scaler.n_features_in_  = N_FEATURES
     scaler.feature_names_in_ = None
 
-    cv_mae = ckpt.get("cv_mae")
+    cv_mae = ckpt.get("cv_mae_24h") or ckpt.get("cv_mae")
     logger.info(
         f"Loaded model — trained_at={ckpt.get('trained_at')}, "
-        f"cv_mae={cv_mae}, version={ckpt.get('version')}"
+        f"cv_24h_mae={cv_mae}, version={ckpt.get('version')}"
     )
     return model, scaler, cv_mae
 
@@ -147,7 +147,6 @@ def _infer_coin(
     df,           # full raw DataFrame (≥ MIN_RAW_ROWS rows)
     btc_df,
     eth_df,
-    global_market: dict,
     model,
     scaler,
     device: torch.device,
@@ -156,7 +155,7 @@ def _infer_coin(
     """
     Returns a dict ready for write_predictions, or None on failure.
     """
-    prices    = df["price"].values
+    prices     = df["price"].values
     timestamps = df["timestamp"].tolist()
 
     n = len(prices)
@@ -165,12 +164,12 @@ def _infer_coin(
         return None
 
     # Use the last MIN_RAW_ROWS rows
-    prices    = prices[-MIN_RAW_ROWS:]
+    prices     = prices[-MIN_RAW_ROWS:]
     timestamps = timestamps[-MIN_RAW_ROWS:]
 
-    # Feature matrix for the entire window
-    sub_df = df.iloc[-MIN_RAW_ROWS:].copy()
-    feat_matrix = build_feature_df(sub_df, btc_df, eth_df, global_market).values.astype("float32")
+    # Feature matrix for the entire window (global_market removed from model features)
+    sub_df      = df.iloc[-MIN_RAW_ROWS:].copy()
+    feat_matrix = build_feature_df(sub_df, btc_df, eth_df).values.astype("float32")
     feat_matrix = np.nan_to_num(feat_matrix, nan=0.0, posinf=0.0, neginf=0.0)
 
     # Build 8 inference windows: 7 backtest + 1 future
@@ -291,7 +290,7 @@ def run_inference() -> None:
             df = fetch_hourly(coin_id, FETCH_DAYS)
 
             inferred = _infer_coin(
-                coin_id, df, btc_df, eth_df, global_market,
+                coin_id, df, btc_df, eth_df,
                 model, scaler, device, generated_at,
             )
             if inferred is None:
