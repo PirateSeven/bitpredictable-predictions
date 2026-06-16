@@ -1,9 +1,11 @@
-"""CoinGecko hourly price data fetching with retry and rate limiting."""
+"""CoinGecko hourly price data fetching with retry, rate limiting, and disk cache."""
 
 import logging
 import os
+import pickle
 import random
 import time
+from pathlib import Path
 from typing import Dict, List
 
 import pandas as pd
@@ -16,6 +18,13 @@ COINGECKO_API_BASE = "https://api.coingecko.com/api/v3"
 COINGECKO_API_KEY = os.getenv("COINGECKO_API_KEY")
 SLEEP_BETWEEN_CALLS = 2.1  # Demo key: 30 req/min
 MAX_RETRIES = 3
+
+_CACHE_DIR = Path(__file__).resolve().parent.parent / "cache"
+_CACHE_TTL_HOURS = 6  # reuse cached data if fetched within the last 6 hours
+
+
+def _cache_ok(path: Path) -> bool:
+    return path.exists() and (time.time() - path.stat().st_mtime) < _CACHE_TTL_HOURS * 3600
 
 logger = logging.getLogger(__name__)
 
@@ -62,6 +71,13 @@ def _fetch_with_retry(url: str, params: dict) -> dict:
 
 def fetch_coin_list(n: int = 50) -> List[str]:
     """Return top-N coin IDs ordered by market cap."""
+    cache = _CACHE_DIR / f"coin_list_{n}.pkl"
+    if _cache_ok(cache):
+        with open(str(cache), "rb") as f:
+            ids = pickle.load(f)
+        logger.info(f"Coin list loaded from cache: {len(ids)} coins")
+        return ids
+
     data = _fetch_with_retry(
         f"{COINGECKO_API_BASE}/coins/markets",
         params={
@@ -72,6 +88,9 @@ def fetch_coin_list(n: int = 50) -> List[str]:
         },
     )
     ids = [coin["id"] for coin in data]
+    _CACHE_DIR.mkdir(exist_ok=True)
+    with open(str(cache), "wb") as f:
+        pickle.dump(ids, f)
     logger.info(f"Fetched coin list: {len(ids)} coins")
     return ids
 
@@ -81,7 +100,14 @@ def fetch_hourly(coin_id: str, days: int) -> pd.DataFrame:
     Fetch hourly OHLCV data for a coin.
     Returns DataFrame with columns: [timestamp (UTC), price, volume].
     Gaps are forward/backward filled so the index is always hourly.
+    Cached to disk for _CACHE_TTL_HOURS to avoid redundant API calls on retry.
     """
+    cache = _CACHE_DIR / f"{coin_id}_{days}d.pkl"
+    if _cache_ok(cache):
+        df = pd.read_pickle(str(cache))
+        logger.debug(f"[{coin_id}] loaded from cache ({len(df)} rows)")
+        return df
+
     data = _fetch_with_retry(
         f"{COINGECKO_API_BASE}/coins/{coin_id}/market_chart",
         params={"vs_currency": "usd", "days": days, "interval": "hourly"},
@@ -96,6 +122,8 @@ def fetch_hourly(coin_id: str, days: int) -> pd.DataFrame:
     df = df.drop(columns=["ts_ms"])
 
     df = _fill_gaps(df)
+    _CACHE_DIR.mkdir(exist_ok=True)
+    df.to_pickle(str(cache))
     logger.debug(f"[{coin_id}] fetched {len(df)} hourly rows")
     return df
 
