@@ -10,7 +10,6 @@ Series format:
   next 24 h    — actualIndex=null + predictedIndex (forecast)
 """
 
-from __future__ import annotations
 
 import json
 import logging

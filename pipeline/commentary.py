@@ -7,7 +7,6 @@ Fallback: Rule-based templates (no API key needed)
 Each result includes a `sources` list for frontend citations.
 """
 
-from __future__ import annotations
 
 import logging
 import os

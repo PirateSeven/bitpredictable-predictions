@@ -8,7 +8,6 @@ Sources (all free, no additional API key needed except CoinGecko key you already
   - CoinDesk / CoinTelegraph RSS feeds (no key needed)
 """
 
-from __future__ import annotations
 
 import logging
 import time
