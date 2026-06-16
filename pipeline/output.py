@@ -61,37 +61,35 @@ def write_predictions(
 # ── Series helpers ─────────────────────────────────────────────────────────────
 
 def build_series(
-    actual_prices: List[float],       # 168 hourly prices (7 days display window)
-    actual_times: List[str],          # ISO timestamps for those 168 hours
-    backtest_preds: List[List[float]], # 7 × 24 predicted hourly % returns (from 7 backtest windows)
-    future_preds: List[float],        # 24 predicted hourly % returns (future window)
-    future_times: List[str],          # ISO timestamps for the next 24 hours
+    actual_prices: List[float],          # 168 hourly prices (7 days display window)
+    actual_times: List[str],             # ISO timestamps for those 168 hours
+    backtest_returns_1h: List[float],    # 168 rolling 1h-ahead % return predictions
+    future_preds: List[float],           # 24 predicted hourly % returns (future window)
+    future_times: List[str],             # ISO timestamps for the next 24 hours
 ) -> List[Dict]:
     """
     Build a 192-point series (168 actual + 24 future).
     All indexes are normalised so that actual_prices[0] = 100.
+
+    Backtest method: rolling 1h-ahead — each predictedIndex[h] is anchored
+    to the previous actual price, avoiding sawtooth resets and error accumulation.
     """
     base_price = actual_prices[0] if actual_prices[0] != 0 else 1.0
-
     series = []
 
-    # ── Historical 168 hours ──────────────────────────────────────────────────
-    for day in range(7):
-        # Ground the predicted block to the actual index at the start of this 24h chunk
-        anchor_actual = (actual_prices[day * 24] / base_price) * 100
-        preds_24h = backtest_preds[day]  # 24 hourly % returns
-
-        # compound starts at anchor; apply each return AFTER recording the current hour
-        # so predictedIndex[h] aligns with actualIndex[h] at the same timestamp
-        compound = anchor_actual
-        for h in range(24):
-            idx_actual = (actual_prices[day * 24 + h] / base_price) * 100
-            series.append({
-                "time":           actual_times[day * 24 + h],
-                "actualIndex":    round(idx_actual, 4),
-                "predictedIndex": round(compound, 4),
-            })
-            compound *= 1 + preds_24h[h] / 100
+    # ── Historical 168 hours (rolling 1h-ahead) ───────────────────────────────
+    for h in range(len(actual_prices)):
+        idx_actual = (actual_prices[h] / base_price) * 100
+        if h == 0:
+            pred_idx = idx_actual  # anchor start to actual
+        else:
+            prev_actual = (actual_prices[h - 1] / base_price) * 100
+            pred_idx = prev_actual * (1 + backtest_returns_1h[h] / 100)
+        series.append({
+            "time":           actual_times[h],
+            "actualIndex":    round(idx_actual, 4),
+            "predictedIndex": round(pred_idx, 4),
+        })
 
     # ── Future 24 hours ────────────────────────────────────────────────────────
     last_actual_idx = (actual_prices[-1] / base_price) * 100

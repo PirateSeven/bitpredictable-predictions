@@ -177,27 +177,29 @@ def _infer_coin(
     feat_matrix = build_feature_df(sub_df, btc_df, eth_df).values.astype("float32")
     feat_matrix = np.where(np.isfinite(feat_matrix), feat_matrix, 0.0)
 
-    # Build 8 inference windows: 7 backtest + 1 future
-    # Window j covers feat_matrix[j*24 : j*24+SEQ_LEN] for j=0..6
-    # Future window: feat_matrix[-SEQ_LEN:]
+    # Build 169 inference windows:
+    #   168 rolling 1h windows for backtest (feat_matrix[h : h+SEQ_LEN], h=0..167)
+    #   1 future window (feat_matrix[-SEQ_LEN:])
+    # Using 1h-ahead predictions avoids sawtooth resets and error accumulation.
+    N_BACKTEST = BACKTEST_WINDOWS * HORIZON  # 168
     windows = []
-    for j in range(BACKTEST_WINDOWS):
-        windows.append(feat_matrix[j * HORIZON : j * HORIZON + SEQ_LEN])
+    for h in range(N_BACKTEST):
+        windows.append(feat_matrix[h : h + SEQ_LEN])
     windows.append(feat_matrix[-SEQ_LEN:])  # future
 
-    X_batch  = np.stack(windows)  # (8, SEQ_LEN, N_FEATURES)
+    X_batch  = np.stack(windows)  # (169, SEQ_LEN, N_FEATURES)
     X_scaled = scaler.transform(X_batch.reshape(-1, N_FEATURES)).reshape(
         len(windows), SEQ_LEN, N_FEATURES
     ).astype("float32")
 
     with torch.no_grad():
-        out = model(torch.tensor(X_scaled).to(device)).cpu().numpy()  # (8, 3, HORIZON)
+        out = model(torch.tensor(X_scaled).to(device)).cpu().numpy()  # (169, 3, HORIZON)
 
-    # out[j, 0, :] = q10, [j, 1, :] = med, [j, 2, :] = q90
-    backtest_preds = [out[j, 1, :].tolist() for j in range(BACKTEST_WINDOWS)]
-    future_med     = out[BACKTEST_WINDOWS, 1, :].tolist()
-    future_q10     = out[BACKTEST_WINDOWS, 0, :].tolist()
-    future_q90     = out[BACKTEST_WINDOWS, 2, :].tolist()
+    # Take only the 1h-ahead prediction (index 0) from each rolling backtest window
+    backtest_returns_1h = [float(out[h, 1, 0]) for h in range(N_BACKTEST)]
+    future_med = out[N_BACKTEST, 1, :].tolist()
+    future_q10 = out[N_BACKTEST, 0, :].tolist()
+    future_q90 = out[N_BACKTEST, 2, :].tolist()
 
     # Enforce monotonicity at inference time
     future_q10 = [min(a, b) for a, b in zip(future_q10, future_med)]
@@ -217,7 +219,7 @@ def _infer_coin(
     series = build_series(
         actual_prices=display_prices,
         actual_times=display_times,
-        backtest_preds=backtest_preds,
+        backtest_returns_1h=backtest_returns_1h,
         future_preds=future_med,
         future_times=future_times,
     )
