@@ -434,14 +434,23 @@ def main():
     }, MODEL_PATH)
     logger.info(f"Saved model to {MODEL_PATH}")
 
+    # Free model from RAM before forking git subprocess (Jetson 4GB unified memory)
+    del model, scaler
+    gc.collect()
+    torch.cuda.empty_cache()
+
     import subprocess
-    subprocess.run(["git", "add", "model.pt"], check=True)
-    subprocess.run(
-        ["git", "commit", "-m", f"Update model v2 (cv_24h_mae={cv_mae:.2f}%)"],
-        check=False,
-    )
-    subprocess.run(["git", "push", "origin", "main"], check=True)
-    logger.info("Pushed model.pt to GitHub")
+    try:
+        subprocess.run(["git", "add", "model.pt"], check=True)
+        subprocess.run(
+            ["git", "commit", "-m", "Update model v2 (cv_24h_mae={:.2f}%)".format(cv_mae)],
+            check=False,
+        )
+        subprocess.run(["git", "push", "origin", "main"], check=True)
+        logger.info("Pushed model.pt to GitHub")
+    except OSError as e:
+        logger.warning("git push skipped (insufficient memory to fork): %s", e)
+        logger.info("model.pt is saved locally — run 'git add model.pt && git push' manually.")
 
 
 if __name__ == "__main__":

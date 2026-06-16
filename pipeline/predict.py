@@ -36,6 +36,7 @@ from pipeline.features import N_FEATURES, SEQ_LEN, HORIZON, build_sequences, bui
 from pipeline.news import fetch_fear_greed, fetch_global_market, fetch_coin_sentiment, fetch_market_headlines
 from pipeline.commentary import generate_commentary
 from pipeline.output import write_predictions, build_series, compute_signal
+from pipeline.bias import reconcile_and_update_bias, apply_bias, log_predictions
 
 # ── Paths ──────────────────────────────────────────────────────────────────────
 REPO_ROOT  = Path(__file__).resolve().parent.parent
@@ -291,11 +292,13 @@ def run_inference() -> None:
     eth_df = fetch_hourly("ethereum", FETCH_DAYS)
 
     results = []
+    current_prices = {}  # type: Dict[str, float]
     coin_bar = tqdm(coin_ids, desc="Inferring coins", unit="coin", dynamic_ncols=True)
     for coin_id in coin_bar:
         coin_bar.set_postfix(coin=coin_id, ok=len(results))
         try:
             df = fetch_hourly(coin_id, FETCH_DAYS)
+            current_prices[coin_id] = float(df["price"].values[-1])
 
             inferred = _infer_coin(
                 coin_id, df, btc_df, eth_df,
@@ -345,12 +348,20 @@ def run_inference() -> None:
             f"Only {len(results)} coins succeeded (minimum {MIN_COINS}). Aborting push."
         )
 
+    # Reconcile yesterday's predictions against today's prices → update bias
+    # Then apply the updated bias to today's results before writing
+    bias = reconcile_and_update_bias(current_prices)
+    apply_bias(results, bias)
+
     _sanity_check(results)
 
     # Enrich coin_id → name / symbol from CoinGecko markets
     _enrich_metadata(results, coin_ids)
 
     write_predictions(results, generated_at_iso=generated_at.isoformat().replace("+00:00", "Z"))
+
+    # Log today's (bias-corrected) predictions for tomorrow's reconciliation
+    log_predictions(results, current_prices)
     logger.info(f"Done — {len(results)} predictions pushed.")
 
 
