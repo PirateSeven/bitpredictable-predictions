@@ -5,7 +5,7 @@ Output shape: X (N, SEQ_LEN, N_FEATURES), y (N, HORIZON)
 
 import numpy as np
 import pandas as pd
-import pandas_ta as ta
+import ta as _ta
 
 SEQ_LEN = 96    # hours of lookback (4 days — captures weekly patterns better)
 HORIZON = 24    # hours to predict ahead
@@ -41,12 +41,12 @@ def _price_features(prices: pd.Series) -> pd.DataFrame:
     ema12 = p.ewm(span=12, adjust=False).mean()
     ema26 = p.ewm(span=26, adjust=False).mean()
 
-    rsi = ta.rsi(p, length=14)
+    rsi = _ta.momentum.RSIIndicator(close=p, window=14).rsi()
 
-    bb = ta.bbands(p, length=20, std=2)
-    bb_upper = bb["BBU_20_2.0"]
-    bb_lower = bb["BBL_20_2.0"]
-    bb_mid   = bb["BBM_20_2.0"]
+    _bb = _ta.volatility.BollingerBands(close=p, window=20, window_dev=2)
+    bb_upper = _bb.bollinger_hband()
+    bb_lower = _bb.bollinger_lband()
+    bb_mid   = _bb.bollinger_mavg()
     bb_width = (bb_upper - bb_lower) / bb_mid.replace(0, np.nan)
     bb_pct_b = (p - bb_lower) / (bb_upper - bb_lower).replace(0, np.nan)
 
