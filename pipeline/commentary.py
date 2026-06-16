@@ -1,7 +1,7 @@
 """
 Bilingual (EN/JA) prediction commentary with cited sources.
 
-Primary:  Gemini API (free tier — set GEMINI_API_KEY in .env)
+Primary:  Groq API (free tier — set GROQ_API_KEY in .env)
 Fallback: Rule-based templates (no API key needed)
 
 Each result includes a `sources` list for frontend citations.
@@ -17,7 +17,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
+GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 
 logger = logging.getLogger(__name__)
 
@@ -28,10 +28,8 @@ CommentaryResult = Dict[str, Any]
 #   "sources": [{"label": str, "value": str, "url": str | None}]
 # }
 
-_GEMINI_URL = (
-    "https://generativelanguage.googleapis.com/v1beta"
-    "/models/gemini-2.0-flash:generateContent"
-)
+_GROQ_URL   = "https://api.groq.com/openai/v1/chat/completions"
+_GROQ_MODEL = "llama-3.1-8b-instant"  # free tier: 14,400 RPD / 30 RPM
 
 
 def generate_commentary(
@@ -53,12 +51,12 @@ def generate_commentary(
     )
     sources = _build_sources(ctx, coin_id, fear_greed, global_market, coin_sentiment, news_headlines)
 
-    if GEMINI_API_KEY:
+    if GROQ_API_KEY:
         try:
-            en, ja = _gemini_commentary(ctx, news_headlines or [])
+            en, ja = _groq_commentary(ctx, news_headlines or [])
             return {"en": en, "ja": ja, "sources": sources}
         except Exception as e:
-            logger.warning(f"[commentary] Gemini API failed for {coin_id}: {e}")
+            logger.warning("[commentary] Groq API failed for %s: %s", coin_id, e)
 
     return {
         "en":      _compose_en(ctx),
@@ -67,9 +65,9 @@ def generate_commentary(
     }
 
 
-# ── Gemini ─────────────────────────────────────────────────────────────────────
+# ── Groq ───────────────────────────────────────────────────────────────────────
 
-def _gemini_commentary(ctx: dict, headlines: list) -> Tuple[str, str]:
+def _groq_commentary(ctx: dict, headlines: list) -> Tuple[str, str]:
     headlines_text = (
         "\n".join("  - {} ({})".format(h["title"], h.get("source", "")) for h in headlines[:5])
         if headlines else "  (no recent headlines)"
@@ -120,18 +118,25 @@ def _gemini_commentary(ctx: dict, headlines: list) -> Tuple[str, str]:
     )
 
     resp = _requests.post(
-        _GEMINI_URL,
-        params={"key": GEMINI_API_KEY},
-        json={"contents": [{"parts": [{"text": prompt}]}]},
+        _GROQ_URL,
+        headers={
+            "Authorization": "Bearer {}".format(GROQ_API_KEY),
+            "Content-Type": "application/json",
+        },
+        json={
+            "model":       _GROQ_MODEL,
+            "messages":    [{"role": "user", "content": prompt}],
+            "max_tokens":  400,
+            "temperature": 0.3,
+        },
         timeout=30,
     )
     if not resp.ok:
-        # Raise without the URL (which contains the API key) in the message
         raise _requests.HTTPError(
-            "{} {} Error: {}".format(resp.status_code, "Client" if resp.status_code < 500 else "Server", resp.reason),
+            "{} Error: {}".format(resp.status_code, resp.reason),
             response=resp,
         )
-    text = resp.json()["candidates"][0]["content"]["parts"][0]["text"]
+    text = resp.json()["choices"][0]["message"]["content"]
     return _parse_bilingual(text)
 
 
