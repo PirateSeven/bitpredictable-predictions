@@ -96,6 +96,7 @@ def _market_signal_features(
     index: pd.DatetimeIndex,
     btc_df: pd.DataFrame | None,
     eth_df: pd.DataFrame | None,
+    global_market: dict | None = None,
 ) -> pd.DataFrame:
     def _ret(df, n):
         if df is None:
@@ -103,14 +104,15 @@ def _market_signal_features(
         s = df.set_index("timestamp")["price"].reindex(index)
         return s.pct_change(n) * 100
 
+    gm = global_market or {}
     return pd.DataFrame({
         "btc_ret_1h":           _ret(btc_df, 1),
         "btc_ret_6h":           _ret(btc_df, 6),
         "btc_ret_24h":          _ret(btc_df, 24),
         "eth_ret_1h":           _ret(eth_df, 1),
         "eth_ret_24h":          _ret(eth_df, 24),
-        "btc_dominance_delta":  0.0,
-        "total_mcap_ret_24h":   0.0,
+        "btc_dominance_delta":  gm.get("btc_dominance_delta", 0.0),
+        "total_mcap_ret_24h":   gm.get("total_mcap_ret_24h", 0.0),
     }, index=index)
 
 
@@ -118,6 +120,7 @@ def build_feature_df(
     df: pd.DataFrame,
     btc_df: pd.DataFrame | None = None,
     eth_df: pd.DataFrame | None = None,
+    global_market: dict | None = None,
 ) -> pd.DataFrame:
     """
     Compute all 25 features for every row of df.
@@ -131,7 +134,7 @@ def build_feature_df(
         _price_features(prices),
         _volume_features(volumes),
         _time_features(idx),
-        _market_signal_features(idx, btc_df, eth_df),
+        _market_signal_features(idx, btc_df, eth_df, global_market),
     ], axis=1)[FEATURE_NAMES]
 
     return feat
@@ -141,6 +144,7 @@ def build_sequences(
     df: pd.DataFrame,
     btc_df: pd.DataFrame | None = None,
     eth_df: pd.DataFrame | None = None,
+    global_market: dict | None = None,
     seq_len: int = SEQ_LEN,
     horizon: int = HORIZON,
     for_training: bool = True,
@@ -157,7 +161,7 @@ def build_sequences(
       Returns X only: (N, seq_len, N_FEATURES)
       N = len(df) - seq_len + 1  (one sequence ending at each available time)
     """
-    feat = build_feature_df(df, btc_df, eth_df).values.astype(np.float32)
+    feat = build_feature_df(df, btc_df, eth_df, global_market).values.astype(np.float32)
     prices = df["price"].values
 
     feat = np.nan_to_num(feat, nan=0.0, posinf=0.0, neginf=0.0)

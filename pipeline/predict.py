@@ -1,19 +1,28 @@
 """
-Daily prediction entry point.
-Run via cron: python pipeline/predict.py
+Daily inference entry point.
+Run: python pipeline/predict.py
 
-Features:
-  - Lock file prevents duplicate execution
+Per-coin steps:
+  1. Fetch 10 days of hourly OHLCV (enough for SEQ_LEN lookback + 7-day backtest)
+  2. Build 8 inference windows: 7 backtest (24h each) + 1 future (24h)
+  3. Batch forward pass → q10/med/q90 per window
+  4. Construct CoinPrediction series + signal
+  5. Generate bilingual commentary (Gemini → rule-based fallback)
+  6. Write predictions/{coinId}.json + index.json + git push
+
+Safety:
+  - Lock file prevents concurrent execution
   - Cold start: trains model if model.pt is missing
-  - Sanity checks on output before pushing
-  - Full logging to logs/predict-YYYYMMDD.log
+  - Sanity checks before pushing
 """
+
+from __future__ import annotations
 
 import fcntl
 import logging
 import os
 import sys
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 import numpy as np
@@ -21,8 +30,10 @@ import torch
 from sklearn.preprocessing import StandardScaler
 
 from pipeline.fetch import fetch_coin_list, fetch_hourly
-from pipeline.features import N_FEATURES, SEQ_LEN, HORIZON, build_sequences
-from pipeline.output import write_predictions
+from pipeline.features import N_FEATURES, SEQ_LEN, HORIZON, build_sequences, build_feature_df
+from pipeline.news import fetch_fear_greed, fetch_global_market, fetch_coin_sentiment, fetch_market_headlines
+from pipeline.commentary import generate_commentary
+from pipeline.output import write_predictions, build_series, compute_signal
 
 # ── Paths ──────────────────────────────────────────────────────────────────────
 REPO_ROOT  = Path(__file__).resolve().parent.parent
@@ -30,45 +41,39 @@ MODEL_PATH = REPO_ROOT / "model.pt"
 LOCK_PATH  = REPO_ROOT / "predict.lock"
 LOG_DIR    = REPO_ROOT / "logs"
 
-TOP_N_COINS = 50
-FETCH_DAYS  = 7    # only need recent data for inference (SEQ_LEN=48h)
+TOP_N_COINS      = 50
+FETCH_DAYS       = 10   # SEQ_LEN=48h lookback + 7-day display + buffer
+BACKTEST_WINDOWS = 7    # one 24h window per display day
+MIN_RAW_ROWS     = SEQ_LEN + BACKTEST_WINDOWS * HORIZON  # 48 + 168 = 216
+MIN_COINS        = 10
+MAX_IMPLAUSIBLE  = 50.0  # % — flag if any 24h prediction exceeds this
 
-# Sanity thresholds
-MAX_VALID_RETURN_PCT   = 50.0   # flag if any coin's 24h median pred > 50%
-MIN_COINS_REQUIRED     = 10     # fail if fewer than this many succeed
 
+# ── Logging ────────────────────────────────────────────────────────────────────
 
-# ── Logging setup ──────────────────────────────────────────────────────────────
 def _setup_logging() -> None:
     LOG_DIR.mkdir(exist_ok=True)
     date_str = datetime.now(timezone.utc).strftime("%Y%m%d")
-    log_file = LOG_DIR / f"predict-{date_str}.log"
-
     fmt = logging.Formatter("%(asctime)s %(levelname)s %(message)s")
     root = logging.getLogger()
     root.setLevel(logging.INFO)
-
-    fh = logging.FileHandler(log_file, encoding="utf-8")
-    fh.setFormatter(fmt)
-    root.addHandler(fh)
-
-    sh = logging.StreamHandler(sys.stdout)
-    sh.setFormatter(fmt)
-    root.addHandler(sh)
-
-    logging.info(f"Log file: {log_file}")
+    for h in [
+        logging.FileHandler(LOG_DIR / f"predict-{date_str}.log", encoding="utf-8"),
+        logging.StreamHandler(sys.stdout),
+    ]:
+        h.setFormatter(fmt)
+        root.addHandler(h)
 
 
 logger = logging.getLogger(__name__)
 
 
 # ── Lock file ──────────────────────────────────────────────────────────────────
-class SingleInstance:
-    """Unix advisory lock: raises RuntimeError if another process is running."""
 
-    def __init__(self, lock_path: Path):
-        self._path = lock_path
-        self._fh = None
+class SingleInstance:
+    def __init__(self, path: Path):
+        self._path = path
+        self._fh   = None
 
     def __enter__(self):
         self._fh = open(self._path, "w")
@@ -77,8 +82,7 @@ class SingleInstance:
         except BlockingIOError:
             self._fh.close()
             raise RuntimeError(
-                f"Another predict.py is already running. "
-                f"Remove {self._path} manually if it's stale."
+                f"Another predict.py is already running. Remove {self._path} if stale."
             )
         self._fh.write(str(os.getpid()))
         self._fh.flush()
@@ -91,7 +95,8 @@ class SingleInstance:
         self._path.unlink(missing_ok=True)
 
 
-# ── Model loading ──────────────────────────────────────────────────────────────
+# ── Device + model loading ─────────────────────────────────────────────────────
+
 def _get_device() -> torch.device:
     if torch.cuda.is_available():
         return torch.device("cuda")
@@ -104,78 +109,179 @@ def _load_model(device: torch.device):
     from pipeline.train import QuantileLSTM
 
     if not MODEL_PATH.exists():
-        logger.warning("model.pt not found — running cold start training...")
-        _cold_start()
+        logger.warning("model.pt not found — cold start training...")
+        from pipeline.train import main as train_main
+        train_main()
 
-    checkpoint = torch.load(MODEL_PATH, map_location=device)
-    cfg = checkpoint["model_config"]
+    ckpt = torch.load(MODEL_PATH, map_location=device)
+    cfg  = ckpt["model_config"]
+
     model = QuantileLSTM(
         input_size=cfg["input_size"],
         hidden_size=cfg["hidden_size"],
         num_layers=cfg["num_layers"],
-        dropout=0.0,        # disable dropout at inference
+        dropout=0.0,
         horizon=cfg["horizon"],
     ).to(device)
-    model.load_state_dict(checkpoint["model_state_dict"])
+    model.load_state_dict(ckpt["model_state_dict"])
     model.eval()
 
     scaler = StandardScaler()
-    scaler.mean_  = np.array(checkpoint["scaler_mean"])
-    scaler.scale_ = np.array(checkpoint["scaler_scale"])
-    scaler.n_features_in_ = N_FEATURES
+    scaler.mean_           = np.array(ckpt["scaler_mean"])
+    scaler.scale_          = np.array(ckpt["scaler_scale"])
+    scaler.n_features_in_  = N_FEATURES
     scaler.feature_names_in_ = None
 
-    cv_mae = checkpoint.get("cv_mae")
+    cv_mae = ckpt.get("cv_mae")
     logger.info(
-        f"Loaded model (trained_at={checkpoint.get('trained_at')}, "
-        f"cv_mae={cv_mae}, version={checkpoint.get('version')})"
+        f"Loaded model — trained_at={ckpt.get('trained_at')}, "
+        f"cv_mae={cv_mae}, version={ckpt.get('version')}"
     )
     return model, scaler, cv_mae
 
 
-def _cold_start() -> None:
-    """Train model from scratch when model.pt is missing."""
-    logger.info("=== Cold start: training LSTM ===")
-    from pipeline.train import main as train_main
-    train_main()
+# ── Inference for one coin ─────────────────────────────────────────────────────
+
+def _infer_coin(
+    coin_id: str,
+    df,           # full raw DataFrame (≥ MIN_RAW_ROWS rows)
+    btc_df,
+    eth_df,
+    global_market: dict,
+    model,
+    scaler,
+    device: torch.device,
+    generated_at: datetime,
+) -> dict | None:
+    """
+    Returns a dict ready for write_predictions, or None on failure.
+    """
+    prices    = df["price"].values
+    timestamps = df["timestamp"].tolist()
+
+    n = len(prices)
+    if n < MIN_RAW_ROWS:
+        logger.warning(f"[{coin_id}] only {n} rows, need {MIN_RAW_ROWS} — skipping")
+        return None
+
+    # Use the last MIN_RAW_ROWS rows
+    prices    = prices[-MIN_RAW_ROWS:]
+    timestamps = timestamps[-MIN_RAW_ROWS:]
+
+    # Feature matrix for the entire window
+    sub_df = df.iloc[-MIN_RAW_ROWS:].copy()
+    feat_matrix = build_feature_df(sub_df, btc_df, eth_df, global_market).values.astype("float32")
+    feat_matrix = np.nan_to_num(feat_matrix, nan=0.0, posinf=0.0, neginf=0.0)
+
+    # Build 8 inference windows: 7 backtest + 1 future
+    # Window j covers feat_matrix[j*24 : j*24+SEQ_LEN] for j=0..6
+    # Future window: feat_matrix[-SEQ_LEN:]
+    windows = []
+    for j in range(BACKTEST_WINDOWS):
+        windows.append(feat_matrix[j * HORIZON : j * HORIZON + SEQ_LEN])
+    windows.append(feat_matrix[-SEQ_LEN:])  # future
+
+    X_batch  = np.stack(windows)  # (8, SEQ_LEN, N_FEATURES)
+    X_scaled = scaler.transform(X_batch.reshape(-1, N_FEATURES)).reshape(
+        len(windows), SEQ_LEN, N_FEATURES
+    ).astype("float32")
+
+    with torch.no_grad():
+        out = model(torch.tensor(X_scaled).to(device)).cpu().numpy()  # (8, 3, HORIZON)
+
+    # out[j, 0, :] = q10, [j, 1, :] = med, [j, 2, :] = q90
+    backtest_preds = [out[j, 1, :].tolist() for j in range(BACKTEST_WINDOWS)]
+    future_med     = out[BACKTEST_WINDOWS, 1, :].tolist()
+    future_q10     = out[BACKTEST_WINDOWS, 0, :].tolist()
+    future_q90     = out[BACKTEST_WINDOWS, 2, :].tolist()
+
+    # Enforce monotonicity at inference time
+    future_q10 = [min(a, b) for a, b in zip(future_q10, future_med)]
+    future_q90 = [max(a, b) for a, b in zip(future_med, future_q90)]
+
+    # Display window: last 168 actual prices (= SEQ_LEN + 7*24 - SEQ_LEN ... wait:
+    # prices[-MIN_RAW_ROWS:] = prices[0:216], the DISPLAY part is prices[SEQ_LEN:]
+    display_prices = list(prices[SEQ_LEN:])           # 168 prices
+    display_times  = [
+        _iso(ts) for ts in timestamps[SEQ_LEN:]       # 168 ISO timestamps
+    ]
+
+    # Future timestamps
+    last_ts = timestamps[-1]
+    future_times = [_iso_offset(last_ts, h + 1) for h in range(HORIZON)]
+
+    series = build_series(
+        actual_prices=display_prices,
+        actual_times=display_times,
+        backtest_preds=backtest_preds,
+        future_preds=future_med,
+        future_times=future_times,
+    )
+    signal = compute_signal(series, future_q10, future_q90)
+
+    # Last feature vector (for commentary)
+    last_feat_row = feat_matrix[-1]
+    from pipeline.features import FEATURE_NAMES
+    last_features = dict(zip(FEATURE_NAMES, last_feat_row.tolist()))
+
+    return {
+        "prices":       display_prices,
+        "series":       series,
+        "signal":       signal,
+        "last_features": last_features,
+        "future_q10":   future_q10,
+        "future_q90":   future_q90,
+    }
 
 
-# ── Sanity checks ──────────────────────────────────────────────────────────────
+def _iso(ts) -> str:
+    if hasattr(ts, "isoformat"):
+        return ts.isoformat().replace("+00:00", "Z")
+    return str(ts)
+
+
+def _iso_offset(ts, hours: int) -> str:
+    from pandas import Timestamp
+    base = Timestamp(ts) if not hasattr(ts, "hour") else ts
+    return (base + timedelta(hours=hours)).isoformat().replace("+00:00", "Z")
+
+
+# ── Sanity check ───────────────────────────────────────────────────────────────
+
 def _sanity_check(results: list[dict]) -> None:
-    issues = []
     for r in results:
-        med = r["predicted_returns"]["med"]
-        cumret = sum(med)
-        if abs(cumret) > MAX_VALID_RETURN_PCT:
-            issues.append(
-                f"[{r['coin_id']}] implausibly large prediction: {cumret:.1f}%"
+        chg = r["signal"]["changePercent24h"]
+        if abs(chg) > MAX_IMPLAUSIBLE:
+            logger.warning(
+                f"[{r['coin_id']}] implausibly large prediction: {chg:+.1f}% — clamping"
             )
-        q10 = r["predicted_returns"]["q10"]
-        q90 = r["predicted_returns"]["q90"]
-        violations = sum(1 for a, b in zip(q10, q90) if a > b)
-        if violations > 0:
-            issues.append(
-                f"[{r['coin_id']}] {violations} q10>q90 monotonicity violations"
-            )
-
-    if issues:
-        for issue in issues:
-            logger.warning(f"Sanity: {issue}")
-    else:
-        logger.info("Sanity checks passed.")
+            r["signal"]["changePercent24h"] = max(-MAX_IMPLAUSIBLE, min(MAX_IMPLAUSIBLE, chg))
+            r["signal"]["confidence"] = min(r["signal"]["confidence"], 0.4)
 
 
-# ── Main inference ─────────────────────────────────────────────────────────────
+# ── Main ───────────────────────────────────────────────────────────────────────
+
 def run_inference() -> None:
+    generated_at = datetime.now(timezone.utc)
     device = _get_device()
     logger.info(f"Device: {device}")
 
     model, scaler, cv_mae = _load_model(device)
 
+    # Global signals (fetched once)
+    logger.info("Fetching global market signals...")
+    fear_greed    = fetch_fear_greed()
+    global_market = fetch_global_market()
+    market_news   = fetch_market_headlines(limit=5)
+
+    logger.info(
+        f"Fear & Greed: {fear_greed['value']} ({fear_greed['classification']}), "
+        f"Market cap 24h: {global_market['total_mcap_ret_24h']:+.2f}%"
+    )
+
+    # Coin list + market signals
     logger.info("Fetching coin list...")
     coin_ids = fetch_coin_list(TOP_N_COINS)
-
-    logger.info("Fetching BTC/ETH market signals...")
     btc_df = fetch_hourly("bitcoin",  FETCH_DAYS)
     eth_df = fetch_hourly("ethereum", FETCH_DAYS)
 
@@ -184,74 +290,73 @@ def run_inference() -> None:
         try:
             df = fetch_hourly(coin_id, FETCH_DAYS)
 
-            X = build_sequences(df, btc_df=btc_df, eth_df=eth_df, for_training=False)
-            if len(X) == 0:
-                logger.warning(f"[{coin_id}] no sequences — skipping")
+            inferred = _infer_coin(
+                coin_id, df, btc_df, eth_df, global_market,
+                model, scaler, device, generated_at,
+            )
+            if inferred is None:
                 continue
 
-            # Use only the most recent sequence (last row = latest state)
-            X_last = X[[-1]]
-            X_scaled = scaler.transform(X_last.reshape(1, -1)).reshape(1, SEQ_LEN, N_FEATURES)
-            X_tensor = torch.tensor(X_scaled, dtype=torch.float32).to(device)
+            # Coin-specific sentiment (CoinGecko community votes)
+            coin_sentiment = fetch_coin_sentiment(coin_id)
 
-            with torch.no_grad():
-                out = model(X_tensor).cpu().numpy()   # (1, 3, HORIZON)
-
-            q10 = out[0, 0, :].tolist()
-            med = out[0, 1, :].tolist()
-            q90 = out[0, 2, :].tolist()
-
-            # Enforce monotonicity at inference time
-            q10 = [min(a, b) for a, b in zip(q10, med)]
-            q90 = [max(a, b) for a, b in zip(med, q90)]
-
-            current_price = float(df["price"].iloc[-1])
+            # Commentary
+            symbol = coin_id  # enriched below
+            commentary = generate_commentary(
+                coin_id=coin_id,
+                symbol=symbol,
+                name=coin_id,
+                direction=inferred["signal"]["direction"],
+                change_pct_24h=inferred["signal"]["changePercent24h"],
+                confidence=inferred["signal"]["confidence"],
+                last_features=inferred["last_features"],
+                fear_greed=fear_greed,
+                global_market=global_market,
+                coin_sentiment=coin_sentiment,
+                news_headlines=market_news,
+            )
 
             results.append({
-                "coin_id":       coin_id,
-                "symbol":        coin_id,    # fetch.py doesn't return symbol; use id as fallback
-                "name":          coin_id,
-                "current_price": current_price,
-                "predicted_returns": {
-                    "q10": [round(v, 6) for v in q10],
-                    "med": [round(v, 6) for v in med],
-                    "q90": [round(v, 6) for v in q90],
-                },
+                "coin_id":    coin_id,
+                "series":     inferred["series"],
+                "signal":     inferred["signal"],
+                "commentary": commentary,
             })
-            logger.info(f"[{coin_id}] OK — median 24h: {sum(med):.2f}%")
+            logger.info(
+                f"[{coin_id}] {inferred['signal']['direction']} "
+                f"{inferred['signal']['changePercent24h']:+.2f}%  "
+                f"conf={inferred['signal']['confidence']:.2f}"
+            )
 
         except Exception as e:
             logger.error(f"[{coin_id}] failed: {e}", exc_info=True)
 
-    if len(results) < MIN_COINS_REQUIRED:
+    if len(results) < MIN_COINS:
         raise RuntimeError(
-            f"Only {len(results)} coins succeeded (minimum {MIN_COINS_REQUIRED}). "
-            "Aborting push."
+            f"Only {len(results)} coins succeeded (minimum {MIN_COINS}). Aborting push."
         )
 
     _sanity_check(results)
 
-    # Enrich symbol/name from coin list metadata if available
+    # Enrich coin_id → name / symbol from CoinGecko markets
     _enrich_metadata(results, coin_ids)
 
-    write_predictions(results, cv_mae=cv_mae)
-    logger.info(f"Done. {len(results)} predictions pushed.")
+    write_predictions(results, generated_at_iso=generated_at.isoformat().replace("+00:00", "Z"))
+    logger.info(f"Done — {len(results)} predictions pushed.")
 
 
 def _enrich_metadata(results: list[dict], coin_ids: list[str]) -> None:
-    """CoinGecko /coins/markets includes symbol and name — re-fetch for display."""
-    import requests
-    from pipeline.fetch import _fetch_with_retry, COINGECKO_API_BASE
     import time
+    from pipeline.fetch import _fetch_with_retry, COINGECKO_API_BASE
 
     try:
         data = _fetch_with_retry(
             f"{COINGECKO_API_BASE}/coins/markets",
             params={
                 "vs_currency": "usd",
-                "ids": ",".join(coin_ids),
-                "per_page": len(coin_ids),
-                "page": 1,
+                "ids":       ",".join(coin_ids[:50]),
+                "per_page":  len(coin_ids),
+                "page":      1,
             },
         )
         time.sleep(2.1)
@@ -259,13 +364,19 @@ def _enrich_metadata(results: list[dict], coin_ids: list[str]) -> None:
         for r in results:
             m = meta.get(r["coin_id"])
             if m:
-                r["symbol"] = m.get("symbol", r["coin_id"]).upper()
                 r["name"]   = m.get("name",   r["coin_id"])
+                r["symbol"] = m.get("symbol", r["coin_id"]).upper()
+                # Patch commentary name if it used coin_id as name
+                if r.get("commentary"):
+                    for lang in ("en", "ja"):
+                        if r["commentary"].get(lang, "").startswith(r["coin_id"]):
+                            r["commentary"][lang] = r["commentary"][lang].replace(
+                                r["coin_id"], m["name"], 1
+                            )
     except Exception as e:
         logger.warning(f"Metadata enrichment failed (non-fatal): {e}")
 
 
-# ── Entry point ────────────────────────────────────────────────────────────────
 def main() -> None:
     _setup_logging()
     logger.info("=== predict.py start ===")
