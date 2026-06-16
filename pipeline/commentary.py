@@ -23,6 +23,7 @@ GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 # Free tier: 15 req/min → minimum 4.5s between calls
 _GEMINI_MIN_INTERVAL = 4.5
 _gemini_last_call = 0.0
+_gemini_quota_exhausted = False  # circuit breaker: True = skip Gemini for this run
 
 
 def _gemini_rate_wait() -> None:
@@ -132,7 +133,12 @@ def _gemini_commentary(ctx: dict, headlines: list) -> Tuple[str, str]:
         headlines_text=headlines_text,
     )
 
-    for attempt in range(3):
+    global _gemini_quota_exhausted
+    if _gemini_quota_exhausted:
+        raise _requests.HTTPError("Gemini quota exhausted for this run — using fallback")
+
+    # Attempt once; on 429 wait 65s and retry once more
+    for attempt in range(2):
         _gemini_rate_wait()
         resp = _requests.post(
             _GEMINI_URL,
@@ -141,10 +147,13 @@ def _gemini_commentary(ctx: dict, headlines: list) -> Tuple[str, str]:
             timeout=30,
         )
         if resp.status_code == 429:
-            retry_after = int(resp.headers.get("Retry-After", 60))
-            logger.warning("[commentary] Gemini rate limited — waiting %ds (attempt %d/3)", retry_after, attempt + 1)
-            time.sleep(retry_after)
-            continue
+            if attempt == 0:
+                logger.warning("[commentary] Gemini 429 — waiting 65s then retrying once")
+                time.sleep(65)
+                continue
+            # Still 429 after retry → daily quota exhausted; skip Gemini for all remaining coins
+            _gemini_quota_exhausted = True
+            raise _requests.HTTPError("429 after retry — Gemini quota exhausted for today")
         if not resp.ok:
             raise _requests.HTTPError(
                 "{} {} Error: {}".format(resp.status_code, "Client" if resp.status_code < 500 else "Server", resp.reason),
@@ -152,7 +161,7 @@ def _gemini_commentary(ctx: dict, headlines: list) -> Tuple[str, str]:
             )
         text = resp.json()["candidates"][0]["content"]["parts"][0]["text"]
         return _parse_bilingual(text)
-    raise _requests.HTTPError("429 Too Many Requests after 3 attempts")
+    raise _requests.HTTPError("Gemini request failed")
 
 
 def _parse_bilingual(raw: str) -> Tuple[str, str]:
