@@ -12,6 +12,7 @@ Fixes vs v1:
   - CV metric: 24h cumulative return MAE (matches what the site displays)
 """
 
+import gc
 import logging
 import sys
 from datetime import datetime, timezone
@@ -37,16 +38,16 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # ── Hyperparameters ────────────────────────────────────────────────────────────
-TOP_N_COINS   = 50
+TOP_N_COINS   = 20   # reduced for Jetson Nano 4GB (50 → OOM during CV)
 TRAIN_DAYS    = 90
-HIDDEN_SIZE   = 128
+HIDDEN_SIZE   = 64   # reduced from 128 to fit in 4GB unified memory
 NUM_LAYERS    = 2
 DROPOUT       = 0.2
-BATCH_SIZE    = 256
-MAX_EPOCHS    = 150
+BATCH_SIZE    = 64   # reduced from 256
+MAX_EPOCHS    = 100  # reduced from 150
 LR            = 1e-3
 ES_PATIENCE   = 15
-CV_FOLDS      = 5
+CV_FOLDS      = 3    # reduced from 5
 CV_TEST_DAYS  = 14
 MODEL_PATH    = Path("model.pt")
 BEST_WEIGHTS  = Path("best_weights.pt")
@@ -283,6 +284,13 @@ def walk_forward_cv(
             f"train={len(X_tr):,}  val={len(X_val):,} | "
             f"24h MAE: {mae:.2f}%"
         )
+
+        # Explicitly free fold-local arrays to avoid OOM on Jetson Nano
+        del model, val_loader
+        del X_tr, y_tr, X_tr_sc, X_val, y_val, X_val_sc
+        del X_tr_parts, y_tr_parts, X_val_parts, y_val_parts
+        gc.collect()
+        torch.cuda.empty_cache()
 
     if not maes:
         logger.warning("Walk-forward CV produced no results.")
