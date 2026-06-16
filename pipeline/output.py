@@ -21,7 +21,7 @@ from typing import Any
 logger = logging.getLogger(__name__)
 
 OUTPUT_DIR  = Path("predictions")
-MODEL_VERSION = "lstm-1.0.0"
+MODEL_VERSION = "lstm-2.0.0"
 
 
 # ── Main entry point ───────────────────────────────────────────────────────────
@@ -82,19 +82,17 @@ def build_series(
         anchor_actual = (actual_prices[day * 24] / base_price) * 100
         preds_24h = backtest_preds[day]  # 24 hourly % returns
 
+        # compound starts at anchor; apply each return AFTER recording the current hour
+        # so predictedIndex[h] aligns with actualIndex[h] at the same timestamp
+        compound = anchor_actual
         for h in range(24):
             idx_actual = (actual_prices[day * 24 + h] / base_price) * 100
-
-            # Compound predicted returns from anchor
-            compound = anchor_actual
-            for k in range(h + 1):
-                compound *= 1 + preds_24h[k] / 100
-
             series.append({
                 "time":           actual_times[day * 24 + h],
                 "actualIndex":    round(idx_actual, 4),
                 "predictedIndex": round(compound, 4),
             })
+            compound *= 1 + preds_24h[h] / 100
 
     # ── Future 24 hours ────────────────────────────────────────────────────────
     last_actual_idx = (actual_prices[-1] / base_price) * 100
@@ -124,7 +122,7 @@ def compute_signal(
         return {"direction": "flat", "changePercent24h": 0.0, "confidence": 0.5}
 
     last_actual = next(
-        (p["predictedIndex"] for p in reversed(series) if p["actualIndex"] is not None),
+        (p["actualIndex"] for p in reversed(series) if p["actualIndex"] is not None),
         100.0,
     )
     final_pred = forecast[-1]["predictedIndex"]
