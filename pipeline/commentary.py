@@ -10,7 +10,6 @@ Each result includes a `sources` list for frontend citations.
 
 import logging
 import os
-import time
 from typing import Any, Dict, List, Optional, Tuple
 
 import requests as _requests
@@ -19,19 +18,6 @@ from dotenv import load_dotenv
 load_dotenv()
 
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
-
-# Free tier: 15 req/min → minimum 4.5s between calls
-_GEMINI_MIN_INTERVAL = 4.5
-_gemini_last_call = 0.0
-_gemini_quota_exhausted = False  # circuit breaker: True = skip Gemini for this run
-
-
-def _gemini_rate_wait() -> None:
-    global _gemini_last_call
-    elapsed = time.time() - _gemini_last_call
-    if elapsed < _GEMINI_MIN_INTERVAL:
-        time.sleep(_GEMINI_MIN_INTERVAL - elapsed)
-    _gemini_last_call = time.time()
 
 logger = logging.getLogger(__name__)
 
@@ -133,35 +119,20 @@ def _gemini_commentary(ctx: dict, headlines: list) -> Tuple[str, str]:
         headlines_text=headlines_text,
     )
 
-    global _gemini_quota_exhausted
-    if _gemini_quota_exhausted:
-        raise _requests.HTTPError("Gemini quota exhausted for this run — using fallback")
-
-    # Attempt once; on 429 wait 65s and retry once more
-    for attempt in range(2):
-        _gemini_rate_wait()
-        resp = _requests.post(
-            _GEMINI_URL,
-            params={"key": GEMINI_API_KEY},
-            json={"contents": [{"parts": [{"text": prompt}]}]},
-            timeout=30,
+    resp = _requests.post(
+        _GEMINI_URL,
+        params={"key": GEMINI_API_KEY},
+        json={"contents": [{"parts": [{"text": prompt}]}]},
+        timeout=30,
+    )
+    if not resp.ok:
+        # Raise without the URL (which contains the API key) in the message
+        raise _requests.HTTPError(
+            "{} {} Error: {}".format(resp.status_code, "Client" if resp.status_code < 500 else "Server", resp.reason),
+            response=resp,
         )
-        if resp.status_code == 429:
-            if attempt == 0:
-                logger.warning("[commentary] Gemini 429 — waiting 65s then retrying once")
-                time.sleep(65)
-                continue
-            # Still 429 after retry → daily quota exhausted; skip Gemini for all remaining coins
-            _gemini_quota_exhausted = True
-            raise _requests.HTTPError("429 after retry — Gemini quota exhausted for today")
-        if not resp.ok:
-            raise _requests.HTTPError(
-                "{} {} Error: {}".format(resp.status_code, "Client" if resp.status_code < 500 else "Server", resp.reason),
-                response=resp,
-            )
-        text = resp.json()["candidates"][0]["content"]["parts"][0]["text"]
-        return _parse_bilingual(text)
-    raise _requests.HTTPError("Gemini request failed")
+    text = resp.json()["candidates"][0]["content"]["parts"][0]["text"]
+    return _parse_bilingual(text)
 
 
 def _parse_bilingual(raw: str) -> Tuple[str, str]:
