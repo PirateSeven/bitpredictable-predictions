@@ -1,6 +1,6 @@
 {
   "coinId": "stellar",
-  "generatedAt": "2026-06-16T19:22:39.442898Z",
+  "generatedAt": "2026-06-16T20:22:50.848780Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -970,8 +970,8 @@
     "confidence": 0.4791
   },
   "commentary": {
-    "en": "Stellar's 24-hour direction is predicted to be down by 1.0% with a 47% confidence level, following the recent decline in the crypto market. The Fear & Greed Index remains at extreme fear levels, and the short-term trend is still in an uptrend. However, the current market conditions and recent news do not provide a clear indication of a significant price movement.",
-    "ja": "ステラルの24時間の方向は、47％の確実性で1.0％下落予想となり、最近の暗号通貨市場の低下に続く。恐怖と欲求不満指数は極度の恐怖のレベルに留まり、短期的なトレンドは上昇傾向にある。しかし、現在の市場状況と最近のニュースは、価格の大きな動きに明確な指示を与えていない。",
+    "en": "Stellar's predicted 24h direction is DOWN with a confidence of 47%, driven by the recent decline in the crypto market. The Fear & Greed Index is at an Extreme Fear level, which may contribute to the downward trend. However, the short-term trend remains in an uptrend, indicating potential for a reversal.",
+    "ja": "ステラルの予想24時間の方向はDOWNで、信頼度は47％。最近の暗号市場の低下により推測される。恐怖と欲求不満指数は極度の恐怖のレベルにあり、これが下降傾向に寄与するかもしれない。しかし、短期の傾向は上昇傾向にあり、反転の可能性がある。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-1.29%",
+        "value": "-1.00%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
@@ -1010,18 +1010,18 @@
       },
       {
         "label": "CoinTelegraph",
+        "value": "Bitcoin metric near ‘low-risk’ zone after holders absorb 125K BTC in June: Time for a rebound?",
+        "url": "https://cointelegraph.com/markets/bitcoin-risk-metric-nears-low-risk-zone-as-holders-absorb-125k-btc-in-june?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Crypto PAC has $12M stake in Senate primary runoff as Alabama voters head to polls",
+        "url": "https://cointelegraph.com/news/crypto-pac-fairshake-senate-primary-alabama-voters?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
         "value": "Coinbase lets users transfer stock portfolios as exchange expands beyond crypto",
         "url": "https://cointelegraph.com/news/coinbase-acats-stock-portfolio-transfers-beyond-crypto?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "XRP whale wallet withdrawals top 720M as risk-adjusted return data points to opportunity",
-        "url": "https://cointelegraph.com/markets/xrp-whale-withdrawals-top-720m-as-risk-adjusted-returns-hints-an-opporunity?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "State Street launches GENIUS Act-aligned money market fund for stablecoin reserves",
-        "url": "https://cointelegraph.com/news/state-street-launches-genius-act-aligned-money-market-fund-for-stablecoin-reserves?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

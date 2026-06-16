@@ -1,6 +1,6 @@
 {
   "coinId": "bitcoin",
-  "generatedAt": "2026-06-16T19:22:39.442898Z",
+  "generatedAt": "2026-06-16T20:22:50.848780Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -970,8 +970,8 @@
     "confidence": 0.2846
   },
   "commentary": {
-    "en": "Bitcoin's short-term trend remains sideways, with a 24-hour return of -1.16% and a Fear & Greed Index at 23, indicating extreme fear. The RSI-14 is neutral at 49, while the Bollinger Band %B is at 0.41, suggesting a mid-band position. With a 28% confidence in a flat direction, Bitcoin's price movement may remain stable in the short term.",
-    "ja": "ビットコインの短期トレンドは横方向に推移しており、24時間のリターンは-1.16%、Fear & Greed Indexは23で極度の恐怖を示しています。RSI-14は49で中立的な状態であり、ボリンジャー・バンド %Bは0.41で中間の位置にあります。28%の確度で平坦な方向が予想されるため、ビットコインの価格動向は短期的に安定する可能性があります。",
+    "en": "Bitcoin's short-term trend remains sideways, with a 24h return of -1.16% and a Fear & Greed Index of 23, indicating extreme fear in the market. The recent news of Bitcoin holders absorbing 125K BTC in June may be a positive sign, but the overall market context suggests a flat direction in the short term. The CoinGecko community remains 82% bullish, indicating a potential rebound in the near future.",
+    "ja": "ビットコインの短期のトレンドは、24時間のリターンが-1.16%で、恐怖と欲求不満指数が23、極度の恐怖を示している。ビットコインのホルダーが6月に125Kビットコインを吸収したニュースは、短期的には平坦な方向性を示唆しているが、総市場状況は短期的には平坦な方向性を示唆している。コインゲッコーのコミュニティは82％がバブルを示唆しており、短期的には反発が見込まれる。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,28 +1000,28 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-1.29%",
+        "value": "-1.00%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "81% bullish",
+        "value": "82% bullish",
         "url": "https://www.coingecko.com/en/coins/bitcoin"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitcoin metric near ‘low-risk’ zone after holders absorb 125K BTC in June: Time for a rebound?",
+        "url": "https://cointelegraph.com/markets/bitcoin-risk-metric-nears-low-risk-zone-as-holders-absorb-125k-btc-in-june?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Crypto PAC has $12M stake in Senate primary runoff as Alabama voters head to polls",
+        "url": "https://cointelegraph.com/news/crypto-pac-fairshake-senate-primary-alabama-voters?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
         "value": "Coinbase lets users transfer stock portfolios as exchange expands beyond crypto",
         "url": "https://cointelegraph.com/news/coinbase-acats-stock-portfolio-transfers-beyond-crypto?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "XRP whale wallet withdrawals top 720M as risk-adjusted return data points to opportunity",
-        "url": "https://cointelegraph.com/markets/xrp-whale-withdrawals-top-720m-as-risk-adjusted-returns-hints-an-opporunity?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "State Street launches GENIUS Act-aligned money market fund for stablecoin reserves",
-        "url": "https://cointelegraph.com/news/state-street-launches-genius-act-aligned-money-market-fund-for-stablecoin-reserves?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

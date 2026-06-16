@@ -1,6 +1,6 @@
 {
   "coinId": "global-dollar",
-  "generatedAt": "2026-06-16T19:22:39.442898Z",
+  "generatedAt": "2026-06-16T20:22:50.848780Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -970,8 +970,8 @@
     "confidence": 0.95
   },
   "commentary": {
-    "en": "The Global Dollar's 24-hour direction is predicted to be flat with a 0.0% return, indicating a neutral sentiment. The Fear & Greed Index remains at Extreme Fear, while the total crypto market cap and BTC 24-hour returns show a decline. The recent news on Coinbase's expansion and Ripple's investment in Flutterwave may have a limited impact on the Global Dollar's short-term trend.",
-    "ja": "グローバル ドルは24時間の方向性は予測され、0.0%のリターンで中立的な感覚を示しています。Fear & Greed Indexはエクストリーム フィアのままですが、トータル クリプト マーケット キャップとBTCの24時間リターンは下落しています。コインベースの拡大とリップルによるフラッターウェーブへの投資に関する最近のニュースはグローバル ドルの短期トレンドに限りつく影響を与える可能性があります。",
+    "en": "The Global Dollar (GLOBAL-DOLLAR) is expected to remain flat in the next 24 hours with a 0.0% change, based on technical signals and market context. The Fear & Greed Index is at an extreme fear level, and the total crypto market cap has seen a 1.00% decrease. Recent news on Bitcoin and other cryptocurrencies may influence market sentiment.",
+    "ja": "グローバル・ドル（GLOBAL-DOLLAR）は、技術的シグナルや市場状況に基づいて、次の24時間に0.0％の変化が予想される。恐怖と欲求不満指数は極度の恐怖のレベルで、総暗号資産市場キャップは1.00％減少している。ビットコインや他の暗号資産に関する最近のニュースは市場の気分を影響する可能性がある。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,23 +1000,23 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-1.29%",
+        "value": "-1.00%",
         "url": "https://www.coingecko.com/en/global-charts"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitcoin metric near ‘low-risk’ zone after holders absorb 125K BTC in June: Time for a rebound?",
+        "url": "https://cointelegraph.com/markets/bitcoin-risk-metric-nears-low-risk-zone-as-holders-absorb-125k-btc-in-june?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Crypto PAC has $12M stake in Senate primary runoff as Alabama voters head to polls",
+        "url": "https://cointelegraph.com/news/crypto-pac-fairshake-senate-primary-alabama-voters?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
         "value": "Coinbase lets users transfer stock portfolios as exchange expands beyond crypto",
         "url": "https://cointelegraph.com/news/coinbase-acats-stock-portfolio-transfers-beyond-crypto?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "XRP whale wallet withdrawals top 720M as risk-adjusted return data points to opportunity",
-        "url": "https://cointelegraph.com/markets/xrp-whale-withdrawals-top-720m-as-risk-adjusted-returns-hints-an-opporunity?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "State Street launches GENIUS Act-aligned money market fund for stablecoin reserves",
-        "url": "https://cointelegraph.com/news/state-street-launches-genius-act-aligned-money-market-fund-for-stablecoin-reserves?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

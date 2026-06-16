@@ -1,6 +1,6 @@
 {
   "coinId": "litecoin",
-  "generatedAt": "2026-06-16T19:22:39.442898Z",
+  "generatedAt": "2026-06-16T20:22:50.848780Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -970,8 +970,8 @@
     "confidence": 0.2868
   },
   "commentary": {
-    "en": "Litecoin's technical signals indicate a flat 24-hour direction with a -0.2% confidence level, suggesting a neutral market sentiment. The Fear & Greed Index at 23, indicating extreme fear, may weigh on the market. Recent news about Coinbase's expansion and Ripple's investment in Africa may have a mixed impact on Litecoin's price.",
-    "ja": "リテコインの技術指標は24時間の方向性がフラットで、-0.2%の確信度を持っており、市場のニュアンスが高い。恐怖と欲求不満指数が23と極度の恐怖を示しているため、市場は重い。コインバースエクスチェンジの拡大とリップルがアフリカへの投資についてのニュースは、リテコインの価格に混在した影響を与える可能性がある。",
+    "en": "Litecoin is experiencing a flat trend with a predicted 24h direction of -0.2% and a neutral RSI-14 reading of 50. The Fear & Greed Index is at 23, indicating extreme fear in the market. Litecoin's performance is closely tied to the overall crypto market, which is experiencing a -1.00% 24h change in total market cap.",
+    "ja": "リテコインは、予想24時間の方向性が-0.2%で、RSI-14の値が50の中立的な状態を示しています。恐怖と欲求不満指数は23、極度の恐怖の状態です。リテコインのパフォーマンスは、総マーケットキャップが-1.00%の24時間変化を経験している全体的な暗号通貨市場に大きく依存しています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-1.29%",
+        "value": "-1.00%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
@@ -1010,18 +1010,18 @@
       },
       {
         "label": "CoinTelegraph",
+        "value": "Bitcoin metric near ‘low-risk’ zone after holders absorb 125K BTC in June: Time for a rebound?",
+        "url": "https://cointelegraph.com/markets/bitcoin-risk-metric-nears-low-risk-zone-as-holders-absorb-125k-btc-in-june?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Crypto PAC has $12M stake in Senate primary runoff as Alabama voters head to polls",
+        "url": "https://cointelegraph.com/news/crypto-pac-fairshake-senate-primary-alabama-voters?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
         "value": "Coinbase lets users transfer stock portfolios as exchange expands beyond crypto",
         "url": "https://cointelegraph.com/news/coinbase-acats-stock-portfolio-transfers-beyond-crypto?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "XRP whale wallet withdrawals top 720M as risk-adjusted return data points to opportunity",
-        "url": "https://cointelegraph.com/markets/xrp-whale-withdrawals-top-720m-as-risk-adjusted-returns-hints-an-opporunity?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "State Street launches GENIUS Act-aligned money market fund for stablecoin reserves",
-        "url": "https://cointelegraph.com/news/state-street-launches-genius-act-aligned-money-market-fund-for-stablecoin-reserves?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

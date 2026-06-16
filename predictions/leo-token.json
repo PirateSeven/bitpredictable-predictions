@@ -1,6 +1,6 @@
 {
   "coinId": "leo-token",
-  "generatedAt": "2026-06-16T19:22:39.442898Z",
+  "generatedAt": "2026-06-16T20:22:50.848780Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -970,8 +970,8 @@
     "confidence": 0.6474
   },
   "commentary": {
-    "en": "LEO Token is expected to remain flat in the next 24 hours with a 64% confidence level, as its RSI-14 is neutral and Bollinger Band %B is at the lower band. The recent market context, including the Fear & Greed Index at Extreme Fear and total crypto market cap decline, may also contribute to this prediction. However, the lack of significant news directly impacting LEO Token makes this prediction more uncertain.",
-    "ja": "レイオーターキャッシュは、次の24時間に64％の確信度でフラットな動きが予想されます。RSI-14は中立的で、ボリンジャーバンドの%Bは下限にあります。最近の市場状況、恐怖と欲求の指数が極度の恐怖と、総暗号資産市場キャップの減少も、この予測に寄与するかもしれません。ただし、レイオーターキャッシュに直接影響を与えるような重大なニュースがないため、この予測はより不確実です。",
+    "en": "LEO Token's flat 24-hour direction prediction has a 64% confidence level, with a neutral RSI-14 reading of 42. The recent news on Bitcoin's 'low-risk' zone and Coinbase's expansion may have a limited impact on LEO-TOKEN's price movement. However, the overall market sentiment remains in extreme fear, which could continue to influence LEO-TOKEN's price.",
+    "ja": "レオ・トークンの24時間の予測は64％の確率でフラットに推測され、RSI-14の読みは42で中立的である。ビットコインの「リスクが低い」ゾーンに関するニュースとコインベースの拡大は、レオ・トークンの価格動向に限りなく影響を与える可能性はあるが、総合的な市場感覚は極度の恐怖のままであり、これがレオ・トークンの価格に影響を与える可能性がある。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,23 +1000,23 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-1.29%",
+        "value": "-1.00%",
         "url": "https://www.coingecko.com/en/global-charts"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitcoin metric near ‘low-risk’ zone after holders absorb 125K BTC in June: Time for a rebound?",
+        "url": "https://cointelegraph.com/markets/bitcoin-risk-metric-nears-low-risk-zone-as-holders-absorb-125k-btc-in-june?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Crypto PAC has $12M stake in Senate primary runoff as Alabama voters head to polls",
+        "url": "https://cointelegraph.com/news/crypto-pac-fairshake-senate-primary-alabama-voters?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
         "value": "Coinbase lets users transfer stock portfolios as exchange expands beyond crypto",
         "url": "https://cointelegraph.com/news/coinbase-acats-stock-portfolio-transfers-beyond-crypto?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "XRP whale wallet withdrawals top 720M as risk-adjusted return data points to opportunity",
-        "url": "https://cointelegraph.com/markets/xrp-whale-withdrawals-top-720m-as-risk-adjusted-returns-hints-an-opporunity?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "State Street launches GENIUS Act-aligned money market fund for stablecoin reserves",
-        "url": "https://cointelegraph.com/news/state-street-launches-genius-act-aligned-money-market-fund-for-stablecoin-reserves?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

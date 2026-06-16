@@ -1,6 +1,6 @@
 {
   "coinId": "shiba-inu",
-  "generatedAt": "2026-06-16T19:22:39.442898Z",
+  "generatedAt": "2026-06-16T20:22:50.848780Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -970,8 +970,8 @@
     "confidence": 0.5019
   },
   "commentary": {
-    "en": "Shiba Inu's price is expected to remain flat with a minor decline of -0.4% in the next 24 hours, driven by the overall bearish sentiment in the crypto market. The Fear & Greed Index at 23 indicates extreme fear, while the RSI-14 at 43 suggests a neutral trend. The recent news about Coinbase's expansion and Ripple's investment in Africa may have a limited impact on SHIBA-INU's price.",
-    "ja": "Shiba Inuの価格は、次の24時間で-0.4%の小幅な下落が予想され、暗号資産市場全体のバブル的な気分に押される。Fear & Greed Indexが23に達していることから、極度の恐怖が広がっており、RSI-14が43に達していることから、中立的な傾向が続いている。Coinbaseの拡大とRippleのアフリカへの投資に関する最近のニュースは、SHIBA-INUの価格に限りなく影響を与える可能性は低い。",
+    "en": "The model predicts Shiba Inu will trade sideways over the next 24 hours with moderate confidence (50%). Price moved -3.05% in the past 24 hours with volume at 0.7× average. Community sentiment on CoinGecko is 80% bullish and the Fear & Greed Index reads \"Extreme Fear\" (23), diverging from the model's forecast, adding uncertainty.",
+    "ja": "モデルはShiba Inuが今後24時間で横ばいで推移すると予測しています（信頼度: 中程度の 50%）。過去24時間のリターンは-3.05%、出来高は平均の0.7倍です。CoinGeckoコミュニティでは80%が強気を示し、Fear & Greed指数は「Extreme Fear」（23）です。予測方向と乖離があり、不確実性が高まっています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,28 +1000,28 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-1.29%",
+        "value": "-1.00%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "79% bullish",
+        "value": "80% bullish",
         "url": "https://www.coingecko.com/en/coins/shiba-inu"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitcoin metric near ‘low-risk’ zone after holders absorb 125K BTC in June: Time for a rebound?",
+        "url": "https://cointelegraph.com/markets/bitcoin-risk-metric-nears-low-risk-zone-as-holders-absorb-125k-btc-in-june?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Crypto PAC has $12M stake in Senate primary runoff as Alabama voters head to polls",
+        "url": "https://cointelegraph.com/news/crypto-pac-fairshake-senate-primary-alabama-voters?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
         "value": "Coinbase lets users transfer stock portfolios as exchange expands beyond crypto",
         "url": "https://cointelegraph.com/news/coinbase-acats-stock-portfolio-transfers-beyond-crypto?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "XRP whale wallet withdrawals top 720M as risk-adjusted return data points to opportunity",
-        "url": "https://cointelegraph.com/markets/xrp-whale-withdrawals-top-720m-as-risk-adjusted-returns-hints-an-opporunity?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "State Street launches GENIUS Act-aligned money market fund for stablecoin reserves",
-        "url": "https://cointelegraph.com/news/state-street-launches-genius-act-aligned-money-market-fund-for-stablecoin-reserves?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

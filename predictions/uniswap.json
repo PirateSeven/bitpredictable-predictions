@@ -1,6 +1,6 @@
 {
   "coinId": "uniswap",
-  "generatedAt": "2026-06-16T19:22:39.442898Z",
+  "generatedAt": "2026-06-16T20:22:50.848780Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -970,8 +970,8 @@
     "confidence": 0.6118
   },
   "commentary": {
-    "en": "Uniswap's predicted 24-hour direction is DOWN with a 61% confidence level, driven by overbought conditions and high volume. The recent price surge has pushed the RSI-14 to 72, while the Bollinger Band %B indicates a strong move towards the upper band. With the Fear & Greed Index at 23, Extreme Fear is dominating the market sentiment.",
-    "ja": "ユニスワップの24時間予想は下落にあり、信頼度は61%です。これはオーバーボールド状態と高ボリュームの影響です。RSI-14は72に達し、ボリンジャー・バンドの%Bは上限に近づいています。恐怖と欲求不満指数は23で、極度の恐怖が市場の感情を支配しています。",
+    "en": "Uniswap's predicted 24h direction is DOWN with a 61% confidence level, driven by its overbought RSI-14 and high volume ratio. The recent surge in price, up 16.29% in the last 24 hours, may be unsustainable given the current market context. A short-term trend reversal is possible as the Fear & Greed Index remains in the Extreme Fear zone.",
+    "ja": "ユニスワップの24時間予想は下落で、信頼度61％です。RSI-14がオーバーボールド、ボリューム比率が高いためです。過去24時間の価格上昇率は16.29％ですが、現在の市場状況では維持できそうにありません。恐怖と欲求不満指数が極度の恐怖の領域にあり、短期のトレンドが逆転する可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-1.29%",
+        "value": "-1.00%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
@@ -1010,18 +1010,18 @@
       },
       {
         "label": "CoinTelegraph",
+        "value": "Bitcoin metric near ‘low-risk’ zone after holders absorb 125K BTC in June: Time for a rebound?",
+        "url": "https://cointelegraph.com/markets/bitcoin-risk-metric-nears-low-risk-zone-as-holders-absorb-125k-btc-in-june?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Crypto PAC has $12M stake in Senate primary runoff as Alabama voters head to polls",
+        "url": "https://cointelegraph.com/news/crypto-pac-fairshake-senate-primary-alabama-voters?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
         "value": "Coinbase lets users transfer stock portfolios as exchange expands beyond crypto",
         "url": "https://cointelegraph.com/news/coinbase-acats-stock-portfolio-transfers-beyond-crypto?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "XRP whale wallet withdrawals top 720M as risk-adjusted return data points to opportunity",
-        "url": "https://cointelegraph.com/markets/xrp-whale-withdrawals-top-720m-as-risk-adjusted-returns-hints-an-opporunity?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "State Street launches GENIUS Act-aligned money market fund for stablecoin reserves",
-        "url": "https://cointelegraph.com/news/state-street-launches-genius-act-aligned-money-market-fund-for-stablecoin-reserves?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "coinId": "tron",
-  "generatedAt": "2026-06-16T19:22:39.442898Z",
+  "generatedAt": "2026-06-16T20:22:50.848780Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -970,8 +970,8 @@
     "confidence": 0.7094
   },
   "commentary": {
-    "en": "TRON's (TRON) 24-hour direction is predicted to be flat with a -0.0% change, indicating a neutral stance. The RSI-14 and Bollinger Band %B suggest a mid-band position, while the short-term trend remains sideways. The Fear & Greed Index at 23 indicates extreme fear in the market.",
-    "ja": "トロンの24時間の動向は-0.0%の変化を予測しており、中立的な立場を示しています。RSI-14とボリンジャー・バンドの%Bは中間位置を示しており、短期のトレンドは横方向に進んでいます。Fear & Greed Indexは23を示し、市場は極度の恐怖の状態です。",
+    "en": "TRON's 24-hour direction is predicted to be flat with a confidence of 70%, as the RSI-14 is at 48 and the Bollinger Band %B is at 0.51. The recent news on Bitcoin and other cryptocurrencies may have a neutral impact on TRON's price. TRON's price movement is likely to be influenced by the overall market sentiment.",
+    "ja": "トロンの24時間の方向は70％の確信でフラットと予想され、RSI-14は48、ボリンジャーバンド％Bは0.51にあります。ビットコインなどの他の暗号通貨に関する最近のニュースはトロンの価格に中立的な影響を与える可能性があります。トロンの価格動向は、総市場感覚に影響を受ける可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-1.29%",
+        "value": "-1.00%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
@@ -1010,18 +1010,18 @@
       },
       {
         "label": "CoinTelegraph",
+        "value": "Bitcoin metric near ‘low-risk’ zone after holders absorb 125K BTC in June: Time for a rebound?",
+        "url": "https://cointelegraph.com/markets/bitcoin-risk-metric-nears-low-risk-zone-as-holders-absorb-125k-btc-in-june?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Crypto PAC has $12M stake in Senate primary runoff as Alabama voters head to polls",
+        "url": "https://cointelegraph.com/news/crypto-pac-fairshake-senate-primary-alabama-voters?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
         "value": "Coinbase lets users transfer stock portfolios as exchange expands beyond crypto",
         "url": "https://cointelegraph.com/news/coinbase-acats-stock-portfolio-transfers-beyond-crypto?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "XRP whale wallet withdrawals top 720M as risk-adjusted return data points to opportunity",
-        "url": "https://cointelegraph.com/markets/xrp-whale-withdrawals-top-720m-as-risk-adjusted-returns-hints-an-opporunity?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "State Street launches GENIUS Act-aligned money market fund for stablecoin reserves",
-        "url": "https://cointelegraph.com/news/state-street-launches-genius-act-aligned-money-market-fund-for-stablecoin-reserves?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

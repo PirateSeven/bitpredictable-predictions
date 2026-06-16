@@ -1,6 +1,6 @@
 {
   "coinId": "cardano",
-  "generatedAt": "2026-06-16T19:22:39.442898Z",
+  "generatedAt": "2026-06-16T20:22:50.848780Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -970,8 +970,8 @@
     "confidence": 0.8017
   },
   "commentary": {
-    "en": "Cardano's predicted 24h direction is DOWN with a confidence of 80% due to the downtrend in the short-term trend and the recent 24h actual return of -6.28%. The Fear & Greed Index is at 23, indicating Extreme Fear in the market. The neutral RSI-14 reading of 43 suggests that the market is currently balanced.",
-    "ja": "カードアノの24時間予想は下降で信頼度80%です。短期傾向と24時間実際のリターンの下降により、短期傾向は下降傾向です。恐怖と欲求不満指数は23で、市場は極度の恐怖です。RSI-14は43で中立的です。",
+    "en": "Cardano's 24-hour direction is predicted to be DOWN with a confidence level of 80% and a 3.2% decline. The short-term trend is in a downtrend, and the Fear & Greed Index is at 23, indicating extreme fear in the market. However, the CoinGecko community remains 92% bullish.",
+    "ja": "カードアノの24時間の予測は下落であると80%の確信で予測され、3.2%の下落が予測される。短期のトレンドは下落であり、Fear & Greed Indexは23であり、市場は極度の恐怖状態である。ただし、CoinGeckoコミュニティは92%がバブルである。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,28 +1000,28 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-1.29%",
+        "value": "-1.00%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "89% bullish",
+        "value": "92% bullish",
         "url": "https://www.coingecko.com/en/coins/cardano"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitcoin metric near ‘low-risk’ zone after holders absorb 125K BTC in June: Time for a rebound?",
+        "url": "https://cointelegraph.com/markets/bitcoin-risk-metric-nears-low-risk-zone-as-holders-absorb-125k-btc-in-june?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Crypto PAC has $12M stake in Senate primary runoff as Alabama voters head to polls",
+        "url": "https://cointelegraph.com/news/crypto-pac-fairshake-senate-primary-alabama-voters?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
         "value": "Coinbase lets users transfer stock portfolios as exchange expands beyond crypto",
         "url": "https://cointelegraph.com/news/coinbase-acats-stock-portfolio-transfers-beyond-crypto?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "XRP whale wallet withdrawals top 720M as risk-adjusted return data points to opportunity",
-        "url": "https://cointelegraph.com/markets/xrp-whale-withdrawals-top-720m-as-risk-adjusted-returns-hints-an-opporunity?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "State Street launches GENIUS Act-aligned money market fund for stablecoin reserves",
-        "url": "https://cointelegraph.com/news/state-street-launches-genius-act-aligned-money-market-fund-for-stablecoin-reserves?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "coinId": "crypto-com-chain",
-  "generatedAt": "2026-06-16T19:22:39.442898Z",
+  "generatedAt": "2026-06-16T20:22:50.848780Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -970,8 +970,8 @@
     "confidence": 0.4238
   },
   "commentary": {
-    "en": "Cronos's 24h direction is predicted to be flat with a -0.3% change, indicating a neutral sentiment. The recent market context, with a Fear & Greed Index of 23 and a total crypto market cap 24h change of -1.29%, suggests a cautious atmosphere. The short-term trend remains in a downtrend.",
-    "ja": "Cronos の 24 時間の方向は、-0.3% の変化で、ニュートラルな感覚を示しています。 最近の市場状況、Fear & Greed Index が 23、総暗号資産市場キャップ 24 時間の変化が -1.29% という状況は、慎重な気分を示しています。 短期のトレンドは、下降トレンドにあります。",
+    "en": "Cronos's predicted 24h direction is flat with a -0.3% change, indicating a neutral market sentiment. The recent news about Bitcoin's low-risk zone and Coinbase's expansion beyond crypto may have a positive impact on the market. However, the short-term trend remains in a downtrend.",
+    "ja": "Cronosの24時間予想は、-0.3％の変化でフラットであることを示しています。ビットコインのリスクが低いゾーンに近づいたニュースやコインベースのクリプト以外への拡大など、最近のニュースは市場に肯定的な影響を与えるかもしれません。ただし、短期的なトレンドは下降傾向にあります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,28 +1000,28 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-1.29%",
+        "value": "-1.00%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "90% bullish",
+        "value": "89% bullish",
         "url": "https://www.coingecko.com/en/coins/crypto-com-chain"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitcoin metric near ‘low-risk’ zone after holders absorb 125K BTC in June: Time for a rebound?",
+        "url": "https://cointelegraph.com/markets/bitcoin-risk-metric-nears-low-risk-zone-as-holders-absorb-125k-btc-in-june?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Crypto PAC has $12M stake in Senate primary runoff as Alabama voters head to polls",
+        "url": "https://cointelegraph.com/news/crypto-pac-fairshake-senate-primary-alabama-voters?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
         "value": "Coinbase lets users transfer stock portfolios as exchange expands beyond crypto",
         "url": "https://cointelegraph.com/news/coinbase-acats-stock-portfolio-transfers-beyond-crypto?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "XRP whale wallet withdrawals top 720M as risk-adjusted return data points to opportunity",
-        "url": "https://cointelegraph.com/markets/xrp-whale-withdrawals-top-720m-as-risk-adjusted-returns-hints-an-opporunity?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "State Street launches GENIUS Act-aligned money market fund for stablecoin reserves",
-        "url": "https://cointelegraph.com/news/state-street-launches-genius-act-aligned-money-market-fund-for-stablecoin-reserves?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }
