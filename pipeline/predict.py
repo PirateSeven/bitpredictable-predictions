@@ -299,12 +299,13 @@ def run_inference() -> None:
             # Coin-specific sentiment (CoinGecko community votes)
             coin_sentiment = fetch_coin_sentiment(coin_id)
 
-            # Commentary
-            symbol = coin_id  # enriched below
+            # Commentary — use a human-readable name until _enrich_metadata runs
+            symbol = coin_id.upper()
+            name = coin_id.replace("-", " ").title()
             commentary = generate_commentary(
                 coin_id=coin_id,
                 symbol=symbol,
-                name=coin_id,
+                name=name,
                 direction=inferred["signal"]["direction"],
                 change_pct_24h=inferred["signal"]["changePercent24h"],
                 confidence=inferred["signal"]["confidence"],
@@ -365,13 +366,15 @@ def _enrich_metadata(results: list[dict], coin_ids: list[str]) -> None:
             if m:
                 r["name"]   = m.get("name",   r["coin_id"])
                 r["symbol"] = m.get("symbol", r["coin_id"]).upper()
-                # Patch commentary name if it used coin_id as name
+                # Patch commentary to replace the .title() placeholder with the real display name
                 if r.get("commentary"):
-                    for lang in ("en", "ja"):
-                        if r["commentary"].get(lang, "").startswith(r["coin_id"]):
-                            r["commentary"][lang] = r["commentary"][lang].replace(
-                                r["coin_id"], m["name"], 1
-                            )
+                    placeholder = r["coin_id"].replace("-", " ").title()
+                    real_name = m["name"]
+                    if placeholder != real_name:
+                        for lang in ("en", "ja"):
+                            text = r["commentary"].get(lang, "")
+                            if placeholder in text:
+                                r["commentary"][lang] = text.replace(placeholder, real_name)
     except Exception as e:
         logger.warning(f"Metadata enrichment failed (non-fatal): {e}")
 

@@ -43,7 +43,7 @@ def generate_commentary(
     news_headlines: list[dict] | None = None,
 ) -> CommentaryResult:
     ctx = _build_context(
-        coin_id, name, direction, change_pct_24h, confidence,
+        coin_id, symbol, name, direction, change_pct_24h, confidence,
         last_features, fear_greed, global_market, coin_sentiment,
     )
     sources = _build_sources(ctx, coin_id, fear_greed, global_market, coin_sentiment, news_headlines)
@@ -75,7 +75,7 @@ def _gemini_commentary(ctx: dict, headlines: list[dict]) -> tuple[str, str]:
         if headlines else "  (no recent headlines)"
     )
 
-    prompt = f"""You are a concise crypto market analyst. Generate prediction commentary for {ctx['name']} ({ctx.get('coin_id','').upper()}).
+    prompt = f"""You are a concise crypto market analyst. Generate prediction commentary for {ctx['name']} ({ctx['symbol']}).
 
 Technical signals:
 - Predicted 24h direction: {ctx['direction'].upper()}, {ctx['change_pct']:+.1f}% (confidence: {int(ctx['confidence']*100)}%)
@@ -122,7 +122,7 @@ def _parse_bilingual(raw: str) -> tuple[str, str]:
 # ── Context ────────────────────────────────────────────────────────────────────
 
 def _build_context(
-    coin_id: str, name: str, direction: str, change_pct: float, confidence: float,
+    coin_id: str, symbol: str, name: str, direction: str, change_pct: float, confidence: float,
     feat: dict[str, float], fg: dict, gm: dict, cs: dict | None,
 ) -> dict:
     rsi    = feat.get("rsi_14", 0.5) * 100
@@ -134,7 +134,7 @@ def _build_context(
     sent_up = cs.get("sentiment_votes_up_percentage") if cs else None
 
     return dict(
-        coin_id=coin_id, name=name,
+        coin_id=coin_id, symbol=symbol, name=name,
         direction=direction, change_pct=change_pct, confidence=confidence,
         rsi=rsi,
         rsi_signal="overbought" if rsi > 70 else "oversold" if rsi < 30 else "neutral",
