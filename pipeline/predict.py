@@ -170,7 +170,7 @@ def _infer_coin(
     # Feature matrix for the entire window (global_market removed from model features)
     sub_df      = df.iloc[-MIN_RAW_ROWS:].copy()
     feat_matrix = build_feature_df(sub_df, btc_df, eth_df).values.astype("float32")
-    feat_matrix = np.nan_to_num(feat_matrix, nan=0.0, posinf=0.0, neginf=0.0)
+    feat_matrix = np.where(np.isfinite(feat_matrix), feat_matrix, 0.0)
 
     # Build 8 inference windows: 7 backtest + 1 future
     # Window j covers feat_matrix[j*24 : j*24+SEQ_LEN] for j=0..6

@@ -155,7 +155,7 @@ def build_sequences(
     feat   = build_feature_df(df, btc_df, eth_df).values.astype(np.float32)
     prices = df["price"].values
 
-    feat = np.nan_to_num(feat, nan=0.0, posinf=0.0, neginf=0.0)
+    feat = np.where(np.isfinite(feat), feat, 0.0)
 
     if for_training:
         max_start = len(feat) - seq_len - horizon
