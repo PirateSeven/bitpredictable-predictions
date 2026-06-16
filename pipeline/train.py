@@ -39,16 +39,16 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # ── Hyperparameters ────────────────────────────────────────────────────────────
-TOP_N_COINS   = 15   # reduced for Jetson Nano 4GB (sklearn float64 blowup kills 20)
+TOP_N_COINS   = 15   # reduced for Jetson Nano 4GB
 TRAIN_DAYS    = 90
 HIDDEN_SIZE   = 64   # reduced from 128 to fit in 4GB unified memory
 NUM_LAYERS    = 2
 DROPOUT       = 0.2
-BATCH_SIZE    = 64   # reduced from 256
-MAX_EPOCHS    = 100  # reduced from 150
+BATCH_SIZE    = 256  # large batch = better Maxwell GPU utilisation (data is zero-copy)
+MAX_EPOCHS    = 50   # early stopping fires well before 50 in practice
 LR            = 1e-3
-ES_PATIENCE   = 15
-CV_FOLDS      = 3    # reduced from 5
+ES_PATIENCE   = 10
+CV_FOLDS      = 1    # single fold for first run; increase once training is proven
 CV_TEST_DAYS  = 14
 MODEL_PATH    = Path("model.pt")
 BEST_WEIGHTS  = Path("best_weights.pt")
