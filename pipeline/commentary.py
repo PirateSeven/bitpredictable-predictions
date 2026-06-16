@@ -125,7 +125,12 @@ def _gemini_commentary(ctx: dict, headlines: list) -> Tuple[str, str]:
         json={"contents": [{"parts": [{"text": prompt}]}]},
         timeout=30,
     )
-    resp.raise_for_status()
+    if not resp.ok:
+        # Raise without the URL (which contains the API key) in the message
+        raise _requests.HTTPError(
+            "{} {} Error: {}".format(resp.status_code, "Client" if resp.status_code < 500 else "Server", resp.reason),
+            response=resp,
+        )
     text = resp.json()["candidates"][0]["content"]["parts"][0]["text"]
     return _parse_bilingual(text)
 
