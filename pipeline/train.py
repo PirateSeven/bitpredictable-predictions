@@ -39,7 +39,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # ── Hyperparameters ────────────────────────────────────────────────────────────
-TOP_N_COINS   = 20   # reduced for Jetson Nano 4GB (50 → OOM during CV)
+TOP_N_COINS   = 15   # reduced for Jetson Nano 4GB (sklearn float64 blowup kills 20)
 TRAIN_DAYS    = 90
 HIDDEN_SIZE   = 64   # reduced from 128 to fit in 4GB unified memory
 NUM_LAYERS    = 2
@@ -52,6 +52,24 @@ CV_FOLDS      = 3    # reduced from 5
 CV_TEST_DAYS  = 14
 MODEL_PATH    = Path("model.pt")
 BEST_WEIGHTS  = Path("best_weights.pt")
+
+
+# ── Float32 scaler ─────────────────────────────────────────────────────────────
+class _F32Scaler:
+    """StandardScaler that stays in float32 throughout.
+    sklearn 0.24 converts input to float64 internally, creating a 2x memory spike
+    on Jetson Nano's 4GB unified RAM. This class avoids that by using float32 ops."""
+    mean_: np.ndarray
+    scale_: np.ndarray
+
+    def fit_transform(self, X: np.ndarray) -> np.ndarray:
+        self.mean_ = X.mean(axis=0).astype(np.float32)
+        self.scale_ = X.std(axis=0).astype(np.float32)
+        self.scale_[self.scale_ == 0] = 1.0
+        return ((X - self.mean_) / self.scale_).astype(np.float32, copy=False)
+
+    def transform(self, X: np.ndarray) -> np.ndarray:
+        return ((X - self.mean_) / self.scale_).astype(np.float32, copy=False)
 
 
 # ── Model ──────────────────────────────────────────────────────────────────────
@@ -176,12 +194,13 @@ def fit(model, X: np.ndarray, y: np.ndarray, device, val_split=0.1) -> float:
     X_tr, y_tr   = X[:-n_val], y[:-n_val]
     X_val, y_val = X[-n_val:], y[-n_val:]
 
+    # from_numpy: zero-copy — tensor shares memory with the numpy array
     tr_loader = DataLoader(
-        TensorDataset(torch.tensor(X_tr), torch.tensor(y_tr)),
+        TensorDataset(torch.from_numpy(X_tr), torch.from_numpy(y_tr)),
         batch_size=BATCH_SIZE, shuffle=True,
     )
     val_loader = DataLoader(
-        TensorDataset(torch.tensor(X_val), torch.tensor(y_val)),
+        TensorDataset(torch.from_numpy(X_val), torch.from_numpy(y_val)),
         batch_size=BATCH_SIZE,
     )
 
@@ -260,38 +279,42 @@ def walk_forward_cv(
         y_tr  = np.concatenate(y_tr_parts,  axis=0)
         X_val = np.concatenate(X_val_parts, axis=0)
         y_val = np.concatenate(y_val_parts, axis=0)
+        del X_tr_parts, y_tr_parts, X_val_parts, y_val_parts  # free list refs now
 
-        # Fit scaler on TRAINING data only — no leakage from validation period
-        fold_scaler = StandardScaler()
-        shape_tr  = X_tr.shape
-        shape_val = X_val.shape
-        X_tr_sc  = fold_scaler.fit_transform(
-            X_tr.reshape(-1, N_FEATURES)
-        ).reshape(shape_tr).astype(np.float32)
-        X_val_sc = fold_scaler.transform(
-            X_val.reshape(-1, N_FEATURES)
-        ).reshape(shape_val).astype(np.float32)
+        n_tr, n_val = len(X_tr), len(X_val)
+
+        # _F32Scaler avoids sklearn's internal float64 conversion (doubles peak RAM on Jetson)
+        fold_scaler = _F32Scaler()
+        shape_tr, shape_val = X_tr.shape, X_val.shape
+
+        X_tr_sc = fold_scaler.fit_transform(X_tr.reshape(-1, N_FEATURES)).reshape(shape_tr)
+        del X_tr; gc.collect()  # free raw training data immediately after scaling
+        y_tr_f32 = y_tr.astype(np.float32); del y_tr
+
+        X_val_sc = fold_scaler.transform(X_val.reshape(-1, N_FEATURES)).reshape(shape_val)
+        del X_val
+        y_val_f32 = y_val.astype(np.float32); del y_val
+        gc.collect()
 
         model = QuantileLSTM(N_FEATURES, HIDDEN_SIZE, NUM_LAYERS, DROPOUT, HORIZON).to(device)
-        fit(model, X_tr_sc, y_tr.astype(np.float32), device)
+        fit(model, X_tr_sc, y_tr_f32, device)
+        del X_tr_sc, y_tr_f32; gc.collect()  # free training data before MAE eval
 
+        # from_numpy: zero-copy — avoids duplicating X_val_sc into a new torch tensor
         val_loader = DataLoader(
-            TensorDataset(torch.tensor(X_val_sc), torch.tensor(y_val.astype(np.float32))),
+            TensorDataset(torch.from_numpy(X_val_sc), torch.from_numpy(y_val_f32)),
             batch_size=BATCH_SIZE,
         )
         mae = cumulative_24h_mae(model, val_loader, device)
         maes.append(mae)
-        fold_bar.set_postfix(mae=f"{mae:.2f}%", train=len(X_tr), val=len(X_val))
+        fold_bar.set_postfix(mae=f"{mae:.2f}%", train=n_tr, val=n_val)
         tqdm.write(
             f"CV Fold {fold+1}/{CV_FOLDS} | "
-            f"train={len(X_tr):,}  val={len(X_val):,} | "
+            f"train={n_tr:,}  val={n_val:,} | "
             f"24h MAE: {mae:.2f}%"
         )
 
-        # Explicitly free fold-local arrays to avoid OOM on Jetson Nano
-        del model, val_loader
-        del X_tr, y_tr, X_tr_sc, X_val, y_val, X_val_sc
-        del X_tr_parts, y_tr_parts, X_val_parts, y_val_parts
+        del model, val_loader, X_val_sc, y_val_f32
         gc.collect()
         torch.cuda.empty_cache()
 
@@ -341,17 +364,20 @@ def main():
     # 3. Final model: concatenate all coins, fit global scaler on full dataset
     X_all = np.concatenate(all_X_per_coin, axis=0)
     y_all = np.concatenate(all_y_per_coin, axis=0)
+    del all_X_per_coin, all_y_per_coin  # free per-coin arrays now
+    gc.collect()
     logger.info(f"Total sequences: {len(X_all):,}")
 
-    scaler = StandardScaler()
+    scaler = _F32Scaler()
     shape  = X_all.shape
-    X_scaled = scaler.fit_transform(
-        X_all.reshape(-1, N_FEATURES)
-    ).reshape(shape).astype(np.float32)
+    X_scaled = scaler.fit_transform(X_all.reshape(-1, N_FEATURES)).reshape(shape)
+    del X_all; gc.collect()
+    y_all_f32 = y_all.astype(np.float32); del y_all; gc.collect()
 
-    logger.info(f"Training final model on all data ({len(X_all):,} sequences)...")
+    logger.info(f"Training final model on all data ({len(X_scaled):,} sequences)...")
     model = QuantileLSTM(N_FEATURES, HIDDEN_SIZE, NUM_LAYERS, DROPOUT, HORIZON).to(device)
-    fit(model, X_scaled, y_all.astype(np.float32), device)
+    fit(model, X_scaled, y_all_f32, device)
+    del X_scaled, y_all_f32; gc.collect()
 
     # 4. Save
     torch.save({
