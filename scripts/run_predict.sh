@@ -32,7 +32,7 @@ mkdir -p "$LOG_DIR"
   if ! git diff --quiet HEAD -- predictions/ 2>/dev/null; then
     git add predictions/
     git commit -m "Update predictions $(date -u +%Y%m%dT%H%M)"
-    git pull --rebase origin main
+    git pull --rebase origin main || { git rebase --abort; echo "ERROR: rebase failed — aborted. Will retry next cron run."; exit 1; }
     git push origin main
     echo "Fallback git push succeeded."
   fi
