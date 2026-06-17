@@ -35,4 +35,4 @@ mkdir -p "$LOG_DIR"
   fi
 
   echo "=== $(date -u +%Y-%m-%dT%H:%M:%SZ) predict done ==="
-} >> "$LOG_FILE" 2>&1
+} 2>&1 | tee -a "$LOG_FILE"
