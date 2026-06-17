@@ -11,9 +11,11 @@ mkdir -p "$LOG_DIR"
 {
   echo "=== $(date -u +%Y-%m-%dT%H:%M:%SZ) predict start ==="
 
-  # Resolve Python: Mac (.venv) → Jetson (~/venv-bitpredictable) → system python3
+  # Resolve Python: Mac (.venv) → Jetson in-repo venv → Jetson home venv → system python3
   if [ -f "$REPO/.venv/bin/python" ]; then
     PYTHON="$REPO/.venv/bin/python"
+  elif [ -f "$REPO/venv-bitpredictable/bin/python3" ]; then
+    PYTHON="$REPO/venv-bitpredictable/bin/python3"
   elif [ -f "$HOME/venv-bitpredictable/bin/python" ]; then
     PYTHON="$HOME/venv-bitpredictable/bin/python"
   else
