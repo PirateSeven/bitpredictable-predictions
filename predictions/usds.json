@@ -1,6 +1,6 @@
 {
   "coinId": "usds",
-  "generatedAt": "2026-06-17T15:33:56.775130Z",
+  "generatedAt": "2026-06-17T15:50:52.815918Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -876,7 +876,7 @@
     {
       "time": "2026-06-17T22:00:00Z",
       "actualIndex": null,
-      "predictedIndex": 99.999
+      "predictedIndex": 99.9991
     },
     {
       "time": "2026-06-17T23:00:00Z",
@@ -921,7 +921,7 @@
     {
       "time": "2026-06-18T07:00:00Z",
       "actualIndex": null,
-      "predictedIndex": 100.0119
+      "predictedIndex": 100.012
     },
     {
       "time": "2026-06-18T08:00:00Z",
@@ -946,7 +946,7 @@
     {
       "time": "2026-06-18T12:00:00Z",
       "actualIndex": null,
-      "predictedIndex": 100.0024
+      "predictedIndex": 100.0025
     },
     {
       "time": "2026-06-18T13:00:00Z",
@@ -970,8 +970,8 @@
     "confidence": 0.95
   },
   "commentary": {
-    "en": "USDS is expected to trade flat with a 0.0% 24-hour return, supported by neutral RSI-14 and mid-band Bollinger Band %B. The sideways short-term trend and normal volume ratio also suggest stability. However, the Extreme Fear sentiment and negative total crypto market cap change may impact USDS performance.",
-    "ja": "USDSは0.0％の24時間リターンでフラットに取引される可能性があり、RSI-14が中立的でボリンジャーバンドの%Bが中間帯にあります。短期のトレンドが横方向に動いており、ボリュームの比率も通常値にあります。ただし、極度の恐怖感と総暗号資産市場キャップの24時間変化がマイナスの影響を与える可能性があります。",
+    "en": "USDS is expected to remain flat with a 0% change in the next 24 hours, given its neutral RSI-14 reading and mid-band Bollinger Band %B. The recent news on stablecoin settlement expansion and payment rails partnerships may have a limited impact on USDS price. The overall market sentiment remains in extreme fear.",
+    "ja": "USDSは次の24時間で0%の変動を予想され、RSI-14の中立的な値とボリンジャーバンドの%バンドの中間値によりそうである。安定化コインの決済拡大やペイメントレールズのパートナーシップに関する最近のニュースはUSDSの価格に限られた影響を与える可能性がある。総合的な市場感覚は極度の恐怖の状態にある。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -995,28 +995,28 @@
       },
       {
         "label": "BTC 24 h return",
-        "value": "-0.50%",
+        "value": "-0.84%",
         "url": "https://www.coingecko.com/en/coins/bitcoin"
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-0.67%",
+        "value": "-0.51%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
-        "label": "CoinDesk",
-        "value": "BitGo stock surges on $50 million share buyback as value languishes 65% below IPO price",
-        "url": "https://www.coindesk.com/markets/2026/06/17/bitgo-stock-surges-on-usd50-million-share-buyback-as-value-languishes-65-below-ipo-price"
+        "label": "CoinTelegraph",
+        "value": "Trace Finance raises $32M for cross-border stablecoin settlement expansion",
+        "url": "https://cointelegraph.com/news/trace-finance-cross-border-stablecoin-settlement-expansion?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
-        "label": "CoinDesk",
-        "value": "Crypto’s security nightmare won’t be solved by ordinary audits",
-        "url": "https://www.coindesk.com/opinion/2026/06/17/crypto-s-security-nightmare-won-t-be-solved-by-ordinary-audits"
+        "label": "CoinTelegraph",
+        "value": "Bitcoin price sets $64.5K week-to-date low as Strategy selling worries return",
+        "url": "https://cointelegraph.com/markets/bitcoin-price-sets-645k-week-to-date-low-as-strategy-selling-worries-return?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
-        "label": "CoinDesk",
-        "value": "Mexican billionaire with 70% of his investment portfolio in bitcoin says it's better than real estate",
-        "url": "https://www.coindesk.com/business/2026/06/17/mexican-billionaire-with-70-of-his-investment-portfolio-in-bitcoin-says-it-s-better-than-real-estate"
+        "label": "CoinTelegraph",
+        "value": "Ready USDC card halts non-EEA service after issuer change, users report",
+        "url": "https://cointelegraph.com/news/ready-usdc-card-service-halt-non-eea-report?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

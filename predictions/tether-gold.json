@@ -1,6 +1,6 @@
 {
   "coinId": "tether-gold",
-  "generatedAt": "2026-06-17T15:33:56.775130Z",
+  "generatedAt": "2026-06-17T15:50:52.815918Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -921,7 +921,7 @@
     {
       "time": "2026-06-18T07:00:00Z",
       "actualIndex": null,
-      "predictedIndex": 105.2501
+      "predictedIndex": 105.2502
     },
     {
       "time": "2026-06-18T08:00:00Z",
@@ -936,12 +936,12 @@
     {
       "time": "2026-06-18T10:00:00Z",
       "actualIndex": null,
-      "predictedIndex": 105.2337
+      "predictedIndex": 105.2338
     },
     {
       "time": "2026-06-18T11:00:00Z",
       "actualIndex": null,
-      "predictedIndex": 105.2325
+      "predictedIndex": 105.2326
     },
     {
       "time": "2026-06-18T12:00:00Z",
@@ -951,7 +951,7 @@
     {
       "time": "2026-06-18T13:00:00Z",
       "actualIndex": null,
-      "predictedIndex": 105.2267
+      "predictedIndex": 105.2268
     },
     {
       "time": "2026-06-18T14:00:00Z",
@@ -961,17 +961,17 @@
     {
       "time": "2026-06-18T15:00:00Z",
       "actualIndex": null,
-      "predictedIndex": 105.2183
+      "predictedIndex": 105.2184
     }
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.0895,
-    "confidence": 0.6671
+    "changePercent24h": 0.013158716654493793,
+    "confidence": 0.6669
   },
   "commentary": {
-    "en": "Tether Gold's flat 24h direction with a slight decline of -0.1% is expected, driven by the neutral RSI-14 reading and sideways short-term trend. The recent news on BitGo's stock surge and Mexican billionaire's preference for Bitcoin may have a limited impact on Tether Gold's price. The overall market context, including the Extreme Fear index and declining crypto market cap, suggests a cautious outlook.",
-    "ja": "テザー・ゴールドの24時間の方向は、-0.1%の下降が予想され、中立的なRSI-14の値と短期の傾向の横方向が推進力となっている。ビットゴーの株価の上昇とメキシコの億万長者がビットコインを好むニュースは、テザー・ゴールドの価格に限りなく影響を与える可能性は低い。総合的な市場状況、極度の恐怖指数と暗号資産市場の総合価値の下落は、慎重な姿勢を示唆している。",
+    "en": "Tether Gold (TETHER-GOLD) is expected to remain flat with a minor decline of -0.1% in the next 24 hours, based on technical signals and market context. The Fear & Greed Index remains in Extreme Fear territory, and the recent news about stablecoins and Bitcoin price fluctuations may impact investor sentiment. The high volume ratio suggests increased market activity.",
+    "ja": "Tether Gold (TETHER-GOLD) は、次の24時間に-0.1%の小幅な減少が見込まれる。技術的信号と市場状況に基づくと、Fear & Greed Indexはエクストリーム・フィアの状態にあり、最近のニュースの中でスタビルコインやビットコインの価格変動は投資家の意見に影響を与える可能性がある。高いボリューム比率は市場の活発な活動を示している。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -995,12 +995,12 @@
       },
       {
         "label": "BTC 24 h return",
-        "value": "-0.50%",
+        "value": "-0.84%",
         "url": "https://www.coingecko.com/en/coins/bitcoin"
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-0.67%",
+        "value": "-0.51%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
@@ -1009,19 +1009,19 @@
         "url": "https://www.coingecko.com/en/coins/tether-gold"
       },
       {
-        "label": "CoinDesk",
-        "value": "BitGo stock surges on $50 million share buyback as value languishes 65% below IPO price",
-        "url": "https://www.coindesk.com/markets/2026/06/17/bitgo-stock-surges-on-usd50-million-share-buyback-as-value-languishes-65-below-ipo-price"
+        "label": "CoinTelegraph",
+        "value": "Trace Finance raises $32M for cross-border stablecoin settlement expansion",
+        "url": "https://cointelegraph.com/news/trace-finance-cross-border-stablecoin-settlement-expansion?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
-        "label": "CoinDesk",
-        "value": "Crypto’s security nightmare won’t be solved by ordinary audits",
-        "url": "https://www.coindesk.com/opinion/2026/06/17/crypto-s-security-nightmare-won-t-be-solved-by-ordinary-audits"
+        "label": "CoinTelegraph",
+        "value": "Bitcoin price sets $64.5K week-to-date low as Strategy selling worries return",
+        "url": "https://cointelegraph.com/markets/bitcoin-price-sets-645k-week-to-date-low-as-strategy-selling-worries-return?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
-        "label": "CoinDesk",
-        "value": "Mexican billionaire with 70% of his investment portfolio in bitcoin says it's better than real estate",
-        "url": "https://www.coindesk.com/business/2026/06/17/mexican-billionaire-with-70-of-his-investment-portfolio-in-bitcoin-says-it-s-better-than-real-estate"
+        "label": "CoinTelegraph",
+        "value": "Ready USDC card halts non-EEA service after issuer change, users report",
+        "url": "https://cointelegraph.com/news/ready-usdc-card-service-halt-non-eea-report?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

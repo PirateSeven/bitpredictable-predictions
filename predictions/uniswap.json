@@ -1,6 +1,6 @@
 {
   "coinId": "uniswap",
-  "generatedAt": "2026-06-17T15:33:56.775130Z",
+  "generatedAt": "2026-06-17T15:50:52.815918Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -851,12 +851,12 @@
     {
       "time": "2026-06-17T17:00:00Z",
       "actualIndex": null,
-      "predictedIndex": 128.9312
+      "predictedIndex": 128.9313
     },
     {
       "time": "2026-06-17T18:00:00Z",
       "actualIndex": null,
-      "predictedIndex": 128.7948
+      "predictedIndex": 128.7949
     },
     {
       "time": "2026-06-17T19:00:00Z",
@@ -866,7 +866,7 @@
     {
       "time": "2026-06-17T20:00:00Z",
       "actualIndex": null,
-      "predictedIndex": 128.5904
+      "predictedIndex": 128.5905
     },
     {
       "time": "2026-06-17T21:00:00Z",
@@ -876,22 +876,22 @@
     {
       "time": "2026-06-17T22:00:00Z",
       "actualIndex": null,
-      "predictedIndex": 128.3713
+      "predictedIndex": 128.3712
     },
     {
       "time": "2026-06-17T23:00:00Z",
       "actualIndex": null,
-      "predictedIndex": 128.273
+      "predictedIndex": 128.2728
     },
     {
       "time": "2026-06-18T00:00:00Z",
       "actualIndex": null,
-      "predictedIndex": 128.155
+      "predictedIndex": 128.1548
     },
     {
       "time": "2026-06-18T01:00:00Z",
       "actualIndex": null,
-      "predictedIndex": 128.0954
+      "predictedIndex": 128.0952
     },
     {
       "time": "2026-06-18T02:00:00Z",
@@ -901,7 +901,7 @@
     {
       "time": "2026-06-18T03:00:00Z",
       "actualIndex": null,
-      "predictedIndex": 127.9131
+      "predictedIndex": 127.913
     },
     {
       "time": "2026-06-18T04:00:00Z",
@@ -911,67 +911,67 @@
     {
       "time": "2026-06-18T05:00:00Z",
       "actualIndex": null,
-      "predictedIndex": 127.714
+      "predictedIndex": 127.7139
     },
     {
       "time": "2026-06-18T06:00:00Z",
       "actualIndex": null,
-      "predictedIndex": 127.5891
+      "predictedIndex": 127.5889
     },
     {
       "time": "2026-06-18T07:00:00Z",
       "actualIndex": null,
-      "predictedIndex": 127.426
+      "predictedIndex": 127.4257
     },
     {
       "time": "2026-06-18T08:00:00Z",
       "actualIndex": null,
-      "predictedIndex": 127.3428
+      "predictedIndex": 127.3424
     },
     {
       "time": "2026-06-18T09:00:00Z",
       "actualIndex": null,
-      "predictedIndex": 127.2126
+      "predictedIndex": 127.2121
     },
     {
       "time": "2026-06-18T10:00:00Z",
       "actualIndex": null,
-      "predictedIndex": 127.1044
+      "predictedIndex": 127.104
     },
     {
       "time": "2026-06-18T11:00:00Z",
       "actualIndex": null,
-      "predictedIndex": 127.024
+      "predictedIndex": 127.0236
     },
     {
       "time": "2026-06-18T12:00:00Z",
       "actualIndex": null,
-      "predictedIndex": 126.9331
+      "predictedIndex": 126.9326
     },
     {
       "time": "2026-06-18T13:00:00Z",
       "actualIndex": null,
-      "predictedIndex": 126.8421
+      "predictedIndex": 126.8416
     },
     {
       "time": "2026-06-18T14:00:00Z",
       "actualIndex": null,
-      "predictedIndex": 126.7383
+      "predictedIndex": 126.7378
     },
     {
       "time": "2026-06-18T15:00:00Z",
       "actualIndex": null,
-      "predictedIndex": 126.6738
+      "predictedIndex": 126.6735
     }
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -1.8438,
-    "confidence": 0.5644
+    "changePercent24h": -0.38568953762824765,
+    "confidence": 0.5641
   },
   "commentary": {
-    "en": "Uniswap's predicted 24h direction is DOWN with a 1.8% decline, reflecting the current market sentiment. The Fear & Greed Index at 22 indicates extreme fear, and the recent news on security concerns and market volatility may contribute to Uniswap's downward trend. The short-term trend is sideways, but the Bollinger Band %B at 0.15 suggests a potential move towards the lower band.",
-    "ja": "Uniswapの24時間予想は下落、1.8％の下げ込みとなり、市場の気分を反映している。Fear & Greed Indexが22と極度の恐怖を示し、最近のニュースでセキュリティの懸念や市場の不安定さがUniswapの下落に貢献する可能性がある。短期の傾向は横ばいだが、ボリンジャー・バンド％Bが0.15と示すように、下方のバンドに移動する可能性がある。",
+    "en": "Uniswap's 24-hour direction is predicted to be DOWN with a 1.8% decline, reflecting the current market sentiment. The Fear & Greed Index remains in Extreme Fear territory, while the total crypto market cap has seen a slight decline. Uniswap's recent price increase may be short-lived given the bearish market conditions.",
+    "ja": "ユニスワップの24時間予測は下落 (-1.8%) となり、現在の市場情勢を反映している。恐怖と欲求不満指数は極度の恐怖の状態にあり、総暗号資産市場キャップはわずかに下がっている。ユニスワップの価格の上昇は短期的には短期間に終わる可能性があり、市場情勢は厳しい。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -995,33 +995,33 @@
       },
       {
         "label": "BTC 24 h return",
-        "value": "-0.50%",
+        "value": "-0.84%",
         "url": "https://www.coingecko.com/en/coins/bitcoin"
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-0.67%",
+        "value": "-0.51%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "81% bullish",
+        "value": "80% bullish",
         "url": "https://www.coingecko.com/en/coins/uniswap"
       },
       {
-        "label": "CoinDesk",
-        "value": "BitGo stock surges on $50 million share buyback as value languishes 65% below IPO price",
-        "url": "https://www.coindesk.com/markets/2026/06/17/bitgo-stock-surges-on-usd50-million-share-buyback-as-value-languishes-65-below-ipo-price"
+        "label": "CoinTelegraph",
+        "value": "Trace Finance raises $32M for cross-border stablecoin settlement expansion",
+        "url": "https://cointelegraph.com/news/trace-finance-cross-border-stablecoin-settlement-expansion?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
-        "label": "CoinDesk",
-        "value": "Crypto’s security nightmare won’t be solved by ordinary audits",
-        "url": "https://www.coindesk.com/opinion/2026/06/17/crypto-s-security-nightmare-won-t-be-solved-by-ordinary-audits"
+        "label": "CoinTelegraph",
+        "value": "Bitcoin price sets $64.5K week-to-date low as Strategy selling worries return",
+        "url": "https://cointelegraph.com/markets/bitcoin-price-sets-645k-week-to-date-low-as-strategy-selling-worries-return?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
-        "label": "CoinDesk",
-        "value": "Mexican billionaire with 70% of his investment portfolio in bitcoin says it's better than real estate",
-        "url": "https://www.coindesk.com/business/2026/06/17/mexican-billionaire-with-70-of-his-investment-portfolio-in-bitcoin-says-it-s-better-than-real-estate"
+        "label": "CoinTelegraph",
+        "value": "Ready USDC card halts non-EEA service after issuer change, users report",
+        "url": "https://cointelegraph.com/news/ready-usdc-card-service-halt-non-eea-report?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

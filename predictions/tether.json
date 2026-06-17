@@ -1,6 +1,6 @@
 {
   "coinId": "tether",
-  "generatedAt": "2026-06-17T15:33:56.775130Z",
+  "generatedAt": "2026-06-17T15:50:52.815918Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -861,7 +861,7 @@
     {
       "time": "2026-06-17T19:00:00Z",
       "actualIndex": null,
-      "predictedIndex": 99.9996
+      "predictedIndex": 99.9995
     },
     {
       "time": "2026-06-17T20:00:00Z",
@@ -946,12 +946,12 @@
     {
       "time": "2026-06-18T12:00:00Z",
       "actualIndex": null,
-      "predictedIndex": 100.006
+      "predictedIndex": 100.0061
     },
     {
       "time": "2026-06-18T13:00:00Z",
       "actualIndex": null,
-      "predictedIndex": 100.007
+      "predictedIndex": 100.0071
     },
     {
       "time": "2026-06-18T14:00:00Z",
@@ -961,17 +961,17 @@
     {
       "time": "2026-06-18T15:00:00Z",
       "actualIndex": null,
-      "predictedIndex": 100.0075
+      "predictedIndex": 100.0076
     }
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 0.0047,
+    "changePercent24h": 0.0048,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "Tether's flat direction is expected due to neutral RSI-14 and mid-band Bollinger Band %B. The recent news on BitGo's stock surge and Mexican billionaire's Bitcoin investment may have a limited impact on Tether's price. Overall, the market remains in extreme fear with a negative total crypto market cap change.",
-    "ja": "テザーの方向は、ニュートラルのRSI-14とミッドバンドのボリンジャー・バンド％Bの影響で、平坦の方向に予想される。ビットゴーの株価の急上昇やメキシコの億万長者がビットコイン投資の意見は、テザーの価格に限られた影響を与える可能性がある。総コインマーケットキャップの変化が否定的な状況は、極度の恐怖のままである。",
+    "en": "Tether (TETHER) is expected to remain flat in the next 24 hours with a predicted return of +0.0% due to neutral technical signals and a sideways short-term trend. The Fear & Greed Index at 22 indicates extreme fear in the market, which may influence Tether's price movement. Recent news on stablecoin settlement expansion and payment rails partnerships may have a neutral impact on Tether's price.",
+    "ja": "テザー（TETHER）は、次の24時間にflatで予想される+0.0%のリターンを示しています。これは中立的な技術シグナルと短期的なトレンドが横方向に動いていることによるものです。恐怖と欲求不満指数が22であることは、市場全体に恐怖感が広がっていることを示しており、テザーの価格動向に影響を与える可能性があります。安定コインの決済拡大やペイメントレールのパートナーシップに関する最近のニュースは、テザーの価格に中立的な影響を与える可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -995,12 +995,12 @@
       },
       {
         "label": "BTC 24 h return",
-        "value": "-0.50%",
+        "value": "-0.84%",
         "url": "https://www.coingecko.com/en/coins/bitcoin"
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-0.67%",
+        "value": "-0.51%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
@@ -1009,19 +1009,19 @@
         "url": "https://www.coingecko.com/en/coins/tether"
       },
       {
-        "label": "CoinDesk",
-        "value": "BitGo stock surges on $50 million share buyback as value languishes 65% below IPO price",
-        "url": "https://www.coindesk.com/markets/2026/06/17/bitgo-stock-surges-on-usd50-million-share-buyback-as-value-languishes-65-below-ipo-price"
+        "label": "CoinTelegraph",
+        "value": "Trace Finance raises $32M for cross-border stablecoin settlement expansion",
+        "url": "https://cointelegraph.com/news/trace-finance-cross-border-stablecoin-settlement-expansion?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
-        "label": "CoinDesk",
-        "value": "Crypto’s security nightmare won’t be solved by ordinary audits",
-        "url": "https://www.coindesk.com/opinion/2026/06/17/crypto-s-security-nightmare-won-t-be-solved-by-ordinary-audits"
+        "label": "CoinTelegraph",
+        "value": "Bitcoin price sets $64.5K week-to-date low as Strategy selling worries return",
+        "url": "https://cointelegraph.com/markets/bitcoin-price-sets-645k-week-to-date-low-as-strategy-selling-worries-return?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
-        "label": "CoinDesk",
-        "value": "Mexican billionaire with 70% of his investment portfolio in bitcoin says it's better than real estate",
-        "url": "https://www.coindesk.com/business/2026/06/17/mexican-billionaire-with-70-of-his-investment-portfolio-in-bitcoin-says-it-s-better-than-real-estate"
+        "label": "CoinTelegraph",
+        "value": "Ready USDC card halts non-EEA service after issuer change, users report",
+        "url": "https://cointelegraph.com/news/ready-usdc-card-service-halt-non-eea-report?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }
