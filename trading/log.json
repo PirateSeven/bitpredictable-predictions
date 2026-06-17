@@ -1,0 +1,67 @@
+{
+  "agentVersion": "crypto-ace-1.0.0",
+  "updatedAt": "2026-06-17T18:25:51.606558+00:00",
+  "exchange": "Binance Testnet",
+  "currency": "BTC",
+  "initialCapital": 1.0,
+  "currentValue": 1.0,
+  "performance": {
+    "totalReturnPct": -0.0,
+    "totalTrades": 1,
+    "winRate": 0.0,
+    "maxDrawdownPct": 0.04,
+    "sharpeRatio": 0.0,
+    "startDate": "2026-06-17T18:25:50.564393+00:00"
+  },
+  "weeklyStats": {
+    "wins": 0,
+    "losses": 1,
+    "winRate": 0.0,
+    "comment": {
+      "en": "Challenging week. 1 trades with 0% win rate. Staying disciplined.",
+      "ja": "\u53b3\u3057\u3044\u9031\u30021\u53d6\u5f15\u3001\u52dd\u73870%\u3002\u5e02\u5834\u74b0\u5883\u304c\u4e0d\u5229\u3067\u3057\u305f\u304c\u898f\u5f8b\u3092\u7dad\u6301\u3057\u3066\u3044\u307e\u3059\u3002"
+    }
+  },
+  "bestTrade": {
+    "symbol": "ETH",
+    "coin": "ethereum",
+    "pnlPct": -0.04,
+    "pnlBtc": -0.0,
+    "time": "2026-06-17T18:25:51.600833+00:00"
+  },
+  "currentStreak": {
+    "count": 1,
+    "type": "loss"
+  },
+  "currentPosition": null,
+  "equityCurve": [
+    {
+      "time": "2026-06-17T18:25:50.564393+00:00",
+      "value": 1.0,
+      "benchmarkBtc": 1.0
+    },
+    {
+      "time": "2026-06-17T18:25:51.600833+00:00",
+      "value": 1.0,
+      "benchmarkBtc": 1.0
+    }
+  ],
+  "recentTrades": [
+    {
+      "id": "f454c0ad",
+      "coin": "ethereum",
+      "symbol": "ETH",
+      "action": "sell",
+      "price": 0.02699,
+      "sizeBtc": 0.00135,
+      "time": "2026-06-17T18:25:51.600833+00:00",
+      "pnlBtc": -0.0,
+      "pnlPct": -0.04,
+      "signal": {
+        "direction": "up",
+        "changePercent24h": 5.0,
+        "confidence": 0.8
+      }
+    }
+  ]
+}
