@@ -1,6 +1,6 @@
 {
   "coinId": "paypal-usd",
-  "generatedAt": "2026-06-17T15:50:52.815918Z",
+  "generatedAt": "2026-06-17T18:00:09.268401Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.016524488542679402,
+    "changePercent24h": -0.021828487928592308,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "PayPal USD (PAYPAL-USD) is expected to remain flat with a 0.0% 24-hour direction, supported by neutral RSI-14 and mid-band Bollinger Band %B. The recent news highlights the expansion of cross-border stablecoin settlement and partnerships in the UAE payment rails, which may positively impact the PayPal USD. However, the overall market sentiment remains in extreme fear due to the decline in the total crypto market cap and Bitcoin price.",
-    "ja": "PayPal USD (PAYPAL-USD) は、0.0% の 24 時間の方向で平坦化し、中立的な RSI-14 と中間帯のボリンジャー バンド %B に支えられている。最近のニュースでは、クロス ボーダー ステーブル コイン セットルメントの拡大と UAE のペイメント ライルズのパートナーシップが、PayPal USD に積極的に影響する可能性がある。ただし、総コイン マーケット キャップとビットコインの価格の低下により、市場全体の感覚は極度の恐怖にあり続けている。",
+    "en": "Paypal USD is expected to remain flat in the next 24 hours with a -0.0% predicted direction, as the Fear & Greed Index indicates extreme fear in the market and the recent news of Sam Bankman-Fried's potential pardon and Bitcoin's week-to-date low may weigh on investor sentiment. The neutral RSI-14 reading and mid-band Bollinger Band %B also suggest a sideways trend. The recent news of Kalshi's software partner and Trace Finance's $32M funding may have limited impact on Paypal USD.",
+    "ja": "Paypal USD は来る24時間で-0.0%の予想方向で、極度の恐怖を示すFear & Greed IndexとSam Bankman-Friedの潜在的な赦免とビットコインの週間最低値が投資家の感情に影響を与える可能性があります。中立的なRSI-14の値と中間のボリンジャーバンド％Bも横方向の傾向を示しています。KalshiのソフトウェアパートナーとTrace Financeの$32Mの資金調達のニュースはPaypal USDに限られた影響を与える可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,28 +1000,28 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-0.51%",
+        "value": "-0.14%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "60% bullish",
+        "value": "43% bullish",
         "url": "https://www.coingecko.com/en/coins/paypal-usd"
       },
       {
         "label": "CoinTelegraph",
-        "value": "Trace Finance raises $32M for cross-border stablecoin settlement expansion",
-        "url": "https://cointelegraph.com/news/trace-finance-cross-border-stablecoin-settlement-expansion?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+        "value": "Kalshi adds software partner as it looks to boost prediction market surveillance",
+        "url": "https://cointelegraph.com/news/kalshi-partners-with-starcompliance-on-prediction-market-surveillance-tool-for-institutions?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
-        "value": "Bitcoin price sets $64.5K week-to-date low as Strategy selling worries return",
-        "url": "https://cointelegraph.com/markets/bitcoin-price-sets-645k-week-to-date-low-as-strategy-selling-worries-return?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+        "value": "US lawmakers warn against presidential pardon for Sam Bankman-Fried",
+        "url": "https://cointelegraph.com/news/resolution-donald-trump-against-pardon-sam-bankman-fried?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
-        "value": "Ready USDC card halts non-EEA service after issuer change, users report",
-        "url": "https://cointelegraph.com/news/ready-usdc-card-service-halt-non-eea-report?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+        "value": "Bybit lands on Singapore MAS Investor Alert List",
+        "url": "https://cointelegraph.com/news/bybit-singapore-mas-investor-alert-list?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

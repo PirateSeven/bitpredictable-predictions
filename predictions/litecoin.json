@@ -1,6 +1,6 @@
 {
   "coinId": "litecoin",
-  "generatedAt": "2026-06-17T15:50:52.815918Z",
+  "generatedAt": "2026-06-17T18:00:09.268401Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.5455535215041893,
+    "changePercent24h": -0.6553887470412421,
     "confidence": 0.4564
   },
   "commentary": {
-    "en": "Litecoin is experiencing a flat 24-hour direction with a 0.3% decline, as the Fear & Greed Index remains in Extreme Fear territory. The recent news of stablecoin settlement expansion and partnerships in the UAE may have a positive impact on the market, but the overall sentiment remains cautious. Litecoin's price is likely to remain stable in the short term.",
-    "ja": "リテコインは24時間の指標が0.3％の下方に動いており、恐怖と欲求不満指数は極度の恐怖の状態にあります。安定化コインの交換拡大やUAEのパートナーシップなど最近のニュースは市場に良い影響を与える可能性がありますが、総合的な感覚は慎重です。リテコインの価格は短期的には安定する可能性があります。",
+    "en": "The model predicts Litecoin will trade sideways over the next 24 hours with low confidence (45%). Price is near lower Bollinger Band support, where rebounds are historically more frequent. Community sentiment on CoinGecko is 86% bullish and the Fear & Greed Index reads \"Extreme Fear\" (22), diverging from the model's forecast, adding uncertainty.",
+    "ja": "モデルはLitecoinが今後24時間で横ばいで推移すると予測しています（信頼度: 低い 45%）。価格がボリンジャーバンド下限付近で、サポートからの反発が過去パターンより多く観察されます。CoinGeckoコミュニティでは86%が強気を示し、Fear & Greed指数は「Extreme Fear」（22）です。予測方向と乖離があり、不確実性が高まっています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,28 +1000,28 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-0.51%",
+        "value": "-0.14%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "78% bullish",
+        "value": "86% bullish",
         "url": "https://www.coingecko.com/en/coins/litecoin"
       },
       {
         "label": "CoinTelegraph",
-        "value": "Trace Finance raises $32M for cross-border stablecoin settlement expansion",
-        "url": "https://cointelegraph.com/news/trace-finance-cross-border-stablecoin-settlement-expansion?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+        "value": "Kalshi adds software partner as it looks to boost prediction market surveillance",
+        "url": "https://cointelegraph.com/news/kalshi-partners-with-starcompliance-on-prediction-market-surveillance-tool-for-institutions?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
-        "value": "Bitcoin price sets $64.5K week-to-date low as Strategy selling worries return",
-        "url": "https://cointelegraph.com/markets/bitcoin-price-sets-645k-week-to-date-low-as-strategy-selling-worries-return?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+        "value": "US lawmakers warn against presidential pardon for Sam Bankman-Fried",
+        "url": "https://cointelegraph.com/news/resolution-donald-trump-against-pardon-sam-bankman-fried?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
-        "value": "Ready USDC card halts non-EEA service after issuer change, users report",
-        "url": "https://cointelegraph.com/news/ready-usdc-card-service-halt-non-eea-report?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+        "value": "Bybit lands on Singapore MAS Investor Alert List",
+        "url": "https://cointelegraph.com/news/bybit-singapore-mas-investor-alert-list?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

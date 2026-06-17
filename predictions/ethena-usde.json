@@ -1,6 +1,6 @@
 {
   "coinId": "ethena-usde",
-  "generatedAt": "2026-06-17T15:50:52.815918Z",
+  "generatedAt": "2026-06-17T18:00:09.268401Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.0049,
+    "changePercent24h": -0.016371854856503255,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "Ethena USDe (ETHENA-USDE) is expected to remain flat in the next 24 hours with a 95% confidence level. The current market context, including the Fear & Greed Index at 22 and the total crypto market cap 24h change of -0.51%, suggests a cautious outlook. The recent news on cross-border stablecoin settlement expansion and Bitcoin price setting a week-to-date low may impact ETHENA-USDE's performance.",
-    "ja": "ETHENA-USDEは来日24時間で95％の確実性でフラットの動きが予想されます。Fear & Greed Indexが22と総暗号資産マーケットキャップ24時間変化が-0.51％の市場状況は、慎重な展開を示しています。クロスボーダー安定化コインの拡大とビットコイン価格が週間最低値を設定したニュースは、ETHENA-USDEのパフォーマンスに影響を与える可能性があります。",
+    "en": "The model predicts Ethena USDe will trade sideways over the next 24 hours with high confidence (95%). Volume is elevated at 1.5× the daily average, amplifying the directional signal. Market sentiment stands at \"Extreme Fear\" (Fear & Greed: 22); the broader crypto market moved -0.1% over the past 24 hours.",
+    "ja": "モデルはEthena USDeが今後24時間で横ばいで推移すると予測しています（信頼度: 高い 95%）。出来高が平均の1.5倍と高水準で、方向性シグナルを強化しています。Fear & Greed指数は「Extreme Fear」（22）で、暗号資産市場全体の24時間変動率は-0.1%です。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,23 +1000,23 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-0.51%",
+        "value": "-0.14%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinTelegraph",
-        "value": "Trace Finance raises $32M for cross-border stablecoin settlement expansion",
-        "url": "https://cointelegraph.com/news/trace-finance-cross-border-stablecoin-settlement-expansion?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+        "value": "Kalshi adds software partner as it looks to boost prediction market surveillance",
+        "url": "https://cointelegraph.com/news/kalshi-partners-with-starcompliance-on-prediction-market-surveillance-tool-for-institutions?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
-        "value": "Bitcoin price sets $64.5K week-to-date low as Strategy selling worries return",
-        "url": "https://cointelegraph.com/markets/bitcoin-price-sets-645k-week-to-date-low-as-strategy-selling-worries-return?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+        "value": "US lawmakers warn against presidential pardon for Sam Bankman-Fried",
+        "url": "https://cointelegraph.com/news/resolution-donald-trump-against-pardon-sam-bankman-fried?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
-        "value": "Ready USDC card halts non-EEA service after issuer change, users report",
-        "url": "https://cointelegraph.com/news/ready-usdc-card-service-halt-non-eea-report?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+        "value": "Bybit lands on Singapore MAS Investor Alert List",
+        "url": "https://cointelegraph.com/news/bybit-singapore-mas-investor-alert-list?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "coinId": "near",
-  "generatedAt": "2026-06-17T15:50:52.815918Z",
+  "generatedAt": "2026-06-17T18:00:09.268401Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -3.3643692587456964,
+    "changePercent24h": -3.095442195531088,
     "confidence": 0.8093
   },
   "commentary": {
-    "en": "NEAR Protocol (NEAR) is expected to decline by -3.9% in the next 24 hours, with a confidence level of 80%. The current market sentiment is characterized by extreme fear, with the Fear & Greed Index at 22. The recent news on cross-border stablecoin settlement expansion and Bitcoin's price decline may contribute to the bearish sentiment.",
-    "ja": "NEAR Protocol (NEAR) は、次の24時間で-3.9%の下落が予想され、信頼度は80%である。Fear & Greed Indexは22で、極度の恐れの感情が市場に広がっている。近日までのニュースで、クロスボーダー安定コインの決済拡大とビットコインの価格下落が、悲観的な感情に寄与している。",
+    "en": "NEAR Protocol's price is expected to decline by 3.9% in the next 24 hours, driven by the overall downtrend in the short-term trend and the recent negative market sentiment. The Fear & Greed Index remains in extreme fear territory, which may exacerbate the decline. The recent news about Sam Bankman-Fried and Bybit's listing on the Singapore MAS Investor Alert List may also contribute to the negative sentiment.",
+    "ja": "NEAR Protocolの価格は、短期傾向の下降と最近の負の市場感情により、来週の24時間で3.9%下落する可能性があります。恐怖と欲求不満指数は極度の恐怖の領域にあり、価格の下落を悪化させる可能性があります。サム・バンクマン=フリードとビットのシンガポールMAS投資警戒リストへのリストのニュースも、負の感情を悪化させる可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,28 +1000,28 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-0.51%",
+        "value": "-0.14%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "88% bullish",
+        "value": "93% bullish",
         "url": "https://www.coingecko.com/en/coins/near"
       },
       {
         "label": "CoinTelegraph",
-        "value": "Trace Finance raises $32M for cross-border stablecoin settlement expansion",
-        "url": "https://cointelegraph.com/news/trace-finance-cross-border-stablecoin-settlement-expansion?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+        "value": "Kalshi adds software partner as it looks to boost prediction market surveillance",
+        "url": "https://cointelegraph.com/news/kalshi-partners-with-starcompliance-on-prediction-market-surveillance-tool-for-institutions?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
-        "value": "Bitcoin price sets $64.5K week-to-date low as Strategy selling worries return",
-        "url": "https://cointelegraph.com/markets/bitcoin-price-sets-645k-week-to-date-low-as-strategy-selling-worries-return?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+        "value": "US lawmakers warn against presidential pardon for Sam Bankman-Fried",
+        "url": "https://cointelegraph.com/news/resolution-donald-trump-against-pardon-sam-bankman-fried?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
-        "value": "Ready USDC card halts non-EEA service after issuer change, users report",
-        "url": "https://cointelegraph.com/news/ready-usdc-card-service-halt-non-eea-report?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+        "value": "Bybit lands on Singapore MAS Investor Alert List",
+        "url": "https://cointelegraph.com/news/bybit-singapore-mas-investor-alert-list?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

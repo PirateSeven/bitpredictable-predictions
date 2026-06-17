@@ -1,6 +1,6 @@
 {
   "coinId": "bitcoin",
-  "generatedAt": "2026-06-17T15:50:52.815918Z",
+  "generatedAt": "2026-06-17T18:00:09.268401Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.8458501546416382,
+    "changePercent24h": -1.184513730416041,
     "confidence": 0.4062
   },
   "commentary": {
-    "en": "Bitcoin's flat direction prediction holds a 40% confidence level, with the RSI-14 and Bollinger Band %B indicating a neutral stance. The Fear & Greed Index remains in Extreme Fear territory, while the CoinGecko community is 75% bullish. Recent news includes mixed developments in the crypto space, with some positive partnerships and others highlighting market volatility.",
-    "ja": "ビットコインの方向予測は40％の確信度でフラットを予測しており、RSI-14とボリンジャーバンド％Bは中立的な立場を示しています。恐怖と欲求不満指数はエクストリーム・フィアの領域にあり、CoinGeckoコミュニティは75％がバ Bullishです。最近のニュースには、cryptospaceで混在する開発があり、市場の波動を強調しています。",
+    "en": "Bitcoin's 24-hour direction is predicted to be flat with a -0.2% confidence, as the RSI-14 and Bollinger Band %B suggest a neutral market. The Fear & Greed Index remains in extreme fear territory, while the CoinGecko community shows 74% bullish sentiment. Recent news includes mixed developments in the crypto space, with some exchanges facing regulatory scrutiny.",
+    "ja": "ビットコインの24時間の方向性は、-0.2%の確率でフラットと予想され、RSI-14とボリンジャー・バンド %Bは中性的な市場を示しています。恐怖と欲求不満指数は極度の恐怖の領域にあり、CoinGeckoコミュニティは74％がバブル的な意見を示しています。最近のニュースには、エクスチェンジが規制の注意を引き付けるなど、混乱のある状況が続いています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,28 +1000,28 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-0.51%",
+        "value": "-0.14%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "75% bullish",
+        "value": "74% bullish",
         "url": "https://www.coingecko.com/en/coins/bitcoin"
       },
       {
         "label": "CoinTelegraph",
-        "value": "Trace Finance raises $32M for cross-border stablecoin settlement expansion",
-        "url": "https://cointelegraph.com/news/trace-finance-cross-border-stablecoin-settlement-expansion?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+        "value": "Kalshi adds software partner as it looks to boost prediction market surveillance",
+        "url": "https://cointelegraph.com/news/kalshi-partners-with-starcompliance-on-prediction-market-surveillance-tool-for-institutions?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
-        "value": "Bitcoin price sets $64.5K week-to-date low as Strategy selling worries return",
-        "url": "https://cointelegraph.com/markets/bitcoin-price-sets-645k-week-to-date-low-as-strategy-selling-worries-return?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+        "value": "US lawmakers warn against presidential pardon for Sam Bankman-Fried",
+        "url": "https://cointelegraph.com/news/resolution-donald-trump-against-pardon-sam-bankman-fried?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
-        "value": "Ready USDC card halts non-EEA service after issuer change, users report",
-        "url": "https://cointelegraph.com/news/ready-usdc-card-service-halt-non-eea-report?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+        "value": "Bybit lands on Singapore MAS Investor Alert List",
+        "url": "https://cointelegraph.com/news/bybit-singapore-mas-investor-alert-list?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

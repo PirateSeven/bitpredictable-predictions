@@ -1,6 +1,6 @@
 {
   "coinId": "ripple",
-  "generatedAt": "2026-06-17T15:50:52.815918Z",
+  "generatedAt": "2026-06-17T18:00:09.268401Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -1.5195314333206222,
+    "changePercent24h": -1.809234835647727,
     "confidence": 0.6315
   },
   "commentary": {
-    "en": "XRP's 24-hour direction is predicted to be down by 0.9% with a confidence of 63%. This forecast is supported by a downtrend in the short-term trend and a lower Bollinger Band %B. XRP's price movement is also influenced by the overall crypto market's decline, with a 0.51% drop in the total crypto market cap.",
-    "ja": "リップルは24時間の予想方向が下がり0.9%で、信頼度は63%です。この予測は短期的な傾向の下落とボリンジャーバンド％Bの下方指標によって裏付けられています。リップルの価格動向は、総暗号資産市場の下落（-0.51%）にも影響されています。",
+    "en": "XRP's price is predicted to decline by 0.9% in the next 24 hours, with a confidence level of 63%. The current market context suggests a downtrend, with the Fear & Greed Index at 22, indicating extreme fear. XRP's recent price movement is influenced by the overall crypto market, which is experiencing a decline.",
+    "ja": "XRPの価格は、次の24時間で0.9％下落する予想されています。信頼度は63％です。現在の市場状況は、Fear & Greed Indexが22で極度の恐れを示すように、下降傾向を示しています。XRPの価格動向は、総合暗号市場の下落に影響を受けています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,28 +1000,28 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-0.51%",
+        "value": "-0.14%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "59% bullish",
+        "value": "61% bullish",
         "url": "https://www.coingecko.com/en/coins/ripple"
       },
       {
         "label": "CoinTelegraph",
-        "value": "Trace Finance raises $32M for cross-border stablecoin settlement expansion",
-        "url": "https://cointelegraph.com/news/trace-finance-cross-border-stablecoin-settlement-expansion?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+        "value": "Kalshi adds software partner as it looks to boost prediction market surveillance",
+        "url": "https://cointelegraph.com/news/kalshi-partners-with-starcompliance-on-prediction-market-surveillance-tool-for-institutions?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
-        "value": "Bitcoin price sets $64.5K week-to-date low as Strategy selling worries return",
-        "url": "https://cointelegraph.com/markets/bitcoin-price-sets-645k-week-to-date-low-as-strategy-selling-worries-return?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+        "value": "US lawmakers warn against presidential pardon for Sam Bankman-Fried",
+        "url": "https://cointelegraph.com/news/resolution-donald-trump-against-pardon-sam-bankman-fried?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
-        "value": "Ready USDC card halts non-EEA service after issuer change, users report",
-        "url": "https://cointelegraph.com/news/ready-usdc-card-service-halt-non-eea-report?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+        "value": "Bybit lands on Singapore MAS Investor Alert List",
+        "url": "https://cointelegraph.com/news/bybit-singapore-mas-investor-alert-list?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }
