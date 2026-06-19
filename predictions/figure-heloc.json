@@ -1,42 +1,27 @@
 {
   "coinId": "figure-heloc",
-  "generatedAt": "2026-06-19T03:00:08.440807Z",
+  "generatedAt": "2026-06-19T06:00:08.155071Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
-      "time": "2026-06-12T04:00:00Z",
+      "time": "2026-06-12T07:00:00Z",
       "actualIndex": 100.0,
       "predictedIndex": 100.0
     },
     {
-      "time": "2026-06-12T05:00:00Z",
-      "actualIndex": 100.0,
-      "predictedIndex": 99.9985
-    },
-    {
-      "time": "2026-06-12T06:00:00Z",
-      "actualIndex": 100.0,
-      "predictedIndex": 99.9986
-    },
-    {
-      "time": "2026-06-12T07:00:00Z",
-      "actualIndex": 100.0,
-      "predictedIndex": 99.9986
-    },
-    {
       "time": "2026-06-12T08:00:00Z",
       "actualIndex": 100.0,
-      "predictedIndex": 99.9985
+      "predictedIndex": 99.9984
     },
     {
       "time": "2026-06-12T09:00:00Z",
       "actualIndex": 100.0,
-      "predictedIndex": 99.9985
+      "predictedIndex": 99.9984
     },
     {
       "time": "2026-06-12T10:00:00Z",
       "actualIndex": 100.0,
-      "predictedIndex": 99.9985
+      "predictedIndex": 99.9984
     },
     {
       "time": "2026-06-12T11:00:00Z",
@@ -56,27 +41,27 @@
     {
       "time": "2026-06-12T14:00:00Z",
       "actualIndex": 100.0013,
-      "predictedIndex": 99.9998
+      "predictedIndex": 99.9999
     },
     {
       "time": "2026-06-12T15:00:00Z",
       "actualIndex": 100.0013,
-      "predictedIndex": 99.9997
+      "predictedIndex": 99.9999
     },
     {
       "time": "2026-06-12T16:00:00Z",
       "actualIndex": 100.0017,
-      "predictedIndex": 99.9997
+      "predictedIndex": 99.9999
     },
     {
       "time": "2026-06-12T17:00:00Z",
       "actualIndex": 100.1117,
-      "predictedIndex": 100.0002
+      "predictedIndex": 100.0003
     },
     {
       "time": "2026-06-12T18:00:00Z",
       "actualIndex": 100.104,
-      "predictedIndex": 100.1102
+      "predictedIndex": 100.1103
     },
     {
       "time": "2026-06-12T19:00:00Z",
@@ -86,17 +71,17 @@
     {
       "time": "2026-06-12T20:00:00Z",
       "actualIndex": 100.2522,
-      "predictedIndex": 100.2385
+      "predictedIndex": 100.2384
     },
     {
       "time": "2026-06-12T21:00:00Z",
       "actualIndex": 100.2517,
-      "predictedIndex": 100.2511
+      "predictedIndex": 100.251
     },
     {
       "time": "2026-06-12T22:00:00Z",
       "actualIndex": 100.2509,
-      "predictedIndex": 100.2507
+      "predictedIndex": 100.2505
     },
     {
       "time": "2026-06-12T23:00:00Z",
@@ -106,12 +91,12 @@
     {
       "time": "2026-06-13T00:00:00Z",
       "actualIndex": 100.4688,
-      "predictedIndex": 100.3133
+      "predictedIndex": 100.3132
     },
     {
       "time": "2026-06-13T01:00:00Z",
       "actualIndex": 100.4688,
-      "predictedIndex": 100.468
+      "predictedIndex": 100.4679
     },
     {
       "time": "2026-06-13T02:00:00Z",
@@ -126,12 +111,12 @@
     {
       "time": "2026-06-13T04:00:00Z",
       "actualIndex": 100.4698,
-      "predictedIndex": 100.4688
+      "predictedIndex": 100.4689
     },
     {
       "time": "2026-06-13T05:00:00Z",
       "actualIndex": 100.4698,
-      "predictedIndex": 100.4688
+      "predictedIndex": 100.4689
     },
     {
       "time": "2026-06-13T06:00:00Z",
@@ -845,133 +830,148 @@
     },
     {
       "time": "2026-06-19T04:00:00Z",
-      "actualIndex": null,
+      "actualIndex": 98.2714,
       "predictedIndex": 98.266
     },
     {
       "time": "2026-06-19T05:00:00Z",
-      "actualIndex": null,
-      "predictedIndex": 98.2659
+      "actualIndex": 98.2714,
+      "predictedIndex": 98.2657
     },
     {
       "time": "2026-06-19T06:00:00Z",
-      "actualIndex": null,
-      "predictedIndex": 98.2629
+      "actualIndex": 98.2714,
+      "predictedIndex": 98.265
     },
     {
       "time": "2026-06-19T07:00:00Z",
       "actualIndex": null,
-      "predictedIndex": 98.2584
+      "predictedIndex": 98.2644
     },
     {
       "time": "2026-06-19T08:00:00Z",
       "actualIndex": null,
-      "predictedIndex": 98.2603
+      "predictedIndex": 98.2644
     },
     {
       "time": "2026-06-19T09:00:00Z",
       "actualIndex": null,
-      "predictedIndex": 98.2601
+      "predictedIndex": 98.2606
     },
     {
       "time": "2026-06-19T10:00:00Z",
       "actualIndex": null,
-      "predictedIndex": 98.2613
+      "predictedIndex": 98.2551
     },
     {
       "time": "2026-06-19T11:00:00Z",
       "actualIndex": null,
-      "predictedIndex": 98.2617
+      "predictedIndex": 98.2551
     },
     {
       "time": "2026-06-19T12:00:00Z",
       "actualIndex": null,
-      "predictedIndex": 98.2661
+      "predictedIndex": 98.2521
     },
     {
       "time": "2026-06-19T13:00:00Z",
       "actualIndex": null,
-      "predictedIndex": 98.2655
+      "predictedIndex": 98.253
     },
     {
       "time": "2026-06-19T14:00:00Z",
       "actualIndex": null,
-      "predictedIndex": 98.2665
+      "predictedIndex": 98.253
     },
     {
       "time": "2026-06-19T15:00:00Z",
       "actualIndex": null,
-      "predictedIndex": 98.2687
+      "predictedIndex": 98.2556
     },
     {
       "time": "2026-06-19T16:00:00Z",
       "actualIndex": null,
-      "predictedIndex": 98.2693
+      "predictedIndex": 98.2536
     },
     {
       "time": "2026-06-19T17:00:00Z",
       "actualIndex": null,
-      "predictedIndex": 98.2672
+      "predictedIndex": 98.2547
     },
     {
       "time": "2026-06-19T18:00:00Z",
       "actualIndex": null,
-      "predictedIndex": 98.2671
+      "predictedIndex": 98.2549
     },
     {
       "time": "2026-06-19T19:00:00Z",
       "actualIndex": null,
-      "predictedIndex": 98.2692
+      "predictedIndex": 98.255
     },
     {
       "time": "2026-06-19T20:00:00Z",
       "actualIndex": null,
-      "predictedIndex": 98.2683
+      "predictedIndex": 98.2521
     },
     {
       "time": "2026-06-19T21:00:00Z",
       "actualIndex": null,
-      "predictedIndex": 98.2663
+      "predictedIndex": 98.2495
     },
     {
       "time": "2026-06-19T22:00:00Z",
       "actualIndex": null,
-      "predictedIndex": 98.2693
+      "predictedIndex": 98.2516
     },
     {
       "time": "2026-06-19T23:00:00Z",
       "actualIndex": null,
-      "predictedIndex": 98.2741
+      "predictedIndex": 98.2484
     },
     {
       "time": "2026-06-20T00:00:00Z",
       "actualIndex": null,
-      "predictedIndex": 98.275
+      "predictedIndex": 98.2467
     },
     {
       "time": "2026-06-20T01:00:00Z",
       "actualIndex": null,
-      "predictedIndex": 98.2754
+      "predictedIndex": 98.2494
     },
     {
       "time": "2026-06-20T02:00:00Z",
       "actualIndex": null,
-      "predictedIndex": 98.2733
+      "predictedIndex": 98.2532
     },
     {
       "time": "2026-06-20T03:00:00Z",
       "actualIndex": null,
-      "predictedIndex": 98.2742
+      "predictedIndex": 98.2542
+    },
+    {
+      "time": "2026-06-20T04:00:00Z",
+      "actualIndex": null,
+      "predictedIndex": 98.2552
+    },
+    {
+      "time": "2026-06-20T05:00:00Z",
+      "actualIndex": null,
+      "predictedIndex": 98.251
+    },
+    {
+      "time": "2026-06-20T06:00:00Z",
+      "actualIndex": null,
+      "predictedIndex": 98.2516
     }
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.17575824617913827,
-    "confidence": 0.8919
+    "changePercent24h": -0.08360180435623119,
+    "confidence": 0.8616
   },
   "commentary": {
-    "en": "FIGURE-HELOC is predicted to be flat with a 0.0% 24h direction, as indicated by its neutral RSI-14 reading and mid-band Bollinger Band %B. The high volume ratio and sideways short-term trend suggest a lack of momentum. The overall market context remains bearish, with the Fear & Greed Index at Extreme Fear.",
-    "ja": "FIGURE-HELOC は、ニュートラルのRSI-14の値と中間のボリンジャー・バンド％Bの値から、0.0％の24時間の方向性が予測されます。高いボリューム・レシオと短期のトレンドが横方向に動いていることから、動きのない状況が続いているようです。全体的な市場状況は、恐れの指数が極度の恐れにあります。",
+    "en": "Figure Heloc (FIGURE-HELOC) is expected to remain flat with a 24-hour direction of -0.0% due to neutral technical signals and a high volume ratio. The Fear & Greed Index at 14 indicates extreme fear in the market, which may impact FIGURE-HELOC's price. The recent news on Algorand's quantum resilience and Celsius' settlement may have limited direct impact on FIGURE-HELOC.",
+    "ja": "Figure Heloc (FIGURE-HELOC) の24時間の動向は、-0.0%と予想されます。中立的な技術指標と高いボリューム比率により、価格は変化しない可能性があります。恐怖と欲求不満指数が14で、市場全体が恐怖の状態にあるため、FIGURE-HELOCの価格に影響を与える可能性があります。Algorandの量子抵抗性とCelsiusの決済に関する最近のニュースは、FIGURE-HELOCに直接影響を与える可能性は低いです。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -985,22 +985,22 @@
       },
       {
         "label": "Bollinger Band %B",
-        "value": "0.37 (mid range)",
+        "value": "0.41 (mid range)",
         "url": null
       },
       {
         "label": "Volume (24 h ratio)",
-        "value": "3.4× average",
+        "value": "2.4× average",
         "url": null
       },
       {
         "label": "BTC 24 h return",
-        "value": "-2.64%",
+        "value": "-1.96%",
         "url": "https://www.coingecko.com/en/coins/bitcoin"
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-2.33%",
+        "value": "-1.72%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
@@ -1010,18 +1010,18 @@
       },
       {
         "label": "CoinTelegraph",
-        "value": "Celsius’ Mashinsky gets permanent trading ban in CFTC settlement",
-        "url": "https://cointelegraph.com/news/cftc-permanently-bans-celsius-mashinsky-from-trading?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+        "value": "Algorand plans ‘broad quantum resilience’ by 2027",
+        "url": "https://cointelegraph.com/news/algorand-plans-broad-quantum-resilience-by-2027?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
-        "value": "Ether analysts predict another ‘selling wave’ as ETH struggles to overcome $1.7K",
-        "url": "https://cointelegraph.com/markets/ether-below-17k-gains-interest-as-analysts-warn-of-another-selling-wave?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+        "value": "Microsoft warns users of 'Crypto Clipper' malware spread via USB drives",
+        "url": "https://cointelegraph.com/news/microsoft-alerts-users-to-crypto-clipper-windows-malware?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
-        "value": "Malta proposes DeFi rulebook covering DAOs under MiCA-era framework",
-        "url": "https://cointelegraph.com/news/malta-defi-framework-daos-software-based-organizations-mica?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+        "value": "US crypto ETFs are pulling Bitcoiners into TradFi: BlackRock's Jay Jacobs",
+        "url": "https://cointelegraph.com/news/blackrocks-ibit-is-pulling-bitcoiners-into-traditional-finance-exec-says?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }
