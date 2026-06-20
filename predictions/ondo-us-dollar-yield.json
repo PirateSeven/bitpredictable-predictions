@@ -1,6 +1,6 @@
 {
   "coinId": "ondo-us-dollar-yield",
-  "generatedAt": "2026-06-20T07:00:08.209318Z",
+  "generatedAt": "2026-06-20T08:00:07.602937Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 0.424834257637874,
-    "confidence": 0.9067
+    "changePercent24h": 0.42903422841663735,
+    "confidence": 0.9073
   },
   "commentary": {
-    "en": "ONDO-US-DOLLAR-YIELD is expected to remain flat in the next 24 hours with a confidence level of 82%. The asset's neutral RSI-14 reading and mid-band Bollinger Band %B suggest a stable price. However, the low volume ratio may indicate a lack of market participation.",
-    "ja": "ONDO-US-DOLLAR-YIELDは、来日24時間で0.0%の変動を予想し、信頼度は82%です。RSI-14とボリンジャーバンドのパーセンテージBは中立的な値を示しており、安定した価格を示唆しています。ただし、低いボリューム比率は市場の参加不足を示唆しています。",
+    "en": "ONDO-US-DOLLAR-YIELD is expected to remain flat with a 0.0% change in the next 24 hours, based on technical signals. The Fear & Greed Index at 23 indicates extreme fear in the market, which may influence investor sentiment. The recent news on tokenization and prediction markets may have a limited impact on ONDO-US-DOLLAR-YIELD.",
+    "ja": "ONDO-US-DOLLAR-YIELDは、来日24時間で0.0％の変化が予想され、技術指標に基づいています。恐怖と欲求不満指数が23で極度の恐怖を示しているため、投資家の動向に影響を与える可能性があります。トークナイズや予測市場に関する最近のニュースは、ONDO-US-DOLLAR-YIELDに限りつく影響を与える可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,8 +1000,13 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+1.17%",
+        "value": "+1.46%",
         "url": "https://www.coingecko.com/en/global-charts"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Philippine SEC signals readiness for RWA tokenization",
+        "url": "https://cointelegraph.com/news/philippine-sec-rwa-tokenization-readiness?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1012,11 +1017,6 @@
         "label": "CoinTelegraph",
         "value": "S token drops 5% as 3 former execs resign from Sonic Labs board",
         "url": "https://cointelegraph.com/news/s-token-drops-5-as-3-former-execs-resign-from-sonic-labs-board?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Charles Schwab to enter prediction markets with S&P 500 wagers: WSJ",
-        "url": "https://cointelegraph.com/news/charles-schwab-prediction-markets-sp500-wagers?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "coinId": "binancecoin",
-  "generatedAt": "2026-06-20T07:00:08.209318Z",
+  "generatedAt": "2026-06-20T08:00:07.602937Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 0.6775239872671005,
-    "confidence": 0.7641
+    "changePercent24h": 0.6421192321554231,
+    "confidence": 0.7547
   },
   "commentary": {
-    "en": "BNB's 24-hour direction is predicted to be flat with a confidence of 43%, as the RSI-14 is neutral at 59 and the Bollinger Band %B is at 0.85, indicating a potential upper band squeeze. The recent news on crypto kidnappers pleading guilty and Charles Schwab entering prediction markets may impact investor sentiment, but the Fear & Greed Index remains at extreme fear. The short-term trend is sideways, with a 24-hour return of +1.29%.",
-    "ja": "ビナンスコインの24時間の方向は、信頼度43%でフラットと予測されます。RSI-14は59で中立的であり、ボリンジャー・バンド %Bは0.85で、上限バンドの圧縮を示唆しています。最近のニュースでは、Crypto犯罪者が8億ドルを奪ったミネソタの家族が有罪判決を受け、チャールズ・シュワブが予測市場に参入することが発表されましたが、恐怖と欲求不満指数は極度の恐怖のままです。短期のトレンドは横方向で、24時間のリターンは+1.29%です。",
+    "en": "BNB is expected to trade flat with a minor 0.1% increase over the next 24 hours, with a confidence level of 43%. The current RSI-14 reading of 59 indicates a neutral sentiment, while the Bollinger Band %B of 0.85 suggests the price is near the upper band. The recent news on tokenization and prediction markets may have a limited impact on BNB's price.",
+    "ja": "ビナンスコインは、次の24時間で0.1%の増加が予想され、信頼度は43%です。現在のRSI-14の値は59で、中立的な感情を示しています。ボリンジャー・バンドの％Bは0.85で、価格は上限に近いことを示しています。トークン化や予測市場に関する最近のニュースはビナンスコインの価格に限られた影響を与える可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+1.17%",
+        "value": "+1.46%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "60% bullish",
         "url": "https://www.coingecko.com/en/coins/binancecoin"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Philippine SEC signals readiness for RWA tokenization",
+        "url": "https://cointelegraph.com/news/philippine-sec-rwa-tokenization-readiness?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "S token drops 5% as 3 former execs resign from Sonic Labs board",
         "url": "https://cointelegraph.com/news/s-token-drops-5-as-3-former-execs-resign-from-sonic-labs-board?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Charles Schwab to enter prediction markets with S&P 500 wagers: WSJ",
-        "url": "https://cointelegraph.com/news/charles-schwab-prediction-markets-sp500-wagers?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "coinId": "whitebit",
-  "generatedAt": "2026-06-20T07:00:08.209318Z",
+  "generatedAt": "2026-06-20T08:00:07.602937Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 0.6363670346393288,
-    "confidence": 0.7136
+    "changePercent24h": 0.5992916618217848,
+    "confidence": 0.7011
   },
   "commentary": {
-    "en": "WhiteBIT Coin (WHITEBIT) is expected to experience a flat 24-hour period with a 27% confidence level, as indicated by the technical signals. The Fear & Greed Index remains at an extreme fear level, and the recent news has not provided significant bullish momentum. The overall market context suggests a cautious approach.",
-    "ja": "WHITEBIT (WHITEBIT) は24時間でフラットな動きを経験する可能性があり、信頼度は27%である。恐怖と欲求不満指数は極度の恐怖の状態であり、最近のニュースは大きなバ Bullish な動きをもたらしていない。総市場状況からみると、慎重なアプローチが必要である。",
+    "en": "WhiteBIT Coin's (WHITEBIT) 24-hour return is +1.23%, with a flat predicted direction and neutral RSI-14 at 58. The Fear & Greed Index remains at 23, indicating extreme fear in the market. With recent news focusing on regulatory developments and market trends, WHITEBIT's price movement may be influenced by broader market sentiment.",
+    "ja": "WHITEBITの24時間リターンは+1.23%で、予想される24時間の方向はフラット、RSI-14は58で中立です。Fear & Greed Indexは23で、市場全体に恐怖が広がっています。最近のニュースは規制開発と市場トレンドに焦点を当てています。WHITEBITの価格動向は、より広範な市場感情に影響を受ける可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+1.17%",
+        "value": "+1.46%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "0% bullish",
         "url": "https://www.coingecko.com/en/coins/whitebit"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Philippine SEC signals readiness for RWA tokenization",
+        "url": "https://cointelegraph.com/news/philippine-sec-rwa-tokenization-readiness?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "S token drops 5% as 3 former execs resign from Sonic Labs board",
         "url": "https://cointelegraph.com/news/s-token-drops-5-as-3-former-execs-resign-from-sonic-labs-board?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Charles Schwab to enter prediction markets with S&P 500 wagers: WSJ",
-        "url": "https://cointelegraph.com/news/charles-schwab-prediction-markets-sp500-wagers?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

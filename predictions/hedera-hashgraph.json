@@ -1,6 +1,6 @@
 {
   "coinId": "hedera-hashgraph",
-  "generatedAt": "2026-06-20T07:00:08.209318Z",
+  "generatedAt": "2026-06-20T08:00:07.602937Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 0.44558621654160346,
-    "confidence": 0.5578
+    "changePercent24h": 0.39823726108317137,
+    "confidence": 0.5255
   },
   "commentary": {
-    "en": "Hedera's flat 24h direction prediction with a confidence of 27% is based on neutral RSI-14 and mid-band Bollinger Band %B. The recent news on the crypto market, including the guilty plea of crypto kidnappers and Charles Schwab's entry into prediction markets, may have a minimal impact on HEDERA-HASHGRAPH's price. The overall crypto market is experiencing a slight increase, with the Fear & Greed Index at 23.",
-    "ja": "ヘダラハッシュグラフの24時間方向予測は、27％の確率でフラットである。これは中立的なRSI-14と中間バンドのボリンジャーバンド％Bに基づいている。最近のニュースである犯罪者が8億ドルを強奪した事件の有罪判決やチャールズシュワブが予測市場に参入するニュースは、ヘダラハッシュグラフの価格に影響を与える可能性は低い。 Fear & Greed Indexは23で、総暗号資産市場はわずかに上昇している。",
+    "en": "The model predicts Hedera will trade sideways over the next 24 hours with low confidence (27%). Price moved +1.15% in the past 24 hours with volume at 0.9× average. Community sentiment on CoinGecko is 100% bullish and the Fear & Greed Index reads \"Extreme Fear\" (23), diverging from the model's forecast, adding uncertainty.",
+    "ja": "モデルはHederaが今後24時間で横ばいで推移すると予測しています（信頼度: 低い 27%）。過去24時間のリターンは+1.15%、出来高は平均の0.9倍です。CoinGeckoコミュニティでは100%が強気を示し、Fear & Greed指数は「Extreme Fear」（23）です。予測方向と乖離があり、不確実性が高まっています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+1.17%",
+        "value": "+1.46%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "100% bullish",
         "url": "https://www.coingecko.com/en/coins/hedera-hashgraph"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Philippine SEC signals readiness for RWA tokenization",
+        "url": "https://cointelegraph.com/news/philippine-sec-rwa-tokenization-readiness?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "S token drops 5% as 3 former execs resign from Sonic Labs board",
         "url": "https://cointelegraph.com/news/s-token-drops-5-as-3-former-execs-resign-from-sonic-labs-board?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Charles Schwab to enter prediction markets with S&P 500 wagers: WSJ",
-        "url": "https://cointelegraph.com/news/charles-schwab-prediction-markets-sp500-wagers?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

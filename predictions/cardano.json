@@ -1,6 +1,6 @@
 {
   "coinId": "cardano",
-  "generatedAt": "2026-06-20T07:00:08.209318Z",
+  "generatedAt": "2026-06-20T08:00:07.602937Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 2.145854778850982,
-    "confidence": 0.8473
+    "changePercent24h": 2.1119800264678386,
+    "confidence": 0.8452
   },
   "commentary": {
-    "en": "Cardano's 24-hour direction is predicted to be flat with a -0.2% change, indicating a neutral sentiment. The recent news on Charles Schwab entering prediction markets may have a positive impact on the overall market, but Cardano's short-term trend remains sideways. The Fear & Greed Index at 23 suggests extreme fear, which may lead to a volatile market.",
-    "ja": "カードアノの24時間の方向は、-0.2％の変化で予測されており、中立的な気分を表しています。チャールズ・シュワブが予測市場に参入するニュースは、総合的な市場に肯定的な影響を与える可能性がありますが、カードアノの短期的なトレンドは横方向にあります。恐怖と欲求不満指数が23で、極度の恐怖を示しており、これが不安定な市場につながる可能性があります。",
+    "en": "Cardano's 24-hour direction is predicted to be flat with a -0.2% change, based on current technical signals. The Fear & Greed Index remains in extreme fear, while the total crypto market cap and Bitcoin's 24-hour return show moderate growth. Recent news on tokenization and prediction markets may influence investor sentiment.",
+    "ja": "カードアノの24時間の動向は、現在の技術指標に基づいてフラットで-0.2％の変化が予想される。恐怖と欲求不満指数は極度の恐怖のままであり、総暗号資産市場キャップとビットコインの24時間の変化は比較的高い成長を示している。トークン化や予測市場に関する最近のニュースは投資家の意見を変える可能性がある。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+1.17%",
+        "value": "+1.46%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "75% bullish",
+        "value": "77% bullish",
         "url": "https://www.coingecko.com/en/coins/cardano"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Philippine SEC signals readiness for RWA tokenization",
+        "url": "https://cointelegraph.com/news/philippine-sec-rwa-tokenization-readiness?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "S token drops 5% as 3 former execs resign from Sonic Labs board",
         "url": "https://cointelegraph.com/news/s-token-drops-5-as-3-former-execs-resign-from-sonic-labs-board?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Charles Schwab to enter prediction markets with S&P 500 wagers: WSJ",
-        "url": "https://cointelegraph.com/news/charles-schwab-prediction-markets-sp500-wagers?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

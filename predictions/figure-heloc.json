@@ -1,6 +1,6 @@
 {
   "coinId": "figure-heloc",
-  "generatedAt": "2026-06-20T07:00:08.209318Z",
+  "generatedAt": "2026-06-20T08:00:07.602937Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 2.2095656840455664,
+    "changePercent24h": 2.20441790653706,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "Figure Heloc (FIGURE-HELOC) is expected to experience a flat 24-hour direction with a 0.0% return, given its overbought RSI-14 and low volume ratio. The recent news of Charles Schwab entering prediction markets and the looming $13B Bitcoin options expiry may impact the overall market sentiment. However, the short-term trend remains in an uptrend.",
-    "ja": "Figure Heloc (FIGURE-HELOC) は、オーバーボールド RSI-14 と低いボリュームレシオのため、24 時間の方向性が 0.0% のフラットになりそうです。チャールズ・シュワブが予測市場に参入し、$13B ビットコイン オプションの期限切れが近づくと、市場全体の感性に影響を与える可能性があります。ただし、短期的なトレンドは上昇傾向を維持しています。",
+    "en": "FIGURE-HELOC's 24-hour direction is predicted to be flat with a 0.0% return, indicating a neutral market sentiment. The RSI-14 is overbought, suggesting a potential reversal. The recent news on tokenization and market trends may not significantly impact FIGURE-HELOC's price.",
+    "ja": "FIGURE-HELOCの24時間の方向は、0.0％のリターンで予測されており、市場の中立的な動向を示しています。 RSI-14はオーバーボールドを示しており、価格の反転が起こる可能性があります。 トークン化や市場の動向に関する最近のニュースは、FIGURE-HELOCの価格に大きな影響を与える可能性はありません。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+1.17%",
+        "value": "+1.46%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "0% bullish",
         "url": "https://www.coingecko.com/en/coins/figure-heloc"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Philippine SEC signals readiness for RWA tokenization",
+        "url": "https://cointelegraph.com/news/philippine-sec-rwa-tokenization-readiness?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "S token drops 5% as 3 former execs resign from Sonic Labs board",
         "url": "https://cointelegraph.com/news/s-token-drops-5-as-3-former-execs-resign-from-sonic-labs-board?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Charles Schwab to enter prediction markets with S&P 500 wagers: WSJ",
-        "url": "https://cointelegraph.com/news/charles-schwab-prediction-markets-sp500-wagers?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "coinId": "worldcoin-wld",
-  "generatedAt": "2026-06-20T07:00:08.209318Z",
+  "generatedAt": "2026-06-20T08:00:07.602937Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -4.183495195406835,
-    "confidence": 0.8225
+    "changePercent24h": -4.06666345971648,
+    "confidence": 0.8177
   },
   "commentary": {
-    "en": "The model predicts Worldcoin will decline ~4.0% over the next 24 hours with high confidence (81%). The short-term SMA is below the medium-term SMA, indicating weakening momentum. Community sentiment on CoinGecko is 80% bullish and the Fear & Greed Index reads \"Extreme Fear\" (23), diverging from the model's forecast, adding uncertainty.",
-    "ja": "モデルはWorldcoinが今後24時間で約4.0%下落すると予測しています（信頼度: 高い 81%）。短期移動平均が中期移動平均を下回り、モメンタムの低下が示されています。CoinGeckoコミュニティでは80%が強気を示し、Fear & Greed指数は「Extreme Fear」（23）です。予測方向と乖離があり、不確実性が高まっています。",
+    "en": "Worldcoin WLD is predicted to move downward by -4.0% in the next 24 hours with 81% confidence. The current market sentiment is extreme fear, as indicated by the Fear & Greed Index of 23. The recent news about crypto kidnappers pleading guilty and Charles Schwab entering prediction markets may have a negative impact on WLD.",
+    "ja": "ワールドコインのWLDは、来日24時間で-4.0%の下落が予想され、信頼度は81%です。現在の市場感情は極度の恐怖であり、恐怖と欲求不満指数は23です。最近のニュースである、Crypto誘拐犯が有罪判決を受け、チャールズ・シュワブが予測市場に参入することがWLDに否定的な影響を与える可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+1.17%",
+        "value": "+1.46%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "80% bullish",
+        "value": "78% bullish",
         "url": "https://www.coingecko.com/en/coins/worldcoin-wld"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Philippine SEC signals readiness for RWA tokenization",
+        "url": "https://cointelegraph.com/news/philippine-sec-rwa-tokenization-readiness?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "S token drops 5% as 3 former execs resign from Sonic Labs board",
         "url": "https://cointelegraph.com/news/s-token-drops-5-as-3-former-execs-resign-from-sonic-labs-board?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Charles Schwab to enter prediction markets with S&P 500 wagers: WSJ",
-        "url": "https://cointelegraph.com/news/charles-schwab-prediction-markets-sp500-wagers?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

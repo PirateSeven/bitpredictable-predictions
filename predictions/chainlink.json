@@ -1,6 +1,6 @@
 {
   "coinId": "chainlink",
-  "generatedAt": "2026-06-20T07:00:08.209318Z",
+  "generatedAt": "2026-06-20T08:00:07.602937Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 1.62295975418331,
-    "confidence": 0.8516
+    "changePercent24h": 1.6168775258270545,
+    "confidence": 0.8512
   },
   "commentary": {
-    "en": "The model predicts Chainlink will trade sideways over the next 24 hours with low confidence (20%). Price is testing the upper Bollinger Band, a resistance level that often precedes short-term consolidation. Community sentiment on CoinGecko is 57% bullish and the Fear & Greed Index reads \"Extreme Fear\" (23), diverging from the model's forecast, adding uncertainty.",
-    "ja": "モデルはChainlinkが今後24時間で横ばいで推移すると予測しています（信頼度: 低い 20%）。価格がボリンジャーバンド上限に到達しており、短期的な調整が起こりやすい状態です。CoinGeckoコミュニティでは57%が強気を示し、Fear & Greed指数は「Extreme Fear」（23）です。予測方向と乖離があり、不確実性が高まっています。",
+    "en": "Chainlink's 24-hour return is +1.27%, with a flat predicted direction and neutral RSI-14 at 60. The Fear & Greed Index remains at 23, indicating extreme fear in the market. Recent news includes the Philippine SEC's readiness for RWA tokenization and Charles Schwab's entry into prediction markets.",
+    "ja": "Chainlinkの24時間リターンは+1.27％、予想の24時間方向はフラット、RSI-14は60の中立的な値です。Fear & Greed Indexは23の極度の恐怖の状態が続いています。最近のニュースにはフィリピンSECのRWAトークン化の準備とチャールズシュワブの予測市場参入が含まれます。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+1.17%",
+        "value": "+1.46%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "57% bullish",
         "url": "https://www.coingecko.com/en/coins/chainlink"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Philippine SEC signals readiness for RWA tokenization",
+        "url": "https://cointelegraph.com/news/philippine-sec-rwa-tokenization-readiness?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "S token drops 5% as 3 former execs resign from Sonic Labs board",
         "url": "https://cointelegraph.com/news/s-token-drops-5-as-3-former-execs-resign-from-sonic-labs-board?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Charles Schwab to enter prediction markets with S&P 500 wagers: WSJ",
-        "url": "https://cointelegraph.com/news/charles-schwab-prediction-markets-sp500-wagers?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "coinId": "tron",
-  "generatedAt": "2026-06-20T07:00:08.209318Z",
+  "generatedAt": "2026-06-20T08:00:07.602937Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.5215745916529271,
-    "confidence": 0.8198
+    "changePercent24h": -0.5279974905091652,
+    "confidence": 0.8213
   },
   "commentary": {
-    "en": "TRON (TRON) is expected to remain flat in the next 24 hours with a 60% confidence level, as the RSI-14 is neutral and the Bollinger Band %B is at the mid band. The recent news about the crypto kidnappers and the Bitcoin options expiry may have a limited impact on TRON's price. The overall market context suggests a cautious approach.",
-    "ja": "トロン（TRON）は、次の24時間に60％の確信度でフラットで推定され、RSI-14は中立的であり、ボリンジャーバンド％Bは中間帯にあります。最近のニュースであるハッカーによる拉致事件やビットコインオプションの期限切れは、TRONの価格に限りなく影響しません。総合的な市場状況は、慎重なアプローチを示唆しています。",
+    "en": "TRON's price is expected to remain flat in the next 24 hours with a confidence level of 60%. The recent news of the Philippine SEC's readiness for RWA tokenization may have a positive impact on the market, but the overall sentiment remains in extreme fear. The neutral RSI-14 and mid-band Bollinger Band %B also suggest a sideways trend.",
+    "ja": "トロンの価格は、次の24時間で60%の確信度でフラットのままになる可能性があります。フィリピンSECのRWAトークン化の準備が進んでいるニュースはマーケットに良い影響を与える可能性がありますが、全体的な感覚は極度の恐怖のままです。中立的なRSI-14と中間のボリンジャー・バンド％Bも横方向のトレンドを示しています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+1.17%",
+        "value": "+1.46%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "50% bullish",
+        "value": "53% bullish",
         "url": "https://www.coingecko.com/en/coins/tron"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Philippine SEC signals readiness for RWA tokenization",
+        "url": "https://cointelegraph.com/news/philippine-sec-rwa-tokenization-readiness?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "S token drops 5% as 3 former execs resign from Sonic Labs board",
         "url": "https://cointelegraph.com/news/s-token-drops-5-as-3-former-execs-resign-from-sonic-labs-board?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Charles Schwab to enter prediction markets with S&P 500 wagers: WSJ",
-        "url": "https://cointelegraph.com/news/charles-schwab-prediction-markets-sp500-wagers?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

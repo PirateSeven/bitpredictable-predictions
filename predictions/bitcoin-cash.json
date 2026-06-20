@@ -1,6 +1,6 @@
 {
   "coinId": "bitcoin-cash",
-  "generatedAt": "2026-06-20T07:00:08.209318Z",
+  "generatedAt": "2026-06-20T08:00:07.602937Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": 0.6366316022844805,
-    "confidence": 0.4496
+    "changePercent24h": 0.5268453163532398,
+    "confidence": 0.3718
   },
   "commentary": {
-    "en": "The model predicts Bitcoin Cash will decline ~1.2% over the next 24 hours with moderate confidence (66%). Price is testing the upper Bollinger Band, a resistance level that often precedes short-term consolidation. Community sentiment on CoinGecko is 60% bullish and the Fear & Greed Index reads \"Extreme Fear\" (23), diverging from the model's forecast, adding uncertainty.",
-    "ja": "モデルはBitcoin Cashが今後24時間で約1.2%下落すると予測しています（信頼度: 中程度の 66%）。価格がボリンジャーバンド上限に到達しており、短期的な調整が起こりやすい状態です。CoinGeckoコミュニティでは60%が強気を示し、Fear & Greed指数は「Extreme Fear」（23）です。予測方向と乖離があり、不確実性が高まっています。",
+    "en": "Bitcoin Cash is predicted to move downward by 1.2% in the next 24 hours with a confidence level of 66%. The current market sentiment is extreme fear, as indicated by the Fear & Greed Index of 23. The recent news on tokenization and prediction markets may have a limited impact on Bitcoin Cash's price.",
+    "ja": "ビットコインキャッシュは、次の24時間で1.2%下落する可能性があり、信頼度は66%です。現在の市場感情は、恐怖指数が23で極度の恐怖を示しています。トークン化と予測市場に関する最近のニュースはビットコインキャッシュの価格に限られた影響を与える可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+1.17%",
+        "value": "+1.46%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "60% bullish",
         "url": "https://www.coingecko.com/en/coins/bitcoin-cash"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Philippine SEC signals readiness for RWA tokenization",
+        "url": "https://cointelegraph.com/news/philippine-sec-rwa-tokenization-readiness?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "S token drops 5% as 3 former execs resign from Sonic Labs board",
         "url": "https://cointelegraph.com/news/s-token-drops-5-as-3-former-execs-resign-from-sonic-labs-board?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Charles Schwab to enter prediction markets with S&P 500 wagers: WSJ",
-        "url": "https://cointelegraph.com/news/charles-schwab-prediction-markets-sp500-wagers?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

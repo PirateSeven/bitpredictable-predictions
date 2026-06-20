@@ -1,6 +1,6 @@
 {
   "coinId": "ondo-finance",
-  "generatedAt": "2026-06-20T07:00:08.209318Z",
+  "generatedAt": "2026-06-20T08:00:07.602937Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -0.8197633941966456,
-    "confidence": 0.4166
+    "changePercent24h": -0.8384177151838594,
+    "confidence": 0.4266
   },
   "commentary": {
-    "en": "The model predicts Ondo will decline ~2.2% over the next 24 hours with high confidence (74%). Price moved -1.09% in the past 24 hours with volume at 0.7× average. Community sentiment on CoinGecko is 93% bullish and the Fear & Greed Index reads \"Extreme Fear\" (23), diverging from the model's forecast, adding uncertainty.",
-    "ja": "モデルはOndoが今後24時間で約2.2%下落すると予測しています（信頼度: 高い 74%）。過去24時間のリターンは-1.09%、出来高は平均の0.7倍です。CoinGeckoコミュニティでは93%が強気を示し、Fear & Greed指数は「Extreme Fear」（23）です。予測方向と乖離があり、不確実性が高まっています。",
+    "en": "The model predicts Ondo will decline ~2.2% over the next 24 hours with high confidence (74%). Price moved -1.09% in the past 24 hours with volume at 0.7× average. Community sentiment on CoinGecko is 94% bullish and the Fear & Greed Index reads \"Extreme Fear\" (23), diverging from the model's forecast, adding uncertainty.",
+    "ja": "モデルはOndoが今後24時間で約2.2%下落すると予測しています（信頼度: 高い 74%）。過去24時間のリターンは-1.09%、出来高は平均の0.7倍です。CoinGeckoコミュニティでは94%が強気を示し、Fear & Greed指数は「Extreme Fear」（23）です。予測方向と乖離があり、不確実性が高まっています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+1.17%",
+        "value": "+1.46%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "93% bullish",
+        "value": "94% bullish",
         "url": "https://www.coingecko.com/en/coins/ondo-finance"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Philippine SEC signals readiness for RWA tokenization",
+        "url": "https://cointelegraph.com/news/philippine-sec-rwa-tokenization-readiness?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "S token drops 5% as 3 former execs resign from Sonic Labs board",
         "url": "https://cointelegraph.com/news/s-token-drops-5-as-3-former-execs-resign-from-sonic-labs-board?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Charles Schwab to enter prediction markets with S&P 500 wagers: WSJ",
-        "url": "https://cointelegraph.com/news/charles-schwab-prediction-markets-sp500-wagers?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

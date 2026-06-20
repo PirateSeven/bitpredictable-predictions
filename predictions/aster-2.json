@@ -1,6 +1,6 @@
 {
   "coinId": "aster-2",
-  "generatedAt": "2026-06-20T07:00:08.209318Z",
+  "generatedAt": "2026-06-20T08:00:07.602937Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -4.576942632764344,
-    "confidence": 0.8593
+    "changePercent24h": -4.5001120057967015,
+    "confidence": 0.857
   },
   "commentary": {
-    "en": "Aster (ASTER-2) is predicted to decline by 2.5% in the next 24 hours with a confidence level of 74%. The current market context suggests a neutral sentiment, with the Fear & Greed Index at 23, indicating extreme fear. The recent news of crypto kidnappers pleading guilty and the looming $13B Bitcoin options expiry may contribute to the predicted decline.",
-    "ja": "Aster (ASTER-2) は、次の24時間で2.5%の下落が予測され、信頼度は74%です。現在の市場状況は中立的な感覚を示しており、Fear & Greed Indexは23、極度の恐怖を示しています。最近のニュースでは、Crypto犯罪者が8億ドルの家族を拉致し、Charles SchwabがS&P 500の予測市場に参入するなど、下落の予測に寄与する可能性があります。",
+    "en": "Aster (ASTER-2) is expected to decline by 2.5% over the next 24 hours with a confidence level of 74%. The current market sentiment is bearish, with the Fear & Greed Index at 23, indicating extreme fear. The recent news on the Philippine SEC's readiness for RWA tokenization may have a positive impact on the market, but it's uncertain how it will affect ASTER-2 specifically.",
+    "ja": "Aster (ASTER-2) は、次の24時間で2.5%の下落が予想され、信頼度は74%です。現在の市場感情は悲観的であり、Fear & Greed Indexは23にあり、極度の恐怖を示しています。フィリピンSECがRWAトークン化の準備ができたニュースは、市場に肯定的な影響を与えるかもしれませんが、ASTER-2に与える影響は不明です。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+1.17%",
+        "value": "+1.46%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "50% bullish",
+        "value": "56% bullish",
         "url": "https://www.coingecko.com/en/coins/aster-2"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Philippine SEC signals readiness for RWA tokenization",
+        "url": "https://cointelegraph.com/news/philippine-sec-rwa-tokenization-readiness?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "S token drops 5% as 3 former execs resign from Sonic Labs board",
         "url": "https://cointelegraph.com/news/s-token-drops-5-as-3-former-execs-resign-from-sonic-labs-board?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Charles Schwab to enter prediction markets with S&P 500 wagers: WSJ",
-        "url": "https://cointelegraph.com/news/charles-schwab-prediction-markets-sp500-wagers?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

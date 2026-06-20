@@ -1,6 +1,6 @@
 {
   "coinId": "global-dollar",
-  "generatedAt": "2026-06-20T07:00:08.209318Z",
+  "generatedAt": "2026-06-20T08:00:07.602937Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -970,8 +970,8 @@
     "confidence": 0.95
   },
   "commentary": {
-    "en": "The model predicts Global Dollar will trade sideways over the next 24 hours with high confidence (95%). Price moved +0.00% in the past 24 hours with volume at 0.8× average. Market sentiment stands at \"Extreme Fear\" (Fear & Greed: 23); the broader crypto market moved +1.2% over the past 24 hours.",
-    "ja": "モデルはGlobal Dollarが今後24時間で横ばいで推移すると予測しています（信頼度: 高い 95%）。過去24時間のリターンは+0.00%、出来高は平均の0.8倍です。Fear & Greed指数は「Extreme Fear」（23）で、暗号資産市場全体の24時間変動率は+1.2%です。",
+    "en": "The Global Dollar is expected to remain flat in the next 24 hours with a 95% confidence level, as indicated by neutral technical signals and a sideways short-term trend. The Fear & Greed Index remains in extreme fear territory, but the total crypto market cap has seen a slight increase. Recent news includes the Philippine SEC's readiness for RWA tokenization and Charles Schwab's entry into prediction markets.",
+    "ja": "グローバル ドルは、95% の確率で次の 24 時間でフラットに推移する可能性があり、技術的信号は中立的であり、短期の傾向は横方向に推移している。恐怖と欲求不満指数は極度の恐怖の領域にあり、合計暗号資産市場の価値はわずかに増加している。最近のニュースには、フィリピン SEC の RWA トークナイズの準備とチャールズ シュワブの予測市場への参入が含まれる。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,8 +1000,13 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+1.17%",
+        "value": "+1.46%",
         "url": "https://www.coingecko.com/en/global-charts"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Philippine SEC signals readiness for RWA tokenization",
+        "url": "https://cointelegraph.com/news/philippine-sec-rwa-tokenization-readiness?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1012,11 +1017,6 @@
         "label": "CoinTelegraph",
         "value": "S token drops 5% as 3 former execs resign from Sonic Labs board",
         "url": "https://cointelegraph.com/news/s-token-drops-5-as-3-former-execs-resign-from-sonic-labs-board?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Charles Schwab to enter prediction markets with S&P 500 wagers: WSJ",
-        "url": "https://cointelegraph.com/news/charles-schwab-prediction-markets-sp500-wagers?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

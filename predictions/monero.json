@@ -1,6 +1,6 @@
 {
   "coinId": "monero",
-  "generatedAt": "2026-06-20T07:00:08.209318Z",
+  "generatedAt": "2026-06-20T08:00:07.602937Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -3.955412789207181,
-    "confidence": 0.8835
+    "changePercent24h": -3.8479970067070157,
+    "confidence": 0.8805
   },
   "commentary": {
-    "en": "Monero (MONERO) is predicted to decline by 1.4% in the next 24 hours with a confidence level of 69%. The recent news of crypto kidnappers pleading guilty and the looming $13B Bitcoin options expiry may contribute to the bearish sentiment. The Fear & Greed Index remains in Extreme Fear territory.",
-    "ja": "モノロ (MONERO) は、次の 24 時間で 1.4% の下落が予測され、信頼度は 69% です。Crypto 拉致犯が有罪を認めるニュースや、$13B ビットコイン オプションの期限が迫っていることが、恐怖の感情を高める要因となります。Fear & Greed Index は、極度の恐怖の状態にあります。",
+    "en": "Monero is predicted to move downward with a 1.4% decrease in the next 24 hours, with a confidence level of 69%. The current market sentiment is extreme fear, with the Fear & Greed Index at 23. The total crypto market cap has increased by 1.46% in the last 24 hours, with Bitcoin returning 1.50%.",
+    "ja": "モネロは次の24時間で1.4%の下落が予想され、信頼度は69%です。現在の市場感情は極度の恐怖で、恐怖と欲求不満指数は23です。トータルクリプトマーケットキャップは過去24時間で1.46%増加し、ビットコインは1.50%のリターンを記録しました。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+1.17%",
+        "value": "+1.46%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "86% bullish",
         "url": "https://www.coingecko.com/en/coins/monero"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Philippine SEC signals readiness for RWA tokenization",
+        "url": "https://cointelegraph.com/news/philippine-sec-rwa-tokenization-readiness?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "S token drops 5% as 3 former execs resign from Sonic Labs board",
         "url": "https://cointelegraph.com/news/s-token-drops-5-as-3-former-execs-resign-from-sonic-labs-board?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Charles Schwab to enter prediction markets with S&P 500 wagers: WSJ",
-        "url": "https://cointelegraph.com/news/charles-schwab-prediction-markets-sp500-wagers?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

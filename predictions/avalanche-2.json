@@ -1,6 +1,6 @@
 {
   "coinId": "avalanche-2",
-  "generatedAt": "2026-06-20T07:00:08.209318Z",
+  "generatedAt": "2026-06-20T08:00:07.602937Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -1.10063341919507,
-    "confidence": 0.5923
+    "changePercent24h": -1.1309152279854942,
+    "confidence": 0.6013
   },
   "commentary": {
-    "en": "Avalanche (AVALANCHE-2) is predicted to move downward by 1.8% in the next 24 hours with a confidence level of 73%. The current market sentiment is in extreme fear, with the Fear & Greed Index at 23. The recent news of crypto kidnappers pleading guilty and Bitcoin options expiry may contribute to the bearish sentiment.",
-    "ja": "アバランチ2（AVALANCHE-2）は、次の24時間に1.8%下落する可能性があり、信頼度は73%です。現在の市場感情は極度の恐怖で、Fear & Greed Indexは23です。最近のニュースであるCrypto犯罪者が有罪判決を受け、ビットコインオプションの期限切れは、売り気味の市場感情に貢献する可能性があります。",
+    "en": "Avalanche is predicted to decline by 1.8% in the next 24 hours with a confidence level of 73%. The current market context suggests a high level of fear, with the Fear & Greed Index at 23. The recent news about the Philippine SEC's readiness for RWA tokenization and Charles Schwab's entry into prediction markets may have a limited impact on Avalanche's price.",
+    "ja": "Avalanche は次の24時間で1.8%の下落が予想され、信頼度は73%です。Fear & Greed Indexは23の高レベルな恐怖を示しており、フィリピンSECのRWAトークン化の準備とチャールズシュワブの予測市場参入に関するニュースはAvalancheの価格に限られた影響を与える可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+1.17%",
+        "value": "+1.46%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "61% bullish",
         "url": "https://www.coingecko.com/en/coins/avalanche-2"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Philippine SEC signals readiness for RWA tokenization",
+        "url": "https://cointelegraph.com/news/philippine-sec-rwa-tokenization-readiness?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "S token drops 5% as 3 former execs resign from Sonic Labs board",
         "url": "https://cointelegraph.com/news/s-token-drops-5-as-3-former-execs-resign-from-sonic-labs-board?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Charles Schwab to enter prediction markets with S&P 500 wagers: WSJ",
-        "url": "https://cointelegraph.com/news/charles-schwab-prediction-markets-sp500-wagers?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

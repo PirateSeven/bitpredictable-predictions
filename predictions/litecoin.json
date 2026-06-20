@@ -1,6 +1,6 @@
 {
   "coinId": "litecoin",
-  "generatedAt": "2026-06-20T07:00:08.209318Z",
+  "generatedAt": "2026-06-20T08:00:07.602937Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.4278027255180768,
-    "confidence": 0.6677
+    "changePercent24h": -0.45568542161434045,
+    "confidence": 0.6808
   },
   "commentary": {
-    "en": "The model predicts Litecoin will trade sideways over the next 24 hours with low confidence (35%). Price moved +1.56% in the past 24 hours with volume at 1.0× average. Community sentiment on CoinGecko is 73% bullish and the Fear & Greed Index reads \"Extreme Fear\" (23), diverging from the model's forecast, adding uncertainty.",
-    "ja": "モデルはLitecoinが今後24時間で横ばいで推移すると予測しています（信頼度: 低い 35%）。過去24時間のリターンは+1.56%、出来高は平均の1.0倍です。CoinGeckoコミュニティでは73%が強気を示し、Fear & Greed指数は「Extreme Fear」（23）です。予測方向と乖離があり、不確実性が高まっています。",
+    "en": "Litecoin's 24-hour direction is predicted to be flat with a 0.1% increase, based on technical signals. The Fear & Greed Index remains in extreme fear, and the total crypto market cap has seen a 1.46% increase. Litecoin's recent price movement is likely influenced by the overall market sentiment and recent news.",
+    "ja": "リテコインの24時間の方向は、技術的信号に基づいて0.1%の増加が予想されます。恐怖と欲求不満指数は極度の恐怖のままであり、総暗号資産市場キャップは1.46%の増加を記録しています。リテコインの最近の価格動向は、総市場の感覚と最近のニュースに影響を受けている可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+1.17%",
+        "value": "+1.46%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "73% bullish",
         "url": "https://www.coingecko.com/en/coins/litecoin"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Philippine SEC signals readiness for RWA tokenization",
+        "url": "https://cointelegraph.com/news/philippine-sec-rwa-tokenization-readiness?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "S token drops 5% as 3 former execs resign from Sonic Labs board",
         "url": "https://cointelegraph.com/news/s-token-drops-5-as-3-former-execs-resign-from-sonic-labs-board?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Charles Schwab to enter prediction markets with S&P 500 wagers: WSJ",
-        "url": "https://cointelegraph.com/news/charles-schwab-prediction-markets-sp500-wagers?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }
