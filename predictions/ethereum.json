@@ -1,6 +1,6 @@
 {
   "coinId": "ethereum",
-  "generatedAt": "2026-06-20T16:55:26.112747Z",
+  "generatedAt": "2026-06-20T17:00:08.228132Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 0.5362356990561511,
-    "confidence": 0.7081
+    "changePercent24h": 0.5357992318048138,
+    "confidence": 0.7079
   },
   "commentary": {
-    "en": "Ethereum's predicted 24-hour direction is flat with a 34% confidence level, as the RSI-14 is neutral and the Bollinger Band %B is near the upper band. The recent news on MiCA 2.0 and DeFi revisions may have a positive impact on the market, but the overall sentiment remains in extreme fear. Ethereum's price is closely tied to the overall crypto market, which has seen a 1.33% increase in the total market cap.",
-    "ja": "エーテレムの24時間予想は、信頼度34％でフラットである。RSI-14は中立的であり、ボリンジャー・バンド %Bは上限近くにある。MiCA 2.0とDeFiの改善に関する最近のニュースは市場に肯定的な影響を与える可能性があり、しかし、総合的な感情は極度の恐怖のままである。エーテレムの価格は、総合的な暗号通貨市場に大きく依存しており、総市場キャップは1.33％増加している。",
+    "en": "Ethereum's 24-hour direction is predicted to be flat with a 34% confidence level. The Fear & Greed Index remains in extreme fear at 23, while the CoinGecko community is 83% bullish. Recent news on stablecoins and DeFi revisions may have a positive impact on Ethereum's price.",
+    "ja": "エーテレムの24時間の方向性は、34%の信頼度でフラットと予測されています。恐怖と欲求不満指数は23で、極度の恐怖にありますが、コインゲッコーのコミュニティは83%がバ Bullishです。安定コインとDeFiの改善に関する最近のニュースは、エーテレムの価格にプラスの影響を与える可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+1.33%",
+        "value": "+1.37%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {

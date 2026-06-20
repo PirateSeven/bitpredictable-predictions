@@ -1,6 +1,6 @@
 {
   "coinId": "aster-2",
-  "generatedAt": "2026-06-20T16:55:26.112747Z",
+  "generatedAt": "2026-06-20T17:00:08.228132Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": 2.791911556081569,
-    "confidence": 0.8734
+    "changePercent24h": 2.7983204669148174,
+    "confidence": 0.8737
   },
   "commentary": {
-    "en": "Aster (ASTER-2) is expected to decline by 1.3% in the next 24 hours with a confidence level of 74%. The current market sentiment is in extreme fear, with the Fear & Greed Index at 23. The recent news on MiCA 2.0 and DeFi revisions may have a mixed impact on the crypto market.",
-    "ja": "Aster (ASTER-2) は、来る24時間で1.3%の下落が予想され、信頼度は74%です。Fear & Greed Indexは23で、極度の恐怖の状態です。MiCA 2.0とDeFiの改善に関する最近のニュースは、暗号市場に混乱をもたらす可能性があります。",
+    "en": "The model predicts Aster will decline ~1.3% over the next 24 hours with high confidence (74%). The short-term SMA has crossed above the medium-term SMA, signalling positive momentum. Community sentiment on CoinGecko is 56% bullish and the Fear & Greed Index reads \"Extreme Fear\" (23), diverging from the model's forecast, adding uncertainty.",
+    "ja": "モデルはAsterが今後24時間で約1.3%下落すると予測しています（信頼度: 高い 74%）。短期移動平均が中期移動平均を上回り、ポジティブなモメンタムが示されています。CoinGeckoコミュニティでは56%が強気を示し、Fear & Greed指数は「Extreme Fear」（23）です。予測方向と乖離があり、不確実性が高まっています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+1.33%",
+        "value": "+1.37%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
