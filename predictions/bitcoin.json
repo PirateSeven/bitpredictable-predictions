@@ -1,6 +1,6 @@
 {
   "coinId": "bitcoin",
-  "generatedAt": "2026-06-20T18:00:08.419385Z",
+  "generatedAt": "2026-06-20T19:00:08.325497Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 0.0637,
-    "confidence": 0.4731
+    "changePercent24h": -0.34345671824847235,
+    "confidence": 0.6892
   },
   "commentary": {
-    "en": "Bitcoin's short-term trend remains sideways, with a 24-hour return of +1.60% and a Fear & Greed Index at 23, indicating extreme fear. The recent news on MiCA 2.0 and DeFi revisions may provide some support, but the overall market sentiment remains cautious. A flat 24-hour direction is predicted with a confidence of 47%.",
-    "ja": "ビットコインの短期傾向は横方向に推移しており、24時間のリターンは+1.60%、恐怖と欲求不満指数は23、極度の恐怖を示しています。MiCA 2.0やDeFiの改善に関する最近のニュースは少しサポートを与えるかもしれませんが、市場全体の感覚は慎重です。24時間の方向性は予想通り平坦で、信頼度は47％です。",
+    "en": "Bitcoin's 24-hour direction is predicted to be flat with a 0.1% increase, based on technical signals. The Fear & Greed Index remains in extreme fear, while the CoinGecko community is 79% bullish. Recent news on MiCA 2.0 and DeFi revisions may have a positive impact on the crypto market.",
+    "ja": "ビットコインの24時間の方向は、技術的シグナルに基づいて、0.1%の増加が予想される。Fear & Greed Indexは極度の恐怖の状態であり、CoinGeckoコミュニティは79％がbullishである。最近のニュースではMiCA 2.0とDeFiの改善が、cryptocurrency市場に良い影響を与える可能性がある。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,12 +1000,12 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.77%",
+        "value": "+0.92%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "78% bullish",
+        "value": "79% bullish",
         "url": "https://www.coingecko.com/en/coins/bitcoin"
       },
       {

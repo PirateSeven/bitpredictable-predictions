@@ -1,6 +1,6 @@
 {
   "coinId": "chainlink",
-  "generatedAt": "2026-06-20T18:00:08.419385Z",
+  "generatedAt": "2026-06-20T19:00:08.325497Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 0.02994976049883965,
-    "confidence": 0.5177
+    "changePercent24h": -0.8197512186004758,
+    "confidence": 0.8422
   },
   "commentary": {
-    "en": "Chainlink's flat 24-hour direction prediction is supported by neutral RSI-14 and mid-band Bollinger Band %B, but the recent news on stablecoins and DeFi revisions in MiCA 2.0 may have a positive impact on the market. The Extreme Fear sentiment and sideways short-term trend suggest caution, but the 0.8x average volume ratio indicates normal trading activity. Overall, the market context and news suggest a neutral to slightly positive outlook.",
-    "ja": "チェーンリンクの24時間方向予測は中立的なRSI-14とミッドバンドボリンジャー・バンド％Bによって裏付けられていますが、MiCA 2.0の安定化通貨とDeFiの改善に関するニュースは市場にプラスの影響を与える可能性があります。エクストリーム・フィアの感情と短期的な傾向は慎重に考える必要がありますが、0.8倍の平均的な取引活動を示す0.8倍の平均的な取引活動を示すボリューム比率は通常の取引活動を示しています。総合的には市場状況とニュースは中立的から微妙にプラスの展開を示しています。",
+    "en": "Chainlink's 24-hour direction is predicted to be flat with a 0.0% return, reflecting a neutral RSI-14 reading of 46 and a mid-band Bollinger Band %B of 0.28. The recent news on MiCA 2.0 and DeFi revisions may positively impact the crypto market, but the overall sentiment remains in extreme fear. Chainlink's short-term trend is sideways, with a volume ratio of 0.8x average.",
+    "ja": "チェーンリンクの24時間の予測は、0.0%のリターンでフラットであることが予測され、RSI-14の値は46で中立的、ボリンジャー・バンドの%Bは0.28で中間帯にあります。MiCA 2.0とDeFiの改善に関する最近のニュースは、暗号通貨市場にプラスの影響を与える可能性がありますが、全体的な感覚は極度の恐怖のままです。チェーンリンクの短期のトレンドは、平均の0.8倍のボリューム比率で横方向にあります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.77%",
+        "value": "+0.92%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {

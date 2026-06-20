@@ -1,6 +1,6 @@
 {
   "coinId": "uniswap",
-  "generatedAt": "2026-06-20T18:00:08.419385Z",
+  "generatedAt": "2026-06-20T19:00:08.325497Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -2.3354112230205724,
-    "confidence": 0.7999
+    "changePercent24h": -1.473954796293505,
+    "confidence": 0.6999
   },
   "commentary": {
-    "en": "Uniswap's 24-hour direction is predicted to be DOWN by 3.3% with 85% confidence due to a sideways short-term trend and a Fear & Greed Index at Extreme Fear. The recent news on MiCA 2.0 and DeFi revisions may have a mixed impact on the market. The current RSI-14 and Bollinger Band %B suggest a neutral to slightly bearish bias.",
-    "ja": "ユニスワップの24時間の予測は、下落3.3％（信頼度85％）にあり、短期のトレンドが横方向に動いており、恐怖と欲求不満指数が極度の恐怖にあります。MiCA 2.0とDeFiの改善に関する最近のニュースは市場に混乱をもたらす可能性があります。現在のRSI-14とボリンジャーバンド％Bは、中立的な傾向とやや下落傾向を示しています。",
+    "en": "Uniswap's predicted 24h direction is DOWN by -3.3% with a confidence of 85%. The current market sentiment is Extreme Fear, as indicated by the Fear & Greed Index at 23. The recent news on MiCA 2.0 and DeFi revisions may have a mixed impact on Uniswap's performance.",
+    "ja": "ユニスワップの24時間予想は下落、-3.3%の確率は85%です。現在の市場感情は極度の恐怖、Fear & Greed Indexは23です。MiCA 2.0とDeFiの改善に関する最近のニュースはユニスワップのパフォーマンスに混在した影響を与える可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.77%",
+        "value": "+0.92%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {

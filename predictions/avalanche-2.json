@@ -1,6 +1,6 @@
 {
   "coinId": "avalanche-2",
-  "generatedAt": "2026-06-20T18:00:08.419385Z",
+  "generatedAt": "2026-06-20T19:00:08.325497Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": 0.8230227357130779,
-    "confidence": 0.5504
+    "changePercent24h": 0.4774621113634976,
+    "confidence": 0.3368
   },
   "commentary": {
-    "en": "Avalanche (AVALANCHE-2) is predicted to move downward by 2.0% in the next 24 hours with a confidence level of 78%. This prediction is based on a neutral RSI-14 reading and a mid-band Bollinger Band %B. The recent news on stablecoins and DeFi revisions in MiCA 2.0 may have a mixed impact on the market.",
-    "ja": "Avalanche (AVALANCHE-2) は、次の24時間で2.0%下落する予想があり、信頼度78%です。RSI-14の中立的な値とボリンジャーバンドの%Bの中間値に基づいています。MiCA 2.0における安定コインとDeFiの改善に関する最近のニュースは市場に混乱をもたらす可能性があります。",
+    "en": "The model predicts Avalanche will decline ~2.0% over the next 24 hours with high confidence (78%). The short-term SMA has crossed above the medium-term SMA, signalling positive momentum. Community sentiment on CoinGecko is 60% bullish and the Fear & Greed Index reads \"Extreme Fear\" (23), diverging from the model's forecast, adding uncertainty.",
+    "ja": "モデルはAvalancheが今後24時間で約2.0%下落すると予測しています（信頼度: 高い 78%）。短期移動平均が中期移動平均を上回り、ポジティブなモメンタムが示されています。CoinGeckoコミュニティでは60%が強気を示し、Fear & Greed指数は「Extreme Fear」（23）です。予測方向と乖離があり、不確実性が高まっています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.77%",
+        "value": "+0.92%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
