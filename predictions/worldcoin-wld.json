@@ -1,6 +1,6 @@
 {
   "coinId": "worldcoin-wld",
-  "generatedAt": "2026-06-20T12:00:08.214358Z",
+  "generatedAt": "2026-06-20T13:00:07.718393Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -2.7641317145168713,
-    "confidence": 0.7955
+    "changePercent24h": -0.838379722388777,
+    "confidence": 0.4336
   },
   "commentary": {
-    "en": "Worldcoin is predicted to move downward by 2.8% in the next 24 hours with 79% confidence. The recent news about Charles Schwab entering prediction markets may have a neutral impact on the crypto market, while the Fear & Greed Index remains in Extreme Fear. The short-term trend and low volume ratio suggest a downtrend.",
-    "ja": "ワールドコインWldは、来日24時間で2.8%下落する可能性が79%あります。チャールズシュワブが予測市場に参入するニュースは、暗号市場に中立的な影響を与える可能性があり、Fear & Greed Indexは極度の恐怖の状態が続いています。短期的なトレンドと低いボリューム比率は、下落のトレンドを示しています。",
+    "en": "The model predicts Worldcoin will decline ~2.8% over the next 24 hours with high confidence (79%). The short-term SMA is below the medium-term SMA, indicating weakening momentum. Community sentiment on CoinGecko is 80% bullish and the Fear & Greed Index reads \"Extreme Fear\" (23), diverging from the model's forecast, adding uncertainty.",
+    "ja": "モデルはWorldcoinが今後24時間で約2.8%下落すると予測しています（信頼度: 高い 79%）。短期移動平均が中期移動平均を下回り、モメンタムの低下が示されています。CoinGeckoコミュニティでは80%が強気を示し、Fear & Greed指数は「Extreme Fear」（23）です。予測方向と乖離があり、不確実性が高まっています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,12 +1000,12 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+1.50%",
+        "value": "+1.11%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "82% bullish",
+        "value": "80% bullish",
         "url": "https://www.coingecko.com/en/coins/worldcoin-wld"
       },
       {
