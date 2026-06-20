@@ -1,6 +1,6 @@
 {
   "coinId": "ethena-usde",
-  "generatedAt": "2026-06-20T21:00:07.823799Z",
+  "generatedAt": "2026-06-20T22:00:07.356245Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.0359,
+    "changePercent24h": -0.022969082804584526,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "Ethena USDe is expected to remain flat in the next 24 hours with a confidence level of 95%. The recent market context suggests a cautious approach due to the extreme fear sentiment and sideways trend in the total crypto market cap. The lack of significant news impacting the altcoin market also contributes to the neutral outlook.",
-    "ja": "エテナUSDは次の24時間で95％の確実性でフラットのままであると予想されます。極度の恐怖感と総暗号資産市場の横方向のトレンド、そしてアルティコイン市場への影響のないニュースなど、最近の市場状況は慎重なアプローチを示唆しています。",
+    "en": "The model predicts Ethena USDe will trade sideways over the next 24 hours with high confidence (95%). Price moved -0.01% in the past 24 hours with volume at 0.8× average. Market sentiment stands at \"Extreme Fear\" (Fear & Greed: 23); the broader crypto market moved +1.3% over the past 24 hours.",
+    "ja": "モデルはEthena USDeが今後24時間で横ばいで推移すると予測しています（信頼度: 高い 95%）。過去24時間のリターンは-0.01%、出来高は平均の0.8倍です。Fear & Greed指数は「Extreme Fear」（23）で、暗号資産市場全体の24時間変動率は+1.3%です。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.91%",
+        "value": "+1.29%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {

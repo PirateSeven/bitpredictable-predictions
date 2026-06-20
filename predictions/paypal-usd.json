@@ -1,6 +1,6 @@
 {
   "coinId": "paypal-usd",
-  "generatedAt": "2026-06-20T21:00:07.823799Z",
+  "generatedAt": "2026-06-20T22:00:07.356245Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.06082600387986793,
+    "changePercent24h": -0.050105922306319085,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "PayPal USD is expected to remain flat in the next 24 hours with a 0.0% predicted return, based on technical signals. The Fear & Greed Index at 23 indicates extreme fear in the market, and the recent news on altseasons and DeFi revisions may influence investor sentiment. However, the short-term trend remains sideways.",
-    "ja": "PayPal USD は、次の 24 時間で 0.0% の予想利回りでフラットに推測されます。恐怖と欲求不満指数が 23 であることは、市場全体が恐怖に包まれていることを示しており、アルティーズンと DeFi の再編に関する最近のニュースは投資家の動向に影響を与える可能性があります。ただし、短期的な傾向は横方向に推移しています。",
+    "en": "PayPal USD is expected to remain flat in the next 24 hours with a confidence level of 95%. The recent news of Bitcoin rotations into altcoins collapsing and the crypto industry's focus on stablecoins and DeFi revisions may impact PayPal's price. The Fear & Greed Index at 23 indicates extreme fear in the market.",
+    "ja": "PayPal USD は、次の 24 時間で 95% の確信度で平坦に推移することが予想されます。ビットコインがアルトコインに回転することの崩壊や、デジタル資産業界が安定コインと DeFi の再編に注力するニュースが PayPal の価格に影響を与える可能性があります。恐怖と欲求不満指数は 23 で、市場は極度の恐怖に陥っていることを示しています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.91%",
+        "value": "+1.29%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {

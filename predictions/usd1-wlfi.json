@@ -1,6 +1,6 @@
 {
   "coinId": "usd1-wlfi",
-  "generatedAt": "2026-06-20T21:00:07.823799Z",
+  "generatedAt": "2026-06-20T22:00:07.356245Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.036,
+    "changePercent24h": -0.015351792021604575,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "USD1-WLFI is expected to remain flat in the next 24 hours with a low confidence level. The current market context suggests a cautious approach due to the extreme fear sentiment and sideways trend in the total crypto market cap. The recent news on altseasons and DeFi revisions may have a limited impact on WLFI's price.",
-    "ja": "USD1-WLFIは次の24時間で低信頼度でフラットに推移することが期待されます。現在の市場状況は、極度の恐怖感と総暗号資産市場指標の横方向の傾向から、慎重なアプローチを示唆しています。アルトシーズンやデフィレビジョンに関する最近のニュースはWLFIの価格に限られた影響を与える可能性があります。",
+    "en": "USD1-WLFI is expected to remain flat in the next 24 hours with a 95% confidence level. The neutral RSI-14 reading and mid-band Bollinger Band %B suggest a stable short-term trend. However, the overall market context remains bearish due to the Extreme Fear Fear & Greed Index and lack of bullish sentiment in the CoinGecko community.",
+    "ja": "USD1-WLFI は、来週の24時間で95％の確率でフラットになる可能性があります。RSI-14が中立的で、ボリンジャー・バンドの%バンドが中間帯にあることから、短期のトレンドは安定しているようだ。ただし、Fear & Greed Indexが極度の恐怖にあり、CoinGeckoコミュニティがバブルではないことを示すことから、総合的な市場状況は悲観的である。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.91%",
+        "value": "+1.29%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
