@@ -41,7 +41,7 @@ logger = logging.getLogger(__name__)
 
 # ── Hyperparameters ────────────────────────────────────────────────────────────
 TOP_N_COINS   = 15   # reduced for Jetson Nano 4GB
-TRAIN_DAYS    = 180
+TRAIN_DAYS    = 90
 HIDDEN_SIZE   = 32   # reduced from 64; 4x less LSTM work for Maxwell GPU
 NUM_LAYERS    = 1    # reduced from 2; 2x less LSTM work
 DROPOUT       = 0.2

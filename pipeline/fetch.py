@@ -110,7 +110,7 @@ def fetch_hourly(coin_id: str, days: int) -> pd.DataFrame:
 
     data = _fetch_with_retry(
         f"{COINGECKO_API_BASE}/coins/{coin_id}/market_chart",
-        params={"vs_currency": "usd", "days": days, "interval": "hourly"},
+        params={"vs_currency": "usd", "days": days},
     )
     time.sleep(SLEEP_BETWEEN_CALLS)
 
