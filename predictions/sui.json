@@ -1,6 +1,6 @@
 {
   "coinId": "sui",
-  "generatedAt": "2026-06-20T16:00:08.082609Z",
+  "generatedAt": "2026-06-20T16:55:26.112747Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -1.0985502453900227,
-    "confidence": 0.7834
+    "changePercent24h": -1.0613725761844581,
+    "confidence": 0.7773
   },
   "commentary": {
-    "en": "The model predicts Sui will decline ~0.8% over the next 24 hours with high confidence (73%). Price moved -0.68% in the past 24 hours with volume at 0.9× average. Community sentiment on CoinGecko is 74% bullish and the Fear & Greed Index reads \"Extreme Fear\" (23), diverging from the model's forecast, adding uncertainty.",
-    "ja": "モデルはSuiが今後24時間で約0.8%下落すると予測しています（信頼度: 高い 73%）。過去24時間のリターンは-0.68%、出来高は平均の0.9倍です。CoinGeckoコミュニティでは74%が強気を示し、Fear & Greed指数は「Extreme Fear」（23）です。予測方向と乖離があり、不確実性が高まっています。",
+    "en": "Sui (SUI) is predicted to decrease by 0.8% in the next 24 hours with a confidence level of 73%. The current market sentiment is extremely fearful, with the Fear & Greed Index at 23. The recent news on MiCA 2.0 and DeFi revisions may have a mixed impact on the crypto market.",
+    "ja": "Sui (SUI) は、次の24時間で0.8%減少する可能性があり、信頼度は73%です。現在の市場感情は極度に恐れ、Fear & Greed Indexは23です。MiCA 2.0とDeFiの改訂に関する最近のニュースは、暗号市場に混乱をもたらす可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+1.17%",
+        "value": "+1.33%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {

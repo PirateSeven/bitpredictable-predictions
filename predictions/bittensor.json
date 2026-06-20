@@ -1,6 +1,6 @@
 {
   "coinId": "bittensor",
-  "generatedAt": "2026-06-20T16:00:08.082609Z",
+  "generatedAt": "2026-06-20T16:55:26.112747Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 2.312499774202624,
-    "confidence": 0.8856
+    "changePercent24h": 2.286160741036599,
+    "confidence": 0.8844
   },
   "commentary": {
-    "en": "The model predicts Bittensor will trade sideways over the next 24 hours with low confidence (16%). The short-term SMA has crossed above the medium-term SMA, signalling positive momentum. Community sentiment on CoinGecko is 74% bullish and the Fear & Greed Index reads \"Extreme Fear\" (23), diverging from the model's forecast, adding uncertainty.",
-    "ja": "モデルはBittensorが今後24時間で横ばいで推移すると予測しています（信頼度: 低い 16%）。短期移動平均が中期移動平均を上回り、ポジティブなモメンタムが示されています。CoinGeckoコミュニティでは74%が強気を示し、Fear & Greed指数は「Extreme Fear」（23）です。予測方向と乖離があり、不確実性が高まっています。",
+    "en": "Bittensor's 24-hour direction is predicted to be flat with a -0.1% change, indicating a neutral sentiment. The recent news on MiCA 2.0 and DeFi revisions may positively impact the crypto market, but the overall fear and greed index remains in extreme fear. The short-term trend remains in an uptrend.",
+    "ja": "ビッテンソルの24時間の方向は、-0.1％の変化で予測されており、中立的な意見を示しています。MiCA 2.0とDeFiの改善に関する最近のニュースは、暗号市場にプラスの影響を与える可能性がありますが、総合的な恐怖と欲求不満指数は極度の恐怖のままです。短期的な傾向は上昇傾向を維持しています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,12 +1000,12 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+1.17%",
+        "value": "+1.33%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "74% bullish",
+        "value": "80% bullish",
         "url": "https://www.coingecko.com/en/coins/bittensor"
       },
       {

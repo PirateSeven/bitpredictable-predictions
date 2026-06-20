@@ -1,6 +1,6 @@
 {
   "coinId": "bitcoin",
-  "generatedAt": "2026-06-20T16:00:08.082609Z",
+  "generatedAt": "2026-06-20T16:55:26.112747Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 0.013630670050248594,
+    "changePercent24h": 0.00370010137729615,
     "confidence": 0.4717
   },
   "commentary": {
-    "en": "Bitcoin's flat 24-hour direction prediction holds a 47% confidence level, with a neutral RSI-14 reading of 61. The Fear & Greed Index remains at 23, indicating extreme fear in the market. Recent news on stablecoins, DeFi revisions, and tokenization efforts may influence market sentiment.",
-    "ja": "ビットコインの24時間方向予想は47％の確信度でフラットを予想しており、RSI-14の読みは61で中立的な状態である。恐怖と欲求不満指数は23で極度の恐怖の状態である。安定コイン、DeFiの改良、トークン化に関するニュースが市場の気運に影響を与える可能性がある。",
+    "en": "Bitcoin's 24-hour direction is predicted to be flat with a 0.1% increase, driven by neutral RSI-14 and Bollinger Band %B indicators. The Fear & Greed Index remains in Extreme Fear territory, but the recent news on stablecoins and DeFi revisions in MiCA 2.0 may provide a catalyst for a potential price rebound. The short-term trend is sideways, with a volume ratio at 0.8x average.",
+    "ja": "ビットコインの24時間方向は、0.1%の増加が予想されるが、RSI-14とボリンジャー・バンド %Bの指標が中立的な値を示している。恐怖と欲求不満指数は極度の恐怖の状態にあるが、MiCA 2.0における安定コインとDeFiの改善に関するニュースが価格の反発につながる可能性がある。短期のトレンドは横方向に動いており、ボリュームの比率は平均の0.8倍である。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,12 +1000,12 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+1.17%",
+        "value": "+1.33%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "77% bullish",
+        "value": "76% bullish",
         "url": "https://www.coingecko.com/en/coins/bitcoin"
       },
       {

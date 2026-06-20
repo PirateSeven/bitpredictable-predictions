@@ -1,6 +1,6 @@
 {
   "coinId": "chainlink",
-  "generatedAt": "2026-06-20T16:00:08.082609Z",
+  "generatedAt": "2026-06-20T16:55:26.112747Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 0.38283812236459186,
-    "confidence": 0.7124
+    "changePercent24h": 0.3783506960871786,
+    "confidence": 0.7103
   },
   "commentary": {
-    "en": "Chainlink's 24-hour direction is predicted to be flat with a 47% confidence level. The RSI-14 and Bollinger Band %B indicate a neutral market sentiment. The recent news on stablecoins and DeFi revisions in MiCA 2.0 may have a positive impact on Chainlink's price.",
-    "ja": "Chainlinkの24時間の方向は、47％の信頼度でフラットと予想されています。 RSI-14とボリンジャー・バンド %Bは中立的な市場感情を示しています。 最近のニュースであるMiCA 2.0での安定コインとDeFiの改善はChainlinkの価格にプラスの影響を与える可能性があります。",
+    "en": "Chainlink's price is expected to remain flat in the next 24 hours with a confidence level of 47%. The current market sentiment is in extreme fear, according to the Fear & Greed Index, and the total crypto market cap has increased by 1.33% in the last 24 hours. Chainlink's recent news includes the expansion of Pudgy Penguins into retail with a Target trading card rollout.",
+    "ja": "Chainlinkの価格は、次の24時間で信頼度47%のままであると予想されています。Fear & Greed Indexによると、現在の市場感情は極度の恐怖であり、総暗号資産市場キャップは過去の24時間で1.33%増加しています。Chainlinkの最近のニュースには、Pudgy PenguinsがTargetのトレーディングカードロールアウトを通じて小売に拡大していることが含まれます。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+1.17%",
+        "value": "+1.33%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
