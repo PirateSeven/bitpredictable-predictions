@@ -1,6 +1,6 @@
 {
   "agentVersion": "crypto-ace-1.0.0",
-  "updatedAt": "2026-06-17T19:29:25.845908+00:00",
+  "updatedAt": "2026-06-20T09:42:03.492749+00:00",
   "exchange": "Binance Testnet",
   "currency": "BTC",
   "initialCapital": 1.0,
@@ -11,7 +11,7 @@
     "winRate": 0.0,
     "maxDrawdownPct": 0.04,
     "sharpeRatio": 0.0,
-    "startDate": "2026-06-17T19:29:24.806196+00:00"
+    "startDate": "2026-06-17T19:27:34.575587+00:00"
   },
   "weeklyStats": {
     "wins": 0,
@@ -27,34 +27,42 @@
     "coin": "ethereum",
     "pnlPct": -0.04,
     "pnlBtc": -0.0,
-    "time": "2026-06-17T19:29:25.842567+00:00"
+    "time": "2026-06-17T19:27:35.599884+00:00"
   },
   "currentStreak": {
     "count": 1,
     "type": "loss"
   },
-  "currentPosition": null,
+  "currentPosition": {
+    "coin": "solana",
+    "symbol": "SOL",
+    "direction": "long",
+    "entryPrice": 0.0011253,
+    "entryTime": "2026-06-20T07:47:58.880232+00:00",
+    "sizeBtc": 0.000281,
+    "unrealizedPnlPct": 0.0
+  },
   "equityCurve": [
     {
-      "time": "2026-06-17T19:29:24.806196+00:00",
+      "time": "2026-06-17T19:27:34.575587+00:00",
       "value": 1.0,
       "benchmarkBtc": 1.0
     },
     {
-      "time": "2026-06-17T19:29:25.842567+00:00",
+      "time": "2026-06-17T19:27:35.599884+00:00",
       "value": 1.0,
       "benchmarkBtc": 1.0
     }
   ],
   "recentTrades": [
     {
-      "id": "746551cf",
+      "id": "ac744a91",
       "coin": "ethereum",
       "symbol": "ETH",
       "action": "sell",
-      "price": 0.02702,
-      "sizeBtc": 0.001352,
-      "time": "2026-06-17T19:29:25.842567+00:00",
+      "price": 0.02706,
+      "sizeBtc": 0.001354,
+      "time": "2026-06-17T19:27:35.599884+00:00",
       "pnlBtc": -0.0,
       "pnlPct": -0.04,
       "signal": {
