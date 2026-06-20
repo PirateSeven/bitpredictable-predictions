@@ -1,6 +1,6 @@
 {
   "coinId": "sui",
-  "generatedAt": "2026-06-20T15:00:08.213757Z",
+  "generatedAt": "2026-06-20T16:00:08.082609Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -1.743458355931299,
-    "confidence": 0.8535
+    "changePercent24h": -1.0985502453900227,
+    "confidence": 0.7834
   },
   "commentary": {
-    "en": "Sui (SUI) is predicted to move downward by 0.8% in the next 24 hours with a confidence level of 73%. The current market sentiment is extreme fear, as indicated by the Fear & Greed Index of 23. The recent news about Pudgy Penguins' retail expansion and Charles Schwab's entry into prediction markets may have a neutral impact on SUI's price.",
-    "ja": "Sui (SUI) は、次の24時間で0.8%下落する可能性があり、信頼度は73%です。Fear & Greed Indexは23と極度の恐怖を示しています。Pudgy Penguinsの小売拡大とCharles Schwabの予測市場参入に関する最近のニュースは、SUIの価格に中立的な影響を与える可能性があります。",
+    "en": "The model predicts Sui will decline ~0.8% over the next 24 hours with high confidence (73%). Price moved -0.68% in the past 24 hours with volume at 0.9× average. Community sentiment on CoinGecko is 74% bullish and the Fear & Greed Index reads \"Extreme Fear\" (23), diverging from the model's forecast, adding uncertainty.",
+    "ja": "モデルはSuiが今後24時間で約0.8%下落すると予測しています（信頼度: 高い 73%）。過去24時間のリターンは-0.68%、出来高は平均の0.9倍です。CoinGeckoコミュニティでは74%が強気を示し、Fear & Greed指数は「Extreme Fear」（23）です。予測方向と乖離があり、不確実性が高まっています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.98%",
+        "value": "+1.17%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "72% bullish",
+        "value": "74% bullish",
         "url": "https://www.coingecko.com/en/coins/sui"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Crypto industry looks to stablecoins and DeFi revisions in MiCA 2.0",
+        "url": "https://cointelegraph.com/features/crypto-industry-stablecoins-defi-mica?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Philippine SEC signals readiness for RWA tokenization",
         "url": "https://cointelegraph.com/news/philippine-sec-rwa-tokenization-readiness?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Crypto kidnappers who robbed a Minnesota family of $8M plead guilty",
-        "url": "https://cointelegraph.com/news/crypto-kidnappers-who-robbed-a-minnesota-family-of-8m-plead-guilty?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

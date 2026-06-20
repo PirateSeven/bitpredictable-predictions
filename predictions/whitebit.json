@@ -1,6 +1,6 @@
 {
   "coinId": "whitebit",
-  "generatedAt": "2026-06-20T15:00:08.213757Z",
+  "generatedAt": "2026-06-20T16:00:08.082609Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.028948287034072567,
+    "changePercent24h": -0.07566302913966097,
     "confidence": 0.4604
   },
   "commentary": {
-    "en": "WhiteBIT Coin's (WHITEBIT) 24-hour return is 0.70% with a predicted flat direction, indicating a neutral sentiment. The Fear & Greed Index at 23 suggests extreme fear in the market, while the total crypto market cap and BTC have positive returns. WhiteBIT Coin's short-term trend remains sideways.",
-    "ja": "WHITEBITの24時間リターンは0.70％で、予測はフラット方向にあり、ニュートラルな感覚を示しています。Fear & Greed Indexは23で、市場は極度の恐怖を示しており、総暗号通貨マーケットキャップとBTCはプラスのリターンを示しています。WHITEBITの短期トレンドは横方向にあります。",
+    "en": "WhiteBIT Coin's price is expected to remain relatively stable with a 24h direction of +0.1% and an RSI-14 of 59, indicating a neutral trend. The recent news on stablecoins and DeFi revisions in MiCA 2.0 may have a positive impact on the market. However, the overall market sentiment remains in extreme fear.",
+    "ja": "ホワイトビットの価格は24時間方向が+0.1%で、RSI-14が59であるため、中立的な傾向が続く。MiCA 2.0における安定コインとDeFiの改善に関する最近のニュースは、市場に良い影響を与える可能性がある。ただし、市場全体の感情は極度の恐怖の状態にある。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.98%",
+        "value": "+1.17%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "0% bullish",
         "url": "https://www.coingecko.com/en/coins/whitebit"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Crypto industry looks to stablecoins and DeFi revisions in MiCA 2.0",
+        "url": "https://cointelegraph.com/features/crypto-industry-stablecoins-defi-mica?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Philippine SEC signals readiness for RWA tokenization",
         "url": "https://cointelegraph.com/news/philippine-sec-rwa-tokenization-readiness?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Crypto kidnappers who robbed a Minnesota family of $8M plead guilty",
-        "url": "https://cointelegraph.com/news/crypto-kidnappers-who-robbed-a-minnesota-family-of-8m-plead-guilty?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

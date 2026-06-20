@@ -1,6 +1,6 @@
 {
   "coinId": "chainlink",
-  "generatedAt": "2026-06-20T15:00:08.213757Z",
+  "generatedAt": "2026-06-20T16:00:08.082609Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 0.460679946868391,
-    "confidence": 0.7439
+    "changePercent24h": 0.38283812236459186,
+    "confidence": 0.7124
   },
   "commentary": {
-    "en": "Chainlink's flat direction prediction is supported by neutral RSI-14 and mid-band Bollinger Band %B. However, the recent news surrounding the Philippine SEC's readiness for RWA tokenization and Charles Schwab's entry into prediction markets may have a positive impact on the cryptocurrency market. Overall, Chainlink's price movement remains uncertain.",
-    "ja": "チェーンリンクの予想は、ニュートラルのRSI-14とミッドバンドのボリンジャー・バンド％Bによって裏付けられています。しかし、フィリピンSECのRWAトークン化の準備とチャールズ・シュワブの予測市場参入に関する最近のニュースは、cryptocurrency市場に肯定的な影響を与える可能性があります。チェーンリンクの価格動向は不確実です。",
+    "en": "Chainlink's 24-hour direction is predicted to be flat with a 47% confidence level. The RSI-14 and Bollinger Band %B indicate a neutral market sentiment. The recent news on stablecoins and DeFi revisions in MiCA 2.0 may have a positive impact on Chainlink's price.",
+    "ja": "Chainlinkの24時間の方向は、47％の信頼度でフラットと予想されています。 RSI-14とボリンジャー・バンド %Bは中立的な市場感情を示しています。 最近のニュースであるMiCA 2.0での安定コインとDeFiの改善はChainlinkの価格にプラスの影響を与える可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.98%",
+        "value": "+1.17%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "44% bullish",
         "url": "https://www.coingecko.com/en/coins/chainlink"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Crypto industry looks to stablecoins and DeFi revisions in MiCA 2.0",
+        "url": "https://cointelegraph.com/features/crypto-industry-stablecoins-defi-mica?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Philippine SEC signals readiness for RWA tokenization",
         "url": "https://cointelegraph.com/news/philippine-sec-rwa-tokenization-readiness?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Crypto kidnappers who robbed a Minnesota family of $8M plead guilty",
-        "url": "https://cointelegraph.com/news/crypto-kidnappers-who-robbed-a-minnesota-family-of-8m-plead-guilty?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

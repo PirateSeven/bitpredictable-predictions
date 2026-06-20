@@ -1,6 +1,6 @@
 {
   "coinId": "ondo-us-dollar-yield",
-  "generatedAt": "2026-06-20T15:00:08.213757Z",
+  "generatedAt": "2026-06-20T16:00:08.082609Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 0.7404020069433273,
-    "confidence": 0.95
+    "changePercent24h": 0.4882495570561222,
+    "confidence": 0.9447
   },
   "commentary": {
-    "en": "ONDO-US-DOLLAR-YIELD is expected to remain flat with a 0.0% change in the next 24 hours, given the neutral RSI-14 reading and mid-band Bollinger Band %B. The recent news on Charles Schwab entering prediction markets and the overall crypto market cap increase may have a positive impact on the token. However, the Extreme Fear sentiment and recent kidnappings in the crypto space may also contribute to volatility.",
-    "ja": "ONDO-US-DOLLAR-YIELDは、RSI-14の中立的な値とボリンジャー・バンドの% Bの中間値に基づいて、次の24時間で0.0%の変化が予想されます。チャールズ・シュワブが予測市場に参入し、総暗号資産の市場価値が増加したことなど、最近のニュースはトークンにポジティブな影響を与える可能性があります。しかし、極度の恐怖の感情と暗号空間での最近の誘拐事件も、不確実性を生み出す可能性があります。",
+    "en": "ONDO-US-DOLLAR-YIELD is expected to remain flat with a 0.0% 24-hour return, reflecting the current neutral sentiment in the market. The recent news on MiCA 2.0 and DeFi revisions may have a positive impact on stablecoins, but its effect on ONDO-US-DOLLAR-YIELD is uncertain. The Fear & Greed Index remains in Extreme Fear territory, indicating a cautious market.",
+    "ja": "ONDO-US-DOLLAR-YIELDは、24時間のリターンが0.0％のまま残る可能性があり、現在の市場の中立的な気分を反映している。MiCA 2.0とDeFiの改善に関する最近のニュースは、安定コインに肯定的な影響を与える可能性があるが、ONDO-US-DOLLAR-YIELDへの影響は不明である。恐怖と欲求不満指数は、極度の恐怖の領域にあり、慎重な市場を示している。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,8 +1000,13 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.98%",
+        "value": "+1.17%",
         "url": "https://www.coingecko.com/en/global-charts"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Crypto industry looks to stablecoins and DeFi revisions in MiCA 2.0",
+        "url": "https://cointelegraph.com/features/crypto-industry-stablecoins-defi-mica?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1012,11 +1017,6 @@
         "label": "CoinTelegraph",
         "value": "Philippine SEC signals readiness for RWA tokenization",
         "url": "https://cointelegraph.com/news/philippine-sec-rwa-tokenization-readiness?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Crypto kidnappers who robbed a Minnesota family of $8M plead guilty",
-        "url": "https://cointelegraph.com/news/crypto-kidnappers-who-robbed-a-minnesota-family-of-8m-plead-guilty?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

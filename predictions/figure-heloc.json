@@ -1,6 +1,6 @@
 {
   "coinId": "figure-heloc",
-  "generatedAt": "2026-06-20T15:00:08.213757Z",
+  "generatedAt": "2026-06-20T16:00:08.082609Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 0.17160034287343748,
+    "changePercent24h": -0.6051792119347179,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "Figure Heloc's 24-hour direction is predicted to be flat with a 0.1% decline, based on technical analysis. The asset's recent price movement has reached an overbought level, and low trading volume may indicate a lack of market momentum. The Fear & Greed Index remains in the Extreme Fear zone, which could impact investor sentiment.",
-    "ja": "Figure Helocの24時間の動向は、技術分析に基づいて0.1%の下落が予測されます。 価格の最近の動向はオーバーボールドレベルに達しており、取引量は低いことが示唆しています。 恐怖と欲求不満指数はエクストリーム・フィアのゾーンにあり、これは投資家の意識に影響を与える可能性があります。",
+    "en": "Figure Heloc (FIGURE-HELOC) is expected to experience a flat 24-hour direction with a slight decline of -0.1% due to its overbought RSI-14 and low volume ratio. The recent news on stablecoins and DeFi revisions in MiCA 2.0 may have a positive impact on the crypto market, but its effect on FIGURE-HELOC is uncertain. The overall market context, including the Fear & Greed Index and total crypto market cap, suggests a cautious approach.",
+    "ja": "Figure Heloc (FIGURE-HELOC) は24時間方向がフラットで-0.1%の下落が予想され、RSI-14がオーバーボールド、ボリュームレシオが低いことから。MiCA 2.0におけるスタビルコインやDeFiの改善に関するニュースは、暗号資産市場に肯定的な影響を与える可能性があるが、FIGURE-HELOCへの影響は不明。総暗号資産市場キャップや恐怖と欲求不満指数などの総市場状況から、慎重なアプローチが必要である。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.98%",
+        "value": "+1.17%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "100% bullish",
         "url": "https://www.coingecko.com/en/coins/figure-heloc"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Crypto industry looks to stablecoins and DeFi revisions in MiCA 2.0",
+        "url": "https://cointelegraph.com/features/crypto-industry-stablecoins-defi-mica?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Philippine SEC signals readiness for RWA tokenization",
         "url": "https://cointelegraph.com/news/philippine-sec-rwa-tokenization-readiness?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Crypto kidnappers who robbed a Minnesota family of $8M plead guilty",
-        "url": "https://cointelegraph.com/news/crypto-kidnappers-who-robbed-a-minnesota-family-of-8m-plead-guilty?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

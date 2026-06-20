@@ -1,6 +1,6 @@
 {
   "coinId": "tron",
-  "generatedAt": "2026-06-20T15:00:08.213757Z",
+  "generatedAt": "2026-06-20T16:00:08.082609Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 0.008289432241484623,
-    "confidence": 0.7011
+    "changePercent24h": 0.29747842864695384,
+    "confidence": 0.8089
   },
   "commentary": {
-    "en": "TRON's 24-hour return is +1.39%, with a predicted flat direction and 70% confidence. The RSI-14 is neutral at 67, and the Bollinger Band %B is at 0.94, indicating a possible pullback. The Fear & Greed Index remains in Extreme Fear at 23.",
-    "ja": "トロンの24時間リターンは+1.39％、予想はフラットで70％の信頼性があります。RSI-14は67で中立的、ボリンジャーバンド％Bは0.94で、引き下げの可能性があります。恐怖と欲求不満指数は23で、極度の恐怖のままでいます。",
+    "en": "TRON's price is expected to remain relatively stable in the short term, with a 24-hour direction of +0.1% and a confidence level of 70%. The current market context, including the Fear & Greed Index and total crypto market cap, suggests a cautious sentiment. The recent news on stablecoins and DeFi revisions may have a positive impact on TRON's price.",
+    "ja": "トロンの価格は短期的には比較的安定し、24時間の方向性は+0.1%、信頼度は70%と予想されます。Fear & Greed Indexや総暗号資産市場キャップなどの現在の市場状況は、慎重な気分を示しています。安定コインやDeFiの改善に関する最近のニュースはトロンの価格に肯定的な影響を与える可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.98%",
+        "value": "+1.17%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "38% bullish",
         "url": "https://www.coingecko.com/en/coins/tron"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Crypto industry looks to stablecoins and DeFi revisions in MiCA 2.0",
+        "url": "https://cointelegraph.com/features/crypto-industry-stablecoins-defi-mica?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Philippine SEC signals readiness for RWA tokenization",
         "url": "https://cointelegraph.com/news/philippine-sec-rwa-tokenization-readiness?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Crypto kidnappers who robbed a Minnesota family of $8M plead guilty",
-        "url": "https://cointelegraph.com/news/crypto-kidnappers-who-robbed-a-minnesota-family-of-8m-plead-guilty?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

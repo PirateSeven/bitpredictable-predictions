@@ -1,6 +1,6 @@
 {
   "coinId": "binancecoin",
-  "generatedAt": "2026-06-20T15:00:08.213757Z",
+  "generatedAt": "2026-06-20T16:00:08.082609Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.08936846960931766,
+    "changePercent24h": -0.07293449765199735,
     "confidence": 0.4951
   },
   "commentary": {
-    "en": "BNB's 24-hour direction is predicted to be flat with a 49% confidence level, as its RSI-14 is neutral at 59 and Bollinger Band %B is at 0.73, indicating a mid-band position. The recent news on the expansion of Pudgy Penguins and the Philippine SEC's readiness for RWA tokenization may have a neutral impact on BNB's price. However, the overall market sentiment remains in extreme fear, according to the Fear & Greed Index.",
-    "ja": "ビナンスコインの24時間の方向は、予測値は49％の確信度で、フラットであると予想されています。RSI-14は59で中立的な位置を示し、ボリンジャー・バンドの%Bは0.73で中間の位置を示しています。近況では、Pudgy Penguinsの拡大とフィリピンSECのRWAトークナイズの準備は、ビナンスコインの価格に中立的な影響を与える可能性があります。ただし、総合的な市場感情は、恐怖と欲求不満指数によれば、極度の恐怖の状態にあります。",
+    "en": "BNB's 24-hour direction is predicted to be flat with a confidence level of 49%. The recent price movement is neutral, as indicated by the RSI-14 at 59. The mid-band Bollinger Band %B of 0.73 suggests that BNB is trading within its normal range.",
+    "ja": "ビナンスコインの24時間の予想方向は、49％の信頼度でフラットである。最近の価格動向は中立的であり、RSI-14が59に達している。ボリンジャー・バンド %Bが0.73であることは、ビナンスコインが通常の範囲内で取引されていることを示している。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.98%",
+        "value": "+1.17%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "50% bullish",
         "url": "https://www.coingecko.com/en/coins/binancecoin"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Crypto industry looks to stablecoins and DeFi revisions in MiCA 2.0",
+        "url": "https://cointelegraph.com/features/crypto-industry-stablecoins-defi-mica?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Philippine SEC signals readiness for RWA tokenization",
         "url": "https://cointelegraph.com/news/philippine-sec-rwa-tokenization-readiness?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Crypto kidnappers who robbed a Minnesota family of $8M plead guilty",
-        "url": "https://cointelegraph.com/news/crypto-kidnappers-who-robbed-a-minnesota-family-of-8m-plead-guilty?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

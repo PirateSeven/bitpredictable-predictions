@@ -1,6 +1,6 @@
 {
   "coinId": "ondo-finance",
-  "generatedAt": "2026-06-20T15:00:08.213757Z",
+  "generatedAt": "2026-06-20T16:00:08.082609Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -3.1122549047431303,
-    "confidence": 0.8395
+    "changePercent24h": -2.8045054244301624,
+    "confidence": 0.8233
   },
   "commentary": {
-    "en": "Ondo (ONDO-FINANCE) is predicted to move downward with a 2.8% decline, driven by the current market sentiment of extreme fear. The neutral RSI-14 reading and sideways short-term trend suggest a lack of momentum. The recent news has not directly impacted ONDO-FINANCE.",
-    "ja": "オンド・フィナンス（ONDO-FINANCE）は、極度の恐怖の市場感情によって2.8%の下落が予想されます。中立的なRSI-14の値と短期的な横方向の傾向は、動きの欠如を示しています。最近のニュースはONDO-FINANCEに直接影響していません。",
+    "en": "Ondo (ONDO-FINANCE) is predicted to decline by 2.8% in the next 24 hours, with a confidence level of 82%. The current market sentiment is extreme fear, according to the Fear & Greed Index, and the total crypto market cap has increased by 1.17% in the past 24 hours. The recent news on stablecoins and DeFi revisions may have a mixed impact on ONDO-FINANCE.",
+    "ja": "ONDO-FINANCEは次の24時間で2.8%の下落が予想され、信頼度は82%です。現在の市場感情は、恐怖指数で極度の恐怖と評価されています。過去の24時間で、総暗号資産市場キャップは1.17%増加しました。安定コインやDeFiの改善に関する最近のニュースは、ONDO-FINANCEに混在した影響を与える可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.98%",
+        "value": "+1.17%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "100% bullish",
+        "value": "94% bullish",
         "url": "https://www.coingecko.com/en/coins/ondo-finance"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Crypto industry looks to stablecoins and DeFi revisions in MiCA 2.0",
+        "url": "https://cointelegraph.com/features/crypto-industry-stablecoins-defi-mica?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Philippine SEC signals readiness for RWA tokenization",
         "url": "https://cointelegraph.com/news/philippine-sec-rwa-tokenization-readiness?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Crypto kidnappers who robbed a Minnesota family of $8M plead guilty",
-        "url": "https://cointelegraph.com/news/crypto-kidnappers-who-robbed-a-minnesota-family-of-8m-plead-guilty?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

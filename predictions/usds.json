@@ -1,6 +1,6 @@
 {
   "coinId": "usds",
-  "generatedAt": "2026-06-20T15:00:08.213757Z",
+  "generatedAt": "2026-06-20T16:00:08.082609Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -970,8 +970,8 @@
     "confidence": 0.95
   },
   "commentary": {
-    "en": "USDS is expected to remain flat with a 95% confidence level. The recent news about Pudgy Penguins' retail expansion and Charles Schwab's entry into prediction markets may have a limited impact on USDS. The overall market context, including the Fear & Greed Index and the total crypto market cap, suggests a cautious outlook.",
-    "ja": "USDSは95％の確実性でフラットに推測される。Pudgy Penguinsのリテール展開やCharles Schwabの予測市場参入に関するニュースはUSDSに限られた影響を与える可能性がある。Fear & Greed Indexや総暗号資産市場キャップなどの総合的な市場状況は、慎重な姿勢を示唆している。",
+    "en": "USDS is expected to remain flat in the next 24 hours with a 95% confidence level. The recent news on MiCA 2.0 and DeFi revisions may have a positive impact on the stablecoin market, but the overall sentiment remains in extreme fear. The neutral RSI-14 reading suggests that USDS is currently in a sideways trend.",
+    "ja": "USDSは翌24時間に95％の確実性でフラットに推移することが予想されます。MiCA 2.0とDeFiの改善に関する最近のニュースは、安定コイン市場にプラスの影響を与える可能性がありますが、極度の恐怖の感情は持続しています。中立的なRSI-14の値は、USDSが現在横方向のトレンドにあります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,8 +1000,13 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.98%",
+        "value": "+1.17%",
         "url": "https://www.coingecko.com/en/global-charts"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Crypto industry looks to stablecoins and DeFi revisions in MiCA 2.0",
+        "url": "https://cointelegraph.com/features/crypto-industry-stablecoins-defi-mica?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1012,11 +1017,6 @@
         "label": "CoinTelegraph",
         "value": "Philippine SEC signals readiness for RWA tokenization",
         "url": "https://cointelegraph.com/news/philippine-sec-rwa-tokenization-readiness?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Crypto kidnappers who robbed a Minnesota family of $8M plead guilty",
-        "url": "https://cointelegraph.com/news/crypto-kidnappers-who-robbed-a-minnesota-family-of-8m-plead-guilty?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

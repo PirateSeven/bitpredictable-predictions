@@ -1,6 +1,6 @@
 {
   "coinId": "global-dollar",
-  "generatedAt": "2026-06-20T15:00:08.213757Z",
+  "generatedAt": "2026-06-20T16:00:08.082609Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.057779940850295065,
+    "changePercent24h": -0.0366,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "The Global Dollar is expected to remain flat in the next 24 hours with a confidence level of 95%. The recent news of Pudgy Penguins' expansion and the Philippine SEC's readiness for RWA tokenization may have a neutral impact on the market. The Fear & Greed Index remains in Extreme Fear territory, indicating a cautious market sentiment.",
-    "ja": "グローバルドルアーの24時間予想は、95％の確実性でフラットであると予想されています。プディギペンギンの拡大とフィリピンSECのRWAトークナイズの準備など、最近のニュースは市場に中立的な影響を与える可能性があります。恐怖と欲求不満指数はまだ極度の恐怖の領域にあり、慎重な市場感覚を示しています。",
+    "en": "The Global Dollar (GLOBAL-DOLLAR) is expected to remain flat in the next 24 hours with a 95% confidence level. The current market sentiment remains in extreme fear, as indicated by the Fear & Greed Index. The recent news on stablecoins and DeFi revisions in MiCA 2.0 may have a neutral impact on GLOBAL-DOLLAR.",
+    "ja": "グローバルドルラ (GLOBAL-DOLLAR) は、来日24時間で95％の確実性でフラットの予想です。現在の市場感情は、恐怖と欲求不満指数で極度の恐怖の状態です。MiCA 2.0における安定コインとDeFiの改善に関するニュースは、グローバルドルラに中立的な影響を与える可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,8 +1000,13 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.98%",
+        "value": "+1.17%",
         "url": "https://www.coingecko.com/en/global-charts"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Crypto industry looks to stablecoins and DeFi revisions in MiCA 2.0",
+        "url": "https://cointelegraph.com/features/crypto-industry-stablecoins-defi-mica?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1012,11 +1017,6 @@
         "label": "CoinTelegraph",
         "value": "Philippine SEC signals readiness for RWA tokenization",
         "url": "https://cointelegraph.com/news/philippine-sec-rwa-tokenization-readiness?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Crypto kidnappers who robbed a Minnesota family of $8M plead guilty",
-        "url": "https://cointelegraph.com/news/crypto-kidnappers-who-robbed-a-minnesota-family-of-8m-plead-guilty?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

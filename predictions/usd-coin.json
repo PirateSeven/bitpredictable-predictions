@@ -1,6 +1,6 @@
 {
   "coinId": "usd-coin",
-  "generatedAt": "2026-06-20T15:00:08.213757Z",
+  "generatedAt": "2026-06-20T16:00:08.082609Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -970,8 +970,8 @@
     "confidence": 0.95
   },
   "commentary": {
-    "en": "USD Coin (USD-COIN) is expected to remain flat in the next 24 hours with a 95% confidence level. The neutral RSI-14 reading and mid-band Bollinger Band %B indicate a stable market condition. The recent news on Charles Schwab entering prediction markets may have a positive impact on the overall market.",
-    "ja": "USDコイン（USD-COIN）は、次の24時間に95％の確実性でフラットに推定される。中立的なRSI-14の値とマインベンドのボリンジャーバンド％Bは安定した市場状況を示している。チャールズシュワブが予測市場に参入するニュースは、市場全体にプラスの影響を与える可能性がある。",
+    "en": "USD Coin (USD-COIN) is expected to remain flat in the next 24 hours due to neutral technical signals and mixed market context. The Fear & Greed Index at Extreme Fear suggests a potential short-term recovery, but recent news on regulatory updates and market volatility may impact the stablecoin's price. With a 95% confidence level, a flat 24-hour direction is predicted.",
+    "ja": "USDコイン（USD-COIN）は、中立的な技術指標と混在する市場状況により、来週24時間で平坦になる可能性があります。恐怖と欲求不満指数が極度の恐怖に達しているため、短期的な回復が見込まれるかもしれませんが、規制上の更新や市場の波動などのニュースが安定コインの価格に影響を与える可能性があります。95％の信頼レベルで、24時間の平坦な方向が予測されます。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.98%",
+        "value": "+1.17%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "100% bullish",
         "url": "https://www.coingecko.com/en/coins/usd-coin"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Crypto industry looks to stablecoins and DeFi revisions in MiCA 2.0",
+        "url": "https://cointelegraph.com/features/crypto-industry-stablecoins-defi-mica?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Philippine SEC signals readiness for RWA tokenization",
         "url": "https://cointelegraph.com/news/philippine-sec-rwa-tokenization-readiness?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Crypto kidnappers who robbed a Minnesota family of $8M plead guilty",
-        "url": "https://cointelegraph.com/news/crypto-kidnappers-who-robbed-a-minnesota-family-of-8m-plead-guilty?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

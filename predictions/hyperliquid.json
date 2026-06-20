@@ -1,6 +1,6 @@
 {
   "coinId": "hyperliquid",
-  "generatedAt": "2026-06-20T15:00:08.213757Z",
+  "generatedAt": "2026-06-20T16:00:08.082609Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -1.6463475144658473,
-    "confidence": 0.7448
+    "changePercent24h": -0.7909888425994394,
+    "confidence": 0.5351
   },
   "commentary": {
-    "en": "Hyperliquid (HYPERLIQUID) is expected to decline by 1.4% in the next 24 hours, according to technical analysis. The Fear & Greed Index remains in Extreme Fear territory, and the total crypto market cap has seen a slight increase. The recent news on Pudgy Penguins and the Philippine SEC's readiness for RWA tokenization may not have a significant impact on HYPERLIQUID's price.",
-    "ja": "Hyperliquid (HYPERLIQUID) は、技術分析によると、来る24時間で1.4%下落すると予想されます。Fear & Greed Indexは極度の恐怖の状態にあり、総暗号資産市場キャップはわずかに増加しています。Pudgy PenguinsやフィリピンSECのRWAトークン化の準備に関する最近のニュースは、HYPERLIQUIDの価格に大きな影響を与える可能性はありません。",
+    "en": "Hyperliquid's 24-hour direction is predicted to be DOWN by 1.4% with a confidence level of 71%. The recent news on MiCA 2.0 and DeFi revisions may impact the market sentiment, but the Fear & Greed Index remains at Extreme Fear. The sideways short-term trend and neutral RSI-14 suggest a cautious approach.",
+    "ja": "ハイパーリキッドの24時間の方向は、71％の確率で1.4％下げられる予想です。マイカ2.0とデフィー改善に関するニュースは市場の気分に影響を与えるかもしれませんが、恐怖と欲求不満指数は極度の恐怖のままであります。短期の傾向は横方向で、RSI-14は中立的な値を示しています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.98%",
+        "value": "+1.17%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "66% bullish",
         "url": "https://www.coingecko.com/en/coins/hyperliquid"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Crypto industry looks to stablecoins and DeFi revisions in MiCA 2.0",
+        "url": "https://cointelegraph.com/features/crypto-industry-stablecoins-defi-mica?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Philippine SEC signals readiness for RWA tokenization",
         "url": "https://cointelegraph.com/news/philippine-sec-rwa-tokenization-readiness?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Crypto kidnappers who robbed a Minnesota family of $8M plead guilty",
-        "url": "https://cointelegraph.com/news/crypto-kidnappers-who-robbed-a-minnesota-family-of-8m-plead-guilty?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

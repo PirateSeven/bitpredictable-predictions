@@ -1,6 +1,6 @@
 {
   "coinId": "bittensor",
-  "generatedAt": "2026-06-20T15:00:08.213757Z",
+  "generatedAt": "2026-06-20T16:00:08.082609Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 2.7693938311878483,
-    "confidence": 0.9029
+    "changePercent24h": 2.312499774202624,
+    "confidence": 0.8856
   },
   "commentary": {
-    "en": "Bittensor's (BITTENSOR) 24-hour direction is predicted to be flat with a -0.1% change, indicating a neutral sentiment. The recent news about Pudgy Penguins expanding its retail footprint and the Philippine SEC's readiness for RWA tokenization may have a positive impact on the market. However, the overall sentiment remains cautious due to the Extreme Fear index.",
-    "ja": "BITTENSORの24時間の方向性は、-0.1%の変化で予測されており、中立的な意見を示しています。Pudgy Penguinsがリテール出店拡大を発表し、フィリピンSECがRWAトークン化の準備を示したニュースが市場に良い影響を与える可能性がありますが、総合的な意見は懐疑的です。",
+    "en": "The model predicts Bittensor will trade sideways over the next 24 hours with low confidence (16%). The short-term SMA has crossed above the medium-term SMA, signalling positive momentum. Community sentiment on CoinGecko is 74% bullish and the Fear & Greed Index reads \"Extreme Fear\" (23), diverging from the model's forecast, adding uncertainty.",
+    "ja": "モデルはBittensorが今後24時間で横ばいで推移すると予測しています（信頼度: 低い 16%）。短期移動平均が中期移動平均を上回り、ポジティブなモメンタムが示されています。CoinGeckoコミュニティでは74%が強気を示し、Fear & Greed指数は「Extreme Fear」（23）です。予測方向と乖離があり、不確実性が高まっています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.98%",
+        "value": "+1.17%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "75% bullish",
+        "value": "74% bullish",
         "url": "https://www.coingecko.com/en/coins/bittensor"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Crypto industry looks to stablecoins and DeFi revisions in MiCA 2.0",
+        "url": "https://cointelegraph.com/features/crypto-industry-stablecoins-defi-mica?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Philippine SEC signals readiness for RWA tokenization",
         "url": "https://cointelegraph.com/news/philippine-sec-rwa-tokenization-readiness?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Crypto kidnappers who robbed a Minnesota family of $8M plead guilty",
-        "url": "https://cointelegraph.com/news/crypto-kidnappers-who-robbed-a-minnesota-family-of-8m-plead-guilty?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "coinId": "cardano",
-  "generatedAt": "2026-06-20T15:00:08.213757Z",
+  "generatedAt": "2026-06-20T16:00:08.082609Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.006343194394355017,
-    "confidence": 0.2424
+    "changePercent24h": -0.6670013792087681,
+    "confidence": 0.7108
   },
   "commentary": {
-    "en": "Cardano's price is expected to remain flat with a slight decline of -0.2% in the next 24 hours, based on technical signals. The Fear & Greed Index remains in Extreme Fear territory, and the recent news has not significantly impacted Cardano's price. The overall market context suggests a cautious outlook.",
-    "ja": "カードアノの価格は、技術的シグナルに基づいて次の24時間に-0.2%の小幅な下落が予想されます。恐怖と欲求不満指数はエクストリーム・フィアの状態にあり、最近のニュースはカードアノの価格に大きな影響を与えていません。総合的な市場状況は、慎重な姿勢を示しています。",
+    "en": "Cardano's price is expected to remain flat with a slight decline of -0.2% in the next 24 hours, based on technical signals. The Fear & Greed Index remains in Extreme Fear territory, while the total crypto market cap and Bitcoin's return are in positive territory. Recent news on stablecoins and DeFi revisions may have a mixed impact on Cardano's price.",
+    "ja": "カードアノの価格は、技術的シグナルに基づいて、次の24時間で-0.2％の小幅な下落が予想される。恐怖と欲求不満指数は極度の恐怖の領域にあり、総暗号資産市場キャップとビットコインのリターンはプラスの領域にある。安定コインやDeFiの改良に関する最近のニュースは、カードアノの価格にさまざまな影響を与える可能性がある。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.98%",
+        "value": "+1.17%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "77% bullish",
+        "value": "76% bullish",
         "url": "https://www.coingecko.com/en/coins/cardano"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Crypto industry looks to stablecoins and DeFi revisions in MiCA 2.0",
+        "url": "https://cointelegraph.com/features/crypto-industry-stablecoins-defi-mica?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Philippine SEC signals readiness for RWA tokenization",
         "url": "https://cointelegraph.com/news/philippine-sec-rwa-tokenization-readiness?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Crypto kidnappers who robbed a Minnesota family of $8M plead guilty",
-        "url": "https://cointelegraph.com/news/crypto-kidnappers-who-robbed-a-minnesota-family-of-8m-plead-guilty?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

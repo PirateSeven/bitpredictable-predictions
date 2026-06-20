@@ -1,6 +1,6 @@
 {
   "coinId": "leo-token",
-  "generatedAt": "2026-06-20T15:00:08.213757Z",
+  "generatedAt": "2026-06-20T16:00:08.082609Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 0.395402455772271,
-    "confidence": 0.8274
+    "changePercent24h": -0.03755297465904151,
+    "confidence": 0.6817
   },
   "commentary": {
-    "en": "LEO Token's 24-hour direction is predicted to be flat with a 0.0% confidence level, indicating a neutral stance. The recent news of Pudgy Penguins expanding its retail footprint and the Philippine SEC's readiness for RWA tokenization may have a positive impact on the market. However, the overall sentiment remains in extreme fear, as indicated by the Fear & Greed Index.",
-    "ja": "LEO Token の 24 時間の方向は、0.0% の信頼度でフラットと予測され、中立的な立場を示しています。 Pudgy Penguins が展開するリテールフットプリントとフィリピン SEC の RWA トークニゼーションの準備など、最近のニュースは市場に肯定的な影響を与える可能性があります。しかし、総合的な感情は、恐怖と欲求不満指数が極度の恐怖を示しているため、恐怖に包まれています。",
+    "en": "LEO Token (LEO-TOKEN) is expected to experience a flat 24-hour direction with a 68% confidence level, driven by neutral RSI-14 and Bollinger Band %B readings. The recent news on stablecoins and DeFi revisions in MiCA 2.0 may have a positive impact on the token. However, the overall market sentiment remains in extreme fear.",
+    "ja": "LEO Token (LEO-TOKEN) は、68%の信頼性で 24 時間の方向性が平坦になる可能性があり、中立的な RSI-14 とボリンジャー バンド %B の読み値によって推進される。最近のニュースである MiCA 2.0 のスタビルコインや DeFi の改善は、トークンに肯定的な影響を与える可能性がある。しかし、市場全体の感情は極度の恐怖の状態にある。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.98%",
+        "value": "+1.17%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "100% bullish",
         "url": "https://www.coingecko.com/en/coins/leo-token"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Crypto industry looks to stablecoins and DeFi revisions in MiCA 2.0",
+        "url": "https://cointelegraph.com/features/crypto-industry-stablecoins-defi-mica?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Philippine SEC signals readiness for RWA tokenization",
         "url": "https://cointelegraph.com/news/philippine-sec-rwa-tokenization-readiness?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Crypto kidnappers who robbed a Minnesota family of $8M plead guilty",
-        "url": "https://cointelegraph.com/news/crypto-kidnappers-who-robbed-a-minnesota-family-of-8m-plead-guilty?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

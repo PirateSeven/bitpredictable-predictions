@@ -1,6 +1,6 @@
 {
   "coinId": "crypto-com-chain",
-  "generatedAt": "2026-06-20T15:00:08.213757Z",
+  "generatedAt": "2026-06-20T16:00:08.082609Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.21180542316198597,
-    "confidence": 0.5864
+    "changePercent24h": 0.30047594123274746,
+    "confidence": 0.653
   },
   "commentary": {
-    "en": "Cronos's 24h direction is predicted to be flat with a 0.1% increase, but the confidence level is relatively low at 45%. The recent news about Pudgy Penguins and the Philippine SEC's readiness for RWA tokenization may have a neutral impact on the market. The Fear & Greed Index remains in Extreme Fear territory, indicating a cautious outlook.",
-    "ja": "Cronos の 24 時間の方向は、0.1% の増加が予想されるが、信頼度は 45% と比較的低い。Pudgy Penguins とフィリピン SEC の RWA トークン化の準備に関する最近のニュースは市場に中立的な影響を与える可能性があり、Fear & Greed Index はエクストリーム フィアの領域に留まっている。",
+    "en": "Cronos's 24-hour direction is predicted to be flat with a +0.1% change, but the confidence level is relatively low at 45%. The RSI-14 and Bollinger Band %B indicators suggest a neutral market condition, while the short-term trend is sideways. The recent news on MiCA 2.0 and DeFi revisions may have a positive impact on the market.",
+    "ja": "Cronos の 24 時間の方向は、+0.1% の変化が予想され、信頼度は 45% です。 RSI-14 とボリンジャー バンド %B の指標は中立的な市場状況を示しており、短期的なトレンドは横方向に動いています。 最近のニュースである MiCA 2.0 と DeFi の改善については、市場に肯定的な影響を与える可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.98%",
+        "value": "+1.17%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "88% bullish",
         "url": "https://www.coingecko.com/en/coins/crypto-com-chain"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Crypto industry looks to stablecoins and DeFi revisions in MiCA 2.0",
+        "url": "https://cointelegraph.com/features/crypto-industry-stablecoins-defi-mica?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Philippine SEC signals readiness for RWA tokenization",
         "url": "https://cointelegraph.com/news/philippine-sec-rwa-tokenization-readiness?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Crypto kidnappers who robbed a Minnesota family of $8M plead guilty",
-        "url": "https://cointelegraph.com/news/crypto-kidnappers-who-robbed-a-minnesota-family-of-8m-plead-guilty?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

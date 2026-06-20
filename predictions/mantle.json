@@ -1,6 +1,6 @@
 {
   "coinId": "mantle",
-  "generatedAt": "2026-06-20T15:00:08.213757Z",
+  "generatedAt": "2026-06-20T16:00:08.082609Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 0.6395368888003544,
-    "confidence": 0.7748
+    "changePercent24h": 0.7126734335728794,
+    "confidence": 0.7919
   },
   "commentary": {
-    "en": "Mantle (MANTLE) is experiencing a flat 24-hour direction with a confidence of 42%. The recent news of Pudgy Penguins expanding its retail footprint may have a positive impact on the market. However, the overall sentiment remains in extreme fear.",
-    "ja": "Mantle (MANTLE) は、24時間の方向性がフラットで、信頼性は42％です。Pudgy Penguins がリテールフットプリントを拡大したニュースは市場に肯定的な影響を与える可能性がありますが、総合的な感覚は極度の恐怖のままです。",
+    "en": "Mantle (MANTLE) is expected to experience a flat 24-hour period with a 0% predicted return, based on current technical signals and market context. The Fear & Greed Index remains in extreme fear, while the total crypto market cap and BTC 24-hour returns are slightly positive. Recent news on stablecoins and DeFi revisions may have a neutral impact on MANTLE's price.",
+    "ja": "Mantle（MANTLE）は、現在の技術指標と市場状況に基づいて、24時間で0％の予想リターンを経験する可能性があります。恐怖と欲求不満指数は極度の恐怖の状態にあり、総暗号資産市場キャップとBTCの24時間リターンは微妙にプラスです。安定コインとDeFiの改善に関する最近のニュースはMANTLEの価格に中立的な影響を与える可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.98%",
+        "value": "+1.17%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "100% bullish",
+        "value": "50% bullish",
         "url": "https://www.coingecko.com/en/coins/mantle"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Crypto industry looks to stablecoins and DeFi revisions in MiCA 2.0",
+        "url": "https://cointelegraph.com/features/crypto-industry-stablecoins-defi-mica?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Philippine SEC signals readiness for RWA tokenization",
         "url": "https://cointelegraph.com/news/philippine-sec-rwa-tokenization-readiness?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Crypto kidnappers who robbed a Minnesota family of $8M plead guilty",
-        "url": "https://cointelegraph.com/news/crypto-kidnappers-who-robbed-a-minnesota-family-of-8m-plead-guilty?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

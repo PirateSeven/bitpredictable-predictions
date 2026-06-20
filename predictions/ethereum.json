@@ -1,6 +1,6 @@
 {
   "coinId": "ethereum",
-  "generatedAt": "2026-06-20T15:00:08.213757Z",
+  "generatedAt": "2026-06-20T16:00:08.082609Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 0.6751427144456256,
-    "confidence": 0.7519
+    "changePercent24h": 0.5438069448170565,
+    "confidence": 0.7109
   },
   "commentary": {
-    "en": "Ethereum's 24-hour return is +1.60%, with a flat predicted direction and neutral RSI-14 at 63. The Fear & Greed Index remains in Extreme Fear at 23, while the CoinGecko community is 85% bullish. Recent news includes Pudgy Penguins' retail expansion and the Philippine SEC's readiness for RWA tokenization.",
-    "ja": "イーサリアムの24時間のリターンは+1.60%で、予測はフラットでRSI-14は63の中立的な値を示しています。Fear & Greed Indexは23の極度の恐怖の状態にあり、CoinGeckoコミュニティは85%がバブルです。最近のニュースにはPudgy Penguinsのリテール展開とフィリピンSECのRWAトークン化の準備があります。",
+    "en": "Ethereum's flat 24-hour direction prediction has a 34% confidence level, with a neutral RSI-14 reading at 63. The recent news on MiCA 2.0 and DeFi revisions may have a positive impact on Ethereum, but the overall sentiment remains cautious due to the extreme fear in the market.",
+    "ja": "イーサリアムの24時間方向予測は34％の確信度でフラットを予測しており、RSI-14は63で中立的な値を示しています。MiCA 2.0やDeFiの改善に関する最近のニュースはイーサリアムにプラスの影響を与える可能性がありますが、市場全体の感情は極度の恐怖のため慎重な姿勢をとっています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.98%",
+        "value": "+1.17%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "85% bullish",
+        "value": "83% bullish",
         "url": "https://www.coingecko.com/en/coins/ethereum"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Crypto industry looks to stablecoins and DeFi revisions in MiCA 2.0",
+        "url": "https://cointelegraph.com/features/crypto-industry-stablecoins-defi-mica?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Philippine SEC signals readiness for RWA tokenization",
         "url": "https://cointelegraph.com/news/philippine-sec-rwa-tokenization-readiness?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Crypto kidnappers who robbed a Minnesota family of $8M plead guilty",
-        "url": "https://cointelegraph.com/news/crypto-kidnappers-who-robbed-a-minnesota-family-of-8m-plead-guilty?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

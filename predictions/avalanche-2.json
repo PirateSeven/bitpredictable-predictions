@@ -1,6 +1,6 @@
 {
   "coinId": "avalanche-2",
-  "generatedAt": "2026-06-20T15:00:08.213757Z",
+  "generatedAt": "2026-06-20T16:00:08.082609Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": 1.1871203186520627,
-    "confidence": 0.6913
+    "changePercent24h": 1.3169239516279423,
+    "confidence": 0.7169
   },
   "commentary": {
-    "en": "Avalanche (AVALANCHE-2) is predicted to move down by -1.4% in the next 24 hours with a confidence level of 72%. The current market sentiment is in extreme fear, as indicated by the Fear & Greed Index of 23. The short-term trend remains in an uptrend despite the predicted decline.",
-    "ja": "Avalanche（AVALANCHE-2）は、次の24時間で-1.4%の下落が予想され、信頼度は72%です。現在の市場感情は、恐怖指数が23であるため、極度の恐怖にあります。短期傾向は、予想される下落にもかかわらず、上昇傾向にあります。",
+    "en": "Avalanche is expected to decline by 1.4% in the next 24 hours, with a confidence level of 72%. The recent news of stablecoins and DeFi revisions in MiCA 2.0 may have a mixed impact on the market. The Fear & Greed Index remains in Extreme Fear territory.",
+    "ja": "アバランチ2は、次の24時間で1.4%の下落が予想され、信頼度は72%です。MiCA 2.0における安定コインとDeFiの改善に関する最近のニュースは市場に混乱をもたらし、恐怖と欲求不満指数は極度の恐怖の状態にあります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.98%",
+        "value": "+1.17%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "62% bullish",
         "url": "https://www.coingecko.com/en/coins/avalanche-2"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Crypto industry looks to stablecoins and DeFi revisions in MiCA 2.0",
+        "url": "https://cointelegraph.com/features/crypto-industry-stablecoins-defi-mica?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Philippine SEC signals readiness for RWA tokenization",
         "url": "https://cointelegraph.com/news/philippine-sec-rwa-tokenization-readiness?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Crypto kidnappers who robbed a Minnesota family of $8M plead guilty",
-        "url": "https://cointelegraph.com/news/crypto-kidnappers-who-robbed-a-minnesota-family-of-8m-plead-guilty?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

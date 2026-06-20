@@ -1,6 +1,6 @@
 {
   "coinId": "pax-gold",
-  "generatedAt": "2026-06-20T15:00:08.213757Z",
+  "generatedAt": "2026-06-20T16:00:08.082609Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.3802725478179402,
-    "confidence": 0.8881
+    "changePercent24h": -0.5419103826168786,
+    "confidence": 0.9109
   },
   "commentary": {
-    "en": "PAX Gold (PAX-GOLD) is expected to remain flat in the short term, with a predicted 24h direction of -0.0% and a confidence level of 79%. The recent news on retail expansion and tokenization efforts in the market may have a limited impact on PAX-GOLD's price. The overall market sentiment remains in extreme fear, with the Fear & Greed Index at 23.",
-    "ja": "PAX Gold (PAX-GOLD) は短期的には、24時間の予想方向が-0.0%、信頼度79%のままである。市場の最近のニュースであるリテール拡大とトークン化の取り組みは、PAX-GOLDの価格に限られた影響を与える可能性がある。 Fear & Greed Indexは23の極度の恐怖の状態にあり、総クリプトマーケットキャップの24時間の変化は+0.98%である。",
+    "en": "PAX Gold (PAX-GOLD) is expected to remain flat in the next 24 hours with a predicted return of -0.0% due to its neutral RSI-14 reading and mid-band Bollinger Band %B. The low volume ratio and sideways short-term trend also contribute to this forecast. Market sentiment remains in extreme fear, which may impact PAX-GOLD's price stability.",
+    "ja": "PAX Gold (PAX-GOLD) は、次の 24 時間で予想される -0.0% のリターンとともに、平坦な動きを続ける可能性があります。中立的な RSI-14 の値と Bollinger Band %B の中間帯は、これに寄与しています。低いボリューム比率と短期的な傾向の横方向の移動も、この予測に寄与しています。市場の感情は極度の恐怖の状態にあり、これが PAX-GOLD の価格安定性に影響を与える可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,8 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.98%",
+        "value": "+1.17%",
         "url": "https://www.coingecko.com/en/global-charts"
+      },
+      {
+        "label": "CoinGecko Community Sentiment",
+        "value": "0% bullish",
+        "url": "https://www.coingecko.com/en/coins/pax-gold"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Crypto industry looks to stablecoins and DeFi revisions in MiCA 2.0",
+        "url": "https://cointelegraph.com/features/crypto-industry-stablecoins-defi-mica?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1012,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Philippine SEC signals readiness for RWA tokenization",
         "url": "https://cointelegraph.com/news/philippine-sec-rwa-tokenization-readiness?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Crypto kidnappers who robbed a Minnesota family of $8M plead guilty",
-        "url": "https://cointelegraph.com/news/crypto-kidnappers-who-robbed-a-minnesota-family-of-8m-plead-guilty?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

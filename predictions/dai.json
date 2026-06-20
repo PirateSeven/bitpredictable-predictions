@@ -1,6 +1,6 @@
 {
   "coinId": "dai",
-  "generatedAt": "2026-06-20T15:00:08.213757Z",
+  "generatedAt": "2026-06-20T16:00:08.082609Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.02148585462368189,
+    "changePercent24h": -0.0366,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "Dai (DAI) is expected to remain flat in the next 24 hours with a 0.0% predicted return, based on technical signals. The Fear & Greed Index is at 23, indicating extreme fear in the market, while the total crypto market cap has seen a 0.98% increase. The recent news on Pudgy Penguins and Charles Schwab's entry into prediction markets may have a limited impact on DAI.",
-    "ja": "Dai (DAI) は、次の24時間に0.0％の予想利回りでフラットを維持する可能性があります。恐怖と欲求不満指数は23、市場全体の総コインキャップは0.98％増加しています。Pudgy Penguinsとチャールズシュワブの予測市場参入に関する最近のニュースはDAIに限りなく影響を与える可能性があります。",
+    "en": "Dai (DAI) is expected to remain flat in the next 24 hours with a 95% confidence level, as its RSI-14 and Bollinger Band %B are neutral and mid-band respectively. The recent news on stablecoins and DeFi revisions in MiCA 2.0 may have a positive impact on DAI's price. However, the overall market sentiment remains in extreme fear.",
+    "ja": "Dai (DAI) は、次の24時間に95%の確率でフラットの予想があり、RSI-14とボリンジャー・バンド %Bは中盤に位置している。MiCA 2.0における安定コインとDeFiの改善に関する最近のニュースはDAIの価格にプラスの影響を与える可能性があるが、市場全体の感情は極度の恐怖の状態にある。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.98%",
+        "value": "+1.17%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "100% bullish",
         "url": "https://www.coingecko.com/en/coins/dai"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Crypto industry looks to stablecoins and DeFi revisions in MiCA 2.0",
+        "url": "https://cointelegraph.com/features/crypto-industry-stablecoins-defi-mica?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Philippine SEC signals readiness for RWA tokenization",
         "url": "https://cointelegraph.com/news/philippine-sec-rwa-tokenization-readiness?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Crypto kidnappers who robbed a Minnesota family of $8M plead guilty",
-        "url": "https://cointelegraph.com/news/crypto-kidnappers-who-robbed-a-minnesota-family-of-8m-plead-guilty?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

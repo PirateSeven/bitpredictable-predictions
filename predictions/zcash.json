@@ -1,6 +1,6 @@
 {
   "coinId": "zcash",
-  "generatedAt": "2026-06-20T15:00:08.213757Z",
+  "generatedAt": "2026-06-20T16:00:08.082609Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -0.8681485545649312,
-    "confidence": 0.4918
+    "changePercent24h": -2.2693726353045216,
+    "confidence": 0.7744
   },
   "commentary": {
-    "en": "Zcash is expected to decline by 2.7% in the next 24 hours, despite its recent uptrend. The Fear & Greed Index remains in extreme fear territory, which may contribute to a short-term pullback. The recent news about the Philippine SEC's readiness for RWA tokenization could potentially have a positive impact on the crypto market.",
-    "ja": "Zcashは次の24時間で2.7%下落する可能性があり、最近の上昇傾向にもかかわらず。恐怖と欲求不満指数は極度の恐怖の領域にあり、これが短期的な下落につながる可能性があります。フィリピンSECのRWAトークン化の準備が進んでいるニュースは、暗号資産市場に肯定的な影響を与える可能性があります。",
+    "en": "Zcash is predicted to decline by 2.7% in the next 24 hours with an 80% confidence level. This prediction is based on the current technical signals and market context, including the Fear & Greed Index at 23, indicating extreme fear. The recent news on stablecoins and DeFi revisions in MiCA 2.0 may have a mixed impact on Zcash.",
+    "ja": "Zcashは次の24時間で2.7%の下落を予測し、80%の信頼性を持っています。これは、Fear & Greed Indexが23に達し、極度の恐怖を示す現在の技術的信号と市場状況、およびMiCA 2.0での安定コインとDeFiの改正に関する最近のニュースに基づいています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.98%",
+        "value": "+1.17%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "54% bullish",
         "url": "https://www.coingecko.com/en/coins/zcash"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Crypto industry looks to stablecoins and DeFi revisions in MiCA 2.0",
+        "url": "https://cointelegraph.com/features/crypto-industry-stablecoins-defi-mica?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Philippine SEC signals readiness for RWA tokenization",
         "url": "https://cointelegraph.com/news/philippine-sec-rwa-tokenization-readiness?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Crypto kidnappers who robbed a Minnesota family of $8M plead guilty",
-        "url": "https://cointelegraph.com/news/crypto-kidnappers-who-robbed-a-minnesota-family-of-8m-plead-guilty?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

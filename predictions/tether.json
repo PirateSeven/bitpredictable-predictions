@@ -1,6 +1,6 @@
 {
   "coinId": "tether",
-  "generatedAt": "2026-06-20T15:00:08.213757Z",
+  "generatedAt": "2026-06-20T16:00:08.082609Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.13859890820344106,
+    "changePercent24h": -0.091479270613158,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "Tether's flat direction is expected to continue, with a 95% confidence level, as its RSI-14 and Bollinger Band %B indicate a neutral state. The recent news surrounding the crypto market, including the expansion of Pudgy Penguins and the Philippine SEC's readiness for RWA tokenization, may have a limited impact on Tether's price. The Fear & Greed Index remains in extreme fear, which may also contribute to Tether's sideways trend.",
-    "ja": "テザーの方向性は、95％の確信度で、フラットのままであると予想される。RSI-14とボリンジャー・バンド %Bは中立的な状態を示しており、テザーの価格に影響を与える可能性は低い。最近のニュース、プディギ・ペンギンやフィリピンSECのRWAトークン化の準備など、テザーの価格に影響を与える可能性は低い。恐怖と欲求不満指数は極度の恐怖のままであり、これもテザーの横方向のトレンドに寄与する可能性がある。",
+    "en": "Tether (USDT) is expected to remain flat in the next 24 hours with a 95% confidence level. The stablecoin's price action is currently neutral, as indicated by the RSI-14 reading of 50. The recent news surrounding stablecoins and DeFi revisions in MiCA 2.0 may have a limited impact on USDT's price.",
+    "ja": "Tether (USDT) は、次の24時間に95％の確実性でフラットな動きを予測しています。RSI-14の値は50で中立的な価格動きを示しています。MiCA 2.0におけるStablecoinとDeFiの改善に関する最近のニュースは、USDTの価格に限られた影響を与える可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.98%",
+        "value": "+1.17%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "86% bullish",
         "url": "https://www.coingecko.com/en/coins/tether"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Crypto industry looks to stablecoins and DeFi revisions in MiCA 2.0",
+        "url": "https://cointelegraph.com/features/crypto-industry-stablecoins-defi-mica?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Philippine SEC signals readiness for RWA tokenization",
         "url": "https://cointelegraph.com/news/philippine-sec-rwa-tokenization-readiness?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Crypto kidnappers who robbed a Minnesota family of $8M plead guilty",
-        "url": "https://cointelegraph.com/news/crypto-kidnappers-who-robbed-a-minnesota-family-of-8m-plead-guilty?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }
