@@ -1,6 +1,6 @@
 {
   "coinId": "zcash",
-  "generatedAt": "2026-06-20T19:00:08.325497Z",
+  "generatedAt": "2026-06-20T20:00:08.240779Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -4.205447570198033,
-    "confidence": 0.8777
+    "changePercent24h": -4.58970894976614,
+    "confidence": 0.8874
   },
   "commentary": {
-    "en": "Zcash (ZCASH) is expected to decline by 2.3% in the next 24 hours with a confidence level of 78%. The recent news of regulatory updates and industry developments may have a neutral impact on the market. The Fear & Greed Index remains in extreme fear territory, indicating a potential for further price volatility.",
-    "ja": "Zcash (ZCASH)は、次の24時間で2.3%の下落が予想され、信頼度は78%です。規制上のアップデートや業界の動向に関する最近のニュースは市場に中立的な影響を与える可能性があります。恐怖と欲求不満指数は極度の恐怖の領域にあり、価格の暴動につながる可能性があります。",
+    "en": "Zcash (ZCASH) is predicted to decline by 2.3% in the next 24 hours with a confidence level of 78%. The current market context suggests extreme fear with a Fear & Greed Index of 23. Recent news indicates a decline in altseasons and a shift in focus towards stablecoins and DeFi revisions.",
+    "ja": "Zcash (ZCASH) は、次の24時間で2.3%下落する可能性があり、信頼度は78%です。現在の市場状況は、恐怖指数が23で極度の恐怖を示しています。最近のニュースはアルトシーズンの衰退と安定コインやDeFiの改善に焦点を当てていることを示しています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.92%",
+        "value": "+1.19%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "54% bullish",
+        "value": "56% bullish",
         "url": "https://www.coingecko.com/en/coins/zcash"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitcoin rotations into altcoins collapses: Have altseasons 'disappeared'?",
+        "url": "https://cointelegraph.com/markets/bitcoin-rotations-into-altcoins-collapses-have-altseasons-disappeared?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Pudgy Penguins expands retail footprint with Target trading card rollout",
         "url": "https://cointelegraph.com/news/pudgy-penguins-expands-retail-footprint-with-target-trading-card-rollout?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Philippine SEC signals readiness for RWA tokenization",
-        "url": "https://cointelegraph.com/news/philippine-sec-rwa-tokenization-readiness?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

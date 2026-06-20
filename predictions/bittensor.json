@@ -1,6 +1,6 @@
 {
   "coinId": "bittensor",
-  "generatedAt": "2026-06-20T19:00:08.325497Z",
+  "generatedAt": "2026-06-20T20:00:08.240779Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.5216516496023355,
-    "confidence": 0.6525
+    "changePercent24h": -2.124534124236334,
+    "confidence": 0.8871
   },
   "commentary": {
-    "en": "Bittensor's 24-hour return is +2.14%, but with a flat predicted direction and neutral RSI-14, the market sentiment remains cautious. The Fear & Greed Index at 23 indicates extreme fear, while the CoinGecko community is 80% bullish. Recent news on stablecoins and DeFi revisions may impact the market.",
-    "ja": "BITTENSORの24時間リターンは+2.14%ですが、予想の24時間方向はフラットで、RSI-14は中立的な値です。恐怖と欲求不満指数が23のため、極度の恐怖が広がっていますが、コインゲコクコミュニティは80％がバブルです。最近のニュースでは、安定コインとDeFiの改善に関するMiCA 2.0の影響が市場に及ぼす可能性があります。",
+    "en": "Bittensor's flat 24h direction prediction is based on neutral technical signals and a sideways short-term trend. The Fear & Greed Index remains in extreme fear, while the total crypto market cap shows a slight increase. Recent news on altseasons and DeFi revisions may influence Bittensor's price movement.",
+    "ja": "ビットテンソルの24時間の方向予測は、中立的な技術指標と短期の傾向が横方向にあることから、フラットに予測されています。恐怖と欲求不満指数は極度の恐怖のままであり、総暗号資産市場キャップはわずかに増加しています。最近のニュースでアルトシーズンとデフィレビジョンはビットテンソルの価格動向に影響を与える可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.92%",
+        "value": "+1.19%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "80% bullish",
+        "value": "79% bullish",
         "url": "https://www.coingecko.com/en/coins/bittensor"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitcoin rotations into altcoins collapses: Have altseasons 'disappeared'?",
+        "url": "https://cointelegraph.com/markets/bitcoin-rotations-into-altcoins-collapses-have-altseasons-disappeared?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Pudgy Penguins expands retail footprint with Target trading card rollout",
         "url": "https://cointelegraph.com/news/pudgy-penguins-expands-retail-footprint-with-target-trading-card-rollout?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Philippine SEC signals readiness for RWA tokenization",
-        "url": "https://cointelegraph.com/news/philippine-sec-rwa-tokenization-readiness?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

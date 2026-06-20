@@ -1,6 +1,6 @@
 {
   "coinId": "tether",
-  "generatedAt": "2026-06-20T19:00:08.325497Z",
+  "generatedAt": "2026-06-20T20:00:08.240779Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.058609835362094354,
+    "changePercent24h": -0.0361,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "Tether (TETHER) is expected to remain flat in the next 24 hours with a -0.0% predicted direction, supported by neutral RSI-14 and sideways short-term trend. The recent news on stablecoins and DeFi revisions in MiCA 2.0 may have a positive impact on Tether's price. However, the Fear & Greed Index remains in Extreme Fear territory, indicating caution.",
-    "ja": "テザー（TETHER）は、次の24時間に-0.0％の予想方向で静的となる可能性があり、中性のRSI-14と短期的な傾向が横方向に動いていることを裏付けています。最近のニュースでは、MiCA 2.0におけるスタビルコインとDeFiの改善がテザーの価格に肯定的な影響を与える可能性があります。ただし、恐怖と欲求不満指数は極度の恐怖の領域にあり、注意が必要です。",
+    "en": "Tether's (TETHER) 24-hour direction is predicted to be flat with a 95% confidence level. The current market context suggests a neutral sentiment, with the Fear & Greed Index at 23 and a sideways short-term trend. Recent news on stablecoins and DeFi revisions may have a positive impact on Tether's price.",
+    "ja": "テザーの24時間の動向は95％の確率でフラットであると予測されています。現在の市場状況は中立的な感情を示しており、恐怖と欲求不満指数は23で、短期的な傾向は横方向に動いています。安定コインやデフィー改善に関する最近のニュースはテザーの価格にプラスの影響を与える可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.92%",
+        "value": "+1.19%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "75% bullish",
         "url": "https://www.coingecko.com/en/coins/tether"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitcoin rotations into altcoins collapses: Have altseasons 'disappeared'?",
+        "url": "https://cointelegraph.com/markets/bitcoin-rotations-into-altcoins-collapses-have-altseasons-disappeared?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Pudgy Penguins expands retail footprint with Target trading card rollout",
         "url": "https://cointelegraph.com/news/pudgy-penguins-expands-retail-footprint-with-target-trading-card-rollout?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Philippine SEC signals readiness for RWA tokenization",
-        "url": "https://cointelegraph.com/news/philippine-sec-rwa-tokenization-readiness?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

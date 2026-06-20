@@ -1,6 +1,6 @@
 {
   "coinId": "usd-coin",
-  "generatedAt": "2026-06-20T19:00:08.325497Z",
+  "generatedAt": "2026-06-20T20:00:08.240779Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.04811032597825075,
+    "changePercent24h": -0.04812380592282417,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "USD Coin (USD-COIN) is expected to remain flat in the next 24 hours with a 0.0% predicted return, driven by neutral technical signals and a sideways short-term trend. The Fear & Greed Index remains in Extreme Fear territory, but the recent news on stablecoins and DeFi revisions may provide some support. Overall, the market context suggests a cautious outlook for USD-COIN.",
-    "ja": "USD コイン (USD-COIN) は、次の 24 時間で 0.0% の予想利回りで、水平の短期傾向と中立的な技術指標によって推進されるままです。恐怖と欲求不満指数は、極度の恐怖の領域にありますが、安定コインと DeFi の改善に関する最近のニュースは、ある程度のサポートを提供するかもしれません。総合的には、市場状況は USD-COIN について慎重な見方を示しています。",
+    "en": "USD Coin (USD-COIN) is expected to remain flat in the next 24 hours with a confidence level of 95%. The recent market context, including the Fear & Greed Index and Total crypto market cap, suggests a neutral sentiment. The lack of significant news impacting USD-COIN directly also supports a flat direction.",
+    "ja": "USDコイン（USD-COIN）は、95％の信頼性を持って、来る24時間でフラットになることが予想されます。Fear＆Greed Indexや総暗号資産市場キャップなどの最近の市場状況は中立的な感情を示しており、USD-COINに直接影響を与えるような重要なニュースは存在しないため、フラット方向が支持されます。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.92%",
+        "value": "+1.19%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "100% bullish",
         "url": "https://www.coingecko.com/en/coins/usd-coin"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitcoin rotations into altcoins collapses: Have altseasons 'disappeared'?",
+        "url": "https://cointelegraph.com/markets/bitcoin-rotations-into-altcoins-collapses-have-altseasons-disappeared?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Pudgy Penguins expands retail footprint with Target trading card rollout",
         "url": "https://cointelegraph.com/news/pudgy-penguins-expands-retail-footprint-with-target-trading-card-rollout?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Philippine SEC signals readiness for RWA tokenization",
-        "url": "https://cointelegraph.com/news/philippine-sec-rwa-tokenization-readiness?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

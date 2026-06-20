@@ -1,6 +1,6 @@
 {
   "coinId": "litecoin",
-  "generatedAt": "2026-06-20T19:00:08.325497Z",
+  "generatedAt": "2026-06-20T20:00:08.240779Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.5465302892590764,
-    "confidence": 0.7842
+    "changePercent24h": -0.3217927653514514,
+    "confidence": 0.6994
   },
   "commentary": {
-    "en": "The model predicts Litecoin will trade sideways over the next 24 hours with moderate confidence (50%). Price moved -0.31% in the past 24 hours with volume at 0.8× average. Community sentiment on CoinGecko is 93% bullish and the Fear & Greed Index reads \"Extreme Fear\" (23), diverging from the model's forecast, adding uncertainty.",
-    "ja": "モデルはLitecoinが今後24時間で横ばいで推移すると予測しています（信頼度: 中程度の 50%）。過去24時間のリターンは-0.31%、出来高は平均の0.8倍です。CoinGeckoコミュニティでは93%が強気を示し、Fear & Greed指数は「Extreme Fear」（23）です。予測方向と乖離があり、不確実性が高まっています。",
+    "en": "Litecoin's flat 24-hour direction with a 0.1% confidence suggests a neutral sentiment. The recent news of Bitcoin rotations into altcoins collapsing and the overall fear in the market may impact Litecoin's price. However, the stable volume ratio and sideways short-term trend indicate a stable market.",
+    "ja": "リテコインの24時間の方向は、0.1%の確信度でフラットである。ビットコインのアルトコインへの流れが崩壊し、市場全体の恐怖感が価格に影響を与える可能性がある。ただし、安定したボリューム比率と短期的な傾向は安定した市場を示している。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.92%",
+        "value": "+1.19%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "93% bullish",
+        "value": "92% bullish",
         "url": "https://www.coingecko.com/en/coins/litecoin"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitcoin rotations into altcoins collapses: Have altseasons 'disappeared'?",
+        "url": "https://cointelegraph.com/markets/bitcoin-rotations-into-altcoins-collapses-have-altseasons-disappeared?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Pudgy Penguins expands retail footprint with Target trading card rollout",
         "url": "https://cointelegraph.com/news/pudgy-penguins-expands-retail-footprint-with-target-trading-card-rollout?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Philippine SEC signals readiness for RWA tokenization",
-        "url": "https://cointelegraph.com/news/philippine-sec-rwa-tokenization-readiness?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

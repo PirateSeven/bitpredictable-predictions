@@ -1,6 +1,6 @@
 {
   "coinId": "ripple-usd",
-  "generatedAt": "2026-06-20T19:00:08.325497Z",
+  "generatedAt": "2026-06-20T20:00:08.240779Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.06826038512581321,
+    "changePercent24h": -0.06839898101657022,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "Ripple USD (RIPPLE-USD) is expected to remain flat in the next 24 hours with a 95% confidence level, as the RSI-14 and Bollinger Band %B indicate a neutral trend. The recent news on MiCA 2.0 and Philippine SEC's readiness for RWA tokenization may have a positive impact on the market, but the overall sentiment remains in extreme fear. The short-term trend remains sideways, with a 24h actual return of -0.03%.",
-    "ja": "Ripple USD (RIPPLE-USD) は次の24時間に95%の確率でフラットのままであると予想され、RSI-14とボリンジャー・バンド %Bは中立的なトレンドを示している。MiCA 2.0とフィリピンSECのRWAトークン化の準備に関する最近のニュースは市場に良い影響を与えるかもしれないが、総合的な感覚は極度の恐怖のままである。短期的なトレンドは横方向にあり、24時間の実際のリターンは-0.03%である。",
+    "en": "Ripple USD (RIPPLE-USD) is expected to remain flat in the short term, with a 95% confidence level. The current market context suggests a cautious approach due to the extreme fear sentiment and sideways trend in the total crypto market cap. Recent news on altseasons and regulatory developments may have a limited impact on Ripple's price.",
+    "ja": "Ripple USD (RIPPLE-USD) は短期的には、95% の確率で安定する予想されています。現在の市場状況は、極度の恐怖感と総暗号資産市場の横方向の傾向から、慎重なアプローチを示唆しています。最近のニュースは、アルトシーズンと規制開発に関するものですが、Ripple の価格に限られた影響を与える可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.92%",
+        "value": "+1.19%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "67% bullish",
         "url": "https://www.coingecko.com/en/coins/ripple-usd"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitcoin rotations into altcoins collapses: Have altseasons 'disappeared'?",
+        "url": "https://cointelegraph.com/markets/bitcoin-rotations-into-altcoins-collapses-have-altseasons-disappeared?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Pudgy Penguins expands retail footprint with Target trading card rollout",
         "url": "https://cointelegraph.com/news/pudgy-penguins-expands-retail-footprint-with-target-trading-card-rollout?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Philippine SEC signals readiness for RWA tokenization",
-        "url": "https://cointelegraph.com/news/philippine-sec-rwa-tokenization-readiness?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

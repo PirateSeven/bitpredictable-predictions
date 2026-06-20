@@ -1,6 +1,6 @@
 {
   "coinId": "usd1-wlfi",
-  "generatedAt": "2026-06-20T19:00:08.325497Z",
+  "generatedAt": "2026-06-20T20:00:08.240779Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.02314947126053917,
+    "changePercent24h": -0.01795287797078825,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "USD1-WLFI is expected to remain flat with a 0% 24-hour direction, given its neutral RSI-14 reading and mid-band Bollinger Band %B. The recent news on MiCA 2.0 and DeFi revisions may have a mixed impact on the market, but the overall sentiment remains in extreme fear. The stablecoin and DeFi focus may provide some support, but the short-term trend remains sideways.",
-    "ja": "USD1-WLFIは、ニュートラルのRSI-14値とミッドバンドのボリンジャーバンド％Bの影響により、24時間の方向性は0％と予想されます。MiCA 2.0とDeFiの改善に関する最近のニュースは市場に混乱をもたらす可能性がありますが、極度の恐怖の感情は依然として続いています。安定コインとDeFiの焦点は一定のサポートを提供する可能性がありますが、短期的なトレンドは横方向に進んでいます。",
+    "en": "USD1-WLFI is expected to remain flat in the next 24 hours with a 95% confidence level due to neutral technical signals and a sideways short-term trend. The Fear & Greed Index is at extreme fear, but the total crypto market cap has shown a slight increase. Recent news on altseasons and DeFi revisions may have a limited impact on USD1-WLFI's price movement.",
+    "ja": "USD1-WLFIは翌24時間に95%の確率でフラットな動きを示すことが予想されます。中期テクニカル指標は中立的で、短期傾向も横方向です。Fear＆Greed Indexは極度の恐怖ですが、総暗号資産市場キャップはわずかに増加しています。最近のニュースではアルトシーズンとDeFiの改善がUSD1-WLFIの価格変動に限られた影響を与える可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,8 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.92%",
+        "value": "+1.19%",
         "url": "https://www.coingecko.com/en/global-charts"
+      },
+      {
+        "label": "CoinGecko Community Sentiment",
+        "value": "0% bullish",
+        "url": "https://www.coingecko.com/en/coins/usd1-wlfi"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitcoin rotations into altcoins collapses: Have altseasons 'disappeared'?",
+        "url": "https://cointelegraph.com/markets/bitcoin-rotations-into-altcoins-collapses-have-altseasons-disappeared?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1012,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Pudgy Penguins expands retail footprint with Target trading card rollout",
         "url": "https://cointelegraph.com/news/pudgy-penguins-expands-retail-footprint-with-target-trading-card-rollout?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Philippine SEC signals readiness for RWA tokenization",
-        "url": "https://cointelegraph.com/news/philippine-sec-rwa-tokenization-readiness?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

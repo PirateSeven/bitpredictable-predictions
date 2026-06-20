@@ -1,6 +1,6 @@
 {
   "coinId": "near",
-  "generatedAt": "2026-06-20T19:00:08.325497Z",
+  "generatedAt": "2026-06-20T20:00:08.240779Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -2.216089872576071,
-    "confidence": 0.8431
+    "changePercent24h": -3.357921082792286,
+    "confidence": 0.8927
   },
   "commentary": {
-    "en": "NEAR Protocol's 24-hour direction is predicted to be DOWN by 1.3% with a 75% confidence level, driven by the current market sentiment and technical indicators. The Fear & Greed Index remains in Extreme Fear territory, and the recent news surrounding stablecoins and DeFi revisions may impact NEAR Protocol's performance. NEAR Protocol's short-term trend is sideways, indicating a lack of clear direction.",
-    "ja": "NEAR Protocolの24時間の方向はDOWN 1.3%予想され、75%の信頼度で推測されています。Fear & Greed Indexはエクストリーム フィアの状態にあり、最近のニュースで安定コインやDeFiの改善についてのニュースがNEAR Protocolのパフォーマンスに影響を与える可能性があります。NEAR Protocolの短期的なトレンドは横方向にあり、明確な方向性が見られないことを示しています。",
+    "en": "NEAR Protocol's price is predicted to decline by 1.3% in the next 24 hours, with a confidence level of 75%. The current market sentiment is extremely fearful, as indicated by the Fear & Greed Index. The recent news about altseasons and stablecoins may not have a significant impact on NEAR Protocol's price.",
+    "ja": "NEAR Protocolの価格は、次の24時間で1.3%下落する可能性があり、信頼度は75%です。現在の市場感情は極度に恐れを抱いており、Fear & Greed Indexが示しています。最近のニュースであるアルティーズイーズンとスタビルコインについてのニュースは、NEAR Protocolの価格に大きな影響を与える可能性は低いです。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.92%",
+        "value": "+1.19%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "94% bullish",
+        "value": "100% bullish",
         "url": "https://www.coingecko.com/en/coins/near"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitcoin rotations into altcoins collapses: Have altseasons 'disappeared'?",
+        "url": "https://cointelegraph.com/markets/bitcoin-rotations-into-altcoins-collapses-have-altseasons-disappeared?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Pudgy Penguins expands retail footprint with Target trading card rollout",
         "url": "https://cointelegraph.com/news/pudgy-penguins-expands-retail-footprint-with-target-trading-card-rollout?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Philippine SEC signals readiness for RWA tokenization",
-        "url": "https://cointelegraph.com/news/philippine-sec-rwa-tokenization-readiness?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

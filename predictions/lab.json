@@ -1,6 +1,6 @@
 {
   "coinId": "lab",
-  "generatedAt": "2026-06-20T19:00:08.325497Z",
+  "generatedAt": "2026-06-20T20:00:08.240779Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": 23.049205699269383,
-    "confidence": 0.95
+    "changePercent24h": 19.521724553622057,
+    "confidence": 0.9455
   },
   "commentary": {
-    "en": "LAB (LAB) is predicted to drop by -5.4% in the next 24 hours with an 80% confidence level. The recent news about MiCA 2.0 and DeFi revisions may have a mixed impact on the market, but the overall sentiment remains in extreme fear. The short-term trend remains in an uptrend, but the current price action suggests a potential reversal.",
-    "ja": "LAB (LAB) は、来日24時間で-5.4%の下落が予想され、信頼度は80%である。MiCA 2.0とDeFiの改正に関する最近のニュースは市場に混乱をもたらす可能性があり、しかし、総合的な感情は極度の恐怖のままであり、短期的な傾向は上昇傾向にありつつ、現在の価格動向は逆転の可能性を示唆している。",
+    "en": "LAB (LAB) is predicted to decline by -5.4% in the next 24 hours with an 80% confidence level, despite a neutral RSI-14 reading and an uptrend in the short-term trend. The Fear & Greed Index remains in Extreme Fear territory, while the total crypto market cap has seen a slight increase. Recent news on altseasons and regulatory developments may impact LAB's price.",
+    "ja": "LAB（LAB）は、次の24時間で-5.4％の下落が予想され、80％の信頼性を持っています。ただし、RSI-14は中立的な値を示し、短期的な傾向は上昇傾向です。恐怖と欲求不満指数は極度の恐怖の状態にあり、総暗号資産市場キャップは僅かに増加しています。最近のニュースでは、アルトシーズンと規制開発がLABの価格に影響を与える可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.92%",
+        "value": "+1.19%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "47% bullish",
+        "value": "44% bullish",
         "url": "https://www.coingecko.com/en/coins/lab"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitcoin rotations into altcoins collapses: Have altseasons 'disappeared'?",
+        "url": "https://cointelegraph.com/markets/bitcoin-rotations-into-altcoins-collapses-have-altseasons-disappeared?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Pudgy Penguins expands retail footprint with Target trading card rollout",
         "url": "https://cointelegraph.com/news/pudgy-penguins-expands-retail-footprint-with-target-trading-card-rollout?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Philippine SEC signals readiness for RWA tokenization",
-        "url": "https://cointelegraph.com/news/philippine-sec-rwa-tokenization-readiness?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "coinId": "bitcoin",
-  "generatedAt": "2026-06-20T19:00:08.325497Z",
+  "generatedAt": "2026-06-20T20:00:08.240779Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.34345671824847235,
-    "confidence": 0.6892
+    "changePercent24h": -0.4451213679622713,
+    "confidence": 0.7347
   },
   "commentary": {
-    "en": "Bitcoin's 24-hour direction is predicted to be flat with a 0.1% increase, based on technical signals. The Fear & Greed Index remains in extreme fear, while the CoinGecko community is 79% bullish. Recent news on MiCA 2.0 and DeFi revisions may have a positive impact on the crypto market.",
-    "ja": "ビットコインの24時間の方向は、技術的シグナルに基づいて、0.1%の増加が予想される。Fear & Greed Indexは極度の恐怖の状態であり、CoinGeckoコミュニティは79％がbullishである。最近のニュースではMiCA 2.0とDeFiの改善が、cryptocurrency市場に良い影響を与える可能性がある。",
+    "en": "Bitcoin's short-term trend remains sideways, with a predicted 24h direction of flat and a confidence level of 47%. The Fear & Greed Index indicates extreme fear, while the CoinGecko community remains 79% bullish. Recent news suggests a shift in market focus towards stablecoins and DeFi revisions.",
+    "ja": "ビットコインの短期トレンドは横方向に動いており、24時間予想の方向はフラットで信頼度47%です。恐れと欲求不満指数は極度の恐怖を示しており、CoinGeckoコミュニティは79％が買いを予想しています。最近のニュースでは、安定コインとデフィー改正に焦点を当てているようです。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.92%",
+        "value": "+1.19%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "79% bullish",
         "url": "https://www.coingecko.com/en/coins/bitcoin"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitcoin rotations into altcoins collapses: Have altseasons 'disappeared'?",
+        "url": "https://cointelegraph.com/markets/bitcoin-rotations-into-altcoins-collapses-have-altseasons-disappeared?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Pudgy Penguins expands retail footprint with Target trading card rollout",
         "url": "https://cointelegraph.com/news/pudgy-penguins-expands-retail-footprint-with-target-trading-card-rollout?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Philippine SEC signals readiness for RWA tokenization",
-        "url": "https://cointelegraph.com/news/philippine-sec-rwa-tokenization-readiness?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

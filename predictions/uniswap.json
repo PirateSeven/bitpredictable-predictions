@@ -1,6 +1,6 @@
 {
   "coinId": "uniswap",
-  "generatedAt": "2026-06-20T19:00:08.325497Z",
+  "generatedAt": "2026-06-20T20:00:08.240779Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -1.473954796293505,
-    "confidence": 0.6999
+    "changePercent24h": -1.037084372789653,
+    "confidence": 0.5981
   },
   "commentary": {
-    "en": "Uniswap's predicted 24h direction is DOWN by -3.3% with a confidence of 85%. The current market sentiment is Extreme Fear, as indicated by the Fear & Greed Index at 23. The recent news on MiCA 2.0 and DeFi revisions may have a mixed impact on Uniswap's performance.",
-    "ja": "ユニスワップの24時間予想は下落、-3.3%の確率は85%です。現在の市場感情は極度の恐怖、Fear & Greed Indexは23です。MiCA 2.0とDeFiの改善に関する最近のニュースはユニスワップのパフォーマンスに混在した影響を与える可能性があります。",
+    "en": "Uniswap's 24-hour direction is predicted to be DOWN by 3.3% with 85% confidence, as the Fear & Greed Index remains in Extreme Fear and the altcoin market faces uncertainty. The recent news on stablecoins and DeFi revisions in MiCA 2.0 may impact Uniswap's performance. The sideways short-term trend and neutral RSI-14 suggest a cautious approach.",
+    "ja": "ユニスワップの24時間予想は下落3.3％（信頼度85％）となり、恐怖と欲求不満指数が極度の恐怖にあり、アルティコイン市場が不確実性に直面しているためです。MiCA 2.0における安定コインとDeFiの改善に関するニュースはユニスワップのパフォーマンスに影響を与える可能性があります。短期的な傾向は横ばい、RSI-14は中立的な値を示しているため、慎重なアプローチが必要です。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.92%",
+        "value": "+1.19%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "71% bullish",
+        "value": "67% bullish",
         "url": "https://www.coingecko.com/en/coins/uniswap"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitcoin rotations into altcoins collapses: Have altseasons 'disappeared'?",
+        "url": "https://cointelegraph.com/markets/bitcoin-rotations-into-altcoins-collapses-have-altseasons-disappeared?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Pudgy Penguins expands retail footprint with Target trading card rollout",
         "url": "https://cointelegraph.com/news/pudgy-penguins-expands-retail-footprint-with-target-trading-card-rollout?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Philippine SEC signals readiness for RWA tokenization",
-        "url": "https://cointelegraph.com/news/philippine-sec-rwa-tokenization-readiness?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

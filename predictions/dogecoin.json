@@ -1,6 +1,6 @@
 {
   "coinId": "dogecoin",
-  "generatedAt": "2026-06-20T19:00:08.325497Z",
+  "generatedAt": "2026-06-20T20:00:08.240779Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -1.3306635244703924,
-    "confidence": 0.8847
+    "changePercent24h": -1.5145765026462839,
+    "confidence": 0.8967
   },
   "commentary": {
-    "en": "Dogecoin's flat 24h direction prediction is based on neutral RSI-14 and sideways short-term trend. The recent news on stablecoins and DeFi revisions under MiCA 2.0 may positively impact the crypto market, but Dogecoin's price movement remains uncertain. The Fear & Greed Index at 23 indicates extreme fear, which could lead to a potential rebound.",
-    "ja": "ドージコインの24時間方向の予測は中立的なRSI-14と短期的な傾向の横方向に基づいており、最近のニュースではStablecoinとDeFiの改善がMiCA 2.0の下でCrypto市場にプラスの影響を与える可能性がありますが、ドージコインの価格変動は不明です。Fear & Greed Indexは23で、極度の恐怖を示しており、これが潜在的な反発につながる可能性があります。",
+    "en": "Dogecoin's 24-hour direction is predicted to be flat with a 47% confidence level, as its RSI-14 and Bollinger Band %B indicate a neutral trend. The recent news of Bitcoin rotations into altcoins collapsing and the overall fear in the market may impact Dogecoin's performance. However, the coin's short-term trend remains sideways.",
+    "ja": "ドージコインの24時間の方向は47％の確信度でフラットと予想され、RSI-14とボリンジャー・バンド％Bは中立的な傾向を示しています。ビットコインのアルトコインへのローテーションが崩壊し、市場全体が恐怖に包まれているという最近のニュースはドージコインのパフォーマンスに影響を与える可能性があります。ただし、短期的な傾向は横方向に推移しています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.92%",
+        "value": "+1.19%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "92% bullish",
         "url": "https://www.coingecko.com/en/coins/dogecoin"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitcoin rotations into altcoins collapses: Have altseasons 'disappeared'?",
+        "url": "https://cointelegraph.com/markets/bitcoin-rotations-into-altcoins-collapses-have-altseasons-disappeared?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Pudgy Penguins expands retail footprint with Target trading card rollout",
         "url": "https://cointelegraph.com/news/pudgy-penguins-expands-retail-footprint-with-target-trading-card-rollout?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Philippine SEC signals readiness for RWA tokenization",
-        "url": "https://cointelegraph.com/news/philippine-sec-rwa-tokenization-readiness?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

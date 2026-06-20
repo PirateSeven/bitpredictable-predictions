@@ -1,6 +1,6 @@
 {
   "coinId": "cardano",
-  "generatedAt": "2026-06-20T19:00:08.325497Z",
+  "generatedAt": "2026-06-20T20:00:08.240779Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -2.3009230984475697,
-    "confidence": 0.9011
+    "changePercent24h": -2.811093575862002,
+    "confidence": 0.9176
   },
   "commentary": {
-    "en": "Cardano's 24-hour direction is predicted to be flat with a -0.3% change, reflecting a neutral RSI-14 reading and sideways short-term trend. The recent news on stablecoins and DeFi revisions in MiCA 2.0 may have a positive impact on the market, but the overall sentiment remains in extreme fear. The coin's price movement is likely to be influenced by the broader market trends.",
-    "ja": "カードアノの24時間の動向は、-0.3%の変化を予測しており、RSI-14の読みが中立的で短期のトレンドが横方向にあることを反映しています。MiCA 2.0での安定コインとDeFiの改正に関する最近のニュースは、市場に肯定的な影響を与える可能性がありますが、全体的な感覚は極度の恐怖のままです。コインの価格の動向は、より広い市場のトレンドに影響を受ける可能性があります。",
+    "en": "Cardano's price is expected to remain flat with a minor decline in the next 24 hours, given its neutral RSI-14 reading and sideways short-term trend. The recent market context, including the extreme fear sentiment and minor increase in the total crypto market cap, may not significantly impact Cardano's price movement. However, the lack of notable news and the minor decline in volume ratio may contribute to the predicted flat direction.",
+    "ja": "カードアノの価格は、ニュートラルのRSI-14読みと短期的な横方向のトレンドの下で、来る24時間で軽微な下落が予想される。極度の恐怖感と総暗号資産市場キャップの小幅な増加などの最近の市場状況はカードアノの価格動向に大きな影響を与えない可能性があり、注目すべきニュースも少ないことや小幅なボリューム比率も予想通りの平坦な動向に寄与する可能性がある。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.92%",
+        "value": "+1.19%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "78% bullish",
+        "value": "79% bullish",
         "url": "https://www.coingecko.com/en/coins/cardano"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitcoin rotations into altcoins collapses: Have altseasons 'disappeared'?",
+        "url": "https://cointelegraph.com/markets/bitcoin-rotations-into-altcoins-collapses-have-altseasons-disappeared?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Pudgy Penguins expands retail footprint with Target trading card rollout",
         "url": "https://cointelegraph.com/news/pudgy-penguins-expands-retail-footprint-with-target-trading-card-rollout?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Philippine SEC signals readiness for RWA tokenization",
-        "url": "https://cointelegraph.com/news/philippine-sec-rwa-tokenization-readiness?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "coinId": "binancecoin",
-  "generatedAt": "2026-06-20T19:00:08.325497Z",
+  "generatedAt": "2026-06-20T20:00:08.240779Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.4526166509201392,
-    "confidence": 0.7632
+    "changePercent24h": -0.40128475146778153,
+    "confidence": 0.7445
   },
   "commentary": {
-    "en": "BNB's 24h direction is predicted to be FLAT with a 52% confidence level, as its RSI-14 is at 55, indicating a neutral trend. The recent news about stablecoins and DeFi revisions in MiCA 2.0 may have a positive impact on BNB, but the overall market sentiment remains in Extreme Fear. The short-term trend is sideways, with a 24h actual return of +0.95%.",
-    "ja": "ビナンスコインの24時間予測方向はFLATで、52％の信頼度を持っています。RSI-14は55で、中立的なトレンドを示しています。MiCA 2.0で安定コインやDeFiの改善についてのニュースはビナンスコインにプラスの影響を与える可能性がありますが、市場全体の感覚は極度の恐怖のままです。短期トレンドは横方向で、24時間実際のリターンは+0.95％です。",
+    "en": "BNB is expected to remain flat in the short term, with a 52% confidence level. The recent market context suggests a cautious environment, with the Fear & Greed Index at Extreme Fear and altseasons seemingly on hold. However, the recent news on stablecoins and DeFi revisions may have a positive impact on the market.",
+    "ja": "ビナンスコインは短期的には安定した動きを示す可能性があり、信頼度は52％です。Fear & Greed Indexが極度の恐怖に達し、アルトシーズンが見られない状況では、ビナンスコインは安定した動きを示す可能性があります。ただし、安定コインやDeFiの改善に関する最近のニュースは市場にプラスの影響を与える可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.92%",
+        "value": "+1.19%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "22% bullish",
         "url": "https://www.coingecko.com/en/coins/binancecoin"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitcoin rotations into altcoins collapses: Have altseasons 'disappeared'?",
+        "url": "https://cointelegraph.com/markets/bitcoin-rotations-into-altcoins-collapses-have-altseasons-disappeared?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Pudgy Penguins expands retail footprint with Target trading card rollout",
         "url": "https://cointelegraph.com/news/pudgy-penguins-expands-retail-footprint-with-target-trading-card-rollout?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Philippine SEC signals readiness for RWA tokenization",
-        "url": "https://cointelegraph.com/news/philippine-sec-rwa-tokenization-readiness?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }
