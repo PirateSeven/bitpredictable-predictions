@@ -41,7 +41,7 @@ logger = logging.getLogger(__name__)
 
 # ── Hyperparameters ────────────────────────────────────────────────────────────
 TOP_N_COINS   = 15   # reduced for Jetson Nano 4GB
-TRAIN_DAYS    = 90
+TRAIN_DAYS    = 180
 HIDDEN_SIZE   = 32   # reduced from 64; 4x less LSTM work for Maxwell GPU
 NUM_LAYERS    = 1    # reduced from 2; 2x less LSTM work
 DROPOUT       = 0.2
@@ -49,7 +49,7 @@ BATCH_SIZE    = 256  # large batch = better Maxwell GPU utilisation (data is zer
 MAX_EPOCHS    = 50   # early stopping fires well before 50 in practice
 LR            = 1e-3
 ES_PATIENCE   = 10
-CV_FOLDS      = 1    # single fold for first run; increase once training is proven
+CV_FOLDS      = 2    # 2-fold walk-forward CV for better generalization estimate
 CV_TEST_DAYS  = 14
 MODEL_PATH    = Path("model.pt")
 BEST_WEIGHTS  = Path("best_weights.pt")

@@ -39,12 +39,14 @@ def write_predictions(
 
     for r in coin_results:
         cid = r["coin_id"]
+        # Strip internal _* fields (e.g. _spread) that are not part of the public schema
+        signal = {k: v for k, v in r["signal"].items() if not k.startswith("_")}
         payload = {
             "coinId":       cid,
             "generatedAt":  generated_at_iso,
             "modelVersion": model_version,
             "series":       r["series"],     # [{time, actualIndex, predictedIndex}]
-            "signal":       r["signal"],     # {direction, changePercent24h, confidence}
+            "signal":       signal,          # {direction, changePercent24h, confidence}
             "commentary":   r.get("commentary"),  # {en, ja, sources} | null
         }
         path = OUTPUT_DIR / f"{cid}.json"
@@ -140,12 +142,14 @@ def compute_signal(
         # Tighter spread relative to magnitude = higher confidence
         confidence = max(0.1, min(0.95, 1.0 - spread / (magnitude * 4 + 1)))
     else:
+        spread = 0.0
         confidence = 0.5
 
     return {
         "direction":        direction,
         "changePercent24h": round(change_pct, 4),
         "confidence":       round(confidence, 4),
+        "_spread":          round(spread, 6),   # internal: passed to bias.apply_bias, stripped before disk write
     }
 
 
