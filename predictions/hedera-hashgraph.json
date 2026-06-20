@@ -1,6 +1,6 @@
 {
   "coinId": "hedera-hashgraph",
-  "generatedAt": "2026-06-20T22:00:07.356245Z",
+  "generatedAt": "2026-06-20T23:00:07.821776Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.5174242967438551,
-    "confidence": 0.7422
+    "changePercent24h": -0.12236769857901961,
+    "confidence": 0.4687
   },
   "commentary": {
-    "en": "Hedera's flat 24-hour direction prediction is based on neutral technical signals, with the RSI-14 at 50 and Bollinger Band %B at 0.52. The recent news of altseasons potentially disappearing due to Bitcoin rotations into altcoins may negatively impact altcoins, including HEDERA-HASHGRAPH. The Fear & Greed Index at 23 indicates extreme fear in the market.",
-    "ja": "ヘダラハッシュグラフの24時間の方向予測は中立的な技術的信号に基づいており、RSI-14は50、ボリンジャーバンド％Bは0.52です。ビットコインがアルティコインに流れ込むことによるアルティシーズンの消滅のニュースがアルティコインに影響を与える可能性があります。恐怖と欲求不満指数は23で、市場は極度の恐怖に陥っています。",
+    "en": "Hedera's short-term trend remains sideways, with a predicted 24h direction of -0.1% and an RSI-14 of 50, indicating a neutral market sentiment. The recent news of altseasons potentially disappearing due to Bitcoin rotations into altcoins collapsing may negatively impact HEDERA-HASHGRAPH's price. Overall, the market context remains uncertain.",
+    "ja": "ヘダラハッシュグラフの短期トレンドは横方向に推移しており、24時間予想の方向は-0.1%、RSI-14は50と推定されています。これは中立的な市場感覚を示しています。最近のニュースでは、ビットコインがアルティコインに回り込むことでアルティシーズンが消滅した可能性があるため、HEDERA-HASHGRAPHの価格に負の影響を与える可能性があります。総合的には市場状況は不確実です。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+1.29%",
+        "value": "+1.36%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {

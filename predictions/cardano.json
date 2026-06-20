@@ -1,6 +1,6 @@
 {
   "coinId": "cardano",
-  "generatedAt": "2026-06-20T22:00:07.356245Z",
+  "generatedAt": "2026-06-20T23:00:07.821776Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -2.6533024484323176,
-    "confidence": 0.9219
+    "changePercent24h": -2.3006075438904965,
+    "confidence": 0.9111
   },
   "commentary": {
-    "en": "The model predicts Cardano will trade sideways over the next 24 hours with low confidence (45%). Price is near lower Bollinger Band support, where rebounds are historically more frequent. Community sentiment on CoinGecko is 87% bullish and the Fear & Greed Index reads \"Extreme Fear\" (23), diverging from the model's forecast, adding uncertainty.",
-    "ja": "モデルはCardanoが今後24時間で横ばいで推移すると予測しています（信頼度: 低い 45%）。価格がボリンジャーバンド下限付近で、サポートからの反発が過去パターンより多く観察されます。CoinGeckoコミュニティでは87%が強気を示し、Fear & Greed指数は「Extreme Fear」（23）です。予測方向と乖離があり、不確実性が高まっています。",
+    "en": "Cardano's 24-hour direction is predicted to be flat with a -0.2% change, reflecting the current neutral RSI-14 reading of 44. The sideways short-term trend and normal volume ratio suggest a stable market environment. However, the Extreme Fear Fear & Greed Index and recent altcoin market performance may indicate potential volatility.",
+    "ja": "カードアノの24時間の方向性は、-0.2%の変化を予測しており、現在のRSI-14の読みは44に近い中立的な値を示しています。短期の傾向は横方向に動いており、ボリューム比率も正常な値を示していますが、Fear & Greed Indexが極度の恐怖を示し、最近のアルティコイン市場のパフォーマンスは不安定性を示唆しています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,12 +1000,12 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+1.29%",
+        "value": "+1.36%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "87% bullish",
+        "value": "84% bullish",
         "url": "https://www.coingecko.com/en/coins/cardano"
       },
       {

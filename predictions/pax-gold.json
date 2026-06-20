@@ -1,6 +1,6 @@
 {
   "coinId": "pax-gold",
-  "generatedAt": "2026-06-20T22:00:07.356245Z",
+  "generatedAt": "2026-06-20T23:00:07.821776Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.6606721769476555,
-    "confidence": 0.9471
+    "changePercent24h": -0.45338874052954486,
+    "confidence": 0.9315
   },
   "commentary": {
-    "en": "The model predicts PAX Gold will trade sideways over the next 24 hours with high confidence (86%). Price moved -0.10% in the past 24 hours with volume at 0.6× average. Community sentiment on CoinGecko is 0% bullish and the Fear & Greed Index reads \"Extreme Fear\" (23), aligning with the model's forecast.",
-    "ja": "モデルはPAX Goldが今後24時間で横ばいで推移すると予測しています（信頼度: 高い 86%）。過去24時間のリターンは-0.10%、出来高は平均の0.6倍です。CoinGeckoコミュニティでは0%が強気を示し、Fear & Greed指数は「Extreme Fear」（23）です。予測と方向性が一致しています。",
+    "en": "PAX Gold (PAX-GOLD) is expected to remain flat with a predicted 24h direction of -0.1% due to the current sideways trend and neutral RSI-14 reading of 45. The Fear & Greed Index at 23 indicates extreme fear in the market, which may impact investor sentiment. Overall, PAX-GOLD's performance is likely to be influenced by the broader market conditions.",
+    "ja": "PAX Gold (PAX-GOLD) は、現在の横方向の傾向と中立的な RSI-14 の値である 45 のため、予想される 24 時間の方向は -0.1% となります。Fear & Greed Index は 23 で、極度の恐怖を示しており、これは投資家の感情に影響を与える可能性があります。PAX-GOLD のパフォーマンスは、より広範な市場状況に影響を受ける可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,12 +1000,12 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+1.29%",
+        "value": "+1.36%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "0% bullish",
+        "value": "50% bullish",
         "url": "https://www.coingecko.com/en/coins/pax-gold"
       },
       {
