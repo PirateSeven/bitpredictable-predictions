@@ -60,14 +60,31 @@ PREDICT_OK=true
 
   fi
 
+  # Weekly blog post — runs on Monday (weekday 1) at 09:00 UTC cron
+  if [ "$(date -u +%u)" = "1" ] && [ "$(date -u +%H)" = "09" ]; then
+    echo "--- weekly blog generation ---"
+    if ! "$PYTHON" scripts/generate_blog.py; then
+      echo "WARNING: blog generation failed (non-fatal)"
+    fi
+  fi
+
   # Fallback git push: runs after Python exits (RAM freed), covers Jetson OOM case
-  if [ "$PREDICT_OK" = true ] && ! git diff --quiet HEAD -- predictions/ 2>/dev/null; then
+  CHANGED_DIRS=""
+  if ! git diff --quiet HEAD -- predictions/ 2>/dev/null; then
     git add predictions/
-    git commit -m "Update predictions $(date -u +%Y%m%dT%H%M)"
+    CHANGED_DIRS="predictions"
+  fi
+  if ! git diff --quiet HEAD -- blog/ 2>/dev/null; then
+    git add blog/
+    CHANGED_DIRS="${CHANGED_DIRS:+$CHANGED_DIRS }blog"
+  fi
+
+  if [ "$PREDICT_OK" = true ] && [ -n "$CHANGED_DIRS" ]; then
+    git commit -m "Update ${CHANGED_DIRS} $(date -u +%Y%m%dT%H%M)"
     git pull --rebase origin main || { git rebase --abort; echo "ERROR: rebase failed — aborted. Will retry next cron run."; PREDICT_OK=false; }
     if [ "$PREDICT_OK" = true ]; then
       git push origin main
-      echo "Fallback git push succeeded."
+      echo "Fallback git push succeeded (${CHANGED_DIRS})."
     fi
   fi
 
