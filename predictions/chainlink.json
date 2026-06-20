@@ -1,6 +1,6 @@
 {
   "coinId": "chainlink",
-  "generatedAt": "2026-06-20T10:00:08.064299Z",
+  "generatedAt": "2026-06-20T11:00:08.230088Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 0.5383318183144361,
-    "confidence": 0.6732
+    "changePercent24h": 0.5277816296898477,
+    "confidence": 0.6688
   },
   "commentary": {
-    "en": "Chainlink's 24-hour direction is predicted to be flat with a -0.4% change, indicating a neutral sentiment. The recent news of the Philippine SEC's readiness for RWA tokenization may have a positive impact on the market, but the overall sentiment remains cautious due to the extreme fear in the Fear & Greed Index. The short-term trend remains sideways, suggesting a lack of clear direction.",
-    "ja": "Chainlinkの24時間の動向は、-0.4%の変化でフラットと予想されています。フィリピンSECのRWAトークニゼーションの準備が整ったニュースは市場にプラスの影響を与える可能性がありますが、恐怖と欲求不満指数の極度の恐怖感は市場全体に懐疑的な気分を醸し出しています。短期的なトレンドは横方向に動いており、明確な方向性が見られません。",
+    "en": "Chainlink's 24-hour direction is predicted to be flat with a 0.4% decline, but the confidence level is relatively low at 62%. The recent news about Charles Schwab entering prediction markets could have a positive impact on Chainlink's price, but the overall market sentiment remains in extreme fear. The current RSI-14 and Bollinger Band %B suggest a neutral position.",
+    "ja": "チェーンリンクの24時間の方向は、0.4%の下落が予想されるが、信頼度は62%に留まっている。チャールズ・シュワブが予測市場に参入するニュースはチェーンリンクの価格にプラスの影響を与える可能性があるが、市場全体の感情は極度の恐怖の状態にある。現在のRSI-14とボリンジャー・バンド％Bは中立的な位置を示している。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+1.85%",
+        "value": "+1.54%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
