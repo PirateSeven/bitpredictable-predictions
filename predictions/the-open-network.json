@@ -1,6 +1,6 @@
 {
   "coinId": "the-open-network",
-  "generatedAt": "2026-06-20T09:00:08.304039Z",
+  "generatedAt": "2026-06-20T10:00:08.064299Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": 0.40839752475639624,
-    "confidence": 0.4326
+    "changePercent24h": 0.9139407650795788,
+    "confidence": 0.679
   },
   "commentary": {
-    "en": "Gram (prev. Toncoin) (THE-OPEN-NETWORK) is predicted to decline by 1.3% in the next 24 hours with a 75% confidence level. This is due to the overall crypto market's sideways trend and the Fear & Greed Index indicating extreme fear. The recent news on tokenization and market developments may not significantly impact THE-OPEN-NETWORK's price in the short term.",
-    "ja": "THE-OPEN-NETWORKは次の24時間で1.3%の下落が予測され、75%の確実性があります。総合的な暗号通貨市場の横方向のトレンドと、恐怖と欲求不満指数が極度の恐怖を示していることからです。トークン化や市場動向に関する最近のニュースは、短期的にはTHE-OPEN-NETWORKの価格に大きな影響を与えない可能性があります。",
+    "en": "The model predicts Gram (prev. Toncoin) will decline ~1.3% over the next 24 hours with high confidence (75%). Price moved -1.97% in the past 24 hours with volume at 0.9× average. Community sentiment on CoinGecko is 83% bullish and the Fear & Greed Index reads \"Extreme Fear\" (23), diverging from the model's forecast, adding uncertainty.",
+    "ja": "モデルはGram (prev. Toncoin)が今後24時間で約1.3%下落すると予測しています（信頼度: 高い 75%）。過去24時間のリターンは-1.97%、出来高は平均の0.9倍です。CoinGeckoコミュニティでは83%が強気を示し、Fear & Greed指数は「Extreme Fear」（23）です。予測方向と乖離があり、不確実性が高まっています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,12 +1000,12 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+1.16%",
+        "value": "+1.85%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "100% bullish",
+        "value": "83% bullish",
         "url": "https://www.coingecko.com/en/coins/the-open-network"
       },
       {

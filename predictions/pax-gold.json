@@ -1,6 +1,6 @@
 {
   "coinId": "pax-gold",
-  "generatedAt": "2026-06-20T09:00:08.304039Z",
+  "generatedAt": "2026-06-20T10:00:08.064299Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 0.2845589034574022,
-    "confidence": 0.812
+    "changePercent24h": -0.12270180103350303,
+    "confidence": 0.7304
   },
   "commentary": {
-    "en": "PAX Gold (PAX-GOLD) is expected to remain flat in the next 24 hours with a confidence level of 71%. The current market conditions, including the Fear & Greed Index and the total crypto market cap, suggest a cautious outlook. The recent news on tokenization and prediction markets may have a limited impact on PAX-GOLD's price.",
-    "ja": "PAX Gold (PAX-GOLD) は、来る24時間にflatの動きが予想され、信頼度は71%です。Fear & Greed Indexや総暗号資産市場キャップなどの現在の市場状況は、慎重な姿勢を示しています。トークン化や予測市場に関する最近のニュースは、PAX-GOLDの価格に限られた影響を与える可能性があります。",
+    "en": "The model predicts PAX Gold will trade sideways over the next 24 hours with high confidence (71%). Price moved -0.20% in the past 24 hours with volume at 0.6× average. Market sentiment stands at \"Extreme Fear\" (Fear & Greed: 23); the broader crypto market moved +1.8% over the past 24 hours.",
+    "ja": "モデルはPAX Goldが今後24時間で横ばいで推移すると予測しています（信頼度: 高い 71%）。過去24時間のリターンは-0.20%、出来高は平均の0.6倍です。Fear & Greed指数は「Extreme Fear」（23）で、暗号資産市場全体の24時間変動率は+1.8%です。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+1.16%",
+        "value": "+1.85%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {

@@ -1,6 +1,6 @@
 {
   "coinId": "lab",
-  "generatedAt": "2026-06-20T09:00:08.304039Z",
+  "generatedAt": "2026-06-20T10:00:08.064299Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -4.836474439264775,
-    "confidence": 0.844
+    "changePercent24h": 5.182034497140531,
+    "confidence": 0.8539
   },
   "commentary": {
-    "en": "LAB (LAB) is predicted to decline by 2.8% in the next 24 hours with a confidence of 73%. The recent news of the Philippine SEC's readiness for RWA tokenization and Charles Schwab's entry into prediction markets may have a limited impact on LAB's price. The overall market context, including the Fear & Greed Index and the total crypto market cap, suggests a bearish sentiment.",
-    "ja": "LAB (LAB) の24時間予想は下落 (-2.8%) で、信頼度は73%。フィリピンSECのRWAトークン化の準備とチャールズシュワブの予測市場参入のニュースはLABの価格に限られた影響を与える可能性があります。Fear & Greed Indexや総暗号資産市場キャップなどの総合マーケット状況は、バブル的な感覚を示しています。",
+    "en": "The model predicts LAB will decline ~2.8% over the next 24 hours with high confidence (73%). The short-term SMA is below the medium-term SMA, indicating weakening momentum. Community sentiment on CoinGecko is 47% bullish and the Fear & Greed Index reads \"Extreme Fear\" (23), aligning with the model's forecast.",
+    "ja": "モデルはLABが今後24時間で約2.8%下落すると予測しています（信頼度: 高い 73%）。短期移動平均が中期移動平均を下回り、モメンタムの低下が示されています。CoinGeckoコミュニティでは47%が強気を示し、Fear & Greed指数は「Extreme Fear」（23）です。予測と方向性が一致しています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+1.16%",
+        "value": "+1.85%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {

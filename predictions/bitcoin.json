@@ -1,6 +1,6 @@
 {
   "coinId": "bitcoin",
-  "generatedAt": "2026-06-20T09:00:08.304039Z",
+  "generatedAt": "2026-06-20T10:00:08.064299Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 0.6340101047239433,
-    "confidence": 0.7494
+    "changePercent24h": 0.19616214245123023,
+    "confidence": 0.5034
   },
   "commentary": {
-    "en": "Bitcoin's 24-hour direction is predicted to be flat, with a confidence level of 36%. The recent price movement is in line with the neutral RSI-14 reading of 51. The Fear & Greed Index remains at 23, indicating extreme fear in the market.",
-    "ja": "ビットコインの24時間の方向性は、36％の信頼度でフラットと予測されています。最近の価格動向は、RSI-14の読み値が51の中立的な値と一致しています。Fear & Greed Indexは23の極度の恐怖の値を維持しています。",
+    "en": "Bitcoin's 24-hour direction is predicted to be flat with a confidence of 36%. The Fear & Greed Index remains at extreme fear, while the total crypto market cap and BTC 24-hour return show slight increases. Recent news includes the Philippine SEC's readiness for RWA tokenization and Charles Schwab's entry into prediction markets.",
+    "ja": "ビットコインの24時間の方向予測は、36％の信頼度でフラットである。恐怖と欲求不満指数は極度の恐怖のままであり、総暗号資産マーケットキャップとBTC 24時間のリターンは僅かに増加している。最近のニュースにはフィリピンSECのRWAトークナイズの準備とチャールズシュワブの予測市場参入が含まれる。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,12 +1000,12 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+1.16%",
+        "value": "+1.85%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "74% bullish",
+        "value": "73% bullish",
         "url": "https://www.coingecko.com/en/coins/bitcoin"
       },
       {

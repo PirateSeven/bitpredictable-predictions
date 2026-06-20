@@ -1,6 +1,6 @@
 {
   "coinId": "shiba-inu",
-  "generatedAt": "2026-06-20T09:00:08.304039Z",
+  "generatedAt": "2026-06-20T10:00:08.064299Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -2.5988177104488015,
-    "confidence": 0.9105
+    "changePercent24h": -2.7035262315394304,
+    "confidence": 0.9137
   },
   "commentary": {
-    "en": "Shiba Inu's predicted 24-hour direction is flat with a -0.2% change, indicating a neutral stance. The Fear & Greed Index at 23, or Extreme Fear, suggests a cautious market sentiment. The recent news on Philippine SEC's readiness for RWA tokenization may have a positive impact on the crypto market.",
-    "ja": "Shiba Inuの24時間予想は、-0.2％の変化でフラットであることを示しています。Fear & Greed Indexは23、つまり極度の恐怖を示しており、市場の感情は慎重です。フィリピンSECのRWAトークン化の準備に関する最近のニュースは、暗号通貨市場に肯定的な影響を与える可能性があります。",
+    "en": "The model predicts Shiba Inu will trade sideways over the next 24 hours with low confidence (42%). Price is near lower Bollinger Band support, where rebounds are historically more frequent. Community sentiment on CoinGecko is 83% bullish and the Fear & Greed Index reads \"Extreme Fear\" (23), diverging from the model's forecast, adding uncertainty.",
+    "ja": "モデルはShiba Inuが今後24時間で横ばいで推移すると予測しています（信頼度: 低い 42%）。価格がボリンジャーバンド下限付近で、サポートからの反発が過去パターンより多く観察されます。CoinGeckoコミュニティでは83%が強気を示し、Fear & Greed指数は「Extreme Fear」（23）です。予測方向と乖離があり、不確実性が高まっています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,12 +1000,12 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+1.16%",
+        "value": "+1.85%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "79% bullish",
+        "value": "83% bullish",
         "url": "https://www.coingecko.com/en/coins/shiba-inu"
       },
       {

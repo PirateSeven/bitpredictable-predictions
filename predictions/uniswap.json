@@ -1,6 +1,6 @@
 {
   "coinId": "uniswap",
-  "generatedAt": "2026-06-20T09:00:08.304039Z",
+  "generatedAt": "2026-06-20T10:00:08.064299Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -8.467679728156488,
-    "confidence": 0.922
+    "changePercent24h": -7.653730377551407,
+    "confidence": 0.914
   },
   "commentary": {
-    "en": "Uniswap is predicted to decline by -5.0% in the next 24 hours with a confidence level of 87%. The recent news of the Philippine SEC's readiness for RWA tokenization and Charles Schwab's entry into prediction markets may have a positive impact on the market, but the overall sentiment remains in extreme fear. The short-term trend remains sideways.",
-    "ja": "Uniswap は、次の24時間で-5.0%の下落が予測され、信頼度は87%です。フィリピンSECのRWAトークン化の準備とチャールズシュワブの予測市場参入に関するニュースは、市場に肯定的な影響を与える可能性がありますが、全体的な感覚は極度の恐怖のままです。短期的なトレンドは横方向に進んでいます。",
+    "en": "The model predicts Uniswap will decline ~5.0% over the next 24 hours with high confidence (87%). Price is near lower Bollinger Band support, where rebounds are historically more frequent. Community sentiment on CoinGecko is 80% bullish and the Fear & Greed Index reads \"Extreme Fear\" (23), diverging from the model's forecast, adding uncertainty.",
+    "ja": "モデルはUniswapが今後24時間で約5.0%下落すると予測しています（信頼度: 高い 87%）。価格がボリンジャーバンド下限付近で、サポートからの反発が過去パターンより多く観察されます。CoinGeckoコミュニティでは80%が強気を示し、Fear & Greed指数は「Extreme Fear」（23）です。予測方向と乖離があり、不確実性が高まっています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+1.16%",
+        "value": "+1.85%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
