@@ -1,6 +1,6 @@
 {
   "coinId": "usd1-wlfi",
-  "generatedAt": "2026-06-20T06:00:08.268736Z",
+  "generatedAt": "2026-06-20T07:00:08.209318Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.024634654419983915,
+    "changePercent24h": -0.014876850212981657,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "USD1-WLFI is expected to remain flat with a 24h direction of +0.0% due to neutral technical signals and a sideways short-term trend. The Fear & Greed Index indicates extreme fear in the market, but the overall crypto market cap has seen a 1.25% increase. The recent news about Charles Schwab entering prediction markets may have a positive impact on the market.",
-    "ja": "USD1-WLFI は、24 時間の方向性が +0.0% であるため、平坦な状態が続く可能性があります。技術指標は中立的なものであり、短期的な傾向も水平線上にあるためです。Fear & Greed Index は極度の恐怖を示していますが、総コインマーケットキャップは 1.25% 増加しています。チャールズ・シュワブが予測市場に参入するニュースは市場に肯定的な影響を与える可能性があります。",
+    "en": "The model predicts USD1 will trade sideways over the next 24 hours with high confidence (95%). Price moved +0.01% in the past 24 hours with volume at 0.9× average. Community sentiment on CoinGecko is 100% bullish and the Fear & Greed Index reads \"Extreme Fear\" (23), diverging from the model's forecast, adding uncertainty.",
+    "ja": "モデルはUSD1が今後24時間で横ばいで推移すると予測しています（信頼度: 高い 95%）。過去24時間のリターンは+0.01%、出来高は平均の0.9倍です。CoinGeckoコミュニティでは100%が強気を示し、Fear & Greed指数は「Extreme Fear」（23）です。予測方向と乖離があり、不確実性が高まっています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+1.25%",
+        "value": "+1.17%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {

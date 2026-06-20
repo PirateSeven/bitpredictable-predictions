@@ -1,6 +1,6 @@
 {
   "coinId": "bitcoin",
-  "generatedAt": "2026-06-20T06:00:08.268736Z",
+  "generatedAt": "2026-06-20T07:00:08.209318Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 1.685358188116956,
-    "confidence": 0.3911
+    "changePercent24h": 1.2056030664190294,
+    "confidence": 0.8458
   },
   "commentary": {
-    "en": "Bitcoin's short-term trend remains sideways with a 24h return of +1.50% and a Fear & Greed Index of 23, indicating extreme fear. The upcoming $13B Bitcoin options expiry may impact the market. A 39% confidence in a flat 24h direction suggests a cautious outlook.",
-    "ja": "ビットコインの短期トレンドは横方向に推移しており、24時間のリターンは+1.50%、恐怖と欲求不満指数は23、つまり極度の恐怖を示しています。来月の13億ドルのビットコインオプションの満期は市場に影響を与える可能性があります。39％の確信で24時間の方向性がフラットであるため、慎重な姿勢が必要です。",
+    "en": "Bitcoin's 24-hour direction is predicted to be flat with a 0.1% increase, but the confidence level is low at 39%. The Fear & Greed Index is at an extreme fear level of 23, and the CoinGecko community is 74% bullish. The upcoming $13B Bitcoin options expiry may impact the market.",
+    "ja": "ビットコインの24時間の予測方向は、0.1%の増加が予想され、信頼度は39%に低い。恐怖と欲望指数は23で極度の恐怖にあり、CoinGeckoコミュニティは74％がbullishである。$13億のビットコインオプションの期限切れは市場に影響を与える可能性がある。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,12 +1000,12 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+1.25%",
+        "value": "+1.17%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "73% bullish",
+        "value": "74% bullish",
         "url": "https://www.coingecko.com/en/coins/bitcoin"
       },
       {

@@ -1,6 +1,6 @@
 {
   "coinId": "tether-gold",
-  "generatedAt": "2026-06-20T06:00:08.268736Z",
+  "generatedAt": "2026-06-20T07:00:08.209318Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 0.8970294823414788,
-    "confidence": 0.5635
+    "changePercent24h": 0.4024823564043674,
+    "confidence": 0.7659
   },
   "commentary": {
-    "en": "Tether Gold's flat 24h direction prediction is supported by neutral RSI-14 and mid-band Bollinger Band %B. The recent news on crypto kidnappers pleading guilty and Charles Schwab entering prediction markets may have a limited impact on Tether Gold's price. The overall crypto market is in a state of fear, but the recent total crypto market cap increase and BTC return may provide some support.",
-    "ja": "テザー・ゴールドの24時間予想は中立的なRSI-14とバンドの中央のボリンジャー・バンド％Bによって裏付けられています。テザー・ゴールドの価格に限りある影響を与える可能性のある、Crypto誘拐犯が有罪を認めたニュースとチャールズ・シュワブが予測市場に参入するニュースは近日中に発表されました。総コインマーケットキャップの増加とBTCのリターンはテザー・ゴールドの価格に一定のサポートを与える可能性があります。",
+    "en": "The model predicts Tether Gold will trade sideways over the next 24 hours with moderate confidence (56%). Price moved +0.52% in the past 24 hours with volume at 0.6× average. Community sentiment on CoinGecko is 100% bullish and the Fear & Greed Index reads \"Extreme Fear\" (23), diverging from the model's forecast, adding uncertainty.",
+    "ja": "モデルはTether Goldが今後24時間で横ばいで推移すると予測しています（信頼度: 中程度の 56%）。過去24時間のリターンは+0.52%、出来高は平均の0.6倍です。CoinGeckoコミュニティでは100%が強気を示し、Fear & Greed指数は「Extreme Fear」（23）です。予測方向と乖離があり、不確実性が高まっています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+1.25%",
+        "value": "+1.17%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {

@@ -1,6 +1,6 @@
 {
   "coinId": "ripple",
-  "generatedAt": "2026-06-20T06:00:08.268736Z",
+  "generatedAt": "2026-06-20T07:00:08.209318Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 2.217876758069295,
-    "confidence": 0.3085
+    "changePercent24h": 1.77470263624937,
+    "confidence": 0.8756
   },
   "commentary": {
-    "en": "XRP's price is expected to remain relatively flat in the next 24 hours, with a slight increase of +0.1% predicted. The current market sentiment is in extreme fear, as indicated by the Fear & Greed Index, but the price movement is not strongly correlated with the index. The recent news about the crypto kidnappers and the Bitcoin options expiry may have some impact on the market.",
-    "ja": "XRPの価格は、次の24時間でほぼ平穏なままのまま、+0.1%の増加が予想されます。Fear & Greed Indexは極度の恐怖を示していますが、価格動向は指数と強く関連していません。最近のニュースである、Crypto犯罪者とビットコインオプションの期限切れは、市場に影響を与える可能性があります。",
+    "en": "XRP's 24-hour return of +1.37% is above the predicted flat direction, but the confidence level remains low at 30%. The Fear & Greed Index at 23 indicates extreme fear in the market, which may impact XRP's short-term performance. The recent news on the crypto market and Bitcoin options expiry may also influence XRP's price movement.",
+    "ja": "リップルは24時間の+1.37%のリターンを記録しているが、予想のフラット方向よりも上昇しているが、信頼度は30%に留まっている。Fear & Greed Indexは23で、極度の恐怖を示しており、短期的なパフォーマンスに影響を与える可能性がある。最近のニュースやビットコインオプションのエクスピアがリップルの価格動向に影響を与える可能性がある。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,12 +1000,12 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+1.25%",
+        "value": "+1.17%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "65% bullish",
+        "value": "63% bullish",
         "url": "https://www.coingecko.com/en/coins/ripple"
       },
       {

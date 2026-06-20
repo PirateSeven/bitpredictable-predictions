@@ -1,6 +1,6 @@
 {
   "coinId": "ethereum",
-  "generatedAt": "2026-06-20T06:00:08.268736Z",
+  "generatedAt": "2026-06-20T07:00:08.209318Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 2.3508738265384816,
-    "confidence": 0.172
+    "changePercent24h": 1.5939853139798592,
+    "confidence": 0.8428
   },
   "commentary": {
-    "en": "Ethereum's 24-hour direction is predicted to be flat with a confidence of 17%. The current market sentiment is in extreme fear, as indicated by the Fear & Greed Index of 23. The recent news of the $8M crypto heist and the upcoming Bitcoin options expiry may impact Ethereum's price movement.",
-    "ja": "エーテレムの24時間の動向は、17％の確率でフラットと予想されています。恐怖と欲求不満指数は23で、極度の恐怖の状態です。8百万ドルの暗号犯罪と6月のビットコインオプションの満期が近づくと、エーテレムの価格動向に影響を与える可能性があります。",
+    "en": "Ethereum's flat 24h direction prediction is based on neutral technical signals, including an RSI-14 of 63 and a Bollinger Band %B of 1.18. The Fear & Greed Index remains in extreme fear, while the CoinGecko community is 84% bullish. Ethereum's price movement is likely to be influenced by the overall crypto market and Bitcoin's performance.",
+    "ja": "エーテレムの24時間方向予測は、RSI-14の63とボリンジャーバンド％Bの1.18などの中立的な技術指標に基づいて、フラットに予想されています。Fear & Greed Indexは極度の恐怖のままであり、CoinGeckoコミュニティは84％がバ Bullishです。エーテレムの価格動向は、総合的な暗号通貨市場やビットコインのパフォーマンスに影響を受ける可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,12 +1000,12 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+1.25%",
+        "value": "+1.17%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "80% bullish",
+        "value": "84% bullish",
         "url": "https://www.coingecko.com/en/coins/ethereum"
       },
       {
