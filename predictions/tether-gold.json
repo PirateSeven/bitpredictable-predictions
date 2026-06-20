@@ -1,6 +1,6 @@
 {
   "coinId": "tether-gold",
-  "generatedAt": "2026-06-20T13:00:07.718393Z",
+  "generatedAt": "2026-06-20T14:00:08.013619Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.4260467737386809,
-    "confidence": 0.8987
+    "changePercent24h": -0.4416885273729629,
+    "confidence": 0.901
   },
   "commentary": {
-    "en": "Tether Gold is expected to trade flat with a slight decline of -0.1% over the next 24 hours, based on technical signals. The Fear & Greed Index remains in extreme fear territory, while the total crypto market cap and Bitcoin's 24-hour return are relatively stable. Recent news has been mixed, with no significant impact on Tether Gold's price.",
-    "ja": "テザー・ゴールドは、技術的信号に基づいて、来日24時間で-0.1%の小幅な下落が予想される。恐怖と欲求不満指数は極度の恐怖の状態にあり、総暗号資産市場キャップとビットコインの24時間リターンは比較的安定している。最近のニュースは混在しており、テザー・ゴールドの価格に大きな影響はなかった。",
+    "en": "The model predicts Tether Gold will trade sideways over the next 24 hours with high confidence (80%). Price moved +0.18% in the past 24 hours with volume at 0.5× average. Market sentiment stands at \"Extreme Fear\" (Fear & Greed: 23); the broader crypto market moved +0.2% over the past 24 hours.",
+    "ja": "モデルはTether Goldが今後24時間で横ばいで推移すると予測しています（信頼度: 高い 80%）。過去24時間のリターンは+0.18%、出来高は平均の0.5倍です。Fear & Greed指数は「Extreme Fear」（23）で、暗号資産市場全体の24時間変動率は+0.2%です。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,8 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+1.11%",
+        "value": "+0.25%",
         "url": "https://www.coingecko.com/en/global-charts"
-      },
-      {
-        "label": "CoinGecko Community Sentiment",
-        "value": "100% bullish",
-        "url": "https://www.coingecko.com/en/coins/tether-gold"
       },
       {
         "label": "CoinTelegraph",

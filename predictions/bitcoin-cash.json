@@ -1,6 +1,6 @@
 {
   "coinId": "bitcoin-cash",
-  "generatedAt": "2026-06-20T13:00:07.718393Z",
+  "generatedAt": "2026-06-20T14:00:08.013619Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -1.7787343715087474,
-    "confidence": 0.8691
+    "changePercent24h": -1.8591970598384027,
+    "confidence": 0.8741
   },
   "commentary": {
-    "en": "The model predicts Bitcoin Cash will trade sideways over the next 24 hours with moderate confidence (55%). Price moved +1.77% in the past 24 hours with volume at 0.8× average. Community sentiment on CoinGecko is 67% bullish and the Fear & Greed Index reads \"Extreme Fear\" (23), diverging from the model's forecast, adding uncertainty.",
-    "ja": "モデルはBitcoin Cashが今後24時間で横ばいで推移すると予測しています（信頼度: 中程度の 55%）。過去24時間のリターンは+1.77%、出来高は平均の0.8倍です。CoinGeckoコミュニティでは67%が強気を示し、Fear & Greed指数は「Extreme Fear」（23）です。予測方向と乖離があり、不確実性が高まっています。",
+    "en": "Bitcoin Cash (BITCOIN-CASH) is expected to trade flat with a slight decline of -0.3% in the next 24 hours, as the Fear & Greed Index remains in extreme fear and the total crypto market cap shows a minor increase of 0.25%. The recent news about Pudgy Penguins and Charles Schwab entering prediction markets may have a limited impact on Bitcoin Cash. The short-term trend and technical indicators suggest a sideways movement.",
+    "ja": "ビットコインキャッシュ（BITCOIN-CASH）は、恐怖と欲求不満指数が極度の恐怖にあり、総暗号資産市場キャップが0.25％増加したため、次の24時間で-0.3％の小幅な下落が予想されます。プディギペンギンやチャールズシュワブが予測市場に参入するニュースはビットコインキャッシュに限りなく影響を与える可能性は低い。短期のトレンドや技術指標は横方向の動きを示しています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,12 +1000,12 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+1.11%",
+        "value": "+0.25%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "67% bullish",
+        "value": "75% bullish",
         "url": "https://www.coingecko.com/en/coins/bitcoin-cash"
       },
       {

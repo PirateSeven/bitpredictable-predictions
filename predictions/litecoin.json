@@ -1,6 +1,6 @@
 {
   "coinId": "litecoin",
-  "generatedAt": "2026-06-20T13:00:07.718393Z",
+  "generatedAt": "2026-06-20T14:00:08.013619Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.7418164842760226,
-    "confidence": 0.8027
+    "changePercent24h": -0.7474885593388818,
+    "confidence": 0.8038
   },
   "commentary": {
-    "en": "The model predicts Litecoin will trade sideways over the next 24 hours with low confidence (44%). Price moved +1.68% in the past 24 hours with volume at 1.0× average. Community sentiment on CoinGecko is 91% bullish and the Fear & Greed Index reads \"Extreme Fear\" (23), diverging from the model's forecast, adding uncertainty.",
-    "ja": "モデルはLitecoinが今後24時間で横ばいで推移すると予測しています（信頼度: 低い 44%）。過去24時間のリターンは+1.68%、出来高は平均の1.0倍です。CoinGeckoコミュニティでは91%が強気を示し、Fear & Greed指数は「Extreme Fear」（23）です。予測方向と乖離があり、不確実性が高まっています。",
+    "en": "Litecoin's 24-hour direction is predicted to be flat, with a confidence level of 44%. The current market sentiment remains in extreme fear, as indicated by the Fear & Greed Index. Litecoin's recent price movement is influenced by the overall crypto market, which saw a 0.25% increase in total market cap.",
+    "ja": "リテコインの24時間の動向は、44%の確信度でフラットと予想されています。恐怖と欲求不満指数は極度の恐怖の状態を示しています。リテコインの価格変動は、総マーケットキャップが0.25%増加した全体的な暗号通貨市場に影響を受けています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,12 +1000,12 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+1.11%",
+        "value": "+0.25%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "91% bullish",
+        "value": "82% bullish",
         "url": "https://www.coingecko.com/en/coins/litecoin"
       },
       {

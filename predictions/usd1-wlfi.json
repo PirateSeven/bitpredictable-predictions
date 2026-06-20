@@ -1,6 +1,6 @@
 {
   "coinId": "usd1-wlfi",
-  "generatedAt": "2026-06-20T13:00:07.718393Z",
+  "generatedAt": "2026-06-20T14:00:08.013619Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.036,
+    "changePercent24h": -0.04606308359364428,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "USD1-WLFI is expected to remain flat in the next 24 hours with a 95% confidence level due to neutral RSI-14 and mid-band Bollinger Band %B. The Fear & Greed Index is at an extreme fear level, but the CoinGecko community is 100% bullish. Recent news on Pudgy Penguins and Philippine SEC readiness for RWA tokenization may have a positive impact on the market.",
-    "ja": "USD1-WLFI は、来る24時間に95％の確率でフラットに推移する可能性があります。RSI-14は中立的で、ボリンジャーバンドの%Bは中間帯にあります。恐怖と欲求不満指数は極度の恐怖レベルですが、CoinGeckoコミュニティは100％のバブルです。Pudgy PenguinsやフィリピンSECのRWAトークン化の準備に関するニュースは市場にプラスの影響を与える可能性があります。",
+    "en": "The model predicts USD1 will trade sideways over the next 24 hours with high confidence (95%). Price moved -0.01% in the past 24 hours with volume at 1.0× average. Market sentiment stands at \"Extreme Fear\" (Fear & Greed: 23); the broader crypto market moved +0.2% over the past 24 hours.",
+    "ja": "モデルはUSD1が今後24時間で横ばいで推移すると予測しています（信頼度: 高い 95%）。過去24時間のリターンは-0.01%、出来高は平均の1.0倍です。Fear & Greed指数は「Extreme Fear」（23）で、暗号資産市場全体の24時間変動率は+0.2%です。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,8 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+1.11%",
+        "value": "+0.25%",
         "url": "https://www.coingecko.com/en/global-charts"
-      },
-      {
-        "label": "CoinGecko Community Sentiment",
-        "value": "100% bullish",
-        "url": "https://www.coingecko.com/en/coins/usd1-wlfi"
       },
       {
         "label": "CoinTelegraph",
