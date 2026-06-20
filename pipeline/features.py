@@ -18,8 +18,10 @@ FEATURE_NAMES = [
     # trend
     "sma_ratio",   # SMA7 / SMA24
     "ema_ratio",   # EMA12 / EMA26
+    "macd_hist",   # (EMA12 - EMA26) / SMA24 — normalized MACD divergence
     # momentum
     "rsi_14",
+    "ret_168h",    # 7-day return — longer-term momentum context
     # volatility
     "bb_pct_b", "bb_width", "rolling_std_24h",
     # volume
@@ -30,7 +32,8 @@ FEATURE_NAMES = [
     "btc_ret_1h", "btc_ret_6h", "btc_ret_24h",
     "eth_ret_1h", "eth_ret_24h",
 ]
-N_FEATURES = len(FEATURE_NAMES)  # 23
+N_FEATURES = len(FEATURE_NAMES)  # 25
+# NOTE: changing N_FEATURES invalidates model.pt — retrain: python pipeline/train.py
 
 
 def _price_features(prices: pd.Series) -> pd.DataFrame:
@@ -42,6 +45,7 @@ def _price_features(prices: pd.Series) -> pd.DataFrame:
     sma24 = p.rolling(24).mean()
     ema12 = p.ewm(span=12, adjust=False).mean()
     ema26 = p.ewm(span=26, adjust=False).mean()
+    macd_hist = (ema12 - ema26) / sma24.replace(0, np.nan)
 
     rsi = _ta.momentum.RSIIndicator(close=p, window=14).rsi()
 
@@ -63,7 +67,9 @@ def _price_features(prices: pd.Series) -> pd.DataFrame:
         "ret_48h":         ret(48),
         "sma_ratio":       sma7 / sma24.replace(0, np.nan),
         "ema_ratio":       ema12 / ema26.replace(0, np.nan),
+        "macd_hist":       macd_hist,
         "rsi_14":          rsi / 100,   # normalise to [0, 1]
+        "ret_168h":        ret(168),
         "bb_pct_b":        bb_pct_b,
         "bb_width":        bb_width,
         "rolling_std_24h": rolling_std,

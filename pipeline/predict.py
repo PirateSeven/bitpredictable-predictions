@@ -121,6 +121,12 @@ def _load_model(device: torch.device):
     ckpt = torch.load(MODEL_PATH, map_location=device)
     cfg  = ckpt["model_config"]
 
+    if cfg["input_size"] != N_FEATURES:
+        raise RuntimeError(
+            f"Model input_size={cfg['input_size']} but N_FEATURES={N_FEATURES}. "
+            f"Feature set changed — retrain: python pipeline/train.py"
+        )
+
     model = QuantileLSTM(
         input_size=cfg["input_size"],
         hidden_size=cfg["hidden_size"],
