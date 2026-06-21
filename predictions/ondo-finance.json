@@ -1,6 +1,6 @@
 {
   "coinId": "ondo-finance",
-  "generatedAt": "2026-06-21T16:00:07.784837Z",
+  "generatedAt": "2026-06-21T17:00:07.922245Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -0.04799966167207259,
+    "changePercent24h": 0.05496767955833359,
     "confidence": 0.1
   },
   "commentary": {
-    "en": "Ondo (ONDO-FINANCE) is predicted to decline by -4.1% in the next 24 hours with a confidence level of 86%. This prediction is based on the current technical signals and market context. The Fear & Greed Index is at 23, indicating extreme fear in the market.",
-    "ja": "ONDO-FINANCEは次の24時間で-4.1%の下落が予想され、信頼度は86%です。これは、現在の技術指標と市場状況に基づいています。恐怖と欲求不満指数は23、市場は極度の恐怖状態です。",
+    "en": "The model predicts Ondo will decline ~4.1% over the next 24 hours with high confidence (86%). Price moved -1.95% in the past 24 hours with volume at 1.1× average. Community sentiment on CoinGecko is 95% bullish and the Fear & Greed Index reads \"Extreme Fear\" (23), diverging from the model's forecast, adding uncertainty.",
+    "ja": "モデルはOndoが今後24時間で約4.1%下落すると予測しています（信頼度: 高い 86%）。過去24時間のリターンは-1.95%、出来高は平均の1.1倍です。CoinGeckoコミュニティでは95%が強気を示し、Fear & Greed指数は「Extreme Fear」（23）です。予測方向と乖離があり、不確実性が高まっています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.10%",
+        "value": "+0.14%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {

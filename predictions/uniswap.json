@@ -1,6 +1,6 @@
 {
   "coinId": "uniswap",
-  "generatedAt": "2026-06-21T16:00:07.784837Z",
+  "generatedAt": "2026-06-21T17:00:07.922245Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -2.507692855124918,
-    "confidence": 0.8607
+    "changePercent24h": -1.9975,
+    "confidence": 0.8291
   },
   "commentary": {
-    "en": "Uniswap (UNISWAP) is predicted to decline by 2.0% in the next 24 hours with a confidence level of 82%. The recent news of a potential Bitcoin price drop to $24K due to a US stock market crash may negatively impact the crypto market. The Fear & Greed Index is at 23, indicating extreme fear.",
-    "ja": "Uniswap (UNISWAP) は、次の24時間で2.0%の下落が予測され、信頼度は82%です。米国株式市場の50%の落とし込みによるビットコイン価格の$24Kへの下落に関するニュースは、暗号市場に否定的な影響を与える可能性があります。恐怖と欲求不満指数は23、極度の恐怖を示しています。",
+    "en": "Uniswap is expected to decline by 2.0% in the next 24 hours with a confidence level of 82%. This prediction is based on neutral technical signals, including a 55 RSI-14 reading and a 0.83 Bollinger Band %B reading. The Fear & Greed Index remains in extreme fear territory, which may contribute to Uniswap's downward trend.",
+    "ja": "ユニスワップは次の24時間で2.0%下落する可能性があり、信頼度は82%です。これは、RSI-14が55の中立的な技術指標とボリンジャーバンドの%バンドが0.83の指標に基づいています。恐怖と欲求不満指数は極度の恐怖の領域にあり、これがユニスワップの下落に寄与する可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,8 +1000,13 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.10%",
+        "value": "+0.14%",
         "url": "https://www.coingecko.com/en/global-charts"
+      },
+      {
+        "label": "CoinGecko Community Sentiment",
+        "value": "100% bullish",
+        "url": "https://www.coingecko.com/en/coins/uniswap"
       },
       {
         "label": "CoinTelegraph",

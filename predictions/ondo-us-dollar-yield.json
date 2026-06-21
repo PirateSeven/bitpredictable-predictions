@@ -1,6 +1,6 @@
 {
   "coinId": "ondo-us-dollar-yield",
-  "generatedAt": "2026-06-21T16:00:07.784837Z",
+  "generatedAt": "2026-06-21T17:00:07.922245Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.8102016171942994,
-    "confidence": 0.843
+    "changePercent24h": -0.43912606189705383,
+    "confidence": 0.7584
   },
   "commentary": {
-    "en": "ONDO-US-DOLLAR-YIELD is expected to remain flat with a 0.4% decline, based on current technical signals. The Fear & Greed Index at 23 indicates extreme fear in the market, while a 0.25% increase in Bitcoin's 24-hour return suggests some stability. However, recent news on potential price drops and market crashes may impact investor sentiment.",
-    "ja": "ONDO-US-DOLLAR-YIELDは、現在の技術指標に基づいて0.4%の下落を予想しています。Fear & Greed Indexは23で、極度の恐怖を示していますが、ビットコインの24時間戻りの0.25%の増加は一定の安定性を示しています。ただし、価格下落や市場崩壊に関する最近のニュースは投資家の感情に影響を与える可能性があります。",
+    "en": "The model predicts Ondo US Dollar Yield will trade sideways over the next 24 hours with high confidence (72%). Price is near lower Bollinger Band support, where rebounds are historically more frequent. Market sentiment stands at \"Extreme Fear\" (Fear & Greed: 23); the broader crypto market moved +0.1% over the past 24 hours.",
+    "ja": "モデルはOndo US Dollar Yieldが今後24時間で横ばいで推移すると予測しています（信頼度: 高い 72%）。価格がボリンジャーバンド下限付近で、サポートからの反発が過去パターンより多く観察されます。Fear & Greed指数は「Extreme Fear」（23）で、暗号資産市場全体の24時間変動率は+0.1%です。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.10%",
+        "value": "+0.14%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {

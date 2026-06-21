@@ -1,6 +1,6 @@
 {
   "coinId": "usds",
-  "generatedAt": "2026-06-21T16:00:07.784837Z",
+  "generatedAt": "2026-06-21T17:00:07.922245Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.00997531176424056,
+    "changePercent24h": -0.013008748256571199,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "USDS is expected to remain flat with a 0.0% 24-hour return, given its neutral RSI-14 reading and sideways short-term trend. The Fear & Greed Index at 23 indicates extreme fear in the market, which may impact USDS price. With the total crypto market cap and BTC experiencing slight gains, USDS is likely to follow a similar trend.",
-    "ja": "USDSは0.0％の24時間リターンで、ニュートラルのRSI-14読みと短期の横方向のトレンドから、平坦な動きが予想される。恐怖と欲求不満指数が23で極度の恐れを示していることから、USDS価格に影響を与える可能性がある。総暗号資産マーケットキャップとBTCが僅かに上昇していることから、USDSも類似した動きを示す可能性がある。",
+    "en": "USDS is expected to remain flat with a 95% confidence level, as the market is in a neutral state with the RSI-14 at 56 and the Bollinger Band %B at 1.06. The recent news on Bitcoin's potential price movements and the Fear & Greed Index at 23 may not have a significant impact on USDS. The sideways short-term trend and normal volume ratio also support a flat prediction.",
+    "ja": "USDSは95％の確率でフラットの予想になります。RSI-14が56、ボリンジャー・バンド %Bが1.06の状態で、市場は中立的な状態です。ビットコインの価格変動に関する最近のニュースや、恐怖と欲求不満指数が23の情報はUSDSに大きな影響を与えそうにありません。短期のトレンドは横方向に動いており、ボリュームの比率も通常の値です。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.10%",
+        "value": "+0.14%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {

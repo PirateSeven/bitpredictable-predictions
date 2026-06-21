@@ -1,6 +1,6 @@
 {
   "coinId": "avalanche-2",
-  "generatedAt": "2026-06-21T16:00:07.784837Z",
+  "generatedAt": "2026-06-21T17:00:07.922245Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": 0.9387605241068189,
-    "confidence": 0.7528
+    "changePercent24h": 1.027715310743387,
+    "confidence": 0.77
   },
   "commentary": {
-    "en": "Avalanche's short-term trend remains in an uptrend, but the predicted 24h direction is DOWN with a 67% confidence level. The Fear & Greed Index is at Extreme Fear, and the recent news about Bitcoin's price may impact the overall crypto market. Avalanche's price may experience a correction in the near term.",
-    "ja": "アバランチ2の短期トレンドは上昇傾向にあるが、24時間の予想方向は下落にあり、信頼度は67％である。恐怖と欲求不満指数は極度の恐怖にあり、最近のニュースでビットコインの価格が影響を受ける可能性がある。アバランチ2の価格は短期的には調整される可能性がある。",
+    "en": "The model predicts Avalanche will decline ~0.7% over the next 24 hours with moderate confidence (67%). The short-term SMA has crossed above the medium-term SMA, signalling positive momentum. Community sentiment on CoinGecko is 73% bullish and the Fear & Greed Index reads \"Extreme Fear\" (23), diverging from the model's forecast, adding uncertainty.",
+    "ja": "モデルはAvalancheが今後24時間で約0.7%下落すると予測しています（信頼度: 中程度の 67%）。短期移動平均が中期移動平均を上回り、ポジティブなモメンタムが示されています。CoinGeckoコミュニティでは73%が強気を示し、Fear & Greed指数は「Extreme Fear」（23）です。予測方向と乖離があり、不確実性が高まっています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.10%",
+        "value": "+0.14%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
