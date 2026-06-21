@@ -27,6 +27,19 @@ except ImportError:
     _HAS_REQUESTS = False
 
 REPO = Path(__file__).resolve().parent.parent
+
+# Auto-load .env from repo root if python-dotenv is available, else parse manually
+_env_file = REPO / ".env"
+if _env_file.exists():
+    try:
+        from dotenv import load_dotenv
+        load_dotenv(_env_file)
+    except ImportError:
+        for _line in _env_file.read_text().splitlines():
+            _line = _line.strip()
+            if _line and not _line.startswith("#") and "=" in _line:
+                _k, _, _v = _line.partition("=")
+                os.environ.setdefault(_k.strip(), _v.strip().strip('"').strip("'"))
 BLOG_DIR = REPO / "blog"
 POSTS_DIR = BLOG_DIR / "posts"
 INDEX_FILE = BLOG_DIR / "index.json"
