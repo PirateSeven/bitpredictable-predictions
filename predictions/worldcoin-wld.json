@@ -1,6 +1,6 @@
 {
   "coinId": "worldcoin-wld",
-  "generatedAt": "2026-06-21T07:00:08.049825Z",
+  "generatedAt": "2026-06-21T08:00:08.313889Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -6.314207051581329,
+    "changePercent24h": -6.3137553050545625,
     "confidence": 0.8985
   },
   "commentary": {
-    "en": "Worldcoin WLD is predicted to drop by -3.6% in the next 24 hours with a confidence level of 82%. The recent news of Bitcoin ETFs shedding a record $6.4B and the collapse of altcoin rotations into Bitcoin may contribute to this downward trend. The Fear & Greed Index remains in Extreme Fear territory, further supporting this prediction.",
-    "ja": "ワールドコインのWLDは、次の24時間に-3.6%の下落が予測され、信頼度は82%です。ビットコインETFの$6.4億の喪失とアルトコインのビットコインへの流れの崩壊などのニュースがこの下落に寄与する可能性があります。恐怖と欲求不満指数はまだ極度の恐怖の領域にあり、さらにこの予測を裏付けています。",
+    "en": "The model predicts Worldcoin will decline ~3.6% over the next 24 hours with high confidence (82%). Price is near lower Bollinger Band support, where rebounds are historically more frequent. Community sentiment on CoinGecko is 64% bullish and the Fear & Greed Index reads \"Extreme Fear\" (23), diverging from the model's forecast, adding uncertainty.",
+    "ja": "モデルはWorldcoinが今後24時間で約3.6%下落すると予測しています（信頼度: 高い 82%）。価格がボリンジャーバンド下限付近で、サポートからの反発が過去パターンより多く観察されます。CoinGeckoコミュニティでは64%が強気を示し、Fear & Greed指数は「Extreme Fear」（23）です。予測方向と乖離があり、不確実性が高まっています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.60%",
+        "value": "+0.69%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
@@ -1015,7 +1015,7 @@
       },
       {
         "label": "CoinTelegraph",
-        "value": "Bitcoin ETFs shed a record $6.4B in 30 days amid crypto winter chill",
+        "value": "Bitcoin ETFs shed record $6.4B in 30 days amid crypto winter chill",
         "url": "https://cointelegraph.com/news/bitcoin-etfs-shed-a-record-64b-in-30-days-as-bitcoin-shivers?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {

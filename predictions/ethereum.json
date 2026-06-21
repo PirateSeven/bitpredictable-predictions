@@ -1,6 +1,6 @@
 {
   "coinId": "ethereum",
-  "generatedAt": "2026-06-21T07:00:08.049825Z",
+  "generatedAt": "2026-06-21T08:00:08.313889Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.03822707095263733,
+    "changePercent24h": -0.037486592564163035,
     "confidence": 0.3783
   },
   "commentary": {
-    "en": "Ethereum's 24-hour direction is predicted to be flat with a 0.1% decline, based on technical signals. The Fear & Greed Index remains in extreme fear territory, while the CoinGecko community is 86% bullish. Ethereum's recent performance is closely tied to the overall crypto market, which saw a 0.6% increase in the total market cap.",
-    "ja": "エーテレムの24時間方向は、技術的信号に基づいて0.1%の下落が予想されています。恐怖と欲求不満指数は極度の恐怖の領域にあり、コインゲッコーのコミュニティは86％がbullishです。エーテレムの最近のパフォーマンスは、総マーケットキャップが0.6%増加した全体的な暗号通貨市場に大きく依存しています。",
+    "en": "Ethereum's 24-hour direction is predicted to be flat with a -0.1% change, indicating a neutral RSI-14 reading of 53 and a mid-band Bollinger Band %B of 0.49. The Fear & Greed Index remains in extreme fear at 23, while the CoinGecko community is 87% bullish. Recent news highlights the crypto winter's impact on Bitcoin ETFs and altcoins.",
+    "ja": "エーテレムの24時間の方向は、-0.1%の変化が予測され、RSI-14の値は53、ボリンジャーバンドの%Bは0.49の中間値であることを示しています。恐怖と欲求不満指数は23の極度の恐怖のままです。コインゲッコーのコミュニティは87％がバブルです。最近のニュースでは、ビットコインのETFとアルティコインの影響について話題となっています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,12 +1000,12 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.60%",
+        "value": "+0.69%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "86% bullish",
+        "value": "87% bullish",
         "url": "https://www.coingecko.com/en/coins/ethereum"
       },
       {
@@ -1015,7 +1015,7 @@
       },
       {
         "label": "CoinTelegraph",
-        "value": "Bitcoin ETFs shed a record $6.4B in 30 days amid crypto winter chill",
+        "value": "Bitcoin ETFs shed record $6.4B in 30 days amid crypto winter chill",
         "url": "https://cointelegraph.com/news/bitcoin-etfs-shed-a-record-64b-in-30-days-as-bitcoin-shivers?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {

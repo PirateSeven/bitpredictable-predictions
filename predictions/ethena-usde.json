@@ -1,6 +1,6 @@
 {
   "coinId": "ethena-usde",
-  "generatedAt": "2026-06-21T07:00:08.049825Z",
+  "generatedAt": "2026-06-21T08:00:08.313889Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.0007829245553781713,
+    "changePercent24h": -0.0007763492382648826,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "Ethena USDe (ETHENA-USDE) is expected to remain flat in the next 24 hours with a 95% confidence level due to neutral technical signals and a sideways short-term trend. The Fear & Greed Index is at Extreme Fear, which may influence investor sentiment. However, the recent news on stablecoins and DeFi revisions in MiCA 2.0 could potentially impact the market.",
-    "ja": "Ethena USDe (ETHENA-USDE) は、次の24時間に95%の確率でフラットとなることが予想されます。これは中立的な技術指標と短期的な横方向のトレンドによるものです。恐怖と欲求不満指数はエクストリーム・フィアにあり、これは投資家の感情を影響する可能性があります。ただし、MiCA 2.0における安定コインとDeFiの改善に関する最近のニュースは、市場に影響を与える可能性があります。",
+    "en": "Ethena USDe (ETHENA-USDE) is expected to remain flat in the next 24 hours with a 95% confidence level. The current market context suggests a mix of fear and uncertainty, with the Fear & Greed Index at 23 and the total crypto market cap showing a slight increase. The recent news about stablecoins and DeFi revisions in MiCA 2.0 may have a positive impact on the market.",
+    "ja": "ETHENA-USDEは来日24時間で95%の確率でフラットとなる予想です。Fear & Greed Indexは23、総暗号資産マーケットキャップは微増の状況です。MiCA 2.0における安定コインとDeFiの改善に関するニュースはマーケットに肯定的な影響を与える可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,8 +1000,13 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.60%",
+        "value": "+0.69%",
         "url": "https://www.coingecko.com/en/global-charts"
+      },
+      {
+        "label": "CoinGecko Community Sentiment",
+        "value": "100% bullish",
+        "url": "https://www.coingecko.com/en/coins/ethena-usde"
       },
       {
         "label": "CoinTelegraph",
@@ -1010,7 +1015,7 @@
       },
       {
         "label": "CoinTelegraph",
-        "value": "Bitcoin ETFs shed a record $6.4B in 30 days amid crypto winter chill",
+        "value": "Bitcoin ETFs shed record $6.4B in 30 days amid crypto winter chill",
         "url": "https://cointelegraph.com/news/bitcoin-etfs-shed-a-record-64b-in-30-days-as-bitcoin-shivers?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {

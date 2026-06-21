@@ -1,6 +1,6 @@
 {
   "coinId": "bitcoin",
-  "generatedAt": "2026-06-21T07:00:08.049825Z",
+  "generatedAt": "2026-06-21T08:00:08.313889Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 0.5536189449200926,
+    "changePercent24h": 0.5536466739994427,
     "confidence": 0.773
   },
   "commentary": {
-    "en": "Bitcoin's short-term trend remains sideways, with a 24-hour return of +1.11% and a Fear & Greed Index at 23, indicating extreme fear. The recent news of Bitcoin ETFs shedding a record $6.4B and the 'sandwich attack' bot exploit may have contributed to the market's current state. A flat 24-hour direction is predicted with a confidence of 47%.",
-    "ja": "ビットコインの短期のトレンドは横方向に動いており、24時間のリターンは+1.11%で、恐怖と欲求の指数は23で極度の恐怖を示しています。ビットコインETFが$6.4Bを失ったニュースや「サンドウィッチ攻撃」ボットの攻撃は現在の市場状況に寄与している可能性があります。24時間の方向は予測通りフラットで、信頼度は47％です。",
+    "en": "Bitcoin's short-term trend remains sideways, with a 24-hour return of +1.11% and a Fear & Greed Index of 23, indicating extreme fear. The recent news of Bitcoin ETFs shedding a record $6.4B and the 'sandwich attack' bot being exploited for $7.5M may have contributed to the current market sentiment. The neutral RSI-14 reading and mid-band Bollinger Band %B suggest a stable market.",
+    "ja": "ビットコインの短期トレンドは横ばいを維持しており、24時間のリターンは+1.11%、恐怖と欲求不満指数は23、極度の恐怖を示しています。ビットコインETFが$6.4Bを失ったニュースや「サンドウィッチアタック」ボットが$7.5Mを搾取したニュースは、現在の市場感覚に寄与している可能性があります。中立的なRSI-14の値とバンドインデクス0.76のBollinger Band %Bは、安定した市場を示しています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,12 +1000,12 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.60%",
+        "value": "+0.69%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "82% bullish",
+        "value": "84% bullish",
         "url": "https://www.coingecko.com/en/coins/bitcoin"
       },
       {
@@ -1015,7 +1015,7 @@
       },
       {
         "label": "CoinTelegraph",
-        "value": "Bitcoin ETFs shed a record $6.4B in 30 days amid crypto winter chill",
+        "value": "Bitcoin ETFs shed record $6.4B in 30 days amid crypto winter chill",
         "url": "https://cointelegraph.com/news/bitcoin-etfs-shed-a-record-64b-in-30-days-as-bitcoin-shivers?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {

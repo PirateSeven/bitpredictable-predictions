@@ -1,6 +1,6 @@
 {
   "coinId": "dai",
-  "generatedAt": "2026-06-21T07:00:08.049825Z",
+  "generatedAt": "2026-06-21T08:00:08.313889Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 0.009892282856298146,
+    "changePercent24h": 0.00989688111107652,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "Dai (DAI) is expected to remain flat in the next 24 hours with a 95% confidence level, as the RSI-14 and Bollinger Band %B indicate a neutral short-term trend. The recent news about the crypto market, including the decline of Bitcoin ETFs and the exploitation of a sandwich attack bot, may have a minimal impact on DAI's price. However, the overall market sentiment remains in extreme fear.",
-    "ja": "DAI（DAI）は、次の24時間に95％の確実性で平坦になることが予想され、RSI-14とボリンジャー・バンド％Bは短期的なトレンドが中立的なものであることを示しています。最近のニュースであるビットコインETFの減少とサンドウィッチ攻撃のボットの搾取は、DAIの価格にほとんど影響を与えません。ただし、市場全体の感情は極度の恐怖のままです。",
+    "en": "Dai (DAI) is expected to remain flat in the next 24 hours with a 95% confidence level. The current market context, including the Fear & Greed Index and recent news about Bitcoin ETFs and altcoin rotations, may not significantly impact DAI's price movement. DAI's technical signals, such as the neutral RSI-14 and sideways short-term trend, also support a flat prediction.",
+    "ja": "DAI（DAI）は、95％の確実性で次の24時間にフラットになることを予想しています。Fear＆Greed IndexやBitcoin ETFsやアルティコインのローテーションに関する最近のニュースはDAIの価格動向に影響を与えそうにありません。DAIの技術指標である中立的なRSI-14や短期的なトレンドもフラットの予測を裏付けています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.60%",
+        "value": "+0.69%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
@@ -1015,7 +1015,7 @@
       },
       {
         "label": "CoinTelegraph",
-        "value": "Bitcoin ETFs shed a record $6.4B in 30 days amid crypto winter chill",
+        "value": "Bitcoin ETFs shed record $6.4B in 30 days amid crypto winter chill",
         "url": "https://cointelegraph.com/news/bitcoin-etfs-shed-a-record-64b-in-30-days-as-bitcoin-shivers?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
