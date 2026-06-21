@@ -1,6 +1,6 @@
 {
   "coinId": "bitcoin",
-  "generatedAt": "2026-06-21T06:00:08.016492Z",
+  "generatedAt": "2026-06-21T07:00:08.049825Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 0.5292928335740641,
-    "confidence": 0.7659
+    "changePercent24h": 0.5536189449200926,
+    "confidence": 0.773
   },
   "commentary": {
-    "en": "Bitcoin's predicted 24-hour direction is flat with a 47% confidence level, indicating a neutral short-term trend. The Fear & Greed Index remains at 23, indicating extreme fear in the market. Recent news suggests a decline in Bitcoin ETFs and a notable sandwich attack bot exploit.",
-    "ja": "ビットコインの24時間予想方向は47%の確信度でフラット、短期的なトレンドは中立的である。恐怖と欲求不満指数は23で、市場は極度の恐怖に包まれている。最近のニュースではビットコインETFの減少と有名な「サンドウィッチ攻撃」ボットの搾取が報告されている。",
+    "en": "Bitcoin's short-term trend remains sideways, with a 24-hour return of +1.11% and a Fear & Greed Index at 23, indicating extreme fear. The recent news of Bitcoin ETFs shedding a record $6.4B and the 'sandwich attack' bot exploit may have contributed to the market's current state. A flat 24-hour direction is predicted with a confidence of 47%.",
+    "ja": "ビットコインの短期のトレンドは横方向に動いており、24時間のリターンは+1.11%で、恐怖と欲求の指数は23で極度の恐怖を示しています。ビットコインETFが$6.4Bを失ったニュースや「サンドウィッチ攻撃」ボットの攻撃は現在の市場状況に寄与している可能性があります。24時間の方向は予測通りフラットで、信頼度は47％です。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,12 +1000,12 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.66%",
+        "value": "+0.60%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "79% bullish",
+        "value": "82% bullish",
         "url": "https://www.coingecko.com/en/coins/bitcoin"
       },
       {

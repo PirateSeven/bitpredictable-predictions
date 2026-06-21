@@ -1,6 +1,6 @@
 {
   "coinId": "cardano",
-  "generatedAt": "2026-06-21T06:00:08.016492Z",
+  "generatedAt": "2026-06-21T07:00:08.049825Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.9504025382248069,
-    "confidence": 0.8072
+    "changePercent24h": 0.10593158471276753,
+    "confidence": 0.3499
   },
   "commentary": {
-    "en": "Cardano's 24-hour direction is predicted to be flat with a -0.3% change, indicating a neutral sentiment. The recent news on the crypto market, including the decline in Bitcoin ETFs and the exploitation of a sandwich attack bot, may have a mixed impact on Cardano's price. The Fear & Greed Index at 23, indicating extreme fear, may also influence investor sentiment.",
-    "ja": "カードアノの24時間の動向は、-0.3%の変化を予測しており、中立的な感覚を示しています。最近のニュースであるビットコインETFの減少とサンドウィッチアタックボットの搾取は、カードアノの価格に混乱をもたらす可能性があります。恐怖と欲求不満指数が23、極度の恐怖を示していることも、投資家の感情に影響を与える可能性があります。",
+    "en": "Cardano's 24-hour direction is predicted to be flat with a -0.3% change, indicating a neutral sentiment. The Fear & Greed Index remains at 23, reflecting extreme fear in the market. The recent news highlights the ongoing crypto winter and potential shifts in investor behavior.",
+    "ja": "カードアノの24時間の方向は、-0.3％の変化で予測されており、中立的な感覚を示しています。恐怖と欲求不満指数は23で、市場に恐怖が残っています。最近のニュースは、暗号通貨の冬と投資家の行動の変化を強調しています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.66%",
+        "value": "+0.60%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {

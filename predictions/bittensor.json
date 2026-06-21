@@ -1,6 +1,6 @@
 {
   "coinId": "bittensor",
-  "generatedAt": "2026-06-21T06:00:08.016492Z",
+  "generatedAt": "2026-06-21T07:00:08.049825Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.6220238236105833,
-    "confidence": 0.7167
+    "changePercent24h": 0.7490761017297323,
+    "confidence": 0.7528
   },
   "commentary": {
-    "en": "Bittensor's 24-hour direction is predicted to be flat with a 0.4% decline, indicating a neutral sentiment. The recent news of Bitcoin ETFs shedding a record amount and the collapse of altcoin rotations may have a negative impact on Bittensor's price. The Fear & Greed Index at 23, indicating extreme fear, also supports this prediction.",
-    "ja": "ビットテンソルの24時間の方向は、0.4%の下落が予測されており、中立的な意見を示しています。ビットコインETFの記録的な売却とアルティコインの回転の崩壊など、最近のニュースはビットテンソルの価格に否定的な影響を与える可能性があります。恐怖と欲求不満指数が23、極度の恐怖を示していることもこの予測を裏付けています。",
+    "en": "The model predicts Bittensor will trade sideways over the next 24 hours with moderate confidence (63%). Price is testing the upper Bollinger Band, a resistance level that often precedes short-term consolidation. Community sentiment on CoinGecko is 70% bullish and the Fear & Greed Index reads \"Extreme Fear\" (23), diverging from the model's forecast, adding uncertainty.",
+    "ja": "モデルはBittensorが今後24時間で横ばいで推移すると予測しています（信頼度: 中程度の 63%）。価格がボリンジャーバンド上限に到達しており、短期的な調整が起こりやすい状態です。CoinGeckoコミュニティでは70%が強気を示し、Fear & Greed指数は「Extreme Fear」（23）です。予測方向と乖離があり、不確実性が高まっています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.66%",
+        "value": "+0.60%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {

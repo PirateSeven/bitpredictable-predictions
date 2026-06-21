@@ -1,6 +1,6 @@
 {
   "coinId": "aster-2",
-  "generatedAt": "2026-06-21T06:00:08.016492Z",
+  "generatedAt": "2026-06-21T07:00:08.049825Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -1.4515259596997596,
-    "confidence": 0.7967
+    "changePercent24h": -2.4176477341145746,
+    "confidence": 0.8703
   },
   "commentary": {
-    "en": "Aster (ASTER-2) is predicted to move downward by 0.9% over the next 24 hours with a confidence level of 68%. The recent news about the crypto market, including the decline of Bitcoin ETFs and the exploitation of a sandwich attack bot, may contribute to the bearish sentiment. The Fear & Greed Index at 23, indicating extreme fear, also supports this prediction.",
-    "ja": "Aster (ASTER-2) は、次の24時間で0.9%の下落が予想され、信頼度は68%です。最近のニュース、ビットコインETFの減少やサンドウィッチ攻撃ボットの搾取など、市場の恐怖感が高まり、下落の予想を裏付けています。恐怖と欲求不満指数が23、極度の恐怖を示していることもこの予測を裏付けています。",
+    "en": "The model predicts Aster will decline ~0.9% over the next 24 hours with moderate confidence (68%). Price is testing the upper Bollinger Band, a resistance level that often precedes short-term consolidation. Community sentiment on CoinGecko is 55% bullish and the Fear & Greed Index reads \"Extreme Fear\" (23), diverging from the model's forecast, adding uncertainty.",
+    "ja": "モデルはAsterが今後24時間で約0.9%下落すると予測しています（信頼度: 中程度の 68%）。価格がボリンジャーバンド上限に到達しており、短期的な調整が起こりやすい状態です。CoinGeckoコミュニティでは55%が強気を示し、Fear & Greed指数は「Extreme Fear」（23）です。予測方向と乖離があり、不確実性が高まっています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,12 +1000,12 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.66%",
+        "value": "+0.60%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "45% bullish",
+        "value": "55% bullish",
         "url": "https://www.coingecko.com/en/coins/aster-2"
       },
       {

@@ -1,6 +1,6 @@
 {
   "coinId": "chainlink",
-  "generatedAt": "2026-06-21T06:00:08.016492Z",
+  "generatedAt": "2026-06-21T07:00:08.049825Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.6659188726061318,
-    "confidence": 0.8049
+    "changePercent24h": -0.0055082301069833,
+    "confidence": 0.4895
   },
   "commentary": {
-    "en": "Chainlink's price is predicted to remain flat with a minor decline of -0.1% in the next 24 hours due to neutral technical signals and a bearish market context. The Fear & Greed Index at 23 indicates extreme fear among investors, and the recent news about Bitcoin ETFs shedding a record amount and altcoin rotations collapsing may contribute to this sentiment. However, the CoinGecko community remains 67% bullish.",
-    "ja": "Chainlinkの価格は、中立的な技術指標と恐怖の市場状況の下で、次の24時間に-0.1%の小さな下落を予測しています。恐怖と欲求不満指数が23に達していることは、投資家の恐怖を示しており、Bitcoin ETFの記録的な減少とアルティコインの回転の崩壊に関する最近のニュースはこの傾向に貢献しているようです。ただし、CoinGeckoコミュニティは67％がbullishである。",
+    "en": "Chainlink's price is expected to remain relatively flat in the next 24 hours, with a slight decline of -0.1%, due to the neutral RSI-14 and mid-band Bollinger Band %B. The recent news about the crypto market's decline and the exploitation of the 'sandwich attack' bot may have a negative impact on Chainlink's price. However, the Fear & Greed Index is at an extreme fear level, which may lead to a potential rebound.",
+    "ja": "Chainlinkの価格は、次の24時間でほぼ平坦に推移し、-0.1%の小さな下落が見込まれる。中間帯のボリンジャー・バンド %Bと中性のRSI-14の影響を受けている。最近のニュースでは、暗号資産市場の低迷と「サンドウィッチ攻撃」ボットの搾取がChainlinkの価格に否定的な影響を与える可能性がある。ただし、恐怖と欲求不満指数は極度の恐怖のレベルにあり、これがChainlinkの価格の反発につながる可能性がある。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,12 +1000,12 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.66%",
+        "value": "+0.60%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "67% bullish",
+        "value": "70% bullish",
         "url": "https://www.coingecko.com/en/coins/chainlink"
       },
       {
