@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 import argparse, json, math, os, sys
+from datetime import datetime, timezone
 
 def load_json(path):
     with open(path, 'r', encoding='utf-8') as f:
@@ -123,6 +124,7 @@ def main():
     log['riskMetrics'] = compute_risk_metrics(log)
     log['signalScores'] = compute_signal_scores(args.predictions)
     log['predictionAccuracy'] = compute_prediction_accuracy(args.predictions)
+    log['updatedAt'] = datetime.now(timezone.utc).isoformat()
     save_json(args.log, log)
     print('[v2] done  regime={}  signals={}  accuracy={}'.format(
         log['regime'], len(log['signalScores']), len(log['predictionAccuracy'])))
