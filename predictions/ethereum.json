@@ -1,6 +1,6 @@
 {
   "coinId": "ethereum",
-  "generatedAt": "2026-06-21T00:00:08.062062Z",
+  "generatedAt": "2026-06-21T01:00:07.822365Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 0.14843376567365224,
-    "confidence": 0.4884
+    "changePercent24h": 0.0733,
+    "confidence": 0.4176
   },
   "commentary": {
-    "en": "Ethereum's predicted 24h direction is flat with a 0.1% increase in confidence of 41%. The recent news of altseasons potentially disappearing due to Bitcoin rotations into altcoins may impact Ethereum's performance. Ethereum's price is currently at the upper Bollinger band, indicating a potential for a correction.",
-    "ja": "イーサリアムの24時間予測は、0.1%の増加を示し、信頼度は41%です。ビットコインのアルトコインへの流れがアルトシーズンを終わらせる可能性があるというニュースがイーサリアムのパフォーマンスに影響を与える可能性があります。イーサリアムの価格は現在、ボリンジャーバンドの上限にあり、調整の可能性があります。",
+    "en": "Ethereum's 24-hour direction is predicted to be flat with a 0.1% increase, based on current technical signals. The Fear & Greed Index remains at extreme fear, while the CoinGeck community is 85% bullish. Recent news highlights the 'sandwich attack' bot exploit and the collapse of altcoin rotations.",
+    "ja": "エーテレムの24時間の方向は、現在の技術指標に基づいて、0.1%の増加でフラットと予測されています。恐怖と欲求不満指数は今も極度の恐怖の状態ですが、コインゲックコミュニティは85％がバ Bullishです。最近のニュースでは、「サンドウィッチ攻撃」ボットの被害とアルティコインのローテーション崩壊が話題になっています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.97%",
+        "value": "+1.03%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "85% bullish",
         "url": "https://www.coingecko.com/en/coins/ethereum"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Notorious ‘sandwich attack’ bot Jaredfromsubway.eth exploited for $7.5M",
+        "url": "https://cointelegraph.com/news/notorious-sandwich-attack-bot-jaredfromsubwayeth-exploited-for-75m?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Crypto industry looks to stablecoins and DeFi revisions in MiCA 2.0",
         "url": "https://cointelegraph.com/features/crypto-industry-stablecoins-defi-mica?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Pudgy Penguins expands retail footprint with Target trading card rollout",
-        "url": "https://cointelegraph.com/news/pudgy-penguins-expands-retail-footprint-with-target-trading-card-rollout?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

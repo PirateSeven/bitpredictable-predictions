@@ -1,6 +1,6 @@
 {
   "coinId": "bitcoin-cash",
-  "generatedAt": "2026-06-21T00:00:08.062062Z",
+  "generatedAt": "2026-06-21T01:00:07.822365Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 0.22753005644408578,
-    "confidence": 0.6103
+    "changePercent24h": 0.46052105027365875,
+    "confidence": 0.7381
   },
   "commentary": {
-    "en": "Bitcoin Cash is expected to trade flat with a slight decline of -0.1% in the next 24 hours, according to technical signals. The recent news of altseasons potentially disappearing and the focus on stablecoins and DeFi revisions may impact altcoin markets, including Bitcoin Cash. The Fear & Greed Index remains in Extreme Fear territory, indicating a cautious market sentiment.",
-    "ja": "ビットコインキャッシュは、技術指標から次の24時間に-0.1%の小幅な下落が予想される。アルトシーズンの終焉と安定コインやデフィー改革への焦点がアルトコイン市場に影響を与える可能性があり、恐怖と欲求不満指数は極度の恐怖の領域にあり、市場は慎重な気分である。",
+    "en": "Bitcoin Cash (BITCOIN-CASH) is expected to remain flat in the next 24 hours with a slight decline of -0.1% due to the neutral RSI-14 reading and the sideways short-term trend. The recent 'sandwich attack' bot exploit and the collapse of altcoin rotations may negatively impact investor sentiment. The Fear & Greed Index remains in Extreme Fear territory, indicating a cautious market.",
+    "ja": "ビットコインキャッシュ（BITCOIN-CASH）は、RSI-14の中立的な値と短期的な傾向の横方向の移動により、次の24時間に-0.1%の小幅な下落が予想されます。最近の「サンドウィッチ攻撃」ボットの被害とアルティコインのローテーションが崩壊することは、投資家の感情に否定的な影響を与える可能性があります。恐怖と欲求不満指数は、極度の恐怖の領域にあり、慎重な市場を示しています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.97%",
+        "value": "+1.03%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "67% bullish",
         "url": "https://www.coingecko.com/en/coins/bitcoin-cash"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Notorious ‘sandwich attack’ bot Jaredfromsubway.eth exploited for $7.5M",
+        "url": "https://cointelegraph.com/news/notorious-sandwich-attack-bot-jaredfromsubwayeth-exploited-for-75m?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Crypto industry looks to stablecoins and DeFi revisions in MiCA 2.0",
         "url": "https://cointelegraph.com/features/crypto-industry-stablecoins-defi-mica?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Pudgy Penguins expands retail footprint with Target trading card rollout",
-        "url": "https://cointelegraph.com/news/pudgy-penguins-expands-retail-footprint-with-target-trading-card-rollout?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

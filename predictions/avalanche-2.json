@@ -1,6 +1,6 @@
 {
   "coinId": "avalanche-2",
-  "generatedAt": "2026-06-21T00:00:08.062062Z",
+  "generatedAt": "2026-06-21T01:00:07.822365Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": 1.1416430766408117,
-    "confidence": 0.7497
+    "changePercent24h": 0.5140969970679177,
+    "confidence": 0.5441
   },
   "commentary": {
-    "en": "Avalanche is likely to experience a short-term decline, with a predicted 24h direction of DOWN by 1.2% due to the current market sentiment and technical indicators. The Fear & Greed Index remains in Extreme Fear, and the recent news of altseasons potentially disappearing may further dampen investor sentiment. The short-term trend is sideways, indicating a lack of clear direction.",
-    "ja": "アバランチ2は短期的には下落する可能性があり、24時間の予測方向はDOWNで1.2%の下落が予想される。恐怖と欲求不満指数は極度の恐怖の状態であり、アルトシーズンの終焉に関するニュースが投資家の感情をさらに冷やそうとしている。短期的な傾向は横方向に推移しており、明確な方向性が見られない。",
+    "en": "Avalanche (AVALANCHE-2) is expected to decline by 1.2% in the next 24 hours with a 75% confidence level. The recent news of the 'sandwich attack' bot exploitation and the collapse of Bitcoin rotations into altcoins may contribute to the bearish sentiment. The Fear & Greed Index remains at 23, indicating extreme fear in the market.",
+    "ja": "アバランチ2（AVALANCHE-2）は、次の24時間に1.2％下落する可能性があり、75％の信頼度があります。サンドイッチ攻撃のボットの搾取とビットコインのローテーションがアルティコインに崩壊するというニュースは、恐怖の感情を引き起こす可能性があります。恐怖と欲求不満指数は23で、市場は極度の恐怖の状態にあることを示しています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.97%",
+        "value": "+1.03%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "81% bullish",
         "url": "https://www.coingecko.com/en/coins/avalanche-2"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Notorious ‘sandwich attack’ bot Jaredfromsubway.eth exploited for $7.5M",
+        "url": "https://cointelegraph.com/news/notorious-sandwich-attack-bot-jaredfromsubwayeth-exploited-for-75m?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Crypto industry looks to stablecoins and DeFi revisions in MiCA 2.0",
         "url": "https://cointelegraph.com/features/crypto-industry-stablecoins-defi-mica?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Pudgy Penguins expands retail footprint with Target trading card rollout",
-        "url": "https://cointelegraph.com/news/pudgy-penguins-expands-retail-footprint-with-target-trading-card-rollout?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

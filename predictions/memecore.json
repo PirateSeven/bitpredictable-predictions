@@ -1,6 +1,6 @@
 {
   "coinId": "memecore",
-  "generatedAt": "2026-06-21T00:00:08.062062Z",
+  "generatedAt": "2026-06-21T01:00:07.822365Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -0.8692312049744257,
-    "confidence": 0.7331
+    "changePercent24h": 0.07257517877895259,
+    "confidence": 0.1466
   },
   "commentary": {
-    "en": "MemeCore (MEMECORE) is expected to decline by 0.7% in the next 24 hours, according to our technical analysis. The Fear & Greed Index remains in Extreme Fear territory, and the recent news of altseasons potentially disappearing may negatively impact altcoins like MemeCore. The sideways short-term trend and neutral RSI-14 reading suggest a lack of clear direction.",
-    "ja": "メムコア (MEMECORE) は、技術分析によると、次の24時間で0.7%下落する可能性があります。恐怖と欲求不満指数は極度の恐怖の状態にあり、アルトシーズンの終焉がアルトコインに影響を与える可能性があるニュースが最近出ているため、メムコアなどのアルトコインは負の影響を受ける可能性があります。短期的なトレンドは横方向に動いており、RSI-14は中立的な値を示しているため、明確な方向性はありません。",
+    "en": "The model predicts MemeCore will decline ~0.7% over the next 24 hours with moderate confidence (69%). Price moved -1.54% in the past 24 hours with volume at 0.8× average. Community sentiment on CoinGecko is 33% bullish and the Fear & Greed Index reads \"Extreme Fear\" (23), aligning with the model's forecast.",
+    "ja": "モデルはMemeCoreが今後24時間で約0.7%下落すると予測しています（信頼度: 中程度の 69%）。過去24時間のリターンは-1.54%、出来高は平均の0.8倍です。CoinGeckoコミュニティでは33%が強気を示し、Fear & Greed指数は「Extreme Fear」（23）です。予測と方向性が一致しています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.97%",
+        "value": "+1.03%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "33% bullish",
         "url": "https://www.coingecko.com/en/coins/memecore"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Notorious ‘sandwich attack’ bot Jaredfromsubway.eth exploited for $7.5M",
+        "url": "https://cointelegraph.com/news/notorious-sandwich-attack-bot-jaredfromsubwayeth-exploited-for-75m?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Crypto industry looks to stablecoins and DeFi revisions in MiCA 2.0",
         "url": "https://cointelegraph.com/features/crypto-industry-stablecoins-defi-mica?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Pudgy Penguins expands retail footprint with Target trading card rollout",
-        "url": "https://cointelegraph.com/news/pudgy-penguins-expands-retail-footprint-with-target-trading-card-rollout?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

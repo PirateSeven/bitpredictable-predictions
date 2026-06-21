@@ -1,6 +1,6 @@
 {
   "coinId": "global-dollar",
-  "generatedAt": "2026-06-21T00:00:08.062062Z",
+  "generatedAt": "2026-06-21T01:00:07.822365Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.0009027483946863965,
+    "changePercent24h": 0.003971487258645323,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "The Global Dollar (GLOBAL-DOLLAR) is expected to remain flat with a 0.0% return in the next 24 hours, according to technical signals. The Fear & Greed Index is at an extreme fear level, while the total crypto market cap has seen a 0.97% increase. Recent news suggests a shift towards stablecoins and DeFi revisions.",
-    "ja": "グローバル ドル (GLOBAL-DOLLAR) は、技術指標に基づいて次の 24 時間で 0.0% のリターンでフラットに維持される可能性があります。恐怖と欲求不満指数は極度の恐怖のレベルにあり、総暗号資産市場キャップは 0.97% の増加を経験しています。最近のニュースでは、安定コインと DeFi の改修に焦点が当てられています。",
+    "en": "The Global Dollar (GLOBAL-DOLLAR) is expected to remain flat in the next 24 hours with a confidence level of 95%. The current market sentiment is characterized by extreme fear, as indicated by the Fear & Greed Index. The recent news on the 'sandwich attack' bot and the collapse of altcoin rotations may have a neutral impact on the GLOBAL-DOLLAR price.",
+    "ja": "グローバル ドル (GLOBAL-DOLLAR) は、次の24時間で95％の確実性でフラットに推定されます。市場の感情は極度の恐怖に特徴づけられており、恐怖と欲求不満指数は極度の恐怖を示しています。サンドウィッチ攻撃ボットやアルティコインの回転の崩壊に関する最近のニュースは、グローバル ドル価格に中立的な影響を与える可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,8 +1000,13 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.97%",
+        "value": "+1.03%",
         "url": "https://www.coingecko.com/en/global-charts"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Notorious ‘sandwich attack’ bot Jaredfromsubway.eth exploited for $7.5M",
+        "url": "https://cointelegraph.com/news/notorious-sandwich-attack-bot-jaredfromsubwayeth-exploited-for-75m?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1012,11 +1017,6 @@
         "label": "CoinTelegraph",
         "value": "Crypto industry looks to stablecoins and DeFi revisions in MiCA 2.0",
         "url": "https://cointelegraph.com/features/crypto-industry-stablecoins-defi-mica?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Pudgy Penguins expands retail footprint with Target trading card rollout",
-        "url": "https://cointelegraph.com/news/pudgy-penguins-expands-retail-footprint-with-target-trading-card-rollout?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

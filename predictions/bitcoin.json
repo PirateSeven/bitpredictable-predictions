@@ -1,6 +1,6 @@
 {
   "coinId": "bitcoin",
-  "generatedAt": "2026-06-21T00:00:08.062062Z",
+  "generatedAt": "2026-06-21T01:00:07.822365Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 0.7687654005832555,
-    "confidence": 0.8364
+    "changePercent24h": 0.6802323785932599,
+    "confidence": 0.8208
   },
   "commentary": {
-    "en": "Bitcoin's 24-hour direction is predicted to be flat with a 0.1% increase, but the confidence level is only 52%. The Fear & Greed Index remains at extreme fear, and the recent news suggests a shift in investor sentiment towards stablecoins and DeFi revisions. The short-term trend remains sideways, with a slight increase in 24-hour return.",
-    "ja": "ビットコインの24時間予想は、0.1%の増加が予想されるが、信頼度は52%に留まる。恐怖と欲求不満指数は極度の恐怖のままで、最近のニュースでは、安定コインとDeFiの改善への投資家の意識のシフトが見られる。短期的な傾向は横方向に伸びているが、24時間のリターンは僅かに増加している。",
+    "en": "Bitcoin's predicted 24-hour direction is flat with a 0.1% increase, indicating a neutral sentiment. The Fear & Greed Index remains in extreme fear, while the CoinGeck community is 80% bullish. Recent news on altcoin rotations and stablecoin revisions may influence market sentiment.",
+    "ja": "ビットコインの24時間予想方向は、0.1%の増加で、ニュートラルな感覚を示しています。恐怖と欲求不満指数はまだ極度の恐怖にあり、コインゲックコミュニティは80％がバ Bullishです。最近のニュースは、アルティコインの回転と安定コインの改良が市場の感覚に影響を与える可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.97%",
+        "value": "+1.03%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "79% bullish",
+        "value": "80% bullish",
         "url": "https://www.coingecko.com/en/coins/bitcoin"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Notorious ‘sandwich attack’ bot Jaredfromsubway.eth exploited for $7.5M",
+        "url": "https://cointelegraph.com/news/notorious-sandwich-attack-bot-jaredfromsubwayeth-exploited-for-75m?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Crypto industry looks to stablecoins and DeFi revisions in MiCA 2.0",
         "url": "https://cointelegraph.com/features/crypto-industry-stablecoins-defi-mica?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Pudgy Penguins expands retail footprint with Target trading card rollout",
-        "url": "https://cointelegraph.com/news/pudgy-penguins-expands-retail-footprint-with-target-trading-card-rollout?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

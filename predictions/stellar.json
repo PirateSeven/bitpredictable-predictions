@@ -1,6 +1,6 @@
 {
   "coinId": "stellar",
-  "generatedAt": "2026-06-21T00:00:08.062062Z",
+  "generatedAt": "2026-06-21T01:00:07.822365Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -3.0267123382726178,
-    "confidence": 0.7994
+    "changePercent24h": -2.804806627400111,
+    "confidence": 0.7848
   },
   "commentary": {
-    "en": "Stellar's 24-hour direction is predicted to be down by 4.7% with a confidence level of 86%. The recent market context, including the Fear & Greed Index at 23, suggests that investors are in an extreme fear state. The recent news about altseasons and the crypto industry's focus on stablecoins and DeFi revisions may negatively impact Stellar's price.",
-    "ja": "ステラルの24時間の動向は86％の確率で4.7％下落予想です。恐怖と欲求不満指数が23の状況では、投資家は極度の恐怖状態にあることを示唆しています。アルトシーズンやスタビルコインやDeFiの改善に焦点を当てた最近のニュースは、ステラルの価格に否定的な影響を与える可能性があります。",
+    "en": "Stellar's 24-hour direction is predicted to be DOWN by 4.7% with a confidence of 86%. The recent 'sandwich attack' bot exploit and decreased altseason activity may contribute to this negative trend. The Fear & Greed Index remains in Extreme Fear territory.",
+    "ja": "ステラルの24時間の方向は86％の確信でDOWNに予測され、4.7％の下落が見込まれる。最近の「サンドウィッチ攻撃」ボットの悪用やアルトシーズンの減少がこの否定的な傾向に寄与している。恐怖と欲求不満指数はまだ極度の恐怖の状態にある。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.97%",
+        "value": "+1.03%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "47% bullish",
+        "value": "48% bullish",
         "url": "https://www.coingecko.com/en/coins/stellar"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Notorious ‘sandwich attack’ bot Jaredfromsubway.eth exploited for $7.5M",
+        "url": "https://cointelegraph.com/news/notorious-sandwich-attack-bot-jaredfromsubwayeth-exploited-for-75m?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Crypto industry looks to stablecoins and DeFi revisions in MiCA 2.0",
         "url": "https://cointelegraph.com/features/crypto-industry-stablecoins-defi-mica?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Pudgy Penguins expands retail footprint with Target trading card rollout",
-        "url": "https://cointelegraph.com/news/pudgy-penguins-expands-retail-footprint-with-target-trading-card-rollout?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

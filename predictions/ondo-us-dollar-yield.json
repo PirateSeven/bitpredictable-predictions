@@ -1,6 +1,6 @@
 {
   "coinId": "ondo-us-dollar-yield",
-  "generatedAt": "2026-06-21T00:00:08.062062Z",
+  "generatedAt": "2026-06-21T01:00:07.822365Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.12564872325704948,
-    "confidence": 0.7343
+    "changePercent24h": -0.06644103165270984,
+    "confidence": 0.7148
   },
   "commentary": {
-    "en": "ONDO-US-DOLLAR-YIELD is expected to remain flat with a slight decline of -0.2% in the next 24 hours, based on technical signals. The Fear & Greed Index is at Extreme Fear, while the total crypto market cap and Bitcoin's 24-hour return are relatively stable. Recent news on altseasons and DeFi revisions may have a limited impact on ONDO-US-DOLLAR-YIELD's short-term performance.",
-    "ja": "ONDO-US-DOLLAR-YIELDは、技術的シグナルに基づいて、次の24時間に-0.2%の小幅な下落が予想されます。Fear & Greed Indexは極度の恐怖にあり、総暗号資産市場キャップとビットコインの24時間リターンは比較的安定しています。最近のニュースは、短期的なパフォーマンスに限り、アルトシーズンとDeFiの改善に影響を与える可能性があります。",
+    "en": "ONDO-US-DOLLAR-YIELD is expected to remain flat with a 0.2% decline in the next 24 hours, based on technical analysis. The asset's neutral RSI-14 reading and mid-band Bollinger Band %B suggest a stable price. The recent news on the crypto market, including the 'sandwich attack' and altcoin rotations, may have a limited impact on ONDO-US-DOLLAR-YIELD's price movement.",
+    "ja": "ONDO-US-DOLLAR-YIELDの24時間予想は、0.2％の下落と予想されています。技術分析によると、RSI-14の中立的な値とボリンジャーバンドの％Bの中間値は価格の安定を示しています。最近のニュースである「サンドウィッチアタック」やアルティコインのローテーションは、ONDO-US-DOLLAR-YIELDの価格動向に限りなく影響を与える可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,8 +1000,13 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.97%",
+        "value": "+1.03%",
         "url": "https://www.coingecko.com/en/global-charts"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Notorious ‘sandwich attack’ bot Jaredfromsubway.eth exploited for $7.5M",
+        "url": "https://cointelegraph.com/news/notorious-sandwich-attack-bot-jaredfromsubwayeth-exploited-for-75m?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1012,11 +1017,6 @@
         "label": "CoinTelegraph",
         "value": "Crypto industry looks to stablecoins and DeFi revisions in MiCA 2.0",
         "url": "https://cointelegraph.com/features/crypto-industry-stablecoins-defi-mica?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Pudgy Penguins expands retail footprint with Target trading card rollout",
-        "url": "https://cointelegraph.com/news/pudgy-penguins-expands-retail-footprint-with-target-trading-card-rollout?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "coinId": "cardano",
-  "generatedAt": "2026-06-21T00:00:08.062062Z",
+  "generatedAt": "2026-06-21T01:00:07.822365Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.8766178635544599,
-    "confidence": 0.8095
+    "changePercent24h": -0.8498068043386753,
+    "confidence": 0.8049
   },
   "commentary": {
-    "en": "Cardano's short-term trend remains sideways, with a predicted 24h direction of -0.1% and an RSI-14 of 57, indicating a neutral market sentiment. The Fear & Greed Index is at 23, reflecting extreme fear in the market. Recent news on altseasons and DeFi revisions may influence Cardano's performance.",
-    "ja": "カードアノの短期トレンドは横方向に推移しており、24時間の予想方向は-0.1%、RSI-14は57で中立的な市場感情を示しています。恐怖と欲求不満指数は23で、市場は極度の恐怖を示しています。最近のニュースではアルトシーズンとデフィー改善がカードアノのパフォーマンスに影響を与える可能性があります。",
+    "en": "Cardano's 24-hour direction is predicted to be flat with a 0.1% decrease in confidence, as the RSI-14 is neutral at 57 and the Bollinger Band %B is at 0.73, indicating a mid-band position. The recent news of the 'sandwich attack' bot exploit and the collapse of Bitcoin rotations into altcoins may have a negative impact on Cardano's price. However, the Fear & Greed Index remains in extreme fear, which could lead to a potential rebound.",
+    "ja": "カードアノの24時間の方向は、0.1%の減少を予測しており、信頼度は低い。RSI-14は57で中立的、ボリンジャー・バンド %Bは0.73で中間の位置にある。最近のニュースでは「サンドウィッチ攻撃」ボットの攻撃とビットコインがアルティコインに回転することの崩壊が負の影響を与える可能性がある。恐怖と欲求不満指数は極度の恐怖のままで、価格の回復につながる可能性がある。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.97%",
+        "value": "+1.03%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "86% bullish",
         "url": "https://www.coingecko.com/en/coins/cardano"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Notorious ‘sandwich attack’ bot Jaredfromsubway.eth exploited for $7.5M",
+        "url": "https://cointelegraph.com/news/notorious-sandwich-attack-bot-jaredfromsubwayeth-exploited-for-75m?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Crypto industry looks to stablecoins and DeFi revisions in MiCA 2.0",
         "url": "https://cointelegraph.com/features/crypto-industry-stablecoins-defi-mica?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Pudgy Penguins expands retail footprint with Target trading card rollout",
-        "url": "https://cointelegraph.com/news/pudgy-penguins-expands-retail-footprint-with-target-trading-card-rollout?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

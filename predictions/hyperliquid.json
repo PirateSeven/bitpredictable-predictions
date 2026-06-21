@@ -1,6 +1,6 @@
 {
   "coinId": "hyperliquid",
-  "generatedAt": "2026-06-21T00:00:08.062062Z",
+  "generatedAt": "2026-06-21T01:00:07.822365Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -0.28202531580008916,
-    "confidence": 0.1437
+    "changePercent24h": -0.589982681126273,
+    "confidence": 0.4576
   },
   "commentary": {
-    "en": "Hyperliquid's price is predicted to decline by 1.1% within the next 24 hours, with a confidence level of 65%. This prediction is based on the current market conditions, including the Extreme Fear Fear & Greed Index and the sideways short-term trend. The recent news of Bitcoin rotations into altcoins collapsing may also contribute to the downward trend.",
-    "ja": "ハイパーリキッドの価格は、来日24時間で1.1%下落する可能性があり、信頼度は65%です。この予測は、現在の市場状況、特に極度の恐怖のFear & Greed Indexと短期的な横方向のトレンド、およびビットコインがアルティコインに回り込むことの崩壊に関する最近のニュースなどに基づいています。",
+    "en": "Hyperliquid's 24-hour direction is predicted to be DOWN by 1.1% with a 65% confidence level, despite its recent 1.29% return. The Fear & Greed Index at 23 indicates extreme fear in the market, which may contribute to HYPERLIQUID's downward trend. The sideways short-term trend and neutral RSI-14 reading suggest a lack of clear direction.",
+    "ja": "ハイパーリクイッドの24時間の方向は、1.1％の下落を予測しており、65％の信頼度があります。ただし、ハイパーリクイッドは1.29％の利益を得ています。恐怖と欲求不満指数が23であることは、市場全体に恐怖が広がっていることを示しており、ハイパーリクイッドの下落に寄与する可能性があります。短期的な傾向は横方向であり、RSI-14は中立的な値を示しています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.97%",
+        "value": "+1.03%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "56% bullish",
+        "value": "60% bullish",
         "url": "https://www.coingecko.com/en/coins/hyperliquid"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Notorious ‘sandwich attack’ bot Jaredfromsubway.eth exploited for $7.5M",
+        "url": "https://cointelegraph.com/news/notorious-sandwich-attack-bot-jaredfromsubwayeth-exploited-for-75m?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Crypto industry looks to stablecoins and DeFi revisions in MiCA 2.0",
         "url": "https://cointelegraph.com/features/crypto-industry-stablecoins-defi-mica?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Pudgy Penguins expands retail footprint with Target trading card rollout",
-        "url": "https://cointelegraph.com/news/pudgy-penguins-expands-retail-footprint-with-target-trading-card-rollout?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

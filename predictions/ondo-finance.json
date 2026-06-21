@@ -1,6 +1,6 @@
 {
   "coinId": "ondo-finance",
-  "generatedAt": "2026-06-21T00:00:08.062062Z",
+  "generatedAt": "2026-06-21T01:00:07.822365Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -3.5509970323745375,
-    "confidence": 0.8441
+    "changePercent24h": -3.759722678750217,
+    "confidence": 0.8523
   },
   "commentary": {
-    "en": "Ondo (ONDO-FINANCE) is predicted to move downward with a 3.8% decrease in the next 24 hours, based on technical signals. The market context suggests a period of extreme fear, with the Fear & Greed Index at 23. However, the CoinGecko community remains 90% bullish on the cryptocurrency market.",
-    "ja": "オンド・フィナンス（ONDO-FINANCE）は、技術的信号に基づいて次の24時間に3.8%の下落が予想される。市場状況は恐怖の状態にあり、フィア＆グリード指数は23に達している。しかし、コインゲコのコミュニティは90％が暗号資産市場に対して陽性である。",
+    "en": "Ondo (ONDO-FINANCE) is expected to decline by 3.8% in the next 24 hours, with a confidence level of 85%. The recent 'sandwich attack' exploit and the collapse of altseasons may have negatively impacted investor sentiment. The Fear & Greed Index remains in Extreme Fear territory at 23.",
+    "ja": "ONDO-FINANCEは、次の24時間で3.8%下落する可能性があり、信頼度は85%です。有名な「サンドウィッチ攻撃」ボットの被害とアルトシーズンの崩壊は投資家の意識に否定的な影響を与えました。恐怖と欲求不満指数は23で、極度の恐怖の状態です。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.97%",
+        "value": "+1.03%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "90% bullish",
+        "value": "89% bullish",
         "url": "https://www.coingecko.com/en/coins/ondo-finance"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Notorious ‘sandwich attack’ bot Jaredfromsubway.eth exploited for $7.5M",
+        "url": "https://cointelegraph.com/news/notorious-sandwich-attack-bot-jaredfromsubwayeth-exploited-for-75m?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Crypto industry looks to stablecoins and DeFi revisions in MiCA 2.0",
         "url": "https://cointelegraph.com/features/crypto-industry-stablecoins-defi-mica?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Pudgy Penguins expands retail footprint with Target trading card rollout",
-        "url": "https://cointelegraph.com/news/pudgy-penguins-expands-retail-footprint-with-target-trading-card-rollout?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

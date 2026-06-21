@@ -1,6 +1,6 @@
 {
   "coinId": "mantle",
-  "generatedAt": "2026-06-21T00:00:08.062062Z",
+  "generatedAt": "2026-06-21T01:00:07.822365Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 0.2508251435315121,
-    "confidence": 0.6588
+    "changePercent24h": 0.08027571572362696,
+    "confidence": 0.5118
   },
   "commentary": {
-    "en": "Mantle (MANTLE) is expected to remain flat in the next 24 hours with a confidence level of 51%. The recent news of altseasons potentially disappearing and the focus on stablecoins and DeFi revisions may impact the altcoin market. However, the overall sentiment remains in extreme fear.",
-    "ja": "Mantle (MANTLE) は次の24時間にflatである可能性があり、信頼度は51%です。アルティーズンが消滅し、安定コインやDeFiの改善に焦点を当てたニュースはアルティコイン市場に影響を与える可能性があります。ただし、総合的な感覚は極度の恐怖です。",
+    "en": "Mantle's (MANTLE) 24-hour return is +1.08%, with a predicted direction of flat and a confidence level of 51%. The RSI-14 is at 57, indicating a neutral trend. The Fear & Greed Index is at 23, reflecting extreme fear in the market.",
+    "ja": "マンタルの（MANTLE）24時間リターンは+1.08%で、予想方向はフラットで信頼度は51%です。RSI-14は57で中立的なトレンドを示しています。Fear & Greed Indexは23で、市場には極度の恐怖が広がっています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.97%",
+        "value": "+1.03%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "50% bullish",
         "url": "https://www.coingecko.com/en/coins/mantle"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Notorious ‘sandwich attack’ bot Jaredfromsubway.eth exploited for $7.5M",
+        "url": "https://cointelegraph.com/news/notorious-sandwich-attack-bot-jaredfromsubwayeth-exploited-for-75m?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Crypto industry looks to stablecoins and DeFi revisions in MiCA 2.0",
         "url": "https://cointelegraph.com/features/crypto-industry-stablecoins-defi-mica?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Pudgy Penguins expands retail footprint with Target trading card rollout",
-        "url": "https://cointelegraph.com/news/pudgy-penguins-expands-retail-footprint-with-target-trading-card-rollout?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

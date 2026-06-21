@@ -1,6 +1,6 @@
 {
   "coinId": "solana",
-  "generatedAt": "2026-06-21T00:00:08.062062Z",
+  "generatedAt": "2026-06-21T01:00:07.822365Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 0.1564056378605041,
-    "confidence": 0.2702
+    "changePercent24h": -0.21744117065257612,
+    "confidence": 0.3655
   },
   "commentary": {
-    "en": "Solana's short-term trend remains in an uptrend, but the predicted 24h direction is flat with a low confidence level of 15%. The recent news of altseasons potentially disappearing due to Bitcoin rotations into altcoins may impact Solana's performance. The Fear & Greed Index is at 23, indicating extreme fear in the market.",
-    "ja": "ソラナの短期のトレンドは上昇傾向にあるが、24時間の予想方向は低信頼度の15％でフラットである。ビットコインがアルトコインに流れ込むことでアルトシーズンが消滅する可能性があるというニュースがアルトコインのパフォーマンスに影響を与える可能性がある。恐怖と欲求不満指数は23で、市場は極度の恐怖の状態にある。",
+    "en": "Solana's price is expected to remain flat with a slight increase of +0.1% in the next 24 hours, with a 15% confidence level. The recent news of the 'sandwich attack' bot exploit and the collapse of altseasons may have a negative impact on Solana's price. However, the short-term trend remains in an uptrend.",
+    "ja": "ソラナの価格は、次の24時間で+0.1%の増加が予想され、15%の信頼性がある。 'サンドウィッチ攻撃' ボットのエクスプロイトとアルトシーズンの崩壊などの最近のニュースはソラナの価格に否定的な影響を与える可能性があるが、短期的なトレンドは上昇傾向にある。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.97%",
+        "value": "+1.03%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "83% bullish",
+        "value": "84% bullish",
         "url": "https://www.coingecko.com/en/coins/solana"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Notorious ‘sandwich attack’ bot Jaredfromsubway.eth exploited for $7.5M",
+        "url": "https://cointelegraph.com/news/notorious-sandwich-attack-bot-jaredfromsubwayeth-exploited-for-75m?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Crypto industry looks to stablecoins and DeFi revisions in MiCA 2.0",
         "url": "https://cointelegraph.com/features/crypto-industry-stablecoins-defi-mica?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Pudgy Penguins expands retail footprint with Target trading card rollout",
-        "url": "https://cointelegraph.com/news/pudgy-penguins-expands-retail-footprint-with-target-trading-card-rollout?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

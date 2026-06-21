@@ -1,6 +1,6 @@
 {
   "coinId": "whitebit",
-  "generatedAt": "2026-06-21T00:00:08.062062Z",
+  "generatedAt": "2026-06-21T01:00:07.822365Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 0.7970588140797761,
-    "confidence": 0.8321
+    "changePercent24h": 0.6547302543645622,
+    "confidence": 0.8057
   },
   "commentary": {
-    "en": "WhiteBIT Coin's price is expected to remain relatively stable with a 24h direction of +0.1% due to neutral technical signals and a sideways short-term trend. The Fear & Greed Index at 23 indicates extreme fear in the market, which may impact altcoin prices. Recent news about altseasons and stablecoins may influence WhiteBIT Coin's price movement.",
-    "ja": "ホワイトビットの価格は、中立的な技術指標と短期的な横方向の傾向により、24時間方向が+0.1%のままである可能性があります。恐怖と欲求不満指数が23のため、市場は極度に恐怖に陥っており、アルティコインの価格にも影響を与えます。最近のニュースでアルティシーズンと安定コインに影響を与える可能性があります。",
+    "en": "WhiteBIT Coin's 24-hour return is +1.16%, with a predicted flat direction and a confidence level of 49%. The Fear & Greed Index is at 23, indicating extreme fear in the market. The recent news about the 'sandwich attack' bot and Bitcoin rotations into altcoins may influence WhiteBIT Coin's price movement.",
+    "ja": "ホワイトビットの24時間リターンは+1.16%で、予測方向はフラットで信頼度は49%です。Fear & Greed Indexは23で、市場は極度の恐怖状態です。最近のニュースで「サンドウィッチアタック」ボットやビットコインのアルティコインへの流れはホワイトビットの価格動向に影響を与えるかもしれません。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.97%",
+        "value": "+1.03%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "0% bullish",
         "url": "https://www.coingecko.com/en/coins/whitebit"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Notorious ‘sandwich attack’ bot Jaredfromsubway.eth exploited for $7.5M",
+        "url": "https://cointelegraph.com/news/notorious-sandwich-attack-bot-jaredfromsubwayeth-exploited-for-75m?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Crypto industry looks to stablecoins and DeFi revisions in MiCA 2.0",
         "url": "https://cointelegraph.com/features/crypto-industry-stablecoins-defi-mica?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Pudgy Penguins expands retail footprint with Target trading card rollout",
-        "url": "https://cointelegraph.com/news/pudgy-penguins-expands-retail-footprint-with-target-trading-card-rollout?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

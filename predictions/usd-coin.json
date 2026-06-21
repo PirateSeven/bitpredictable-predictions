@@ -1,6 +1,6 @@
 {
   "coinId": "usd-coin",
-  "generatedAt": "2026-06-21T00:00:08.062062Z",
+  "generatedAt": "2026-06-21T01:00:07.822365Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.009615055896616168,
+    "changePercent24h": -0.005173576509601541,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "USD Coin's flat 24-hour direction is expected, with a 95% confidence level, as the RSI-14 and Bollinger Band %B indicate a neutral market state. The recent news on stablecoins and DeFi revisions in MiCA 2.0 may have a positive impact on USD Coin's price. However, the overall market sentiment remains in extreme fear.",
-    "ja": "USDコインの24時間方向は、95％の確率でフラットと予想される。RSI-14とボリンジャー・バンド %Bは中立的な市場状態を示しており、価格の変動は控えめである。最近のニュースでは、MiCA 2.0における安定コインとDeFiの改善はUSDコインの価格にプラスの影響を与える可能性があるが、市場全体の感覚は極度の恐怖の状態にある。",
+    "en": "USD Coin (USD-COIN) is expected to remain flat in the next 24 hours with a 95% confidence level, as its RSI-14 is neutral and Bollinger Band %B is at the mid band. The recent news on the 'sandwich attack' and the collapse of altseasons may have a neutral impact on USD-COIN's price. The Fear & Greed Index remains in Extreme Fear territory.",
+    "ja": "USDコイン（USD-COIN）は、次の24時間に95％の確率でフラットで推移する可能性があり、RSI-14は中立的でボリンジャーバンド％Bは中間帯にある。サンドイッチ攻撃のニュースやアルトシーズンの崩壊のニュースはUSD-COINの価格に中立的な影響を与える可能性がある。恐怖と欲求不満指数は今も極度の恐怖の状態にある。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.97%",
+        "value": "+1.03%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "67% bullish",
         "url": "https://www.coingecko.com/en/coins/usd-coin"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Notorious ‘sandwich attack’ bot Jaredfromsubway.eth exploited for $7.5M",
+        "url": "https://cointelegraph.com/news/notorious-sandwich-attack-bot-jaredfromsubwayeth-exploited-for-75m?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Crypto industry looks to stablecoins and DeFi revisions in MiCA 2.0",
         "url": "https://cointelegraph.com/features/crypto-industry-stablecoins-defi-mica?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Pudgy Penguins expands retail footprint with Target trading card rollout",
-        "url": "https://cointelegraph.com/news/pudgy-penguins-expands-retail-footprint-with-target-trading-card-rollout?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

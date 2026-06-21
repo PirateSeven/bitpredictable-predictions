@@ -1,6 +1,6 @@
 {
   "coinId": "aster-2",
-  "generatedAt": "2026-06-21T00:00:08.062062Z",
+  "generatedAt": "2026-06-21T01:00:07.822365Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": 2.020754324450632,
-    "confidence": 0.8457
+    "changePercent24h": 1.3731398803886157,
+    "confidence": 0.7841
   },
   "commentary": {
-    "en": "Aster (ASTER-2) is predicted to move downward with a 0.9% decrease in the next 24 hours, based on technical analysis. The Fear & Greed Index is at 23, indicating extreme fear in the market. The recent news of Bitcoin rotations into altcoins collapsing and the crypto industry looking to stablecoins and DeFi revisions may contribute to the downward trend.",
-    "ja": "Aster (ASTER-2) は、技術分析に基づいて次の24時間で0.9%の下落が予想される。Fear & Greed Indexは23で、市場は極度の恐怖に陥っている。ビットコインがアルトコインに回り込むことの崩壊や、スタビルコインやDeFiの改善に注目するクリプト業界のニュースが下落傾向に寄与する可能性がある。",
+    "en": "The model predicts Aster will decline ~0.9% over the next 24 hours with moderate confidence (69%). Price moved +2.00% in the past 24 hours with volume at 0.9× average. Community sentiment on CoinGecko is 50% bullish and the Fear & Greed Index reads \"Extreme Fear\" (23), diverging from the model's forecast, adding uncertainty.",
+    "ja": "モデルはAsterが今後24時間で約0.9%下落すると予測しています（信頼度: 中程度の 69%）。過去24時間のリターンは+2.00%、出来高は平均の0.9倍です。CoinGeckoコミュニティでは50%が強気を示し、Fear & Greed指数は「Extreme Fear」（23）です。予測方向と乖離があり、不確実性が高まっています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.97%",
+        "value": "+1.03%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "50% bullish",
         "url": "https://www.coingecko.com/en/coins/aster-2"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Notorious ‘sandwich attack’ bot Jaredfromsubway.eth exploited for $7.5M",
+        "url": "https://cointelegraph.com/news/notorious-sandwich-attack-bot-jaredfromsubwayeth-exploited-for-75m?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Crypto industry looks to stablecoins and DeFi revisions in MiCA 2.0",
         "url": "https://cointelegraph.com/features/crypto-industry-stablecoins-defi-mica?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Pudgy Penguins expands retail footprint with Target trading card rollout",
-        "url": "https://cointelegraph.com/news/pudgy-penguins-expands-retail-footprint-with-target-trading-card-rollout?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

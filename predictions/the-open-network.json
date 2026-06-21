@@ -1,6 +1,6 @@
 {
   "coinId": "the-open-network",
-  "generatedAt": "2026-06-21T00:00:08.062062Z",
+  "generatedAt": "2026-06-21T01:00:07.822365Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 1.2878959477474239,
-    "confidence": 0.8258
+    "changePercent24h": 1.0957054569459788,
+    "confidence": 0.8009
   },
   "commentary": {
-    "en": "Gram (prev. Toncoin) (THE-OPEN-NETWORK) is expected to experience a flat 24-hour direction with a minor decline of -0.4% due to the current market sentiment and technical signals. The recent news about altseasons and the expansion of retail footprint may have a limited impact on THE-OPEN-NETWORK's price. The overall market context, including the Fear & Greed Index and total crypto market cap, suggests a cautious approach.",
-    "ja": "Gram (prev. Toncoin) (THE-OPEN-NETWORK) の24時間の動向は、現在の市場感覚と技術指標から、-0.4%の小幅な下落が予想される。アルティーズイーズンやリテールフットプリントの拡大に関する最近のニュースは、THE-OPEN-NETWORKの価格に限られた影響を与える可能性がある。総合的な市場状況、恐怖と欲求不満指数と総暗号資産市場キャップは、慎重なアプローチを示唆している。",
+    "en": "Gram (prev. Toncoin) (THE-OPEN-NETWORK) is expected to remain flat with a 0.4% decrease in the next 24 hours, based on current technical signals. The recent news of a sandwich attack and the decline of altseasons may have a negative impact on THE-OPEN-NETWORK's price. However, the overall market sentiment remains in extreme fear, which may provide a buying opportunity for THE-OPEN-NETWORK.",
+    "ja": "THE-OPEN-NETWORKは、現在の技術指標に基づいて、次の24時間で0.4%の減少が予想されます。サンドウィッチ攻撃とアルトシーズンの低迷に関するニュースは、THE-OPEN-NETWORKの価格に否定的な影響を与える可能性があります。ただし、総合的な市場感覚は極度の恐怖にあり、THE-OPEN-NETWORKの買い機会となる可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.97%",
+        "value": "+1.03%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "80% bullish",
         "url": "https://www.coingecko.com/en/coins/the-open-network"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Notorious ‘sandwich attack’ bot Jaredfromsubway.eth exploited for $7.5M",
+        "url": "https://cointelegraph.com/news/notorious-sandwich-attack-bot-jaredfromsubwayeth-exploited-for-75m?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Crypto industry looks to stablecoins and DeFi revisions in MiCA 2.0",
         "url": "https://cointelegraph.com/features/crypto-industry-stablecoins-defi-mica?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Pudgy Penguins expands retail footprint with Target trading card rollout",
-        "url": "https://cointelegraph.com/news/pudgy-penguins-expands-retail-footprint-with-target-trading-card-rollout?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }
