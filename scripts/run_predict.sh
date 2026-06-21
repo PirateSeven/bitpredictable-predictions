@@ -58,6 +58,14 @@ PREDICT_OK=true
       PREDICT_OK=false
     fi
 
+    # trading/log.json に v2 フィールドを追加
+    if [ "$PREDICT_OK" = true ] && [ -f "$REPO/trading/log.json" ]; then
+      "$PYTHON" "$REPO/trading/patch_log_v2.py" \
+        --log "$REPO/trading/log.json" \
+        --predictions "$REPO/predictions/" \
+        || echo "WARNING: patch_log_v2 failed (non-fatal)"
+    fi
+
   fi
 
   # Weekly blog post — runs on Monday (weekday 1) at 09:00 UTC cron
@@ -74,6 +82,10 @@ PREDICT_OK=true
     git add predictions/
     CHANGED_DIRS="predictions"
   fi
+  if ! git diff --quiet HEAD -- trading/ 2>/dev/null; then
+    git add trading/log.json trading/patch_log_v2.py 2>/dev/null || true
+    CHANGED_DIRS="${CHANGED_DIRS:+$CHANGED_DIRS }trading"
+  fi
   if ! git diff --quiet HEAD -- blog/ 2>/dev/null; then
     git add blog/
     CHANGED_DIRS="${CHANGED_DIRS:+$CHANGED_DIRS }blog"
@@ -81,7 +93,7 @@ PREDICT_OK=true
 
   if [ "$PREDICT_OK" = true ] && [ -n "$CHANGED_DIRS" ]; then
     git commit -m "Update ${CHANGED_DIRS} $(date -u +%Y%m%dT%H%M)"
-    git pull --rebase origin main || { git rebase --abort; echo "ERROR: rebase failed — aborted. Will retry next cron run."; PREDICT_OK=false; }
+    git pull --rebase --autostash origin main || { git rebase --abort; echo "ERROR: rebase failed — aborted. Will retry next cron run."; PREDICT_OK=false; }
     if [ "$PREDICT_OK" = true ]; then
       git push origin main
       echo "Fallback git push succeeded (${CHANGED_DIRS})."
