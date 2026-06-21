@@ -1,6 +1,6 @@
 {
   "coinId": "figure-heloc",
-  "generatedAt": "2026-06-21T14:00:07.633885Z",
+  "generatedAt": "2026-06-21T15:00:07.784636Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 1.5427494973650557,
+    "changePercent24h": 1.542740840617533,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "Figure Heloc (FIGURE-HELOC) is expected to remain flat with a 0.1% decline in the next 24 hours due to its overbought RSI-14 and low volume ratio. The sideways short-term trend and mid-band Bollinger Band %B suggest a consolidation phase. The overall crypto market context remains bearish, with an Extreme Fear Fear & Greed Index and a decline in Bitcoin price.",
-    "ja": "Figure Heloc (FIGURE-HELOC) は、オーバーボールド RSI-14 と低いボリュームレシオのため、来週の24時間で0.1%の下落が予想されます。短期のトレンドは横方向に動いており、ボリンジャーバンドの%Bは中間の位置にあるため、コンソリデーションフェーズが続いていると見られます。総合的な暗号市場の状況は、極度の恐怖のFear & Greed Indexとビットコイン価格の下落によって暗いものです。",
+    "en": "Figure Heloc (FIGURE-HELOC) is expected to remain flat with a 0.1% decrease in the next 24 hours due to its overbought RSI-14 reading and low trading volume. The sideways short-term trend and mid-band Bollinger Band %B suggest a consolidation phase. The overall market context, including the Fear & Greed Index and total crypto market cap, also supports this prediction.",
+    "ja": "Figure Heloc (FIGURE-HELOC) は、オーバーボールド RSI-14 と低い取引量のため、来る24時間で0.1%の下落が予想されます。短期のトレンドは横ばい、ボリンジャー・バンドの %B は中間のレベルにあり、総暗号資産の市場状況もこの予測を裏付けています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,28 +1000,28 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.82%",
+        "value": "+0.10%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "17% bullish",
+        "value": "0% bullish",
         "url": "https://www.coingecko.com/en/coins/figure-heloc"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitcoin tipped for $66K top as trader flags 'suspicious' BTC price gains",
+        "url": "https://cointelegraph.com/markets/bitcoin-tipped-for-66k-top-as-trader-flags-suspicious-btc-price-gains?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitcoin price may hit $24K if US stock market crashes by 50%, analyst warns",
+        "url": "https://cointelegraph.com/markets/bitcoin-price-may-hit-24k-if-us-stock-market-crashes-by-50-analyst-warns?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
         "value": "Dash eyes Philippines as market for crypto payments",
         "url": "https://cointelegraph.com/news/dash-eyes-philippines-crypto-payments-market?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Bitcoin price is down over 40% since STRC launched: Is Strategy 'fine'?",
-        "url": "https://cointelegraph.com/markets/bitcoin-price-is-down-over-40-since-strc-launched-is-strategy-fine?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Japanese corporate pension fund plans 1% crypto allocation: Nikkei",
-        "url": "https://cointelegraph.com/news/japanese-corporate-pension-fund-crypto-allocation?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }
