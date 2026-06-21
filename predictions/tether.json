@@ -1,6 +1,6 @@
 {
   "coinId": "tether",
-  "generatedAt": "2026-06-21T10:00:07.958438Z",
+  "generatedAt": "2026-06-21T11:00:08.226112Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.009967910053260955,
+    "changePercent24h": -0.009992205430873827,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "Tether (TETHER) is expected to remain flat in the next 24 hours with a predicted return of -0.0% and a confidence level of 95%. The neutral RSI-14 reading and mid-band Bollinger Band %B suggest a stable market condition. The recent news of a Japanese corporate pension fund planning a 1% crypto allocation may have a limited impact on Tether's price.",
-    "ja": "テザー(テザー)は来る24時間で-0.0%の予想リターンと95%の信頼度でフラットのままであることが予想されます。中立的なRSI-14の値とバンド中間のボリンジャー・バンド％Bは安定した市場状況を示しています。日本の企業年金基金が1％の暗号資産割合を計画しているニュースはテザーの価格に限られた影響を与える可能性があります。",
+    "en": "Tether's price is expected to remain flat in the next 24 hours with a 95% confidence level. The current market conditions, including an Extreme Fear sentiment and a sideways short-term trend, suggest a neutral outlook for Tether's price movement. The recent news about the crypto market's overall performance and the Bitcoin price's decline may have a limited impact on Tether's price.",
+    "ja": "テザーの価格は、来日24時間において95％の確率で安定する予想です。現在の市場状況、特に極度の恐怖感と短期的な横方向の傾向は、テザーの価格変動に対する中立的な見方を示しています。最近のニュース、特に暗号市場の総体的なパフォーマンスとビットコイン価格の低下は、テザーの価格に限りなく影響を与える可能性は低いです。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.48%",
+        "value": "+0.76%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "50% bullish",
         "url": "https://www.coingecko.com/en/coins/tether"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitcoin price is down over 40% since STRC launched: Is Strategy 'fine'?",
+        "url": "https://cointelegraph.com/markets/bitcoin-price-is-down-over-40-since-strc-launched-is-strategy-fine?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Here’s what happened in crypto today",
         "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Bitcoin ETFs shed record $6.4B in 30 days amid crypto winter chill",
-        "url": "https://cointelegraph.com/news/bitcoin-etfs-shed-a-record-64b-in-30-days-as-bitcoin-shivers?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

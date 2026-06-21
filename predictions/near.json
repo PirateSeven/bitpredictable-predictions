@@ -1,6 +1,6 @@
 {
   "coinId": "near",
-  "generatedAt": "2026-06-21T10:00:07.958438Z",
+  "generatedAt": "2026-06-21T11:00:08.226112Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": 5.32625181686804,
+    "changePercent24h": 5.326634312874195,
     "confidence": 0.9215
   },
   "commentary": {
-    "en": "NEAR Protocol's price is predicted to decrease by 1.7% in the next 24 hours with a confidence level of 77%. The recent news of Japanese corporate pension fund planning a 1% crypto allocation may have a positive impact on the market, but the overall sentiment remains in extreme fear. The short-term trend remains in an uptrend, but the RSI-14 is neutral.",
-    "ja": "NEAR Protocolの価格は、次の24時間で1.7%下落する予想されています。信頼度は77%です。日本の企業パENSION基金が1%のコイン配分を計画しているニュースは、市場に良い影響を与える可能性がありますが、総合的な感情は極度の恐怖のままです。短期のトレンドは上昇傾向ですが、RSI-14は中立です。",
+    "en": "The model predicts NEAR Protocol will decline ~1.7% over the next 24 hours with high confidence (77%). Price is testing the upper Bollinger Band, a resistance level that often precedes short-term consolidation. Community sentiment on CoinGecko is 94% bullish and the Fear & Greed Index reads \"Extreme Fear\" (23), diverging from the model's forecast, adding uncertainty.",
+    "ja": "モデルはNEAR Protocolが今後24時間で約1.7%下落すると予測しています（信頼度: 高い 77%）。価格がボリンジャーバンド上限に到達しており、短期的な調整が起こりやすい状態です。CoinGeckoコミュニティでは94%が強気を示し、Fear & Greed指数は「Extreme Fear」（23）です。予測方向と乖離があり、不確実性が高まっています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.48%",
+        "value": "+0.76%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "94% bullish",
         "url": "https://www.coingecko.com/en/coins/near"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitcoin price is down over 40% since STRC launched: Is Strategy 'fine'?",
+        "url": "https://cointelegraph.com/markets/bitcoin-price-is-down-over-40-since-strc-launched-is-strategy-fine?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Here’s what happened in crypto today",
         "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Bitcoin ETFs shed record $6.4B in 30 days amid crypto winter chill",
-        "url": "https://cointelegraph.com/news/bitcoin-etfs-shed-a-record-64b-in-30-days-as-bitcoin-shivers?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

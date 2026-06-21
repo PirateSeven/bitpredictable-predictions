@@ -1,6 +1,6 @@
 {
   "coinId": "dogecoin",
-  "generatedAt": "2026-06-21T10:00:07.958438Z",
+  "generatedAt": "2026-06-21T11:00:08.226112Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 0.644208503929458,
+    "changePercent24h": 0.644316841793164,
     "confidence": 0.7943
   },
   "commentary": {
-    "en": "Dogecoin's 24-hour direction is predicted to be flat with a -0.2% change, indicating a neutral sentiment. The recent news of a Japanese corporate pension fund planning a 1% crypto allocation may have a positive impact on the market. However, the overall crypto market remains in a state of extreme fear, as indicated by the Fear & Greed Index.",
-    "ja": "ドージコインの24時間の予測は、-0.2％の変化でフラットであると予想されています。これは中立的な感情を示しています。日本の企業の年金基金が1％のコインの割合を計画しているニュースは、市場に良い影響を与える可能性があります。ただし、コインの恐怖指数は極度の恐怖を示しており、総コインの市場は不安定です。",
+    "en": "Dogecoin's 24-hour direction is predicted to be flat with a -0.2% change, indicating a neutral sentiment. The recent market context, including the Fear & Greed Index at 23 and the total crypto market cap's 0.76% increase, suggests a mixed sentiment. However, the community remains bullish on Dogecoin.",
+    "ja": "ドージコインの24時間の予測は、-0.2％の変化でフラットであると予測されています。これは中立的な感情を示しています。最近の市場状況、Fear & Greed Indexが23、総暗号資産市場キャップの0.76％の増加など、感情は混在しています。ただし、コミュニティはドージコインに対してはbullishです。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.48%",
+        "value": "+0.76%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "100% bullish",
         "url": "https://www.coingecko.com/en/coins/dogecoin"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitcoin price is down over 40% since STRC launched: Is Strategy 'fine'?",
+        "url": "https://cointelegraph.com/markets/bitcoin-price-is-down-over-40-since-strc-launched-is-strategy-fine?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Here’s what happened in crypto today",
         "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Bitcoin ETFs shed record $6.4B in 30 days amid crypto winter chill",
-        "url": "https://cointelegraph.com/news/bitcoin-etfs-shed-a-record-64b-in-30-days-as-bitcoin-shivers?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

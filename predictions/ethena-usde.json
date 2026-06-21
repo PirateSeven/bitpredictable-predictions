@@ -1,6 +1,6 @@
 {
   "coinId": "ethena-usde",
-  "generatedAt": "2026-06-21T10:00:07.958438Z",
+  "generatedAt": "2026-06-21T11:00:08.226112Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.011163091585631751,
+    "changePercent24h": -0.011167430277083598,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "The model predicts Ethena USDe will trade sideways over the next 24 hours with high confidence (95%). Price moved -0.01% in the past 24 hours with volume at 1.3× average. Community sentiment on CoinGecko is 100% bullish and the Fear & Greed Index reads \"Extreme Fear\" (23), diverging from the model's forecast, adding uncertainty.",
-    "ja": "モデルはEthena USDeが今後24時間で横ばいで推移すると予測しています（信頼度: 高い 95%）。過去24時間のリターンは-0.01%、出来高は平均の1.3倍です。CoinGeckoコミュニティでは100%が強気を示し、Fear & Greed指数は「Extreme Fear」（23）です。予測方向と乖離があり、不確実性が高まっています。",
+    "en": "Ethena USDe (ETHENA-USDE) is expected to remain flat in the next 24 hours with a 95% confidence level due to neutral technical signals and a sideways short-term trend. The Fear & Greed Index is at an extreme fear level, which may influence market sentiment. However, the recent news on Japanese corporate pension fund's crypto allocation could have a positive impact on the market.",
+    "ja": "ETHENA-USDEは次の24時間に95％の確実性でフラットに推定される。中立的な技術指標と短期の横方向の傾向により、恐怖と欲求不満指数は極度の恐怖レベルにあり、市場感情に影響を与える可能性があります。日本の企業年金の暗号資産割合に関する最近のニュースは、市場に肯定的な影響を与える可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.48%",
+        "value": "+0.76%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "100% bullish",
         "url": "https://www.coingecko.com/en/coins/ethena-usde"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitcoin price is down over 40% since STRC launched: Is Strategy 'fine'?",
+        "url": "https://cointelegraph.com/markets/bitcoin-price-is-down-over-40-since-strc-launched-is-strategy-fine?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Here’s what happened in crypto today",
         "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Bitcoin ETFs shed record $6.4B in 30 days amid crypto winter chill",
-        "url": "https://cointelegraph.com/news/bitcoin-etfs-shed-a-record-64b-in-30-days-as-bitcoin-shivers?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

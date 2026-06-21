@@ -1,6 +1,6 @@
 {
   "coinId": "dai",
-  "generatedAt": "2026-06-21T10:00:07.958438Z",
+  "generatedAt": "2026-06-21T11:00:08.226112Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 0.00608498690702957,
+    "changePercent24h": 0.006083808184198264,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "Dai (DAI) is expected to trade flat in the next 24 hours with a 0.0% return, driven by neutral technical signals and current market conditions. The Fear & Greed Index remains in extreme fear, while the Japanese corporate pension fund's planned crypto allocation may have a limited impact on DAI. Overall, DAI's price movement is likely to be influenced by the broader crypto market.",
-    "ja": "DAI（DAI）は、次の24時間で0.0％のリターンでフラットに取引される可能性があり、中立的な技術指標と現在の市場状況によって推進される。恐怖と欲求不満指数は極度の恐怖のままであり、日経コスパイアの日本企業の年金基金の予定の暗号資産割合はDAIに限りなく影響を与える可能性は低い。DAIの価格動向は、より広範な暗号資産市場によって影響を受ける可能性が高い。",
+    "en": "Dai (DAI) is expected to remain flat with a 0% 24-hour return, based on its current technical signals and market context. The Fear & Greed Index is at Extreme Fear, but the CoinGeck community remains 100% bullish. Recent news on Bitcoin and the crypto market may not have a significant impact on DAI's short-term trend.",
+    "ja": "DAIは、現在の技術指標と市場状況に基づいて、24時間で0％のリターンで横ばいになる可能性があります。恐怖と欲求不満指数は極度の恐怖にありますが、コインゲックコミュニティは100％のバブルです。ビットコインや暗号通貨市場に関する最近のニュースは、DAIの短期的なトレンドに大きな影響を与える可能性はありません。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.48%",
+        "value": "+0.76%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "100% bullish",
         "url": "https://www.coingecko.com/en/coins/dai"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitcoin price is down over 40% since STRC launched: Is Strategy 'fine'?",
+        "url": "https://cointelegraph.com/markets/bitcoin-price-is-down-over-40-since-strc-launched-is-strategy-fine?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Here’s what happened in crypto today",
         "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Bitcoin ETFs shed record $6.4B in 30 days amid crypto winter chill",
-        "url": "https://cointelegraph.com/news/bitcoin-etfs-shed-a-record-64b-in-30-days-as-bitcoin-shivers?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

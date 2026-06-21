@@ -1,6 +1,6 @@
 {
   "coinId": "ripple-usd",
-  "generatedAt": "2026-06-21T10:00:07.958438Z",
+  "generatedAt": "2026-06-21T11:00:08.226112Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 0.012351589104347256,
+    "changePercent24h": 0.012313464499373518,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "Ripple USD is expected to remain flat in the next 24 hours with a 0.0% predicted return, supported by neutral RSI-14 and mid-band Bollinger Band %B. The recent news of a Japanese corporate pension fund planning a 1% crypto allocation may have a positive impact on the market. However, the Extreme Fear sentiment and the collapse of altcoin rotations into Bitcoin may counterbalance this effect.",
-    "ja": "Ripple USDは次の24時間で0.0％の予想リターンでフラットになる可能性があり、中間帯のボリンジャー・バンド％Bと中性のRSI-14に支えられています。日本の企業の年金基金が1％の暗号資産割合を計画しているニュースは市場に良い影響を与える可能性があります。しかし、極度の恐怖感とビットコインへのアルティコインのローテーションが崩壊することによって、この効果を打ち消す可能性があります。",
+    "en": "The model predicts Ripple USD will trade sideways over the next 24 hours with high confidence (95%). Price moved -0.03% in the past 24 hours with volume at 1.1× average. Community sentiment on CoinGecko is 67% bullish and the Fear & Greed Index reads \"Extreme Fear\" (23), diverging from the model's forecast, adding uncertainty.",
+    "ja": "モデルはRipple USDが今後24時間で横ばいで推移すると予測しています（信頼度: 高い 95%）。過去24時間のリターンは-0.03%、出来高は平均の1.1倍です。CoinGeckoコミュニティでは67%が強気を示し、Fear & Greed指数は「Extreme Fear」（23）です。予測方向と乖離があり、不確実性が高まっています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.48%",
+        "value": "+0.76%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "67% bullish",
         "url": "https://www.coingecko.com/en/coins/ripple-usd"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitcoin price is down over 40% since STRC launched: Is Strategy 'fine'?",
+        "url": "https://cointelegraph.com/markets/bitcoin-price-is-down-over-40-since-strc-launched-is-strategy-fine?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Here’s what happened in crypto today",
         "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Bitcoin ETFs shed record $6.4B in 30 days amid crypto winter chill",
-        "url": "https://cointelegraph.com/news/bitcoin-etfs-shed-a-record-64b-in-30-days-as-bitcoin-shivers?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

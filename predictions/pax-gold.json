@@ -1,6 +1,6 @@
 {
   "coinId": "pax-gold",
-  "generatedAt": "2026-06-21T10:00:07.958438Z",
+  "generatedAt": "2026-06-21T11:00:08.226112Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 0.590467012526393,
+    "changePercent24h": 0.5904563064400715,
     "confidence": 0.9338
   },
   "commentary": {
-    "en": "The model predicts PAX Gold will trade sideways over the next 24 hours with high confidence (87%). Price moved +0.02% in the past 24 hours with volume at 0.9× average. Community sentiment on CoinGecko is 50% bullish and the Fear & Greed Index reads \"Extreme Fear\" (23), diverging from the model's forecast, adding uncertainty.",
-    "ja": "モデルはPAX Goldが今後24時間で横ばいで推移すると予測しています（信頼度: 高い 87%）。過去24時間のリターンは+0.02%、出来高は平均の0.9倍です。CoinGeckoコミュニティでは50%が強気を示し、Fear & Greed指数は「Extreme Fear」（23）です。予測方向と乖離があり、不確実性が高まっています。",
+    "en": "PAX Gold (PAX-GOLD) is expected to remain flat with a potential 0.2% decline in the next 24 hours, based on technical analysis. The current market context, including the Fear & Greed Index and total crypto market cap, supports this prediction. The recent news on Bitcoin ETFs and the 'sandwich attack' bot exploit may have a limited impact on PAX-GOLD.",
+    "ja": "PAX Gold (PAX-GOLD)は、技術分析に基づいて次の24時間に0.2%の下落が予想される。Fear & Greed Indexや総暗号資産市場キャップなどの市場状況はこの予想を裏付けており、Bitcoin ETFや「サンドウィッチ攻撃」ボットのエクスプロイトなどの最近のニュースはPAX-GOLDに限りなく影響を与えそうにない。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.48%",
+        "value": "+0.76%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "50% bullish",
+        "value": "67% bullish",
         "url": "https://www.coingecko.com/en/coins/pax-gold"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitcoin price is down over 40% since STRC launched: Is Strategy 'fine'?",
+        "url": "https://cointelegraph.com/markets/bitcoin-price-is-down-over-40-since-strc-launched-is-strategy-fine?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Here’s what happened in crypto today",
         "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Bitcoin ETFs shed record $6.4B in 30 days amid crypto winter chill",
-        "url": "https://cointelegraph.com/news/bitcoin-etfs-shed-a-record-64b-in-30-days-as-bitcoin-shivers?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

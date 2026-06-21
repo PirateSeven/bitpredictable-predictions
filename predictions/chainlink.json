@@ -1,6 +1,6 @@
 {
   "coinId": "chainlink",
-  "generatedAt": "2026-06-21T10:00:07.958438Z",
+  "generatedAt": "2026-06-21T11:00:08.226112Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 1.1312913327801055,
+    "changePercent24h": 1.1316720040383836,
     "confidence": 0.8591
   },
   "commentary": {
-    "en": "Chainlink's price is expected to remain flat with a slight decline of -0.2% in the next 24 hours due to the sideways short-term trend and neutral RSI-14 reading. The recent news of a Japanese corporate pension fund planning a 1% crypto allocation may have a positive impact on the market, but the overall sentiment remains in extreme fear. The Fear & Greed Index is currently at 23, indicating a high level of fear among investors.",
-    "ja": "チェーンリンクの価格は、短期的なトレンドが横方向に動いていることやRSI-14が中立的な値を示していることから、来週の24時間で-0.2%の小幅な下落が予想される。日本の企業の年金基金が1％の暗号資産割合を計画しているニュースは、市場に肯定的な影響を与える可能性があるが、全体的な感覚は恐怖のレベルが高い。恐怖と欲求不満指数は23で、投資家の恐怖感が高いことを示している。",
+    "en": "Chainlink's price is expected to remain flat with a slight decline of -0.2% in the next 24 hours, reflecting the current market sentiment. The Fear & Greed Index at 23 indicates extreme fear, while the CoinGecko community remains 86% bullish. Recent news on Bitcoin ETFs shedding a record $6.4B and a Japanese corporate pension fund's 1% crypto allocation may influence Chainlink's price movement.",
+    "ja": "Chainlinkの価格は、次の24時間で-0.2%の小幅な下落を予想しており、現在の市場情勢を反映している。Fear & Greed Indexは23で、極度の恐怖を示しているのに対し、CoinGeckoコミュニティは86%がbullishを示している。Bitcoin ETFの$6.4Bの記録的な流出と、日本の企業退職手当の1%の暗号資産割合に関するニュースは、Chainlinkの価格動向に影響を与える可能性がある。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.48%",
+        "value": "+0.76%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "86% bullish",
         "url": "https://www.coingecko.com/en/coins/chainlink"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitcoin price is down over 40% since STRC launched: Is Strategy 'fine'?",
+        "url": "https://cointelegraph.com/markets/bitcoin-price-is-down-over-40-since-strc-launched-is-strategy-fine?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Here’s what happened in crypto today",
         "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Bitcoin ETFs shed record $6.4B in 30 days amid crypto winter chill",
-        "url": "https://cointelegraph.com/news/bitcoin-etfs-shed-a-record-64b-in-30-days-as-bitcoin-shivers?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

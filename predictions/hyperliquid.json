@@ -1,6 +1,6 @@
 {
   "coinId": "hyperliquid",
-  "generatedAt": "2026-06-21T10:00:07.958438Z",
+  "generatedAt": "2026-06-21T11:00:08.226112Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -1.5594435235194437,
+    "changePercent24h": -1.559369044991669,
     "confidence": 0.7838
   },
   "commentary": {
-    "en": "Hyperliquid (HYPERLIQUID) is expected to decline by -0.9% in the next 24 hours with a 67% confidence level. The recent market context suggests extreme fear with a Fear & Greed Index of 23, and the total crypto market cap has seen a minimal increase of 0.48% in the last 24 hours. The recent news about Japanese corporate pension fund's 1% crypto allocation may have a positive impact on the market, but the overall sentiment remains bearish.",
-    "ja": "Hyperliquid (HYPERLIQUID) は、来る24時間で-0.9%の下落が予想され、67%の信頼度が付く。市場状況は極度の恐怖を示しており、Fear & Greed Indexは23、24時間で総暗号資産市場キャップは0.48%の増加を記録している。日本の企業年金基金が1%の暗号資産割合を計画しているニュースは市場に肯定的な影響を与える可能性があるが、全体的な意見は悲観的である。",
+    "en": "Hyperliquid (HYPERLIQUID) is predicted to experience a 24-hour decline of -0.9% with moderate confidence. The recent market sentiment is characterized by extreme fear, as indicated by the Fear & Greed Index of 23. The short-term trend is in a downtrend, with the SMA7/SMA24 ratio showing a decline.",
+    "ja": "Hyperliquid (HYPERLIQUID) は24時間で-0.9%の下落が予想され、信頼度は60%から70%である。Fear & Greed Indexは23で、極度の恐怖の感情が広がっている。短期的な傾向は下降線で、SMA7/SMA24比率は下降線を示している。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.48%",
+        "value": "+0.76%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "49% bullish",
+        "value": "50% bullish",
         "url": "https://www.coingecko.com/en/coins/hyperliquid"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitcoin price is down over 40% since STRC launched: Is Strategy 'fine'?",
+        "url": "https://cointelegraph.com/markets/bitcoin-price-is-down-over-40-since-strc-launched-is-strategy-fine?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Here’s what happened in crypto today",
         "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Bitcoin ETFs shed record $6.4B in 30 days amid crypto winter chill",
-        "url": "https://cointelegraph.com/news/bitcoin-etfs-shed-a-record-64b-in-30-days-as-bitcoin-shivers?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

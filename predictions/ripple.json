@@ -1,6 +1,6 @@
 {
   "coinId": "ripple",
-  "generatedAt": "2026-06-21T10:00:07.958438Z",
+  "generatedAt": "2026-06-21T11:00:08.226112Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 0.7263549294798397,
-    "confidence": 0.823
+    "changePercent24h": 0.7265874631035403,
+    "confidence": 0.8231
   },
   "commentary": {
-    "en": "XRP's technical signals indicate a flat 24-hour direction with a 53% confidence level. The Fear & Greed Index remains in extreme fear, while the total crypto market cap shows a slight increase. Recent news suggests a Japanese corporate pension fund plans to allocate 1% to crypto, which may positively impact XRP.",
-    "ja": "リップルは技術的シグナルから24時間方向がフラットであることが示唆されており、信頼度は53%です。恐怖と欲求不満指数は極度の恐怖のままであり、総暗号資産市場キャップはわずかに増加しています。最近のニュースでは日本の企業の年金基金が1％を暗号資産に割り当てる計画を発表しており、これがリップルの価値を高める可能性があります。",
+    "en": "XRP's short-term trend remains sideways, with a 24h return of -0.23% and a predicted 24h direction of flat. The Fear & Greed Index at 23 indicates extreme fear in the market, which may impact investor sentiment. The recent news on Bitcoin ETFs shedding $6.4B and the 'sandwich attack' bot exploit may also influence XRP's price movement.",
+    "ja": "リップルは短期的なトレンドが横方向に動いており、24時間のリターンは-0.23%で予想される24時間の方向はフラットです。Fear & Greed Indexは23で、極度の恐怖を示しており、これが投資家の意識に影響を与える可能性があります。Bitcoin ETFの$6.4Bの流出と「サンドウィッチ攻撃」ボットのエクスプロイトなどの最近のニュースも、リップルの価格動向に影響を与える可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.48%",
+        "value": "+0.76%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "58% bullish",
+        "value": "61% bullish",
         "url": "https://www.coingecko.com/en/coins/ripple"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitcoin price is down over 40% since STRC launched: Is Strategy 'fine'?",
+        "url": "https://cointelegraph.com/markets/bitcoin-price-is-down-over-40-since-strc-launched-is-strategy-fine?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Here’s what happened in crypto today",
         "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Bitcoin ETFs shed record $6.4B in 30 days amid crypto winter chill",
-        "url": "https://cointelegraph.com/news/bitcoin-etfs-shed-a-record-64b-in-30-days-as-bitcoin-shivers?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

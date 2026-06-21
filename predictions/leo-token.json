@@ -1,6 +1,6 @@
 {
   "coinId": "leo-token",
-  "generatedAt": "2026-06-21T10:00:07.958438Z",
+  "generatedAt": "2026-06-21T11:00:08.226112Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.6251944568037131,
+    "changePercent24h": -0.6251016341975101,
     "confidence": 0.8287
   },
   "commentary": {
-    "en": "LEO Token's predicted 24-hour direction is flat with a 0.1% decrease in confidence, indicating a neutral market sentiment. The recent news of a Japanese corporate pension fund planning a 1% crypto allocation may have a positive impact on the market, but the overall fear and greed index remains at extreme fear. The altseason debate and sandwich attack exploit may also influence investor behavior.",
-    "ja": "レオトークンの24時間予想方向は、0.1%の減少確率でフラットであることを示唆しており、市場感情は中立的である。日本の企業年金基金が1％の暗号資産割合を計画しているニュースは、市場に正の影響を与える可能性があるが、総合的な恐怖と欲求不満指数は極度の恐怖のままである。アルトシーズン論争やサンドウィッチ攻撃の被害は、投資家の行動に影響を与える可能性がある。",
+    "en": "LEO Token (LEO-TOKEN) is expected to trade flat with a slight decline of -0.1% in the next 24 hours, based on technical signals. The recent news of a Japanese corporate pension fund planning a 1% crypto allocation may have a positive impact on the market, but the overall sentiment remains in extreme fear. The current price action is likely influenced by the broader crypto market conditions.",
+    "ja": "LEO Token (LEO-TOKEN) は、技術指標から見て、来る24時間で-0.1%の小幅な下落が予想される。日本の企業の年金基金が1%の暗号資産割合を計画しているニュースは、市場に好影響を与える可能性があるが、総合的な市場情勢は極度の恐怖の状態にある。現在の価格動向は、ブロードな暗号資産市場状況に影響を受けている。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,8 +1000,13 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.48%",
+        "value": "+0.76%",
         "url": "https://www.coingecko.com/en/global-charts"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitcoin price is down over 40% since STRC launched: Is Strategy 'fine'?",
+        "url": "https://cointelegraph.com/markets/bitcoin-price-is-down-over-40-since-strc-launched-is-strategy-fine?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1012,11 +1017,6 @@
         "label": "CoinTelegraph",
         "value": "Here’s what happened in crypto today",
         "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Bitcoin ETFs shed record $6.4B in 30 days amid crypto winter chill",
-        "url": "https://cointelegraph.com/news/bitcoin-etfs-shed-a-record-64b-in-30-days-as-bitcoin-shivers?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

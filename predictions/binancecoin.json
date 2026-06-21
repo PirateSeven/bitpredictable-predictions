@@ -1,6 +1,6 @@
 {
   "coinId": "binancecoin",
-  "generatedAt": "2026-06-21T10:00:07.958438Z",
+  "generatedAt": "2026-06-21T11:00:08.226112Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 0.6828516454350364,
+    "changePercent24h": 0.6828294460812898,
     "confidence": 0.8278
   },
   "commentary": {
-    "en": "BNB's flat direction prediction is supported by neutral RSI-14 and mid-band Bollinger Band %B. The recent news of a Japanese corporate pension fund's planned 1% crypto allocation may have a positive impact on BNB. However, the overall market context remains in extreme fear.",
-    "ja": "ビナンスコインの予想は、中立的なRSI-14とマイブランドのボリンジャーバンド%Bによって裏付けられています。日本の企業の年金基金が1％の暗号資産割合を計画しているニュースがビナンスコインに良い影響を与える可能性があります。ただし、総合的な市場状況は極度の恐怖のままです。",
+    "en": "BNB (BINANCECOIN) is expected to remain flat with a 0.1% decline in the next 24 hours, based on technical signals. The Fear & Greed Index indicates extreme fear in the market, while the recent news of a Japanese corporate pension fund planning a 1% crypto allocation may provide some support. However, the overall market context suggests caution.",
+    "ja": "ビナンスコイン（BINANCECOIN）は、技術指標に基づくと、次の24時間で0.1%の下落が予想されます。恐怖と欲求不満指数は極度の恐怖を示しており、最近のニュースでは日本の企業年金基金が1％の暗号資産割合を計画している可能性がありますが、市場全体の状況は警戒を要します。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.48%",
+        "value": "+0.76%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "14% bullish",
+        "value": "0% bullish",
         "url": "https://www.coingecko.com/en/coins/binancecoin"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitcoin price is down over 40% since STRC launched: Is Strategy 'fine'?",
+        "url": "https://cointelegraph.com/markets/bitcoin-price-is-down-over-40-since-strc-launched-is-strategy-fine?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Here’s what happened in crypto today",
         "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Bitcoin ETFs shed record $6.4B in 30 days amid crypto winter chill",
-        "url": "https://cointelegraph.com/news/bitcoin-etfs-shed-a-record-64b-in-30-days-as-bitcoin-shivers?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

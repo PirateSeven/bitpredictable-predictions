@@ -1,6 +1,6 @@
 {
   "coinId": "figure-heloc",
-  "generatedAt": "2026-06-21T10:00:07.958438Z",
+  "generatedAt": "2026-06-21T11:00:08.226112Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 1.3542033134944205,
+    "changePercent24h": 1.354477372062217,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "Figure Heloc (FIGURE-HELOC) is expected to remain flat with a 0.1% decline in the next 24 hours due to its overbought condition and low trading volume. The recent news of a Japanese corporate pension fund planning a 1% crypto allocation may have a positive impact on the market, but the overall sentiment remains bearish. The Fear & Greed Index at 23 indicates extreme fear, which may lead to a short-term price correction.",
-    "ja": "Figure Heloc (FIGURE-HELOC) は、オーバーブート状態と低い取引量のため、来日24時間で0.1％の下落が予想されます。日本の企業の年金基金が1％の暗号資産割合を計画しているニュースは市場に良い影響を与える可能性がありますが、全体的な感覚は悲観的です。恐怖と欲求不満指数が23であることは、短期的な価格の調整につながる可能性があります。",
+    "en": "Figure Heloc is currently experiencing a flat direction with a 0.1% decrease in the 24-hour period, despite being overbought according to the RSI-14 indicator. The low volume ratio and sideways short-term trend suggest a lack of momentum in the market. The overall crypto market context remains in a state of extreme fear, with the Fear & Greed Index at 23.",
+    "ja": "Figure Heloc は現在、24 時間以内に 0.1% の下げ動きを経験しているが、RSI-14 指標ではオーバーボールドである。低いボリューム比率と短期的な傾向は、市場の動きが乏しいことを示唆している。Fear & Greed Index は 23 にあり、極度の恐怖の状態が続いている。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.48%",
+        "value": "+0.76%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "20% bullish",
         "url": "https://www.coingecko.com/en/coins/figure-heloc"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitcoin price is down over 40% since STRC launched: Is Strategy 'fine'?",
+        "url": "https://cointelegraph.com/markets/bitcoin-price-is-down-over-40-since-strc-launched-is-strategy-fine?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Here’s what happened in crypto today",
         "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Bitcoin ETFs shed record $6.4B in 30 days amid crypto winter chill",
-        "url": "https://cointelegraph.com/news/bitcoin-etfs-shed-a-record-64b-in-30-days-as-bitcoin-shivers?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

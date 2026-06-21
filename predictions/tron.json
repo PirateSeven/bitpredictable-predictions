@@ -1,6 +1,6 @@
 {
   "coinId": "tron",
-  "generatedAt": "2026-06-21T10:00:07.958438Z",
+  "generatedAt": "2026-06-21T11:00:08.226112Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.39383391106662924,
-    "confidence": 0.7767
+    "changePercent24h": -0.39414395798965995,
+    "confidence": 0.7768
   },
   "commentary": {
-    "en": "TRON's price is expected to remain flat in the next 24 hours with a 0.0% predicted direction, indicating a neutral sentiment. The recent news of a Japanese corporate pension fund planning a 1% crypto allocation may have a positive impact on the market, but the overall sentiment remains in extreme fear. The altseason discussion and sandwich attack exploit are also notable, but their direct impact on TRON's price is uncertain.",
-    "ja": "トロンの価格は、次の24時間で0.0％の予想方向を示し、中立的な感情を示しています。日本の企業の年金基金が1％の暗号資産割合を計画しているニュースは、市場に肯定的な影響を与える可能性がありますが、総合的な感情は極度の恐怖のままです。アルトシーズンに関する議論とサンドウィッチ攻撃の被害は注目すべきですが、その直接的な価格への影響は不明です。",
+    "en": "TRON's 24-hour return is +1.28% with a flat predicted direction, indicating a stable price movement. The Fear & Greed Index at 23 suggests extreme fear in the market, which may impact investor sentiment. TRON's price movement is likely influenced by the overall market conditions.",
+    "ja": "トロンの24時間のリターンは+1.28%で、予測の24時間の方向はフラットであるため、価格の動きが安定している。恐怖と欲求不満の指数が23であるため、市場全体の状況が投資家の意見に影響を与える可能性がある。トロンの価格の動きは、市場全体の状況に影響を受けている。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.48%",
+        "value": "+0.76%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "32% bullish",
+        "value": "33% bullish",
         "url": "https://www.coingecko.com/en/coins/tron"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitcoin price is down over 40% since STRC launched: Is Strategy 'fine'?",
+        "url": "https://cointelegraph.com/markets/bitcoin-price-is-down-over-40-since-strc-launched-is-strategy-fine?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Here’s what happened in crypto today",
         "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Bitcoin ETFs shed record $6.4B in 30 days amid crypto winter chill",
-        "url": "https://cointelegraph.com/news/bitcoin-etfs-shed-a-record-64b-in-30-days-as-bitcoin-shivers?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

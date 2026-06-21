@@ -1,6 +1,6 @@
 {
   "coinId": "solana",
-  "generatedAt": "2026-06-21T10:00:07.958438Z",
+  "generatedAt": "2026-06-21T11:00:08.226112Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 2.658164170178761,
+    "changePercent24h": 2.658671301937344,
     "confidence": 0.875
   },
   "commentary": {
-    "en": "Solana's predicted 24h direction is flat with a -0.1% change, indicating a neutral sentiment. The recent news of Japanese corporate pension fund planning a 1% crypto allocation may have a positive impact on the market. However, the overall market sentiment remains in extreme fear, which may limit SOL's growth.",
-    "ja": "ソラナの24時間予測は、-0.1%の変化でフラットであることを示しています。日本の企業年金基金が1%の暗号資産割合を計画しているニュースが、市場にプラスの影響を与える可能性があります。ただし、総市場の感情は極度の恐怖の状態にあるため、SOLの成長は制限される可能性があります。",
+    "en": "Solana's price is expected to remain flat in the next 24 hours with a slight decline of -0.1% due to the current market conditions. The Fear & Greed Index remains in Extreme Fear territory, and the recent news about Bitcoin's price drop and crypto market trends do not provide a clear direction for Solana. The short-term trend remains an uptrend, but the current market sentiment may hinder further growth.",
+    "ja": "ソラナの価格は、次の24時間で-0.1%の小幅な下落が予想されます。恐怖と欲求不満指数はまだ極度の恐怖の状態にあり、ビットコインの価格の下落や暗号通貨の市場動向に関する最近のニュースはソラナの方向性を明確に示していません。短期的な傾向は上昇傾向ですが、現在の市場感覚はさらに成長を妨げる可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.48%",
+        "value": "+0.76%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "82% bullish",
+        "value": "83% bullish",
         "url": "https://www.coingecko.com/en/coins/solana"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitcoin price is down over 40% since STRC launched: Is Strategy 'fine'?",
+        "url": "https://cointelegraph.com/markets/bitcoin-price-is-down-over-40-since-strc-launched-is-strategy-fine?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Here’s what happened in crypto today",
         "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Bitcoin ETFs shed record $6.4B in 30 days amid crypto winter chill",
-        "url": "https://cointelegraph.com/news/bitcoin-etfs-shed-a-record-64b-in-30-days-as-bitcoin-shivers?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

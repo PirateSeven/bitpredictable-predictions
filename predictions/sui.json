@@ -1,6 +1,6 @@
 {
   "coinId": "sui",
-  "generatedAt": "2026-06-21T10:00:07.958438Z",
+  "generatedAt": "2026-06-21T11:00:08.226112Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": 1.122497073682727,
+    "changePercent24h": 1.1225269193764058,
     "confidence": 0.8341
   },
   "commentary": {
-    "en": "The model predicts Sui will decline ~0.8% over the next 24 hours with high confidence (77%). Price moved -1.32% in the past 24 hours with volume at 1.0× average. Community sentiment on CoinGecko is 79% bullish and the Fear & Greed Index reads \"Extreme Fear\" (23), diverging from the model's forecast, adding uncertainty.",
-    "ja": "モデルはSuiが今後24時間で約0.8%下落すると予測しています（信頼度: 高い 77%）。過去24時間のリターンは-1.32%、出来高は平均の1.0倍です。CoinGeckoコミュニティでは79%が強気を示し、Fear & Greed指数は「Extreme Fear」（23）です。予測方向と乖離があり、不確実性が高まっています。",
+    "en": "Sui (SUI) is expected to continue its downward trend with a predicted 24h direction of -0.8% due to the current market sentiment and recent news. The Fear & Greed Index at 23 indicates extreme fear, and the recent news about Bitcoin ETFs shedding a record amount may further impact the market. SUI's short-term trend remains sideways.",
+    "ja": "Sui (SUI)は、現在の市場情勢や最近のニュースにより、24時間方向が-0.8%と予想されるため、下方のトレンドを続けている。Fear & Greed Indexが23と極度の恐怖を示し、Bitcoin ETFが記録的な金額を失ったニュースも市場に影響を与える可能性がある。SUIの短期トレンドは横方向に推移している。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.48%",
+        "value": "+0.76%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "79% bullish",
         "url": "https://www.coingecko.com/en/coins/sui"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitcoin price is down over 40% since STRC launched: Is Strategy 'fine'?",
+        "url": "https://cointelegraph.com/markets/bitcoin-price-is-down-over-40-since-strc-launched-is-strategy-fine?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Here’s what happened in crypto today",
         "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Bitcoin ETFs shed record $6.4B in 30 days amid crypto winter chill",
-        "url": "https://cointelegraph.com/news/bitcoin-etfs-shed-a-record-64b-in-30-days-as-bitcoin-shivers?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

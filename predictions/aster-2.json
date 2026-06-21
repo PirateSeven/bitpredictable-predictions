@@ -1,6 +1,6 @@
 {
   "coinId": "aster-2",
-  "generatedAt": "2026-06-21T10:00:07.958438Z",
+  "generatedAt": "2026-06-21T11:00:08.226112Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -5.228654635829853,
+    "changePercent24h": -5.229096193418953,
     "confidence": 0.9383
   },
   "commentary": {
-    "en": "Aster (ASTER-2) is expected to decline by 0.9% in the next 24 hours due to its current technical signals. The Fear & Greed Index remains in Extreme Fear, and the recent news on crypto market trends is bearish. The predicted price movement is likely to be influenced by the overall market sentiment.",
-    "ja": "ASTER-2は、現在の技術指標から、来る24時間で0.9%の下落が予想されます。恐怖と欲求不満指数は極度の恐怖の状態にあり、最近のコインテレグラフのニュースは陰性傾向です。予想される価格動向は、市場全体の感覚に影響を受ける可能性があります。",
+    "en": "Aster (ASTER-2) is predicted to fall by 0.9% in the next 24 hours with a confidence level of 70%. The RSI-14 is neutral at 48, and the Bollinger Band %B is at 0.30, indicating a mid-band position. The sideways short-term trend and low Fear & Greed Index suggest a cautious market.",
+    "ja": "Aster (ASTER-2) は、来る24時間で0.9%の下落が予想され、信頼度は70%です。 RSI-14は48、ボリンジャーバンド％Bは0.30で、mid-bandの位置にあります。短期の傾向は横方向にあり、Fear & Greed Indexも低いことから、市場は慎重な状態です。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.48%",
+        "value": "+0.76%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "44% bullish",
         "url": "https://www.coingecko.com/en/coins/aster-2"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitcoin price is down over 40% since STRC launched: Is Strategy 'fine'?",
+        "url": "https://cointelegraph.com/markets/bitcoin-price-is-down-over-40-since-strc-launched-is-strategy-fine?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Here’s what happened in crypto today",
         "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Bitcoin ETFs shed record $6.4B in 30 days amid crypto winter chill",
-        "url": "https://cointelegraph.com/news/bitcoin-etfs-shed-a-record-64b-in-30-days-as-bitcoin-shivers?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

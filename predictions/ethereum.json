@@ -1,6 +1,6 @@
 {
   "coinId": "ethereum",
-  "generatedAt": "2026-06-21T10:00:07.958438Z",
+  "generatedAt": "2026-06-21T11:00:08.226112Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 0.539578266770681,
+    "changePercent24h": 0.5397340647005293,
     "confidence": 0.7202
   },
   "commentary": {
-    "en": "Ethereum's 24-hour direction is predicted to be flat with a 0.2% decline, based on technical signals. The Fear & Greed Index remains in extreme fear, while the CoinGecko community is 84% bullish. Recent news includes a Japanese corporate pension fund planning a 1% crypto allocation.",
-    "ja": "エーテレムの24時間の動向は、技術的シグナルに基づいて0.2％の下降が予想される。恐怖と欲求不満指数は今も極度の恐怖の状態であり、コインゲッコーのコミュニティは84％がバブルである。最近のニュースには、日本の企業の年金基金が1％の暗号資産の割合を計画している。",
+    "en": "Ethereum is expected to trade flat with a minor decline of 0.2% in the next 24 hours, based on current technical signals. The Fear & Greed Index remains in extreme fear territory, while the CoinGecko community is still 83% bullish. Recent news on the crypto market, including the Japanese corporate pension fund's 1% crypto allocation plan, may have a moderate impact on Ethereum's price.",
+    "ja": "エーテレムは、現在の技術指標から見て、次の24時間で0.2%の小幅な下落が予想される。フェア&グリード指数は極度の恐怖の領域にあり、コインゲッコーのコミュニティは83％がバブルである。最近のニュースである日本の企業年金基金の1％の暗号通貨の割り当て計画など、エーテレムの価格に中程度の影響を与える可能性がある。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.48%",
+        "value": "+0.76%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "84% bullish",
+        "value": "83% bullish",
         "url": "https://www.coingecko.com/en/coins/ethereum"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitcoin price is down over 40% since STRC launched: Is Strategy 'fine'?",
+        "url": "https://cointelegraph.com/markets/bitcoin-price-is-down-over-40-since-strc-launched-is-strategy-fine?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Here’s what happened in crypto today",
         "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Bitcoin ETFs shed record $6.4B in 30 days amid crypto winter chill",
-        "url": "https://cointelegraph.com/news/bitcoin-etfs-shed-a-record-64b-in-30-days-as-bitcoin-shivers?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

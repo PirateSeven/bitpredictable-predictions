@@ -1,6 +1,6 @@
 {
   "coinId": "worldcoin-wld",
-  "generatedAt": "2026-06-21T10:00:07.958438Z",
+  "generatedAt": "2026-06-21T11:00:08.226112Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -5.592970016388719,
+    "changePercent24h": -5.592773583539145,
     "confidence": 0.8835
   },
   "commentary": {
-    "en": "Worldcoin WLD is expected to decline by -4.4% in the next 24 hours with a confidence level of 85%. The recent news about Japanese corporate pension fund's 1% crypto allocation and Bitcoin ETFs shedding record funds may not directly impact WLD's price. The overall crypto market remains in an extreme fear state.",
-    "ja": "ワールドコイン WLD は、次の24時間に-4.4%の下落が予想され、信頼度は85%です。日本の企業の年金基金の1%の暗号資産割合とビットコインETFの記録的な資金流出は、WLDの価格に直接影響を与えていない可能性があります。暗号資産市場全体は極度の恐怖の状態にあります。",
+    "en": "The model predicts Worldcoin will decline ~4.4% over the next 24 hours with high confidence (85%). Price moved +0.38% in the past 24 hours with volume at 0.9× average. Community sentiment on CoinGecko is 67% bullish and the Fear & Greed Index reads \"Extreme Fear\" (23), diverging from the model's forecast, adding uncertainty.",
+    "ja": "モデルはWorldcoinが今後24時間で約4.4%下落すると予測しています（信頼度: 高い 85%）。過去24時間のリターンは+0.38%、出来高は平均の0.9倍です。CoinGeckoコミュニティでは67%が強気を示し、Fear & Greed指数は「Extreme Fear」（23）です。予測方向と乖離があり、不確実性が高まっています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.48%",
+        "value": "+0.76%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "69% bullish",
+        "value": "67% bullish",
         "url": "https://www.coingecko.com/en/coins/worldcoin-wld"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitcoin price is down over 40% since STRC launched: Is Strategy 'fine'?",
+        "url": "https://cointelegraph.com/markets/bitcoin-price-is-down-over-40-since-strc-launched-is-strategy-fine?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Here’s what happened in crypto today",
         "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Bitcoin ETFs shed record $6.4B in 30 days amid crypto winter chill",
-        "url": "https://cointelegraph.com/news/bitcoin-etfs-shed-a-record-64b-in-30-days-as-bitcoin-shivers?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "coinId": "usd1-wlfi",
-  "generatedAt": "2026-06-21T10:00:07.958438Z",
+  "generatedAt": "2026-06-21T11:00:08.226112Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.023151597675882166,
+    "changePercent24h": -0.02314554177038894,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "USD1-WLFI is predicted to remain flat with a 95% confidence level, as the RSI-14 is neutral and the Bollinger Band %B is at the mid band. The recent news about Japanese corporate pension fund plans and Bitcoin ETFs shedding record funds may not have a significant impact on WLFI. The overall market context suggests a period of extreme fear.",
-    "ja": "USD1-WLFI は95%の確率でフラットの予想となり、RSI-14が中立的でボリンジャーバンド％Bが中間帯にあります。日本の企業年金基金の計画やビットコインETFの記録的な資金流出など最近のニュースはWLFIに大きな影響を与えない可能性があります。総合的には恐怖の極限の時期です。",
+    "en": "USD1-WLFI is expected to remain flat in the next 24 hours with a 95% confidence level, as the RSI-14 is neutral and the Bollinger Band %B is at mid-band. The sideways short-term trend and normal volume ratio support this prediction. The overall market context, including the Fear & Greed Index and recent news, does not indicate a strong direction for USD1-WLFI.",
+    "ja": "USD1-WLFIは次の24時間に95%の確率でフラットに推定される。 RSI-14は中立的で、ボリンジャー・バンドの%Bは中間帯にある。 短期のトレンドとボリュームの比率は、予測を裏付ける。 Fear & Greed Indexと最近のニュースは、USD1-WLFIの強い方向性を示していない。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.48%",
+        "value": "+0.76%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "0% bullish",
         "url": "https://www.coingecko.com/en/coins/usd1-wlfi"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitcoin price is down over 40% since STRC launched: Is Strategy 'fine'?",
+        "url": "https://cointelegraph.com/markets/bitcoin-price-is-down-over-40-since-strc-launched-is-strategy-fine?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Here’s what happened in crypto today",
         "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Bitcoin ETFs shed record $6.4B in 30 days amid crypto winter chill",
-        "url": "https://cointelegraph.com/news/bitcoin-etfs-shed-a-record-64b-in-30-days-as-bitcoin-shivers?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "coinId": "stellar",
-  "generatedAt": "2026-06-21T10:00:07.958438Z",
+  "generatedAt": "2026-06-21T11:00:08.226112Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": 0.7334237195959235,
-    "confidence": 0.3828
+    "changePercent24h": 0.7337081951017028,
+    "confidence": 0.383
   },
   "commentary": {
-    "en": "Stellar's 24-hour direction is predicted to be down by 4.3% with a confidence level of 86%. The RSI-14 is neutral at 41, and the Bollinger Band %B is at 0.21, indicating a mid-band position. The recent news about Japanese corporate pension fund plans to allocate 1% to crypto may have a limited impact on Stellar's price.",
-    "ja": "ステラルの24時間の方向は、86％の確信度で4.3％下がる予想です。RSI-14は41で中立的、ボリンジャーバンド％Bは0.21で中間位置です。日本の企業年金基金が1％を暗号資産に割り当てるニュースはステラルの価格に限られた影響を与える可能性があります。",
+    "en": "Stellar's price is predicted to drop by 4.3% in the next 24 hours, with a confidence level of 86%. The Fear & Greed Index remains in Extreme Fear at 23, and the recent news of Bitcoin ETFs shedding a record $6.4B in 30 days may contribute to the bearish sentiment. The short-term trend is sideways, with a neutral RSI-14 reading of 41.",
+    "ja": "ステラルの価格は24時間以内に4.3%下落する予想であり、信頼度は86%である。恐怖と欲求不満指数は23で極度の恐怖の状態であり、最近のニュースではビットコインETFが30日間で$6.4億を失ったという報告があり、悲観的な気運が高まっている。短期の傾向は横ばいであり、RSI-14の値は41で中立的である。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.48%",
+        "value": "+0.76%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "51% bullish",
+        "value": "54% bullish",
         "url": "https://www.coingecko.com/en/coins/stellar"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitcoin price is down over 40% since STRC launched: Is Strategy 'fine'?",
+        "url": "https://cointelegraph.com/markets/bitcoin-price-is-down-over-40-since-strc-launched-is-strategy-fine?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Here’s what happened in crypto today",
         "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Bitcoin ETFs shed record $6.4B in 30 days amid crypto winter chill",
-        "url": "https://cointelegraph.com/news/bitcoin-etfs-shed-a-record-64b-in-30-days-as-bitcoin-shivers?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }
