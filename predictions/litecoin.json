@@ -1,6 +1,6 @@
 {
   "coinId": "litecoin",
-  "generatedAt": "2026-06-21T13:00:07.588239Z",
+  "generatedAt": "2026-06-21T14:00:07.633885Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 1.0699047860484185,
-    "confidence": 0.8518
+    "changePercent24h": 0.2410543271108376,
+    "confidence": 0.6016
   },
   "commentary": {
-    "en": "Litecoin's 24-hour direction is predicted to be flat with a 0.1% decrease in confidence. The recent news of Dash's expansion into the Philippines and a Japanese corporate pension fund's plan to allocate 1% to crypto may have a neutral impact on Litecoin's price. The Fear & Greed Index remains in extreme fear territory.",
-    "ja": "Litecoinの24時間の予測は、0.1%の下落に伴う可能性が48%の信頼度で、フラットと予想されます。Dashのフィリピンへの拡大と日本の企業年金基金の1%のコインへの割合計画は、Litecoinの価格に中立的な影響を与える可能性があります。Fear & Greed Indexは今でも極度の恐怖の領域にあります。",
+    "en": "The model predicts Litecoin will trade sideways over the next 24 hours with low confidence (48%). Price is testing the upper Bollinger Band, a resistance level that often precedes short-term consolidation. Community sentiment on CoinGecko is 93% bullish and the Fear & Greed Index reads \"Extreme Fear\" (23), diverging from the model's forecast, adding uncertainty.",
+    "ja": "モデルはLitecoinが今後24時間で横ばいで推移すると予測しています（信頼度: 低い 48%）。価格がボリンジャーバンド上限に到達しており、短期的な調整が起こりやすい状態です。CoinGeckoコミュニティでは93%が強気を示し、Fear & Greed指数は「Extreme Fear」（23）です。予測方向と乖離があり、不確実性が高まっています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,12 +1000,12 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.45%",
+        "value": "+0.82%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "87% bullish",
+        "value": "93% bullish",
         "url": "https://www.coingecko.com/en/coins/litecoin"
       },
       {

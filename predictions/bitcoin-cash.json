@@ -1,6 +1,6 @@
 {
   "coinId": "bitcoin-cash",
-  "generatedAt": "2026-06-21T13:00:07.588239Z",
+  "generatedAt": "2026-06-21T14:00:07.633885Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 0.2625458819868753,
-    "confidence": 0.6321
+    "changePercent24h": -0.9479371498076319,
+    "confidence": 0.8426
   },
   "commentary": {
-    "en": "The model predicts Bitcoin Cash will trade sideways over the next 24 hours with moderate confidence (65%). Price is near lower Bollinger Band support, where rebounds are historically more frequent. Community sentiment on CoinGecko is 67% bullish and the Fear & Greed Index reads \"Extreme Fear\" (23), diverging from the model's forecast, adding uncertainty.",
-    "ja": "モデルはBitcoin Cashが今後24時間で横ばいで推移すると予測しています（信頼度: 中程度の 65%）。価格がボリンジャーバンド下限付近で、サポートからの反発が過去パターンより多く観察されます。CoinGeckoコミュニティでは67%が強気を示し、Fear & Greed指数は「Extreme Fear」（23）です。予測方向と乖離があり、不確実性が高まっています。",
+    "en": "The model predicts Bitcoin Cash will trade sideways over the next 24 hours with moderate confidence (65%). Price is near lower Bollinger Band support, where rebounds are historically more frequent. Community sentiment on CoinGecko is 62% bullish and the Fear & Greed Index reads \"Extreme Fear\" (23), diverging from the model's forecast, adding uncertainty.",
+    "ja": "モデルはBitcoin Cashが今後24時間で横ばいで推移すると予測しています（信頼度: 中程度の 65%）。価格がボリンジャーバンド下限付近で、サポートからの反発が過去パターンより多く観察されます。CoinGeckoコミュニティでは62%が強気を示し、Fear & Greed指数は「Extreme Fear」（23）です。予測方向と乖離があり、不確実性が高まっています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,12 +1000,12 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.45%",
+        "value": "+0.82%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "67% bullish",
+        "value": "62% bullish",
         "url": "https://www.coingecko.com/en/coins/bitcoin-cash"
       },
       {

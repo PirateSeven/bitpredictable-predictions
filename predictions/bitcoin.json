@@ -1,6 +1,6 @@
 {
   "coinId": "bitcoin",
-  "generatedAt": "2026-06-21T13:00:07.588239Z",
+  "generatedAt": "2026-06-21T14:00:07.633885Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.10326252381506787,
-    "confidence": 0.4063
+    "changePercent24h": -0.6802401882872962,
+    "confidence": 0.7745
   },
   "commentary": {
-    "en": "Bitcoin's 24-hour direction is predicted to be flat with a -0.2% change, reflecting a neutral RSI-14 reading of 53. The Fear & Greed Index remains at 23, indicating extreme fear in the market. Recent news suggests a mixed sentiment, with some positive developments such as a Japanese corporate pension fund's planned crypto allocation, but also negative factors like the shedding of $6.4B in Bitcoin ETFs.",
-    "ja": "ビットコインの24時間の方向は、-0.2%の変化で予測されており、RSI-14の値は53で中立的な値です。Fear & Greed Indexは23で、市場には極度の恐怖が残っています。最近のニュースでは、フィリピーでの暗号通貨決済の市場を目指すDashや、日本の企業年金基金の暗号通貨への1%の割合の計画など、肯定的なニュースもありましたが、$6.4BのビットコインETFの流出など、否定的な要因もあります。",
+    "en": "Bitcoin's 24-hour direction is predicted to be flat with a 0.2% decline, based on technical signals. The Fear & Greed Index remains in extreme fear territory, while the CoinGecko community is 84% bullish. Recent news includes a Japanese corporate pension fund planning a 1% crypto allocation.",
+    "ja": "ビットコインの24時間の動向は、技術的信号に基づいて、0.2％の下落が予測される。恐怖と欲求不満指数は極度の恐怖の領域にあり、CoinGeckoコミュニティは84％がbullishである。最近のニュースには、日本の企業の年金基金が1％の暗号資産の割合を計画している。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.45%",
+        "value": "+0.82%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {

@@ -1,6 +1,6 @@
 {
   "coinId": "avalanche-2",
-  "generatedAt": "2026-06-21T13:00:07.588239Z",
+  "generatedAt": "2026-06-21T14:00:07.633885Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": 0.4856039175555009,
-    "confidence": 0.5923
+    "changePercent24h": -0.045108119590359985,
+    "confidence": 0.1431
   },
   "commentary": {
-    "en": "The model predicts Avalanche will decline ~0.8% over the next 24 hours with high confidence (71%). The short-term SMA has crossed above the medium-term SMA, signalling positive momentum. Community sentiment on CoinGecko is 74% bullish and the Fear & Greed Index reads \"Extreme Fear\" (23), diverging from the model's forecast, adding uncertainty.",
-    "ja": "モデルはAvalancheが今後24時間で約0.8%下落すると予測しています（信頼度: 高い 71%）。短期移動平均が中期移動平均を上回り、ポジティブなモメンタムが示されています。CoinGeckoコミュニティでは74%が強気を示し、Fear & Greed指数は「Extreme Fear」（23）です。予測方向と乖離があり、不確実性が高まっています。",
+    "en": "Avalanche-2 is predicted to move downwards by -0.8% in the next 24 hours with a confidence level of 71%. The recent news of Japanese corporate pension fund planning a 1% crypto allocation may have a positive impact on the market. However, the overall sentiment remains in extreme fear.",
+    "ja": "アバランチ-2は、次の24時間で-0.8%の下落が予想され、信頼度は71%です。日本の企業退職金共済の1%の暗号資産割合計画は市場に肯定的な影響を与える可能性があります。ただし、総合的な感覚は極度の恐怖のままです。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,12 +1000,12 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.45%",
+        "value": "+0.82%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "74% bullish",
+        "value": "75% bullish",
         "url": "https://www.coingecko.com/en/coins/avalanche-2"
       },
       {

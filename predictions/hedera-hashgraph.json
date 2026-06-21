@@ -1,6 +1,6 @@
 {
   "coinId": "hedera-hashgraph",
-  "generatedAt": "2026-06-21T13:00:07.588239Z",
+  "generatedAt": "2026-06-21T14:00:07.633885Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -0.9969486316403156,
-    "confidence": 0.8005
+    "changePercent24h": -1.7483957678532263,
+    "confidence": 0.8755
   },
   "commentary": {
-    "en": "The model predicts Hedera will decline ~0.6% over the next 24 hours with high confidence (70%). Price is near lower Bollinger Band support, where rebounds are historically more frequent. Community sentiment on CoinGecko is 90% bullish and the Fear & Greed Index reads \"Extreme Fear\" (23), diverging from the model's forecast, adding uncertainty.",
-    "ja": "モデルはHederaが今後24時間で約0.6%下落すると予測しています（信頼度: 高い 70%）。価格がボリンジャーバンド下限付近で、サポートからの反発が過去パターンより多く観察されます。CoinGeckoコミュニティでは90%が強気を示し、Fear & Greed指数は「Extreme Fear」（23）です。予測方向と乖離があり、不確実性が高まっています。",
+    "en": "Hedera's 24-hour direction is predicted to be down by 0.6% with a 70% confidence level. The RSI-14 is neutral at 44, and Bollinger Band %B is at 0.17, indicating a lower band. The sideways short-term trend and normal volume ratio support this bearish prediction.",
+    "ja": "ヘダラハッシュグラフの24時間予想は下落0.6%で70%の確信度です。RSI-14は44で中立的、ボリンジャーバンド%バンは0.17で下方指標です。横方向の短期トレンドと通常のボリューム比率はこの下降予想を裏付けます。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,12 +1000,12 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.45%",
+        "value": "+0.82%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "90% bullish",
+        "value": "91% bullish",
         "url": "https://www.coingecko.com/en/coins/hedera-hashgraph"
       },
       {
