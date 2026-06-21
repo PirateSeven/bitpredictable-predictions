@@ -1,6 +1,6 @@
 {
   "coinId": "canton-network",
-  "generatedAt": "2026-06-21T18:00:07.793282Z",
+  "generatedAt": "2026-06-21T19:00:08.293372Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -3.9277120215655583,
-    "confidence": 0.9309
+    "changePercent24h": -5.718814239060611,
+    "confidence": 0.95
   },
   "commentary": {
-    "en": "Canton (CANTON-NETWORK) is expected to decline by 1.0% in the next 24 hours, according to technical signals. The recent news on the crypto market, including a potential Bitcoin price drop to $24K, may contribute to this downward trend. However, the Fear & Greed Index indicates extreme fear, which could be a buying opportunity.",
-    "ja": "Canton (CANTON-NETWORK) は、技術指標から24時間以内に1.0%の下落が予想されます。最近のニュースでは、ビットコインの価格が$24Kに下落する可能性があるため、この下落傾向に寄与する可能性があります。ただし、Fear & Greed Indexは極度の恐怖を示しており、これが買い機の機会となる可能性があります。",
+    "en": "The model predicts Canton will decline ~1.0% over the next 24 hours with high confidence (76%). Price is near lower Bollinger Band support, where rebounds are historically more frequent. Community sentiment on CoinGecko is 53% bullish and the Fear & Greed Index reads \"Extreme Fear\" (23), diverging from the model's forecast, adding uncertainty.",
+    "ja": "モデルはCantonが今後24時間で約1.0%下落すると予測しています（信頼度: 高い 76%）。価格がボリンジャーバンド下限付近で、サポートからの反発が過去パターンより多く観察されます。CoinGeckoコミュニティでは53%が強気を示し、Fear & Greed指数は「Extreme Fear」（23）です。予測方向と乖離があり、不確実性が高まっています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,12 +1000,12 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.41%",
+        "value": "+0.52%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "50% bullish",
+        "value": "53% bullish",
         "url": "https://www.coingecko.com/en/coins/canton-network"
       },
       {
