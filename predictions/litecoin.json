@@ -1,6 +1,6 @@
 {
   "coinId": "litecoin",
-  "generatedAt": "2026-06-21T15:00:07.784636Z",
+  "generatedAt": "2026-06-21T16:00:07.784837Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 0.9363505946575768,
-    "confidence": 0.8337
+    "changePercent24h": 0.7287036652323913,
+    "confidence": 0.7985
   },
   "commentary": {
-    "en": "Litecoin's short-term trend remains sideways, with a 24-hour return of +2.53% and a flat predicted direction. The Fear & Greed Index at 23 indicates extreme fear in the market, which may be a buying opportunity for Litecoin. However, the overbought RSI-14 and upper Bollinger Band suggest potential for a correction.",
-    "ja": "リテコインの短期トレンドは横方向に推移しており、24時間のリターンは+2.53%、予想の24時間方向はFLATです。恐怖と欲求不満指数が23で極度の恐怖を示しているため、リテコインの買い機かもしれませんが、オーバーボールのRSI-14と上部ボリンジャーバンドは値下げの可能性を示唆しています。",
+    "en": "The model predicts Litecoin will trade sideways over the next 24 hours with moderate confidence (50%). RSI has reached overbought territory (74), suggesting elevated selling pressure. Community sentiment on CoinGecko is 92% bullish and the Fear & Greed Index reads \"Extreme Fear\" (23), diverging from the model's forecast, adding uncertainty.",
+    "ja": "モデルはLitecoinが今後24時間で横ばいで推移すると予測しています（信頼度: 中程度の 50%）。RSIが74と買われすぎ水準に達しており、短期的な売り圧力が高まりやすい局面です。CoinGeckoコミュニティでは92%が強気を示し、Fear & Greed指数は「Extreme Fear」（23）です。予測方向と乖離があり、不確実性が高まっています。",
     "sources": [
       {
         "label": "Fear & Greed Index",

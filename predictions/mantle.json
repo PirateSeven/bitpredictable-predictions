@@ -1,6 +1,6 @@
 {
   "coinId": "mantle",
-  "generatedAt": "2026-06-21T15:00:07.784636Z",
+  "generatedAt": "2026-06-21T16:00:07.784837Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.13294987094823155,
-    "confidence": 0.4558
+    "changePercent24h": -0.05764509660236605,
+    "confidence": 0.4046
   },
   "commentary": {
-    "en": "Mantle (MANTLE) is expected to experience a flat 24-hour period with a slight decline of -0.3%, based on current technical signals. The Fear & Greed Index remains in Extreme Fear territory, and recent news has focused on the broader crypto market, with mixed signals on Bitcoin's potential price movements. Mantle's performance is likely to be influenced by the overall market sentiment.",
-    "ja": "Mantle (MANTLE)は24時間の動向がフラットで、-0.3%の下げ幅になる可能性があります。Fear & Greed Indexはエクストリーム フィアの状態にあり、最近のニュースはブロードな暗号通貨市場に焦点を当てており、ビットコインの価格動向については混乱したシグナルが流れています。Mantleのパフォーマンスは総合的な市場感性に影響を受ける可能性があります。",
+    "en": "The model predicts Mantle will trade sideways over the next 24 hours with moderate confidence (60%). Price moved +0.45% in the past 24 hours with volume at 1.0× average. Market sentiment stands at \"Extreme Fear\" (Fear & Greed: 23); the broader crypto market moved +0.1% over the past 24 hours.",
+    "ja": "モデルはMantleが今後24時間で横ばいで推移すると予測しています（信頼度: 中程度の 60%）。過去24時間のリターンは+0.45%、出来高は平均の1.0倍です。Fear & Greed指数は「Extreme Fear」（23）で、暗号資産市場全体の24時間変動率は+0.1%です。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1002,11 +1002,6 @@
         "label": "Crypto market cap (24 h)",
         "value": "+0.10%",
         "url": "https://www.coingecko.com/en/global-charts"
-      },
-      {
-        "label": "CoinGecko Community Sentiment",
-        "value": "0% bullish",
-        "url": "https://www.coingecko.com/en/coins/mantle"
       },
       {
         "label": "CoinTelegraph",

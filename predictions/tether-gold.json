@@ -1,6 +1,6 @@
 {
   "coinId": "tether-gold",
-  "generatedAt": "2026-06-21T15:00:07.784636Z",
+  "generatedAt": "2026-06-21T16:00:07.784837Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 0.3678857873907592,
-    "confidence": 0.95
+    "changePercent24h": 0.24029046249453373,
+    "confidence": 0.9381
   },
   "commentary": {
-    "en": "Tether Gold (TETHER-GOLD) is expected to remain flat with a 0.1% decline in the next 24 hours, based on technical signals. The Fear & Greed Index at 23 indicates extreme fear in the market, which may influence investor sentiment. Recent news about Bitcoin's price and potential market crashes may also impact Tether Gold's performance.",
-    "ja": "Tether Gold (TETHER-GOLD) は、技術的シグナルに基づいて、次の24時間で0.1%の下落が予想されます。Fear & Greed Indexが23であることは、市場の恐怖感が高まっていることを示しており、投資家の動向に影響を与える可能性があります。最近のニュースで、ビットコインの価格と潜在的な市場の崩壊についての報道は、Tether Goldのパフォーマンスに影響を与える可能性があります。",
+    "en": "The model predicts Tether Gold will trade sideways over the next 24 hours with high confidence (91%). Price is testing the upper Bollinger Band, a resistance level that often precedes short-term consolidation. Community sentiment on CoinGecko is 100% bullish and the Fear & Greed Index reads \"Extreme Fear\" (23), diverging from the model's forecast, adding uncertainty.",
+    "ja": "モデルはTether Goldが今後24時間で横ばいで推移すると予測しています（信頼度: 高い 91%）。価格がボリンジャーバンド上限に到達しており、短期的な調整が起こりやすい状態です。CoinGeckoコミュニティでは100%が強気を示し、Fear & Greed指数は「Extreme Fear」（23）です。予測方向と乖離があり、不確実性が高まっています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
