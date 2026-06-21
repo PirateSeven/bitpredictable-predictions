@@ -1,6 +1,6 @@
 {
   "coinId": "uniswap",
-  "generatedAt": "2026-06-21T19:00:08.293372Z",
+  "generatedAt": "2026-06-21T20:00:07.687782Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,8 +966,8 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -0.11825661212340899,
-    "confidence": 0.1
+    "changePercent24h": 0.5335805141070049,
+    "confidence": 0.4962
   },
   "commentary": {
     "en": "The model predicts Uniswap will decline ~1.9% over the next 24 hours with high confidence (81%). The short-term SMA has crossed above the medium-term SMA, signalling positive momentum. Community sentiment on CoinGecko is 100% bullish and the Fear & Greed Index reads \"Extreme Fear\" (23), diverging from the model's forecast, adding uncertainty.",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.52%",
+        "value": "+0.45%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
