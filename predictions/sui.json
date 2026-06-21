@@ -1,6 +1,6 @@
 {
   "coinId": "sui",
-  "generatedAt": "2026-06-21T01:00:07.822365Z",
+  "generatedAt": "2026-06-21T02:00:07.782475Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": 0.8784840138198687,
-    "confidence": 0.7833
+    "changePercent24h": 0.6541689137238719,
+    "confidence": 0.7295
   },
   "commentary": {
-    "en": "Sui (SUI) is expected to decline in the next 24 hours with a predicted -0.7% drop, driven by the current market sentiment of extreme fear. The recent 'sandwich attack' exploit and declining altseasons may further pressure the altcoin market. The neutral RSI-14 reading and mid-band Bollinger Band %B suggest a sideways trend.",
-    "ja": "Sui (SUI) は、次の24時間で-0.7%の下落が予想され、極度の恐怖の市場感情によって推進される。最近の「サンドウィッチ攻撃」攻撃とアルティーズンシーズンの低下はさらにアルティコイン市場を圧迫する可能性がある。中立的なRSI-14値と中間帯のボリンジャー・バンド％Bは横方向の傾向を示している。",
+    "en": "The model predicts Sui will decline ~0.7% over the next 24 hours with high confidence (73%). Price moved -0.00% in the past 24 hours with volume at 1.1× average. Community sentiment on CoinGecko is 73% bullish and the Fear & Greed Index reads \"Extreme Fear\" (23), diverging from the model's forecast, adding uncertainty.",
+    "ja": "モデルはSuiが今後24時間で約0.7%下落すると予測しています（信頼度: 高い 73%）。過去24時間のリターンは-0.00%、出来高は平均の1.1倍です。CoinGeckoコミュニティでは73%が強気を示し、Fear & Greed指数は「Extreme Fear」（23）です。予測方向と乖離があり、不確実性が高まっています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,12 +1000,12 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+1.03%",
+        "value": "+1.05%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "76% bullish",
+        "value": "73% bullish",
         "url": "https://www.coingecko.com/en/coins/sui"
       },
       {

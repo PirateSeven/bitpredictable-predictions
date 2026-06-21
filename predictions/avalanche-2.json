@@ -1,6 +1,6 @@
 {
   "coinId": "avalanche-2",
-  "generatedAt": "2026-06-21T01:00:07.822365Z",
+  "generatedAt": "2026-06-21T02:00:07.782475Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": 0.5140969970679177,
-    "confidence": 0.5441
+    "changePercent24h": -0.008418888526891877,
+    "confidence": 0.1
   },
   "commentary": {
-    "en": "Avalanche (AVALANCHE-2) is expected to decline by 1.2% in the next 24 hours with a 75% confidence level. The recent news of the 'sandwich attack' bot exploitation and the collapse of Bitcoin rotations into altcoins may contribute to the bearish sentiment. The Fear & Greed Index remains at 23, indicating extreme fear in the market.",
-    "ja": "アバランチ2（AVALANCHE-2）は、次の24時間に1.2％下落する可能性があり、75％の信頼度があります。サンドイッチ攻撃のボットの搾取とビットコインのローテーションがアルティコインに崩壊するというニュースは、恐怖の感情を引き起こす可能性があります。恐怖と欲求不満指数は23で、市場は極度の恐怖の状態にあることを示しています。",
+    "en": "Avalanche's predicted 24-hour direction is DOWN with a 1.2% decrease in confidence of 75%. The recent news about the 'sandwich attack' bot and Bitcoin rotations into altcoins may impact investor sentiment. The Fear & Greed Index at 23 indicates extreme fear in the market.",
+    "ja": "アバランチ2の24時間予測は下落で、1.2%の信頼度が75%です。サンドイッチ攻撃ボットやビットコインのアルティコインへの流れに関するニュースが投資家の意識に影響を与える可能性があります。恐怖と欲求不満指数は23で、市場は恐怖の状態です。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+1.03%",
+        "value": "+1.05%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {

@@ -1,6 +1,6 @@
 {
   "coinId": "lab",
-  "generatedAt": "2026-06-21T01:00:07.822365Z",
+  "generatedAt": "2026-06-21T02:00:07.782475Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": 4.69018311408782,
-    "confidence": 0.7567
+    "changePercent24h": 1.7513179638649055,
+    "confidence": 0.3993
   },
   "commentary": {
-    "en": "LAB (LAB) is expected to decline by 6.5% in the next 24 hours due to bearish technical signals and a neutral RSI reading. The recent 'sandwich attack' bot exploit and the collapse of altseasons may also weigh on investor sentiment. The Fear & Greed Index remains in extreme fear territory.",
-    "ja": "LAB (LAB) は、下落する可能性が 6.5% あり、技術指標が弱い傾向にある。最近の「サンドウィッチ攻撃」ボットの攻撃とアルトシーズンの崩壊も投資家の意欲を低下させる可能性があり、恐怖と欲求不満指数は極度の恐怖の領域にあります。",
+    "en": "The model predicts LAB will decline ~6.5% over the next 24 hours with high confidence (82%). Price is testing the upper Bollinger Band, a resistance level that often precedes short-term consolidation. Community sentiment on CoinGecko is 29% bullish and the Fear & Greed Index reads \"Extreme Fear\" (23), aligning with the model's forecast.",
+    "ja": "モデルはLABが今後24時間で約6.5%下落すると予測しています（信頼度: 高い 82%）。価格がボリンジャーバンド上限に到達しており、短期的な調整が起こりやすい状態です。CoinGeckoコミュニティでは29%が強気を示し、Fear & Greed指数は「Extreme Fear」（23）です。予測と方向性が一致しています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+1.03%",
+        "value": "+1.05%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {

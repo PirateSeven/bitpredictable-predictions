@@ -1,6 +1,6 @@
 {
   "coinId": "chainlink",
-  "generatedAt": "2026-06-21T01:00:07.822365Z",
+  "generatedAt": "2026-06-21T02:00:07.782475Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.29239137246350005,
-    "confidence": 0.7126
+    "changePercent24h": -0.1904378420490998,
+    "confidence": 0.6461
   },
   "commentary": {
-    "en": "Chainlink's 24-hour direction is predicted to be flat with a 0.0% return, based on neutral RSI-14 and Bollinger Band %B readings. The recent 'sandwich attack' exploit and collapse of altcoin rotations may have a negative impact on investor sentiment. However, the overall crypto market cap and Bitcoin's return are showing slight positivity.",
-    "ja": "チェーンリンクの24時間方向は、ニュートラルのRSI-14とボリンジャーバンド%Bの値から、0.0％のリターンで横ばいであると予想されます。最近の「サンドイッチ攻撃」被害とアルティコインのローテーション崩壊は、投資家の意識に否定的な影響を与える可能性があります。ただし、総暗号資産の市場キャップとビットコインのリターンは、微妙に陽性を示しています。",
+    "en": "The model predicts Chainlink will trade sideways over the next 24 hours with moderate confidence (55%). Price is testing the upper Bollinger Band, a resistance level that often precedes short-term consolidation. Community sentiment on CoinGecko is 67% bullish and the Fear & Greed Index reads \"Extreme Fear\" (23), diverging from the model's forecast, adding uncertainty.",
+    "ja": "モデルはChainlinkが今後24時間で横ばいで推移すると予測しています（信頼度: 中程度の 55%）。価格がボリンジャーバンド上限に到達しており、短期的な調整が起こりやすい状態です。CoinGeckoコミュニティでは67%が強気を示し、Fear & Greed指数は「Extreme Fear」（23）です。予測方向と乖離があり、不確実性が高まっています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,12 +1000,12 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+1.03%",
+        "value": "+1.05%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "62% bullish",
+        "value": "67% bullish",
         "url": "https://www.coingecko.com/en/coins/chainlink"
       },
       {

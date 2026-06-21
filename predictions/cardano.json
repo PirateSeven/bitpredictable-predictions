@@ -1,6 +1,6 @@
 {
   "coinId": "cardano",
-  "generatedAt": "2026-06-21T01:00:07.822365Z",
+  "generatedAt": "2026-06-21T02:00:07.782475Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.8498068043386753,
-    "confidence": 0.8049
+    "changePercent24h": -0.6247054863706456,
+    "confidence": 0.7547
   },
   "commentary": {
-    "en": "Cardano's 24-hour direction is predicted to be flat with a 0.1% decrease in confidence, as the RSI-14 is neutral at 57 and the Bollinger Band %B is at 0.73, indicating a mid-band position. The recent news of the 'sandwich attack' bot exploit and the collapse of Bitcoin rotations into altcoins may have a negative impact on Cardano's price. However, the Fear & Greed Index remains in extreme fear, which could lead to a potential rebound.",
-    "ja": "カードアノの24時間の方向は、0.1%の減少を予測しており、信頼度は低い。RSI-14は57で中立的、ボリンジャー・バンド %Bは0.73で中間の位置にある。最近のニュースでは「サンドウィッチ攻撃」ボットの攻撃とビットコインがアルティコインに回転することの崩壊が負の影響を与える可能性がある。恐怖と欲求不満指数は極度の恐怖のままで、価格の回復につながる可能性がある。",
+    "en": "Cardano's 24-hour direction is predicted to be flat with a -0.1% change, indicating a neutral sentiment. The recent 'sandwich attack' exploit and Bitcoin's stagnant return may contribute to this prediction. The Fear & Greed Index remains in Extreme Fear territory.",
+    "ja": "カードアノの24時間の方向は、-0.1%の変化で予測されており、中立的な感情を示しています。最近の「サンドウィッチ攻撃」による搾取とビットコインの安定したリターンは、この予測に寄与する可能性があります。恐怖と欲望指数はまだ極度の恐怖の領域にあります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,12 +1000,12 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+1.03%",
+        "value": "+1.05%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "86% bullish",
+        "value": "85% bullish",
         "url": "https://www.coingecko.com/en/coins/cardano"
       },
       {

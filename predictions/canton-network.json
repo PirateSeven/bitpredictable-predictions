@@ -1,6 +1,6 @@
 {
   "coinId": "canton-network",
-  "generatedAt": "2026-06-21T01:00:07.822365Z",
+  "generatedAt": "2026-06-21T02:00:07.782475Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -0.675080728562029,
-    "confidence": 0.7976
+    "changePercent24h": -0.3358034048018569,
+    "confidence": 0.6804
   },
   "commentary": {
-    "en": "The model predicts Canton will decline ~0.5% over the next 24 hours with high confidence (76%). Price moved -0.71% in the past 24 hours with volume at 0.9× average. Community sentiment on CoinGecko is 41% bullish and the Fear & Greed Index reads \"Extreme Fear\" (23), aligning with the model's forecast.",
-    "ja": "モデルはCantonが今後24時間で約0.5%下落すると予測しています（信頼度: 高い 76%）。過去24時間のリターンは-0.71%、出来高は平均の0.9倍です。CoinGeckoコミュニティでは41%が強気を示し、Fear & Greed指数は「Extreme Fear」（23）です。予測と方向性が一致しています。",
+    "en": "Canton (CANTON-NETWORK) is expected to decline by 0.5% in the next 24 hours, with a confidence level of 76%. The current market sentiment remains in extreme fear, as indicated by the Fear & Greed Index of 23. The recent news of the 'sandwich attack' bot exploitation and the collapse of altcoin rotations into Bitcoin may contribute to the bearish sentiment.",
+    "ja": "Canton (CANTON-NETWORK) は、次の 24 時間で 0.5% の下落が予想され、信頼度は 76% です。Fear & Greed Index は 23 で、極度の恐怖の状態が続いています。最近のニュースである「サンドウィッチ攻撃」ボットの搾取とアルティコインのビットコインへのローテーションが崩壊することは、恐怖の感情を強める可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+1.03%",
+        "value": "+1.05%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
