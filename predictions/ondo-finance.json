@@ -1,6 +1,6 @@
 {
   "coinId": "ondo-finance",
-  "generatedAt": "2026-06-21T09:00:08.543619Z",
+  "generatedAt": "2026-06-21T10:00:07.958438Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -0.5399038412367654,
-    "confidence": 0.2292
+    "changePercent24h": 0.3058419818429119,
+    "confidence": 0.1
   },
   "commentary": {
-    "en": "Ondo (ONDO) is predicted to decline by -4.3% in the next 24 hours, with a confidence level of 86%. The recent news of a Japanese corporate pension fund planning a 1% crypto allocation may have a positive impact on the market, but the overall sentiment remains in extreme fear. The short-term trend and recent price action suggest a downtrend.",
-    "ja": "ONDOは、次の24時間で-4.3%の下落が予測され、信頼度は86%です。日本の企業の年金基金が1%の暗号資産割合を計画しているニュースは、市場に肯定的な影響を与える可能性がありますが、総合的な感情は極度の恐怖のままです。短期のトレンドと最近の価格動作は、下降トレンドを示しています。",
+    "en": "The model predicts Ondo will decline ~4.3% over the next 24 hours with high confidence (86%). The short-term SMA is below the medium-term SMA, indicating weakening momentum. Community sentiment on CoinGecko is 89% bullish and the Fear & Greed Index reads \"Extreme Fear\" (23), diverging from the model's forecast, adding uncertainty.",
+    "ja": "モデルはOndoが今後24時間で約4.3%下落すると予測しています（信頼度: 高い 86%）。短期移動平均が中期移動平均を下回り、モメンタムの低下が示されています。CoinGeckoコミュニティでは89%が強気を示し、Fear & Greed指数は「Extreme Fear」（23）です。予測方向と乖離があり、不確実性が高まっています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,12 +1000,12 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.54%",
+        "value": "+0.48%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "90% bullish",
+        "value": "89% bullish",
         "url": "https://www.coingecko.com/en/coins/ondo-finance"
       },
       {

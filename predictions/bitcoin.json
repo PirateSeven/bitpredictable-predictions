@@ -1,6 +1,6 @@
 {
   "coinId": "bitcoin",
-  "generatedAt": "2026-06-21T09:00:08.543619Z",
+  "generatedAt": "2026-06-21T10:00:07.958438Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 0.4347138622922808,
-    "confidence": 0.7171
+    "changePercent24h": 0.6278083958144428,
+    "confidence": 0.7793
   },
   "commentary": {
-    "en": "Bitcoin's 24-hour direction is predicted to be flat with a -0.1% change, indicating a neutral sentiment. The Fear & Greed Index remains in extreme fear at 23, while the CoinGecko community is 84% bullish. Recent news on Japanese corporate pension fund allocation and Bitcoin ETFs shedding value may impact investor sentiment.",
-    "ja": "ビットコインの24時間の予測方向は、-0.1%の変化で、ニュートラルな感覚を示しています。恐怖と欲望指数は23で、極度の恐怖の状態にありますが、CoinGeckoコミュニティは84％がビジンです。日本の企業の年金基金への投資とビットコインETFの価値の減少に関する最近のニュースは、投資家の感覚に影響を与える可能性があります。",
+    "en": "Bitcoin's 24-hour direction is predicted to be flat with a 0.1% decline, but the confidence level is relatively low at 44%. The Fear & Greed Index remains in extreme fear territory, while the CoinGecko community is 84% bullish. Recent news on Japanese corporate pension funds and Bitcoin ETFs may influence market sentiment.",
+    "ja": "ビットコインの24時間の予測は、0.1%の下落が期待されるが、信頼度は44%に低い。恐怖と欲求不満指数は極度の恐怖の領域にあり、CoinGeckoコミュニティは84%がバ Bullishである。日本の企業年金とビットコインETFに関する最近のニュースは、市場の感情に影響を与える可能性がある。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.54%",
+        "value": "+0.48%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {

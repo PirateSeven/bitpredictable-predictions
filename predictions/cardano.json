@@ -1,6 +1,6 @@
 {
   "coinId": "cardano",
-  "generatedAt": "2026-06-21T09:00:08.543619Z",
+  "generatedAt": "2026-06-21T10:00:07.958438Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": 0.8489362037517032,
-    "confidence": 0.7788
+    "changePercent24h": 1.424524673979099,
+    "confidence": 0.8548
   },
   "commentary": {
-    "en": "Cardano is expected to decline by approximately 0.5% in the next 24 hours, with a 68% confidence level. The current market sentiment is extremely fearful, with the Fear & Greed Index at 23. The recent news of a Japanese corporate pension fund planning a 1% crypto allocation may have a positive impact on the market, but it is unclear at this time.",
-    "ja": "カードアノは、次の24時間で約0.5%の下落が予想され、68%の信頼度があります。Fear & Greed Indexは23と非常に恐怖の感情を表しています。日本の企業の年金基金が1%の暗号資産の割合を計画しているニュースは、市場に肯定的な影響を与える可能性がありますが、今のところは不明です。",
+    "en": "The model predicts Cardano will decline ~0.5% over the next 24 hours with moderate confidence (68%). Price moved -1.14% in the past 24 hours with volume at 1.0× average. Community sentiment on CoinGecko is 84% bullish and the Fear & Greed Index reads \"Extreme Fear\" (23), diverging from the model's forecast, adding uncertainty.",
+    "ja": "モデルはCardanoが今後24時間で約0.5%下落すると予測しています（信頼度: 中程度の 68%）。過去24時間のリターンは-1.14%、出来高は平均の1.0倍です。CoinGeckoコミュニティでは84%が強気を示し、Fear & Greed指数は「Extreme Fear」（23）です。予測方向と乖離があり、不確実性が高まっています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.54%",
+        "value": "+0.48%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {

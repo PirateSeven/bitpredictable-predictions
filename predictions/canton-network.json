@@ -1,6 +1,6 @@
 {
   "coinId": "canton-network",
-  "generatedAt": "2026-06-21T09:00:08.543619Z",
+  "generatedAt": "2026-06-21T10:00:07.958438Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": 4.166875864260008,
-    "confidence": 0.9459
+    "changePercent24h": 3.92431780952482,
+    "confidence": 0.9428
   },
   "commentary": {
-    "en": "Canton's 24-hour direction is predicted to be down by 0.8% with a confidence level of 76%. The recent news of Japanese corporate pension fund planning a 1% crypto allocation and the overall fear and greed index at 23 may not directly impact Canton's price. The short-term trend remains in an uptrend, but the predicted direction suggests a potential correction.",
-    "ja": "カントン ネットワークの24時間の予想方向は、0.8%下落と信頼度76%です。日本の企業の年金基金が1%の暗号資産割合を計画するニュースや、恐怖と欲求不満指数が23の状況では、カントン ネットワークの価格に直接影響しない可能性があります。短期のトレンドは上昇傾向ですが、予想方向は下落の可能性があることを示しています。",
+    "en": "Canton's 24-hour direction is predicted to be DOWN by 0.8% with 76% confidence, despite a short-term uptrend. This prediction is based on the current market context, including the Extreme Fear Fear & Greed Index and the recent news of Bitcoin ETFs shedding a record amount. The neutral RSI-14 reading suggests that the market is not overly optimistic or pessimistic about Canton.",
+    "ja": "カントン ネットワークの24時間予想は下落 (-0.8%) となり、短期的な上昇傾向にもかかわらず、76%の確率で予想されています。 この予測は、極度の恐怖のFear & Greed Indexと、ビットコインのETFが記録的な金額を失ったニュースなど、現在の市場状況に基づいています。 中立的なRSI-14の値は、カントン ネットワークについて市場が過度に楽観的または悲観的ではないことを示しています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.54%",
+        "value": "+0.48%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
