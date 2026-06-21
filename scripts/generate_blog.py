@@ -15,10 +15,16 @@ import json
 import os
 import sys
 import re
-import urllib.request
-import urllib.error
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
+
+try:
+    import requests as _requests
+    _HAS_REQUESTS = True
+except ImportError:
+    import urllib.request
+    import urllib.error
+    _HAS_REQUESTS = False
 
 REPO = Path(__file__).resolve().parent.parent
 BLOG_DIR = REPO / "blog"
@@ -106,38 +112,43 @@ def format_context_text(ctx: dict) -> str:
     return "\n".join(lines)
 
 
-def groq_generate(prompt: str, system: str) -> str:
-    if not GROQ_API_KEY:
-        return ""
-    payload = json.dumps({
-        "model": GROQ_MODEL,
+def _groq_post(model: str, system: str, prompt: str, max_tokens: int) -> str:
+    payload = {
+        "model": model,
         "messages": [
             {"role": "system", "content": system},
             {"role": "user", "content": prompt},
         ],
         "temperature": 0.7,
-        "max_tokens": 1500,
-    }).encode()
-    req = urllib.request.Request(
-        GROQ_URL,
-        data=payload,
-        headers={
-            "Authorization": f"Bearer {GROQ_API_KEY}",
-            "Content-Type": "application/json",
-        },
-        method="POST",
-    )
-    try:
-        with urllib.request.urlopen(req, timeout=30) as resp:
-            data = json.loads(resp.read())
-            return data["choices"][0]["message"]["content"].strip()
-    except urllib.error.HTTPError as e:
-        body = e.read().decode()
-        # Rate limit — fallback to 8b
-        if e.code == 429 and GROQ_MODEL != "llama-3.1-8b-instant":
-            return groq_generate_model(prompt, system, "llama-3.1-8b-instant")
-        print(f"Groq HTTP {e.code}: {body}", file=sys.stderr)
+        "max_tokens": max_tokens,
+    }
+    headers = {
+        "Authorization": f"Bearer {GROQ_API_KEY}",
+        "Content-Type": "application/json",
+    }
+    if _HAS_REQUESTS:
+        resp = _requests.post(GROQ_URL, json=payload, headers=headers, timeout=30)
+        if resp.status_code == 429 and model != "llama-3.1-8b-instant":
+            return _groq_post("llama-3.1-8b-instant", system, prompt, max_tokens)
+        resp.raise_for_status()
+        return resp.json()["choices"][0]["message"]["content"].strip()
+    else:
+        import urllib.request, urllib.error
+        req = urllib.request.Request(
+            GROQ_URL,
+            data=json.dumps(payload).encode(),
+            headers=headers,
+            method="POST",
+        )
+        with urllib.request.urlopen(req, timeout=30) as r:
+            return json.loads(r.read())["choices"][0]["message"]["content"].strip()
+
+
+def groq_generate(prompt: str, system: str) -> str:
+    if not GROQ_API_KEY:
         return ""
+    try:
+        return _groq_post(GROQ_MODEL, system, prompt, 1500)
     except Exception as e:
         print(f"Groq error: {e}", file=sys.stderr)
         return ""
@@ -146,28 +157,8 @@ def groq_generate(prompt: str, system: str) -> str:
 def groq_generate_model(prompt: str, system: str, model: str) -> str:
     if not GROQ_API_KEY:
         return ""
-    payload = json.dumps({
-        "model": model,
-        "messages": [
-            {"role": "system", "content": system},
-            {"role": "user", "content": prompt},
-        ],
-        "temperature": 0.7,
-        "max_tokens": 1200,
-    }).encode()
-    req = urllib.request.Request(
-        GROQ_URL,
-        data=payload,
-        headers={
-            "Authorization": f"Bearer {GROQ_API_KEY}",
-            "Content-Type": "application/json",
-        },
-        method="POST",
-    )
     try:
-        with urllib.request.urlopen(req, timeout=30) as resp:
-            data = json.loads(resp.read())
-            return data["choices"][0]["message"]["content"].strip()
+        return _groq_post(model, system, prompt, 1200)
     except Exception as e:
         print(f"Groq fallback error: {e}", file=sys.stderr)
         return ""
