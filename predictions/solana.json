@@ -1,6 +1,6 @@
 {
   "coinId": "solana",
-  "generatedAt": "2026-06-21T12:00:08.378704Z",
+  "generatedAt": "2026-06-21T13:00:07.588239Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 2.1221168418221166,
+    "changePercent24h": 2.1218882523906863,
     "confidence": 0.8405
   },
   "commentary": {
-    "en": "Solana's price is expected to remain flat in the next 24 hours with a 0.0% predicted return, as the market is in a state of extreme fear with the Fear & Greed Index at 23. The recent news of a Japanese corporate pension fund planning a 1% crypto allocation may have a positive impact on Solana's price, but the overall market sentiment remains cautious.",
-    "ja": "ソラナの価格は、次の24時間で0.0％の予想上昇率で平穏な状態にあり、恐怖と欲求不満指数が23に達しているため、市場全体の感情は慎重なものとなっています。日本の企業の年金基金が1％の暗号資産割合を計画しているニュースは、ソラナの価格にプラスの影響を与える可能性がありますが、市場全体の感情はまだ慎重なものとなっています。",
+    "en": "Solana's price is expected to remain flat in the next 24 hours with a low confidence level due to neutral technical signals and a sideways short-term trend. The Fear & Greed Index is at an extreme fear level, but the recent news about Japanese corporate pension fund planning a 1% crypto allocation may have a positive impact on the market. However, the overall market context suggests caution.",
+    "ja": "ソラナの価格は、低信頼度で次の24時間にフラットに推移する可能性があります。テクニカルシグナルは中立的で、短期のトレンドは横方向に推移しています。恐れと欲求不満指数は極度の恐怖レベルですが、日本の企業年金基金が1％の暗号資産割合を計画しているニュースが市場に良い影響を与える可能性があります。ただし、総暗号資産市場キャップの変化やビットコインの変化など、総市場状況は注意を要します。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.47%",
+        "value": "+0.45%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "83% bullish",
+        "value": "82% bullish",
         "url": "https://www.coingecko.com/en/coins/solana"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Dash eyes Philippines as market for crypto payments",
+        "url": "https://cointelegraph.com/news/dash-eyes-philippines-crypto-payments-market?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Japanese corporate pension fund plans 1% crypto allocation: Nikkei",
         "url": "https://cointelegraph.com/news/japanese-corporate-pension-fund-crypto-allocation?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Here’s what happened in crypto today",
-        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

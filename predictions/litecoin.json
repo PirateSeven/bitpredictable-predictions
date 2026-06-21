@@ -1,6 +1,6 @@
 {
   "coinId": "litecoin",
-  "generatedAt": "2026-06-21T12:00:08.378704Z",
+  "generatedAt": "2026-06-21T13:00:07.588239Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 1.0700757546403505,
+    "changePercent24h": 1.0699047860484185,
     "confidence": 0.8518
   },
   "commentary": {
-    "en": "Litecoin's short-term trend remains sideways, with a predicted 24h direction of flat and a 24h actual return of +1.71%. The Fear & Greed Index at 23 indicates extreme fear in the market, which may impact Litecoin's price. The recent news about Bitcoin ETFs and the sandwich attack bot may also influence Litecoin's performance.",
-    "ja": "リテコインの短期トレンドは横方向に推移しており、24時間予想の方向はフラットで、24時間実際の戻りは+1.71%です。恐怖と欲求不満指数が23のため市場は極度の恐怖の状態であり、これがリテコインの価格に影響を与える可能性があります。ビットコインのETFとサンドウィッチ攻撃ボットに関する最近のニュースもリテコインのパフォーマンスに影響を与える可能性があります。",
+    "en": "Litecoin's 24-hour direction is predicted to be flat with a 0.1% decrease in confidence. The recent news of Dash's expansion into the Philippines and a Japanese corporate pension fund's plan to allocate 1% to crypto may have a neutral impact on Litecoin's price. The Fear & Greed Index remains in extreme fear territory.",
+    "ja": "Litecoinの24時間の予測は、0.1%の下落に伴う可能性が48%の信頼度で、フラットと予想されます。Dashのフィリピンへの拡大と日本の企業年金基金の1%のコインへの割合計画は、Litecoinの価格に中立的な影響を与える可能性があります。Fear & Greed Indexは今でも極度の恐怖の領域にあります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.47%",
+        "value": "+0.45%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "88% bullish",
+        "value": "87% bullish",
         "url": "https://www.coingecko.com/en/coins/litecoin"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Dash eyes Philippines as market for crypto payments",
+        "url": "https://cointelegraph.com/news/dash-eyes-philippines-crypto-payments-market?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Japanese corporate pension fund plans 1% crypto allocation: Nikkei",
         "url": "https://cointelegraph.com/news/japanese-corporate-pension-fund-crypto-allocation?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Here’s what happened in crypto today",
-        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

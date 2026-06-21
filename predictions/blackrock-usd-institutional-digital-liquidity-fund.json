@@ -1,6 +1,6 @@
 {
   "coinId": "blackrock-usd-institutional-digital-liquidity-fund",
-  "generatedAt": "2026-06-21T12:00:08.378704Z",
+  "generatedAt": "2026-06-21T13:00:07.588239Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 0.013128419845707479,
+    "changePercent24h": 0.013121611017069615,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "The Blackrock USD Institutional Digital Liquidity Fund is expected to remain flat in the next 24 hours with a 95% confidence level. The fund's RSI-14 is overbought, and the Bollinger Band %B is at its lower band, indicating a potential reversal. The recent news of a Japanese corporate pension fund planning a 1% crypto allocation may have a positive impact on the fund's performance.",
-    "ja": "ブラックロック US ドル インスティテューショナル デジタル リキデティ フンドは、次の 24 時間で 95% の信頼度でフラットに残ることが予想されます。 このファンドの RSI-14 はオーバーボールド、ボリンジャー バンド %B は下限にあり、反転の可能性が示唆されています。 日系企業の年金基金が 1% の暗号資産割合を計画しているニュースは、ファンドのパフォーマンスにプラスの影響を与える可能性があります。",
+    "en": "The model predicts BlackRock USD Institutional Digital Liquidity Fund will trade sideways over the next 24 hours with high confidence (95%). RSI has reached overbought territory (100), suggesting elevated selling pressure. Market sentiment stands at \"Extreme Fear\" (Fear & Greed: 23); the broader crypto market moved +0.5% over the past 24 hours.",
+    "ja": "モデルはBlackRock USD Institutional Digital Liquidity Fundが今後24時間で横ばいで推移すると予測しています（信頼度: 高い 95%）。RSIが100と買われすぎ水準に達しており、短期的な売り圧力が高まりやすい局面です。Fear & Greed指数は「Extreme Fear」（23）で、暗号資産市場全体の24時間変動率は+0.5%です。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,8 +1000,13 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.47%",
+        "value": "+0.45%",
         "url": "https://www.coingecko.com/en/global-charts"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Dash eyes Philippines as market for crypto payments",
+        "url": "https://cointelegraph.com/news/dash-eyes-philippines-crypto-payments-market?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1012,11 +1017,6 @@
         "label": "CoinTelegraph",
         "value": "Japanese corporate pension fund plans 1% crypto allocation: Nikkei",
         "url": "https://cointelegraph.com/news/japanese-corporate-pension-fund-crypto-allocation?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Here’s what happened in crypto today",
-        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

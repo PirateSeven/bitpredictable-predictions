@@ -1,6 +1,6 @@
 {
   "coinId": "lab",
-  "generatedAt": "2026-06-21T12:00:08.378704Z",
+  "generatedAt": "2026-06-21T13:00:07.588239Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": 2.638810697466166,
-    "confidence": 0.6242
+    "changePercent24h": 2.6411155306051306,
+    "confidence": 0.6245
   },
   "commentary": {
-    "en": "LAB (LAB) is predicted to decline by 5.6% in the next 24 hours with a confidence level of 81%. This prediction is supported by the overbought RSI-14 and the upper band Bollinger Band %B. The recent news of a Japanese corporate pension fund planning a 1% crypto allocation may have a positive impact on LAB's price.",
-    "ja": "LAB (LAB) は次の24時間で5.6%の下落が予測され、信頼度は81%である。RSI-14がオーバーボールド、ボリンジャー・バンド %Bが上限にあることから、この予測が裏付けられている。日本の企業年金基金が1%のコインの割合を計画しているニュースはLABの価格に肯定的な影響を与える可能性がある。",
+    "en": "LAB (LAB) is predicted to decline by -5.6% in the next 24 hours, with a confidence level of 81%. The RSI-14 is overbought at 71, and the Bollinger Band %B is at 1.02, indicating a potential reversal. The recent news about the crypto market and Bitcoin's performance may contribute to this decline.",
+    "ja": "LAB (LAB) は来日24時間で-5.6%の下落が予測され、信頼度は81%です。 RSI-14は71でオーバーボールド、ボリンジャーバンド %B は1.02で、逆転の可能性が示唆されています。 最近のニュースでは、暗号通貨市場とビットコインのパフォーマンスがこの下落に寄与する可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.47%",
+        "value": "+0.45%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "47% bullish",
         "url": "https://www.coingecko.com/en/coins/lab"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Dash eyes Philippines as market for crypto payments",
+        "url": "https://cointelegraph.com/news/dash-eyes-philippines-crypto-payments-market?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Japanese corporate pension fund plans 1% crypto allocation: Nikkei",
         "url": "https://cointelegraph.com/news/japanese-corporate-pension-fund-crypto-allocation?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Here’s what happened in crypto today",
-        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

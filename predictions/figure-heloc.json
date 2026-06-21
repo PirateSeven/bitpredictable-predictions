@@ -1,6 +1,6 @@
 {
   "coinId": "figure-heloc",
-  "generatedAt": "2026-06-21T12:00:08.378704Z",
+  "generatedAt": "2026-06-21T13:00:07.588239Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 1.587844035957325,
+    "changePercent24h": 1.5879352781467786,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "Figure Heloc (FIGURE-HELOC) is expected to experience a flat 24-hour period with a slight decline of -0.1% due to overbought conditions and low trading volume. The recent market context of extreme fear and declining Bitcoin prices may also contribute to this prediction. However, the sideways short-term trend and mid-band Bollinger Band %B suggest a potential stabilization.",
-    "ja": "Figure Heloc (FIGURE-HELOC) は24時間の動向がフラットで-0.1%の低下が予想され、オーバーボールド状態と低い取引量が影響している。極度の恐怖感とビットコイン価格の低下などの最近の市場状況もこの予想に寄与する。ただし、短期的な横方向のトレンドとボリンジャー・バンドの% B 0.59は安定化の可能性を示唆している。",
+    "en": "Figure Heloc (FIGURE-HELOC) is predicted to be flat with a -0.1% change in the next 24 hours, indicating a potential consolidation phase. The overbought RSI-14 reading and low volume ratio suggest a possible correction. The sideways short-term trend and mid-band Bollinger Band %B indicate a neutral market sentiment.",
+    "ja": "Figure Heloc (FIGURE-HELOC) は、来る24時間で-0.1%の変動を予測しており、潜在的な収縮期を示唆しています。オーバーボールドのRSI-14読みと低いボリュームレシオは、可能な調整を示唆しています。短期の横方向のトレンドと中間帯のボリンジャー・バンド％Bは、中立的な市場感情を示しています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.47%",
+        "value": "+0.45%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "20% bullish",
+        "value": "17% bullish",
         "url": "https://www.coingecko.com/en/coins/figure-heloc"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Dash eyes Philippines as market for crypto payments",
+        "url": "https://cointelegraph.com/news/dash-eyes-philippines-crypto-payments-market?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Japanese corporate pension fund plans 1% crypto allocation: Nikkei",
         "url": "https://cointelegraph.com/news/japanese-corporate-pension-fund-crypto-allocation?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Here’s what happened in crypto today",
-        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

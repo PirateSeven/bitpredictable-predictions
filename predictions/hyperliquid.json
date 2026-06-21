@@ -1,6 +1,6 @@
 {
   "coinId": "hyperliquid",
-  "generatedAt": "2026-06-21T12:00:08.378704Z",
+  "generatedAt": "2026-06-21T13:00:07.588239Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -2.545944193949489,
+    "changePercent24h": -2.546313936009741,
     "confidence": 0.8602
   },
   "commentary": {
-    "en": "Hyperliquid (HYPERLIQUID) is expected to continue its downtrend with a predicted 24h direction of DOWN, -1.0% (confidence: 68%). The recent news of a Japanese corporate pension fund planning a 1% crypto allocation may have a positive impact on the market, but the overall sentiment remains bearish. The Fear & Greed Index at 23 indicates extreme fear, which could lead to further price drops.",
-    "ja": "Hyperliquid (HYPERLIQUID) は、24時間方向がDOWN、-1.0% (信頼度：68%)と予想されています。日本の企業年金基金が1％の暗号資産割合を計画しているニュースは、市場に肯定的な影響を与える可能性がありますが、全体的な感覚は悲観的です。恐怖と欲求不満指数が23であることは、価格のさらなる下落につながる可能性があります。",
+    "en": "Hyperliquid (HYPERLIQUID) is expected to decline by -1.0% in the next 24 hours with a confidence level of 68%. The current market sentiment is in extreme fear, as indicated by the Fear & Greed Index of 23. The recent news about the crypto market and Bitcoin's performance may have a negative impact on HYPERLIQUID's price.",
+    "ja": "Hyperliquid (HYPERLIQUID) は、次の24時間で-1.0%の下落が予想され、信頼度は68%です。Fear & Greed Indexは23で、極度の恐怖の状態です。最近のニュースは、Bitcoinのパフォーマンスなど、HYPERLIQUIDの価格に否定的な影響を与える可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.47%",
+        "value": "+0.45%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "51% bullish",
         "url": "https://www.coingecko.com/en/coins/hyperliquid"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Dash eyes Philippines as market for crypto payments",
+        "url": "https://cointelegraph.com/news/dash-eyes-philippines-crypto-payments-market?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Japanese corporate pension fund plans 1% crypto allocation: Nikkei",
         "url": "https://cointelegraph.com/news/japanese-corporate-pension-fund-crypto-allocation?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Here’s what happened in crypto today",
-        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

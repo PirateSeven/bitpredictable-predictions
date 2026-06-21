@@ -1,6 +1,6 @@
 {
   "coinId": "ondo-us-dollar-yield",
-  "generatedAt": "2026-06-21T12:00:08.378704Z",
+  "generatedAt": "2026-06-21T13:00:07.588239Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.9846817752144328,
+    "changePercent24h": -0.9847112805450973,
     "confidence": 0.8799
   },
   "commentary": {
-    "en": "ONDO-US-DOLLAR-YIELD is likely to remain flat with a -0.3% 24-hour direction, as the Fear & Greed Index remains in Extreme Fear and the total crypto market cap shows a moderate increase. The sideways short-term trend and low volume ratio also support this prediction. The recent news about Bitcoin ETFs shedding a record amount and the sandwich attack bot exploit may have a negative impact on the market.",
-    "ja": "ONDO-US-DOLLAR-YIELDは、恐怖と欲求不満指数が極度の恐怖にあり、総暗号資産市場キャップが比較的増加しているため、24時間方向が-0.3％のままである可能性があります。短期の傾向は横方向にあり、ボリューム比率も低いことから、この予測を裏付けています。最近のニュースでは、ビットコインのETFが記録的な金額を失い、サンドウィッチ攻撃のボットが7.5万ドルを搾取したことがあり、これらのニュースは市場に否定的な影響を与える可能性があります。",
+    "en": "ONDO-US-DOLLAR-YIELD is predicted to remain flat with a minor decline of -0.3% over the next 24 hours, with a confidence level of 74%. The current market sentiment is characterized by extreme fear, as reflected in the Fear & Greed Index of 23. The recent news on crypto payments and allocations may have a limited impact on ONDO-US-DOLLAR-YIELD's short-term performance.",
+    "ja": "ONDO-US-DOLLAR-YIELD は、次の24時間に-0.3%の小幅な下落を予測し、信頼度は74%である。現在の市場感情は、恐怖指数が23であることを示すように極度の恐怖によって特徴づけられている。最近のニュースであるcryptocurrencyの支払いと割り当てについては、短期的なパフォーマンスに限り影響を与える可能性がある。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,8 +1000,13 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.47%",
+        "value": "+0.45%",
         "url": "https://www.coingecko.com/en/global-charts"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Dash eyes Philippines as market for crypto payments",
+        "url": "https://cointelegraph.com/news/dash-eyes-philippines-crypto-payments-market?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1012,11 +1017,6 @@
         "label": "CoinTelegraph",
         "value": "Japanese corporate pension fund plans 1% crypto allocation: Nikkei",
         "url": "https://cointelegraph.com/news/japanese-corporate-pension-fund-crypto-allocation?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Here’s what happened in crypto today",
-        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

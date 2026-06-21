@@ -1,6 +1,6 @@
 {
   "coinId": "whitebit",
-  "generatedAt": "2026-06-21T12:00:08.378704Z",
+  "generatedAt": "2026-06-21T13:00:07.588239Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.46984646349755005,
-    "confidence": 0.7005
+    "changePercent24h": -0.4700071808984476,
+    "confidence": 0.7006
   },
   "commentary": {
-    "en": "WhiteBIT Coin's 24-hour direction is predicted to be flat with a -0.3% change, indicating a neutral sentiment. The Fear & Greed Index at 23, an extreme fear level, suggests that the market is cautious. The recent news about the crypto market's decline and security concerns may impact WhiteBIT Coin's price.",
-    "ja": "WHITEBITの24時間予測は、-0.3%の変化でフラットであることを示しています。恐怖と欲求不満指数が23、極度の恐怖のレベルであることを考えると、市場は慎重です。最近のニュースで、暗号資産市場の低迷とセキュリティに関する懸念がWHITEBITの価格に影響を与える可能性があります。",
+    "en": "WhiteBIT Coin's 24-hour direction is predicted to be flat with a -0.3% change, indicating a neutral sentiment. The Fear & Greed Index remains at 23, indicating extreme fear in the market. Recent news on crypto adoption and market trends may have a moderate impact on WhiteBIT Coin's price.",
+    "ja": "WHITEBITの24時間の予測は、-0.3%の変化でフラットであることを示しています。恐怖と欲求不満指数は23で、市場は極度の恐怖の状態です。最近のニュースでは、暗号通貨の採用と市場の傾向についての情報がWHITEBITの価格に中程度の影響を与える可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.47%",
+        "value": "+0.45%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "50% bullish",
+        "value": "33% bullish",
         "url": "https://www.coingecko.com/en/coins/whitebit"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Dash eyes Philippines as market for crypto payments",
+        "url": "https://cointelegraph.com/news/dash-eyes-philippines-crypto-payments-market?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Japanese corporate pension fund plans 1% crypto allocation: Nikkei",
         "url": "https://cointelegraph.com/news/japanese-corporate-pension-fund-crypto-allocation?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Here’s what happened in crypto today",
-        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

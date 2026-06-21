@@ -1,6 +1,6 @@
 {
   "coinId": "bittensor",
-  "generatedAt": "2026-06-21T12:00:08.378704Z",
+  "generatedAt": "2026-06-21T13:00:07.588239Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": 2.212287454599421,
+    "changePercent24h": 2.212490701605113,
     "confidence": 0.8796
   },
   "commentary": {
-    "en": "Bittensor's predicted 24h direction is DOWN with a -0.8% change, indicating a possible correction from its recent uptrend. The Fear & Greed Index remains in Extreme Fear territory, suggesting a cautious market sentiment. The recent news of Bitcoin ETFs shedding record funds and the 'sandwich attack' bot exploit may contribute to the bearish sentiment.",
-    "ja": "ビットテンソルの24時間予想は下落で-0.8％の変化を示しており、最近の上昇傾向からの調整が起こる可能性があります。恐怖と欲求不満指数は極度の恐怖の領域にあり、慎重な市場感覚を示しています。ビットコインETFの記録的な資金流出と「サンドウィッチ攻撃」ボットの搾取など、最近のニュースは陰性要因となります。",
+    "en": "Bittensor's predicted 24-hour direction is DOWN by -0.8% with a 70% confidence level. The asset's recent price movement is likely influenced by the overall crypto market's extreme fear sentiment and the decline in Bitcoin's price. Bittensor's short-term trend remains in an uptrend, but its price may experience a correction in the near term.",
+    "ja": "ビットテンソルの24時間予想は下げ込み-0.8%で70%の信頼度を持っています。アセットの最近の価格動向は、ビットコインの価格の下落や、総コインマーケットの恐怖の感情によって影響を受けています。ビットテンソルの短期の傾向は上昇傾向ですが、価格は短期的には下落する可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.47%",
+        "value": "+0.45%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "78% bullish",
+        "value": "75% bullish",
         "url": "https://www.coingecko.com/en/coins/bittensor"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Dash eyes Philippines as market for crypto payments",
+        "url": "https://cointelegraph.com/news/dash-eyes-philippines-crypto-payments-market?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Japanese corporate pension fund plans 1% crypto allocation: Nikkei",
         "url": "https://cointelegraph.com/news/japanese-corporate-pension-fund-crypto-allocation?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Here’s what happened in crypto today",
-        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

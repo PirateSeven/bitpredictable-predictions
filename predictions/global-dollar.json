@@ -1,6 +1,6 @@
 {
   "coinId": "global-dollar",
-  "generatedAt": "2026-06-21T12:00:08.378704Z",
+  "generatedAt": "2026-06-21T13:00:07.588239Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -970,8 +970,8 @@
     "confidence": 0.95
   },
   "commentary": {
-    "en": "The Global Dollar (GLOBAL-DOLLAR) is expected to remain flat in the next 24 hours with a 95% confidence level. The recent news of a Japanese corporate pension fund planning a 1% crypto allocation may have a positive impact on the market, but the overall sentiment remains in extreme fear. The neutral RSI-14 reading suggests that the market is in a state of equilibrium.",
-    "ja": "グローバル・ドル（GLOBAL-DOLLAR）は、来日24時間で95％の確率でフラットとなる予想です。日本の企業年金基金が1％の暗号資産割合を計画しているニュースは、市場に肯定的な影響を与える可能性がありますが、総合的な感覚は極度の恐怖の状態です。中立的なRSI-14の読みは、市場が均衡状態にあることを示しています。",
+    "en": "The Global Dollar is expected to remain flat in the next 24 hours with a 95% confidence level. The current market context suggests a cautious sentiment, with the Fear & Greed Index at Extreme Fear and a sideways short-term trend. The recent news on crypto adoption and market developments may not have a significant impact on the Global Dollar's price movement.",
+    "ja": "グローバル・ドルは次の24時間にフラットに推移する可能性があり、95％の確信度を持っています。市場の状況は、恐怖と欲望指数が極度の恐怖にあり、短期の傾向が横方向にあることを示唆しています。最近のニュースの中で、暗号通貨の採用や市場の動向に関するニュースはグローバル・ドルの価格動向に大きな影響を与える可能性はありません。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,8 +1000,13 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.47%",
+        "value": "+0.45%",
         "url": "https://www.coingecko.com/en/global-charts"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Dash eyes Philippines as market for crypto payments",
+        "url": "https://cointelegraph.com/news/dash-eyes-philippines-crypto-payments-market?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1012,11 +1017,6 @@
         "label": "CoinTelegraph",
         "value": "Japanese corporate pension fund plans 1% crypto allocation: Nikkei",
         "url": "https://cointelegraph.com/news/japanese-corporate-pension-fund-crypto-allocation?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Here’s what happened in crypto today",
-        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

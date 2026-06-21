@@ -1,6 +1,6 @@
 {
   "coinId": "usd-coin",
-  "generatedAt": "2026-06-21T12:00:08.378704Z",
+  "generatedAt": "2026-06-21T13:00:07.588239Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.008225129277423235,
+    "changePercent24h": -0.0082325868896138,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "USD Coin (USD-COIN) is expected to remain flat in the next 24 hours with a 0.0% predicted return, as the Fear & Greed Index indicates extreme fear in the market. The recent news of Bitcoin price decline and crypto winter chill may impact investor sentiment, but the neutral RSI-14 and mid-band Bollinger Band %B suggest a sideways trend. The coin's short-term trend is also sideways, with a volume ratio at 1.0x average.",
-    "ja": "USDコイン（USD-COIN）は、次の24時間に0.0％の予想利回りでフラットに推定され、Fear＆Greed Indexは市場で極度の恐怖を示しています。ビットコイン価格の低下と暗号通貨の冬の影響を受ける可能性がありますが、RSI-14は中立的で、ボリンジャー・バンドの％Bは中間帯にあり、短期のトレンドも横方向にあります。コインの短期トレンドは、平均のボリュームレシオが1.0倍であるため横方向にあります。",
+    "en": "USD Coin's 24-hour direction is predicted to be flat with a 0.0% return, indicating a neutral sentiment. The Fear & Greed Index remains in Extreme Fear territory, while the Total crypto market cap has seen a slight increase of 0.45% in the last 24 hours. The recent news about Bitcoin ETFs shedding a record $6.4B may have a limited impact on USD Coin's performance.",
+    "ja": "USDコインの24時間方向は、0.0％のリターンで予測されるため、中立的な感性を示している。 Fear＆Greed IndexはExtreme Fearの領域にあり、総暗号資産市場キャップは過去24時間で0.45％の増加を記録している。 最近のニュースで、ビットコインETFが記録の$6.4Bを失っていることは、USDコインのパフォーマンスに限られた影響を与える可能性がある。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.47%",
+        "value": "+0.45%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "50% bullish",
         "url": "https://www.coingecko.com/en/coins/usd-coin"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Dash eyes Philippines as market for crypto payments",
+        "url": "https://cointelegraph.com/news/dash-eyes-philippines-crypto-payments-market?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Japanese corporate pension fund plans 1% crypto allocation: Nikkei",
         "url": "https://cointelegraph.com/news/japanese-corporate-pension-fund-crypto-allocation?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Here’s what happened in crypto today",
-        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

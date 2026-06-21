@@ -1,6 +1,6 @@
 {
   "coinId": "leo-token",
-  "generatedAt": "2026-06-21T12:00:08.378704Z",
+  "generatedAt": "2026-06-21T13:00:07.588239Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -1.1089795702046932,
+    "changePercent24h": -1.1091478011777873,
     "confidence": 0.885
   },
   "commentary": {
-    "en": "LEO Token's 24-hour return is expected to be flat with a -0.2% change, based on technical signals. The Fear & Greed Index is at 23, indicating extreme fear in the market. The recent news about Bitcoin's price drop and crypto market trends may influence LEO Token's price movement.",
-    "ja": "LEO Token の 24 時間の変化は、-0.2% の変化で、技術的信号に基づいて予想されています。 Fear & Greed Index は 23 にあり、市場は極度の恐怖の状態です。 最近のニュースで、ビットコインの価格の低下と暗号通貨市場のトレンドは、LEO Token の価格動向に影響を与える可能性があります。",
+    "en": "LEO Token's 24-hour direction is predicted to be flat with a -0.2% change, based on technical signals. The RSI-14 and Bollinger Band %B indicate a neutral trend. However, the Fear & Greed Index at 23, indicating extreme fear, may influence market sentiment.",
+    "ja": "レオトークンの24時間の方向性は、技術指標に基づいて-0.2％の変化が予想される。RSI-14とボリンジャーバンド％Bは中立的な傾向を示している。しかし、恐怖と欲求不満指数が23、つまり極度の恐怖を示しているため、市場の感覚に影響を与える可能性がある。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,8 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.47%",
+        "value": "+0.45%",
         "url": "https://www.coingecko.com/en/global-charts"
+      },
+      {
+        "label": "CoinGecko Community Sentiment",
+        "value": "100% bullish",
+        "url": "https://www.coingecko.com/en/coins/leo-token"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Dash eyes Philippines as market for crypto payments",
+        "url": "https://cointelegraph.com/news/dash-eyes-philippines-crypto-payments-market?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1012,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Japanese corporate pension fund plans 1% crypto allocation: Nikkei",
         "url": "https://cointelegraph.com/news/japanese-corporate-pension-fund-crypto-allocation?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Here’s what happened in crypto today",
-        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

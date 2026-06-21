@@ -1,6 +1,6 @@
 {
   "coinId": "tether-gold",
-  "generatedAt": "2026-06-21T12:00:08.378704Z",
+  "generatedAt": "2026-06-21T13:00:07.588239Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 0.36574536985672346,
+    "changePercent24h": 0.36568880787021585,
     "confidence": 0.9325
   },
   "commentary": {
-    "en": "Tether Gold's 24-hour direction is predicted to be flat with a -0.2% return, reflecting the current neutral market sentiment. The recent news of Bitcoin ETFs shedding a record amount and the 'sandwich attack' bot exploit may weigh on investor confidence. However, the Japanese corporate pension fund's plan to allocate 1% to crypto could provide some support.",
-    "ja": "テザー・ゴールドの24時間の方向は、-0.2%のリターンでフラットと予想され、現在の中立的な市場感情を反映しています。ビットコインETFの記録的な損失と「サンドウィッチ攻撃」ボットの攻撃は、投資家の自信を損なう可能性があります。ただし、日本の企業の年金基金が1％をcryptocurrencyに割り当てる計画は、ある程度のサポートを与える可能性があります。",
+    "en": "Tether Gold's flat direction is predicted with a 90% confidence, driven by neutral RSI-14 and mid-band Bollinger Band %B. The sideways short-term trend and normal volume ratio support this prediction. The overall market context, including the Fear & Greed Index and recent news, does not significantly impact Tether Gold's price direction.",
+    "ja": "テザー・ゴールドの予想は、90%の確率でフラットの方向を予測しており、中立的なRSI-14と中間のボリンジャー・バンド％Bが推進力となっています。短期のトレンドが横方向に動いており、ボリュームの比率が正常なため、この予測を裏付けています。Fear & Greed Indexや最近のニュースなど、総合的な市場状況はテザー・ゴールドの価格方向に大きな影響を与えていません。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.47%",
+        "value": "+0.45%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "100% bullish",
         "url": "https://www.coingecko.com/en/coins/tether-gold"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Dash eyes Philippines as market for crypto payments",
+        "url": "https://cointelegraph.com/news/dash-eyes-philippines-crypto-payments-market?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Japanese corporate pension fund plans 1% crypto allocation: Nikkei",
         "url": "https://cointelegraph.com/news/japanese-corporate-pension-fund-crypto-allocation?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Here’s what happened in crypto today",
-        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

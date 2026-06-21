@@ -1,6 +1,6 @@
 {
   "coinId": "ethereum",
-  "generatedAt": "2026-06-21T12:00:08.378704Z",
+  "generatedAt": "2026-06-21T13:00:07.588239Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.37039629276936936,
-    "confidence": 0.6445
+    "changePercent24h": -0.3707318454809862,
+    "confidence": 0.6447
   },
   "commentary": {
-    "en": "Ethereum's 24-hour direction is predicted to be flat with a -0.2% change, showing a 52% confidence level. The current market sentiment remains in extreme fear, as indicated by the Fear & Greed Index at 23. The recent news of a Japanese corporate pension fund planning a 1% crypto allocation may have a positive impact on Ethereum's price.",
-    "ja": "エーテレムの24時間の方向は、-0.2％の変化を示し、52％の信頼性を持って予測されています。Fear & Greed Indexが23に達しているため、現在の市場の感情は極度の恐怖の状態です。日本の企業の年金基金が1％の暗号資産割合を計画しているニュースは、エーテレムの価格にプラスの影響を与える可能性があります。",
+    "en": "Ethereum's 24-hour direction is predicted to be flat with a -0.2% change, indicating a neutral sentiment. The Fear & Greed Index remains at 23, reflecting extreme fear in the market. Recent news suggests a mixed sentiment, with some positive developments such as a Japanese corporate pension fund planning a 1% crypto allocation.",
+    "ja": "エーテレムの24時間の予測方向は、-0.2%の変化を示し、中立的な感情を示しています。恐怖と欲求不満指数は23で、市場に極度の恐怖が残っています。最近のニュースでは、ジャパンの企業の年金基金が1％の暗号資産の割合を計画しているなど、さまざまな感情が示されています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.47%",
+        "value": "+0.45%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "81% bullish",
+        "value": "84% bullish",
         "url": "https://www.coingecko.com/en/coins/ethereum"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Dash eyes Philippines as market for crypto payments",
+        "url": "https://cointelegraph.com/news/dash-eyes-philippines-crypto-payments-market?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Japanese corporate pension fund plans 1% crypto allocation: Nikkei",
         "url": "https://cointelegraph.com/news/japanese-corporate-pension-fund-crypto-allocation?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Here’s what happened in crypto today",
-        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

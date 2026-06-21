@@ -1,6 +1,6 @@
 {
   "coinId": "cardano",
-  "generatedAt": "2026-06-21T12:00:08.378704Z",
+  "generatedAt": "2026-06-21T13:00:07.588239Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": 0.6712317112037746,
-    "confidence": 0.7346
+    "changePercent24h": 0.670958643649964,
+    "confidence": 0.7345
   },
   "commentary": {
-    "en": "Cardano is expected to decline by approximately 0.6% in the next 24 hours, with a confidence level of 70%. This prediction is based on the current technical signals and market context, which indicate a neutral RSI-14 reading and a sideways short-term trend. The Fear & Greed Index remains in extreme fear territory.",
-    "ja": "カードアノは次の24時間で約0.6%の値下げが予想され、信頼度は70%です。これは、現在の技術指標と市場状況に基づいており、RSI-14の中立的な値と短期的な傾向の横方向の傾向を示しています。恐怖と欲求不満指数は極度の恐怖の領域にあります。",
+    "en": "Cardano's price is predicted to decline by 0.6% in the next 24 hours with a 70% confidence level. The current market sentiment is extreme fear, as indicated by the Fear & Greed Index of 23. The recent news about Japanese corporate pension fund planning a 1% crypto allocation may have a positive impact on the market in the long term.",
+    "ja": "カードアノの価格は、次の24時間で0.6%の下落が予想され、70%の確信度が付いています。Fear & Greed Indexは23で、極度の恐怖の状態です。日本の企業の年金基金が1%の暗号資産割合を計画しているニュースは、長期的には市場に肯定的な影響を与える可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.47%",
+        "value": "+0.45%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "84% bullish",
         "url": "https://www.coingecko.com/en/coins/cardano"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Dash eyes Philippines as market for crypto payments",
+        "url": "https://cointelegraph.com/news/dash-eyes-philippines-crypto-payments-market?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Japanese corporate pension fund plans 1% crypto allocation: Nikkei",
         "url": "https://cointelegraph.com/news/japanese-corporate-pension-fund-crypto-allocation?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Here’s what happened in crypto today",
-        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

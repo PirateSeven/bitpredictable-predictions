@@ -1,6 +1,6 @@
 {
   "coinId": "tether",
-  "generatedAt": "2026-06-21T12:00:08.378704Z",
+  "generatedAt": "2026-06-21T13:00:07.588239Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.06169516720617752,
+    "changePercent24h": -0.06171526484436839,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "Tether's 24-hour direction is predicted to be flat with a -0.0% confidence level, indicating a stable price movement. The Fear & Greed Index remains at 23, reflecting extreme fear in the market, while the total crypto market cap has seen a 0.47% increase. Tether's price movement is likely to be influenced by the overall market sentiment.",
-    "ja": "テザーの24時間の動向は、-0.0％の確信度で予測され、安定した価格動向を示しています。Fear & Greed Indexは23で、市場全体の恐怖感を反映しています。総暗号資産市場キャップは0.47％増加しています。テザーの価格動向は、市場全体の感覚に影響を受ける可能性があります。",
+    "en": "Tether (TETHER) is expected to remain flat in the next 24 hours with a confidence level of 95%. The current market conditions, including the Fear & Greed Index at 23 and the total crypto market cap 24h change at +0.45%, do not indicate a strong trend for Tether. The recent news about Bitcoin ETFs shedding a record $6.4B in 30 days may have a limited impact on Tether's price.",
+    "ja": "テザー（TETHER）は、次の24時間に95％の信頼性でフラットで推定されます。Fear & Greed Indexが23、総暗号資産市場キャップ24時間変化が+0.45%である現在の市場状況は、テザーの強い傾向を示していません。Bitcoin ETFが30日間で記録の$6.4Bを失ったニュースは、テザーの価格に限りなく影響を与える可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.47%",
+        "value": "+0.45%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "50% bullish",
         "url": "https://www.coingecko.com/en/coins/tether"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Dash eyes Philippines as market for crypto payments",
+        "url": "https://cointelegraph.com/news/dash-eyes-philippines-crypto-payments-market?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Japanese corporate pension fund plans 1% crypto allocation: Nikkei",
         "url": "https://cointelegraph.com/news/japanese-corporate-pension-fund-crypto-allocation?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Here’s what happened in crypto today",
-        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

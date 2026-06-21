@@ -1,6 +1,6 @@
 {
   "coinId": "world-liberty-financial",
-  "generatedAt": "2026-06-21T12:00:08.378704Z",
+  "generatedAt": "2026-06-21T13:00:07.588239Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": 1.406459380619109,
+    "changePercent24h": 1.4059672884505,
     "confidence": 0.8517
   },
   "commentary": {
-    "en": "World Liberty Financial (WORLD-LIBERTY-FINANCIAL) is predicted to move downwards by 0.8% in the next 24 hours with a confidence level of 76%. The RSI-14 is neutral at 43, while the Bollinger Band %B is at 0.34, indicating a mid-band position. The sideways short-term trend and normal volume ratio also suggest a cautious outlook.",
-    "ja": "ワールド・リバティ・フィナンシャル（WORLD-LIBERTY-FINANCIAL）は、次の24時間で0.8%下落する予測（信頼度76％）です。RSI-14は43で中立的な位置にあり、ボリンジャー・バンド %Bは0.34で中間位置にあります。短期のトレンドは横方向に動いており、ボリュームの比率も正常なため、慎重な姿勢をとる必要があります。",
+    "en": "World Liberty Financial's 24-hour direction is predicted to be DOWN with a 76% confidence level, driven by the current market sentiment of Extreme Fear. The RSI-14 is neutral at 43, while the Bollinger Band %B is at 0.34, indicating a sideways trend. The recent news on cryptocurrency market developments may not have a significant impact on WORLD-LIBERTY-FINANCIAL's price.",
+    "ja": "ワールド・リバティ・フィナンシャルは24時間の予想方向は下落で、信頼度は76％である。RSI-14は43で中立的な値であり、ボリンジャー・バンドの%Bは0.34で横方向のトレンドを示している。最近のニュースは、ワールド・リバティ・フィナンシャル価格に大きな影響を与える可能性は低い。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.47%",
+        "value": "+0.45%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "17% bullish",
+        "value": "20% bullish",
         "url": "https://www.coingecko.com/en/coins/world-liberty-financial"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Dash eyes Philippines as market for crypto payments",
+        "url": "https://cointelegraph.com/news/dash-eyes-philippines-crypto-payments-market?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Japanese corporate pension fund plans 1% crypto allocation: Nikkei",
         "url": "https://cointelegraph.com/news/japanese-corporate-pension-fund-crypto-allocation?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Here’s what happened in crypto today",
-        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

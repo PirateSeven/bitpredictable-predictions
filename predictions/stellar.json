@@ -1,6 +1,6 @@
 {
   "coinId": "stellar",
-  "generatedAt": "2026-06-21T12:00:08.378704Z",
+  "generatedAt": "2026-06-21T13:00:07.588239Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -0.4020980881486067,
-    "confidence": 0.1698
+    "changePercent24h": -0.4027413734623684,
+    "confidence": 0.1707
   },
   "commentary": {
-    "en": "Stellar's price is expected to decline by 3.8% in the next 24 hours, driven by the overall market sentiment and lack of strong technical signals. The Fear & Greed Index remains in Extreme Fear territory, and the recent news about Bitcoin ETFs and the sandwich attack bot exploit may contribute to the bearish sentiment. The sideways short-term trend and neutral RSI-14 also suggest a potential downward movement.",
-    "ja": "ステラルの価格は、来る24時間で3.8％下落する可能性があり、市場全体の感覚と強力な技術指標の欠如によって推進される。恐怖と欲求不満指数は極度の恐怖の状態にあり、ビットコインのETFとサンドウィッチ攻撃ボットのエクスプロイトに関する最近のニュースが、悲観的な感覚に貢献する可能性がある。短期的な傾向は横方向に動いており、RSI-14は中立的な状態にあるため、下落する可能性がある。",
+    "en": "Stellar's predicted 24-hour direction is DOWN with a 3.8% decrease in confidence of 86%. The RSI-14 is neutral at 40, and Bollinger Band %B is at 0.11, indicating a lower band. The Fear & Greed Index is at 23, indicating Extreme Fear.",
+    "ja": "ステラルの24時間予想方向は下落で、86％の確信度で3.8％の減少が予想されています。RSI-14は40で中立的な状態で、ボリンジャー・バンド％Bは0.11で下方のバンドにあります。恐怖と欲求不満指数は23で、極度の恐怖を示しています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.47%",
+        "value": "+0.45%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "62% bullish",
         "url": "https://www.coingecko.com/en/coins/stellar"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Dash eyes Philippines as market for crypto payments",
+        "url": "https://cointelegraph.com/news/dash-eyes-philippines-crypto-payments-market?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Japanese corporate pension fund plans 1% crypto allocation: Nikkei",
         "url": "https://cointelegraph.com/news/japanese-corporate-pension-fund-crypto-allocation?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Here’s what happened in crypto today",
-        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

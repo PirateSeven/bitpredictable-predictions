@@ -1,6 +1,6 @@
 {
   "coinId": "ondo-finance",
-  "generatedAt": "2026-06-21T12:00:08.378704Z",
+  "generatedAt": "2026-06-21T13:00:07.588239Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -0.4870128357883061,
-    "confidence": 0.197
+    "changePercent24h": -0.4873544083919601,
+    "confidence": 0.1974
   },
   "commentary": {
-    "en": "Ondo (ONDO-FINANCE) is expected to decline by -4.2% in the next 24 hours, with a confidence level of 86%. The recent market context, including the Fear & Greed Index at 23 and the total crypto market cap's 24h change of +0.47%, suggests a cautious outlook. The sideways short-term trend and neutral RSI-14 reading also support this prediction.",
-    "ja": "ONDO-FINANCEは、次の24時間で-4.2%の下落が予想され、信頼度は86%です。Fear & Greed Indexが23と、総暗号資産市場キャップの24時間変化が+0.47%であるrecent市場状況、そして中期傾向が横方向、RSI-14が中立的な値であることから、慎重な展開が予想されます。",
+    "en": "Ondo (ONDO-FINANCE) is predicted to move downward with a 4.2% drop in the next 24 hours, with a confidence level of 86%. The RSI-14 is neutral at 40, while the Bollinger Band %B is at 0.18, indicating a lower band. The recent news and market context suggest a bearish sentiment.",
+    "ja": "オンド・フィナンス（ONDO-FINANCE）は、次の24時間に4.2％の下落が予測され、信頼度は86％です。RSI-14は40で中立的な状態であり、ボリンジャー・バンドの%Bは0.18で下方のバンドにあります。最近のニュースや市場状況は、悲観的な意見を示しています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.47%",
+        "value": "+0.45%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "90% bullish",
         "url": "https://www.coingecko.com/en/coins/ondo-finance"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Dash eyes Philippines as market for crypto payments",
+        "url": "https://cointelegraph.com/news/dash-eyes-philippines-crypto-payments-market?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Japanese corporate pension fund plans 1% crypto allocation: Nikkei",
         "url": "https://cointelegraph.com/news/japanese-corporate-pension-fund-crypto-allocation?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Here’s what happened in crypto today",
-        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

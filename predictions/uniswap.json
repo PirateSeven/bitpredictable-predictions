@@ -1,6 +1,6 @@
 {
   "coinId": "uniswap",
-  "generatedAt": "2026-06-21T12:00:08.378704Z",
+  "generatedAt": "2026-06-21T13:00:07.588239Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -2.8651766803163286,
+    "changePercent24h": -2.865483204196391,
     "confidence": 0.8734
   },
   "commentary": {
-    "en": "Uniswap's 24-hour direction is predicted to be DOWN by 2.2% with 83% confidence, in line with the overall crypto market's sideways trend. The Fear & Greed Index remains in Extreme Fear territory, which may continue to weigh on UNISWAP's price. Recent news on Bitcoin ETFs shedding record funds and the 'sandwich attack' bot exploit could further impact investor sentiment.",
-    "ja": "Uniswapの24時間予想はDOWN 2.2%、83%の確信度で、総合の横方向のトレンドに沿っています。Fear & Greed Indexは今もエクストリーム フィアの領域にあり、これがUNISWAPの価格に影響を与える可能性があります。Bitcoin ETFの記録的な資金流出と「サンドウィッチ アタック」ボットの攻撃は投資家の感性に影響を与える可能性があります。",
+    "en": "The model predicts Uniswap will decline ~2.2% over the next 24 hours with high confidence (83%). Price moved +0.37% in the past 24 hours with volume at 1.0× average. Community sentiment on CoinGecko is 67% bullish and the Fear & Greed Index reads \"Extreme Fear\" (23), diverging from the model's forecast, adding uncertainty.",
+    "ja": "モデルはUniswapが今後24時間で約2.2%下落すると予測しています（信頼度: 高い 83%）。過去24時間のリターンは+0.37%、出来高は平均の1.0倍です。CoinGeckoコミュニティでは67%が強気を示し、Fear & Greed指数は「Extreme Fear」（23）です。予測方向と乖離があり、不確実性が高まっています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.47%",
+        "value": "+0.45%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "67% bullish",
         "url": "https://www.coingecko.com/en/coins/uniswap"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Dash eyes Philippines as market for crypto payments",
+        "url": "https://cointelegraph.com/news/dash-eyes-philippines-crypto-payments-market?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Japanese corporate pension fund plans 1% crypto allocation: Nikkei",
         "url": "https://cointelegraph.com/news/japanese-corporate-pension-fund-crypto-allocation?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Here’s what happened in crypto today",
-        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

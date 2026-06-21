@@ -1,6 +1,6 @@
 {
   "coinId": "rain",
-  "generatedAt": "2026-06-21T12:00:08.378704Z",
+  "generatedAt": "2026-06-21T13:00:07.588239Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.18893616109107209,
-    "confidence": 0.8702
+    "changePercent24h": -0.18907273078280828,
+    "confidence": 0.8703
   },
   "commentary": {
-    "en": "Rain (RAIN) is likely to experience a flat 24-hour period with a slight decline of -0.1% due to the current market sentiment of extreme fear. The recent news of Bitcoin's decline and the crypto winter chill may have a negative impact on Rain's price. However, the neutral RSI-14 and mid-band Bollinger Band %B suggest a stable short-term trend.",
-    "ja": "Rain (RAIN) は24時間の動きがフラットで、-0.1%の下落が予想される。これは現在の極度の恐怖感に影響されており、ビットコインの下落やクリプト冬の影響が価格に影響を与える可能性がある。ただし、RSI-14は中立的で、ボリンジャー・バンドの%Bは中間帯に位置しているため、短期的なトレンドは安定している。",
+    "en": "Rain (RAIN) is expected to remain flat with a 0.1% decrease in the next 24 hours, based on technical signals. The current market context, including the Fear & Greed Index at 23, suggests a cautious approach. Recent news on the adoption of cryptocurrencies in the Philippines and Japan may have a limited impact on RAIN's price.",
+    "ja": "Rain (RAIN) は、技術的シグナルに基づいて、来る24時間で0.1%の下落が予想されます。Fear & Greed Indexが23の状況では、慎重なアプローチが必要です。フィリピンや日本でのcryptocurrencyの採用に関する最近のニュースは、RAINの価格に限られた影響を与える可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.47%",
+        "value": "+0.45%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "67% bullish",
         "url": "https://www.coingecko.com/en/coins/rain"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Dash eyes Philippines as market for crypto payments",
+        "url": "https://cointelegraph.com/news/dash-eyes-philippines-crypto-payments-market?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Japanese corporate pension fund plans 1% crypto allocation: Nikkei",
         "url": "https://cointelegraph.com/news/japanese-corporate-pension-fund-crypto-allocation?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Here’s what happened in crypto today",
-        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }
