@@ -1,6 +1,6 @@
 {
   "coinId": "ethereum",
-  "generatedAt": "2026-06-21T04:00:07.643652Z",
+  "generatedAt": "2026-06-21T05:00:07.980469Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.15244432047472867,
-    "confidence": 0.4735
+    "changePercent24h": -0.3005483696629113,
+    "confidence": 0.6152
   },
   "commentary": {
-    "en": "Ethereum's 24-hour return is +1.79%, with a flat predicted direction and neutral RSI-14 at 58. The Fear & Greed Index remains in extreme fear at 23, while the CoinGeck community is 87% bullish. Recent news includes a sandwich attack bot exploit and discussions on altseasons and DeFi revisions.",
-    "ja": "エーテレムの24時間リターンは+1.79%で、予測の24時間方向はフラット、RSI-14は58で中立的な状態です。Fear＆Greed Indexは23で極度の恐怖の状態にあり、CoinGeckコミュニティは87％がバブルです。最近のニュースでは、サンドウィッチアタックボットのエクスプロイトやアルティーズイーズンとDeFiの改善についての議論が報じられています。",
+    "en": "Ethereum's 24-hour direction is predicted to be flat with a 39% confidence level, as the RSI-14 is neutral at 58 and the Bollinger Band %B is at 0.69, indicating a mid-band position. The recent news about the crypto market, including the Bitcoin ETFs shedding a record $6.4B and the 'sandwich attack' bot exploited for $7.5M, may have a negative impact on Ethereum's price. The Fear & Greed Index is at 23, indicating extreme fear in the market.",
+    "ja": "イーサリアムの24時間の方向性は、39％の信頼レベルでフラットと予測されています。RSI-14は58で中立的な状態であり、ボリンジャーバンド％Bは0.69で中間の位置にあります。最近のニュースで、ビットコインETFが$6.4Bを失い、$7.5Mを稼ぐ「サンドウィッチアタック」ボットが搾取されたなど、イーサリアムの価格に否定的な影響を与える可能性があります。恐怖と欲求不満指数は23で、市場全体が恐怖に包まれていることを示しています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,28 +1000,28 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+1.35%",
+        "value": "+1.18%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "87% bullish",
+        "value": "88% bullish",
         "url": "https://www.coingecko.com/en/coins/ethereum"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Here’s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitcoin ETFs shed a record $6.4B in 30 days amid crypto winter chill",
+        "url": "https://cointelegraph.com/news/bitcoin-etfs-shed-a-record-64b-in-30-days-as-bitcoin-shivers?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
         "value": "Notorious ‘sandwich attack’ bot Jaredfromsubway.eth exploited for $7.5M",
         "url": "https://cointelegraph.com/news/notorious-sandwich-attack-bot-jaredfromsubwayeth-exploited-for-75m?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Bitcoin rotations into altcoins collapses: Have altseasons 'disappeared'?",
-        "url": "https://cointelegraph.com/markets/bitcoin-rotations-into-altcoins-collapses-have-altseasons-disappeared?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Crypto industry looks to stablecoins and DeFi revisions in MiCA 2.0",
-        "url": "https://cointelegraph.com/features/crypto-industry-stablecoins-defi-mica?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "coinId": "usds",
-  "generatedAt": "2026-06-21T04:00:07.643652Z",
+  "generatedAt": "2026-06-21T05:00:07.980469Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.01018543687416415,
+    "changePercent24h": -0.008351454373808666,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "USDS is expected to remain flat in the next 24 hours with a 0.0% return, given its neutral RSI-14 reading and mid-band Bollinger Band %B. The recent 'sandwich attack' bot exploit and collapse of altcoin rotations into Bitcoin may have a limited impact on USDS. The stable market context, with a Fear & Greed Index at Extreme Fear, supports this prediction.",
-    "ja": "USDS は次の24時間で0.0％のリターンでフラットになる可能性があり、RSI-14の中立的な値とボリンジャー バンド %Bの中間値が裏付けている。最近の「サンドウィッチ アタック」ボットの攻撃とアルティコインのビットコインへの転換の崩壊はUSDSに限られた影響を与える可能性がある。恐怖と欲求不満指数が極度の恐怖にあり、安定した市場状況はこの予測を裏付ける。",
+    "en": "USDS is predicted to remain flat in the next 24 hours with a 95% confidence level. The current market context suggests a neutral sentiment, with the Fear & Greed Index at 23, indicating extreme fear. The recent news of Bitcoin ETFs shedding a record $6.4B and the collapse of altcoin rotations may have a limited impact on USDS.",
+    "ja": "USDS は来る24時間で95％の確率でフラットになる予想です。Fear & Greed Indexは23で、極度の恐怖を示しています。Bitcoin ETFの$6.4Bの記録的な損失とアルティコインのローテーションの崩壊などの最近のニュースはUSDSに限りなく影響を与える可能性はあります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,23 +1000,23 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+1.35%",
+        "value": "+1.18%",
         "url": "https://www.coingecko.com/en/global-charts"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Here’s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitcoin ETFs shed a record $6.4B in 30 days amid crypto winter chill",
+        "url": "https://cointelegraph.com/news/bitcoin-etfs-shed-a-record-64b-in-30-days-as-bitcoin-shivers?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
         "value": "Notorious ‘sandwich attack’ bot Jaredfromsubway.eth exploited for $7.5M",
         "url": "https://cointelegraph.com/news/notorious-sandwich-attack-bot-jaredfromsubwayeth-exploited-for-75m?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Bitcoin rotations into altcoins collapses: Have altseasons 'disappeared'?",
-        "url": "https://cointelegraph.com/markets/bitcoin-rotations-into-altcoins-collapses-have-altseasons-disappeared?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Crypto industry looks to stablecoins and DeFi revisions in MiCA 2.0",
-        "url": "https://cointelegraph.com/features/crypto-industry-stablecoins-defi-mica?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

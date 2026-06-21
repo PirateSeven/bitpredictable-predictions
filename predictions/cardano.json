@@ -1,6 +1,6 @@
 {
   "coinId": "cardano",
-  "generatedAt": "2026-06-21T04:00:07.643652Z",
+  "generatedAt": "2026-06-21T05:00:07.980469Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.8325709109113493,
-    "confidence": 0.7959
+    "changePercent24h": -0.08880272467798114,
+    "confidence": 0.3686
   },
   "commentary": {
-    "en": "Cardano's price is expected to remain flat in the short term, with a predicted 24h direction of -0.2% and a confidence level of 55%. The recent 'sandwich attack' bot exploit and the collapse of altseasons may have a negative impact on the market. However, the overall market context, including the Fear & Greed Index and the total crypto market cap, suggests a cautious optimism.",
-    "ja": "カードアノの価格は短期的にフラットのままになる可能性があり、24時間の予想方向は-0.2%、信頼度は55%です。最近の「サンドウィッチ攻撃」ボットのハッキングとアルティーズシーズンの崩壊は市場に否定的な影響を与える可能性があります。ただし、恐怖と欲求不満指数や総暗号資産市場キャップなどの総市場状況は、慎重に楽観的な状況を示しています。",
+    "en": "Cardano's short-term trend remains sideways, with a 24h direction predicted to be flat and a minor decline of -0.2%. The Fear & Greed Index indicates extreme fear in the market, while the CoinGecko community remains 85% bullish. The recent news on Bitcoin ETFs and altcoin rotations may impact Cardano's price.",
+    "ja": "カードアノの短期トレンドは横方向に動いており、24時間の予想方向はフラットで-0.2％の小幅な下落が予想されます。Fear & Greed Indexは極度の恐怖を示しており、CoinGeckoコミュニティは85％がbullishです。ビットコインのETFやアルティコインのローテーションに関する最近のニュースはカードアノの価格に影響を与える可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,28 +1000,28 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+1.35%",
+        "value": "+1.18%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "88% bullish",
+        "value": "85% bullish",
         "url": "https://www.coingecko.com/en/coins/cardano"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Here’s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitcoin ETFs shed a record $6.4B in 30 days amid crypto winter chill",
+        "url": "https://cointelegraph.com/news/bitcoin-etfs-shed-a-record-64b-in-30-days-as-bitcoin-shivers?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
         "value": "Notorious ‘sandwich attack’ bot Jaredfromsubway.eth exploited for $7.5M",
         "url": "https://cointelegraph.com/news/notorious-sandwich-attack-bot-jaredfromsubwayeth-exploited-for-75m?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Bitcoin rotations into altcoins collapses: Have altseasons 'disappeared'?",
-        "url": "https://cointelegraph.com/markets/bitcoin-rotations-into-altcoins-collapses-have-altseasons-disappeared?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Crypto industry looks to stablecoins and DeFi revisions in MiCA 2.0",
-        "url": "https://cointelegraph.com/features/crypto-industry-stablecoins-defi-mica?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

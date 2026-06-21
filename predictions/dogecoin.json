@@ -1,6 +1,6 @@
 {
   "coinId": "dogecoin",
-  "generatedAt": "2026-06-21T04:00:07.643652Z",
+  "generatedAt": "2026-06-21T05:00:07.980469Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.4243553282552739,
-    "confidence": 0.7597
+    "changePercent24h": -0.2455583226092215,
+    "confidence": 0.673
   },
   "commentary": {
-    "en": "Dogecoin's flat 24h direction prediction is based on its neutral RSI-14 reading and mid-band Bollinger Band %B. The recent 'sandwich attack' bot exploit and collapse of Bitcoin rotations into altcoins may weigh on investor sentiment. However, the Fear & Greed Index remains in Extreme Fear territory.",
-    "ja": "ドージコインの24時間方向予測は、RSI-14の中立的な値とボリンジャーバンドの%バンドの中間値に基づいています。最近の「サンドウィッチ攻撃」ボットの搾取とビットコインのアルティコインへの回転の崩壊は投資家の気分を下げる可能性があります。ただし、恐怖と欲求不満指数はまだ極度の恐怖の領域にあります。",
+    "en": "Dogecoin is expected to remain flat in the short term, with a 24-hour direction of -0.0% and a confidence level of 53%. The recent news on altseasons and DeFi revisions may have a neutral impact on Dogecoin's price. The Fear & Greed Index remains in extreme fear, which could influence investor sentiment.",
+    "ja": "ドージコインは短期において、24時間の方向性は-0.0%で、信頼度は53%と予想されています。アルトシーズンやDeFiの改善に関する最近のニュースはドージコインの価格に中立的な影響を与える可能性があります。Fear & Greed Indexは極度の恐怖の状態にあり、これが投資家の意識に影響を与える可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+1.35%",
+        "value": "+1.18%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
@@ -1010,18 +1010,18 @@
       },
       {
         "label": "CoinTelegraph",
+        "value": "Here’s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitcoin ETFs shed a record $6.4B in 30 days amid crypto winter chill",
+        "url": "https://cointelegraph.com/news/bitcoin-etfs-shed-a-record-64b-in-30-days-as-bitcoin-shivers?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
         "value": "Notorious ‘sandwich attack’ bot Jaredfromsubway.eth exploited for $7.5M",
         "url": "https://cointelegraph.com/news/notorious-sandwich-attack-bot-jaredfromsubwayeth-exploited-for-75m?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Bitcoin rotations into altcoins collapses: Have altseasons 'disappeared'?",
-        "url": "https://cointelegraph.com/markets/bitcoin-rotations-into-altcoins-collapses-have-altseasons-disappeared?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Crypto industry looks to stablecoins and DeFi revisions in MiCA 2.0",
-        "url": "https://cointelegraph.com/features/crypto-industry-stablecoins-defi-mica?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

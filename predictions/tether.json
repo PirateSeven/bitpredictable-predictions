@@ -1,6 +1,6 @@
 {
   "coinId": "tether",
-  "generatedAt": "2026-06-21T04:00:07.643652Z",
+  "generatedAt": "2026-06-21T05:00:07.980469Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 0.08283691720508252,
+    "changePercent24h": 0.05840258098817775,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "Tether's flat 24-hour direction is expected, with a confidence level of 95% due to neutral RSI-14 and sideways short-term trend. The Fear & Greed Index remains in extreme fear, but the total crypto market cap has seen a slight increase. Recent news on stablecoins and DeFi revisions may impact Tether's price.",
-    "ja": "テザーの24時間の方向性は、95％の確率でフラットであると予想されます。中期指標RSI-14は中立的な値を示し、短期の傾向も横方向に推移しています。恐怖と欲求不満指数は極度の恐怖の状態ですが、総暗号資産市場キャップはわずかに増加しています。最近のニュースでは、安定コインとDeFiの改善がテザーの価格に影響を与える可能性があります。",
+    "en": "Tether (TETHER) is expected to trade flat with a 0% 24-hour return, as indicated by technical signals and market context. The Fear & Greed Index remains in Extreme Fear, while the total crypto market cap shows a slight increase. The recent news highlights the challenges faced by the crypto market, including the decline of Bitcoin ETFs and the exploitation of a sandwich attack bot.",
+    "ja": "テザー（TETHER）は、技術的信号と市場状況から24時間で0％のリターンでトレードする可能性があります。恐怖と欲求不満指数は極度の恐怖の状態にあり、総暗号資産市場キャップはわずかに増加しています。最近のニュースは、暗号市場が直面している課題を強調しています、例えばビットコインETFの減少やサンドウィッチ攻撃ボットの搾取。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+1.35%",
+        "value": "+1.18%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
@@ -1010,18 +1010,18 @@
       },
       {
         "label": "CoinTelegraph",
+        "value": "Here’s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitcoin ETFs shed a record $6.4B in 30 days amid crypto winter chill",
+        "url": "https://cointelegraph.com/news/bitcoin-etfs-shed-a-record-64b-in-30-days-as-bitcoin-shivers?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
         "value": "Notorious ‘sandwich attack’ bot Jaredfromsubway.eth exploited for $7.5M",
         "url": "https://cointelegraph.com/news/notorious-sandwich-attack-bot-jaredfromsubwayeth-exploited-for-75m?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Bitcoin rotations into altcoins collapses: Have altseasons 'disappeared'?",
-        "url": "https://cointelegraph.com/markets/bitcoin-rotations-into-altcoins-collapses-have-altseasons-disappeared?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Crypto industry looks to stablecoins and DeFi revisions in MiCA 2.0",
-        "url": "https://cointelegraph.com/features/crypto-industry-stablecoins-defi-mica?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

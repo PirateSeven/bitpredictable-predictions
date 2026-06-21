@@ -1,6 +1,6 @@
 {
   "coinId": "figure-heloc",
-  "generatedAt": "2026-06-21T04:00:07.643652Z",
+  "generatedAt": "2026-06-21T05:00:07.980469Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.7947904603353433,
+    "changePercent24h": -0.09810877935821838,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "Figure Heloc's price is expected to remain flat, with a slight decline of -0.1% in the next 24 hours, due to its overbought RSI-14 and low trading volume. The recent news about the 'sandwich attack' bot and the collapse of altseasons may have a negative impact on the altcoin market, including Figure Heloc. Overall, the market context remains cautious, with an Extreme Fear sentiment and a low CoinGecko community sentiment.",
-    "ja": "Figure Helocの価格は、オーバーボールドのRSI-14と低い取引量のため、来週の24時間で-0.1%の低下が予想されます。最近のニュースである「サンドウィッチ攻撃」ボットとアルティーズンが崩壊したことによる負の影響がアルティコイン市場に及ぼす可能性があります。市場の状況は慎重で、エクストリーム・フィアの感覚と低いCoinGeckoコミュニティの感覚が続いています。",
+    "en": "Figure Heloc (FIGURE-HELOC) is expected to experience a flat 24-hour direction with a slight decline of -0.1% due to its overbought RSI-14 reading and low volume ratio. The recent news of a record $6.4B outflow from Bitcoin ETFs and the exploitation of the 'sandwich attack' bot may also contribute to the bearish sentiment. However, the overall crypto market remains in extreme fear, which may limit the extent of the decline.",
+    "ja": "Figure Heloc (FIGURE-HELOC) は24時間方向がフラットで-0.1%の下落が予想され、RSI-14がオーバーボールド、低ボリュームレシオが原因となる。Bitcoin ETFの$6.4Bの流出と「サンドウィッチ攻撃」ボットの搾取も、陰性の感情を引き起こす可能性がある。ただし、総コインマーケットキャップの+1.18%の増加とBTCの+0.30%の増加、CoinGeckoコミュニティの20%のバブルスラントは、下落の限界を制限する可能性がある。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,28 +1000,28 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+1.35%",
+        "value": "+1.18%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "25% bullish",
+        "value": "20% bullish",
         "url": "https://www.coingecko.com/en/coins/figure-heloc"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Here’s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitcoin ETFs shed a record $6.4B in 30 days amid crypto winter chill",
+        "url": "https://cointelegraph.com/news/bitcoin-etfs-shed-a-record-64b-in-30-days-as-bitcoin-shivers?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
         "value": "Notorious ‘sandwich attack’ bot Jaredfromsubway.eth exploited for $7.5M",
         "url": "https://cointelegraph.com/news/notorious-sandwich-attack-bot-jaredfromsubwayeth-exploited-for-75m?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Bitcoin rotations into altcoins collapses: Have altseasons 'disappeared'?",
-        "url": "https://cointelegraph.com/markets/bitcoin-rotations-into-altcoins-collapses-have-altseasons-disappeared?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Crypto industry looks to stablecoins and DeFi revisions in MiCA 2.0",
-        "url": "https://cointelegraph.com/features/crypto-industry-stablecoins-defi-mica?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

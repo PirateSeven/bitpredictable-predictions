@@ -1,6 +1,6 @@
 {
   "coinId": "shiba-inu",
-  "generatedAt": "2026-06-21T04:00:07.643652Z",
+  "generatedAt": "2026-06-21T05:00:07.980469Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 2.3440721067589707,
-    "confidence": 0.9211
+    "changePercent24h": 1.8159166710154064,
+    "confidence": 0.9009
   },
   "commentary": {
-    "en": "Shiba Inu's (SHIB) price is expected to remain flat with a slight decline of -0.3% in the next 24 hours, based on technical signals. The recent 'sandwich attack' bot exploit and the collapse of altseasons may have a negative impact on SHIB's price. However, the Fear & Greed Index remains in Extreme Fear territory, which could lead to potential buying opportunities.",
-    "ja": "Shiba Inu (SHIB) の価格は、技術指標に基づくと、次の24時間で -0.3% の小幅な下落が予想される。最近の「サンドウィッチ攻撃」ボットの攻撃とアルティコインのシーズンの崩壊は、SHIBの価格に否定的な影響を与える可能性がある。ただし、恐怖と欲求不満指数は極度の恐怖の領域にあり、これが買い機の機会を生み出す可能性がある。",
+    "en": "Shiba Inu's 24-hour direction is predicted to be flat with a 0.3% decline, reflecting the neutral RSI-14 reading of 49. The mid-band Bollinger Band %B of 0.56 suggests a stable price range. The recent news on altseasons and DeFi revisions may impact SHIB's price movement.",
+    "ja": "Shiba Inuの24時間の方向性は、0.3%の下落を予測しており、RSI-14の値は49で中立的な値を示しています。ボリンジャーバンドの% Bは0.56で、安定した価格レンジを示しています。最近のニュースでは、アルトシーズンとデフィー改善の影響がSHIBの価格動向に影響を与える可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,28 +1000,28 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+1.35%",
+        "value": "+1.18%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "65% bullish",
+        "value": "67% bullish",
         "url": "https://www.coingecko.com/en/coins/shiba-inu"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Here’s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitcoin ETFs shed a record $6.4B in 30 days amid crypto winter chill",
+        "url": "https://cointelegraph.com/news/bitcoin-etfs-shed-a-record-64b-in-30-days-as-bitcoin-shivers?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
         "value": "Notorious ‘sandwich attack’ bot Jaredfromsubway.eth exploited for $7.5M",
         "url": "https://cointelegraph.com/news/notorious-sandwich-attack-bot-jaredfromsubwayeth-exploited-for-75m?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Bitcoin rotations into altcoins collapses: Have altseasons 'disappeared'?",
-        "url": "https://cointelegraph.com/markets/bitcoin-rotations-into-altcoins-collapses-have-altseasons-disappeared?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Crypto industry looks to stablecoins and DeFi revisions in MiCA 2.0",
-        "url": "https://cointelegraph.com/features/crypto-industry-stablecoins-defi-mica?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

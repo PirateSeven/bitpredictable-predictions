@@ -1,6 +1,6 @@
 {
   "coinId": "aster-2",
-  "generatedAt": "2026-06-21T04:00:07.643652Z",
+  "generatedAt": "2026-06-21T05:00:07.980469Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": 0.6240771509655185,
-    "confidence": 0.5798
+    "changePercent24h": -0.8908656200941399,
+    "confidence": 0.678
   },
   "commentary": {
-    "en": "Aster (ASTER-2) is expected to decline by 1.0% within the next 24 hours due to a combination of technical signals and market context. The Fear & Greed Index remains in Extreme Fear territory, and the recent 'sandwich attack' bot exploit may have a negative impact on investor sentiment. The sideways short-term trend and neutral RSI-14 reading suggest a lack of clear direction.",
-    "ja": "Aster (ASTER-2) は、技術的な信号と市場状況の両方から、来週の24時間で1.0％の下落が予想されます。恐怖と欲求不満指数は、極度の恐怖の状態にあり、最近の「サンドウィッチ攻撃」ボットのエクスプロイトは投資家の感情に否定的な影響を与える可能性があります。短期的な傾向は横方向にあり、RSI-14の読みは中立的です。",
+    "en": "Aster (ASTER-2) is predicted to move downwards by 1.0% in the next 24 hours with a confidence level of 70%. The current market context suggests extreme fear with a Fear & Greed Index of 23 and a total crypto market cap increase of 1.18%. The recent news about Bitcoin ETFs and altseasons may have a negative impact on ASTER-2's price.",
+    "ja": "ASTER-2は、次の24時間に下降する可能性が70%の信頼度で1.0%予想されます。現在の市場状況は極度の恐怖を示しており、Fear & Greed Indexは23、総暗号資産市場キャップは1.18%増加しています。Bitcoin ETFやアルトシーズンの最近のニュースはASTER-2の価格に否定的な影響を与える可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,28 +1000,28 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+1.35%",
+        "value": "+1.18%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "44% bullish",
+        "value": "40% bullish",
         "url": "https://www.coingecko.com/en/coins/aster-2"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Here’s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitcoin ETFs shed a record $6.4B in 30 days amid crypto winter chill",
+        "url": "https://cointelegraph.com/news/bitcoin-etfs-shed-a-record-64b-in-30-days-as-bitcoin-shivers?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
         "value": "Notorious ‘sandwich attack’ bot Jaredfromsubway.eth exploited for $7.5M",
         "url": "https://cointelegraph.com/news/notorious-sandwich-attack-bot-jaredfromsubwayeth-exploited-for-75m?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Bitcoin rotations into altcoins collapses: Have altseasons 'disappeared'?",
-        "url": "https://cointelegraph.com/markets/bitcoin-rotations-into-altcoins-collapses-have-altseasons-disappeared?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Crypto industry looks to stablecoins and DeFi revisions in MiCA 2.0",
-        "url": "https://cointelegraph.com/features/crypto-industry-stablecoins-defi-mica?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "coinId": "ripple",
-  "generatedAt": "2026-06-21T04:00:07.643652Z",
+  "generatedAt": "2026-06-21T05:00:07.980469Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.8495707521261666,
-    "confidence": 0.8641
+    "changePercent24h": -0.424322984482905,
+    "confidence": 0.7784
   },
   "commentary": {
-    "en": "XRP's 24-hour direction is predicted to be flat with a 57% confidence level, supported by neutral RSI-14 and mid-band Bollinger Band %B. The recent news on the crypto industry's focus on stablecoins and DeFi revisions may have a positive impact on XRP's price. However, the Extreme Fear sentiment and lack of short-term trend indicate caution.",
-    "ja": "XRPの24時間の方向性は、57％の確信度でフラットと予想され、中立的なRSI-14とバンド中間のボリンジャー・バンド％Bによってサポートされている。  stablecoinsとDeFiの再検討に焦点を当てた最近のニュースは、XRPの価格にプラスの影響を与える可能性がある。しかし、極度の恐怖の感情と短期的な傾向の欠如は注意を要する。",
+    "en": "XRP's 24-hour direction is predicted to be flat with a 57% confidence level, as the RSI-14 and Bollinger Band %B indicate a neutral trend. The recent news on altseasons and DeFi revisions may impact XRP's performance, but the Fear & Greed Index remains in extreme fear. XRP's short-term trend is sideways, with a 24-hour actual return of +0.66%.",
+    "ja": "リップルの24時間の方向は、57％の確信度でフラットと予測され、RSI-14とボリンジャー・バンド %Bは中立的なトレンドを示しています。アルトシーズンやデフィー改善に関する最近のニュースはリップルのパフォーマンスに影響を与える可能性がありますが、恐怖と欲求不満指数は極度の恐怖のままであります。リップルの短期のトレンドは横方向にあり、24時間の実際のリターンは+0.66％です。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,28 +1000,28 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+1.35%",
+        "value": "+1.18%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "63% bullish",
+        "value": "62% bullish",
         "url": "https://www.coingecko.com/en/coins/ripple"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Here’s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitcoin ETFs shed a record $6.4B in 30 days amid crypto winter chill",
+        "url": "https://cointelegraph.com/news/bitcoin-etfs-shed-a-record-64b-in-30-days-as-bitcoin-shivers?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
         "value": "Notorious ‘sandwich attack’ bot Jaredfromsubway.eth exploited for $7.5M",
         "url": "https://cointelegraph.com/news/notorious-sandwich-attack-bot-jaredfromsubwayeth-exploited-for-75m?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Bitcoin rotations into altcoins collapses: Have altseasons 'disappeared'?",
-        "url": "https://cointelegraph.com/markets/bitcoin-rotations-into-altcoins-collapses-have-altseasons-disappeared?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Crypto industry looks to stablecoins and DeFi revisions in MiCA 2.0",
-        "url": "https://cointelegraph.com/features/crypto-industry-stablecoins-defi-mica?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

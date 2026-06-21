@@ -1,6 +1,6 @@
 {
   "coinId": "bitcoin-cash",
-  "generatedAt": "2026-06-21T04:00:07.643652Z",
+  "generatedAt": "2026-06-21T05:00:07.980469Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 0.81083765688126,
-    "confidence": 0.8154
+    "changePercent24h": 1.0193139414082228,
+    "confidence": 0.8457
   },
   "commentary": {
-    "en": "Bitcoin Cash is expected to trade flat with a slight decline of -0.2% in the next 24 hours, with a confidence level of 59%. The recent 'sandwich attack' bot exploit and Bitcoin rotations into altcoins may weigh on BCH's performance. The Fear & Greed Index remains in Extreme Fear territory, indicating a cautious market sentiment.",
-    "ja": "ビットコインキャッシュは、次の24時間で-0.2%の小幅な下落が予想され、信頼度は59%です。最近の「サンドウィッチアタック」ボットの攻撃とビットコインのアルトコインへのローテーションは、BCHのパフォーマンスに影響を与える可能性があります。恐怖と欲求不満指数は、極度の恐怖の領域にあり、慎重な市場感覚を示しています。",
+    "en": "Bitcoin Cash is expected to experience a flat 24-hour period with a potential decline of 0.2% due to neutral technical signals and a bearish market context. The Fear & Greed Index remains in extreme fear territory, and the recent news of Bitcoin ETFs shedding a record amount and altseasons potentially disappearing may contribute to the bearish sentiment. However, the overall crypto market cap has shown a slight increase, indicating some level of resilience.",
+    "ja": "ビットコイン・キャッシュは、中立的な技術指標と恐怖の市場状況の影響を受けて24時間で0.2%の下落が予想される。恐怖と欲求不満指数は極度の恐怖の状態にあり、ビットコインETFの記録的な損失とアルトシーズンの消滅に関するニュースは恐怖の感情を高めている。ただし、総暗号資産市場キャップは微妙に増加しているため、ある程度の抵抗力がある。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+1.35%",
+        "value": "+1.18%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
@@ -1010,18 +1010,18 @@
       },
       {
         "label": "CoinTelegraph",
+        "value": "Here’s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitcoin ETFs shed a record $6.4B in 30 days amid crypto winter chill",
+        "url": "https://cointelegraph.com/news/bitcoin-etfs-shed-a-record-64b-in-30-days-as-bitcoin-shivers?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
         "value": "Notorious ‘sandwich attack’ bot Jaredfromsubway.eth exploited for $7.5M",
         "url": "https://cointelegraph.com/news/notorious-sandwich-attack-bot-jaredfromsubwayeth-exploited-for-75m?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Bitcoin rotations into altcoins collapses: Have altseasons 'disappeared'?",
-        "url": "https://cointelegraph.com/markets/bitcoin-rotations-into-altcoins-collapses-have-altseasons-disappeared?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Crypto industry looks to stablecoins and DeFi revisions in MiCA 2.0",
-        "url": "https://cointelegraph.com/features/crypto-industry-stablecoins-defi-mica?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

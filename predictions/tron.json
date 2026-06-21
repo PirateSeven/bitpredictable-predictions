@@ -1,6 +1,6 @@
 {
   "coinId": "tron",
-  "generatedAt": "2026-06-21T04:00:07.643652Z",
+  "generatedAt": "2026-06-21T05:00:07.980469Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 1.0205593901259646,
-    "confidence": 0.9024
+    "changePercent24h": 0.6111861028010537,
+    "confidence": 0.856
   },
   "commentary": {
-    "en": "TRON's price movement is expected to remain flat in the short term, with a 64% confidence level. The recent 'sandwich attack' bot exploit and the collapse of altcoin rotations into Bitcoin may impact investor sentiment. TRON's price is likely to be influenced by the overall market trend, which is currently experiencing a slight increase.",
-    "ja": "トロンの価格動向は短期的には、64％の確信度でフラットのままであると予想されます。最近の「サンドウィッチ攻撃」ボットのエクスプロイトやアルティコインのビットコインへのローテーションが崩壊するなど、投資家の感情を影響する可能性のある出来事が発生しています。トロンの価格は、現在はわずかに増加中の総市場トレンドに影響を受ける可能性があります。",
+    "en": "TRON's 24-hour return is +1.26%, with a flat predicted direction and neutral RSI-14. The Fear & Greed Index remains in Extreme Fear, while the CoinGecko community is 37% bullish. TRON's price movement appears to be influenced by the overall crypto market sentiment.",
+    "ja": "トロンの24時間リターンは+1.26%、予想される24時間方向はフラット、RSI-14は中立です。恐怖と欲求不満指数は極度の恐怖のままであり、CoinGeckoコミュニティは37％がbullishです。トロンの価格動向は、総合的な暗号通貨市場の気分に影響を受けています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+1.35%",
+        "value": "+1.18%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
@@ -1010,18 +1010,18 @@
       },
       {
         "label": "CoinTelegraph",
+        "value": "Here’s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitcoin ETFs shed a record $6.4B in 30 days amid crypto winter chill",
+        "url": "https://cointelegraph.com/news/bitcoin-etfs-shed-a-record-64b-in-30-days-as-bitcoin-shivers?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
         "value": "Notorious ‘sandwich attack’ bot Jaredfromsubway.eth exploited for $7.5M",
         "url": "https://cointelegraph.com/news/notorious-sandwich-attack-bot-jaredfromsubwayeth-exploited-for-75m?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Bitcoin rotations into altcoins collapses: Have altseasons 'disappeared'?",
-        "url": "https://cointelegraph.com/markets/bitcoin-rotations-into-altcoins-collapses-have-altseasons-disappeared?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Crypto industry looks to stablecoins and DeFi revisions in MiCA 2.0",
-        "url": "https://cointelegraph.com/features/crypto-industry-stablecoins-defi-mica?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

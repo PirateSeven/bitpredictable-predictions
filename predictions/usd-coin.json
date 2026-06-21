@@ -1,6 +1,6 @@
 {
   "coinId": "usd-coin",
-  "generatedAt": "2026-06-21T04:00:07.643652Z",
+  "generatedAt": "2026-06-21T05:00:07.980469Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.0022559290603357887,
+    "changePercent24h": -0.0029008536848305136,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "USD Coin is expected to remain flat in the next 24 hours with a 95% confidence level due to neutral technical signals and a sideways short-term trend. The Fear & Greed Index at 23 indicates extreme fear in the market, while the total crypto market cap has seen a slight increase of 1.35%. Recent news on stablecoins and DeFi revisions may influence USD Coin's price movement.",
-    "ja": "USDコインは次の24時間に95％の確率でフラットな動きを示す可能性があり、技術面のシグナルは中立的で、短期のトレンドも横方向に動いている。恐怖と欲求不満指数は23で極度の恐怖を示しており、総暗号資産市場キャップは1.35％増加している。安定コインとデフィー改善に関する最近のニュースは、USDコインの価格動向に影響を与える可能性がある。",
+    "en": "USD Coin (USD-COIN) is expected to remain flat in the next 24 hours with a 95% confidence level, as its RSI-14 and Bollinger Band %B are neutral and mid-band respectively. The recent news on stablecoins and DeFi revisions in MiCA 2.0 may have a positive impact on USD Coin, but the overall market context remains in extreme fear. The sideways short-term trend and normal volume ratio also support the flat prediction.",
+    "ja": "USD コイン (USD-COIN) は、次の 24 時間で 95% の信頼度でフラットに推定されます。 RSI-14 とボリンジャー バンド %B は中立的で中間帯にあります。  最近のニュースは、スタブラー コインと DeFi の MiCA 2.0 の改善により、USD コインにプラスの影響を与える可能性がありますが、総合的な市場状況は極度の恐怖のままです。  短期の傾向は横方向で、正常なボリューム レシオもフラットの予測を支えています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+1.35%",
+        "value": "+1.18%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
@@ -1010,18 +1010,18 @@
       },
       {
         "label": "CoinTelegraph",
+        "value": "Here’s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitcoin ETFs shed a record $6.4B in 30 days amid crypto winter chill",
+        "url": "https://cointelegraph.com/news/bitcoin-etfs-shed-a-record-64b-in-30-days-as-bitcoin-shivers?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
         "value": "Notorious ‘sandwich attack’ bot Jaredfromsubway.eth exploited for $7.5M",
         "url": "https://cointelegraph.com/news/notorious-sandwich-attack-bot-jaredfromsubwayeth-exploited-for-75m?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Bitcoin rotations into altcoins collapses: Have altseasons 'disappeared'?",
-        "url": "https://cointelegraph.com/markets/bitcoin-rotations-into-altcoins-collapses-have-altseasons-disappeared?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Crypto industry looks to stablecoins and DeFi revisions in MiCA 2.0",
-        "url": "https://cointelegraph.com/features/crypto-industry-stablecoins-defi-mica?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "coinId": "bittensor",
-  "generatedAt": "2026-06-21T04:00:07.643652Z",
+  "generatedAt": "2026-06-21T05:00:07.980469Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -2.4603781224869854,
-    "confidence": 0.9173
+    "changePercent24h": -2.6034059750159564,
+    "confidence": 0.9215
   },
   "commentary": {
-    "en": "Bittensor's predicted 24h direction is flat with a -0.2% confidence, supported by neutral RSI-14 and mid-band Bollinger Band %B. The recent news of the 'sandwich attack' bot exploitation and Bitcoin rotations into altcoins may impact investor sentiment. Bittensor's price may remain stable amidst the current market conditions.",
-    "ja": "ビッテンソルの24時間予測は、-0.2％の確信でフラットです。中立的なRSI-14とバンド中間のボリンジャー・バンド％Bによってサポートされています。最近のニュースである「サンドウィッチ攻撃」ボットの搾取とビットコインのアルティコインへの回転は、投資家の感情に影響を与える可能性があります。ビッテンソルの価格は、現在の市場状況で安定する可能性があります。",
+    "en": "The model predicts Bittensor will trade sideways over the next 24 hours with moderate confidence (52%). Price moved +1.81% in the past 24 hours with volume at 1.1× average. Community sentiment on CoinGecko is 70% bullish and the Fear & Greed Index reads \"Extreme Fear\" (23), diverging from the model's forecast, adding uncertainty.",
+    "ja": "モデルはBittensorが今後24時間で横ばいで推移すると予測しています（信頼度: 中程度の 52%）。過去24時間のリターンは+1.81%、出来高は平均の1.1倍です。CoinGeckoコミュニティでは70%が強気を示し、Fear & Greed指数は「Extreme Fear」（23）です。予測方向と乖離があり、不確実性が高まっています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,28 +1000,28 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+1.35%",
+        "value": "+1.18%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "77% bullish",
+        "value": "70% bullish",
         "url": "https://www.coingecko.com/en/coins/bittensor"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Here’s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitcoin ETFs shed a record $6.4B in 30 days amid crypto winter chill",
+        "url": "https://cointelegraph.com/news/bitcoin-etfs-shed-a-record-64b-in-30-days-as-bitcoin-shivers?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
         "value": "Notorious ‘sandwich attack’ bot Jaredfromsubway.eth exploited for $7.5M",
         "url": "https://cointelegraph.com/news/notorious-sandwich-attack-bot-jaredfromsubwayeth-exploited-for-75m?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Bitcoin rotations into altcoins collapses: Have altseasons 'disappeared'?",
-        "url": "https://cointelegraph.com/markets/bitcoin-rotations-into-altcoins-collapses-have-altseasons-disappeared?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Crypto industry looks to stablecoins and DeFi revisions in MiCA 2.0",
-        "url": "https://cointelegraph.com/features/crypto-industry-stablecoins-defi-mica?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

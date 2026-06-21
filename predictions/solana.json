@@ -1,6 +1,6 @@
 {
   "coinId": "solana",
-  "generatedAt": "2026-06-21T04:00:07.643652Z",
+  "generatedAt": "2026-06-21T05:00:07.980469Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.19312835804859074,
-    "confidence": 0.292
+    "changePercent24h": -0.03264865089075684,
+    "confidence": 0.1036
   },
   "commentary": {
-    "en": "Solana's price is expected to remain flat in the next 24 hours due to neutral technical signals and a lack of significant market momentum. The recent 'sandwich attack' exploit and declining altseasons may weigh on investor sentiment, while the Philippine SEC's readiness for RWA tokenization could provide some support. Overall, the market context remains cautious.",
-    "ja": "ソラナの価格は、中立的な技術指標と市場の動きの欠如により、来週24時間で安定する可能性があります。最近の「サンドウィッチ攻撃」は投資家の意見を下げ、アルトシーズンの衰退も懸念を高めている一方、フィリピンSECのRWAトークナイズの準備は一定のサポートを与える可能性があります。市場全体は慎重な姿勢を保っています。",
+    "en": "Solana's price is expected to remain flat in the next 24 hours with a confidence level of 10%. The recent news about the crypto market, including the decline of Bitcoin ETFs and the exploitation of a sandwich attack bot, may have a limited impact on Solana's price. The short-term trend remains in an uptrend, but the Fear & Greed Index indicates extreme fear in the market.",
+    "ja": "ソラナの価格は、次の24時間でフラットに推移する可能性があり、信頼度は10％です。最近のニュース、ビットコインＥＴＦの減少やサンドウィッチアタックボットの搾取など、ソラナの価格に限りなく影響を与える可能性は低いです。短期的な傾向は上昇傾向にありますが、恐怖と欲求不満指数は極度の恐怖を示しています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+1.35%",
+        "value": "+1.18%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
@@ -1010,18 +1010,18 @@
       },
       {
         "label": "CoinTelegraph",
+        "value": "Here’s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitcoin ETFs shed a record $6.4B in 30 days amid crypto winter chill",
+        "url": "https://cointelegraph.com/news/bitcoin-etfs-shed-a-record-64b-in-30-days-as-bitcoin-shivers?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
         "value": "Notorious ‘sandwich attack’ bot Jaredfromsubway.eth exploited for $7.5M",
         "url": "https://cointelegraph.com/news/notorious-sandwich-attack-bot-jaredfromsubwayeth-exploited-for-75m?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Bitcoin rotations into altcoins collapses: Have altseasons 'disappeared'?",
-        "url": "https://cointelegraph.com/markets/bitcoin-rotations-into-altcoins-collapses-have-altseasons-disappeared?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Crypto industry looks to stablecoins and DeFi revisions in MiCA 2.0",
-        "url": "https://cointelegraph.com/features/crypto-industry-stablecoins-defi-mica?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

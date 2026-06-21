@@ -1,6 +1,6 @@
 {
   "coinId": "tether-gold",
-  "generatedAt": "2026-06-21T04:00:07.643652Z",
+  "generatedAt": "2026-06-21T05:00:07.980469Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 0.15263398128590505,
-    "confidence": 0.9266
+    "changePercent24h": 0.33669555562788417,
+    "confidence": 0.9496
   },
   "commentary": {
-    "en": "Tether Gold (TETHER-GOLD) is expected to remain flat with a slight decline of -0.1% in the next 24 hours. The current market context, with an Extreme Fear Fear & Greed Index and a sideways short-term trend, suggests a cautious outlook. The recent news on stablecoins and DeFi revisions in MiCA 2.0 may have a positive impact on Tether Gold.",
-    "ja": "テザー・ゴールド（TETHER-GOLD）は、次の24時間で-0.1%の小幅な下落が予想されます。現在の市場状況、極度の恐怖のFear & Greed Indexと短期の横方向のトレンドは、慎重な展開を示しています。最近のニュース、MiCA 2.0における安定コインとDeFiの改善については、テザー・ゴールドに陽性の影響を与える可能性があります。",
+    "en": "Tether Gold (TETHER-GOLD) is expected to experience a flat 24-hour period with a slight decline of -0.1%, driven by the neutral RSI-14 reading and mid-band Bollinger Band %B. The sideways short-term trend and normal volume ratio also support this prediction. The overall market context, including the Extreme Fear index and total crypto market cap growth, does not significantly impact TETHER-GOLD's direction.",
+    "ja": "Tether Gold (TETHER-GOLD) は24時間で-0.1%の小幅な下落が予想され、RSI-14が中立的でボリンジャー・バンドの%バンドも中間の値を示しているためである。短期の傾向は横ばいで、ボリュームの比率も正常な値を示している。総市場の状況、特に恐怖指数と総暗号資産市場キャップの成長はTETHER-GOLDの動向に大きな影響を与えていない。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,23 +1000,23 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+1.35%",
+        "value": "+1.18%",
         "url": "https://www.coingecko.com/en/global-charts"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Here’s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitcoin ETFs shed a record $6.4B in 30 days amid crypto winter chill",
+        "url": "https://cointelegraph.com/news/bitcoin-etfs-shed-a-record-64b-in-30-days-as-bitcoin-shivers?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
         "value": "Notorious ‘sandwich attack’ bot Jaredfromsubway.eth exploited for $7.5M",
         "url": "https://cointelegraph.com/news/notorious-sandwich-attack-bot-jaredfromsubwayeth-exploited-for-75m?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Bitcoin rotations into altcoins collapses: Have altseasons 'disappeared'?",
-        "url": "https://cointelegraph.com/markets/bitcoin-rotations-into-altcoins-collapses-have-altseasons-disappeared?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Crypto industry looks to stablecoins and DeFi revisions in MiCA 2.0",
-        "url": "https://cointelegraph.com/features/crypto-industry-stablecoins-defi-mica?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

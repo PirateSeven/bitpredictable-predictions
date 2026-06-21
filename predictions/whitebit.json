@@ -1,6 +1,6 @@
 {
   "coinId": "whitebit",
-  "generatedAt": "2026-06-21T04:00:07.643652Z",
+  "generatedAt": "2026-06-21T05:00:07.980469Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 0.49993292948933243,
-    "confidence": 0.7568
+    "changePercent24h": 0.4445657252089979,
+    "confidence": 0.7374
   },
   "commentary": {
-    "en": "WhiteBIT Coin's 24-hour return is +1.14%, with a predicted flat direction and a neutral RSI-14 reading of 59. The Fear & Greed Index remains at 23, indicating extreme fear in the market. Recent news has focused on exploits and a decline in altseasons.",
-    "ja": "ホワイトビットの24時間リターンは+1.14％、予想はフラットで、RSI-14の値は59（中立）。恐怖と欲求の指数は23で、市場は極度の恐怖の状態にある。最近のニュースは、エクスプロイトやアルトシーズンの低迷に焦点を当てている。",
+    "en": "WhiteBIT Coin's (WHITEBIT) 24-hour return is +1.14%, with a flat predicted direction and neutral RSI-14 at 59. The market context suggests extreme fear, with the Fear & Greed Index at 23 and the total crypto market cap increasing by +1.18%. The sideways short-term trend and lack of bullish sentiment from the CoinGecko community indicate a cautious outlook.",
+    "ja": "WHITEBITの24時間リターンは+1.14%で、予測の24時間方向はFLAT、RSI-14は59で中立的な状態です。市場状況は恐怖が極度に高く、Fear & Greed Indexが23、総暗号市場キャップが+1.18%増加しています。短期の傾向は横方向に進み、CoinGeckoコミュニティからのbullish意見が見られないため、慎重な姿勢が必要です。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+1.35%",
+        "value": "+1.18%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
@@ -1010,18 +1010,18 @@
       },
       {
         "label": "CoinTelegraph",
+        "value": "Here’s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitcoin ETFs shed a record $6.4B in 30 days amid crypto winter chill",
+        "url": "https://cointelegraph.com/news/bitcoin-etfs-shed-a-record-64b-in-30-days-as-bitcoin-shivers?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
         "value": "Notorious ‘sandwich attack’ bot Jaredfromsubway.eth exploited for $7.5M",
         "url": "https://cointelegraph.com/news/notorious-sandwich-attack-bot-jaredfromsubwayeth-exploited-for-75m?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Bitcoin rotations into altcoins collapses: Have altseasons 'disappeared'?",
-        "url": "https://cointelegraph.com/markets/bitcoin-rotations-into-altcoins-collapses-have-altseasons-disappeared?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Crypto industry looks to stablecoins and DeFi revisions in MiCA 2.0",
-        "url": "https://cointelegraph.com/features/crypto-industry-stablecoins-defi-mica?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

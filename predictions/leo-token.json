@@ -1,6 +1,6 @@
 {
   "coinId": "leo-token",
-  "generatedAt": "2026-06-21T04:00:07.643652Z",
+  "generatedAt": "2026-06-21T05:00:07.980469Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.33143055428305207,
-    "confidence": 0.8
+    "changePercent24h": 0.10493299409243685,
+    "confidence": 0.6724
   },
   "commentary": {
-    "en": "LEO Token's flat 24-hour direction prediction is based on neutral RSI-14 and mid-band Bollinger Band %B. The recent 'sandwich attack' bot exploit and altcoin market downturn may impact investor sentiment. However, the stablecoin and DeFi revisions in MiCA 2.0 could provide a positive outlook for the crypto market.",
-    "ja": "レオトークンの24時間方向予測は中立的なRSI-14とボリンジャーバンド%Bのミッドバンドに基づいており、最近の「サンドウィッチアタック」ボットの攻撃とアルティコイン市場の低迷は投資家の感情を影響する可能性があります。ただし、MiCA 2.0における安定コインとデフィー改善は、暗号市場全体に肯定的な影響を与える可能性があります。",
+    "en": "LEO Token's 24-hour direction is predicted to be flat with a confidence level of 66%, as the RSI-14 and Bollinger Band %B indicate a neutral trend. The recent news about the crypto market, including the decline of Bitcoin ETFs and the exploitation of a sandwich attack bot, may have a minimal impact on LEO Token's price. The Fear & Greed Index remains in the extreme fear zone, which could influence the overall market sentiment.",
+    "ja": "レオトークンの24時間の方向性は、信頼度66％でフラットと予測され、RSI-14とボリンジャーバンド％Bは中立的なトレンドを示しています。最近のニュースであるビットコインETFの減少とサンドウィッチ攻撃のボットの搾取は、レオトークンの価格に最小限の影響を与える可能性があります。恐怖と欲求不満指数は極度の恐怖のゾーンにあり、全体的な市場感情に影響を与える可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,23 +1000,23 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+1.35%",
+        "value": "+1.18%",
         "url": "https://www.coingecko.com/en/global-charts"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Here’s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitcoin ETFs shed a record $6.4B in 30 days amid crypto winter chill",
+        "url": "https://cointelegraph.com/news/bitcoin-etfs-shed-a-record-64b-in-30-days-as-bitcoin-shivers?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
         "value": "Notorious ‘sandwich attack’ bot Jaredfromsubway.eth exploited for $7.5M",
         "url": "https://cointelegraph.com/news/notorious-sandwich-attack-bot-jaredfromsubwayeth-exploited-for-75m?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Bitcoin rotations into altcoins collapses: Have altseasons 'disappeared'?",
-        "url": "https://cointelegraph.com/markets/bitcoin-rotations-into-altcoins-collapses-have-altseasons-disappeared?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Crypto industry looks to stablecoins and DeFi revisions in MiCA 2.0",
-        "url": "https://cointelegraph.com/features/crypto-industry-stablecoins-defi-mica?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }
