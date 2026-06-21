@@ -1,6 +1,6 @@
 {
   "coinId": "bitcoin",
-  "generatedAt": "2026-06-21T03:00:07.782650Z",
+  "generatedAt": "2026-06-21T04:00:07.643652Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 0.9320820203331146,
-    "confidence": 0.8533
+    "changePercent24h": 0.756313440604949,
+    "confidence": 0.8277
   },
   "commentary": {
-    "en": "Bitcoin's 24-hour direction is predicted to be flat with a 0.1% increase in confidence of 50%. The Fear & Greed Index remains in Extreme Fear at 23, while the CoinGecko community is 80% bullish. The recent 'sandwich attack' bot exploit and altcoin market downturn may impact investor sentiment.",
-    "ja": "ビットコインの24時間方向は50％の確信で0.1％の増加が予想されます。恐怖と欲求不満指数は23で、極度の恐怖の状態が続いています。コインゲックコミュニティは80％がバブル気味の状態ですが、最近の「サンドウィッチアタック」ボットの攻撃とアルティコイン市場の低迷は投資家の気分を変える可能性があります。",
+    "en": "Bitcoin's short-term trend remains sideways, with a predicted 24h direction of flat and a 24h actual return of +1.07%. The Fear & Greed Index at 23 indicates extreme fear in the market. The recent 'sandwich attack' bot exploit and altcoin rotations into Bitcoin may influence investor sentiment.",
+    "ja": "ビットコインの短期的なトレンドは横方向に進行しており、24時間予想の方向はフラット、24時間実際のリターンは+1.07%である。恐怖と欲求不満指数が23の値を示すことで、市場では極度の恐怖が広がっている。最近の「サンドウィッチ攻撃」ボットの搾取とビットコインへのアルティコインの回転は投資家の意見に影響を与える可能性がある。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+1.25%",
+        "value": "+1.35%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {

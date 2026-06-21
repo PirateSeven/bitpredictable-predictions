@@ -1,6 +1,6 @@
 {
   "coinId": "binancecoin",
-  "generatedAt": "2026-06-21T03:00:07.782650Z",
+  "generatedAt": "2026-06-21T04:00:07.643652Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 0.35730463845063887,
-    "confidence": 0.7518
+    "changePercent24h": 0.4423312122092988,
+    "confidence": 0.7823
   },
   "commentary": {
-    "en": "BNB's 24-hour return is +1.49% with a predicted flat direction. The Fear & Greed Index remains at 23, indicating extreme fear in the market. BNB's recent price movement is likely influenced by the overall crypto market sentiment.",
-    "ja": "ビナンスコインの24時間戻り率は+1.49%で、予想はフラット。恐怖と欲求不満指数は23で、市場全体の恐怖感が高まっている。ビナンスコインの価格動向は市場全体の感性に影響を受けている。",
+    "en": "BNB's 24-hour direction is predicted to be flat with a 56% confidence level. The recent price movement is influenced by the overall crypto market sentiment, which is currently in extreme fear. The Fear & Greed Index is at 23, and the total crypto market cap has seen a 1.35% increase.",
+    "ja": "ビナンスコインの24時間の動向は56％の確信度でフラットと予想されています。最近の価格動向は、現在極度の恐怖の状態にある総コインマーケットの感情に影響されています。フィアアンドグリッド指数は23、総コインマーケットキャップは1.35％増加しています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+1.25%",
+        "value": "+1.35%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {

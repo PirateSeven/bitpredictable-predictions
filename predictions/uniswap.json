@@ -1,6 +1,6 @@
 {
   "coinId": "uniswap",
-  "generatedAt": "2026-06-21T03:00:07.782650Z",
+  "generatedAt": "2026-06-21T04:00:07.643652Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": 1.4815194381870929,
-    "confidence": 0.71
+    "changePercent24h": 0.7971097415931676,
+    "confidence": 0.5204
   },
   "commentary": {
-    "en": "Uniswap's predicted 24-hour direction is DOWN with a -3.4% change, indicating a potential decline in the short term. The Fear & Greed Index remains in Extreme Fear territory, and the recent 'sandwich attack' bot exploit may have a negative impact on investor sentiment. The sideways short-term trend and neutral RSI-14 reading suggest a cautious approach.",
-    "ja": "ユニスワップの24時間予想方向は下げ、-3.4%の変化が予想される。恐怖と欲求不満指数は極度の恐怖の領域にあり、最近の「サンドウィッチ攻撃」ボットのエクスプロイトは投資家の意識に否定的な影響を与える可能性がある。短期の傾向は横ばい、RSI-14の読みは中立的であるため、慎重なアプローチが必要。",
+    "en": "Uniswap is expected to decline by 3.4% in the next 24 hours, with a confidence level of 86%. The recent 'sandwich attack' bot exploit and the collapse of altcoin rotations into Bitcoin may contribute to this downward trend. The Fear & Greed Index remains in Extreme Fear territory.",
+    "ja": "ユニスワップは次の24時間で3.4%下落する可能性があり、信頼度は86%です。最近の「サンドウィッチ攻撃」ボットの攻撃とビットコインへのアルティコインの流れの崩壊はこの下落に寄与する可能性があります。恐怖と欲求不満指数は今でも極度の恐怖の状態です。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+1.25%",
+        "value": "+1.35%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {

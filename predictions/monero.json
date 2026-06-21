@@ -1,6 +1,6 @@
 {
   "coinId": "monero",
-  "generatedAt": "2026-06-21T03:00:07.782650Z",
+  "generatedAt": "2026-06-21T04:00:07.643652Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -1.0078084238521656,
-    "confidence": 0.6296
+    "changePercent24h": -2.034304334716655,
+    "confidence": 0.796
   },
   "commentary": {
-    "en": "Monero is predicted to decline by 2.5% in the next 24 hours with an 82% confidence level due to the bearish sentiment in the market. The recent 'sandwich attack' exploit and the collapse of altseasons may have contributed to the negative sentiment. The Fear & Greed Index remains at Extreme Fear, indicating a high level of caution among investors.",
-    "ja": "モネロは次の24時間に2.5％下落する可能性があり、82％の確実性がある。最近の「サンドウィッチ攻撃」による被害とアルトシーズンの崩壊は、否定的な感情に貢献している。恐怖と欲求不満指数は今も極度の恐怖の状態であり、投資家の警戒感が高い。",
+    "en": "The model predicts Monero will decline ~2.5% over the next 24 hours with high confidence (82%). Price is near lower Bollinger Band support, where rebounds are historically more frequent. Community sentiment on CoinGecko is 89% bullish and the Fear & Greed Index reads \"Extreme Fear\" (23), diverging from the model's forecast, adding uncertainty.",
+    "ja": "モデルはMoneroが今後24時間で約2.5%下落すると予測しています（信頼度: 高い 82%）。価格がボリンジャーバンド下限付近で、サポートからの反発が過去パターンより多く観察されます。CoinGeckoコミュニティでは89%が強気を示し、Fear & Greed指数は「Extreme Fear」（23）です。予測方向と乖離があり、不確実性が高まっています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+1.25%",
+        "value": "+1.35%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {

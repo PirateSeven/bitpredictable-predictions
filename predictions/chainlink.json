@@ -1,6 +1,6 @@
 {
   "coinId": "chainlink",
-  "generatedAt": "2026-06-21T03:00:07.782650Z",
+  "generatedAt": "2026-06-21T04:00:07.643652Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.6407546093092245,
-    "confidence": 0.8155
+    "changePercent24h": -0.5442300038651674,
+    "confidence": 0.793
   },
   "commentary": {
-    "en": "Chainlink's 24-hour direction is predicted to be flat with a confidence of 53%. The recent sandwich attack and Bitcoin's lack of movement may affect Chainlink's short-term trend. The Fear & Greed Index remains in extreme fear territory, indicating a potential buying opportunity.",
-    "ja": "Chainlinkの24時間の方向は53％の確信でフラットであると予想されています。最近のサンドウィッチ攻撃とビットコインの動きの影響を受ける可能性がある短期的な傾向が影響を受ける可能性があります。恐怖と欲求不満指数は極度の恐怖の領域にあり、買い機の可能性があることを示しています。",
+    "en": "Chainlink's flat 24-hour direction prediction carries a 53% confidence level, with a neutral RSI-14 reading of 52. The recent 'sandwich attack' bot exploit and altseason concerns may weigh on investor sentiment, while the overall crypto market cap and Bitcoin's flat return suggest a cautious environment.",
+    "ja": "Chainlinkの24時間方向予測は53％の信頼度でフラットを予測し、RSI-14の値は52で中立的な状態です。最近の「サンドイッチ攻撃」ボットのエクスプロイトとアルトシーズンの懸念は投資家の動向に影響を与えているようですが、総cryptoマーケットキャップとビットコインの0％のリターンは慎重な環境を示しています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+1.25%",
+        "value": "+1.35%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
