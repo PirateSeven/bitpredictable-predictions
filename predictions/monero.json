@@ -1,6 +1,6 @@
 {
   "coinId": "monero",
-  "generatedAt": "2026-06-21T22:00:08.006697Z",
+  "generatedAt": "2026-06-21T23:00:08.575417Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -0.834824978554964,
-    "confidence": 0.5989
+    "changePercent24h": -0.4116075042033196,
+    "confidence": 0.3423
   },
   "commentary": {
-    "en": "Monero's predicted 24-hour direction is DOWN with a 1.4% decline, indicating a potential short-term correction. The Fear & Greed Index remains in Extreme Fear territory, while the CoinGecko community remains 93% bullish. Recent news suggests a mixed sentiment in the crypto market, with some analysts warning of potential price drops.",
-    "ja": "モネロの24時間予測は下落、1.4%の下落を示しており、短期的な調整が起こる可能性があります。恐怖と欲求不満指数はエクストリーム・フィアの状態にあり、CoinGeckoコミュニティは93％がバブルです。最近のニュースでは、Cryptoマーケットの感情は混在しており、一部のアナリストは価格の下落を警告しています。",
+    "en": "Monero's predicted 24-hour direction is DOWN with a 73% confidence level, driven by the current market context of extreme fear and sideways short-term trend. The Fear & Greed Index at 23 and total crypto market cap 24h change of -0.79% also contribute to the bearish outlook. However, the RSI-14 and Bollinger Band %B suggest a neutral stance.",
+    "ja": "Moneroの24時間予想は下落にあり、73％の信頼度があります。これは、極度の恐怖と短期的なトレンドの横方向に導かれています。恐怖と欲求不満指数は23、総暗号資産市場キャップ24時間変化は-0.79％と、下落の傾向があります。ただし、RSI-14とボリンジャーバンド％Bは中立的な立場を示しています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,12 +1000,12 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-0.36%",
+        "value": "-0.79%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "93% bullish",
+        "value": "94% bullish",
         "url": "https://www.coingecko.com/en/coins/monero"
       },
       {
