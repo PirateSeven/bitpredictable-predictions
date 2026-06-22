@@ -1,6 +1,6 @@
 {
   "coinId": "chainlink",
-  "generatedAt": "2026-06-22T19:12:42.681289Z",
+  "generatedAt": "2026-06-22T20:00:08.523104Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": 1.15169569078927,
+    "changePercent24h": 1.151623123643652,
     "confidence": 0.7626
   },
   "commentary": {
-    "en": "The model predicts Chainlink will decline ~0.6% over the next 24 hours with moderate confidence (62%). The short-term SMA has crossed above the medium-term SMA, signalling positive momentum. Community sentiment on CoinGecko is 89% bullish and the Fear & Greed Index reads \"Extreme Fear\" (20), diverging from the model's forecast, adding uncertainty.",
-    "ja": "モデルはChainlinkが今後24時間で約0.6%下落すると予測しています（信頼度: 中程度の 62%）。短期移動平均が中期移動平均を上回り、ポジティブなモメンタムが示されています。CoinGeckoコミュニティでは89%が強気を示し、Fear & Greed指数は「Extreme Fear」（20）です。予測方向と乖離があり、不確実性が高まっています。",
+    "en": "Chainlink's 24-hour direction is predicted to be down by 0.6% with a confidence level of 62%. This prediction is made despite the short-term trend indicating an uptrend and the Fear & Greed Index showing extreme fear. The recent news about Bitcoin's price and the joint TradFi-crypto venture between OKX and Intercontinental Exchange may influence Chainlink's price movement.",
+    "ja": "Chainlinkの24時間の方向は、0.6%下落予測で62%の信頼度を持っています。短期的な傾向は上昇傾向を示しており、Fear & Greed Indexは極度の恐怖を示しています。Bitcoinの価格やOKXとIntercontinental Exchangeのトレディファイと暗号資産の共同ビジネスに関する最近のニュースはChainlinkの価格動向に影響を与える可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.03%",
+        "value": "+0.17%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "89% bullish",
         "url": "https://www.coingecko.com/en/coins/chainlink"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Solana grabs 95% of tokenized equity as traders debate if SOL bottom is in",
+        "url": "https://cointelegraph.com/markets/solana-captures-95-of-tokenized-equity-as-sol-bottom-debate-grows?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Bitcoin weekly close above $63K amid RSI divergence may be bottom signal: Data",
         "url": "https://cointelegraph.com/markets/bitcoin-holds-63k-as-three-market-signals-remain-supportive?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Bitcoin price taps $65.5K as Iran deal sees oil drop toward 16-week low",
-        "url": "https://cointelegraph.com/markets/bitcoin-price-taps-655k-as-iran-deal-sees-oil-drop-toward-16-week-low?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

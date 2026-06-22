@@ -1,6 +1,6 @@
 {
   "coinId": "ondo-us-dollar-yield",
-  "generatedAt": "2026-06-22T19:12:42.681289Z",
+  "generatedAt": "2026-06-22T20:00:08.523104Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -1.1778749031157232,
+    "changePercent24h": -1.1778747583665212,
     "confidence": 0.8607
   },
   "commentary": {
-    "en": "ONDO-US-DOLLAR-YIELD is likely to decline by 0.6% in the next 24 hours with moderate confidence. The recent news about TradFi-crypto ventures and Bitcoin's price movement may not directly impact ONDO-US-DOLLAR-YIELD, but the overall market sentiment remains fearful. The neutral RSI-14 reading and sideways short-term trend suggest a cautious outlook.",
-    "ja": "ONDO-US-DOLLAR-YIELDは、来日24時間で0.6％の下落が予想され、信頼度は60％です。トレードフィニアンシ-クリプトベンチャーに関するニュースやビットコインの価格動向は、ONDO-US-DOLLAR-YIELDに直接影響を与えていない可能性がありますが、市場全体の感覚は恐怖に満ちています。中立的なRSI-14の値と短期的なトレンドは、慎重な姿勢を示しています。",
+    "en": "The model predicts Ondo US Dollar Yield will decline ~0.6% over the next 24 hours with high confidence (76%). Volume is elevated at 2.1× the daily average, amplifying the directional signal. Market sentiment stands at \"Extreme Fear\" (Fear & Greed: 20); the broader crypto market moved +0.2% over the past 24 hours.",
+    "ja": "モデルはOndo US Dollar Yieldが今後24時間で約0.6%下落すると予測しています（信頼度: 高い 76%）。出来高が平均の2.1倍と高水準で、方向性シグナルを強化しています。Fear & Greed指数は「Extreme Fear」（20）で、暗号資産市場全体の24時間変動率は+0.2%です。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,8 +1000,13 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.03%",
+        "value": "+0.17%",
         "url": "https://www.coingecko.com/en/global-charts"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Solana grabs 95% of tokenized equity as traders debate if SOL bottom is in",
+        "url": "https://cointelegraph.com/markets/solana-captures-95-of-tokenized-equity-as-sol-bottom-debate-grows?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1012,11 +1017,6 @@
         "label": "CoinTelegraph",
         "value": "Bitcoin weekly close above $63K amid RSI divergence may be bottom signal: Data",
         "url": "https://cointelegraph.com/markets/bitcoin-holds-63k-as-three-market-signals-remain-supportive?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Bitcoin price taps $65.5K as Iran deal sees oil drop toward 16-week low",
-        "url": "https://cointelegraph.com/markets/bitcoin-price-taps-655k-as-iran-deal-sees-oil-drop-toward-16-week-low?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

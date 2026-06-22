@@ -1,6 +1,6 @@
 {
   "coinId": "ethereum",
-  "generatedAt": "2026-06-22T19:12:42.681289Z",
+  "generatedAt": "2026-06-22T20:00:08.523104Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.5381338175288822,
+    "changePercent24h": -0.5381816955318053,
     "confidence": 0.6369
   },
   "commentary": {
-    "en": "Ethereum is expected to remain relatively flat in the next 24 hours with a predicted return of -0.4% due to neutral technical signals and a moderate volume ratio. The recent news of Andrew Cuomo leading a joint TradFi-crypto venture between OKX and Intercontinental Exchange may have a positive impact on Ethereum's price. However, the Fear & Greed Index remains in extreme fear territory, indicating caution.",
-    "ja": "イーサリアムは、次の24時間に比較的平穏な動きを示し、予想されるリターンは-0.4%である。オークエックスとインターコンチネンタルエクスチェンジの間で行われるトラッドフィーとクリプトの共同ビジネスにアンドリュー・クオモがリードするニュースはイーサリアムの価格にプラスの影響を与える可能性があります。ただし、恐怖と欲求不満指数は極度の恐怖の領域にあり、注意が必要です。",
+    "en": "Ethereum's 24-hour direction is predicted to be flat with a 0.4% decrease, reflecting a neutral RSI-14 reading of 49 and mid-band Bollinger Band %B of 0.49. The recent news of Bitcoin's weekly close above $63K and its RSI divergence may signal a bottom, potentially influencing Ethereum's price. However, the Fear & Greed Index remains in extreme fear, indicating caution.",
+    "ja": "エーテレムの24時間の方向は、0.4%の下落を予想しており、RSI-14の値は49、ボリンジャー・バンドの%Bは0.49と中間の値を示しています。ビットコインの週末クローズが$63Kを超え、RSIの分岐が下限を示す可能性があるため、価格に影響を与える可能性があります。ただし、恐怖と欲求不満指数は極度の恐怖の状態を示しており、注意が必要です。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.03%",
+        "value": "+0.17%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "86% bullish",
+        "value": "84% bullish",
         "url": "https://www.coingecko.com/en/coins/ethereum"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Solana grabs 95% of tokenized equity as traders debate if SOL bottom is in",
+        "url": "https://cointelegraph.com/markets/solana-captures-95-of-tokenized-equity-as-sol-bottom-debate-grows?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Bitcoin weekly close above $63K amid RSI divergence may be bottom signal: Data",
         "url": "https://cointelegraph.com/markets/bitcoin-holds-63k-as-three-market-signals-remain-supportive?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Bitcoin price taps $65.5K as Iran deal sees oil drop toward 16-week low",
-        "url": "https://cointelegraph.com/markets/bitcoin-price-taps-655k-as-iran-deal-sees-oil-drop-toward-16-week-low?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

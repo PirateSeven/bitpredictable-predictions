@@ -1,6 +1,6 @@
 {
   "coinId": "rain",
-  "generatedAt": "2026-06-22T19:12:42.681289Z",
+  "generatedAt": "2026-06-22T20:00:08.523104Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 4.929953430877006,
+    "changePercent24h": 4.929922781679776,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "Rain (RAIN) is likely to experience a flat 24-hour period with a minor decline of -0.1% due to its overbought condition. The recent news of a joint TradFi-crypto venture between OKX and Intercontinental Exchange may have a positive impact on the market, but the overall sentiment remains in extreme fear. The short-term trend remains an uptrend, but the lack of significant price movement suggests caution.",
-    "ja": "Rain (RAIN)は、オーバーボールド状態のため、24時間で-0.1%の小幅な下落が予想される。OKXとインターコンチネンタル・エクスチェンジのトラッドフィー・クリプト・ベンチャーの共同事業のニュースは、市場に肯定的な影響を与える可能性があるが、総合的な感情は極度の恐怖のままである。短期的なトレンドは上昇傾向にあるが、価格の変動が大きくないため、注意が必要である。",
+    "en": "Rain (RAIN) is expected to experience a flat 24-hour direction with a minor decline of -0.1% due to its overbought condition. The recent news surrounding TradFi-crypto ventures and Bitcoin's price movement may have a limited impact on RAIN's price. The overall market sentiment remains in extreme fear, which could lead to a potential correction.",
+    "ja": "Rain (RAIN) は、オーバーボールド状態からくるため、24時間の方向性はほぼ変わりなく-0.1%の小幅な下落が予想される。トラッドフィーとクリプトのビジネスやビットコインの価格動向に関する最近のニュースは、RAINの価格に限りなく影響を与える可能性はあるが、全体的な市場の感覚は極度の恐怖の状態にあるため、価格の調整につながる可能性がある。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.03%",
+        "value": "+0.17%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "86% bullish",
+        "value": "88% bullish",
         "url": "https://www.coingecko.com/en/coins/rain"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Solana grabs 95% of tokenized equity as traders debate if SOL bottom is in",
+        "url": "https://cointelegraph.com/markets/solana-captures-95-of-tokenized-equity-as-sol-bottom-debate-grows?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Bitcoin weekly close above $63K amid RSI divergence may be bottom signal: Data",
         "url": "https://cointelegraph.com/markets/bitcoin-holds-63k-as-three-market-signals-remain-supportive?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Bitcoin price taps $65.5K as Iran deal sees oil drop toward 16-week low",
-        "url": "https://cointelegraph.com/markets/bitcoin-price-taps-655k-as-iran-deal-sees-oil-drop-toward-16-week-low?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

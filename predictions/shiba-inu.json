@@ -1,6 +1,6 @@
 {
   "coinId": "shiba-inu",
-  "generatedAt": "2026-06-22T19:12:42.681289Z",
+  "generatedAt": "2026-06-22T20:00:08.523104Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -1.2214117255136532,
+    "changePercent24h": -1.2214846281358147,
     "confidence": 0.8115
   },
   "commentary": {
-    "en": "Shiba Inu (SHIB) is expected to decline by 0.5% in the next 24 hours with a 64% confidence level. The RSI-14 is neutral at 49, while the Bollinger Band %B is at 0.54, indicating a mid-band position. The sideways short-term trend and low Fear & Greed Index of 20 suggest caution.",
-    "ja": "Shiba Inu (SHIB) は、次の24時間で0.5%の下落が予想され、64%の信頼性があります。 RSI-14は49で中立的、ボリンジャー・バンドの%Bは0.54で中間位置です。短期のトレンドは横方向、Fear & Greed Indexは20で極度の恐怖の状態です。",
+    "en": "The model predicts Shiba Inu will decline ~0.5% over the next 24 hours with moderate confidence (64%). Price moved +0.14% in the past 24 hours with volume at 1.2× average. Community sentiment on CoinGecko is 65% bullish and the Fear & Greed Index reads \"Extreme Fear\" (20), diverging from the model's forecast, adding uncertainty.",
+    "ja": "モデルはShiba Inuが今後24時間で約0.5%下落すると予測しています（信頼度: 中程度の 64%）。過去24時間のリターンは+0.14%、出来高は平均の1.2倍です。CoinGeckoコミュニティでは65%が強気を示し、Fear & Greed指数は「Extreme Fear」（20）です。予測方向と乖離があり、不確実性が高まっています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.03%",
+        "value": "+0.17%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "61% bullish",
+        "value": "65% bullish",
         "url": "https://www.coingecko.com/en/coins/shiba-inu"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Solana grabs 95% of tokenized equity as traders debate if SOL bottom is in",
+        "url": "https://cointelegraph.com/markets/solana-captures-95-of-tokenized-equity-as-sol-bottom-debate-grows?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Bitcoin weekly close above $63K amid RSI divergence may be bottom signal: Data",
         "url": "https://cointelegraph.com/markets/bitcoin-holds-63k-as-three-market-signals-remain-supportive?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Bitcoin price taps $65.5K as Iran deal sees oil drop toward 16-week low",
-        "url": "https://cointelegraph.com/markets/bitcoin-price-taps-655k-as-iran-deal-sees-oil-drop-toward-16-week-low?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

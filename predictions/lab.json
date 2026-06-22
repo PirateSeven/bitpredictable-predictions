@@ -1,6 +1,6 @@
 {
   "coinId": "lab",
-  "generatedAt": "2026-06-22T19:12:42.681289Z",
+  "generatedAt": "2026-06-22T20:00:08.523104Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": 2.3038794365561195,
+    "changePercent24h": 2.303680859000342,
     "confidence": 0.7984
   },
   "commentary": {
-    "en": "LAB (LAB) is predicted to decline by -2.5% in the next 24 hours with an 81% confidence level. The recent news of a joint TradFi-crypto venture between OKX and Intercontinental Exchange may have a positive impact on the market, but the current Fear & Greed Index indicates extreme fear. The short-term trend is still in an uptrend, but the recent 14.32% return may be a correction before a potential decline.",
-    "ja": "LAB (LAB) は来日24時間で-2.5%の下落が予想され、信頼度は81%です。OKXとIntercontinental Exchangeのトレッドフィーとクリプトの共同ビジネスがニュースで報じられたが、現在の恐怖と欲求不満指数は極度の恐怖を示しています。短期的な傾向は上昇傾向ですが、14.32%のリターンは下落前の調整と考えられます。",
+    "en": "LAB (LAB) is predicted to decline by 2.5% in the next 24 hours with a confidence level of 81%. The recent news of Solana's tokenized equity and Andrew Cuomo's joint venture between OKX and Intercontinental Exchange may have a mixed impact on the market. The Fear & Greed Index remains in Extreme Fear territory.",
+    "ja": "LAB (LAB) は、来る24時間で2.5%の下落が予想され、信頼度は81%です。 Solanaのトークン化された株式とOKXとインターコンチネンタル・エクスチェンジの共同事業のニュースは市場に混乱をもたらす可能性があります。 恐怖と欲求不満指数は今でも極度の恐怖の状態です。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.03%",
+        "value": "+0.17%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "39% bullish",
         "url": "https://www.coingecko.com/en/coins/lab"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Solana grabs 95% of tokenized equity as traders debate if SOL bottom is in",
+        "url": "https://cointelegraph.com/markets/solana-captures-95-of-tokenized-equity-as-sol-bottom-debate-grows?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Bitcoin weekly close above $63K amid RSI divergence may be bottom signal: Data",
         "url": "https://cointelegraph.com/markets/bitcoin-holds-63k-as-three-market-signals-remain-supportive?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Bitcoin price taps $65.5K as Iran deal sees oil drop toward 16-week low",
-        "url": "https://cointelegraph.com/markets/bitcoin-price-taps-655k-as-iran-deal-sees-oil-drop-toward-16-week-low?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

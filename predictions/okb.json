@@ -1,6 +1,6 @@
 {
   "coinId": "okb",
-  "generatedAt": "2026-06-22T19:12:42.681289Z",
+  "generatedAt": "2026-06-22T20:00:08.523104Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -970,8 +970,8 @@
     "confidence": 0.6153
   },
   "commentary": {
-    "en": "OKB's 24-hour direction is predicted to be flat with a -0.4% change, indicating a potential consolidation phase due to its overbought RSI-14 reading. The recent news of Andrew Cuomo leading a joint TradFi-crypto venture between OKX and Intercontinental Exchange may have a positive impact on OKB's price. However, the overall market context remains cautious with the Fear & Greed Index at Extreme Fear.",
-    "ja": "OKBの24時間の方向は、-0.4%の変化で予想されるため、過剰購入のRSI-14の読み値により、安定化の段階にありそうである。Andrew CuomoがOKXとIntercontinental Exchangeの間で共同のTradFi-暗号化されたビジネスをリードするという最近のニュースは、OKBの価格にプラスの影響を与える可能性がある。ただし、Fear & Greed Indexが極度の恐怖の状態であることから、総合的なマーケットコンテキストは慎重である。",
+    "en": "OKB is expected to experience a flat 24-hour direction with a slight decline of -0.4% due to its overbought condition and high volume ratio. The recent news of Andrew Cuomo leading a joint TradFi-crypto venture between OKX and Intercontinental Exchange may have a positive impact on OKB. However, the overall crypto market remains in extreme fear, which may limit OKB's upside potential.",
+    "ja": "OKBは24時間方向がフラットで-0.4%の下落が予想される。RSI-14とボリンジャーバンドのパーセントBがオーバーボールド、ボリュームレシオも高いことから、下落が予想される。Andrew CuomoがOKXとIntercontinental Exchangeの共同事業を率いるニュースはOKBにプラスの影響を与える可能性があるが、総合的な暗号通貨市場は恐怖の極限にあり、OKBの上昇は制限される可能性がある。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.03%",
+        "value": "+0.17%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "100% bullish",
         "url": "https://www.coingecko.com/en/coins/okb"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Solana grabs 95% of tokenized equity as traders debate if SOL bottom is in",
+        "url": "https://cointelegraph.com/markets/solana-captures-95-of-tokenized-equity-as-sol-bottom-debate-grows?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Bitcoin weekly close above $63K amid RSI divergence may be bottom signal: Data",
         "url": "https://cointelegraph.com/markets/bitcoin-holds-63k-as-three-market-signals-remain-supportive?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Bitcoin price taps $65.5K as Iran deal sees oil drop toward 16-week low",
-        "url": "https://cointelegraph.com/markets/bitcoin-price-taps-655k-as-iran-deal-sees-oil-drop-toward-16-week-low?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "coinId": "leo-token",
-  "generatedAt": "2026-06-22T19:12:42.681289Z",
+  "generatedAt": "2026-06-22T20:00:08.523104Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -1.1340869036052745,
+    "changePercent24h": -1.1340941995915295,
     "confidence": 0.867
   },
   "commentary": {
-    "en": "LEO Token's price is expected to remain relatively stable with a predicted 24h direction of -0.5% due to neutral technical signals and a sideways short-term trend. The Fear & Greed Index at 20 indicates extreme fear in the market, which may influence investor sentiment. However, recent news about TradFi-crypto ventures and Bitcoin's price movement may have a positive impact on the market.",
-    "ja": "LEO Tokenの価格は、中立的な技術指標と短期的な横方向のトレンドの影響を受け、24時間の予想方向は-0.5%のままである。恐怖と欲求不満指数が20のため、市場では極度の恐怖が広がっており、投資家の感情に影響を与える可能性がある。ただし、TradFi-クリプトのビジネスやビットコインの価格動向に関する最近のニュースは、市場に良い影響を与える可能性がある。",
+    "en": "The model predicts LEO Token will trade sideways over the next 24 hours with high confidence (74%). Volume is elevated at 1.5× the daily average, amplifying the directional signal. Community sentiment on CoinGecko is 50% bullish and the Fear & Greed Index reads \"Extreme Fear\" (20), diverging from the model's forecast, adding uncertainty.",
+    "ja": "モデルはLEO Tokenが今後24時間で横ばいで推移すると予測しています（信頼度: 高い 74%）。出来高が平均の1.5倍と高水準で、方向性シグナルを強化しています。CoinGeckoコミュニティでは50%が強気を示し、Fear & Greed指数は「Extreme Fear」（20）です。予測方向と乖離があり、不確実性が高まっています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.03%",
+        "value": "+0.17%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "50% bullish",
         "url": "https://www.coingecko.com/en/coins/leo-token"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Solana grabs 95% of tokenized equity as traders debate if SOL bottom is in",
+        "url": "https://cointelegraph.com/markets/solana-captures-95-of-tokenized-equity-as-sol-bottom-debate-grows?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Bitcoin weekly close above $63K amid RSI divergence may be bottom signal: Data",
         "url": "https://cointelegraph.com/markets/bitcoin-holds-63k-as-three-market-signals-remain-supportive?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Bitcoin price taps $65.5K as Iran deal sees oil drop toward 16-week low",
-        "url": "https://cointelegraph.com/markets/bitcoin-price-taps-655k-as-iran-deal-sees-oil-drop-toward-16-week-low?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

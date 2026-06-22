@@ -1,6 +1,6 @@
 {
   "coinId": "ripple",
-  "generatedAt": "2026-06-22T19:12:42.681289Z",
+  "generatedAt": "2026-06-22T20:00:08.523104Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": 1.387423975544201,
+    "changePercent24h": 1.387426505344684,
     "confidence": 0.8019
   },
   "commentary": {
-    "en": "XRP's 24-hour direction is predicted to be down by 0.8% with a confidence level of 68%. The recent news on TradFi-crypto ventures and Bitcoin's price movement may have a limited impact on XRP's price. XRP's technical signals indicate a neutral RSI-14 and mid-band Bollinger Band %B.",
-    "ja": "XRP の 24 時間の方向は、68% の信頼度で 0.8% 下げ予想です。TradFi-クリプトのビジネスやビットコインの価格動向に関する最近のニュースは、XRP の価格に限りなく影響を与える可能性があります。XRP の技術的信号は、RSI-14 が中立的で、ボリンジャー バンド %B が中間帯にあります。",
+    "en": "XRP is expected to decline by around 0.8% in the next 24 hours, with a confidence level of 68%. The recent news of Bitcoin's potential bottom signal and the overall market sentiment of extreme fear may weigh on the price. XRP's short-term trend remains sideways.",
+    "ja": "XRP の価格は次の24時間で約0.8%下落する可能性があり、信頼度は68%です。ビットコインの潜在的なボトムシグナルや、市場全体の極度の恐怖感が価格に影響を与える可能性があります。XRPの短期傾向は横方向に推移しています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.03%",
+        "value": "+0.17%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "61% bullish",
+        "value": "60% bullish",
         "url": "https://www.coingecko.com/en/coins/ripple"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Solana grabs 95% of tokenized equity as traders debate if SOL bottom is in",
+        "url": "https://cointelegraph.com/markets/solana-captures-95-of-tokenized-equity-as-sol-bottom-debate-grows?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Bitcoin weekly close above $63K amid RSI divergence may be bottom signal: Data",
         "url": "https://cointelegraph.com/markets/bitcoin-holds-63k-as-three-market-signals-remain-supportive?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Bitcoin price taps $65.5K as Iran deal sees oil drop toward 16-week low",
-        "url": "https://cointelegraph.com/markets/bitcoin-price-taps-655k-as-iran-deal-sees-oil-drop-toward-16-week-low?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

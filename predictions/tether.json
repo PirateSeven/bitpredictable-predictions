@@ -1,6 +1,6 @@
 {
   "coinId": "tether",
-  "generatedAt": "2026-06-22T19:12:42.681289Z",
+  "generatedAt": "2026-06-22T20:00:08.523104Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -970,8 +970,8 @@
     "confidence": 0.95
   },
   "commentary": {
-    "en": "Tether's flat 24-hour direction with a 95% confidence level suggests a stable price movement. The RSI-14 at 59 and Bollinger Band %B at 0.93 indicate a neutral sentiment. The recent news on TradFi-crypto ventures and Bitcoin's price movement may influence Tether's price.",
-    "ja": "テザーの24時間方向は95％の確信度でフラットであるため、価格の安定した動きが見込まれる。RSI-14が59、ボリンジャーバンド %Bが0.93であるため、シグナルは中立的である。トレーディングファイナンスと暗号資産のビジネスやビットコインの価格動向に関する最近のニュースはテザーの価格に影響を与える可能性がある。",
+    "en": "Tether's flat 24-hour direction is expected with a 95% confidence level, driven by neutral RSI-14 and Bollinger Band %B readings. The recent news surrounding TradFi-crypto ventures and Bitcoin's price movements may influence Tether's stability. However, the overall market context remains in extreme fear.",
+    "ja": "テザーの24時間の方向性は95％の確率でフラットと予想され、RSI-14とボリンジャー・バンド％Bの読みは中立的である。トレッドフィー-クリプトのビジネスやビットコインの価格動向に関する最近のニュースはテザーの安定性に影響を与える可能性があるが、市場全体は極度の恐怖の状態にある。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.03%",
+        "value": "+0.17%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "67% bullish",
         "url": "https://www.coingecko.com/en/coins/tether"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Solana grabs 95% of tokenized equity as traders debate if SOL bottom is in",
+        "url": "https://cointelegraph.com/markets/solana-captures-95-of-tokenized-equity-as-sol-bottom-debate-grows?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Bitcoin weekly close above $63K amid RSI divergence may be bottom signal: Data",
         "url": "https://cointelegraph.com/markets/bitcoin-holds-63k-as-three-market-signals-remain-supportive?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Bitcoin price taps $65.5K as Iran deal sees oil drop toward 16-week low",
-        "url": "https://cointelegraph.com/markets/bitcoin-price-taps-655k-as-iran-deal-sees-oil-drop-toward-16-week-low?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

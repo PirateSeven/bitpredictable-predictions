@@ -1,6 +1,6 @@
 {
   "coinId": "dogecoin",
-  "generatedAt": "2026-06-22T19:12:42.681289Z",
+  "generatedAt": "2026-06-22T20:00:08.523104Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 0.42679623629828906,
+    "changePercent24h": 0.4267754526410496,
     "confidence": 0.6167
   },
   "commentary": {
-    "en": "Dogecoin's price is expected to remain flat with a slight decline of -0.5% in the next 24 hours due to neutral technical signals and a market environment characterized by extreme fear. The recent news on TradFi-crypto ventures and Bitcoin's price movements may have a limited impact on Dogecoin's price. Overall, the market remains uncertain.",
-    "ja": "ドージコインの価格は、中立的な技術指標と極度の恐怖の市場環境の影響を受けて、次の24時間で-0.5%の小幅な下落が予想されます。トレッディファイ-クライントファイのビジネスやビットコインの価格動向に関する最近のニュースは、ドージコインの価格に限られた影響を与える可能性があります。総合的には市場は不確実です。",
+    "en": "Dogecoin is expected to remain flat in the short term, with a predicted 24h direction of -0.5% and a confidence level of 63%. The current market sentiment is extreme fear, as indicated by the Fear & Greed Index of 20. The recent news on Solana and Bitcoin's price movement may have a limited impact on Dogecoin's price.",
+    "ja": "ドージコインは短期的にはフラットの予想をしており、24時間の方向は-0.5%、信頼度は63%です。Fear & Greed Indexは20と極度の恐怖を示しており、Solanaやビットコインの価格動向に関する最近のニュースはドージコインの価格に限りなく影響を与える可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.03%",
+        "value": "+0.17%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "70% bullish",
+        "value": "71% bullish",
         "url": "https://www.coingecko.com/en/coins/dogecoin"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Solana grabs 95% of tokenized equity as traders debate if SOL bottom is in",
+        "url": "https://cointelegraph.com/markets/solana-captures-95-of-tokenized-equity-as-sol-bottom-debate-grows?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Bitcoin weekly close above $63K amid RSI divergence may be bottom signal: Data",
         "url": "https://cointelegraph.com/markets/bitcoin-holds-63k-as-three-market-signals-remain-supportive?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Bitcoin price taps $65.5K as Iran deal sees oil drop toward 16-week low",
-        "url": "https://cointelegraph.com/markets/bitcoin-price-taps-655k-as-iran-deal-sees-oil-drop-toward-16-week-low?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

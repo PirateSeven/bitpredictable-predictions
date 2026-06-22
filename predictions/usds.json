@@ -1,6 +1,6 @@
 {
   "coinId": "usds",
-  "generatedAt": "2026-06-22T19:12:42.681289Z",
+  "generatedAt": "2026-06-22T20:00:08.523104Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.002555606893479938,
+    "changePercent24h": -0.0025554238595222115,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "USDS is predicted to remain flat with a 95% confidence level, as the RSI-14 and Bollinger Band %B indicate a neutral trend. The recent news of a joint TradFi-crypto venture between OKX and Intercontinental Exchange may have a positive impact on the market. However, the Fear & Greed Index remains in Extreme Fear territory.",
-    "ja": "USDS は95％の確率でフラットの方向に推移する可能性があり、RSI-14とボリンジャー・バンド％Bは中立的な傾向を示しています。OKXとインターコンチネンタル・エクスチェンジのトレッドフィー・クリプト・ベンチャーの共同事業のニュースは市場に肯定的な影響を与える可能性がありますが、恐怖と欲求不満指数はエクストリーム・フィアの領域にあります。",
+    "en": "USDS is expected to remain flat in the next 24 hours with a 0.0% predicted return, driven by neutral technical signals and a sideways short-term trend. The Fear & Greed Index remains in Extreme Fear territory, while the Total crypto market cap has seen a slight increase. Recent news on Solana and Bitcoin's price movements may have a limited impact on USDS.",
+    "ja": "USDSは来日24時間で0.0％の予想戻りで、平坦な短期傾向と中立的な技術指標によって推進される。恐怖と欲求不満指数は極度の恐怖の領域にあり、総暗号資産市場キャップはわずかに増加している。ソラナとビットコインの価格動向に関する最近のニュースはUSDSに限りなく影響を与える可能性は低い。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.03%",
+        "value": "+0.17%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "0% bullish",
         "url": "https://www.coingecko.com/en/coins/usds"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Solana grabs 95% of tokenized equity as traders debate if SOL bottom is in",
+        "url": "https://cointelegraph.com/markets/solana-captures-95-of-tokenized-equity-as-sol-bottom-debate-grows?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Bitcoin weekly close above $63K amid RSI divergence may be bottom signal: Data",
         "url": "https://cointelegraph.com/markets/bitcoin-holds-63k-as-three-market-signals-remain-supportive?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Bitcoin price taps $65.5K as Iran deal sees oil drop toward 16-week low",
-        "url": "https://cointelegraph.com/markets/bitcoin-price-taps-655k-as-iran-deal-sees-oil-drop-toward-16-week-low?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

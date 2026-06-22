@@ -1,6 +1,6 @@
 {
   "coinId": "pax-gold",
-  "generatedAt": "2026-06-22T19:12:42.681289Z",
+  "generatedAt": "2026-06-22T20:00:08.523104Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.0760414991844095,
+    "changePercent24h": -0.0760826628442873,
     "confidence": 0.829
   },
   "commentary": {
-    "en": "The model predicts PAX Gold will trade sideways over the next 24 hours with high confidence (84%). Price moved +0.42% in the past 24 hours with volume at 1.5× average. Market sentiment stands at \"Extreme Fear\" (Fear & Greed: 20); the broader crypto market moved +0.0% over the past 24 hours.",
-    "ja": "モデルはPAX Goldが今後24時間で横ばいで推移すると予測しています（信頼度: 高い 84%）。過去24時間のリターンは+0.42%、出来高は平均の1.5倍です。Fear & Greed指数は「Extreme Fear」（20）で、暗号資産市場全体の24時間変動率は+0.0%です。",
+    "en": "PAX Gold (PAX-GOLD) is expected to remain flat with a 0.1% increase in the next 24 hours, based on technical analysis. The current market context, including an Extreme Fear sentiment and a slight increase in the total crypto market cap, may support this prediction. However, recent news on Solana and Bitcoin's price movement could influence the market.",
+    "ja": "PAX Gold (PAX-GOLD) は、技術分析に基づいて次の24時間で0.1%の増加が予想されます。現在の市場状況、特に極度の恐怖感と総暗号資産市場キャップの微増は、この予測をサポートする可能性があります。ただし、Solanaとビットコインの価格動向に関する最近のニュースは市場に影響を与える可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,8 +1000,13 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.03%",
+        "value": "+0.17%",
         "url": "https://www.coingecko.com/en/global-charts"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Solana grabs 95% of tokenized equity as traders debate if SOL bottom is in",
+        "url": "https://cointelegraph.com/markets/solana-captures-95-of-tokenized-equity-as-sol-bottom-debate-grows?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1012,11 +1017,6 @@
         "label": "CoinTelegraph",
         "value": "Bitcoin weekly close above $63K amid RSI divergence may be bottom signal: Data",
         "url": "https://cointelegraph.com/markets/bitcoin-holds-63k-as-three-market-signals-remain-supportive?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Bitcoin price taps $65.5K as Iran deal sees oil drop toward 16-week low",
-        "url": "https://cointelegraph.com/markets/bitcoin-price-taps-655k-as-iran-deal-sees-oil-drop-toward-16-week-low?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

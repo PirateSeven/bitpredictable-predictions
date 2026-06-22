@@ -1,6 +1,6 @@
 {
   "coinId": "binancecoin",
-  "generatedAt": "2026-06-22T19:12:42.681289Z",
+  "generatedAt": "2026-06-22T20:00:08.523104Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 0.5106079000331796,
-    "confidence": 0.7271
+    "changePercent24h": 0.5105618591699248,
+    "confidence": 0.727
   },
   "commentary": {
-    "en": "BNB is expected to trade flat with a minor decline of -0.3% in the next 24 hours, with a confidence level of 62%. The recent news of Andrew Cuomo leading a joint venture between OKX and Intercontinental Exchange may have a positive impact on the cryptocurrency market. However, the Fear & Greed Index remains in extreme fear territory, indicating a cautious outlook.",
-    "ja": "ビナンスコインは、次の24時間で-0.3%の小幅な下落が予想され、信頼度は62%です。OKXとインターコンチネンタル・エクスチェンジの共同事業を率いるアンドリュー・クオモのニュースは、暗号資産市場に肯定的な影響を与える可能性があります。ただし、恐怖と欲求不満指数は極度の恐怖の領域にあり、慎重な姿勢を示しています。",
+    "en": "BNB's predicted 24-hour direction is flat with a -0.3% change, indicating a neutral stance. The recent news of a joint TradFi-crypto venture between OKX and Intercontinental Exchange may have a positive impact on the market. However, the Fear & Greed Index remains in extreme fear, suggesting caution.",
+    "ja": "ビナンスコインの24時間予想は、-0.3％の変化でフラットを示しています。OKXとインターコンチネンタルエクスチェンジのトレッドフィー・クライントロジー・ベンチャーが好影響を与える可能性がありますが、恐怖と欲求不満指数は極度の恐怖の状態を示しています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.03%",
+        "value": "+0.17%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "50% bullish",
         "url": "https://www.coingecko.com/en/coins/binancecoin"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Solana grabs 95% of tokenized equity as traders debate if SOL bottom is in",
+        "url": "https://cointelegraph.com/markets/solana-captures-95-of-tokenized-equity-as-sol-bottom-debate-grows?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Bitcoin weekly close above $63K amid RSI divergence may be bottom signal: Data",
         "url": "https://cointelegraph.com/markets/bitcoin-holds-63k-as-three-market-signals-remain-supportive?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Bitcoin price taps $65.5K as Iran deal sees oil drop toward 16-week low",
-        "url": "https://cointelegraph.com/markets/bitcoin-price-taps-655k-as-iran-deal-sees-oil-drop-toward-16-week-low?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

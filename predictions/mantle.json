@@ -1,6 +1,6 @@
 {
   "coinId": "mantle",
-  "generatedAt": "2026-06-22T19:12:42.681289Z",
+  "generatedAt": "2026-06-22T20:00:08.523104Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 0.04560857876599128,
+    "changePercent24h": 0.04561182765757815,
     "confidence": 0.2525
   },
   "commentary": {
-    "en": "The model predicts Mantle will trade sideways over the next 24 hours with moderate confidence (63%). Price moved -0.11% in the past 24 hours with volume at 1.2× average. Market sentiment stands at \"Extreme Fear\" (Fear & Greed: 20); the broader crypto market moved +0.0% over the past 24 hours.",
-    "ja": "モデルはMantleが今後24時間で横ばいで推移すると予測しています（信頼度: 中程度の 63%）。過去24時間のリターンは-0.11%、出来高は平均の1.2倍です。Fear & Greed指数は「Extreme Fear」（20）で、暗号資産市場全体の24時間変動率は+0.0%です。",
+    "en": "Mantle's (MANTLE) 24-hour direction is predicted to be flat with a -0.5% change, indicating a neutral sentiment. The recent news about Solana's tokenized equity and Bitcoin's potential bottom signal may have a minimal impact on MANTLE's price. The Fear & Greed Index remains in extreme fear, which could lead to a volatile market.",
+    "ja": "Mantle（MANTLE）の24時間予想は、-0.5％の変化でフラットと予想され、中立的な感覚を示しています。Solanaのトークン化された株式とビットコインの潜在的なボトムシグナルに関する最近のニュースは、MANTLEの価格に最小限の影響を与える可能性があります。恐怖と欲求不満指数はまだ極度の恐怖にあり、これが市場の不安定化につながる可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,8 +1000,13 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.03%",
+        "value": "+0.17%",
         "url": "https://www.coingecko.com/en/global-charts"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Solana grabs 95% of tokenized equity as traders debate if SOL bottom is in",
+        "url": "https://cointelegraph.com/markets/solana-captures-95-of-tokenized-equity-as-sol-bottom-debate-grows?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1012,11 +1017,6 @@
         "label": "CoinTelegraph",
         "value": "Bitcoin weekly close above $63K amid RSI divergence may be bottom signal: Data",
         "url": "https://cointelegraph.com/markets/bitcoin-holds-63k-as-three-market-signals-remain-supportive?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Bitcoin price taps $65.5K as Iran deal sees oil drop toward 16-week low",
-        "url": "https://cointelegraph.com/markets/bitcoin-price-taps-655k-as-iran-deal-sees-oil-drop-toward-16-week-low?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }
