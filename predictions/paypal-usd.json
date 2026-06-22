@@ -1,6 +1,6 @@
 {
   "coinId": "paypal-usd",
-  "generatedAt": "2026-06-22T18:00:07.618684Z",
+  "generatedAt": "2026-06-22T19:00:08.411716Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.004573946788128454,
+    "changePercent24h": -0.0361,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "Paypal USD is expected to remain flat in the next 24 hours with a 95% confidence level due to neutral technical signals and a sideways short-term trend. The Fear & Greed Index indicates extreme fear in the market, which may influence investor sentiment. The recent news about TradFi-crypto ventures and Bitcoin's price movement may have a limited impact on Paypal USD.",
-    "ja": "Paypal USDは、次の24時間に95％の確率でフラットに推移する可能性があり、技術的指標と短期的な傾向が中立的であるためです。Fear & Greed Indexは市場全体で極度の恐怖を示しており、これが投資家の意識に影響を与える可能性があります。TradFi-cryptoビジネスやビットコインの価格動向に関する最近のニュースは、Paypal USDに限り影響を与える可能性は低いです。",
+    "en": "The model predicts PayPal USD will trade sideways over the next 24 hours with high confidence (95%). Price is near lower Bollinger Band support, where rebounds are historically more frequent. Community sentiment on CoinGecko is 20% bullish and the Fear & Greed Index reads \"Extreme Fear\" (20), aligning with the model's forecast.",
+    "ja": "モデルはPayPal USDが今後24時間で横ばいで推移すると予測しています（信頼度: 高い 95%）。価格がボリンジャーバンド下限付近で、サポートからの反発が過去パターンより多く観察されます。CoinGeckoコミュニティでは20%が強気を示し、Fear & Greed指数は「Extreme Fear」（20）です。予測と方向性が一致しています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,12 +1000,12 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.52%",
+        "value": "+0.15%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "25% bullish",
+        "value": "20% bullish",
         "url": "https://www.coingecko.com/en/coins/paypal-usd"
       },
       {

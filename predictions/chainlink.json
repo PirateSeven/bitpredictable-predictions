@@ -1,6 +1,6 @@
 {
   "coinId": "chainlink",
-  "generatedAt": "2026-06-22T18:00:07.618684Z",
+  "generatedAt": "2026-06-22T19:00:08.411716Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": 2.042360121619748,
-    "confidence": 0.8548
+    "changePercent24h": 1.5304757262603017,
+    "confidence": 0.8131
   },
   "commentary": {
-    "en": "Chainlink is predicted to decrease by 0.6% in the next 24 hours with a confidence level of 62%. The short-term trend remains in an uptrend despite the neutral RSI-14 reading. The Fear & Greed Index is at 20, indicating extreme fear in the market.",
-    "ja": "Chainlinkは次の24時間で0.6%減少する可能性があり、信頼度は62%です。短期傾向は上昇傾向ですが、RSI-14は中立的な値です。Fear & Greed Indexは20で、市場は極度の恐怖状態です。",
+    "en": "The model predicts Chainlink will decline ~0.6% over the next 24 hours with moderate confidence (62%). The short-term SMA has crossed above the medium-term SMA, signalling positive momentum. Community sentiment on CoinGecko is 89% bullish and the Fear & Greed Index reads \"Extreme Fear\" (20), diverging from the model's forecast, adding uncertainty.",
+    "ja": "モデルはChainlinkが今後24時間で約0.6%下落すると予測しています（信頼度: 中程度の 62%）。短期移動平均が中期移動平均を上回り、ポジティブなモメンタムが示されています。CoinGeckoコミュニティでは89%が強気を示し、Fear & Greed指数は「Extreme Fear」（20）です。予測方向と乖離があり、不確実性が高まっています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.52%",
+        "value": "+0.15%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
