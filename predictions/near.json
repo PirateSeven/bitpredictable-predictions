@@ -1,6 +1,6 @@
 {
   "coinId": "near",
-  "generatedAt": "2026-06-22T19:00:08.411716Z",
+  "generatedAt": "2026-06-22T19:12:42.681289Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": 1.2664344840210702,
-    "confidence": 0.4914
+    "changePercent24h": 0.6670979945578686,
+    "confidence": 0.1591
   },
   "commentary": {
-    "en": "NEAR Protocol (NEAR) is predicted to move downward by -3.8% in the next 24 hours with an 80% confidence level. The current market sentiment is extreme fear, as indicated by the Fear & Greed Index of 20. The recent news surrounding TradFi-crypto ventures and Bitcoin's price movement may influence NEAR Protocol's price.",
-    "ja": "NEAR Protocol (NEAR) は、次の24時間で-3.8%下落する予想があり、80%の確率で予測されています。Fear & Greed Indexは20、極度の恐怖の状態にあります。TradFi-cryptoのビジネスやビットコインの価格動向に関する最近のニュースは、NEAR Protocolの価格に影響を与える可能性があります。",
+    "en": "The model predicts NEAR Protocol will decline ~3.8% over the next 24 hours with high confidence (80%). Price moved -1.52% in the past 24 hours with volume at 1.0× average. Community sentiment on CoinGecko is 94% bullish and the Fear & Greed Index reads \"Extreme Fear\" (20), diverging from the model's forecast, adding uncertainty.",
+    "ja": "モデルはNEAR Protocolが今後24時間で約3.8%下落すると予測しています（信頼度: 高い 80%）。過去24時間のリターンは-1.52%、出来高は平均の1.0倍です。CoinGeckoコミュニティでは94%が強気を示し、Fear & Greed指数は「Extreme Fear」（20）です。予測方向と乖離があり、不確実性が高まっています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.15%",
+        "value": "+0.03%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {

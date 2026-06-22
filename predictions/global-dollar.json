@@ -1,6 +1,6 @@
 {
   "coinId": "global-dollar",
-  "generatedAt": "2026-06-22T19:00:08.411716Z",
+  "generatedAt": "2026-06-22T19:12:42.681289Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 5.499428332882139e-05,
+    "changePercent24h": -0.0121719835577292,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "GLOBAL-DOLLAR is predicted to be flat with a 95% confidence level, as the RSI-14 is neutral and the short-term trend is sideways. The recent news of a joint TradFi-crypto venture between OKX and Intercontinental Exchange may have a positive impact on the market. However, the Fear & Greed Index remains in extreme fear, indicating caution.",
-    "ja": "GLOBAL-DOLLAR の予想は 95% の確率でフラットであると予想されます。RSI-14 は中立的で、短期傾向は横方向に動いているためです。OKX とインターコンチネンタル エクスチェンジのトレッドフィー-クリプトの共同事業のニュースは市場に良い影響を与える可能性があります。ただし、恐怖と欲求不満指数は極度の恐怖の状態にあるため、注意が必要です。",
+    "en": "The model predicts Global Dollar will trade sideways over the next 24 hours with high confidence (95%). Volume is elevated at 1.6× the daily average, amplifying the directional signal. Market sentiment stands at \"Extreme Fear\" (Fear & Greed: 20); the broader crypto market moved +0.0% over the past 24 hours.",
+    "ja": "モデルはGlobal Dollarが今後24時間で横ばいで推移すると予測しています（信頼度: 高い 95%）。出来高が平均の1.6倍と高水準で、方向性シグナルを強化しています。Fear & Greed指数は「Extreme Fear」（20）で、暗号資産市場全体の24時間変動率は+0.0%です。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.15%",
+        "value": "+0.03%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {

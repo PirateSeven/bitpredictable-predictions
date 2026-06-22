@@ -1,6 +1,6 @@
 {
   "coinId": "bitcoin",
-  "generatedAt": "2026-06-22T19:00:08.411716Z",
+  "generatedAt": "2026-06-22T19:12:42.681289Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 0.8914803839530172,
-    "confidence": 0.7783
+    "changePercent24h": 0.7075516360692689,
+    "confidence": 0.7357
   },
   "commentary": {
-    "en": "Bitcoin's short-term trend remains sideways, with a predicted 24h direction of flat and a 0.4% decline in confidence. The Fear & Greed Index at 20 indicates extreme fear in the market, while the CoinGeck community remains 73% bullish. Recent news on a joint TradFi-crypto venture and a potential bottom signal from a weekly close above $63K may influence market sentiment.",
-    "ja": "ビットコインの短期トレンドは横方向に推移しており、24時間予想方向はフラット、信頼度0.4%の下方修正が予想されます。恐怖と欲求不満指数は20で極度の恐怖を示しており、コインゲックコミュニティは73%がbullishです。TradFiと暗号資産の共同事業や、週間クローズが$63Kを超えた場合の底値シグナルに関する最近のニュースは市場の意見を左右する可能性があります。",
+    "en": "Bitcoin's predicted 24-hour direction is flat with a 0.4% decline, indicating a sideways trend. The Fear & Greed Index remains in extreme fear territory at 20, while the CoinGeck community is 73% bullish. Recent news suggests a possible bottom signal with Bitcoin's weekly close above $63K amid RSI divergence.",
+    "ja": "ビットコインの予想24時間の動向は、0.4%の下落で、横方向のトレンドを示しています。恐怖と欲求不満指数は20で、極度の恐怖の状態にありますが、コインゲックコミュニティは73％がbullishです。最近のニュースでは、ビットコインの週末クローズが$63Kを超え、RSIダイバージェンスの可能性のある底部信号を示しています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.15%",
+        "value": "+0.03%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {

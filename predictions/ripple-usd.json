@@ -1,6 +1,6 @@
 {
   "coinId": "ripple-usd",
-  "generatedAt": "2026-06-22T19:00:08.411716Z",
+  "generatedAt": "2026-06-22T19:12:42.681289Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.021661617394639062,
+    "changePercent24h": -0.01560789252678517,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "Ripple USD (RIPPLE-USD) is expected to remain flat in the next 24 hours with a 95% confidence level. The recent news of a joint TradFi-crypto venture between OKX and Intercontinental Exchange may have a positive impact on the cryptocurrency market. However, the Fear & Greed Index remains in extreme fear, indicating a cautious outlook.",
-    "ja": "Ripple USD (RIPPLE-USD) は、次の 24 時間で 95% の信頼度でフラットに推定されます。 OKX とインターコンチネンタル エクスチェンジのトラッドフィー - クリプト ベンチャーが最近発表されたため、暗号通貨市場にプラスの影響を与える可能性があります。 しかし、恐怖と欲求不満指数は極度の恐怖の状態にあり、慎重な姿勢を示しています。",
+    "en": "The model predicts Ripple USD will trade sideways over the next 24 hours with high confidence (95%). Volume is elevated at 1.9× the daily average, amplifying the directional signal. Community sentiment on CoinGecko is 33% bullish and the Fear & Greed Index reads \"Extreme Fear\" (20), aligning with the model's forecast.",
+    "ja": "モデルはRipple USDが今後24時間で横ばいで推移すると予測しています（信頼度: 高い 95%）。出来高が平均の1.9倍と高水準で、方向性シグナルを強化しています。CoinGeckoコミュニティでは33%が強気を示し、Fear & Greed指数は「Extreme Fear」（20）です。予測と方向性が一致しています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.15%",
+        "value": "+0.03%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {

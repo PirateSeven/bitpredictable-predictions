@@ -1,6 +1,6 @@
 {
   "coinId": "worldcoin-wld",
-  "generatedAt": "2026-06-22T19:00:08.411716Z",
+  "generatedAt": "2026-06-22T19:12:42.681289Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -7.7634400949383195,
-    "confidence": 0.9265
+    "changePercent24h": -7.2429491985057215,
+    "confidence": 0.9213
   },
   "commentary": {
-    "en": "Worldcoin WLD is predicted to decline by 2.9% in the next 24 hours, with a confidence level of 81%. The current market context suggests extreme fear, with the Fear & Greed Index at 20. However, the recent news of a joint TradFi-crypto venture between OKX and Intercontinental Exchange may provide some positive sentiment.",
-    "ja": "ワールドコインのWLDは、来日24時間で2.9%の下落が予想され、信頼度は81%です。現在の市場状況は極度の恐怖を示しており、Fear＆Greed Indexは20です。ただし、OKXとインターコンチネンタルエクスチェンジが共同で設立するトラッドフィーとクリプトのビジネスが報道されているため、一定のポジティブな意気込みが見られる可能性があります。",
+    "en": "The model predicts Worldcoin will decline ~2.9% over the next 24 hours with high confidence (81%). Price moved +1.11% in the past 24 hours with volume at 0.9× average. Community sentiment on CoinGecko is 64% bullish and the Fear & Greed Index reads \"Extreme Fear\" (20), diverging from the model's forecast, adding uncertainty.",
+    "ja": "モデルはWorldcoinが今後24時間で約2.9%下落すると予測しています（信頼度: 高い 81%）。過去24時間のリターンは+1.11%、出来高は平均の0.9倍です。CoinGeckoコミュニティでは64%が強気を示し、Fear & Greed指数は「Extreme Fear」（20）です。予測方向と乖離があり、不確実性が高まっています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.15%",
+        "value": "+0.03%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {

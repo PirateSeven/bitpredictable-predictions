@@ -1,6 +1,6 @@
 {
   "coinId": "chainlink",
-  "generatedAt": "2026-06-22T19:00:08.411716Z",
+  "generatedAt": "2026-06-22T19:12:42.681289Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,8 +966,8 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": 1.5304757262603017,
-    "confidence": 0.8131
+    "changePercent24h": 1.15169569078927,
+    "confidence": 0.7626
   },
   "commentary": {
     "en": "The model predicts Chainlink will decline ~0.6% over the next 24 hours with moderate confidence (62%). The short-term SMA has crossed above the medium-term SMA, signalling positive momentum. Community sentiment on CoinGecko is 89% bullish and the Fear & Greed Index reads \"Extreme Fear\" (20), diverging from the model's forecast, adding uncertainty.",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.15%",
+        "value": "+0.03%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
