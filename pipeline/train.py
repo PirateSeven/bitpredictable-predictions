@@ -13,6 +13,7 @@ Fixes vs v1:
 """
 
 import gc
+import json
 import logging
 import pickle
 import sys
@@ -363,6 +364,87 @@ def walk_forward_cv(
     return cv_mae
 
 
+
+# ── CV MAE 履歴記録・劣化アラート（2026-06-23 追加） ───────────────────────────
+# model.pt は再学習ごとに上書きされ cv_mae_24h の履歴が残らないため、別途
+# logs/cv_mae_history.jsonl に蓄積し、目標値超過・直近平均からの悪化を検知する。
+_CV_HISTORY_PATH    = Path(__file__).resolve().parent.parent / "logs" / "cv_mae_history.jsonl"
+_ACE_ENV_PATH        = Path.home() / "crypto-ace" / ".env"
+MAE_TARGET_PCT       = 5.0    # 設計目標: 24h MAE <= 5%
+MAE_DEGRADE_REL_PCT  = 20.0   # 直近平均より相対20%以上悪化したらアラート
+
+
+def _load_cv_history() -> list:
+    if not _CV_HISTORY_PATH.exists():
+        return []
+    with open(_CV_HISTORY_PATH) as f:
+        return [json.loads(line) for line in f if line.strip()]
+
+
+def _append_cv_history(cv_mae: float) -> None:
+    _CV_HISTORY_PATH.parent.mkdir(exist_ok=True)
+    row = {
+        "time":        datetime.now(timezone.utc).isoformat(),
+        "cv_mae_24h":  cv_mae,
+        "train_days":  TRAIN_DAYS,
+        "top_n_coins": TOP_N_COINS,
+    }
+    with open(_CV_HISTORY_PATH, "a") as f:
+        f.write(json.dumps(row) + "\n")
+
+
+def _send_telegram(text: str) -> None:
+    """crypto-ace/.env の Telegram 認証情報でアラート送信。失敗しても再学習は止めない。"""
+    try:
+        if not _ACE_ENV_PATH.exists():
+            return
+        creds = {}
+        for line in _ACE_ENV_PATH.read_text().splitlines():
+            if line.startswith("TELEGRAM_BOT_TOKEN=") or line.startswith("TELEGRAM_CHAT_ID="):
+                k, _, v = line.partition("=")
+                creds[k] = v.strip()
+        token, chat_id = creds.get("TELEGRAM_BOT_TOKEN"), creds.get("TELEGRAM_CHAT_ID")
+        if not token or not chat_id:
+            return
+        import urllib.request, urllib.parse
+        url = "https://api.telegram.org/bot{}/sendMessage".format(token)
+        data = urllib.parse.urlencode({"chat_id": chat_id, "text": text}).encode()
+        urllib.request.urlopen(urllib.request.Request(url, data=data), timeout=10)
+    except Exception as e:
+        logger.warning("Telegram alert failed: %s", e)
+
+
+def _check_cv_mae_regression(cv_mae: float) -> None:
+    if cv_mae != cv_mae:  # NaN check
+        logger.warning("CV MAE is NaN — walk_forward_cv produced no results")
+        _send_telegram("crypto-ace 再学習アラート\nCV MAE が NaN — walk_forward_cv が結果を出せませんでした")
+        return
+
+    history = _load_cv_history()
+    msgs = []
+    if cv_mae > MAE_TARGET_PCT:
+        msgs.append("CV MAE {:.2f}% は目標 {:.0f}% を超過".format(cv_mae, MAE_TARGET_PCT))
+
+    if len(history) >= 3:
+        recent = [h["cv_mae_24h"] for h in history[-5:]]
+        baseline = float(np.median(recent))
+        if baseline > 0 and cv_mae > baseline * (1 + MAE_DEGRADE_REL_PCT / 100):
+            msgs.append(
+                "CV MAE {:.2f}% は直近平均 {:.2f}% より{:.0f}%以上悪化".format(
+                    cv_mae, baseline, MAE_DEGRADE_REL_PCT
+                )
+            )
+
+    _append_cv_history(cv_mae)
+
+    if msgs:
+        text = "crypto-ace 予測モデル再学習アラート\n" + "\n".join(msgs) + "\n最新 CV MAE: {:.2f}%".format(cv_mae)
+        logger.warning(text)
+        _send_telegram(text)
+    else:
+        logger.info("CV MAE regression check: OK (no alert)")
+
+
 # ── Main ───────────────────────────────────────────────────────────────────────
 def main():
     device = get_device()
@@ -396,6 +478,7 @@ def main():
     # 2. Walk-forward CV (scaler fit per-fold inside, no global leakage)
     logger.info("Running walk-forward CV...")
     cv_mae = walk_forward_cv(all_X_per_coin, all_y_per_coin, device)
+    _check_cv_mae_regression(cv_mae)
 
     # 3. Final model: concatenate all coins, fit global scaler on full dataset
     X_all = np.concatenate(all_X_per_coin, axis=0)
