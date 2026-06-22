@@ -1,6 +1,6 @@
 {
   "coinId": "monero",
-  "generatedAt": "2026-06-22T22:00:08.466549Z",
+  "generatedAt": "2026-06-22T23:00:08.103276Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -0.4003662166292621,
-    "confidence": 0.2996
+    "changePercent24h": -0.40072702584307596,
+    "confidence": 0.3
   },
   "commentary": {
-    "en": "Monero's predicted 24-hour direction is DOWN with a 71% confidence level, following a 4.89% increase in the past 24 hours. The asset is trading near the upper Bollinger Band, and the short-term trend remains in an uptrend. However, the Fear & Greed Index is at Extreme Fear, indicating a potential sell-off.",
-    "ja": "モノロの24時間予測は下落で、71％の確信度を持っています。過去24時間で4.89％の増加があったにもかかわらず、資産は上昇するボリンジャーバンドに近い位置にあり、短期的な傾向は上昇傾向にあります。ただし、恐怖と欲求不満指数は極度の恐怖にあり、売りが起こる可能性があります。",
+    "en": "Monero's predicted 24-hour direction is DOWN with a 71% confidence level, despite a recent 4.89% return. The Fear & Greed Index remains in Extreme Fear territory, and the short-term trend is still in an uptrend. However, the RSI-14 is neutral, and the Bollinger Band %B is near the upper band.",
+    "ja": "モノロの予測24時間の動向は下落で、信頼度71％。 最近の4.89％のリターンにもかかわらず、恐怖と欲求不満指数は極度の恐怖の状態にあり、短期の傾向は上昇傾向にある。ただし、RSI-14は中立的、ボリンジャーバンド％Bは上限近くに位置している。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.62%",
+        "value": "+0.19%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "93% bullish",
         "url": "https://www.coingecko.com/en/coins/monero"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitcoin funding rate hits 2-week high: Is $70K next?",
+        "url": "https://cointelegraph.com/markets/bitcoin-funding-rate-hits-2-week-high-is-70k-next?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Franklin Templeton launches dedicated crypto division after closing 250 Digital acquisition",
         "url": "https://cointelegraph.com/news/franklin-templeton-launches-dedicated-crypto-division-after-completing-250-digital-acquisition?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "New York, Maryland and Utah to hold primaries with crypto PAC money hanging over voters",
-        "url": "https://cointelegraph.com/news/us-state-primaries-crypto-pac-money-candidates?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "coinId": "tron",
-  "generatedAt": "2026-06-22T22:00:08.466549Z",
+  "generatedAt": "2026-06-22T23:00:08.103276Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.2721066594635474,
-    "confidence": 0.8118
+    "changePercent24h": -0.27227595810468286,
+    "confidence": 0.8119
   },
   "commentary": {
-    "en": "TRON's price is expected to remain flat in the next 24 hours with a confidence level of 71%. The recent news about the launch of Franklin Templeton's dedicated crypto division and Andrew Cuomo's joint venture with OKX and Intercontinental Exchange may have a positive impact on the market. However, the overall sentiment remains in extreme fear, which could limit TRON's price growth.",
-    "ja": "トロンの価格は、来日24時間で71％の確信度でフラットに推定される。フランクリン・テンプルトンの専門的な暗号化部門の立ち上げと、OKXとインターコンチネンタル・エクスチェンジの共同事業のアンドリュー・クオモのリードが市場に良い影響を与える可能性がある。しかし、総合的な感情は極度の恐怖にあり、トロンの価格上昇を制限する可能性がある。",
+    "en": "TRON's 24-hour return is +1.64%, with a predicted flat direction for the next 24 hours. The Fear & Greed Index remains at 20, indicating extreme fear in the market. TRON's recent price movement is likely influenced by the overall market sentiment and recent news in the crypto space.",
+    "ja": "トロンの24時間のリターンは+1.64%で、次の24時間の予想はフラットです。Fear & Greed Indexは20のまま、極度の恐怖が続いています。トロンの価格動向は、市場全体の感情と最近のコインニュースに影響を受けています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.62%",
+        "value": "+0.19%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "43% bullish",
+        "value": "36% bullish",
         "url": "https://www.coingecko.com/en/coins/tron"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitcoin funding rate hits 2-week high: Is $70K next?",
+        "url": "https://cointelegraph.com/markets/bitcoin-funding-rate-hits-2-week-high-is-70k-next?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Franklin Templeton launches dedicated crypto division after closing 250 Digital acquisition",
         "url": "https://cointelegraph.com/news/franklin-templeton-launches-dedicated-crypto-division-after-completing-250-digital-acquisition?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "New York, Maryland and Utah to hold primaries with crypto PAC money hanging over voters",
-        "url": "https://cointelegraph.com/news/us-state-primaries-crypto-pac-money-candidates?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

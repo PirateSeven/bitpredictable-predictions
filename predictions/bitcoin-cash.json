@@ -1,6 +1,6 @@
 {
   "coinId": "bitcoin-cash",
-  "generatedAt": "2026-06-22T22:00:08.466549Z",
+  "generatedAt": "2026-06-22T23:00:08.103276Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -2.5626679585003496,
+    "changePercent24h": -2.5627570606301813,
     "confidence": 0.8528
   },
   "commentary": {
-    "en": "Bitcoin Cash is expected to decline by 1.6% in the next 24 hours, with a confidence level of 77%. The recent news of institutional involvement in the crypto market, such as Franklin Templeton's dedicated crypto division, may have a mixed impact on BCH. The Fear & Greed Index remains in extreme fear territory, suggesting a cautious outlook for the market.",
-    "ja": "ビットコイン・キャッシュは、次の24時間で1.6%の下落が予想され、信頼度は77%です。 institutionalの関与が増すニュース、フランクリン・テンプルトンの専門的な暗号資産部門の設立など、BCHに混乱をもたらす可能性があります。  Fear & Greed Indexは、極度の恐怖の領域にあり、市場全体の警戒感が高まっています。",
+    "en": "Bitcoin Cash is predicted to decline by 1.6% in the next 24 hours with a confidence level of 77%. The current market sentiment is in extreme fear, with the Fear & Greed Index at 20. The recent news about Bitcoin's funding rate hitting a 2-week high and the launch of a dedicated crypto division by Franklin Templeton may influence the market.",
+    "ja": "ビットコイン・キャッシュは、次の24時間で1.6%の下落が予測され、信頼度は77%です。市場の感情は極度の恐怖にあり、Fear & Greed Indexは20です。ビットコインのファンディングレートが2週間で最高に達し、フランクリン・テンプルトンが専門のクリプト・ディビジョンを立ち上げたニュースが市場に影響を与える可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.62%",
+        "value": "+0.19%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "25% bullish",
         "url": "https://www.coingecko.com/en/coins/bitcoin-cash"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitcoin funding rate hits 2-week high: Is $70K next?",
+        "url": "https://cointelegraph.com/markets/bitcoin-funding-rate-hits-2-week-high-is-70k-next?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Franklin Templeton launches dedicated crypto division after closing 250 Digital acquisition",
         "url": "https://cointelegraph.com/news/franklin-templeton-launches-dedicated-crypto-division-after-completing-250-digital-acquisition?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "New York, Maryland and Utah to hold primaries with crypto PAC money hanging over voters",
-        "url": "https://cointelegraph.com/news/us-state-primaries-crypto-pac-money-candidates?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

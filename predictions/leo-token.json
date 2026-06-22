@@ -1,6 +1,6 @@
 {
   "coinId": "leo-token",
-  "generatedAt": "2026-06-22T22:00:08.466549Z",
+  "generatedAt": "2026-06-22T23:00:08.103276Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.9029475786159737,
+    "changePercent24h": -0.9029358588682508,
     "confidence": 0.8376
   },
   "commentary": {
-    "en": "LEO Token (LEO-TOKEN) is expected to remain flat with a predicted 24h direction of -0.3% due to neutral technical signals and a sideways short-term trend. The Fear & Greed Index at 20 indicates extreme fear in the market, which may impact LEO-TOKEN's price. Recent news about crypto adoption and regulatory developments may influence market sentiment.",
-    "ja": "LEO Token (LEO-TOKEN) は、24時間の予想方向が-0.3%のままである可能性があり、中立的な技術指標と短期的な横方向のトレンドによりそうである。恐怖と欲求不満指数が20であることは、市場の恐怖感が高まっていることを示しており、LEO-TOKENの価格にも影響を与える可能性がある。最近のニュースでは、暗号資産の採用と規制に関する開発が市場の動向に影響を与える可能性がある。",
+    "en": "The LEO Token price is expected to remain flat with a 0.3% decline in the next 24 hours, based on current technical signals. The recent news of Bitcoin's funding rate hitting a 2-week high and the overall fear and greed index at extreme fear may influence the market. However, the neutral RSI-14 and sideways short-term trend suggest a cautious approach.",
+    "ja": "レオ・トークン価格は、現在の技術指標に基づいて次の24時間で0.3％の下落が予想されます。ビットコインのファンディングレートが2週間で最高に達したニュースや、総合的な恐怖と欲求不満指数が極度の恐怖にあり、市場に影響を与える可能性があります。ただし、RSI-14が中立的で、短期の傾向が横方向に推移しているため、慎重なアプローチが必要です。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.62%",
+        "value": "+0.19%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "50% bullish",
+        "value": "67% bullish",
         "url": "https://www.coingecko.com/en/coins/leo-token"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitcoin funding rate hits 2-week high: Is $70K next?",
+        "url": "https://cointelegraph.com/markets/bitcoin-funding-rate-hits-2-week-high-is-70k-next?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Franklin Templeton launches dedicated crypto division after closing 250 Digital acquisition",
         "url": "https://cointelegraph.com/news/franklin-templeton-launches-dedicated-crypto-division-after-completing-250-digital-acquisition?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "New York, Maryland and Utah to hold primaries with crypto PAC money hanging over voters",
-        "url": "https://cointelegraph.com/news/us-state-primaries-crypto-pac-money-candidates?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

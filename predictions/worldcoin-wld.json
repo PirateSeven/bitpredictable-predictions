@@ -1,6 +1,6 @@
 {
   "coinId": "worldcoin-wld",
-  "generatedAt": "2026-06-22T22:00:08.466549Z",
+  "generatedAt": "2026-06-22T23:00:08.103276Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -1.573305132263718,
-    "confidence": 0.6667
+    "changePercent24h": -1.5737367707352854,
+    "confidence": 0.6668
   },
   "commentary": {
-    "en": "Worldcoin WLD is expected to trade flat with a minor decline of -0.2% in the next 24 hours, with a low confidence level of 10%. The current market context, including an Extreme Fear sentiment and a sideways short-term trend, suggests a cautious approach. Recent news on the crypto market, such as Franklin Templeton's dedicated crypto division and Andrew Cuomo's joint TradFi-crypto venture, may have a limited impact on WLD's price.",
-    "ja": "ワールドコインのWLDは、次の24時間に-0.2%の小幅な下落が予想され、信頼度は10%に低い。現在の市場状況、特に極度の恐怖感と短期的な横方向のトレンドは、慎重なアプローチを示唆している。最近のニュース、フランクリン・テンプルトンの専門的な暗号化分野とアンドリュー・クオモのトラッドフィーと暗号化の共同事業は、WLDの価格に限られた影響を与える可能性がある。",
+    "en": "Worldcoin WLD is expected to remain flat with a minor decline of -0.2% in the next 24 hours due to its neutral RSI-14 reading and sideways short-term trend. The recent news on Bitcoin funding rate and crypto market developments may have a limited impact on WLD's price movement. Overall, the market context suggests a cautious approach.",
+    "ja": "ワールドコインのWLDは、RSI-14が中立的な値を示し、短期の傾向が横方向に動いていることから、来る24時間で-0.2%の小幅な下落が予想される。ビットコインのファンディングレートやcryptocurrency市場のニュースはWLDの価格動向に影響を与える可能性はあるが、限られている。総合的には、慎重なアプローチが必要である。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.62%",
+        "value": "+0.19%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "67% bullish",
         "url": "https://www.coingecko.com/en/coins/worldcoin-wld"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitcoin funding rate hits 2-week high: Is $70K next?",
+        "url": "https://cointelegraph.com/markets/bitcoin-funding-rate-hits-2-week-high-is-70k-next?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Franklin Templeton launches dedicated crypto division after closing 250 Digital acquisition",
         "url": "https://cointelegraph.com/news/franklin-templeton-launches-dedicated-crypto-division-after-completing-250-digital-acquisition?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "New York, Maryland and Utah to hold primaries with crypto PAC money hanging over voters",
-        "url": "https://cointelegraph.com/news/us-state-primaries-crypto-pac-money-candidates?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

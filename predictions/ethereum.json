@@ -1,6 +1,6 @@
 {
   "coinId": "ethereum",
-  "generatedAt": "2026-06-22T22:00:08.466549Z",
+  "generatedAt": "2026-06-22T23:00:08.103276Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -1.6522649728474068,
+    "changePercent24h": -1.6523625343705357,
     "confidence": 0.8133
   },
   "commentary": {
-    "en": "Ethereum's 24-hour direction is predicted to be flat with a -0.3% change, indicating a neutral sentiment. The Fear & Greed Index remains at 20, indicating extreme fear in the market. Ethereum's recent price movement is influenced by the overall crypto market's 0.62% increase in total market cap.",
-    "ja": "エーテレムの24時間の予測は、-0.3%の変化でフラットであると予測されています。これは中立的な感情を示しています。恐怖と欲求不満指数は20に留まり、市場全体では0.62%の総マーケットキャップ増加が影響しています。",
+    "en": "Ethereum's flat 24-hour direction is predicted with 38% confidence, as the RSI-14 and Bollinger Band %B indicate a neutral trend. The Fear & Greed Index remains in Extreme Fear, while the CoinGecko community is 86% bullish. Ethereum's recent price movement is likely influenced by the overall crypto market sentiment and Bitcoin's performance.",
+    "ja": "エーテレムの24時間の方向は38％の確信でフラットと予想され、RSI-14とボリンジャー・バンド %Bは中立的なトレンドを示しています。恐怖と欲求不満指数は極度の恐怖のままです。一方、コインゲックコミュニティは86％がバブルです。エーテレムの価格動向は、総合的な暗号通貨市場の感覚とビットコインのパフォーマンスに影響を受けていると考えられます。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.62%",
+        "value": "+0.19%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "85% bullish",
+        "value": "86% bullish",
         "url": "https://www.coingecko.com/en/coins/ethereum"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitcoin funding rate hits 2-week high: Is $70K next?",
+        "url": "https://cointelegraph.com/markets/bitcoin-funding-rate-hits-2-week-high-is-70k-next?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Franklin Templeton launches dedicated crypto division after closing 250 Digital acquisition",
         "url": "https://cointelegraph.com/news/franklin-templeton-launches-dedicated-crypto-division-after-completing-250-digital-acquisition?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "New York, Maryland and Utah to hold primaries with crypto PAC money hanging over voters",
-        "url": "https://cointelegraph.com/news/us-state-primaries-crypto-pac-money-candidates?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

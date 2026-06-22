@@ -1,6 +1,6 @@
 {
   "coinId": "the-open-network",
-  "generatedAt": "2026-06-22T22:00:08.466549Z",
+  "generatedAt": "2026-06-22T23:00:08.103276Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": 6.811631022045076,
+    "changePercent24h": 6.811993093019162,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "Gram (prev. Toncoin) (THE-OPEN-NETWORK) is predicted to move downward by 1.0% in the next 24 hours with a confidence level of 72%. The recent news of Franklin Templeton launching a dedicated crypto division may have a mixed impact on the market. The Fear & Greed Index remains at 20, indicating extreme fear among investors.",
-    "ja": "Gram (prev. Toncoin) (THE-OPEN-NETWORK) は、次の24時間で1.0%下落する予測です。信頼度は72%です。Franklin Templetonが専門の暗号資産部門を立ち上げたニュースは、市場への影響は複雑になります。Fear & Greed Indexは20のまま、投資家の恐怖感が極度に高まっていることを示しています。",
+    "en": "Gram (prev. Toncoin) (THE-OPEN-NETWORK) is predicted to move downward by -1.0% in the next 24 hours with a confidence level of 72%. This prediction is based on current technical signals, including a neutral RSI-14 reading and a low volume ratio. Despite a short-term uptrend, the overall market context suggests caution due to the Extreme Fear Fear & Greed Index.",
+    "ja": "THE-OPEN-NETWORKは、来日24時間で-1.0%の下落が予想され、信頼度は72%である。現在の技術指標、包括中立的なRSI-14値と低いボリューム比率に基づいて予測されている。短期的な上昇傾向にもかかわらず、極度の恐怖のFear & Greed Indexにより、総合的な市場状況は注意が必要である。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.62%",
+        "value": "+0.19%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "75% bullish",
         "url": "https://www.coingecko.com/en/coins/the-open-network"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitcoin funding rate hits 2-week high: Is $70K next?",
+        "url": "https://cointelegraph.com/markets/bitcoin-funding-rate-hits-2-week-high-is-70k-next?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Franklin Templeton launches dedicated crypto division after closing 250 Digital acquisition",
         "url": "https://cointelegraph.com/news/franklin-templeton-launches-dedicated-crypto-division-after-completing-250-digital-acquisition?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "New York, Maryland and Utah to hold primaries with crypto PAC money hanging over voters",
-        "url": "https://cointelegraph.com/news/us-state-primaries-crypto-pac-money-candidates?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "coinId": "usd-coin",
-  "generatedAt": "2026-06-22T22:00:08.466549Z",
+  "generatedAt": "2026-06-22T23:00:08.103276Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 0.0016035940745566524,
+    "changePercent24h": 0.0016053113610193792,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "USD Coin (USD-COIN) is expected to remain flat in the next 24 hours with a 95% confidence level, as its RSI-14 is neutral at 52 and Bollinger Band %B is at 0.72, indicating a mid-band position. The recent news on crypto market developments, including the launch of Franklin Templeton's crypto division and Andrew Cuomo's joint venture with OKX and Intercontinental Exchange, may have a neutral impact on USD-COIN's price. The overall crypto market sentiment remains in extreme fear, according to the Fear & Greed Index.",
-    "ja": "USD コイン（USD-COIN）は、次の24時間に95％の確率でフラットに推移すると予測されます。RSI-14は52で中立的な位置にあり、ボリンジャー・バンド %Bは0.72で中間位置にあります。最近のニュースでは、フランクリン・テンプルトンの暗号資産部門の設立や、OKXとインターコンチネンタル・エクスチェンジのジョイント・ベンチャーにアンドリュー・クオモが参加するなど、暗号資産市場の動向に関するニュースが発表されています。これらのニュースは、USD-COINの価格に中立的な影響を与える可能性があります。暗号資産市場全体の感情は、恐怖の極度にあります。",
+    "en": "USD Coin (USD-COIN) is expected to remain flat in the next 24 hours with a 95% confidence level. The current market context, including extreme fear sentiment and a sideways trend, suggests a neutral outlook. The recent news on Bitcoin funding rate and crypto market developments may have a limited impact on USD-COIN's short-term price movement.",
+    "ja": "USDコイン（USD-COIN）は、来日24時間で95％の確実性でフラットになる可能性があります。現在の市場状況、特に極度の恐怖感と横方向のトレンドは中立的な展望を示しています。ビットコインのファンディングレートや暗号通貨の市場動向に関する最近のニュースは、短期的な価格動向に限り影響を与える可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.62%",
+        "value": "+0.19%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "0% bullish",
         "url": "https://www.coingecko.com/en/coins/usd-coin"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitcoin funding rate hits 2-week high: Is $70K next?",
+        "url": "https://cointelegraph.com/markets/bitcoin-funding-rate-hits-2-week-high-is-70k-next?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Franklin Templeton launches dedicated crypto division after closing 250 Digital acquisition",
         "url": "https://cointelegraph.com/news/franklin-templeton-launches-dedicated-crypto-division-after-completing-250-digital-acquisition?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "New York, Maryland and Utah to hold primaries with crypto PAC money hanging over voters",
-        "url": "https://cointelegraph.com/news/us-state-primaries-crypto-pac-money-candidates?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

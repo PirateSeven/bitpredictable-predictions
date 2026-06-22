@@ -1,6 +1,6 @@
 {
   "coinId": "stellar",
-  "generatedAt": "2026-06-22T22:00:08.466549Z",
+  "generatedAt": "2026-06-22T23:00:08.103276Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -2.2535839187462914,
+    "changePercent24h": -2.2533505423693887,
     "confidence": 0.8067
   },
   "commentary": {
-    "en": "Stellar's 24-hour direction is predicted to be DOWN with a confidence of 73%. The recent news on crypto market developments, such as the launch of Franklin Templeton's crypto division, may have a neutral impact on Stellar's price. The Fear & Greed Index remains in Extreme Fear territory, which could contribute to the predicted downtrend.",
-    "ja": "ステラルの24時間の方向は、73%の確率で下降予測されています。クライアントテンプルトンの暗号資産部門の設立などの最近のニュースは、ステラの価格に中立的な影響を与える可能性があります。恐怖と欲求不満指数は、極度の恐怖の領域にあり、これが予想される下降傾向に貢献する可能性があります。",
+    "en": "Stellar's 24-hour direction is predicted to be DOWN with a confidence of 73% and a predicted return of -1.6%. The recent news of Bitcoin's funding rate hitting a 2-week high and Solana's tokenized equity surge may impact Stellar's price. The Fear & Greed Index at 20 indicates extreme fear in the market.",
+    "ja": "ステラルの24時間の方向は、73％の確信度でDOWNと予測され、-1.6％の予想リターンとなっています。ビットコインのファンディングレートが2週間の高値を達成し、ソラナのトークン化された株式の急上昇など、最近のニュースはステラルの価格に影響を与える可能性があります。恐怖と欲求不満指数は20で、市場は極度の恐怖の状態となっています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.62%",
+        "value": "+0.19%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "49% bullish",
+        "value": "45% bullish",
         "url": "https://www.coingecko.com/en/coins/stellar"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitcoin funding rate hits 2-week high: Is $70K next?",
+        "url": "https://cointelegraph.com/markets/bitcoin-funding-rate-hits-2-week-high-is-70k-next?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Franklin Templeton launches dedicated crypto division after closing 250 Digital acquisition",
         "url": "https://cointelegraph.com/news/franklin-templeton-launches-dedicated-crypto-division-after-completing-250-digital-acquisition?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "New York, Maryland and Utah to hold primaries with crypto PAC money hanging over voters",
-        "url": "https://cointelegraph.com/news/us-state-primaries-crypto-pac-money-candidates?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

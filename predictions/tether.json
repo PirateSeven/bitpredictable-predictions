@@ -1,6 +1,6 @@
 {
   "coinId": "tether",
-  "generatedAt": "2026-06-22T22:00:08.466549Z",
+  "generatedAt": "2026-06-22T23:00:08.103276Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.04622539120682287,
+    "changePercent24h": -0.04622864217155939,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "Tether's flat 24-hour direction is predicted with 95% confidence, as its RSI-14 and Bollinger Band %B indicate neutral sentiment. The Fear & Greed Index remains in Extreme Fear, while the total crypto market cap shows a slight increase. Tether's price movement is likely to be influenced by the overall market sentiment and recent news in the crypto space.",
-    "ja": "テザーの24時間の方向は95％の確率でフラットと予測され、RSI-14とボリンジャーバンド％Bは中立的な意見を示しています。恐怖と欲求不満指数は極度の恐怖のままであり、総暗号資産市場キャップはわずかに増加しています。テザーの価格動向は暗号空間における最近のニュースや総合市場の意見に影響を受ける可能性があります。",
+    "en": "Tether (TETHER) is expected to remain flat in the next 24 hours with a 0.0% predicted return, driven by neutral technical signals and a sideways short-term trend. The Fear & Greed Index at 20 indicates extreme fear in the market, but a 67% bullish sentiment from the CoinGeck community suggests potential for a rebound. Recent news on Bitcoin's funding rate and institutional investment may influence Tether's price movement.",
+    "ja": "テザー（TETHER）は、次の24時間に0.0％の予想収益で平穏な動きを続けると考えられています。これは中立的な技術指標と短期的な傾向の横方向の動きによって推進されています。恐怖と欲求不満指数が20であることは市場が極度に恐怖に陥っていることを示していますが、コインゲックコミュニティからの67％のバブル感は価格の反発につながる可能性があります。ビットコインのファンディングレートや機関投資家の投資に関する最近のニュースはテザーの価格動向に影響を与える可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.62%",
+        "value": "+0.19%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "67% bullish",
         "url": "https://www.coingecko.com/en/coins/tether"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitcoin funding rate hits 2-week high: Is $70K next?",
+        "url": "https://cointelegraph.com/markets/bitcoin-funding-rate-hits-2-week-high-is-70k-next?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Franklin Templeton launches dedicated crypto division after closing 250 Digital acquisition",
         "url": "https://cointelegraph.com/news/franklin-templeton-launches-dedicated-crypto-division-after-completing-250-digital-acquisition?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "New York, Maryland and Utah to hold primaries with crypto PAC money hanging over voters",
-        "url": "https://cointelegraph.com/news/us-state-primaries-crypto-pac-money-candidates?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

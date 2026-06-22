@@ -1,6 +1,6 @@
 {
   "coinId": "figure-heloc",
-  "generatedAt": "2026-06-22T22:00:08.466549Z",
+  "generatedAt": "2026-06-22T23:00:08.103276Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 0.9462908551046785,
+    "changePercent24h": 0.9463997018319422,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "Figure Heloc (FIGURE-HELOC) is expected to remain flat in the next 24 hours with a 95% confidence level, as its RSI-14 and Bollinger Band %B indicate a neutral trend. The low volume ratio and sideways short-term trend also support this prediction. The overall market context, including the Fear & Greed Index and total crypto market cap, suggests a cautious outlook.",
-    "ja": "Figure Heloc (FIGURE-HELOC) は、来る24時間に95％の確率でフラットになることを予想しており、RSI-14とボリンジャー・バンド %Bの指標は中立的な傾向を示しており、低いボリューム比率と短期の傾向もこの予想を裏付けています。Fear & Greed Indexと総暗号資産市場キャップなどの総市場状況は、慎重な姿勢を示しています。",
+    "en": "Figure Heloc is predicted to remain flat with a 95% confidence level, as its RSI-14 and Bollinger Band %B indicate a neutral trend. The low volume ratio and sideways short-term trend also support this prediction. However, the overall market context suggests a cautious approach due to the extreme fear sentiment.",
+    "ja": "Figure Heloc の予測は95％の信頼度で、flatのままであると考えられる。RSI-14とBollinger Band %Bは中立的な傾向を示しており、低いボリューム比率と短期の横方向の傾向もこれを裏付ける。ただし、極度の恐怖感が広がっている市場全体の状況から、慎重なアプローチが必要である。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.62%",
+        "value": "+0.19%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "50% bullish",
         "url": "https://www.coingecko.com/en/coins/figure-heloc"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitcoin funding rate hits 2-week high: Is $70K next?",
+        "url": "https://cointelegraph.com/markets/bitcoin-funding-rate-hits-2-week-high-is-70k-next?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Franklin Templeton launches dedicated crypto division after closing 250 Digital acquisition",
         "url": "https://cointelegraph.com/news/franklin-templeton-launches-dedicated-crypto-division-after-completing-250-digital-acquisition?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "New York, Maryland and Utah to hold primaries with crypto PAC money hanging over voters",
-        "url": "https://cointelegraph.com/news/us-state-primaries-crypto-pac-money-candidates?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

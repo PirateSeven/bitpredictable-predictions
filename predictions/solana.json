@@ -1,6 +1,6 @@
 {
   "coinId": "solana",
-  "generatedAt": "2026-06-22T22:00:08.466549Z",
+  "generatedAt": "2026-06-22T23:00:08.103276Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 0.5903198364548948,
-    "confidence": 0.4463
+    "changePercent24h": 0.5904998091763676,
+    "confidence": 0.4464
   },
   "commentary": {
-    "en": "Solana's (SOL) 24-hour return is -0.99%, with a predicted flat direction and low confidence. The Fear & Greed Index remains at 20, indicating extreme fear in the market. Recent news on Solana's tokenized equity and potential partnerships may influence the market, but the short-term trend remains sideways.",
-    "ja": "ソラナ（SOL）の24時間戻り率は-0.99%で、予想はフラット方向で信頼度が低い。恐怖と欲求不満指数は20で、市場全体が極度の恐怖に包まれている。ソラナのトークン化された株式やパートナーシップに関する最近のニュースは市場に影響を与えるかもしれないが、短期的なトレンドは横方向に伸びている。",
+    "en": "Solana's price is expected to remain flat with a possible 0.2% increase, but the confidence level is low at 10%. The recent news about Solana grabbing 95% of tokenized equity may be a positive sign, but the overall market context remains in extreme fear. The Fear & Greed Index is at 20, and the total crypto market cap has only seen a 0.19% increase.",
+    "ja": "ソラナの価格は、0.2%の増加の可能性があるが、信頼度は低い10%の予想で、フラットのままになる可能性があります。ソラナが95%のトークン化された株式を獲得したという最近のニュースは、プラスの兆候かもしれませんが、総コインマーケットキャップは0.19%の増加にとどまり、恐怖のインデックスは20で、総コインマーケットキャップは0.19%の増加にとどまっています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.62%",
+        "value": "+0.19%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "79% bullish",
+        "value": "78% bullish",
         "url": "https://www.coingecko.com/en/coins/solana"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitcoin funding rate hits 2-week high: Is $70K next?",
+        "url": "https://cointelegraph.com/markets/bitcoin-funding-rate-hits-2-week-high-is-70k-next?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Franklin Templeton launches dedicated crypto division after closing 250 Digital acquisition",
         "url": "https://cointelegraph.com/news/franklin-templeton-launches-dedicated-crypto-division-after-completing-250-digital-acquisition?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "New York, Maryland and Utah to hold primaries with crypto PAC money hanging over voters",
-        "url": "https://cointelegraph.com/news/us-state-primaries-crypto-pac-money-candidates?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

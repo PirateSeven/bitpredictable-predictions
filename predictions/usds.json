@@ -1,6 +1,6 @@
 {
   "coinId": "usds",
-  "generatedAt": "2026-06-22T22:00:08.466549Z",
+  "generatedAt": "2026-06-22T23:00:08.103276Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 0.012295469867994437,
+    "changePercent24h": 0.012297262352263319,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "USDS is expected to remain flat with a 0.0% 24-hour return, supported by neutral RSI-14 and sideways short-term trend. The Fear & Greed Index remains in Extreme Fear territory, while the Total crypto market cap 24h change shows a slight increase. The recent news on crypto market developments may have a limited impact on USDS price.",
-    "ja": "USDSは0.0％の24時間リターンで静穏化し、中性のRSI-14と短期傾向の横方向傾向に支えられている。恐怖と欲求不満指数はエクストリーム・フィアの領域にあり、総暗号化された市場キャップ24時間の変化はわずかに増加している。暗号化された市場の最近のニュースはUSDSの価格に限られた影響を与える可能性がある。",
+    "en": "USDS is expected to trade flat with a 0.0% return in the next 24 hours, given its neutral RSI-14 reading and sideways short-term trend. The high volume ratio and lower Bollinger Band %B suggest a possible consolidation phase. However, the Extreme Fear sentiment and recent news about Bitcoin funding rate and crypto market developments may impact USDS price.",
+    "ja": "USDSは来日24時間で0.0%のリターンでトレードする可能性があり、RSI-14の中立的な値と短期のトレンドの横方向の動きから推測される。高いボリュームレシオとボリンジャーバンドの%バンドの下方値は、consolidationの可能性を示唆している。ただし、極度の恐怖の感情とビットコインのファンディングレートや暗号通貨の市場の動向に関する最近のニュースは、USDSの価格に影響を与える可能性がある。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.62%",
+        "value": "+0.19%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "0% bullish",
         "url": "https://www.coingecko.com/en/coins/usds"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitcoin funding rate hits 2-week high: Is $70K next?",
+        "url": "https://cointelegraph.com/markets/bitcoin-funding-rate-hits-2-week-high-is-70k-next?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Franklin Templeton launches dedicated crypto division after closing 250 Digital acquisition",
         "url": "https://cointelegraph.com/news/franklin-templeton-launches-dedicated-crypto-division-after-completing-250-digital-acquisition?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "New York, Maryland and Utah to hold primaries with crypto PAC money hanging over voters",
-        "url": "https://cointelegraph.com/news/us-state-primaries-crypto-pac-money-candidates?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }
