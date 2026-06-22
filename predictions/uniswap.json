@@ -1,6 +1,6 @@
 {
   "coinId": "uniswap",
-  "generatedAt": "2026-06-22T06:00:08.130545Z",
+  "generatedAt": "2026-06-22T07:00:08.549905Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": 1.066472750501073,
-    "confidence": 0.6901
+    "changePercent24h": 0.609607357263934,
+    "confidence": 0.5254
   },
   "commentary": {
-    "en": "Uniswap's 24-hour direction is predicted to be DOWN by 1.7% with a confidence level of 79%. The recent news of multiple bridge exploits and warnings of potential market crashes may be contributing to the bearish sentiment. The Fear & Greed Index remains in Extreme Fear territory.",
-    "ja": "Uniswapの24時間の予測方向は、79%の確率でDOWNに予測される。橋接攻撃や市場崩壊の警告などのニュースが、懐疑的な気分を生み出している。恐怖と欲求不満指数はエクストリーム・フィアの領域に留まっている。",
+    "en": "Uniswap's predicted 24h direction is DOWN with a confidence of 79%, driven by a recent 24h actual return of +2.57% and a short-term trend indicating sideways movement. The Fear & Greed Index remains at Extreme Fear, and recent news of bridge exploits and price fluctuations may impact investor sentiment. With a neutral RSI-14 and mid-band Bollinger Band %B, Uniswap's technical signals suggest a potential correction.",
+    "ja": "ユニスワップの24時間予想は下落です。信頼度は79%です。24時間実際のリターンは+2.57%、短期のトレンドは横方向に動いています。恐怖と欲望指数は極度の恐怖のままです。最近のニュースではブリッジのエクスプロイトや価格の変動が投資家の意識に影響を与える可能性があります。RSI-14は中立的な値、ボリンジャー・バンドの%Bは中間の値を示しています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-0.04%",
+        "value": "-0.35%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "75% bullish",
         "url": "https://www.coingecko.com/en/coins/uniswap"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Here’s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Taiko urges users to withdraw as bridge exploit drains $1.7M",
         "url": "https://cointelegraph.com/news/taiko-urges-users-to-withdraw-as-bridge-exploit-drains-17m?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Secret Network bridge exploited for $4.7M with ‘infinite mint’ bug",
-        "url": "https://cointelegraph.com/news/secret-network-bridge-exploited-infinite-mint-bug?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

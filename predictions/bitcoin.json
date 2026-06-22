@@ -1,6 +1,6 @@
 {
   "coinId": "bitcoin",
-  "generatedAt": "2026-06-22T06:00:08.130545Z",
+  "generatedAt": "2026-06-22T07:00:08.549905Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 0.2990337224003706,
-    "confidence": 0.6306
+    "changePercent24h": 0.3904296314594803,
+    "confidence": 0.6833
   },
   "commentary": {
-    "en": "Bitcoin's 24-hour direction is predicted to be flat with a -0.3% return, driven by neutral technical signals and a market context of extreme fear. The Fear & Greed Index remains at 20, while the CoinGecko community remains 79% bullish. Recent news includes a Morgan Stanley ETF amendment and several bridge exploits, but no clear impact on Bitcoin's price.",
-    "ja": "ビットコインの24時間の予想方向は、-0.3%のリターンでフラットであると予想され、中立的な技術指標と恐怖の極度のマーケットコンテキストによって推進される。恐怖と欲求不満指数は20に留まり、CoinGeckoコミュニティは79％がバブルである。最近のニュースには、モルガン・スタンレーのETFの改訂と複数のブリッジのハックが含まれるが、ビットコインの価格に明確な影響はなかった。",
+    "en": "Bitcoin's 24-hour direction is predicted to be flat with a -0.3% return, indicating a neutral market sentiment. The Fear & Greed Index remains at 20, indicating extreme fear among investors. Recent news of bridge exploits and ETF amendments may have contributed to the current market volatility.",
+    "ja": "ビットコインの24時間の予測は、-0.3%のリターンでフラットであることを示しています。恐怖と欲求不満指数は20で、投資家の感情は極度の恐怖です。最近の橋梁のハックやETFの改修のニュースは、現在の市場の不安定さに寄与している可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-0.04%",
+        "value": "-0.35%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "79% bullish",
+        "value": "78% bullish",
         "url": "https://www.coingecko.com/en/coins/bitcoin"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Here’s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Taiko urges users to withdraw as bridge exploit drains $1.7M",
         "url": "https://cointelegraph.com/news/taiko-urges-users-to-withdraw-as-bridge-exploit-drains-17m?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Secret Network bridge exploited for $4.7M with ‘infinite mint’ bug",
-        "url": "https://cointelegraph.com/news/secret-network-bridge-exploited-infinite-mint-bug?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

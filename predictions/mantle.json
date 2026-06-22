@@ -1,6 +1,6 @@
 {
   "coinId": "mantle",
-  "generatedAt": "2026-06-22T06:00:08.130545Z",
+  "generatedAt": "2026-06-22T07:00:08.549905Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.20319239759668495,
-    "confidence": 0.5075
+    "changePercent24h": -0.21159581482672565,
+    "confidence": 0.5164
   },
   "commentary": {
-    "en": "Mantle's price is expected to remain relatively flat with a slight decline of -0.3% over the next 24 hours, based on current technical signals. The recent news on the crypto market has been dominated by security breaches and potential price movements of major cryptocurrencies. Mantle's price movement may be influenced by the overall market sentiment.",
-    "ja": "Mantleの価格は、現在の技術指標に基づいて、次の24時間で-0.3%の小幅な下落が予想されます。最近の暗号通貨市場のニュースは、セキュリティ上の欠陥や主要暗号通貨の価格変動に焦点を当てています。Mantleの価格変動は、市場全体の感情に影響を受ける可能性があります。",
+    "en": "Mantle (MANTLE) is expected to remain relatively flat in the next 24 hours, with a predicted -0.3% change and a confidence level of 61%. The current market context, including an Extreme Fear Fear & Greed Index and a negative total crypto market cap, may contribute to this neutral outlook. Mantle's technical signals, such as its neutral RSI-14 and mid-band Bollinger Band %B, also support a sideways trend.",
+    "ja": "Mantle（MANTLE）は、次の24時間でほぼ平穏な動きが予想され、-0.3%の変化と61%の信頼度を持っています。極度の恐怖のFear & Greed Indexと総暗号資産マーケットキャップの負の変化など、現在の市場状況は中立的な展開に寄与する可能性があります。Mantleの技術指標、RSI-14の中立的な値とボリンジャー・バンドの% Bの中間値も、短期的な横ばい傾向を支持しています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,8 +1000,13 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-0.04%",
+        "value": "-0.35%",
         "url": "https://www.coingecko.com/en/global-charts"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Here’s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1012,11 +1017,6 @@
         "label": "CoinTelegraph",
         "value": "Taiko urges users to withdraw as bridge exploit drains $1.7M",
         "url": "https://cointelegraph.com/news/taiko-urges-users-to-withdraw-as-bridge-exploit-drains-17m?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Secret Network bridge exploited for $4.7M with ‘infinite mint’ bug",
-        "url": "https://cointelegraph.com/news/secret-network-bridge-exploited-infinite-mint-bug?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

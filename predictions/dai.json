@@ -1,6 +1,6 @@
 {
   "coinId": "dai",
-  "generatedAt": "2026-06-22T06:00:08.130545Z",
+  "generatedAt": "2026-06-22T07:00:08.549905Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.014370449081179737,
+    "changePercent24h": -0.00033338791278476193,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "Dai (DAI) is expected to remain flat in the next 24 hours with a 0% predicted return, as the Fear & Greed Index indicates extreme fear in the market. The recent news of several bridge exploits and potential price drops in the cryptocurrency market may influence investor sentiment. DAI's short-term trend remains sideways.",
-    "ja": "DAIは次の24時間で0％の予想利回りで平坦に推移する可能性があり、Fear & Greed Indexは極度の恐怖を示している。橋のハックやcryptocurrency市場の価格下落の可能性など、最近のニュースは投資家の感情に影響を与える可能性がある。DAIの短期トレンドは横方向に推移している。",
+    "en": "The model predicts Dai will trade sideways over the next 24 hours with high confidence (95%). Price is testing the upper Bollinger Band, a resistance level that often precedes short-term consolidation. Community sentiment on CoinGecko is 0% bullish and the Fear & Greed Index reads \"Extreme Fear\" (20), aligning with the model's forecast.",
+    "ja": "モデルはDaiが今後24時間で横ばいで推移すると予測しています（信頼度: 高い 95%）。価格がボリンジャーバンド上限に到達しており、短期的な調整が起こりやすい状態です。CoinGeckoコミュニティでは0%が強気を示し、Fear & Greed指数は「Extreme Fear」（20）です。予測と方向性が一致しています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-0.04%",
+        "value": "-0.35%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "0% bullish",
         "url": "https://www.coingecko.com/en/coins/dai"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Here’s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Taiko urges users to withdraw as bridge exploit drains $1.7M",
         "url": "https://cointelegraph.com/news/taiko-urges-users-to-withdraw-as-bridge-exploit-drains-17m?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Secret Network bridge exploited for $4.7M with ‘infinite mint’ bug",
-        "url": "https://cointelegraph.com/news/secret-network-bridge-exploited-infinite-mint-bug?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

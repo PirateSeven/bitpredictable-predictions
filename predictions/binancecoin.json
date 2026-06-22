@@ -1,6 +1,6 @@
 {
   "coinId": "binancecoin",
-  "generatedAt": "2026-06-22T06:00:08.130545Z",
+  "generatedAt": "2026-06-22T07:00:08.549905Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 0.2507592606611369,
-    "confidence": 0.6564
+    "changePercent24h": 0.22717505356189888,
+    "confidence": 0.6394
   },
   "commentary": {
-    "en": "BNB's 24-hour direction is predicted to be flat with a 0.1% decrease in confidence, indicating a neutral market sentiment. The Fear & Greed Index remains at 20, indicating extreme fear, while the CoinGecko community is 62% bullish. Recent news on bridge exploits and market volatility may impact BNB's price.",
-    "ja": "ビナンスコインの24時間の予測は、0.1%の減少を示す中立的な市場感情を示しています。恐怖と欲求不満指数は20で、極度の恐怖を示しており、コインゲコのコミュニティは62%が買いを推奨しています。最近の橋梁の侵食や市場の不安定化に関するニュースはビナンスコインの価格に影響を与える可能性があります。",
+    "en": "BNB's predicted 24-hour direction is flat with a 0.1% decrease in confidence, indicating a sideways movement. The Fear & Greed Index at 20 reflects extreme fear in the market, which may impact BNB's price. The recent news of bridge exploits and ETF amendments may have a mixed effect on the market.",
+    "ja": "ビナンスコインの24時間予想は、0.1%の減少率で横方向に動く可能性があります。恐怖と恐怖の指数が20で、市場全体に恐怖が広がっています。最近のニュースでは、ブリッジのハックやETFの変更が市場に影響を与える可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-0.04%",
+        "value": "-0.35%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "62% bullish",
+        "value": "56% bullish",
         "url": "https://www.coingecko.com/en/coins/binancecoin"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Here’s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Taiko urges users to withdraw as bridge exploit drains $1.7M",
         "url": "https://cointelegraph.com/news/taiko-urges-users-to-withdraw-as-bridge-exploit-drains-17m?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Secret Network bridge exploited for $4.7M with ‘infinite mint’ bug",
-        "url": "https://cointelegraph.com/news/secret-network-bridge-exploited-infinite-mint-bug?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

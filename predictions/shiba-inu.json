@@ -1,6 +1,6 @@
 {
   "coinId": "shiba-inu",
-  "generatedAt": "2026-06-22T06:00:08.130545Z",
+  "generatedAt": "2026-06-22T07:00:08.549905Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": 1.5118122169861445,
-    "confidence": 0.8455
+    "changePercent24h": 1.892704249548876,
+    "confidence": 0.8729
   },
   "commentary": {
-    "en": "Shiba Inu (SHIB) is expected to decline by 0.9% in the next 24 hours, according to technical analysis. The Fear & Greed Index remains in Extreme Fear territory, and recent news about bridge exploits may negatively impact investor sentiment. The short-term trend is sideways, with a neutral RSI-14 reading.",
-    "ja": "Shiba Inu (SHIB) は、技術分析によると、来る24時間で0.9%下落する可能性があります。Fear & Greed Indexは、ブリッジのハッキングに関するニュースなど、投資家の感覚を悪くする可能性のある状況にあります。短期的なトレンドは、RSI-14の中立的な値を示すように、横方向に動いています。",
+    "en": "Shiba Inu (SHIB) is predicted to decline by -0.9% in the next 24 hours with a confidence level of 76%. The RSI-14 is neutral at 47, and the Bollinger Band %B is at 0.41, indicating a mid-band position. The market sentiment remains in extreme fear with a Fear & Greed Index of 20.",
+    "ja": "Shiba Inu (SHIB) は、次の24時間で-0.9%の下落が予想され、信頼度は76%です。 RSI-14は47で中立的な位置にあり、ボリンジャー・バンド %Bは0.41にあり、mid-band位置にあります。市場感情は恐怖の極まり、恐怖と欲求不満指数は20です。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-0.04%",
+        "value": "-0.35%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "56% bullish",
+        "value": "53% bullish",
         "url": "https://www.coingecko.com/en/coins/shiba-inu"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Here’s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Taiko urges users to withdraw as bridge exploit drains $1.7M",
         "url": "https://cointelegraph.com/news/taiko-urges-users-to-withdraw-as-bridge-exploit-drains-17m?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Secret Network bridge exploited for $4.7M with ‘infinite mint’ bug",
-        "url": "https://cointelegraph.com/news/secret-network-bridge-exploited-infinite-mint-bug?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

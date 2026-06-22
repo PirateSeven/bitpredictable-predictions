@@ -1,6 +1,6 @@
 {
   "coinId": "tether",
-  "generatedAt": "2026-06-22T06:00:08.130545Z",
+  "generatedAt": "2026-06-22T07:00:08.549905Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 0.03651909046736558,
+    "changePercent24h": 0.041811377304714584,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "Tether's flat direction is predicted due to neutral RSI-14 and sideways short-term trend. The Fear & Greed Index remains in Extreme Fear, but recent news on Ethereum and Solana ETFs may have a positive impact on the market. However, the recent bridge exploits in the crypto space may also affect investor sentiment.",
-    "ja": "テザーの方向は予測通り、ニュートラルなRSI-14と短期のトレンドが横方向に動いているため、平坦な方向が予測されます。恐怖と欲求不満指数は極度の恐怖の状態ですが、EthereumとSolanaのETFのニュースは市場に肯定的な影響を与える可能性があります。ただし、最近のブリッジのエクスプロイトは投資家の感性にも影響を与える可能性があります。",
+    "en": "Tether's (TETHER) 24-hour direction is predicted to be flat with a 95% confidence level. The current market context suggests extreme fear, with a Fear & Greed Index of 20 and a total crypto market cap 24-hour change of -0.35%. Tether's price movement is likely to be influenced by the overall market sentiment.",
+    "ja": "テザーの24時間の方向は95％の確率でフラットと予想されます。現在の市場状況は極度の恐怖を示しており、Fear & Greed Indexは20、総暗号資産市場キャップ24時間の変化は-0.35％です。テザーの価格動向は、市場全体の感覚に影響される可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-0.04%",
+        "value": "-0.35%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "75% bullish",
         "url": "https://www.coingecko.com/en/coins/tether"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Here’s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Taiko urges users to withdraw as bridge exploit drains $1.7M",
         "url": "https://cointelegraph.com/news/taiko-urges-users-to-withdraw-as-bridge-exploit-drains-17m?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Secret Network bridge exploited for $4.7M with ‘infinite mint’ bug",
-        "url": "https://cointelegraph.com/news/secret-network-bridge-exploited-infinite-mint-bug?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

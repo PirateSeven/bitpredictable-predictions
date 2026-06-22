@@ -1,6 +1,6 @@
 {
   "coinId": "lab",
-  "generatedAt": "2026-06-22T06:00:08.130545Z",
+  "generatedAt": "2026-06-22T07:00:08.549905Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -3.8549520718765193,
-    "confidence": 0.8055
+    "changePercent24h": 0.1886780773248704,
+    "confidence": 0.1
   },
   "commentary": {
-    "en": "LAB's 24-hour direction is predicted to be DOWN with a confidence of 82%, despite its short-term trend indicating an uptrend. The recent news of multiple bridge exploits in the crypto space may have contributed to the overall fear and uncertainty in the market, which is currently in an extreme fear state. The predicted 24-hour return of -4.2% suggests a potential correction in LAB's price.",
-    "ja": "LABの24時間の方向はDOWNに予測され、信頼度は82%です。短期的な傾向は上昇傾向を示していますが、最近のニュースでは複数のブリッジのエクスプロイトが発生しており、市場全体に恐怖と不確実性が広がっています。現在、恐怖と欲求不満指数は極度の恐怖状態です。24時間の予測リターンは-4.2%と予測されており、LABの価格の調整が起こる可能性があります。",
+    "en": "LAB (LAB) is predicted to decline by 4.2% in the next 24 hours with a confidence level of 82%. The recent news of bridge exploits in the crypto market may have contributed to the fear and uncertainty among investors. The short-term trend remains in an uptrend, but the overall market sentiment is still in extreme fear.",
+    "ja": "LAB (LAB) は、来る24時間で4.2%の下落が予想され、信頼度は82%です。Crypto市場でのブリッジの被害ニュースが投資家の恐怖と不確実性に寄与している可能性があります。短期的な傾向は上昇傾向ですが、市場全体の感覚は極度の恐怖の状態です。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-0.04%",
+        "value": "-0.35%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "52% bullish",
         "url": "https://www.coingecko.com/en/coins/lab"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Here’s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Taiko urges users to withdraw as bridge exploit drains $1.7M",
         "url": "https://cointelegraph.com/news/taiko-urges-users-to-withdraw-as-bridge-exploit-drains-17m?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Secret Network bridge exploited for $4.7M with ‘infinite mint’ bug",
-        "url": "https://cointelegraph.com/news/secret-network-bridge-exploited-infinite-mint-bug?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

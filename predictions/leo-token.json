@@ -1,6 +1,6 @@
 {
   "coinId": "leo-token",
-  "generatedAt": "2026-06-22T06:00:08.130545Z",
+  "generatedAt": "2026-06-22T07:00:08.549905Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 0.43762299834105306,
-    "confidence": 0.7488
+    "changePercent24h": 0.4497211880387813,
+    "confidence": 0.7531
   },
   "commentary": {
-    "en": "LEO Token's flat 24-hour direction is predicted with a 69% confidence level, as the RSI-14 and Bollinger Band %B indicate a neutral market sentiment. The recent news of multiple bridge exploits and market volatility may have a limited impact on LEO Token's price. The Fear & Greed Index at 20 indicates extreme fear in the market.",
-    "ja": "レオ・トークンの24時間方向は、69％の確率でフラットと予想されています。RSI-14とボリンジャー・バンド％Bは中立的な市場感情を示しています。最近の橋梁のハックや市場の不安定性のニュースはレオ・トークンの価格に限りなく影響を与える可能性があります。恐怖と欲求不満指数は20で、市場は極度の恐怖に陥っています。",
+    "en": "LEO Token's 24-hour direction is predicted to be flat with a -0.3% change, indicating a neutral sentiment. The recent news of bridge exploits and security concerns in the crypto market may impact investor confidence. The Fear & Greed Index at 20, indicating extreme fear, also supports this neutral prediction.",
+    "ja": "レオトークンの24時間の方向は、-0.3%の変化で予想されるフラットな傾向である。これは中立的な意見を示している。最近の橋梁のハックやセキュリティの懸念に関するニュースは投資家の信頼を損なう可能性がある。Fear & Greed Indexが20、つまり極度の恐怖を示していることも、この中立的な予想を裏付ける。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-0.04%",
+        "value": "-0.35%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "67% bullish",
         "url": "https://www.coingecko.com/en/coins/leo-token"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Here’s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Taiko urges users to withdraw as bridge exploit drains $1.7M",
         "url": "https://cointelegraph.com/news/taiko-urges-users-to-withdraw-as-bridge-exploit-drains-17m?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Secret Network bridge exploited for $4.7M with ‘infinite mint’ bug",
-        "url": "https://cointelegraph.com/news/secret-network-bridge-exploited-infinite-mint-bug?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

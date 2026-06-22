@@ -1,6 +1,6 @@
 {
   "coinId": "usd-coin",
-  "generatedAt": "2026-06-22T06:00:08.130545Z",
+  "generatedAt": "2026-06-22T07:00:08.549905Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.01762246922506143,
+    "changePercent24h": -0.016041443777218917,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "USD Coin's flat 24-hour direction with a 95% confidence level suggests a neutral market sentiment. The recent news of several crypto bridge exploits and potential price drops for Bitcoin may have contributed to the extreme fear in the market, as indicated by the Fear & Greed Index. USD Coin's price movement is likely to be influenced by the overall market sentiment.",
-    "ja": "USDコインの24時間の方向性は95％の確率でフラットであることを示唆しており、市場の中立的な感情が存在することを示唆している。最近のニュースである複数の暗号化橋のハックとビットコインの価格低下の可能性により、恐怖と欲望指数が極度の恐怖に達している可能性がある。USDコインの価格動向は、市場全体の感情に影響を受ける可能性がある。",
+    "en": "USD Coin (USD-COIN) is expected to remain flat with a 24h direction of -0.0% due to neutral technical signals and a sideways short-term trend. The Fear & Greed Index at 20 indicates extreme fear in the market, which may impact USD-COIN's price. Recent news about bridge exploits and ETF amendments may also influence the market.",
+    "ja": "USDコイン（USD-COIN）は、中立的な技術指標と短期的な横方向の傾向のため、24時間の方向性は-0.0%のままである可能性があります。恐怖と欲求不満指数が20であることは、市場全体に恐怖が広がっていることを示しており、USD-COインの価格に影響を与える可能性があります。最近のニュースでは、ブリッジのエクスプロイトやETFの変更など、市場に影響を与える可能性のあるニュースが多数報じられています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-0.04%",
+        "value": "-0.35%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "50% bullish",
         "url": "https://www.coingecko.com/en/coins/usd-coin"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Here’s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Taiko urges users to withdraw as bridge exploit drains $1.7M",
         "url": "https://cointelegraph.com/news/taiko-urges-users-to-withdraw-as-bridge-exploit-drains-17m?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Secret Network bridge exploited for $4.7M with ‘infinite mint’ bug",
-        "url": "https://cointelegraph.com/news/secret-network-bridge-exploited-infinite-mint-bug?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

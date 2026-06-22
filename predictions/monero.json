@@ -1,6 +1,6 @@
 {
   "coinId": "monero",
-  "generatedAt": "2026-06-22T06:00:08.130545Z",
+  "generatedAt": "2026-06-22T07:00:08.549905Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": 2.3048722509172137,
-    "confidence": 0.8259
+    "changePercent24h": 1.833876552497445,
+    "confidence": 0.7865
   },
   "commentary": {
-    "en": "Monero's predicted 24-hour direction is DOWN with a 73% confidence level, driven by the Extreme Fear sentiment in the market. The recent news of multiple bridge exploits and potential price drops in other cryptocurrencies may be contributing to this bearish outlook. The neutral RSI-14 reading and mid-band Bollinger Band %B suggest a sideways trend in the short-term.",
-    "ja": "モネロの予想24時間の方向は下げ込むもので、73％の確信度を持っています。これは市場全体の極度の恐怖感と、複数のブリッジのハッキングや他の暗号通貨の価格下落のニュースが原因と考えられます。RSI-14の中立的な値とボリンジャー・バンドの%Bの中間値は、短期的な傾向が横方向にあることを示しています。",
+    "en": "Monero's predicted 24-hour direction is DOWN with a 1.4% decline, reflecting the current market sentiment. The Fear & Greed Index at 20 indicates extreme fear, while the CoinGecko community remains 89% bullish. Despite recent news of bridge exploits and ETF amendments, Monero's short-term trend remains sideways.",
+    "ja": "モネロの24時間予想は下がり、1.4%の下落を示しています。恐怖と欲求不満指数は20で、極度の恐怖を示していますが、コインゲッココミュニティは89%がbullishです。最近のニュースではブリッジのハックやETFの修正がありますが、モネロの短期トレンドは横方向に進んでいます。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-0.04%",
+        "value": "-0.35%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "89% bullish",
         "url": "https://www.coingecko.com/en/coins/monero"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Here’s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Taiko urges users to withdraw as bridge exploit drains $1.7M",
         "url": "https://cointelegraph.com/news/taiko-urges-users-to-withdraw-as-bridge-exploit-drains-17m?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Secret Network bridge exploited for $4.7M with ‘infinite mint’ bug",
-        "url": "https://cointelegraph.com/news/secret-network-bridge-exploited-infinite-mint-bug?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

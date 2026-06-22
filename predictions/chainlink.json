@@ -1,6 +1,6 @@
 {
   "coinId": "chainlink",
-  "generatedAt": "2026-06-22T06:00:08.130545Z",
+  "generatedAt": "2026-06-22T07:00:08.549905Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -0.7575883131276652,
-    "confidence": 0.7489
+    "changePercent24h": -0.6892428404129632,
+    "confidence": 0.7306
   },
   "commentary": {
-    "en": "Chainlink's predicted 24h direction is DOWN with a confidence of 68%, driven by a sideways short-term trend and a Fear & Greed Index of 20, indicating extreme fear in the market. The recent news of various bridge exploits and potential price drops in the US stock market may contribute to this negative outlook. Chainlink's price may experience a decline in the next 24 hours.",
-    "ja": "チェーンリンクの24時間予想は下落にあり、信頼度は68%です。これは短期の傾向が横方向に動いており、Fear & Greed Indexが20であること、つまり市場が極度に恐れていることなどから推測されます。最近のニュースでは、多くのブリッジのハックや米国株式市場の価格の下落などが予想されるため、チェーンリンクの価格は次の24時間に下落する可能性があります。",
+    "en": "Chainlink's predicted 24-hour direction is down by 0.6% with a 68% confidence level, suggesting a potential decline in the coming hours. The Fear & Greed Index remains at extreme fear levels, and recent news of bridge exploits and market volatility may contribute to this sentiment. The short-term trend is sideways, indicating a lack of clear direction.",
+    "ja": "Chainlinkの24時間予測は下落0.6%で、68%の信頼性を持っており、来る数時間に下落が起こる可能性があります。Fear & Greed Indexは極度の恐怖のレベルにあり、最近の橋梁のハックや市場の不穏な動きはこの感情に寄与する可能性があります。短期のトレンドは横方向にあり、明確な方向性がないことを示しています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-0.04%",
+        "value": "-0.35%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "83% bullish",
+        "value": "82% bullish",
         "url": "https://www.coingecko.com/en/coins/chainlink"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Here’s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Taiko urges users to withdraw as bridge exploit drains $1.7M",
         "url": "https://cointelegraph.com/news/taiko-urges-users-to-withdraw-as-bridge-exploit-drains-17m?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Secret Network bridge exploited for $4.7M with ‘infinite mint’ bug",
-        "url": "https://cointelegraph.com/news/secret-network-bridge-exploited-infinite-mint-bug?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

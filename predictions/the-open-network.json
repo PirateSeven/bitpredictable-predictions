@@ -1,6 +1,6 @@
 {
   "coinId": "the-open-network",
-  "generatedAt": "2026-06-22T06:00:08.130545Z",
+  "generatedAt": "2026-06-22T07:00:08.549905Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -5.881712589653984,
-    "confidence": 0.9406
+    "changePercent24h": -6.233039571944252,
+    "confidence": 0.9438
   },
   "commentary": {
-    "en": "Gram (prev. Toncoin) (THE-OPEN-NETWORK) is predicted to experience a 24-hour decline of -0.5% with moderate confidence. The current market environment, marked by extreme fear and low volume, may contribute to this downtrend. The recent news of bridge exploits and potential Bitcoin price fluctuations may also impact THE-OPEN-NETWORK's performance.",
-    "ja": "THE-OPEN-NETWORKは24時間で-0.5%の下落が予想され、信頼性は比較的高い。極度の恐怖と低い取引量が現在の市場環境を形作っており、この下落につながる可能性が高い。最近の橋梁のハッキングやビットコインの価格変動に関するニュースもTHE-OPEN-NETWORKのパフォーマンスに影響を与える可能性がある。",
+    "en": "Gram (prev. Toncoin) (THE-OPEN-NETWORK) is expected to decline by 0.5% in the next 24 hours with a confidence level of 53%. This prediction is based on the current technical signals, including a downtrend in the short-term trend and a low volume ratio. The Fear & Greed Index remains in extreme fear territory, which may contribute to the potential decline.",
+    "ja": "Gram (prev. Toncoin) (THE-OPEN-NETWORK) は、次の24時間で0.5%の下落が予想され、信頼度は53%です。この予測は、短期的な傾向の下落とボリューム比率の低さなど、現在の技術的指標に基づいています。恐怖と欲求不満指数は極度の恐怖の領域にあり、これが下落に寄与する可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-0.04%",
+        "value": "-0.35%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "71% bullish",
         "url": "https://www.coingecko.com/en/coins/the-open-network"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Here’s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Taiko urges users to withdraw as bridge exploit drains $1.7M",
         "url": "https://cointelegraph.com/news/taiko-urges-users-to-withdraw-as-bridge-exploit-drains-17m?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Secret Network bridge exploited for $4.7M with ‘infinite mint’ bug",
-        "url": "https://cointelegraph.com/news/secret-network-bridge-exploited-infinite-mint-bug?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

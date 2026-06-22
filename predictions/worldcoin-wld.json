@@ -1,6 +1,6 @@
 {
   "coinId": "worldcoin-wld",
-  "generatedAt": "2026-06-22T06:00:08.130545Z",
+  "generatedAt": "2026-06-22T07:00:08.549905Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": 5.8013901195173485,
-    "confidence": 0.9164
+    "changePercent24h": 2.773311420029638,
+    "confidence": 0.8327
   },
   "commentary": {
-    "en": "Worldcoin WLD is predicted to decline by 2.5% in the next 24 hours, with a confidence level of 81%. This prediction is based on the current technical signals, which show a neutral RSI-14 reading and a mid-band Bollinger Band %B. The recent news of bridge exploits and potential market crashes may contribute to the bearish sentiment.",
-    "ja": "ワールドコインのWLDは、次の24時間で2.5%の下落が予想され、信頼度は81%です。これは、現在の技術指標から推測され、RSI-14の中立的な値とボリンジャー・バンドの%Bの中間値を示しています。最近の橋梁のハックや市場の崩壊の可能性に関するニュースは、悲観的な気分を引き起こす可能性があります。",
+    "en": "Worldcoin WLD is predicted to decline by -2.5% in the next 24 hours with a confidence level of 81%. The recent news of several bridge exploits and a 'suspicious' BTC price gain may contribute to the market's extreme fear sentiment. The short-term trend remains in an uptrend despite the overall market's slight decline.",
+    "ja": "ワールドコインのWLDは、次の24時間に-2.5%の下落が予想され、信頼度は81%です。橋接攻撃やBTC価格上昇の疑問が市場の極度の恐怖感に寄与している可能性があります。短期的なトレンドは、総市場の微妙な下落にもかかわらず、上昇傾向にあります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-0.04%",
+        "value": "-0.35%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "80% bullish",
+        "value": "76% bullish",
         "url": "https://www.coingecko.com/en/coins/worldcoin-wld"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Here’s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Taiko urges users to withdraw as bridge exploit drains $1.7M",
         "url": "https://cointelegraph.com/news/taiko-urges-users-to-withdraw-as-bridge-exploit-drains-17m?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Secret Network bridge exploited for $4.7M with ‘infinite mint’ bug",
-        "url": "https://cointelegraph.com/news/secret-network-bridge-exploited-infinite-mint-bug?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "coinId": "aster-2",
-  "generatedAt": "2026-06-22T06:00:08.130545Z",
+  "generatedAt": "2026-06-22T07:00:08.549905Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": 0.6998895392470352,
-    "confidence": 0.5568
+    "changePercent24h": 0.6338414316079488,
+    "confidence": 0.5236
   },
   "commentary": {
-    "en": "Aster (ASTER-2) is predicted to move downward by 1.3% in the next 24 hours with a 72% confidence level. The RSI-14 is neutral at 37, and the Bollinger Band %B is below the lower band, indicating a potential sell signal. The recent news of multiple bridge exploits and market volatility may contribute to the predicted downward movement.",
-    "ja": "Aster (ASTER-2) は、次の24時間で1.3%下落する可能性があり、72%の確率で予測されています。 RSI-14は37で中立的な状態であり、ボリンジャーバンドの%Bは下方の境界以下にあり、売り信号の可能性があります。 また、橋梁のハックや市場の動揺に関する最近のニュースも下落の予測に寄与する可能性があります。",
+    "en": "The model predicts Aster will decline ~1.3% over the next 24 hours with high confidence (72%). Price is near lower Bollinger Band support, where rebounds are historically more frequent. Community sentiment on CoinGecko is 50% bullish and the Fear & Greed Index reads \"Extreme Fear\" (20), diverging from the model's forecast, adding uncertainty.",
+    "ja": "モデルはAsterが今後24時間で約1.3%下落すると予測しています（信頼度: 高い 72%）。価格がボリンジャーバンド下限付近で、サポートからの反発が過去パターンより多く観察されます。CoinGeckoコミュニティでは50%が強気を示し、Fear & Greed指数は「Extreme Fear」（20）です。予測方向と乖離があり、不確実性が高まっています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-0.04%",
+        "value": "-0.35%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "60% bullish",
+        "value": "50% bullish",
         "url": "https://www.coingecko.com/en/coins/aster-2"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Here’s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Taiko urges users to withdraw as bridge exploit drains $1.7M",
         "url": "https://cointelegraph.com/news/taiko-urges-users-to-withdraw-as-bridge-exploit-drains-17m?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Secret Network bridge exploited for $4.7M with ‘infinite mint’ bug",
-        "url": "https://cointelegraph.com/news/secret-network-bridge-exploited-infinite-mint-bug?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

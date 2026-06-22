@@ -1,6 +1,6 @@
 {
   "coinId": "usd1-wlfi",
-  "generatedAt": "2026-06-22T06:00:08.130545Z",
+  "generatedAt": "2026-06-22T07:00:08.549905Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.08116408210782404,
+    "changePercent24h": -0.08568658196945525,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "USD1-WLFI is predicted to remain flat with a 95% confidence level, as its RSI-14 is neutral and Bollinger Band %B is at the lower band. The recent news of bridge exploits and market volatility may not significantly impact USD1-WLFI's price, given its sideways short-term trend. The Fear & Greed Index at Extreme Fear may also contribute to the flat direction.",
-    "ja": "USD1-WLFIは95％の確率でフラットの予想を示しており、RSI-14は中立的でボリンジャー・バンドの%Bは下限にあります。最近の橋梁のハックや市場の動揺は、USD1-WLFIの価格に大きな影響を与えない可能性があり、短期の傾向は横方向にあります。恐怖と欲求不満指数が極度の恐怖にあります。",
+    "en": "USD1-WLFI is expected to remain flat in the next 24 hours with a 95% confidence level. The current market context, including the Fear & Greed Index and the total crypto market cap, suggests a cautious approach. The recent news of bridge exploits and market volatility may impact WLFI's price.",
+    "ja": "USD1-WLFIは、来日24時間に95%の確率でフラットの動きが予想されます。Fear＆Greedometerと総暗号資産の市場状況は、慎重なアプローチを示唆しています。最近の橋梁の搾取ニュースや市場の不安定性はWLFIの価格に影響を与える可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-0.04%",
+        "value": "-0.35%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "0% bullish",
         "url": "https://www.coingecko.com/en/coins/usd1-wlfi"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Here’s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Taiko urges users to withdraw as bridge exploit drains $1.7M",
         "url": "https://cointelegraph.com/news/taiko-urges-users-to-withdraw-as-bridge-exploit-drains-17m?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Secret Network bridge exploited for $4.7M with ‘infinite mint’ bug",
-        "url": "https://cointelegraph.com/news/secret-network-bridge-exploited-infinite-mint-bug?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

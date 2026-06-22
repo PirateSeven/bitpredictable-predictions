@@ -1,6 +1,6 @@
 {
   "coinId": "figure-heloc",
-  "generatedAt": "2026-06-22T06:00:08.130545Z",
+  "generatedAt": "2026-06-22T07:00:08.549905Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -1.3811987309079594,
+    "changePercent24h": -1.2363923792004763,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "FIGURE-HELOC is likely to experience a flat 24-hour period with a slight decline of -0.1% due to its overbought RSI-14 reading and low volume ratio. The sideways short-term trend and mid-band Bollinger Band %B indicate a lack of momentum. The overall market context, marked by extreme fear and low investor sentiment, supports this prediction.",
-    "ja": "FIGURE-HELOCは24時間の動向がフラットに推定され、-0.1％の下落が見込まれる。オーバーボールドのRSI-14と低いボリュームレシオがこの予測を裏付けている。短期のトレンドが横方向に動き、ボリンジャーバンドの%バンドが中間線に寄っていることも、この予測を裏付けている。総合市場の状況は、極度の恐怖感と投資家の懐疑的な意見に支えられている。",
+    "en": "Figure Heloc's 24-hour direction is predicted to be flat, with a -0.1% change, indicating a potential consolidation phase. The overbought RSI-14 reading and mid-band Bollinger Band %B suggest a need for correction. The low volume ratio and sideways short-term trend further support this prediction.",
+    "ja": "Figure Heloc の 24 時間の方向は、-0.1% の変化を予測しており、潜在的な収縮期を示唆しています。オーバーボールの RSI-14 読みと中間帯のボリンジャー バンド %B は、調整が必要であることを示唆しています。低いボリューム比率と短期の傾向は、さらにこの予測を支持しています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-0.04%",
+        "value": "-0.35%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "0% bullish",
         "url": "https://www.coingecko.com/en/coins/figure-heloc"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Here’s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Taiko urges users to withdraw as bridge exploit drains $1.7M",
         "url": "https://cointelegraph.com/news/taiko-urges-users-to-withdraw-as-bridge-exploit-drains-17m?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Secret Network bridge exploited for $4.7M with ‘infinite mint’ bug",
-        "url": "https://cointelegraph.com/news/secret-network-bridge-exploited-infinite-mint-bug?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "coinId": "tron",
-  "generatedAt": "2026-06-22T06:00:08.130545Z",
+  "generatedAt": "2026-06-22T07:00:08.549905Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 1.6538213487740163,
-    "confidence": 0.9427
+    "changePercent24h": 1.4990582897740425,
+    "confidence": 0.9376
   },
   "commentary": {
-    "en": "TRON's 24-hour return is +0.72%, but the predicted 24h direction is flat due to overbought conditions and a sideways short-term trend. The Fear & Greed Index is at 20, indicating extreme fear, and the CoinGecko community is 44% bullish. TRON's price may be influenced by the overall crypto market and Bitcoin's performance.",
-    "ja": "トロンの24時間リターンは+0.72%ですが、オーバーボールド状態と短期的な傾向が横方向にあるため、予想24時間の方向はフラットです。恐怖と欲求不満指数は20で、コインゲッココミュニティは44％がバ Bullishです。トロンの価格は、総コインマーケットとビットコインのパフォーマンスによって影響を受ける可能性があります。",
+    "en": "TRON's 24-hour return is +0.72%, with a predicted flat direction and overbought RSI-14. The Fear & Greed Index is at 20, indicating extreme fear in the market. TRON's price may be impacted by the recent bridge exploits and market volatility.",
+    "ja": "トロンの24時間のリターンは+0.72％、予測はフラットで、RSI-14はオーバーボールドです。Fear & Greed Indexは20で、市場は極度の恐怖です。トロンの価格は最近のブリッジのハックや市場の波動に影響を受ける可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-0.04%",
+        "value": "-0.35%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "44% bullish",
+        "value": "45% bullish",
         "url": "https://www.coingecko.com/en/coins/tron"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Here’s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Taiko urges users to withdraw as bridge exploit drains $1.7M",
         "url": "https://cointelegraph.com/news/taiko-urges-users-to-withdraw-as-bridge-exploit-drains-17m?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Secret Network bridge exploited for $4.7M with ‘infinite mint’ bug",
-        "url": "https://cointelegraph.com/news/secret-network-bridge-exploited-infinite-mint-bug?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "coinId": "memecore",
-  "generatedAt": "2026-06-22T06:00:08.130545Z",
+  "generatedAt": "2026-06-22T07:00:08.549905Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": 2.3932095851424355,
-    "confidence": 0.8813
+    "changePercent24h": 3.038958150956404,
+    "confidence": 0.9046
   },
   "commentary": {
-    "en": "MemeCore is expected to decline by 1.2% in the next 24 hours, according to technical signals. The Fear & Greed Index remains in Extreme Fear territory, which may contribute to the bearish sentiment. The recent news of multiple bridge exploits and potential market downturns may also negatively impact MemeCore.",
-    "ja": "MemeCoreは来24時間で1.2%下落すると予想されています。Fear & Greed Indexは極度の恐怖の状態が続いており、陰性の感情が強まっている可能性があります。最近の橋接攻撃のニュースや市場の下落の可能性も、MemeCoreに否定的な影響を与える可能性があります。",
+    "en": "MemeCore's 24-hour direction is predicted to be DOWN with a 1.2% decline, based on technical signals. The recent news of multiple bridge exploits and a Fear & Greed Index at Extreme Fear suggests a bearish market sentiment. The short-term trend remains an uptrend, but it may be interrupted by the current market conditions.",
+    "ja": "メムコアの24時間の方向は、技術的信号に基づいて下落する予想であり、1.2％の下落が予想されます。橋梁のハックや恐怖と欲求不満指数が極度の恐怖に達していることなど、最近のニュースは市場の悲観的な感情を示しています。短期的な傾向は上昇傾向ですが、現在の市場状況によって中断される可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-0.04%",
+        "value": "-0.35%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "33% bullish",
+        "value": "25% bullish",
         "url": "https://www.coingecko.com/en/coins/memecore"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Here’s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Taiko urges users to withdraw as bridge exploit drains $1.7M",
         "url": "https://cointelegraph.com/news/taiko-urges-users-to-withdraw-as-bridge-exploit-drains-17m?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Secret Network bridge exploited for $4.7M with ‘infinite mint’ bug",
-        "url": "https://cointelegraph.com/news/secret-network-bridge-exploited-infinite-mint-bug?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }
