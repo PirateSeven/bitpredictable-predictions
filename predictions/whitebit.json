@@ -1,6 +1,6 @@
 {
   "coinId": "whitebit",
-  "generatedAt": "2026-06-22T16:00:07.747015Z",
+  "generatedAt": "2026-06-22T17:00:08.487563Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": 1.9978990742569553,
-    "confidence": 0.8887
+    "changePercent24h": 0.86940881930997,
+    "confidence": 0.7765
   },
   "commentary": {
-    "en": "The model predicts WhiteBIT Coin will decline ~0.5% over the next 24 hours with moderate confidence (68%). Price is testing the upper Bollinger Band, a resistance level that often precedes short-term consolidation. Community sentiment on CoinGecko is 0% bullish and the Fear & Greed Index reads \"Extreme Fear\" (20), aligning with the model's forecast.",
-    "ja": "モデルはWhiteBIT Coinが今後24時間で約0.5%下落すると予測しています（信頼度: 中程度の 68%）。価格がボリンジャーバンド上限に到達しており、短期的な調整が起こりやすい状態です。CoinGeckoコミュニティでは0%が強気を示し、Fear & Greed指数は「Extreme Fear」（20）です。予測と方向性が一致しています。",
+    "en": "WhiteBIT Coin's predicted 24h direction is DOWN with a 68% confidence level, driven by a neutral RSI-14 reading and a position near the upper Bollinger Band. The Fear & Greed Index remains in Extreme Fear territory, and the CoinGecko community is bearish. WhiteBIT Coin's recent performance is likely to be impacted by the overall crypto market sentiment.",
+    "ja": "WHITEBITの24時間予想は、68％の確率で下方に動くことになります。中性のRSI-14と上方ボリンジャーバンドの近さが影響しています。恐怖と欲求不満指数は極度の恐怖の状態にあり、CoinGeckoコミュニティは否定的な意見を示しています。WHITEBITの最近のパフォーマンスは、総合的な暗号資産市場の感性に影響を受ける可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.61%",
+        "value": "+0.60%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
@@ -1010,18 +1010,18 @@
       },
       {
         "label": "CoinTelegraph",
+        "value": "Andrew Cuomo to lead joint TradFi-crypto venture between OKX and Intercontinental Exchange",
+        "url": "https://cointelegraph.com/news/andrew-cuomo-okx-intercontinental-exchange-venture?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitcoin weekly close above $63K amid RSI divergence may be bottom signal: Data",
+        "url": "https://cointelegraph.com/markets/bitcoin-holds-63k-as-three-market-signals-remain-supportive?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
         "value": "Bitcoin price taps $65.5K as Iran deal sees oil drop toward 16-week low",
         "url": "https://cointelegraph.com/markets/bitcoin-price-taps-655k-as-iran-deal-sees-oil-drop-toward-16-week-low?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Why Google search can be a crypto wallet risk",
-        "url": "https://cointelegraph.com/learn/fake-google-ads-crypto-wallet-security?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Enso launches RWA app and trading for over 500 tokenized assets",
-        "url": "https://cointelegraph.com/news/enso-launches-rwa-app-trading-500-tokenized-assets?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

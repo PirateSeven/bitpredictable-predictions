@@ -1,6 +1,6 @@
 {
   "coinId": "memecore",
-  "generatedAt": "2026-06-22T16:00:07.747015Z",
+  "generatedAt": "2026-06-22T17:00:08.487563Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -1.1044408593767145,
-    "confidence": 0.7865
+    "changePercent24h": -1.8530685162303349,
+    "confidence": 0.8625
   },
   "commentary": {
-    "en": "MemeCore (MEMECORE) is predicted to decline by -0.9% in the next 24 hours with a confidence level of 74%. This prediction is based on neutral technical signals, including a mid-band Bollinger Band and a sideways short-term trend. The Fear & Greed Index remains in Extreme Fear territory, which may contribute to the predicted decline.",
-    "ja": "メムコア (MEMECORE) は、次の24時間で-0.9%の下落が予測され、信頼度は74%です。これは、中間帯のボリンジャー・バンドと短期の横方向のトレンドなど中立的な技術指標に基づいています。恐怖と欲求不満指数は今も極度の恐怖の状態にあり、これが予測される下落に寄与する可能性があります。",
+    "en": "The model predicts MemeCore will decline ~0.9% over the next 24 hours with high confidence (74%). Price moved +2.50% in the past 24 hours with volume at 0.6× average. Community sentiment on CoinGecko is 25% bullish and the Fear & Greed Index reads \"Extreme Fear\" (20), aligning with the model's forecast.",
+    "ja": "モデルはMemeCoreが今後24時間で約0.9%下落すると予測しています（信頼度: 高い 74%）。過去24時間のリターンは+2.50%、出来高は平均の0.6倍です。CoinGeckoコミュニティでは25%が強気を示し、Fear & Greed指数は「Extreme Fear」（20）です。予測と方向性が一致しています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.61%",
+        "value": "+0.60%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
@@ -1010,18 +1010,18 @@
       },
       {
         "label": "CoinTelegraph",
+        "value": "Andrew Cuomo to lead joint TradFi-crypto venture between OKX and Intercontinental Exchange",
+        "url": "https://cointelegraph.com/news/andrew-cuomo-okx-intercontinental-exchange-venture?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitcoin weekly close above $63K amid RSI divergence may be bottom signal: Data",
+        "url": "https://cointelegraph.com/markets/bitcoin-holds-63k-as-three-market-signals-remain-supportive?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
         "value": "Bitcoin price taps $65.5K as Iran deal sees oil drop toward 16-week low",
         "url": "https://cointelegraph.com/markets/bitcoin-price-taps-655k-as-iran-deal-sees-oil-drop-toward-16-week-low?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Why Google search can be a crypto wallet risk",
-        "url": "https://cointelegraph.com/learn/fake-google-ads-crypto-wallet-security?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Enso launches RWA app and trading for over 500 tokenized assets",
-        "url": "https://cointelegraph.com/news/enso-launches-rwa-app-trading-500-tokenized-assets?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

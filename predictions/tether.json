@@ -1,6 +1,6 @@
 {
   "coinId": "tether",
-  "generatedAt": "2026-06-22T16:00:07.747015Z",
+  "generatedAt": "2026-06-22T17:00:08.487563Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.0013753757342279474,
+    "changePercent24h": -0.036,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "Tether (TETHER) is expected to remain flat in the next 24 hours with a 95% confidence level, as the Fear & Greed Index remains in Extreme Fear and the total crypto market cap sees a moderate increase. The neutral RSI-14 reading and mid-band Bollinger Band %B suggest a stable market condition. With the recent news of Bitcoin's price increase and the launch of new trading platforms, Tether's price may be influenced by the overall market sentiment.",
-    "ja": "テザー（TETHER）は、来る24時間に95％の確率でフラットのままになる可能性があり、恐怖と欲求不満指数が極度の恐怖のままであり、総暗号資産市場キャップがやや増加していることからです。中立的なRSI-14とバンド中間のボリンジャー・バンド％Bは安定した市場状況を示しており、最近のニュースでビットコインの価格上昇や新しいトレーディングプラットフォームのリリースにより、テザーの価格は総合的な市場感情に影響を受ける可能性があります。",
+    "en": "Tether's flat 24-hour direction is predicted with 95% confidence, with neutral RSI-14 and mid-band Bollinger Band %B. The Fear & Greed Index remains in Extreme Fear territory, while the total crypto market cap and Bitcoin 24-hour returns show slight gains. Tether's price stability is likely to continue amidst market volatility.",
+    "ja": "テザーの24時間の方向は95％の確信を持ってフラットと予測され、RSI-14は中立的で、ボリンジャー・バンドの％Bは中間帯に位置しています。恐怖と欲求不満指数は極度の恐怖の状態にありますが、総暗号資産市場キャップとビットコインの24時間の戻りはわずかに増加しています。テザーの価格安定は市場の波動の中で続く可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.61%",
+        "value": "+0.60%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
@@ -1010,18 +1010,18 @@
       },
       {
         "label": "CoinTelegraph",
+        "value": "Andrew Cuomo to lead joint TradFi-crypto venture between OKX and Intercontinental Exchange",
+        "url": "https://cointelegraph.com/news/andrew-cuomo-okx-intercontinental-exchange-venture?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitcoin weekly close above $63K amid RSI divergence may be bottom signal: Data",
+        "url": "https://cointelegraph.com/markets/bitcoin-holds-63k-as-three-market-signals-remain-supportive?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
         "value": "Bitcoin price taps $65.5K as Iran deal sees oil drop toward 16-week low",
         "url": "https://cointelegraph.com/markets/bitcoin-price-taps-655k-as-iran-deal-sees-oil-drop-toward-16-week-low?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Why Google search can be a crypto wallet risk",
-        "url": "https://cointelegraph.com/learn/fake-google-ads-crypto-wallet-security?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Enso launches RWA app and trading for over 500 tokenized assets",
-        "url": "https://cointelegraph.com/news/enso-launches-rwa-app-trading-500-tokenized-assets?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "coinId": "hyperliquid",
-  "generatedAt": "2026-06-22T16:00:07.747015Z",
+  "generatedAt": "2026-06-22T17:00:08.487563Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -3.3688034683183496,
-    "confidence": 0.7959
+    "changePercent24h": -4.651255305037617,
+    "confidence": 0.8493
   },
   "commentary": {
-    "en": "Hyperliquid (HYPERLIQUID) is predicted to decline by -5.5% in the next 24 hours with a confidence level of 87%. The current market sentiment is extreme fear, as indicated by the Fear & Greed Index of 20. The recent news about oil prices and Google search risks may have a negative impact on HYPERLIQUID's price.",
-    "ja": "Hyperliquid (HYPERLIQUID) は、次の24時間で-5.5%の下落を予測しており、信頼度は87%です。Fear & Greed Indexは20で、極度の恐怖の市場感情を示しています。石油価格やGoogle検索リスクに関する最近のニュースは、HYPERLIQUIDの価格に否定的な影響を与える可能性があります。",
+    "en": "Hyperliquid's 24-hour direction is predicted to be down by 5.5% with a confidence of 87%. The current market context suggests a neutral sentiment, with the Fear & Greed Index at 20 and the total crypto market cap experiencing a 0.60% increase. The recent news about TradFi-crypto ventures and Bitcoin's price movement may influence Hyperliquid's price.",
+    "ja": "ハイパーリキッドの24時間の予想方向は下方5.5%で、信頼度は87%です。現在の市場状況は中立的な感情を示しており、恐怖と欲求不満指数は20、総暗号資産市場キャップは0.60%増加しています。トラッドフィー-暗号通貨のビジネスやビットコイン価格の動向に関する最近のニュースはハイパーリキッドの価格に影響を与える可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.61%",
+        "value": "+0.60%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
@@ -1010,18 +1010,18 @@
       },
       {
         "label": "CoinTelegraph",
+        "value": "Andrew Cuomo to lead joint TradFi-crypto venture between OKX and Intercontinental Exchange",
+        "url": "https://cointelegraph.com/news/andrew-cuomo-okx-intercontinental-exchange-venture?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitcoin weekly close above $63K amid RSI divergence may be bottom signal: Data",
+        "url": "https://cointelegraph.com/markets/bitcoin-holds-63k-as-three-market-signals-remain-supportive?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
         "value": "Bitcoin price taps $65.5K as Iran deal sees oil drop toward 16-week low",
         "url": "https://cointelegraph.com/markets/bitcoin-price-taps-655k-as-iran-deal-sees-oil-drop-toward-16-week-low?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Why Google search can be a crypto wallet risk",
-        "url": "https://cointelegraph.com/learn/fake-google-ads-crypto-wallet-security?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Enso launches RWA app and trading for over 500 tokenized assets",
-        "url": "https://cointelegraph.com/news/enso-launches-rwa-app-trading-500-tokenized-assets?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

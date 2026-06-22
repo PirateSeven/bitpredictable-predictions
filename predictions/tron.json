@@ -1,6 +1,6 @@
 {
   "coinId": "tron",
-  "generatedAt": "2026-06-22T16:00:07.747015Z",
+  "generatedAt": "2026-06-22T17:00:08.487563Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 0.5857261270425848,
-    "confidence": 0.8689
+    "changePercent24h": 0.12449579909528687,
+    "confidence": 0.7073
   },
   "commentary": {
-    "en": "TRON's price is expected to remain flat with a slight decline of -0.1% in the next 24 hours, given its overbought RSI-14 reading and upper Bollinger Band. The recent news on Iran's oil deal and Google search risks may have a limited impact on TRON's price. The overall crypto market remains in extreme fear, with a Fear & Greed Index of 20.",
-    "ja": "トロンの価格は、RSI-14がオーバーボールド、ボリンジャーバンドの上限にあり、24時間の価格変動が-0.1%と予想されるため、次の24時間は横ばいになる可能性が高い。イランの石油取引とGoogleの検索リスクに関するニュースはトロンの価格に限りなく影響しない可能性がある。総合的な暗号市場は恐怖の状態にあり、恐怖と欲求不満の指数は20である。",
+    "en": "TRON (TRON) is expected to trade flat with a slight decline of -0.1% in the next 24 hours, given its overbought RSI-14 reading and upper Bollinger Band. The recent news of a joint TradFi-crypto venture between OKX and Intercontinental Exchange may have a positive impact on the broader market, but its effect on TRON's price is uncertain. TRON's short-term trend remains sideways.",
+    "ja": "トロン（TRON）は、RSI-14がオーバーボールド、ボリンジャー・バンドが上部にあることから、来る24時間に-0.1％の小幅下落が予想される。OKXとインターコンチネンタル・エクスチェンジのトレーディング・フィニアンシャル（TradFi）とクリプトの共同ビジネスのニュースは、より広範な市場に肯定的な影響を与える可能性があるが、トロンの価格への影響は不明である。トロンの短期的なトレンドは横方向にある。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.61%",
+        "value": "+0.60%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
@@ -1010,18 +1010,18 @@
       },
       {
         "label": "CoinTelegraph",
+        "value": "Andrew Cuomo to lead joint TradFi-crypto venture between OKX and Intercontinental Exchange",
+        "url": "https://cointelegraph.com/news/andrew-cuomo-okx-intercontinental-exchange-venture?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitcoin weekly close above $63K amid RSI divergence may be bottom signal: Data",
+        "url": "https://cointelegraph.com/markets/bitcoin-holds-63k-as-three-market-signals-remain-supportive?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
         "value": "Bitcoin price taps $65.5K as Iran deal sees oil drop toward 16-week low",
         "url": "https://cointelegraph.com/markets/bitcoin-price-taps-655k-as-iran-deal-sees-oil-drop-toward-16-week-low?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Why Google search can be a crypto wallet risk",
-        "url": "https://cointelegraph.com/learn/fake-google-ads-crypto-wallet-security?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Enso launches RWA app and trading for over 500 tokenized assets",
-        "url": "https://cointelegraph.com/news/enso-launches-rwa-app-trading-500-tokenized-assets?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "coinId": "avalanche-2",
-  "generatedAt": "2026-06-22T16:00:07.747015Z",
+  "generatedAt": "2026-06-22T17:00:08.487563Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": 3.8682767742386637,
-    "confidence": 0.9157
+    "changePercent24h": 3.1663411884262334,
+    "confidence": 0.8983
   },
   "commentary": {
-    "en": "Avalanche (AVALANCHE-2) is predicted to decline by 0.8% in the next 24 hours, despite a neutral RSI-14 reading and a mid-band Bollinger Band %B. The short-term trend remains in an uptrend, but the Fear & Greed Index indicates extreme fear in the market. The recent news about Bitcoin's price and the Iran deal may impact the overall market sentiment.",
-    "ja": "Avalanche (AVALANCHE-2) は、来る24時間で0.8%の下落が予想され、RSI-14は中立的で、ボリンジャーバンドの%Bは中間帯に位置している。短期のトレンドは上昇傾向にあるが、Fear & Greed Indexは極度の恐怖を示しており、最近のニュースであるビットコインの価格とイランの合意は、市場全体の感性に影響を与える可能性がある。",
+    "en": "Avalanche is likely to experience a short-term decline, with a predicted 24h direction of DOWN by -0.8% due to the current market sentiment. The Fear & Greed Index at 20 indicates extreme fear, which may contribute to the downward trend. The short-term trend remains in an uptrend, but this may be a temporary reprieve.",
+    "ja": "アバランチ2は短期的には下落が予想され、24時間方向はDOWNの-0.8%に予想される。恐怖と欲求不満指数が20の極度の恐怖の状況は下落に寄与する可能性がある。短期的な傾向は上昇傾向にあるが、これは一時的な反発である可能性がある。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.61%",
+        "value": "+0.60%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
@@ -1010,18 +1010,18 @@
       },
       {
         "label": "CoinTelegraph",
+        "value": "Andrew Cuomo to lead joint TradFi-crypto venture between OKX and Intercontinental Exchange",
+        "url": "https://cointelegraph.com/news/andrew-cuomo-okx-intercontinental-exchange-venture?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitcoin weekly close above $63K amid RSI divergence may be bottom signal: Data",
+        "url": "https://cointelegraph.com/markets/bitcoin-holds-63k-as-three-market-signals-remain-supportive?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
         "value": "Bitcoin price taps $65.5K as Iran deal sees oil drop toward 16-week low",
         "url": "https://cointelegraph.com/markets/bitcoin-price-taps-655k-as-iran-deal-sees-oil-drop-toward-16-week-low?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Why Google search can be a crypto wallet risk",
-        "url": "https://cointelegraph.com/learn/fake-google-ads-crypto-wallet-security?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Enso launches RWA app and trading for over 500 tokenized assets",
-        "url": "https://cointelegraph.com/news/enso-launches-rwa-app-trading-500-tokenized-assets?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "coinId": "ethena-usde",
-  "generatedAt": "2026-06-22T16:00:07.747015Z",
+  "generatedAt": "2026-06-22T17:00:08.487563Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.007632868007544348,
+    "changePercent24h": 0.0008049403560514909,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "Ethena USDe (ETHENA-USDE) is expected to remain flat in the next 24 hours with a predicted return of -0.0% and a confidence level of 95%. The current market context suggests a cautiously optimistic sentiment, with the Fear & Greed Index at 20, indicating extreme fear, and the total crypto market cap showing a 0.61% increase. The recent news on the Iran deal and Enso's RWA app launch may have a neutral impact on ETHENA-USDE.",
-    "ja": "ETHENA-USDEは次の24時間で-0.0%の予想リターンと95%の信頼度でフラットに推定されます。現在の市場状況は、恐怖と欲求不満指数が20、極度の恐怖を示し、総暗号資産市場キャップが0.61%増加しているため、慎重に楽観的な感情を示しています。イランの合意とEnsoのRWAアプリのリリースに関する最近のニュースは、ETHENA-USDEに中立的な影響を与える可能性があります。",
+    "en": "Ethena USDe (ETHENA-USDE) is predicted to remain flat with a 95% confidence level, as its RSI-14 and Bollinger Band %B indicate a neutral trend. The Fear & Greed Index at 20 suggests extreme fear in the market, but the recent news of a joint TradFi-crypto venture between OKX and Intercontinental Exchange may have a positive impact on the overall market. The sideways short-term trend and normal volume ratio also support the flat prediction.",
+    "ja": "Ethena USDe (ETHENA-USDE) は、95% の信頼度でフラットの予測となり、RSI-14 とボリンジャー バンド %B は中立的なトレンドを示しています。Fear & Greed Index が 20 であることは市場全体で極度の恐怖を示唆していますが、OKX とインターコンチネンタル エクスチェンジのトラッドフィー-クリプト ベンチャーの共同事業のニュースは市場全体に良い影響を与える可能性があります。短期的なトレンドは横方向に動いており、ボリュームレシオも通常値です。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.61%",
+        "value": "+0.60%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
@@ -1010,18 +1010,18 @@
       },
       {
         "label": "CoinTelegraph",
+        "value": "Andrew Cuomo to lead joint TradFi-crypto venture between OKX and Intercontinental Exchange",
+        "url": "https://cointelegraph.com/news/andrew-cuomo-okx-intercontinental-exchange-venture?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitcoin weekly close above $63K amid RSI divergence may be bottom signal: Data",
+        "url": "https://cointelegraph.com/markets/bitcoin-holds-63k-as-three-market-signals-remain-supportive?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
         "value": "Bitcoin price taps $65.5K as Iran deal sees oil drop toward 16-week low",
         "url": "https://cointelegraph.com/markets/bitcoin-price-taps-655k-as-iran-deal-sees-oil-drop-toward-16-week-low?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Why Google search can be a crypto wallet risk",
-        "url": "https://cointelegraph.com/learn/fake-google-ads-crypto-wallet-security?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Enso launches RWA app and trading for over 500 tokenized assets",
-        "url": "https://cointelegraph.com/news/enso-launches-rwa-app-trading-500-tokenized-assets?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "coinId": "world-liberty-financial",
-  "generatedAt": "2026-06-22T16:00:07.747015Z",
+  "generatedAt": "2026-06-22T17:00:08.487563Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -1.0552276065090833,
-    "confidence": 0.7809
+    "changePercent24h": -1.0475196419412638,
+    "confidence": 0.7796
   },
   "commentary": {
-    "en": "The model predicts World Liberty Financial will decline ~0.7% over the next 24 hours with high confidence (70%). Price moved +0.66% in the past 24 hours with volume at 1.1× average. Community sentiment on CoinGecko is 0% bullish and the Fear & Greed Index reads \"Extreme Fear\" (20), aligning with the model's forecast.",
-    "ja": "モデルはWorld Liberty Financialが今後24時間で約0.7%下落すると予測しています（信頼度: 高い 70%）。過去24時間のリターンは+0.66%、出来高は平均の1.1倍です。CoinGeckoコミュニティでは0%が強気を示し、Fear & Greed指数は「Extreme Fear」（20）です。予測と方向性が一致しています。",
+    "en": "World Liberty Financial's 24-hour direction is predicted to be DOWN by 0.7% with a 70% confidence level. The RSI-14 is neutral at 48, while the Bollinger Band %B is at 0.26, indicating a mid-band position. The recent news of joint TradFi-crypto ventures and Bitcoin's price movements may impact WORLD-LIBERTY-FINANCIAL's performance.",
+    "ja": "ワールド・リバティー・フィナンシャルは24時間の予想方向は下げられ、0.7%の確率で70%の信頼度を持つ。RSI-14は48で中立的、ボリンジャー・バンド %Bは0.26で中間位置にある。トレーディング・ファイナンスと暗号資産のジョイントビジネスやビットコインの価格動向がワールド・リバティー・フィナンシャルのパフォーマンスに影響を与える可能性がある。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.61%",
+        "value": "+0.60%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
@@ -1010,18 +1010,18 @@
       },
       {
         "label": "CoinTelegraph",
+        "value": "Andrew Cuomo to lead joint TradFi-crypto venture between OKX and Intercontinental Exchange",
+        "url": "https://cointelegraph.com/news/andrew-cuomo-okx-intercontinental-exchange-venture?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitcoin weekly close above $63K amid RSI divergence may be bottom signal: Data",
+        "url": "https://cointelegraph.com/markets/bitcoin-holds-63k-as-three-market-signals-remain-supportive?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
         "value": "Bitcoin price taps $65.5K as Iran deal sees oil drop toward 16-week low",
         "url": "https://cointelegraph.com/markets/bitcoin-price-taps-655k-as-iran-deal-sees-oil-drop-toward-16-week-low?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Why Google search can be a crypto wallet risk",
-        "url": "https://cointelegraph.com/learn/fake-google-ads-crypto-wallet-security?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Enso launches RWA app and trading for over 500 tokenized assets",
-        "url": "https://cointelegraph.com/news/enso-launches-rwa-app-trading-500-tokenized-assets?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

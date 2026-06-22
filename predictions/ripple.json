@@ -1,6 +1,6 @@
 {
   "coinId": "ripple",
-  "generatedAt": "2026-06-22T16:00:07.747015Z",
+  "generatedAt": "2026-06-22T17:00:08.487563Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": 1.6205837283156774,
-    "confidence": 0.8325
+    "changePercent24h": 1.3719812650638863,
+    "confidence": 0.8068
   },
   "commentary": {
-    "en": "XRP is predicted to decline by 1.0% in the next 24 hours with a confidence level of 74%. The recent news of a drop in oil prices due to the Iran deal may have a positive impact on the overall market, but XRP's technical signals indicate a sideways trend. The Fear & Greed Index remains in extreme fear territory.",
-    "ja": "XRP は次の 24 時間で 1.0% の下落が予測され、信頼度は 74% です。イランの合意による石油価格の低下は市場全体にプラスの影響を与える可能性がありますが、XRP の技術指標は横方向の傾向を示しています。恐怖と欲求不満指数は極度の恐怖の領域にあります。",
+    "en": "XRP's short-term trend remains sideways, with a predicted 24-hour direction of DOWN at -1.0% confidence. The Fear & Greed Index at 20 indicates extreme fear in the market, which may not be favorable for XRP's price. The recent news about TradFi-crypto ventures and Bitcoin's price movement could impact XRP's price.",
+    "ja": "リップルは短期的な傾向が横方向に推移しており、24時間予測方向は下に-1.0%の確信度で推測されています。Fear & Greed Indexが20であることは市場が極度に恐れを抱いていることを示しており、リップルの価格には有利ではない可能性があります。トレードフィーと暗号資産のビジネスやビットコインの価格動向に関する最近のニュースがリップルの価格に影響を与える可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,28 +1000,28 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.61%",
+        "value": "+0.60%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "63% bullish",
+        "value": "62% bullish",
         "url": "https://www.coingecko.com/en/coins/ripple"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Andrew Cuomo to lead joint TradFi-crypto venture between OKX and Intercontinental Exchange",
+        "url": "https://cointelegraph.com/news/andrew-cuomo-okx-intercontinental-exchange-venture?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitcoin weekly close above $63K amid RSI divergence may be bottom signal: Data",
+        "url": "https://cointelegraph.com/markets/bitcoin-holds-63k-as-three-market-signals-remain-supportive?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
         "value": "Bitcoin price taps $65.5K as Iran deal sees oil drop toward 16-week low",
         "url": "https://cointelegraph.com/markets/bitcoin-price-taps-655k-as-iran-deal-sees-oil-drop-toward-16-week-low?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Why Google search can be a crypto wallet risk",
-        "url": "https://cointelegraph.com/learn/fake-google-ads-crypto-wallet-security?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Enso launches RWA app and trading for over 500 tokenized assets",
-        "url": "https://cointelegraph.com/news/enso-launches-rwa-app-trading-500-tokenized-assets?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

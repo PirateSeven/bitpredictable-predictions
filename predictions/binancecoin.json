@@ -1,6 +1,6 @@
 {
   "coinId": "binancecoin",
-  "generatedAt": "2026-06-22T16:00:07.747015Z",
+  "generatedAt": "2026-06-22T17:00:08.487563Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 2.2828463837926933,
-    "confidence": 0.9192
+    "changePercent24h": 1.5183474006217583,
+    "confidence": 0.8842
   },
   "commentary": {
-    "en": "BNB's predicted 24h direction is flat with a 61% confidence level, indicating a neutral sentiment. The recent news of Iran's oil deal and Enso's RWA app launch may influence market sentiment, but the Fear & Greed Index remains at Extreme Fear. BNB's price is likely to follow the overall market trend.",
-    "ja": "ビナンスコインの予測24時間方向は、61％の確信度でフラットであることを示唆しており、中立的な感情を示しています。イランの石油取引とEnsoのRWAアプリのリリースなどの最近のニュースは市場感情に影響を与える可能性がありますが、恐怖と欲求不満指数は極度の恐怖のままです。ビナンスコインの価格は、総市場トレンドに従う可能性があります。",
+    "en": "BNB's 24-hour direction is predicted to be flat with a 0.3% decline, indicating a neutral sentiment. The recent news of a joint TradFi-crypto venture between OKX and Intercontinental Exchange may have a positive impact on the market. However, the Fear & Greed Index remains in extreme fear territory.",
+    "ja": "ビナンスコインの24時間の方向性は、0.3%の低下が予測され、中立的な感性を示しています。OKXとインターコンチネンタル・エクスチェンジのトラッドフィーと暗号資産の共同ビジネスが最近のニュースですが、恐怖と欲求不満指数は極度の恐怖の領域にあります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.61%",
+        "value": "+0.60%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
@@ -1010,18 +1010,18 @@
       },
       {
         "label": "CoinTelegraph",
+        "value": "Andrew Cuomo to lead joint TradFi-crypto venture between OKX and Intercontinental Exchange",
+        "url": "https://cointelegraph.com/news/andrew-cuomo-okx-intercontinental-exchange-venture?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitcoin weekly close above $63K amid RSI divergence may be bottom signal: Data",
+        "url": "https://cointelegraph.com/markets/bitcoin-holds-63k-as-three-market-signals-remain-supportive?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
         "value": "Bitcoin price taps $65.5K as Iran deal sees oil drop toward 16-week low",
         "url": "https://cointelegraph.com/markets/bitcoin-price-taps-655k-as-iran-deal-sees-oil-drop-toward-16-week-low?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Why Google search can be a crypto wallet risk",
-        "url": "https://cointelegraph.com/learn/fake-google-ads-crypto-wallet-security?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Enso launches RWA app and trading for over 500 tokenized assets",
-        "url": "https://cointelegraph.com/news/enso-launches-rwa-app-trading-500-tokenized-assets?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

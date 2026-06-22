@@ -1,6 +1,6 @@
 {
   "coinId": "leo-token",
-  "generatedAt": "2026-06-22T16:00:07.747015Z",
+  "generatedAt": "2026-06-22T17:00:08.487563Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -1.4474442302257478,
-    "confidence": 0.895
+    "changePercent24h": -1.1992977079733529,
+    "confidence": 0.877
   },
   "commentary": {
-    "en": "LEO Token's 24-hour direction is predicted to be flat with a -0.4% change, reflecting a neutral RSI-14 reading of 46. The recent news on Bitcoin's price increase and Enso's launch of RWA app may have a limited impact on LEO Token's performance, given the overall market's extreme fear sentiment.",
-    "ja": "LEO Token の 24 時間の動向は、-0.4% の変化で予測されており、RSI-14 の読み値は 46 の中立的な値を示しています。ビットコインの価格上昇や Enso の RWA アプリのリリースなどの最近のニュースは、LEO Token のパフォーマンスに限りなく影響を与える可能性がありますが、全体的な市場の極度の恐怖感はその影響を制限しています。",
+    "en": "LEO Token (LEO-TOKEN) is expected to remain flat with a 24-hour direction of -0.4% due to its neutral RSI-14 reading and Bollinger Band %B at the lower band. The recent news of a joint TradFi-crypto venture between OKX and Intercontinental Exchange may have a positive impact on the market, but its effect on LEO-TOKEN is uncertain. The Fear & Greed Index remains in Extreme Fear territory, indicating a cautious market sentiment.",
+    "ja": "LEO Token (LEO-TOKEN) は、RSI-14 が中立的な値を示し、ボリンジャー バンド %B が下限にあることから、24 時間方向は -0.4% のままであると予想される。OKX とインターコンチネンタル エクスチェンジのトラッドフィ-クリプトの共同ビジネスがマーケットに良い影響を与えるかもしれないが、LEO-TOKEN の影響は不明である。恐怖と欲求不満指数は極度の恐怖の領域にあり、慎重なマーケット感性を示している。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.61%",
+        "value": "+0.60%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
@@ -1010,18 +1010,18 @@
       },
       {
         "label": "CoinTelegraph",
+        "value": "Andrew Cuomo to lead joint TradFi-crypto venture between OKX and Intercontinental Exchange",
+        "url": "https://cointelegraph.com/news/andrew-cuomo-okx-intercontinental-exchange-venture?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitcoin weekly close above $63K amid RSI divergence may be bottom signal: Data",
+        "url": "https://cointelegraph.com/markets/bitcoin-holds-63k-as-three-market-signals-remain-supportive?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
         "value": "Bitcoin price taps $65.5K as Iran deal sees oil drop toward 16-week low",
         "url": "https://cointelegraph.com/markets/bitcoin-price-taps-655k-as-iran-deal-sees-oil-drop-toward-16-week-low?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Why Google search can be a crypto wallet risk",
-        "url": "https://cointelegraph.com/learn/fake-google-ads-crypto-wallet-security?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Enso launches RWA app and trading for over 500 tokenized assets",
-        "url": "https://cointelegraph.com/news/enso-launches-rwa-app-trading-500-tokenized-assets?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

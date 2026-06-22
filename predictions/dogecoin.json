@@ -1,6 +1,6 @@
 {
   "coinId": "dogecoin",
-  "generatedAt": "2026-06-22T16:00:07.747015Z",
+  "generatedAt": "2026-06-22T17:00:08.487563Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": 1.8031362231871562,
-    "confidence": 0.8721
+    "changePercent24h": 1.2546656447912636,
+    "confidence": 0.8255
   },
   "commentary": {
-    "en": "Dogecoin's 24-hour direction is predicted to be DOWN by 0.6% with a 69% confidence level, despite a neutral RSI-14 reading of 54. The recent news about the Iran deal and oil prices may have a positive impact on the overall market, but its effect on Dogecoin remains uncertain.",
-    "ja": "ドージコインの24時間の動向は、69％の確率で0.6％下落と予想されています。RSI-14の値は54で中立的な状態ですが、不確実性が残っています。イランの取引と石油価格に関するニュースは、市場全体に肯定的な影響を与える可能性がありますが、ドージコインへの影響は不明です。",
+    "en": "Dogecoin's 24-hour direction is predicted to be down by 0.6% with a confidence level of 69%. The current market sentiment remains neutral as the Fear & Greed Index is at 20, indicating extreme fear. The recent news surrounding TradFi-crypto ventures and Bitcoin's price movement may have a limited impact on Dogecoin's price.",
+    "ja": "ドージコインの24時間の方向は、69%の確率で0.6%下がる予想です。Fear & Greed Indexは20で、極度の恐怖の状態が続いています。トレディファイ-cryptoのビジネスやビットコインの価格動向に関する最近のニュースは、ドージコインの価格に限りなく影響を与える可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,28 +1000,28 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.61%",
+        "value": "+0.60%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "62% bullish",
+        "value": "59% bullish",
         "url": "https://www.coingecko.com/en/coins/dogecoin"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Andrew Cuomo to lead joint TradFi-crypto venture between OKX and Intercontinental Exchange",
+        "url": "https://cointelegraph.com/news/andrew-cuomo-okx-intercontinental-exchange-venture?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitcoin weekly close above $63K amid RSI divergence may be bottom signal: Data",
+        "url": "https://cointelegraph.com/markets/bitcoin-holds-63k-as-three-market-signals-remain-supportive?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
         "value": "Bitcoin price taps $65.5K as Iran deal sees oil drop toward 16-week low",
         "url": "https://cointelegraph.com/markets/bitcoin-price-taps-655k-as-iran-deal-sees-oil-drop-toward-16-week-low?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Why Google search can be a crypto wallet risk",
-        "url": "https://cointelegraph.com/learn/fake-google-ads-crypto-wallet-security?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Enso launches RWA app and trading for over 500 tokenized assets",
-        "url": "https://cointelegraph.com/news/enso-launches-rwa-app-trading-500-tokenized-assets?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

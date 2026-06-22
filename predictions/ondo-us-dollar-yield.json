@@ -1,6 +1,6 @@
 {
   "coinId": "ondo-us-dollar-yield",
-  "generatedAt": "2026-06-22T16:00:07.747015Z",
+  "generatedAt": "2026-06-22T17:00:08.487563Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -0.6161699226445461,
-    "confidence": 0.7621
+    "changePercent24h": -1.0017766980525342,
+    "confidence": 0.8354
   },
   "commentary": {
-    "en": "The model predicts Ondo US Dollar Yield will decline ~0.6% over the next 24 hours with high confidence (74%). Volume is elevated at 2.3× the daily average, amplifying the directional signal. Market sentiment stands at \"Extreme Fear\" (Fear & Greed: 20); the broader crypto market moved +0.6% over the past 24 hours.",
-    "ja": "モデルはOndo US Dollar Yieldが今後24時間で約0.6%下落すると予測しています（信頼度: 高い 74%）。出来高が平均の2.3倍と高水準で、方向性シグナルを強化しています。Fear & Greed指数は「Extreme Fear」（20）で、暗号資産市場全体の24時間変動率は+0.6%です。",
+    "en": "ONDO-US-DOLLAR-YIELD is predicted to decline by 0.6% in the next 24 hours with a confidence level of 74%. The recent news of a joint TradFi-crypto venture between OKX and Intercontinental Exchange may have a positive impact on the market, but the Fear & Greed Index remains in Extreme Fear territory. The sideways short-term trend and neutral RSI-14 suggest a cautious approach.",
+    "ja": "ONDO-US-DOLLAR-YIELD は、次の24時間に0.6%の下落が予想され、信頼度は74%です。OKXとIntercontinental Exchangeのトラッドフィーとクリプトの共同ビジネスニュースはマーケットに肯定的な影響を与える可能性がありますが、Fear & Greed Indexはエクストリーム・フィアの状態です。短期のトレンドは横方向に動いており、RSI-14は中立的な状態です。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,23 +1000,23 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.61%",
+        "value": "+0.60%",
         "url": "https://www.coingecko.com/en/global-charts"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Andrew Cuomo to lead joint TradFi-crypto venture between OKX and Intercontinental Exchange",
+        "url": "https://cointelegraph.com/news/andrew-cuomo-okx-intercontinental-exchange-venture?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitcoin weekly close above $63K amid RSI divergence may be bottom signal: Data",
+        "url": "https://cointelegraph.com/markets/bitcoin-holds-63k-as-three-market-signals-remain-supportive?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
         "value": "Bitcoin price taps $65.5K as Iran deal sees oil drop toward 16-week low",
         "url": "https://cointelegraph.com/markets/bitcoin-price-taps-655k-as-iran-deal-sees-oil-drop-toward-16-week-low?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Why Google search can be a crypto wallet risk",
-        "url": "https://cointelegraph.com/learn/fake-google-ads-crypto-wallet-security?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Enso launches RWA app and trading for over 500 tokenized assets",
-        "url": "https://cointelegraph.com/news/enso-launches-rwa-app-trading-500-tokenized-assets?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

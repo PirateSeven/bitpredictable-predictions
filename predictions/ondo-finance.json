@@ -1,6 +1,6 @@
 {
   "coinId": "ondo-finance",
-  "generatedAt": "2026-06-22T16:00:07.747015Z",
+  "generatedAt": "2026-06-22T17:00:08.487563Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": 1.7934237027735755,
-    "confidence": 0.7522
+    "changePercent24h": 0.8039507361766614,
+    "confidence": 0.5195
   },
   "commentary": {
-    "en": "The model predicts Ondo will decline ~2.5% over the next 24 hours with high confidence (81%). Price moved -0.59% in the past 24 hours with volume at 1.0× average. Community sentiment on CoinGecko is 89% bullish and the Fear & Greed Index reads \"Extreme Fear\" (20), diverging from the model's forecast, adding uncertainty.",
-    "ja": "モデルはOndoが今後24時間で約2.5%下落すると予測しています（信頼度: 高い 81%）。過去24時間のリターンは-0.59%、出来高は平均の1.0倍です。CoinGeckoコミュニティでは89%が強気を示し、Fear & Greed指数は「Extreme Fear」（20）です。予測方向と乖離があり、不確実性が高まっています。",
+    "en": "Ondo (ONDO-FINANCE) is predicted to move downward by 2.5% in the next 24 hours with a confidence level of 81%. The current market sentiment is extreme fear, as indicated by the Fear & Greed Index of 20. However, the recent news of a joint TradFi-crypto venture between OKX and Intercontinental Exchange may have a positive impact on the market.",
+    "ja": "オンド・フィナンス（ONDO-FINANCE）は、次の24時間で2.5%下落する予測（信頼度81％）です。現在の市場感情は、恐怖指数が20の極度恐怖です。しかし、OKXとインターコンチネンタル・エクスチェンジの間で行われたトラッド・フィナンスとクリプトの共同ビジネスが市場に良い影響を与える可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,28 +1000,28 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.61%",
+        "value": "+0.60%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "89% bullish",
+        "value": "80% bullish",
         "url": "https://www.coingecko.com/en/coins/ondo-finance"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Andrew Cuomo to lead joint TradFi-crypto venture between OKX and Intercontinental Exchange",
+        "url": "https://cointelegraph.com/news/andrew-cuomo-okx-intercontinental-exchange-venture?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitcoin weekly close above $63K amid RSI divergence may be bottom signal: Data",
+        "url": "https://cointelegraph.com/markets/bitcoin-holds-63k-as-three-market-signals-remain-supportive?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
         "value": "Bitcoin price taps $65.5K as Iran deal sees oil drop toward 16-week low",
         "url": "https://cointelegraph.com/markets/bitcoin-price-taps-655k-as-iran-deal-sees-oil-drop-toward-16-week-low?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Why Google search can be a crypto wallet risk",
-        "url": "https://cointelegraph.com/learn/fake-google-ads-crypto-wallet-security?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Enso launches RWA app and trading for over 500 tokenized assets",
-        "url": "https://cointelegraph.com/news/enso-launches-rwa-app-trading-500-tokenized-assets?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

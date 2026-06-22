@@ -1,6 +1,6 @@
 {
   "coinId": "paypal-usd",
-  "generatedAt": "2026-06-22T16:00:07.747015Z",
+  "generatedAt": "2026-06-22T17:00:08.487563Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 0.05475001711844494,
+    "changePercent24h": 0.057014457137557296,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "The model predicts PayPal USD will trade sideways over the next 24 hours with high confidence (95%). Price is testing the upper Bollinger Band, a resistance level that often precedes short-term consolidation. Community sentiment on CoinGecko is 25% bullish and the Fear & Greed Index reads \"Extreme Fear\" (20), aligning with the model's forecast.",
-    "ja": "モデルはPayPal USDが今後24時間で横ばいで推移すると予測しています（信頼度: 高い 95%）。価格がボリンジャーバンド上限に到達しており、短期的な調整が起こりやすい状態です。CoinGeckoコミュニティでは25%が強気を示し、Fear & Greed指数は「Extreme Fear」（20）です。予測と方向性が一致しています。",
+    "en": "Paypal USD is expected to remain flat in the next 24 hours with a 95% confidence level. The recent news of Andrew Cuomo leading a joint TradFi-crypto venture between OKX and Intercontinental Exchange may have a positive impact on the market. However, the Fear & Greed Index remains in Extreme Fear territory, indicating caution.",
+    "ja": "Paypal USD は次の24時間で95％の確実性でフラットに推定されます。 Andrew CuomoがOKXとIntercontinental Exchangeの間で共同のTradFi-クリプトビジネスを率いるニュースは市場にプラスの影響を与える可能性があります。ただし、Fear & Greed Indexはエクストリーム・フィアの領域にあり、警戒感が残っています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.61%",
+        "value": "+0.60%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
@@ -1010,18 +1010,18 @@
       },
       {
         "label": "CoinTelegraph",
+        "value": "Andrew Cuomo to lead joint TradFi-crypto venture between OKX and Intercontinental Exchange",
+        "url": "https://cointelegraph.com/news/andrew-cuomo-okx-intercontinental-exchange-venture?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitcoin weekly close above $63K amid RSI divergence may be bottom signal: Data",
+        "url": "https://cointelegraph.com/markets/bitcoin-holds-63k-as-three-market-signals-remain-supportive?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
         "value": "Bitcoin price taps $65.5K as Iran deal sees oil drop toward 16-week low",
         "url": "https://cointelegraph.com/markets/bitcoin-price-taps-655k-as-iran-deal-sees-oil-drop-toward-16-week-low?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Why Google search can be a crypto wallet risk",
-        "url": "https://cointelegraph.com/learn/fake-google-ads-crypto-wallet-security?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Enso launches RWA app and trading for over 500 tokenized assets",
-        "url": "https://cointelegraph.com/news/enso-launches-rwa-app-trading-500-tokenized-assets?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

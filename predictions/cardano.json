@@ -1,6 +1,6 @@
 {
   "coinId": "cardano",
-  "generatedAt": "2026-06-22T16:00:07.747015Z",
+  "generatedAt": "2026-06-22T17:00:08.487563Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": 2.904215669908851,
-    "confidence": 0.9175
+    "changePercent24h": 2.420651673442788,
+    "confidence": 0.9026
   },
   "commentary": {
-    "en": "Cardano's 24-hour direction is predicted to be DOWN by 0.7% with a confidence level of 73%. The current market sentiment is in extreme fear, as indicated by the Fear & Greed Index of 20. The recent news on the Iran deal and Enso's launch of RWA app may have a limited impact on Cardano's price.",
-    "ja": "カードアノの24時間予想は下落0.7%で、信頼度は73%です。現在の市場感情は、恐怖の極端な状態で、恐怖と欲求不満指数は20です。イランの取引とエンソのRWAアプリのリリースに関する最近のニュースは、カードアノの価格に限られた影響を与える可能性があります。",
+    "en": "Cardano's 24-hour direction is predicted to be down by 0.7% with a confidence of 73%. The RSI-14 is neutral at 47, and the Bollinger Band %B is at 0.44, indicating mid-band positioning. The low volume ratio and sideways short-term trend suggest a cautious outlook.",
+    "ja": "カードアノの24時間の予想方向は下方0.7%で、信頼度は73%です。RSI-14は47で中立的な位置にあり、ボリンジャー・バンド %Bは0.44で中間帯にあります。低いボリューム比率と短期的な傾向は、慎重な展開を示しています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.61%",
+        "value": "+0.60%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
@@ -1010,18 +1010,18 @@
       },
       {
         "label": "CoinTelegraph",
+        "value": "Andrew Cuomo to lead joint TradFi-crypto venture between OKX and Intercontinental Exchange",
+        "url": "https://cointelegraph.com/news/andrew-cuomo-okx-intercontinental-exchange-venture?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitcoin weekly close above $63K amid RSI divergence may be bottom signal: Data",
+        "url": "https://cointelegraph.com/markets/bitcoin-holds-63k-as-three-market-signals-remain-supportive?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
         "value": "Bitcoin price taps $65.5K as Iran deal sees oil drop toward 16-week low",
         "url": "https://cointelegraph.com/markets/bitcoin-price-taps-655k-as-iran-deal-sees-oil-drop-toward-16-week-low?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Why Google search can be a crypto wallet risk",
-        "url": "https://cointelegraph.com/learn/fake-google-ads-crypto-wallet-security?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Enso launches RWA app and trading for over 500 tokenized assets",
-        "url": "https://cointelegraph.com/news/enso-launches-rwa-app-trading-500-tokenized-assets?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

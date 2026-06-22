@@ -1,6 +1,6 @@
 {
   "coinId": "global-dollar",
-  "generatedAt": "2026-06-22T16:00:07.747015Z",
+  "generatedAt": "2026-06-22T17:00:08.487563Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.007041653808688007,
+    "changePercent24h": 0.020108413121844512,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "The Global Dollar (GLOBAL-DOLLAR) is expected to remain flat in the next 24 hours with a 95% confidence level, as the RSI-14 and Bollinger Band %B indicate a neutral trend. The recent news about the Iran deal and Bitcoin price increase may have a positive impact on the crypto market, but the Fear & Greed Index remains in Extreme Fear territory. The overall market context suggests a cautious approach.",
-    "ja": "グローバルドル (GLOBAL-DOLLAR) は、次の24時間にフラットに推移する可能性があり、信頼度は95%である。RSI-14とボリンジャーバンド %Bは中立的な傾向を示しており、イランの合意とビットコインの価格上昇に関する最近のニュースは暗号市場に肯定的な影響を与える可能性があるが、恐怖と欲求不満指数は極度の恐怖の領域にあり続けている。総合的な市場状況は、慎重なアプローチを示唆している。",
+    "en": "The Global Dollar (GLOBAL-DOLLAR) is expected to remain flat in the next 24 hours with a 95% confidence level due to neutral technical signals and a sideways short-term trend. The Fear & Greed Index remains in extreme fear, but the overall crypto market is showing signs of recovery. The recent news of a joint TradFi-crypto venture between OKX and Intercontinental Exchange may have a positive impact on the market.",
+    "ja": "グローバル ドル (GLOBAL-DOLLAR) は、次の 24 時間で 95% の確率でフラットに推定され、ニュートラルな技術指標と短期的な傾向が横方向にあるためです。恐怖と欲求不満指数は極度の恐怖のままでありますが、総コインマーケットは回復の兆しが見えます。OKXとインターコンチネンタル エクスチェンジの間で共同のトラッドフィー-コインベンチャーが発表されたことは市場に肯定的な影響を与える可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,23 +1000,23 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.61%",
+        "value": "+0.60%",
         "url": "https://www.coingecko.com/en/global-charts"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Andrew Cuomo to lead joint TradFi-crypto venture between OKX and Intercontinental Exchange",
+        "url": "https://cointelegraph.com/news/andrew-cuomo-okx-intercontinental-exchange-venture?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitcoin weekly close above $63K amid RSI divergence may be bottom signal: Data",
+        "url": "https://cointelegraph.com/markets/bitcoin-holds-63k-as-three-market-signals-remain-supportive?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
         "value": "Bitcoin price taps $65.5K as Iran deal sees oil drop toward 16-week low",
         "url": "https://cointelegraph.com/markets/bitcoin-price-taps-655k-as-iran-deal-sees-oil-drop-toward-16-week-low?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Why Google search can be a crypto wallet risk",
-        "url": "https://cointelegraph.com/learn/fake-google-ads-crypto-wallet-security?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Enso launches RWA app and trading for over 500 tokenized assets",
-        "url": "https://cointelegraph.com/news/enso-launches-rwa-app-trading-500-tokenized-assets?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }
