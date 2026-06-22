@@ -1,6 +1,6 @@
 {
   "coinId": "hedera-hashgraph",
-  "generatedAt": "2026-06-22T13:00:07.807378Z",
+  "generatedAt": "2026-06-22T14:00:08.143339Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": 2.060450639312279,
-    "confidence": 0.8759
+    "changePercent24h": 3.1106292119055796,
+    "confidence": 0.9147
   },
   "commentary": {
-    "en": "Hedera's predicted 24h direction is DOWN with a confidence of 75%, driven by a neutral RSI-14 reading and the asset's proximity to the upper Bollinger band. The Fear & Greed Index remains in Extreme Fear territory, while the total crypto market cap has seen a 1.30% increase. The asset's short-term trend is sideways, with no clear indication of a reversal.",
-    "ja": "ヘダラハッシュグラフの24時間予想は下落にあり、信頼度は75％です。RSI-14の読みは中立的で、Bollingerバンドの上部に近い位置にあります。恐怖と欲求不満指数は極度の恐怖の状態にあり、総暗号資産市場キャップは1.30％増加しています。短期の傾向は横方向にあり、逆転の兆候はありません。",
+    "en": "Hedera's 24h direction is predicted to be DOWN by 0.9% with a confidence level of 75%. The RSI-14 is neutral at 58, while the Bollinger Band %B is at 0.91, indicating a position near the upper band. The recent news and market context suggest a cautious outlook for HEDERA-HASHGRAPH.",
+    "ja": "ヘダラハッシュグラフの24時間の予測方向は、下げて0.9％の予想あり、信頼度は75％です。RSI-14は58で中立的な位置にあり、ボリンジャーバンド％Bは0.91で上限近くにあります。最近のニュースや市場状況から、ヘダラハッシュグラフの見通しは慎重なものとなります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,28 +1000,28 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+1.30%",
+        "value": "+1.95%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "88% bullish",
+        "value": "87% bullish",
         "url": "https://www.coingecko.com/en/coins/hedera-hashgraph"
       },
       {
         "label": "CoinTelegraph",
-        "value": "EUR trading accounts for 1% of Binance spot volume, CryptoQuant says",
-        "url": "https://cointelegraph.com/news/eur-trades-binance-spot-volume-cryptoquant?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+        "value": "Here’s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
-        "value": "These XRP price charts hint at a potential 25% relief rally in July",
-        "url": "https://cointelegraph.com/markets/these-xrp-price-charts-hint-at-a-potential-25-relief-rally-in-july?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+        "value": "Social trading platform Fomo raises $75M, reaches $550M valuation",
+        "url": "https://cointelegraph.com/news/fomo-raise-series-b-trading-app-550m-valuation?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
-        "value": "Bank of England eases stablecoin rules, introduces 40B pound issuance cap",
-        "url": "https://cointelegraph.com/news/bank-of-england-stablecoin-rules-clears-path-for-2027-launch?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+        "value": "Strategy adds $300M to USD Reserve, acquires 520 BTC",
+        "url": "https://cointelegraph.com/news/strategy-300-million-usd-reserve-acquires-520-btc?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "coinId": "tether-gold",
-  "generatedAt": "2026-06-22T13:00:07.807378Z",
+  "generatedAt": "2026-06-22T14:00:08.143339Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 1.75333037829242,
+    "changePercent24h": 2.0769252421564977,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "The model predicts Tether Gold will trade sideways over the next 24 hours with high confidence (88%). Price is testing the upper Bollinger Band, a resistance level that often precedes short-term consolidation. Community sentiment on CoinGecko is 100% bullish and the Fear & Greed Index reads \"Extreme Fear\" (20), diverging from the model's forecast, adding uncertainty.",
-    "ja": "モデルはTether Goldが今後24時間で横ばいで推移すると予測しています（信頼度: 高い 88%）。価格がボリンジャーバンド上限に到達しており、短期的な調整が起こりやすい状態です。CoinGeckoコミュニティでは100%が強気を示し、Fear & Greed指数は「Extreme Fear」（20）です。予測方向と乖離があり、不確実性が高まっています。",
+    "en": "Tether Gold (TETHER-GOLD) is expected to remain flat with a 0.1% increase in the next 24 hours, driven by a neutral RSI-14 reading and a sideways short-term trend. The recent news of a strategy adding $300M to its USD Reserve and acquiring 520 BTC may have a positive impact on the market, but the Fear & Greed Index remains in extreme fear. The high volume ratio and CoinGecko community's 100% bullish sentiment suggest a potential for further growth.",
+    "ja": "Tether Gold (TETHER-GOLD) は、次の24時間で0.1%の増加を予想しており、中立的なRSI-14値と短期的な傾向が横方向に動いていることが理由です。USD Reserveに$300Mを追加し、520BTCを取得するというニュースは市場に良い影響を与える可能性がありますが、Fear & Greed Indexは極度の恐怖の状態です。高いボリューム比率とCoinGeckoコミュニティの100%のバブル感は、さらに成長する可能性を示しています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+1.30%",
+        "value": "+1.95%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
@@ -1010,18 +1010,18 @@
       },
       {
         "label": "CoinTelegraph",
-        "value": "EUR trading accounts for 1% of Binance spot volume, CryptoQuant says",
-        "url": "https://cointelegraph.com/news/eur-trades-binance-spot-volume-cryptoquant?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+        "value": "Here’s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
-        "value": "These XRP price charts hint at a potential 25% relief rally in July",
-        "url": "https://cointelegraph.com/markets/these-xrp-price-charts-hint-at-a-potential-25-relief-rally-in-july?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+        "value": "Social trading platform Fomo raises $75M, reaches $550M valuation",
+        "url": "https://cointelegraph.com/news/fomo-raise-series-b-trading-app-550m-valuation?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
-        "value": "Bank of England eases stablecoin rules, introduces 40B pound issuance cap",
-        "url": "https://cointelegraph.com/news/bank-of-england-stablecoin-rules-clears-path-for-2027-launch?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+        "value": "Strategy adds $300M to USD Reserve, acquires 520 BTC",
+        "url": "https://cointelegraph.com/news/strategy-300-million-usd-reserve-acquires-520-btc?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

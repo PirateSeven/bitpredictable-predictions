@@ -1,6 +1,6 @@
 {
   "coinId": "dai",
-  "generatedAt": "2026-06-22T13:00:07.807378Z",
+  "generatedAt": "2026-06-22T14:00:08.143339Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 0.046123177115914675,
+    "changePercent24h": 0.054873721247491784,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "The model predicts Dai will trade sideways over the next 24 hours with high confidence (95%). Price is testing the upper Bollinger Band, a resistance level that often precedes short-term consolidation. Community sentiment on CoinGecko is 50% bullish and the Fear & Greed Index reads \"Extreme Fear\" (20), diverging from the model's forecast, adding uncertainty.",
-    "ja": "モデルはDaiが今後24時間で横ばいで推移すると予測しています（信頼度: 高い 95%）。価格がボリンジャーバンド上限に到達しており、短期的な調整が起こりやすい状態です。CoinGeckoコミュニティでは50%が強気を示し、Fear & Greed指数は「Extreme Fear」（20）です。予測方向と乖離があり、不確実性が高まっています。",
+    "en": "Dai (DAI) is expected to remain flat in the next 24 hours with a 0.0% predicted return, driven by neutral technical signals and a sideways short-term trend. The Fear & Greed Index remains in extreme fear, while the total crypto market cap and Bitcoin have seen slight increases. Recent news has focused on various developments in the crypto space, including funding rounds and market trends.",
+    "ja": "Dai (DAI) は、来る24時間で0.0％の予想収益率で平坦を維持する可能性があり、中立的な技術指標と短期的な横方向の傾向によって推進される。恐怖と欲求不満指数は極度の恐怖のままであり、総暗号資産市場キャップとビットコインはわずかに増加している。最近のニュースでは、暗号空間における資金調達と市場傾向に関するさまざまな開発が焦点となっている。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+1.30%",
+        "value": "+1.95%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
@@ -1010,18 +1010,18 @@
       },
       {
         "label": "CoinTelegraph",
-        "value": "EUR trading accounts for 1% of Binance spot volume, CryptoQuant says",
-        "url": "https://cointelegraph.com/news/eur-trades-binance-spot-volume-cryptoquant?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+        "value": "Here’s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
-        "value": "These XRP price charts hint at a potential 25% relief rally in July",
-        "url": "https://cointelegraph.com/markets/these-xrp-price-charts-hint-at-a-potential-25-relief-rally-in-july?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+        "value": "Social trading platform Fomo raises $75M, reaches $550M valuation",
+        "url": "https://cointelegraph.com/news/fomo-raise-series-b-trading-app-550m-valuation?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
-        "value": "Bank of England eases stablecoin rules, introduces 40B pound issuance cap",
-        "url": "https://cointelegraph.com/news/bank-of-england-stablecoin-rules-clears-path-for-2027-launch?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+        "value": "Strategy adds $300M to USD Reserve, acquires 520 BTC",
+        "url": "https://cointelegraph.com/news/strategy-300-million-usd-reserve-acquires-520-btc?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

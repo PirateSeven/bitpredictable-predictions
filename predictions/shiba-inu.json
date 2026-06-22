@@ -1,6 +1,6 @@
 {
   "coinId": "shiba-inu",
-  "generatedAt": "2026-06-22T13:00:07.807378Z",
+  "generatedAt": "2026-06-22T14:00:08.143339Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": 2.6120539042156454,
-    "confidence": 0.8989
+    "changePercent24h": 2.156536946975863,
+    "confidence": 0.8798
   },
   "commentary": {
-    "en": "Shiba Inu's predicted 24h direction is DOWN with a 75% confidence level, driven by its current position near the upper Bollinger Band. The Fear & Greed Index remains in Extreme Fear territory, suggesting a cautious market sentiment. However, the recent news on stablecoin rules and US dollar strength may impact the overall market.",
-    "ja": "シャイバ・インウの24時間予想は下落で、75％の信頼度で推測されています。ボリンジャー・バンドの上限に近い位置にあります。恐怖と欲求不満指数は極度の恐怖の領域にあり、慎重な市場感覚を示しています。ただし、安定コイン規制や米ドル強化に関する最近のニュースは、市場全体に影響を与える可能性があります。",
+    "en": "The model predicts Shiba Inu will decline ~0.9% over the next 24 hours with high confidence (75%). Price is testing the upper Bollinger Band, a resistance level that often precedes short-term consolidation. Community sentiment on CoinGecko is 65% bullish and the Fear & Greed Index reads \"Extreme Fear\" (20), diverging from the model's forecast, adding uncertainty.",
+    "ja": "モデルはShiba Inuが今後24時間で約0.9%下落すると予測しています（信頼度: 高い 75%）。価格がボリンジャーバンド上限に到達しており、短期的な調整が起こりやすい状態です。CoinGeckoコミュニティでは65%が強気を示し、Fear & Greed指数は「Extreme Fear」（20）です。予測方向と乖離があり、不確実性が高まっています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,28 +1000,28 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+1.30%",
+        "value": "+1.95%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "63% bullish",
+        "value": "65% bullish",
         "url": "https://www.coingecko.com/en/coins/shiba-inu"
       },
       {
         "label": "CoinTelegraph",
-        "value": "EUR trading accounts for 1% of Binance spot volume, CryptoQuant says",
-        "url": "https://cointelegraph.com/news/eur-trades-binance-spot-volume-cryptoquant?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+        "value": "Here’s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
-        "value": "These XRP price charts hint at a potential 25% relief rally in July",
-        "url": "https://cointelegraph.com/markets/these-xrp-price-charts-hint-at-a-potential-25-relief-rally-in-july?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+        "value": "Social trading platform Fomo raises $75M, reaches $550M valuation",
+        "url": "https://cointelegraph.com/news/fomo-raise-series-b-trading-app-550m-valuation?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
-        "value": "Bank of England eases stablecoin rules, introduces 40B pound issuance cap",
-        "url": "https://cointelegraph.com/news/bank-of-england-stablecoin-rules-clears-path-for-2027-launch?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+        "value": "Strategy adds $300M to USD Reserve, acquires 520 BTC",
+        "url": "https://cointelegraph.com/news/strategy-300-million-usd-reserve-acquires-520-btc?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

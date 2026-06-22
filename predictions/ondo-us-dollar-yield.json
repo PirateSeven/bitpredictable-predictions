@@ -1,6 +1,6 @@
 {
   "coinId": "ondo-us-dollar-yield",
-  "generatedAt": "2026-06-22T13:00:07.807378Z",
+  "generatedAt": "2026-06-22T14:00:08.143339Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -0.41172431030897305,
-    "confidence": 0.6977
+    "changePercent24h": -0.5857070774250418,
+    "confidence": 0.7606
   },
   "commentary": {
-    "en": "The model predicts Ondo US Dollar Yield will decline ~0.5% over the next 24 hours with high confidence (74%). Volume is elevated at 1.5× the daily average, amplifying the directional signal. Market sentiment stands at \"Extreme Fear\" (Fear & Greed: 20); the broader crypto market moved +1.3% over the past 24 hours.",
-    "ja": "モデルはOndo US Dollar Yieldが今後24時間で約0.5%下落すると予測しています（信頼度: 高い 74%）。出来高が平均の1.5倍と高水準で、方向性シグナルを強化しています。Fear & Greed指数は「Extreme Fear」（20）で、暗号資産市場全体の24時間変動率は+1.3%です。",
+    "en": "ONDO-US-DOLLAR-YIELD is predicted to move down by 0.5% in the next 24 hours with a confidence level of 74%. The recent news on Fomo's funding and Strategy's acquisition of 520 BTC may have a neutral impact on the market. The Fear & Greed Index remains at Extreme Fear, indicating a cautious market sentiment.",
+    "ja": "ONDO-US-DOLLAR-YIELD は、次の24時間に下方向に0.5%動く可能性があり、信頼度は74%です。Fomoの資金調達とStrategyの520BTCの取得に関するニュースは、市場に中立的な影響を与える可能性があります。Fear & Greed Indexは今も極度の恐怖の状態であり、慎重な市場感覚を示しています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,23 +1000,23 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+1.30%",
+        "value": "+1.95%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinTelegraph",
-        "value": "EUR trading accounts for 1% of Binance spot volume, CryptoQuant says",
-        "url": "https://cointelegraph.com/news/eur-trades-binance-spot-volume-cryptoquant?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+        "value": "Here’s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
-        "value": "These XRP price charts hint at a potential 25% relief rally in July",
-        "url": "https://cointelegraph.com/markets/these-xrp-price-charts-hint-at-a-potential-25-relief-rally-in-july?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+        "value": "Social trading platform Fomo raises $75M, reaches $550M valuation",
+        "url": "https://cointelegraph.com/news/fomo-raise-series-b-trading-app-550m-valuation?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
-        "value": "Bank of England eases stablecoin rules, introduces 40B pound issuance cap",
-        "url": "https://cointelegraph.com/news/bank-of-england-stablecoin-rules-clears-path-for-2027-launch?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+        "value": "Strategy adds $300M to USD Reserve, acquires 520 BTC",
+        "url": "https://cointelegraph.com/news/strategy-300-million-usd-reserve-acquires-520-btc?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

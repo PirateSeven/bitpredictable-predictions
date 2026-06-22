@@ -1,6 +1,6 @@
 {
   "coinId": "mantle",
-  "generatedAt": "2026-06-22T13:00:07.807378Z",
+  "generatedAt": "2026-06-22T14:00:08.143339Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": 0.9094855418457143,
-    "confidence": 0.7864
+    "changePercent24h": 1.1811142846874612,
+    "confidence": 0.8269
   },
   "commentary": {
-    "en": "Mantle (MANTLE) is expected to decline by 0.5% in the next 24 hours with a confidence level of 67%. The recent news about the Bank of England easing stablecoin rules may have a mixed impact on the cryptocurrency market. The overall sentiment remains in extreme fear with the Fear & Greed Index at 20.",
-    "ja": "Mantle (MANTLE) は、次の24時間で0.5%の下落が予想され、信頼度は67%です。Bank of Englandがstablecoin規制を緩和したニュースは、cryptocurrency市場に混乱をもたらす可能性があります。Fear & Greed Indexは20で、極度の恐怖の状態が続いています。",
+    "en": "The model predicts Mantle will decline ~0.5% over the next 24 hours with moderate confidence (67%). Price is testing the upper Bollinger Band, a resistance level that often precedes short-term consolidation. Market sentiment stands at \"Extreme Fear\" (Fear & Greed: 20); the broader crypto market moved +1.9% over the past 24 hours.",
+    "ja": "モデルはMantleが今後24時間で約0.5%下落すると予測しています（信頼度: 中程度の 67%）。価格がボリンジャーバンド上限に到達しており、短期的な調整が起こりやすい状態です。Fear & Greed指数は「Extreme Fear」（20）で、暗号資産市場全体の24時間変動率は+1.9%です。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,23 +1000,23 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+1.30%",
+        "value": "+1.95%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinTelegraph",
-        "value": "EUR trading accounts for 1% of Binance spot volume, CryptoQuant says",
-        "url": "https://cointelegraph.com/news/eur-trades-binance-spot-volume-cryptoquant?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+        "value": "Here’s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
-        "value": "These XRP price charts hint at a potential 25% relief rally in July",
-        "url": "https://cointelegraph.com/markets/these-xrp-price-charts-hint-at-a-potential-25-relief-rally-in-july?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+        "value": "Social trading platform Fomo raises $75M, reaches $550M valuation",
+        "url": "https://cointelegraph.com/news/fomo-raise-series-b-trading-app-550m-valuation?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
-        "value": "Bank of England eases stablecoin rules, introduces 40B pound issuance cap",
-        "url": "https://cointelegraph.com/news/bank-of-england-stablecoin-rules-clears-path-for-2027-launch?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+        "value": "Strategy adds $300M to USD Reserve, acquires 520 BTC",
+        "url": "https://cointelegraph.com/news/strategy-300-million-usd-reserve-acquires-520-btc?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }
