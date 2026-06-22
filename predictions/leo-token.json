@@ -1,6 +1,6 @@
 {
   "coinId": "leo-token",
-  "generatedAt": "2026-06-22T15:00:08.587429Z",
+  "generatedAt": "2026-06-22T16:00:07.747015Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -1.633778560151846,
-    "confidence": 0.9053
+    "changePercent24h": -1.4474442302257478,
+    "confidence": 0.895
   },
   "commentary": {
-    "en": "LEO Token (LEO-TOKEN) is expected to remain flat with a 24-hour direction of -0.4% due to neutral RSI-14 and sideways short-term trend. The recent news on Google search risks and Enso's RWA app launch may have a minimal impact on LEO-TOKEN's price. The Fear & Greed Index at 20 indicates extreme fear, which could contribute to LEO-TOKEN's price stability.",
-    "ja": "LEO Token (LEO-TOKEN) は、24 時間方向が -0.4% であるため、平衡を保つことになる。RSI-14 が中立的で、短期の傾向が横方向にあるためである。Google の検索リスクや Enso の RWA アプリのリリースなどの最近のニュースは、LEO-TOKEN の価格にほとんど影響を与えない可能性がある。恐怖と欲求不満指数が 20 であるため、LEO-TOKEN の価格は安定する可能性がある。",
+    "en": "LEO Token's 24-hour direction is predicted to be flat with a -0.4% change, reflecting a neutral RSI-14 reading of 46. The recent news on Bitcoin's price increase and Enso's launch of RWA app may have a limited impact on LEO Token's performance, given the overall market's extreme fear sentiment.",
+    "ja": "LEO Token の 24 時間の動向は、-0.4% の変化で予測されており、RSI-14 の読み値は 46 の中立的な値を示しています。ビットコインの価格上昇や Enso の RWA アプリのリリースなどの最近のニュースは、LEO Token のパフォーマンスに限りなく影響を与える可能性がありますが、全体的な市場の極度の恐怖感はその影響を制限しています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.98%",
+        "value": "+0.61%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "50% bullish",
         "url": "https://www.coingecko.com/en/coins/leo-token"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitcoin price taps $65.5K as Iran deal sees oil drop toward 16-week low",
+        "url": "https://cointelegraph.com/markets/bitcoin-price-taps-655k-as-iran-deal-sees-oil-drop-toward-16-week-low?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Enso launches RWA app and trading for over 500 tokenized assets",
         "url": "https://cointelegraph.com/news/enso-launches-rwa-app-trading-500-tokenized-assets?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Here’s what happened in crypto today",
-        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

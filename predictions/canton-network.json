@@ -1,6 +1,6 @@
 {
   "coinId": "canton-network",
-  "generatedAt": "2026-06-22T15:00:08.587429Z",
+  "generatedAt": "2026-06-22T16:00:07.747015Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": 5.42580655077887,
-    "confidence": 0.9324
+    "changePercent24h": 3.9464042597522218,
+    "confidence": 0.9086
   },
   "commentary": {
-    "en": "Canton (CANTON-NETWORK) is predicted to move down by 1.6% in the next 24 hours with a confidence level of 79%. The current market sentiment is in extreme fear, as indicated by the Fear & Greed Index. The recent news and market context suggest a cautious approach.",
-    "ja": "キャントン ネットワーク (CANTON-NETWORK) は、来る24時間で1.6%下落する予測があり、信頼度は79%です。Fear & Greed Indexは極度の恐怖を示しており、最近のニュースとマーケット コンテキストから、慎重なアプローチが必要です。",
+    "en": "Canton (CANTON-NETWORK) is predicted to move downward by 1.6% in the next 24 hours with a confidence level of 79%. The current market sentiment is extreme fear, as indicated by the Fear & Greed Index of 20. The recent news about the Iran deal and the launch of Enso's RWA app may have a limited impact on Canton's price movement.",
+    "ja": "カントン ネットワーク（CANTON-NETWORK）は、次の24時間に1.6％下落する可能性があり、信頼度は79％です。 Fear & Greed Indexは20で、極度の恐怖の状態です。イランの合意やEnsoのRWAアプリのリリースに関する最近のニュースは、カントン ネットワークの価格動向に限りなく影響を与える可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.98%",
+        "value": "+0.61%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "35% bullish",
+        "value": "33% bullish",
         "url": "https://www.coingecko.com/en/coins/canton-network"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitcoin price taps $65.5K as Iran deal sees oil drop toward 16-week low",
+        "url": "https://cointelegraph.com/markets/bitcoin-price-taps-655k-as-iran-deal-sees-oil-drop-toward-16-week-low?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Enso launches RWA app and trading for over 500 tokenized assets",
         "url": "https://cointelegraph.com/news/enso-launches-rwa-app-trading-500-tokenized-assets?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Here’s what happened in crypto today",
-        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

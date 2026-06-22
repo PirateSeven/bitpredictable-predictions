@@ -1,6 +1,6 @@
 {
   "coinId": "tether-gold",
-  "generatedAt": "2026-06-22T15:00:08.587429Z",
+  "generatedAt": "2026-06-22T16:00:07.747015Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 2.037516431222787,
+    "changePercent24h": 1.4580799468632457,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "Tether Gold (TETHER-GOLD) is expected to remain flat with a 0.2% increase in the next 24 hours, driven by neutral technical signals and a moderate volume ratio. The Fear & Greed Index remains in extreme fear, but the total crypto market cap and BTC return are showing slight improvements. The recent news on Google search risks and Enso's RWA app launch may have a limited impact on Tether Gold's price.",
-    "ja": "Tether Gold (TETHER-GOLD) は、次の24時間に0.2%の増加が予想され、中立的な技術指標と比較的高いボリューム比率によって推進される。恐怖と欲求不満指数は極度の恐怖の状態にあるが、総暗号資産市場キャップとBTCのリターンは僅かに改善している。Google検索リスクとEnsoのRWAアプリのリリースに関する最近のニュースは、Tether Goldの価格に限られた影響を与える可能性がある。",
+    "en": "The model predicts Tether Gold will trade sideways over the next 24 hours with high confidence (90%). Volume is elevated at 1.6× the daily average, amplifying the directional signal. Community sentiment on CoinGecko is 100% bullish and the Fear & Greed Index reads \"Extreme Fear\" (20), diverging from the model's forecast, adding uncertainty.",
+    "ja": "モデルはTether Goldが今後24時間で横ばいで推移すると予測しています（信頼度: 高い 90%）。出来高が平均の1.6倍と高水準で、方向性シグナルを強化しています。CoinGeckoコミュニティでは100%が強気を示し、Fear & Greed指数は「Extreme Fear」（20）です。予測方向と乖離があり、不確実性が高まっています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.98%",
+        "value": "+0.61%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "100% bullish",
         "url": "https://www.coingecko.com/en/coins/tether-gold"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitcoin price taps $65.5K as Iran deal sees oil drop toward 16-week low",
+        "url": "https://cointelegraph.com/markets/bitcoin-price-taps-655k-as-iran-deal-sees-oil-drop-toward-16-week-low?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Enso launches RWA app and trading for over 500 tokenized assets",
         "url": "https://cointelegraph.com/news/enso-launches-rwa-app-trading-500-tokenized-assets?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Here’s what happened in crypto today",
-        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

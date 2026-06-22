@@ -1,6 +1,6 @@
 {
   "coinId": "blackrock-usd-institutional-digital-liquidity-fund",
-  "generatedAt": "2026-06-22T15:00:08.587429Z",
+  "generatedAt": "2026-06-22T16:00:07.747015Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 0.2607097643005785,
+    "changePercent24h": 0.26947530580311896,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "The Blackrock USD Institutional Digital Liquidity Fund is expected to remain flat with a 0.4% increase in the next 24 hours, driven by a sideways short-term trend and low volume ratio. The overbought RSI-14 and lower Bollinger Band %B suggest potential volatility, but the Extreme Fear sentiment from the Fear & Greed Index may limit price movements. The fund's performance will likely be influenced by the overall crypto market, which is experiencing a moderate increase in total market cap.",
-    "ja": "ブラックロック US ドル インスティテューショナル デジタル リキッド ティー フンドは、次の 24 時間で 0.4% の増加を予想しており、短期的な傾向は横方向に動いており、ボリューム比率が低いことから推測される。RSI-14 がオーバーボールド、ボリンジャー バンド %B が下限に達していることから、波動性が高まっている可能性があるが、恐怖と欲求不満指数が極度の恐怖を示しているため、価格の動きは制限される可能性がある。総市場キャップが 0.98% 増加していることから、総市場の動向が影響を与える可能性がある。",
+    "en": "The Blackrock USD Institutional Digital Liquidity Fund is likely to remain flat in the next 24 hours with a 0.4% increase, as the Fear & Greed Index remains in extreme fear and the short-term trend is sideways. The overbought RSI-14 and low volume ratio also indicate a potential consolidation phase. The recent news on oil prices and social trading platform Fomo's funding may have a limited impact on the fund's performance.",
+    "ja": "ブラックロック US ドル インスティテューショナル ディジタル リキッド ティー ファンドは、次の 24 時間で 0.4% の増加が予想され、恐怖と欲求不満指数が極度の恐怖にあり、短期的なトレンドが横方向に動いているためです。オーバーボールド RSI-14 と低いボリューム レシオも、潜在的な収縮期を示唆しています。最近のニュースでは、石油価格とソーシャル トレーディング プラットフォーム Fomo の資金調達がファンドのパフォーマンスに限られた影響を与える可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.98%",
+        "value": "+0.61%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "0% bullish",
         "url": "https://www.coingecko.com/en/coins/blackrock-usd-institutional-digital-liquidity-fund"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitcoin price taps $65.5K as Iran deal sees oil drop toward 16-week low",
+        "url": "https://cointelegraph.com/markets/bitcoin-price-taps-655k-as-iran-deal-sees-oil-drop-toward-16-week-low?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Enso launches RWA app and trading for over 500 tokenized assets",
         "url": "https://cointelegraph.com/news/enso-launches-rwa-app-trading-500-tokenized-assets?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Here’s what happened in crypto today",
-        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

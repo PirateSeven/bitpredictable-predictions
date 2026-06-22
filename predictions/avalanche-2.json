@@ -1,6 +1,6 @@
 {
   "coinId": "avalanche-2",
-  "generatedAt": "2026-06-22T15:00:08.587429Z",
+  "generatedAt": "2026-06-22T16:00:07.747015Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": 4.531888315205979,
-    "confidence": 0.9274
+    "changePercent24h": 3.8682767742386637,
+    "confidence": 0.9157
   },
   "commentary": {
-    "en": "Avalanche (AVALANCHE-2) is expected to decline by 0.8% in the next 24 hours, according to technical signals. The Fear & Greed Index remains in Extreme Fear territory, and the recent news does not directly impact AVALANCHE-2's price. The short-term trend is still in an uptrend, but the predicted direction is downward.",
-    "ja": "アバランチ2（AVALANCHE-2）は、技術指標に基づいて次の24時間で0.8％下落すると予想されます。恐怖と欲求不満指数は今も極度の恐怖の状態にあり、最近のニュースはAVALANCHE-2の価格に直接影響を与えていません。短期的な傾向はまだ上昇傾向ですが、予想される方向は下降です。",
+    "en": "Avalanche (AVALANCHE-2) is predicted to decline by 0.8% in the next 24 hours, despite a neutral RSI-14 reading and a mid-band Bollinger Band %B. The short-term trend remains in an uptrend, but the Fear & Greed Index indicates extreme fear in the market. The recent news about Bitcoin's price and the Iran deal may impact the overall market sentiment.",
+    "ja": "Avalanche (AVALANCHE-2) は、来る24時間で0.8%の下落が予想され、RSI-14は中立的で、ボリンジャーバンドの%Bは中間帯に位置している。短期のトレンドは上昇傾向にあるが、Fear & Greed Indexは極度の恐怖を示しており、最近のニュースであるビットコインの価格とイランの合意は、市場全体の感性に影響を与える可能性がある。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.98%",
+        "value": "+0.61%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "73% bullish",
+        "value": "80% bullish",
         "url": "https://www.coingecko.com/en/coins/avalanche-2"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitcoin price taps $65.5K as Iran deal sees oil drop toward 16-week low",
+        "url": "https://cointelegraph.com/markets/bitcoin-price-taps-655k-as-iran-deal-sees-oil-drop-toward-16-week-low?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Enso launches RWA app and trading for over 500 tokenized assets",
         "url": "https://cointelegraph.com/news/enso-launches-rwa-app-trading-500-tokenized-assets?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Here’s what happened in crypto today",
-        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

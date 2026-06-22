@@ -1,6 +1,6 @@
 {
   "coinId": "tron",
-  "generatedAt": "2026-06-22T15:00:08.587429Z",
+  "generatedAt": "2026-06-22T16:00:07.747015Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 0.9424724783297842,
-    "confidence": 0.9081
+    "changePercent24h": 0.5857261270425848,
+    "confidence": 0.8689
   },
   "commentary": {
-    "en": "TRON (TRON) is likely to experience a flat 24-hour period with a minor decline of -0.1%, given its overbought RSI-14 reading and upper Bollinger Band. The recent news on Enso's RWA app and Fomo's $75M funding may have a limited impact on TRON's price. The Fear & Greed Index remains in Extreme Fear territory.",
-    "ja": "トロン（TRON）は、オーバーボールドしたRSI-14と上部ボリンジャーバンドの影響を受け、24時間の小幅な下落(-0.1%)が予想されます。エンソのRWAアプリやFomoの$75Mの資金調達などの最近のニュースはTRONの価格に限られた影響を与える可能性があります。恐怖と欲求不満指数はまだ極度の恐怖の領域にあります。",
+    "en": "TRON's price is expected to remain flat with a slight decline of -0.1% in the next 24 hours, given its overbought RSI-14 reading and upper Bollinger Band. The recent news on Iran's oil deal and Google search risks may have a limited impact on TRON's price. The overall crypto market remains in extreme fear, with a Fear & Greed Index of 20.",
+    "ja": "トロンの価格は、RSI-14がオーバーボールド、ボリンジャーバンドの上限にあり、24時間の価格変動が-0.1%と予想されるため、次の24時間は横ばいになる可能性が高い。イランの石油取引とGoogleの検索リスクに関するニュースはトロンの価格に限りなく影響しない可能性がある。総合的な暗号市場は恐怖の状態にあり、恐怖と欲求不満の指数は20である。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.98%",
+        "value": "+0.61%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "50% bullish",
+        "value": "48% bullish",
         "url": "https://www.coingecko.com/en/coins/tron"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitcoin price taps $65.5K as Iran deal sees oil drop toward 16-week low",
+        "url": "https://cointelegraph.com/markets/bitcoin-price-taps-655k-as-iran-deal-sees-oil-drop-toward-16-week-low?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Enso launches RWA app and trading for over 500 tokenized assets",
         "url": "https://cointelegraph.com/news/enso-launches-rwa-app-trading-500-tokenized-assets?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Here’s what happened in crypto today",
-        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

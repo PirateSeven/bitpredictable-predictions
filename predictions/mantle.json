@@ -1,6 +1,6 @@
 {
   "coinId": "mantle",
-  "generatedAt": "2026-06-22T15:00:08.587429Z",
+  "generatedAt": "2026-06-22T16:00:07.747015Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": 0.42385840633536476,
-    "confidence": 0.6172
+    "changePercent24h": 0.1818053070834208,
+    "confidence": 0.4026
   },
   "commentary": {
-    "en": "Mantle (MANTLE) is predicted to move down by 0.6% in the next 24 hours with a confidence level of 67%. The current market context suggests a low level of fear, with the Fear & Greed Index at 20, and a positive total crypto market cap change of 0.98%. However, Mantle's short-term trend remains sideways.",
-    "ja": "Mantle (MANTLE) は、次の24時間に0.6%下落する可能性があり、信頼度は67%です。現在の市場状況は、恐怖のレベルが低いことを示しており、Fear & Greed Indexは20、総暗号資産市場キャップの24時間変化は0.98%です。ただし、Mantleの短期的なトレンドは横方向に推移しています。",
+    "en": "Mantle (MANTLE) is expected to experience a 0.6% decline in the next 24 hours, with a confidence level of 67%. The current market conditions, including an Extreme Fear sentiment and a sideways short-term trend, suggest a cautious outlook. The recent news on the crypto market has been mixed, with some positive developments but also concerns about risk.",
+    "ja": "Mantle (MANTLE)は、次の24時間で0.6％の下落が予想され、信頼度は67％です。現在の市場状況、極度の恐怖の感情と短期的な横方向の傾向を含む、慎重な姿勢を示しています。最近のニュースは、混在しており、ある程度のプラスの動きもありますが、リスクに関する懸念もあります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,8 +1000,13 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.98%",
+        "value": "+0.61%",
         "url": "https://www.coingecko.com/en/global-charts"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitcoin price taps $65.5K as Iran deal sees oil drop toward 16-week low",
+        "url": "https://cointelegraph.com/markets/bitcoin-price-taps-655k-as-iran-deal-sees-oil-drop-toward-16-week-low?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1012,11 +1017,6 @@
         "label": "CoinTelegraph",
         "value": "Enso launches RWA app and trading for over 500 tokenized assets",
         "url": "https://cointelegraph.com/news/enso-launches-rwa-app-trading-500-tokenized-assets?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Here’s what happened in crypto today",
-        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

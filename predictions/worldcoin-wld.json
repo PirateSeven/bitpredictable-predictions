@@ -1,6 +1,6 @@
 {
   "coinId": "worldcoin-wld",
-  "generatedAt": "2026-06-22T15:00:08.587429Z",
+  "generatedAt": "2026-06-22T16:00:07.747015Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -2.109002888542519,
-    "confidence": 0.7581
+    "changePercent24h": -4.475722482403904,
+    "confidence": 0.8793
   },
   "commentary": {
-    "en": "Worldcoin (WORLDCOIN-WLD) is predicted to move down by 2.7% in the next 24 hours with an 80% confidence level. The recent news on Google search risks and Enso's RWA app launch may have a neutral impact on the market. However, the overall sentiment remains in extreme fear.",
-    "ja": "ワールドコインWLD（WORLDCOIN-WLD）は、次の24時間で2.7％下落する予想であり、信頼度は80％です。Google検索リスクとEnsoのRWAアプリのリリースに関する最近のニュースは、市場に中立的な影響を与えているかもしれませんが、総合的な感情は極度の恐怖のままです。",
+    "en": "Worldcoin (WORLDCOIN-WLD) is predicted to move downward with a 2.7% decline in the next 24 hours, despite a recent 4.32% increase. The Fear & Greed Index remains at 20, indicating extreme fear in the market. The short-term trend is sideways, with a neutral RSI-14 reading of 55.",
+    "ja": "ワールドコインWLD（WORLDCOIN-WLD）は、次の24時間で2.7％の下落が予想され、前日比4.32％の増加にもかかわらず。Fear＆Greed Indexは20のまま、極度の恐怖が続いている。短期トレンドは横方向に動いており、RSI-14の値は55の中間値に位置している。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.98%",
+        "value": "+0.61%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "67% bullish",
+        "value": "63% bullish",
         "url": "https://www.coingecko.com/en/coins/worldcoin-wld"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitcoin price taps $65.5K as Iran deal sees oil drop toward 16-week low",
+        "url": "https://cointelegraph.com/markets/bitcoin-price-taps-655k-as-iran-deal-sees-oil-drop-toward-16-week-low?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Enso launches RWA app and trading for over 500 tokenized assets",
         "url": "https://cointelegraph.com/news/enso-launches-rwa-app-trading-500-tokenized-assets?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Here’s what happened in crypto today",
-        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

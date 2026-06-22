@@ -1,6 +1,6 @@
 {
   "coinId": "memecore",
-  "generatedAt": "2026-06-22T15:00:08.587429Z",
+  "generatedAt": "2026-06-22T16:00:07.747015Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -0.5676534990252751,
-    "confidence": 0.6463
+    "changePercent24h": -1.1044408593767145,
+    "confidence": 0.7865
   },
   "commentary": {
-    "en": "MemeCore (MEMECORE) is predicted to decline by -0.9% in the next 24 hours with a confidence level of 74%. The current market sentiment is in extreme fear, as indicated by the Fear & Greed Index of 20. The recent news about Google search being a crypto wallet risk and Enso launching a new app may have a negative impact on MemeCore's price.",
-    "ja": "メムコア (MEMECORE) の24時間予想は下落 (-0.9%) で、信頼度は74%です。現在の市場感情は、恐怖指数が20で極度の恐怖の状態です。Google検索が暗号通貨ウォレットのリスクであることや、Ensoが新しいアプリをリリースしたニュースがメムコアの価格に否定的な影響を与える可能性があります。",
+    "en": "MemeCore (MEMECORE) is predicted to decline by -0.9% in the next 24 hours with a confidence level of 74%. This prediction is based on neutral technical signals, including a mid-band Bollinger Band and a sideways short-term trend. The Fear & Greed Index remains in Extreme Fear territory, which may contribute to the predicted decline.",
+    "ja": "メムコア (MEMECORE) は、次の24時間で-0.9%の下落が予測され、信頼度は74%です。これは、中間帯のボリンジャー・バンドと短期の横方向のトレンドなど中立的な技術指標に基づいています。恐怖と欲求不満指数は今も極度の恐怖の状態にあり、これが予測される下落に寄与する可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.98%",
+        "value": "+0.61%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "20% bullish",
+        "value": "25% bullish",
         "url": "https://www.coingecko.com/en/coins/memecore"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitcoin price taps $65.5K as Iran deal sees oil drop toward 16-week low",
+        "url": "https://cointelegraph.com/markets/bitcoin-price-taps-655k-as-iran-deal-sees-oil-drop-toward-16-week-low?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Enso launches RWA app and trading for over 500 tokenized assets",
         "url": "https://cointelegraph.com/news/enso-launches-rwa-app-trading-500-tokenized-assets?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Here’s what happened in crypto today",
-        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

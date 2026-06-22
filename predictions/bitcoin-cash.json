@@ -1,6 +1,6 @@
 {
   "coinId": "bitcoin-cash",
-  "generatedAt": "2026-06-22T15:00:08.587429Z",
+  "generatedAt": "2026-06-22T16:00:07.747015Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": 3.923924580113761,
-    "confidence": 0.9132
+    "changePercent24h": 2.7764992595138676,
+    "confidence": 0.8803
   },
   "commentary": {
-    "en": "Bitcoin Cash is expected to decline by 1.2% in the next 24 hours, according to technical analysis. The Fear & Greed Index is at an extreme fear level, which may indicate a potential short-term rebound. However, the recent news and market context suggest a cautious outlook.",
-    "ja": "ビットコインキャッシュは、技術分析によると、次の24時間で1.2％下落すると予想されています。恐怖と欲求不満指数は極度の恐怖のレベルにあり、これは短期的な反発につながる可能性があります。ただし、最近のニュースや市場状況は、慎重な姿勢を示しています。",
+    "en": "Bitcoin Cash is expected to decline by 1.2% in the next 24 hours, with a confidence level of 74%. The current market sentiment is in extreme fear, with the Fear & Greed Index at 20. The recent news of Iran's oil deal and Google search risks may influence the market, but the overall trend remains sideways.",
+    "ja": "ビットコイン・キャッシュは、次の24時間で1.2%下落する可能性があり、信頼度は74%です。市場の感情は極度の恐怖にあり、恐怖と欲求不満指数は20です。イランの石油取引とGoogleの検索リスクに関するニュースは市場に影響を与える可能性がありますが、短期のトレンドは横方向に推移しています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.98%",
+        "value": "+0.61%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "43% bullish",
         "url": "https://www.coingecko.com/en/coins/bitcoin-cash"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitcoin price taps $65.5K as Iran deal sees oil drop toward 16-week low",
+        "url": "https://cointelegraph.com/markets/bitcoin-price-taps-655k-as-iran-deal-sees-oil-drop-toward-16-week-low?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Enso launches RWA app and trading for over 500 tokenized assets",
         "url": "https://cointelegraph.com/news/enso-launches-rwa-app-trading-500-tokenized-assets?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Here’s what happened in crypto today",
-        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

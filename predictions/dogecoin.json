@@ -1,6 +1,6 @@
 {
   "coinId": "dogecoin",
-  "generatedAt": "2026-06-22T15:00:08.587429Z",
+  "generatedAt": "2026-06-22T16:00:07.747015Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": 2.286168485429139,
-    "confidence": 0.8965
+    "changePercent24h": 1.8031362231871562,
+    "confidence": 0.8721
   },
   "commentary": {
-    "en": "Dogecoin is expected to decline by -0.6% in the next 24 hours, with a confidence level of 69%. The current market sentiment is characterized by extreme fear, as indicated by the Fear & Greed Index of 20. The recent news and market context suggest a cautious approach to Dogecoin's short-term price movement.",
-    "ja": "ドージコインは次の24時間で-0.6%の下落が予想され、信頼度は69%です。現在の市場感情は、恐怖指数が20であるため、極度の恐怖が特徴です。最近のニュースや市場状況から、ドージコインの短期価格動向に対する慎重なアプローチが推奨されます。",
+    "en": "Dogecoin's 24-hour direction is predicted to be DOWN by 0.6% with a 69% confidence level, despite a neutral RSI-14 reading of 54. The recent news about the Iran deal and oil prices may have a positive impact on the overall market, but its effect on Dogecoin remains uncertain.",
+    "ja": "ドージコインの24時間の動向は、69％の確率で0.6％下落と予想されています。RSI-14の値は54で中立的な状態ですが、不確実性が残っています。イランの取引と石油価格に関するニュースは、市場全体に肯定的な影響を与える可能性がありますが、ドージコインへの影響は不明です。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.98%",
+        "value": "+0.61%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "62% bullish",
         "url": "https://www.coingecko.com/en/coins/dogecoin"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitcoin price taps $65.5K as Iran deal sees oil drop toward 16-week low",
+        "url": "https://cointelegraph.com/markets/bitcoin-price-taps-655k-as-iran-deal-sees-oil-drop-toward-16-week-low?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Enso launches RWA app and trading for over 500 tokenized assets",
         "url": "https://cointelegraph.com/news/enso-launches-rwa-app-trading-500-tokenized-assets?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Here’s what happened in crypto today",
-        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

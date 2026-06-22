@@ -1,6 +1,6 @@
 {
   "coinId": "monero",
-  "generatedAt": "2026-06-22T15:00:08.587429Z",
+  "generatedAt": "2026-06-22T16:00:07.747015Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": 0.4260863255740126,
-    "confidence": 0.2961
+    "changePercent24h": -0.4771391837520902,
+    "confidence": 0.3455
   },
   "commentary": {
-    "en": "Monero's predicted 24-hour direction is DOWN with a 1.8% decline, driven by the current market sentiment of Extreme Fear. The recent uptrend in the short-term trend and the 24-hour actual return of +3.12% may be short-lived. The Fear & Greed Index remains at 20, indicating a high level of fear in the market.",
-    "ja": "モネロの24時間予想は、下落1.8％に指向しており、極度の恐怖という市場感情によって推進されている。短期的な傾向は上昇傾向にあり、24時間実際のリターンは+3.12％であったが、短期間で終わる可能性がある。恐怖と欲求不満指数は20に留まり、市場全体に恐怖感が高まっていることを示している。",
+    "en": "Monero's predicted 24-hour direction is DOWN with a confidence of 76% due to recent market fluctuations. The Fear & Greed Index is at 20, indicating extreme fear in the market. This sentiment may influence Monero's price, but the short-term trend remains an uptrend.",
+    "ja": "モノロの24時間予想は下落、信頼度76％に達します。恐怖と欲求不満指数は20、市場全体で極度の恐怖を示しています。この感情はモノロの価格に影響を与える可能性がありますが、短期的な傾向は上昇傾向にあります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.98%",
+        "value": "+0.61%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "88% bullish",
+        "value": "89% bullish",
         "url": "https://www.coingecko.com/en/coins/monero"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitcoin price taps $65.5K as Iran deal sees oil drop toward 16-week low",
+        "url": "https://cointelegraph.com/markets/bitcoin-price-taps-655k-as-iran-deal-sees-oil-drop-toward-16-week-low?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Enso launches RWA app and trading for over 500 tokenized assets",
         "url": "https://cointelegraph.com/news/enso-launches-rwa-app-trading-500-tokenized-assets?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Here’s what happened in crypto today",
-        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

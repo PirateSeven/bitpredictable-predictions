@@ -1,6 +1,6 @@
 {
   "coinId": "usd-coin",
-  "generatedAt": "2026-06-22T15:00:08.587429Z",
+  "generatedAt": "2026-06-22T16:00:07.747015Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.01431517726035137,
+    "changePercent24h": -0.01352607302023899,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "USD Coin (USD-COIN) is expected to remain flat in the next 24 hours with a 95% confidence level, as its RSI-14 and Bollinger Band %B indicators suggest a neutral position. The recent news about Enso's RWA app and trading for over 500 tokenized assets may have a positive impact on the market, but the overall sentiment remains cautious due to the Extreme Fear index. The coin's short-term trend is sideways, indicating a lack of clear direction.",
-    "ja": "USDコイン（USD-COIN）は、次の24時間に95％の確率でフラットに推移することが予想され、RSI-14とボリンジャーバンド％Bの指標は中立的なポジションを示している。エンソのRWAアプリと500を超えるトークン化された資産の取引に関する最近のニュースは、市場に肯定的な影響を与える可能性があるが、総合的な感覚は極度の恐怖指数の影響を受けている。コインの短期傾向は横方向にあり、明確な方向性がないことを示している。",
+    "en": "USD Coin (USD-COIN) is expected to remain flat in the next 24 hours with a 95% confidence level. The current market context suggests a cautious sentiment with the Fear & Greed Index at 20, indicating extreme fear. The recent news about the Iran deal and Google search risks may have a limited impact on USD-COIN's price movement.",
+    "ja": "USDコイン（USD-COIN）は、次の24時間に95％の確率でフラットで推定される。Fear＆Greed Indexは20、極度の恐怖を示しており、現在の市場状況は慎重な感情を示している。イランの合意やGoogle検索リスクに関する最近のニュースは、USD-COINの価格動向に限りなく影響を与える可能性は低い。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.98%",
+        "value": "+0.61%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "50% bullish",
         "url": "https://www.coingecko.com/en/coins/usd-coin"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitcoin price taps $65.5K as Iran deal sees oil drop toward 16-week low",
+        "url": "https://cointelegraph.com/markets/bitcoin-price-taps-655k-as-iran-deal-sees-oil-drop-toward-16-week-low?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Enso launches RWA app and trading for over 500 tokenized assets",
         "url": "https://cointelegraph.com/news/enso-launches-rwa-app-trading-500-tokenized-assets?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Here’s what happened in crypto today",
-        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

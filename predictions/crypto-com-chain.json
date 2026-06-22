@@ -1,6 +1,6 @@
 {
   "coinId": "crypto-com-chain",
-  "generatedAt": "2026-06-22T15:00:08.587429Z",
+  "generatedAt": "2026-06-22T16:00:07.747015Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 1.2367113624549817,
-    "confidence": 0.8769
+    "changePercent24h": 1.0229620217576036,
+    "confidence": 0.8563
   },
   "commentary": {
-    "en": "Cronos's 24-hour direction is predicted to be flat with a 0.2% decrease in confidence of 56%. The recent news and market context suggest a cautious approach, with the Fear & Greed Index indicating extreme fear and the total crypto market cap experiencing a slight increase. The neutral RSI-14 and mid-band Bollinger Band %B also support a sideways trend.",
-    "ja": "Cronos の24時間の方向は、0.2%の減少を予測し、信頼度は56%です。最近のニュースと市場状況は、慎重なアプローチを示しており、Fear & Greed Indexは極度の恐怖を示しており、総暗号資産の市場キャップはわずかに増加しています。中立的なRSI-14と中間帯のボリンジャー・バンド %Bも横方向のトレンドを支持しています。",
+    "en": "Cronos's flat 24h direction prediction suggests a neutral short-term trend. The RSI-14 at 54 and Bollinger Band %B at 0.69 indicate a mid-band position, consistent with the sideways trend. The recent news on oil prices and Enso's launch may have a limited impact on Cronos's price.",
+    "ja": "Cronos の 24 時間方向の予測は、平坦であることを示しています。RSI-14 が 54、ボリンジャー バンド %B が 0.69 であることは、短期的なトレンドが横方向にあることを示しています。石油価格と Enso の新規案件のニュースは Cronos の価格に影響を与える可能性は限られています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.98%",
+        "value": "+0.61%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "86% bullish",
         "url": "https://www.coingecko.com/en/coins/crypto-com-chain"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitcoin price taps $65.5K as Iran deal sees oil drop toward 16-week low",
+        "url": "https://cointelegraph.com/markets/bitcoin-price-taps-655k-as-iran-deal-sees-oil-drop-toward-16-week-low?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Enso launches RWA app and trading for over 500 tokenized assets",
         "url": "https://cointelegraph.com/news/enso-launches-rwa-app-trading-500-tokenized-assets?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Here’s what happened in crypto today",
-        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

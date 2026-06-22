@@ -1,6 +1,6 @@
 {
   "coinId": "solana",
-  "generatedAt": "2026-06-22T15:00:08.587429Z",
+  "generatedAt": "2026-06-22T16:00:07.747015Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": 1.8851874751525433,
-    "confidence": 0.81
+    "changePercent24h": 1.3859888520110801,
+    "confidence": 0.752
   },
   "commentary": {
-    "en": "Solana's 24-hour direction is predicted to be down with a 48% confidence level. The RSI-14 is neutral at 47, and the Bollinger Band %B is at 0.34, indicating a mid-band position. The recent news and market context suggest a cautious outlook for Solana.",
-    "ja": "ソラナの24時間の予想方向は、48%の信頼度で下方向に予想される。RSI-14は47で中立的な位置を示し、ボリンジャーバンド％Bは0.34で中間位置にある。最近のニュースやマーケットコンテキストからソラナの慎重な展開が示唆される。",
+    "en": "Solana's 24-hour direction is predicted to be down with a 0.5% decline, based on current technical signals. The Fear & Greed Index remains at extreme fear, while the total crypto market cap has seen a slight increase. Solana's short-term trend is sideways, with a volume ratio at 1.2x average.",
+    "ja": "ソラナの24時間方向は、下落を予測しており、0.5%の減少を示唆しています。恐怖と欲求不満指数は極度の恐怖のままであり、総暗号資産市場キャップは微妙な増加を示しています。ソラナの短期トレンドは横方向に進んでおり、ボリューム比率は平均の1.2倍です。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.98%",
+        "value": "+0.61%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "79% bullish",
+        "value": "78% bullish",
         "url": "https://www.coingecko.com/en/coins/solana"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitcoin price taps $65.5K as Iran deal sees oil drop toward 16-week low",
+        "url": "https://cointelegraph.com/markets/bitcoin-price-taps-655k-as-iran-deal-sees-oil-drop-toward-16-week-low?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Enso launches RWA app and trading for over 500 tokenized assets",
         "url": "https://cointelegraph.com/news/enso-launches-rwa-app-trading-500-tokenized-assets?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Here’s what happened in crypto today",
-        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

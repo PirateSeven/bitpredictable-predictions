@@ -1,6 +1,6 @@
 {
   "coinId": "bitcoin",
-  "generatedAt": "2026-06-22T15:00:08.587429Z",
+  "generatedAt": "2026-06-22T16:00:07.747015Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": 3.2789924445040888,
-    "confidence": 0.9291
+    "changePercent24h": 2.418192731144578,
+    "confidence": 0.9062
   },
   "commentary": {
-    "en": "Bitcoin is expected to decline by 0.5% in the next 24 hours, with a confidence level of 66%. The recent news and market context suggest a cautious outlook, as the Fear & Greed Index remains in Extreme Fear territory. The short-term trend is sideways, with no clear indication of a strong upward or downward movement.",
-    "ja": "ビットコインは、次の24時間で0.5％下げる可能性があり、信頼度は66％です。最近のニュースや市場状況は、極度の恐怖の状態が続いていることを示唆しており、短期的な傾向は横方向に動いており、上向きや下向きの強い動きの兆候はありません。",
+    "en": "Bitcoin's predicted 24-hour direction is DOWN by 0.5%, with a confidence level of 66%. The recent price surge to $65.5K is likely to be short-lived, as the Fear & Greed Index remains in Extreme Fear territory. The sideways short-term trend and neutral RSI-14 reading suggest a potential correction.",
+    "ja": "ビットコインの24時間予想は下がり0.5%で、信頼度は66%です。 最近の価格上昇$65.5Kは短期的には終焉を迎える可能性があり、恐怖と欲求不満指数は極度の恐怖の領域にあります。 短期の傾向は水平線上で、RSI-14は中立的な値を示しているため、価格の調整が起こる可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.98%",
+        "value": "+0.61%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "73% bullish",
+        "value": "72% bullish",
         "url": "https://www.coingecko.com/en/coins/bitcoin"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitcoin price taps $65.5K as Iran deal sees oil drop toward 16-week low",
+        "url": "https://cointelegraph.com/markets/bitcoin-price-taps-655k-as-iran-deal-sees-oil-drop-toward-16-week-low?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Enso launches RWA app and trading for over 500 tokenized assets",
         "url": "https://cointelegraph.com/news/enso-launches-rwa-app-trading-500-tokenized-assets?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Here’s what happened in crypto today",
-        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

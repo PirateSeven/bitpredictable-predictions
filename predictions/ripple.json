@@ -1,6 +1,6 @@
 {
   "coinId": "ripple",
-  "generatedAt": "2026-06-22T15:00:08.587429Z",
+  "generatedAt": "2026-06-22T16:00:07.747015Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": 1.854969546821497,
-    "confidence": 0.8512
+    "changePercent24h": 1.6205837283156774,
+    "confidence": 0.8325
   },
   "commentary": {
-    "en": "XRP's 24-hour direction is predicted to be DOWN with a confidence of 74%. The Fear & Greed Index remains in Extreme Fear territory, while the Total crypto market cap saw a 0.98% increase. XRP's recent performance is closely tied to the overall market sentiment.",
-    "ja": "XRPの24時間の予測は下がり、信頼度は74％です。Fear & Greed Indexは極度の恐怖の状態にあり、総暗号資産市場キャップは0.98％増加しました。XRPの最近のパフォーマンスは、総市場の感性に大きく依存しています。",
+    "en": "XRP is predicted to decline by 1.0% in the next 24 hours with a confidence level of 74%. The recent news of a drop in oil prices due to the Iran deal may have a positive impact on the overall market, but XRP's technical signals indicate a sideways trend. The Fear & Greed Index remains in extreme fear territory.",
+    "ja": "XRP は次の 24 時間で 1.0% の下落が予測され、信頼度は 74% です。イランの合意による石油価格の低下は市場全体にプラスの影響を与える可能性がありますが、XRP の技術指標は横方向の傾向を示しています。恐怖と欲求不満指数は極度の恐怖の領域にあります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.98%",
+        "value": "+0.61%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "61% bullish",
+        "value": "63% bullish",
         "url": "https://www.coingecko.com/en/coins/ripple"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitcoin price taps $65.5K as Iran deal sees oil drop toward 16-week low",
+        "url": "https://cointelegraph.com/markets/bitcoin-price-taps-655k-as-iran-deal-sees-oil-drop-toward-16-week-low?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Enso launches RWA app and trading for over 500 tokenized assets",
         "url": "https://cointelegraph.com/news/enso-launches-rwa-app-trading-500-tokenized-assets?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Here’s what happened in crypto today",
-        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

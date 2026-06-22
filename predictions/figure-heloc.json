@@ -1,6 +1,6 @@
 {
   "coinId": "figure-heloc",
-  "generatedAt": "2026-06-22T15:00:08.587429Z",
+  "generatedAt": "2026-06-22T16:00:07.747015Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.6382183269427637,
+    "changePercent24h": -0.43378579003194606,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "Figure Heloc (FIGURE-HELOC) is predicted to remain flat with a 24h direction of -0.0% due to oversold conditions and low trading volume. The recent market context suggests a slight recovery in the total crypto market cap and a positive return in Bitcoin. However, the Fear & Greed Index remains in extreme fear territory.",
-    "ja": "Figure Heloc (FIGURE-HELOC) は24時間方向が-0.0%のままである可能性があり、オーバーサルド条件と低い取引量のためです。総暗号資産市場キャップとビットコインの24時間リターンが回復している一方、恐怖と欲求不満指数は極度の恐怖の状態です。",
+    "en": "Figure Heloc (FIGURE-HELOC) is predicted to remain flat with a 24h direction of -0.0% due to its oversold RSI-14 and low volume ratio. The recent news of a drop in oil prices may have a positive impact on the overall market, but its effect on FIGURE-HELOC is uncertain. The sideways short-term trend and low volume ratio suggest caution.",
+    "ja": "Figure Heloc (FIGURE-HELOC) は、RSI-14 がオーバーセール、ボリューム比率が低いことから、24 時間方向は -0.0% のままであると予想されます。石油価格の低下が市場全体に影響を与える可能性がありますが、FIGURE-HELOC に及ぼす影響は不明です。短期の傾向が横方向、ボリューム比率が低いことから、注意が必要です。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.98%",
+        "value": "+0.61%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "50% bullish",
         "url": "https://www.coingecko.com/en/coins/figure-heloc"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitcoin price taps $65.5K as Iran deal sees oil drop toward 16-week low",
+        "url": "https://cointelegraph.com/markets/bitcoin-price-taps-655k-as-iran-deal-sees-oil-drop-toward-16-week-low?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Enso launches RWA app and trading for over 500 tokenized assets",
         "url": "https://cointelegraph.com/news/enso-launches-rwa-app-trading-500-tokenized-assets?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Here’s what happened in crypto today",
-        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

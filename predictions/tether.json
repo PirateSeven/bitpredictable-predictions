@@ -1,6 +1,6 @@
 {
   "coinId": "tether",
-  "generatedAt": "2026-06-22T15:00:08.587429Z",
+  "generatedAt": "2026-06-22T16:00:07.747015Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 0.018483623688233253,
+    "changePercent24h": -0.0013753757342279474,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "Tether (TETHER) is expected to remain flat in the next 24 hours with a confidence level of 95%. The Fear & Greed Index indicates extreme fear in the market, but the recent news of Strategy adding $300M to USD Reserve and acquiring 520 BTC may have a positive impact on Tether's price. The neutral RSI-14 and mid-band Bollinger Band %B suggest that Tether is currently in a sideways trend.",
-    "ja": "Tether (TETHER) は、来る24時間に95％の確実性でフラットに推定されます。Fear & Greed Indexは市場が極度の恐怖にありますが、Strategyが$300MをUSD Reserveに追加し520BTCを取得したニュースがTetherの価格に良い影響を与える可能性があります。RSI-14は中立的で、Bollinger Band %Bは中間帯にあり、Tetherは現在横方向のトレンドにあります。",
+    "en": "Tether (TETHER) is expected to remain flat in the next 24 hours with a 95% confidence level, as the Fear & Greed Index remains in Extreme Fear and the total crypto market cap sees a moderate increase. The neutral RSI-14 reading and mid-band Bollinger Band %B suggest a stable market condition. With the recent news of Bitcoin's price increase and the launch of new trading platforms, Tether's price may be influenced by the overall market sentiment.",
+    "ja": "テザー（TETHER）は、来る24時間に95％の確率でフラットのままになる可能性があり、恐怖と欲求不満指数が極度の恐怖のままであり、総暗号資産市場キャップがやや増加していることからです。中立的なRSI-14とバンド中間のボリンジャー・バンド％Bは安定した市場状況を示しており、最近のニュースでビットコインの価格上昇や新しいトレーディングプラットフォームのリリースにより、テザーの価格は総合的な市場感情に影響を受ける可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.98%",
+        "value": "+0.61%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "67% bullish",
         "url": "https://www.coingecko.com/en/coins/tether"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitcoin price taps $65.5K as Iran deal sees oil drop toward 16-week low",
+        "url": "https://cointelegraph.com/markets/bitcoin-price-taps-655k-as-iran-deal-sees-oil-drop-toward-16-week-low?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Enso launches RWA app and trading for over 500 tokenized assets",
         "url": "https://cointelegraph.com/news/enso-launches-rwa-app-trading-500-tokenized-assets?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Here’s what happened in crypto today",
-        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

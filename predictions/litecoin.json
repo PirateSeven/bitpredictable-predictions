@@ -1,6 +1,6 @@
 {
   "coinId": "litecoin",
-  "generatedAt": "2026-06-22T15:00:08.587429Z",
+  "generatedAt": "2026-06-22T16:00:07.747015Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 2.2889232304255156,
-    "confidence": 0.9025
+    "changePercent24h": 1.9026214692133592,
+    "confidence": 0.885
   },
   "commentary": {
-    "en": "Litecoin's technical signals suggest a flat 24-hour direction with a slight decline of -0.3%, supported by neutral RSI-14 and mid-band Bollinger Band %B. The market context indicates extreme fear, but a slight increase in the total crypto market cap and positive returns for Bitcoin. Recent news highlights various developments in the crypto space, including social trading platform Fomo's funding and a strategy's acquisition of 520 BTC.",
-    "ja": "リテコインの技術指標は、24時間の方向性がフラットで-0.3%の下げ込みを示しており、RSI-14は中立的でボリンジャー・バンドの%Bは中間帯にある。市場状況は極度の恐怖を示しているが、総暗号資産市場キャップの slight増加とビットコインの正の収益率はある。最近のニュースは、ソーシャル・トレーディング・プラットフォームFomoの資金調達と520BTCの取得など、暗号資産の様々な開発を示している。",
+    "en": "The model predicts Litecoin will trade sideways over the next 24 hours with moderate confidence (56%). Price moved -0.19% in the past 24 hours with volume at 1.1× average. Community sentiment on CoinGecko is 75% bullish and the Fear & Greed Index reads \"Extreme Fear\" (20), diverging from the model's forecast, adding uncertainty.",
+    "ja": "モデルはLitecoinが今後24時間で横ばいで推移すると予測しています（信頼度: 中程度の 56%）。過去24時間のリターンは-0.19%、出来高は平均の1.1倍です。CoinGeckoコミュニティでは75%が強気を示し、Fear & Greed指数は「Extreme Fear」（20）です。予測方向と乖離があり、不確実性が高まっています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.98%",
+        "value": "+0.61%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "75% bullish",
         "url": "https://www.coingecko.com/en/coins/litecoin"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitcoin price taps $65.5K as Iran deal sees oil drop toward 16-week low",
+        "url": "https://cointelegraph.com/markets/bitcoin-price-taps-655k-as-iran-deal-sees-oil-drop-toward-16-week-low?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Enso launches RWA app and trading for over 500 tokenized assets",
         "url": "https://cointelegraph.com/news/enso-launches-rwa-app-trading-500-tokenized-assets?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Here’s what happened in crypto today",
-        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

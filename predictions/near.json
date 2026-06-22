@@ -1,6 +1,6 @@
 {
   "coinId": "near",
-  "generatedAt": "2026-06-22T15:00:08.587429Z",
+  "generatedAt": "2026-06-22T16:00:07.747015Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": 6.3758666553850265,
-    "confidence": 0.8909
+    "changePercent24h": 4.695636800446664,
+    "confidence": 0.8538
   },
   "commentary": {
-    "en": "NEAR Protocol (NEAR) is expected to decline by -3.2% in the next 24 hours, with a confidence level of 79%. This prediction is based on the current technical signals and market context, including a neutral RSI-14 reading and a sideways short-term trend. The Fear & Greed Index remains in Extreme Fear territory, which may contribute to the bearish outlook.",
-    "ja": "NEAR Protocol (NEAR) は、来る24時間に-3.2%下落する可能性があり、信頼度は79%です。 この予測は、現在の技術指標と市場状況に基づいており、RSI-14が中立的な値を示し、短期的な傾向が横方向に動いていることなどからです。 恐怖と欲求不満指数は今も極度の恐怖の状態にあり、これが下落の原因となる可能性があります。",
+    "en": "NEAR Protocol (NEAR) is predicted to decline by 3.2% in the next 24 hours with a confidence level of 79%. The current market sentiment is extreme fear, as indicated by the Fear & Greed Index of 20. The recent news about the Iran deal and oil prices may have a mixed impact on the crypto market, but NEAR Protocol's price is expected to follow the overall trend of the market.",
+    "ja": "NEAR Protocol (NEAR) は、次の24時間に3.2%の下落が予測され、信頼度は79%です。Fear & Greed Indexは20で、極度の恐怖の状態です。イランの取引と石油価格に関するニュースは、暗号市場に混乱をもたらすかもしれませんが、NEAR Protocolの価格は市場全体の傾向に従う予想です。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.98%",
+        "value": "+0.61%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "93% bullish",
         "url": "https://www.coingecko.com/en/coins/near"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitcoin price taps $65.5K as Iran deal sees oil drop toward 16-week low",
+        "url": "https://cointelegraph.com/markets/bitcoin-price-taps-655k-as-iran-deal-sees-oil-drop-toward-16-week-low?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Enso launches RWA app and trading for over 500 tokenized assets",
         "url": "https://cointelegraph.com/news/enso-launches-rwa-app-trading-500-tokenized-assets?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Here’s what happened in crypto today",
-        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }
