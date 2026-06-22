@@ -1,6 +1,6 @@
 {
   "agentVersion": "crypto-ace-1.0.0",
-  "updatedAt": "2026-06-22T19:44:24.521478+00:00",
+  "updatedAt": "2026-06-22T19:57:51.563959+00:00",
   "exchange": "Binance Testnet",
   "currency": "BNB",
   "initialCapital": 1.0,
@@ -33,15 +33,26 @@
     "count": 4,
     "type": "loss"
   },
-  "currentPosition": {
-    "coin": "sui",
-    "symbol": "SUI",
-    "direction": "long",
-    "entryPrice": 0.001217,
-    "entryTime": "2026-06-22T14:48:41.087896+00:00",
-    "sizeBtc": 0.119966,
-    "unrealizedPnlPct": 0.0
-  },
+  "currentPositions": [
+    {
+      "coin": "sui",
+      "symbol": "SUI",
+      "direction": "long",
+      "entryPrice": 0.001217,
+      "entryTime": "2026-06-22T14:48:41.087896+00:00",
+      "sizeBtc": 0.119966,
+      "unrealizedPnlPct": 0.0
+    },
+    {
+      "coin": "solana",
+      "symbol": "SOL",
+      "direction": "long",
+      "entryPrice": 0.1231,
+      "entryTime": "2026-06-22T14:48:42.031475+00:00",
+      "sizeBtc": 0.119966,
+      "unrealizedPnlPct": 0.0
+    }
+  ],
   "equityCurve": [
     {
       "time": "2026-06-17T19:27:34.575587+00:00",
