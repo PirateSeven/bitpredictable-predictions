@@ -1,6 +1,6 @@
 {
   "coinId": "bitcoin-cash",
-  "generatedAt": "2026-06-22T01:00:08.365550Z",
+  "generatedAt": "2026-06-22T02:00:07.660524Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -2.812648739490571,
-    "confidence": 0.9265
+    "changePercent24h": -2.620221208107408,
+    "confidence": 0.9216
   },
   "commentary": {
-    "en": "The model predicts Bitcoin Cash will trade sideways over the next 24 hours with moderate confidence (69%). Price is near lower Bollinger Band support, where rebounds are historically more frequent. Community sentiment on CoinGecko is 71% bullish and the Fear & Greed Index reads \"Extreme Fear\" (20), diverging from the model's forecast, adding uncertainty.",
-    "ja": "モデルはBitcoin Cashが今後24時間で横ばいで推移すると予測しています（信頼度: 中程度の 69%）。価格がボリンジャーバンド下限付近で、サポートからの反発が過去パターンより多く観察されます。CoinGeckoコミュニティでは71%が強気を示し、Fear & Greed指数は「Extreme Fear」（20）です。予測方向と乖離があり、不確実性が高まっています。",
+    "en": "Bitcoin Cash is expected to experience a flat 24-hour period with a potential decline of up to 0.5%, driven by the current market sentiment of extreme fear. The recent news of a potential US stock market crash and a Japanese corporate pension fund's 1% crypto allocation may influence investor decisions. However, the overall market context remains uncertain.",
+    "ja": "ビットコインキャッシュは、24時間の市場動向が穏やかで、最大0.5%の下落が予想される。極度の恐怖感が広がっている現在の市場情勢に加え、米国株式市場の暴落や日本の企業年金の1%の暗号資産割合の決定が投資家の決定に影響を与える可能性がある。ただし、市場全体の情勢は不確実性を残している。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-0.53%",
+        "value": "+0.39%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
