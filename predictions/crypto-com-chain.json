@@ -1,6 +1,6 @@
 {
   "coinId": "crypto-com-chain",
-  "generatedAt": "2026-06-22T12:00:08.533786Z",
+  "generatedAt": "2026-06-22T13:00:07.807378Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 0.2820856910813825,
-    "confidence": 0.6624
+    "changePercent24h": 0.7196010770497157,
+    "confidence": 0.8147
   },
   "commentary": {
-    "en": "Cronos's 24-hour direction is predicted to be flat with a slight decline of -0.2% due to its neutral RSI-14 reading and upper Bollinger Band. The Fear & Greed Index remains in extreme fear territory, and the total crypto market cap has seen a slight increase. The recent news on stablecoin rules and US dollar strength may have a limited impact on Cronos's price.",
-    "ja": "Cronos の 24 時間の方向は、ニュートラル RSI-14 の読みと上のボリンジャー バンドの影響で、-0.2% の小幅な下落が予想される。Fear & Greed Index は極度の恐怖の状態にあり、総暗号資産市場キャップは小幅に増加している。最近のニュースでは、安定コイン規則と米国ドル強化の影響は Cronos の価格に限られた影響を与える可能性がある。",
+    "en": "Cronos's 24-hour direction is predicted to be flat with a 0.2% decrease in confidence of 57%. The RSI-14 is neutral at 59, while the Bollinger Band %B is at 0.90, indicating a position near the upper band. The recent news on stablecoin rules and US dollar strength may have a mixed impact on the market.",
+    "ja": "Cronos の 24 時間の方向は、 0.2% の減少を予測し、信頼度は 57% です。 RSI-14 は中立的な 59 です。ボリンジャー バンド %B は 0.90 にあり、上限近くに位置しています。 安定コイン規則や米ドル強化に関する最近のニュースは市場に混乱をもたらす可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.86%",
+        "value": "+1.30%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "83% bullish",
+        "value": "88% bullish",
         "url": "https://www.coingecko.com/en/coins/crypto-com-chain"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "EUR trading accounts for 1% of Binance spot volume, CryptoQuant says",
+        "url": "https://cointelegraph.com/news/eur-trades-binance-spot-volume-cryptoquant?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Bank of England eases stablecoin rules, introduces 40B pound issuance cap",
         "url": "https://cointelegraph.com/news/bank-of-england-stablecoin-rules-clears-path-for-2027-launch?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Q2 2026 emerges as most-hacked quarter on record with 83 incidents",
-        "url": "https://cointelegraph.com/news/q2-2026-most-hacked-quarter-record-83-incidents?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

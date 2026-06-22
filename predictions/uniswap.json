@@ -1,6 +1,6 @@
 {
   "coinId": "uniswap",
-  "generatedAt": "2026-06-22T12:00:08.533786Z",
+  "generatedAt": "2026-06-22T13:00:07.807378Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -1.176634857137385,
-    "confidence": 0.6896
+    "changePercent24h": -0.8246137250155228,
+    "confidence": 0.5879
   },
   "commentary": {
-    "en": "Uniswap's predicted 24-hour direction is DOWN by 2.1% with an 81% confidence level, despite the recent 0.89% increase. The Fear & Greed Index remains at 20, indicating extreme fear in the market. The sideways short-term trend and neutral RSI-14 suggest a lack of clear direction.",
-    "ja": "ユニスワップの予想24時間の方向は、2.1%の下落で81%の信頼性があります。最近の0.89%の増加にもかかわらず、Fear & Greed Indexは20のままです。短期的な傾向は横方向で、RSI-14は中立的な値を示しています。",
+    "en": "Uniswap is expected to decline by 2.1% in the next 24 hours, driven by the overall bearish sentiment in the market. The Fear & Greed Index remains in extreme fear territory, while the recent news on stablecoin rules and US dollar strength may have a mixed impact on the crypto market. The neutral RSI-14 reading suggests a sideways trend in the short term.",
+    "ja": "ユニスワップは次の24時間に2.1%下落する可能性があり、市場全体の悲観的な感情に推されています。恐怖と欲求不満指数は極度の恐怖の領域にあり、安定コイン規制と米ドル強化に関する最近のニュースは暗い影響を与えるかもしれない。RSI-14は中立的な値を示しており、短期的な傾向は横方向に推移している。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.86%",
+        "value": "+1.30%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "75% bullish",
         "url": "https://www.coingecko.com/en/coins/uniswap"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "EUR trading accounts for 1% of Binance spot volume, CryptoQuant says",
+        "url": "https://cointelegraph.com/news/eur-trades-binance-spot-volume-cryptoquant?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Bank of England eases stablecoin rules, introduces 40B pound issuance cap",
         "url": "https://cointelegraph.com/news/bank-of-england-stablecoin-rules-clears-path-for-2027-launch?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Q2 2026 emerges as most-hacked quarter on record with 83 incidents",
-        "url": "https://cointelegraph.com/news/q2-2026-most-hacked-quarter-record-83-incidents?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

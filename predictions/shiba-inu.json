@@ -1,6 +1,6 @@
 {
   "coinId": "shiba-inu",
-  "generatedAt": "2026-06-22T12:00:08.533786Z",
+  "generatedAt": "2026-06-22T13:00:07.807378Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": 2.5321575439612647,
-    "confidence": 0.896
+    "changePercent24h": 2.6120539042156454,
+    "confidence": 0.8989
   },
   "commentary": {
-    "en": "Shiba Inu's predicted 24-hour direction is DOWN, with a 0.9% decline expected at a 75% confidence level. The recent news of the Bank of England easing stablecoin rules and US dollar strength may have a negative impact on SHIB's price. The Fear & Greed Index remains in Extreme Fear territory, suggesting a cautious outlook.",
-    "ja": "シャイバ・インウの24時間予想は下落、0.9％の下落が75％の確信度で予想される。銀行・イングランドが安定コイン規制を緩和し、アメリカドルが強まるニュースがSHIBの価格に否定的な影響を与える可能性がある。恐怖と欲求不満指数は極度の恐怖の領域にあり、慎重な姿勢が示唆される。",
+    "en": "Shiba Inu's predicted 24h direction is DOWN with a 75% confidence level, driven by its current position near the upper Bollinger Band. The Fear & Greed Index remains in Extreme Fear territory, suggesting a cautious market sentiment. However, the recent news on stablecoin rules and US dollar strength may impact the overall market.",
+    "ja": "シャイバ・インウの24時間予想は下落で、75％の信頼度で推測されています。ボリンジャー・バンドの上限に近い位置にあります。恐怖と欲求不満指数は極度の恐怖の領域にあり、慎重な市場感覚を示しています。ただし、安定コイン規制や米ドル強化に関する最近のニュースは、市場全体に影響を与える可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.86%",
+        "value": "+1.30%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "65% bullish",
+        "value": "63% bullish",
         "url": "https://www.coingecko.com/en/coins/shiba-inu"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "EUR trading accounts for 1% of Binance spot volume, CryptoQuant says",
+        "url": "https://cointelegraph.com/news/eur-trades-binance-spot-volume-cryptoquant?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Bank of England eases stablecoin rules, introduces 40B pound issuance cap",
         "url": "https://cointelegraph.com/news/bank-of-england-stablecoin-rules-clears-path-for-2027-launch?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Q2 2026 emerges as most-hacked quarter on record with 83 incidents",
-        "url": "https://cointelegraph.com/news/q2-2026-most-hacked-quarter-record-83-incidents?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

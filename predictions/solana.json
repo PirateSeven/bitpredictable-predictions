@@ -1,6 +1,6 @@
 {
   "coinId": "solana",
-  "generatedAt": "2026-06-22T12:00:08.533786Z",
+  "generatedAt": "2026-06-22T13:00:07.807378Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.04143860770023028,
-    "confidence": 0.1
+    "changePercent24h": 1.330299428079775,
+    "confidence": 0.736
   },
   "commentary": {
-    "en": "Solana's 24-hour direction is predicted to be flat with a -0.4% change, indicating a neutral sentiment. The recent news on stablecoin rules and US dollar strength may impact the market, but the overall sentiment remains cautious. The Fear & Greed Index at 20 suggests extreme fear, which could lead to a potential relief rally.",
-    "ja": "ソラナの24時間の予測は、-0.4%の変化でフラットであることを示しています。安定コインの規制やドル強化などのニュースが市場に影響を与える可能性がありますが、全体的な感覚は慎重です。恐怖と欲求不満指数が20のため、極度の恐怖が続いているため、リーフライルを期待する可能性があります。",
+    "en": "Solana's 24-hour direction is predicted to be flat with a -0.4% change, indicating a neutral sentiment. The Fear & Greed Index remains in extreme fear at 20, while the CoinGecko community is 78% bullish. The recent news on stablecoin rules and US dollar strength may have a mixed impact on Solana's price.",
+    "ja": "ソラナの24時間予想は、-0.4%の変化でフラットであることを示しています。恐怖と欲求不満指数は20で、コインゲッココミュニティは78％がバブルです。安定コイン規制と米ドル強化に関する最近のニュースはソラナ価格に混乱をもたらす可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.86%",
+        "value": "+1.30%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "79% bullish",
+        "value": "78% bullish",
         "url": "https://www.coingecko.com/en/coins/solana"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "EUR trading accounts for 1% of Binance spot volume, CryptoQuant says",
+        "url": "https://cointelegraph.com/news/eur-trades-binance-spot-volume-cryptoquant?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Bank of England eases stablecoin rules, introduces 40B pound issuance cap",
         "url": "https://cointelegraph.com/news/bank-of-england-stablecoin-rules-clears-path-for-2027-launch?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Q2 2026 emerges as most-hacked quarter on record with 83 incidents",
-        "url": "https://cointelegraph.com/news/q2-2026-most-hacked-quarter-record-83-incidents?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

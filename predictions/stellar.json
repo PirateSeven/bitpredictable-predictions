@@ -1,6 +1,6 @@
 {
   "coinId": "stellar",
-  "generatedAt": "2026-06-22T12:00:08.533786Z",
+  "generatedAt": "2026-06-22T13:00:07.807378Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -1.40898824956334,
-    "confidence": 0.7435
+    "changePercent24h": -0.24233978844532444,
+    "confidence": 0.1356
   },
   "commentary": {
-    "en": "Stellar (STELLAR) is predicted to decline by -2.7% in the next 24 hours with an 85% confidence level. The recent news on stablecoin rules and US dollar strength may impact the market sentiment. The Fear & Greed Index remains at Extreme Fear, indicating a potential for further price drops.",
-    "ja": "ステラ (STELLAR) は、次の 24 時間で -2.7% の下落が予測され、85% の信頼度が付与されています。安定コイン規制や米ドル強化に関する最近のニュースは市場情勢に影響を与える可能性があります。恐怖と欲求不満指数は今も極度の恐怖のまま、価格のさらなる下落につながる可能性があります。",
+    "en": "Stellar's 24-hour direction is predicted to be DOWN by 2.7% with an 85% confidence level. The recent news on stablecoin rules and US dollar strength may impact the market sentiment. However, the Fear & Greed Index remains in Extreme Fear territory.",
+    "ja": "ステラルの24時間の予測は下落(-2.7%)で85%の確率です。安定コイン規制や米ドル強化に関するニュースは市場感情に影響を与える可能性がありますが、恐怖と欲求不満指数は極度の恐怖の状態にあります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.86%",
+        "value": "+1.30%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "50% bullish",
+        "value": "52% bullish",
         "url": "https://www.coingecko.com/en/coins/stellar"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "EUR trading accounts for 1% of Binance spot volume, CryptoQuant says",
+        "url": "https://cointelegraph.com/news/eur-trades-binance-spot-volume-cryptoquant?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Bank of England eases stablecoin rules, introduces 40B pound issuance cap",
         "url": "https://cointelegraph.com/news/bank-of-england-stablecoin-rules-clears-path-for-2027-launch?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Q2 2026 emerges as most-hacked quarter on record with 83 incidents",
-        "url": "https://cointelegraph.com/news/q2-2026-most-hacked-quarter-record-83-incidents?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

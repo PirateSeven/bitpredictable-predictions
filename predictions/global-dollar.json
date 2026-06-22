@@ -1,6 +1,6 @@
 {
   "coinId": "global-dollar",
-  "generatedAt": "2026-06-22T12:00:08.533786Z",
+  "generatedAt": "2026-06-22T13:00:07.807378Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -970,8 +970,8 @@
     "confidence": 0.95
   },
   "commentary": {
-    "en": "The Global Dollar (GLOBAL-DOLLAR) is expected to remain flat in the next 24 hours with a confidence level of 95%. The recent news of the Bank of England easing stablecoin rules may have a neutral impact on the Global Dollar. The Fear & Greed Index at 20 indicates extreme fear in the market.",
-    "ja": "グローバル ドル (GLOBAL-DOLLAR) は、次の 24 時間で 95% の確率でフラットになる予想です。銀行・英国の安定コイン規制緩和ニュースはグローバル ドルに中立的な影響を与える可能性があります。恐怖と欲求不満指数は 20 で、市場は極度の恐怖状態です。",
+    "en": "The Global Dollar (GLOBAL-DOLLAR) is expected to remain flat in the next 24 hours with a confidence level of 95%. The current market sentiment is characterized by extreme fear, as indicated by the Fear & Greed Index of 20. The recent news of the Bank of England easing stablecoin rules may have a limited impact on the GLOBAL-DOLLAR.",
+    "ja": "グローバル・ドル（GLOBAL-DOLLAR）は、次の24時間で95％の確実性でフラットになることが予想されます。Fear & Greed Indexは20で、極度の恐怖が市場の感情を特徴づけています。Bank of Englandがスターブルコイン規制を緩和したニュースは、GLOBAL-DOLLARに限りなく影響を与える可能性はあります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,8 +1000,13 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.86%",
+        "value": "+1.30%",
         "url": "https://www.coingecko.com/en/global-charts"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "EUR trading accounts for 1% of Binance spot volume, CryptoQuant says",
+        "url": "https://cointelegraph.com/news/eur-trades-binance-spot-volume-cryptoquant?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1012,11 +1017,6 @@
         "label": "CoinTelegraph",
         "value": "Bank of England eases stablecoin rules, introduces 40B pound issuance cap",
         "url": "https://cointelegraph.com/news/bank-of-england-stablecoin-rules-clears-path-for-2027-launch?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Q2 2026 emerges as most-hacked quarter on record with 83 incidents",
-        "url": "https://cointelegraph.com/news/q2-2026-most-hacked-quarter-record-83-incidents?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

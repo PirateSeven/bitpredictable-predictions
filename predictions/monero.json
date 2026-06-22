@@ -1,6 +1,6 @@
 {
   "coinId": "monero",
-  "generatedAt": "2026-06-22T12:00:08.533786Z",
+  "generatedAt": "2026-06-22T13:00:07.807378Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": 4.0051271855362485,
-    "confidence": 0.8866
+    "changePercent24h": 3.0091103432743624,
+    "confidence": 0.8519
   },
   "commentary": {
-    "en": "Monero is expected to drop by 1.7% in the next 24 hours, despite a short-term uptrend and neutral RSI-14 reading. The recent news on stablecoin rules and US dollar strength may have a negative impact on the market. However, the Fear & Greed Index remains in extreme fear territory, which could lead to a potential relief rally.",
-    "ja": "モネロは次の24時間で1.7%下落する可能性があり、短期的な上昇と中立的なRSI-14値にもかかわらず。安定コイン規制や米ドル強化に関する最近のニュースは市場に否定的な影響を与える可能性があります。ただし、恐怖と欲求不満指数は極度の恐怖の領域にあり、潜在的な救済反発につながる可能性があります。",
+    "en": "Monero is expected to decline by 1.7% in the next 24 hours, with a confidence level of 75%. The recent news about the Bank of England easing stablecoin rules may have a limited impact on Monero's price. The overall market sentiment remains in extreme fear, according to the Fear & Greed Index.",
+    "ja": "モネロは来る24時間で1.7%下落する可能性があり、信頼度は75%です。銀行イングランドがスタビルコイン規制を緩和したニュースはモネロの価格に限りなく影響を与える可能性があります。総合的な市場感覚は、恐怖と欲求不満指数によれば、極度の恐怖の状態にあります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.86%",
+        "value": "+1.30%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "91% bullish",
+        "value": "92% bullish",
         "url": "https://www.coingecko.com/en/coins/monero"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "EUR trading accounts for 1% of Binance spot volume, CryptoQuant says",
+        "url": "https://cointelegraph.com/news/eur-trades-binance-spot-volume-cryptoquant?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Bank of England eases stablecoin rules, introduces 40B pound issuance cap",
         "url": "https://cointelegraph.com/news/bank-of-england-stablecoin-rules-clears-path-for-2027-launch?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Q2 2026 emerges as most-hacked quarter on record with 83 incidents",
-        "url": "https://cointelegraph.com/news/q2-2026-most-hacked-quarter-record-83-incidents?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

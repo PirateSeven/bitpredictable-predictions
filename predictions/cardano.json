@@ -1,6 +1,6 @@
 {
   "coinId": "cardano",
-  "generatedAt": "2026-06-22T12:00:08.533786Z",
+  "generatedAt": "2026-06-22T13:00:07.807378Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": 0.25239586019162785,
-    "confidence": 0.4469
+    "changePercent24h": 2.0733243853965577,
+    "confidence": 0.8804
   },
   "commentary": {
-    "en": "Cardano's predicted 24-hour direction is DOWN with a 74% confidence level. The current market sentiment is Extreme Fear, as indicated by the Fear & Greed Index. The recent news about US dollar strength and stablecoin rules may impact Cardano's price.",
-    "ja": "カードアノの24時間予想は下落で、信頼度74％。現在の市場感情は恐怖の極まり、Fear & Greed Indexによって示されています。米ドル強化とスタビルコイン規制に関する最近のニュースはカードアノの価格に影響を与える可能性があります。",
+    "en": "Cardano's predicted 24h direction is DOWN with a confidence of 74%, driven by low volume and a sideways short-term trend. The Fear & Greed Index remains in Extreme Fear territory, while the total crypto market cap shows a slight increase. Recent news on stablecoin rules and US dollar strength may impact the market.",
+    "ja": "カードアノの予想24時間方向は下落で、信頼度74％。低いボリュームと短期のトレンドが横方向に動いているため。恐怖と欲求不満指数は極度の恐怖の状態にあり、総暗号資産市場キャップはわずかに増加している。安定コイン規制と米ドル強化に関するニュースが市場に影響を与える可能性がある。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.86%",
+        "value": "+1.30%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "82% bullish",
+        "value": "84% bullish",
         "url": "https://www.coingecko.com/en/coins/cardano"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "EUR trading accounts for 1% of Binance spot volume, CryptoQuant says",
+        "url": "https://cointelegraph.com/news/eur-trades-binance-spot-volume-cryptoquant?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Bank of England eases stablecoin rules, introduces 40B pound issuance cap",
         "url": "https://cointelegraph.com/news/bank-of-england-stablecoin-rules-clears-path-for-2027-launch?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Q2 2026 emerges as most-hacked quarter on record with 83 incidents",
-        "url": "https://cointelegraph.com/news/q2-2026-most-hacked-quarter-record-83-incidents?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

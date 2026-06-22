@@ -1,6 +1,6 @@
 {
   "coinId": "pax-gold",
-  "generatedAt": "2026-06-22T12:00:08.533786Z",
+  "generatedAt": "2026-06-22T13:00:07.807378Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 1.2951694024020537,
+    "changePercent24h": 1.7009292345566143,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "PAX Gold (PAX-GOLD) is expected to remain flat in the next 24 hours with a confidence level of 84%. The recent news of the Bank of England easing stablecoin rules may have a positive impact on the gold-backed stablecoin. However, the overall market context remains cautious due to the extreme fear sentiment and the US dollar strength.",
-    "ja": "PAX Gold (PAX-GOLD) は、次の24時間にflatで推定される。Bank of Englandがstablecoin規制を緩和したニュースは、金-backed stablecoinにプラスの影響を与える可能性がある。ただし、極度の恐怖感と米ドル強化の影響により、総市場状況は慎重なものとなる。",
+    "en": "PAX Gold (PAX-GOLD) is expected to remain flat with a 0.0% 24-hour direction, as indicated by technical signals. The recent news about the Bank of England easing stablecoin rules may have a positive impact on the market, but the overall sentiment remains in extreme fear. The short-term trend remains sideways, with the RSI-14 at a neutral level of 64.",
+    "ja": "PAX Gold (PAX-GOLD) は、技術的信号から24時間の方向性が0.0%のままであると予想されます。Bank of Englandがスタビルコイン規制を緩和したニュースが市場に影響を与える可能性がありますが、総合的な感情は極度の恐怖のままです。短期的なトレンドは横方向に進み、RSI-14は中立的な64のレベルにあります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,8 +1000,13 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.86%",
+        "value": "+1.30%",
         "url": "https://www.coingecko.com/en/global-charts"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "EUR trading accounts for 1% of Binance spot volume, CryptoQuant says",
+        "url": "https://cointelegraph.com/news/eur-trades-binance-spot-volume-cryptoquant?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1012,11 +1017,6 @@
         "label": "CoinTelegraph",
         "value": "Bank of England eases stablecoin rules, introduces 40B pound issuance cap",
         "url": "https://cointelegraph.com/news/bank-of-england-stablecoin-rules-clears-path-for-2027-launch?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Q2 2026 emerges as most-hacked quarter on record with 83 incidents",
-        "url": "https://cointelegraph.com/news/q2-2026-most-hacked-quarter-record-83-incidents?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

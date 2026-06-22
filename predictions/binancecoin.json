@@ -1,6 +1,6 @@
 {
   "coinId": "binancecoin",
-  "generatedAt": "2026-06-22T12:00:08.533786Z",
+  "generatedAt": "2026-06-22T13:00:07.807378Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 1.8403562668931976,
-    "confidence": 0.9082
+    "changePercent24h": 2.3837717004652146,
+    "confidence": 0.9271
   },
   "commentary": {
-    "en": "BNB's 24h direction is predicted to be flat with a 0.2% decline, based on a 59% confidence level. The recent news of the Bank of England easing stablecoin rules and the US dollar strength may impact the overall market sentiment, but its direct effect on BNB is uncertain. The coin's short-term trend remains sideways.",
-    "ja": "ビナンスコインの24時間予測は、0.2%の下落に傾き、59%の信頼性を持っています。Bank of Englandがスターブルコインの規制を緩和し、アメリカドルが強まるニュースは、市場全体の感覚に影響を与えるかもしれませんが、ビナンスコインに直接的な影響は不明です。コインの短期トレンドは、横方向に傾いています。",
+    "en": "BNB's 24-hour direction is predicted to be flat with a -0.2% change, indicating a neutral sentiment. The recent news of the Bank of England easing stablecoin rules may have a positive impact on the overall crypto market, but BNB's price movement is expected to remain sideways. The Fear & Greed Index is at 20, indicating extreme fear, which may also contribute to BNB's neutral price movement.",
+    "ja": "ビナンスコインの24時間の動向は、-0.2％の変化が予想され、中立的な感情を示しています。銀行・英国の安定コイン規制緩和のニュースは、全体的な暗号化市場に良い影響を与える可能性がありますが、ビナンスコインの価格変動は横方向に予想されます。恐怖と欲求不満指数は20、極度の恐怖を示しており、これもビナンスコインの価格変動に中立的な影響を与える可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.86%",
+        "value": "+1.30%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "50% bullish",
+        "value": "44% bullish",
         "url": "https://www.coingecko.com/en/coins/binancecoin"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "EUR trading accounts for 1% of Binance spot volume, CryptoQuant says",
+        "url": "https://cointelegraph.com/news/eur-trades-binance-spot-volume-cryptoquant?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Bank of England eases stablecoin rules, introduces 40B pound issuance cap",
         "url": "https://cointelegraph.com/news/bank-of-england-stablecoin-rules-clears-path-for-2027-launch?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Q2 2026 emerges as most-hacked quarter on record with 83 incidents",
-        "url": "https://cointelegraph.com/news/q2-2026-most-hacked-quarter-record-83-incidents?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

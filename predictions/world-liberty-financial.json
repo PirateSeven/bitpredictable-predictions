@@ -1,6 +1,6 @@
 {
   "coinId": "world-liberty-financial",
-  "generatedAt": "2026-06-22T12:00:08.533786Z",
+  "generatedAt": "2026-06-22T13:00:07.807378Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -1.3486255005400145,
-    "confidence": 0.8104
+    "changePercent24h": -1.0560647777704688,
+    "confidence": 0.7679
   },
   "commentary": {
-    "en": "World Liberty Financial's 24-hour direction is predicted to be DOWN by 0.8% with a confidence level of 72%. The recent news about the US dollar strength and stablecoin rules may have a negative impact on the market. The Fear & Greed Index is at 20, indicating extreme fear.",
-    "ja": "ワールド・リバティ・フィナンシャルは24時間の予想方向が下落0.8%、信頼度72%である。米ドル強化とスタビルコインルールのニュースがマーケットに否定的な影響を与える可能性がある。恐怖と欲求不満指数は20、極度の恐怖である。",
+    "en": "The model predicts World Liberty Financial will decline ~0.8% over the next 24 hours with high confidence (72%). Price moved +1.86% in the past 24 hours with volume at 1.2× average. Community sentiment on CoinGecko is 0% bullish and the Fear & Greed Index reads \"Extreme Fear\" (20), aligning with the model's forecast.",
+    "ja": "モデルはWorld Liberty Financialが今後24時間で約0.8%下落すると予測しています（信頼度: 高い 72%）。過去24時間のリターンは+1.86%、出来高は平均の1.2倍です。CoinGeckoコミュニティでは0%が強気を示し、Fear & Greed指数は「Extreme Fear」（20）です。予測と方向性が一致しています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.86%",
+        "value": "+1.30%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "0% bullish",
         "url": "https://www.coingecko.com/en/coins/world-liberty-financial"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "EUR trading accounts for 1% of Binance spot volume, CryptoQuant says",
+        "url": "https://cointelegraph.com/news/eur-trades-binance-spot-volume-cryptoquant?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Bank of England eases stablecoin rules, introduces 40B pound issuance cap",
         "url": "https://cointelegraph.com/news/bank-of-england-stablecoin-rules-clears-path-for-2027-launch?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Q2 2026 emerges as most-hacked quarter on record with 83 incidents",
-        "url": "https://cointelegraph.com/news/q2-2026-most-hacked-quarter-record-83-incidents?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

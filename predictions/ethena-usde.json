@@ -1,6 +1,6 @@
 {
   "coinId": "ethena-usde",
-  "generatedAt": "2026-06-22T12:00:08.533786Z",
+  "generatedAt": "2026-06-22T13:00:07.807378Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.013745584519012616,
+    "changePercent24h": -0.004700012083135516,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "Ethena USDe (ETHENA-USDE) is predicted to remain flat in the next 24 hours with a 95% confidence level. The current market context, including the Fear & Greed Index and total crypto market cap, suggests a cautious outlook. The recent news about stablecoin rules and US dollar strength may impact the market, but their direct impact on ETHENA-USDE is unclear.",
-    "ja": "Ethena USDe (ETHENA-USDE) は、来る 24 時間で 95% の確率でフラットになる予想です。Fear & Greed Index と総暗号資産市場キャップなどの現在の市場状況は、慎重な姿勢を示しています。安定コイン規制や米ドル強化などの最近のニュースは、市場に影響を与えるかもしれませんが、Ethena USDe (ETHENA-USDE) への直接的な影響は不明です。",
+    "en": "Ethena USDe (ETHENA-USDE) is expected to remain flat in the next 24 hours with a 0.0% return, based on technical signals. The Fear & Greed Index is at Extreme Fear, while the CoinGecko community remains bullish. Recent news on stablecoin rules and US dollar strength may impact the crypto market.",
+    "ja": "ETHENA-USDEは、次の24時間に0.0%のリターンでフラットに推定される。恐怖と欲求不満指数は極度の恐怖にあり、CoinGeckoコミュニティはbullishである。安定コイン規制や米ドル強化に関する最近のニュースは、暗号市場に影響を与える可能性がある。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.86%",
+        "value": "+1.30%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "100% bullish",
         "url": "https://www.coingecko.com/en/coins/ethena-usde"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "EUR trading accounts for 1% of Binance spot volume, CryptoQuant says",
+        "url": "https://cointelegraph.com/news/eur-trades-binance-spot-volume-cryptoquant?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Bank of England eases stablecoin rules, introduces 40B pound issuance cap",
         "url": "https://cointelegraph.com/news/bank-of-england-stablecoin-rules-clears-path-for-2027-launch?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Q2 2026 emerges as most-hacked quarter on record with 83 incidents",
-        "url": "https://cointelegraph.com/news/q2-2026-most-hacked-quarter-record-83-incidents?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

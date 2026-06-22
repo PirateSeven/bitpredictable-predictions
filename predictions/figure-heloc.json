@@ -1,6 +1,6 @@
 {
   "coinId": "figure-heloc",
-  "generatedAt": "2026-06-22T12:00:08.533786Z",
+  "generatedAt": "2026-06-22T13:00:07.807378Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.02442164597317551,
+    "changePercent24h": 0.2312563079102596,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "Figure Heloc's 24-hour direction is predicted to be flat with a -0.1% change, indicating a potential consolidation phase. The asset's RSI-14 reading of 78 suggests overbought conditions, while the Bollinger Band %B at 0.59 indicates mid-band positioning. The low trading volume and sideways short-term trend suggest a lack of momentum.",
-    "ja": "Figure Heloc の 24 時間方向は、-0.1% の変化で予測されており、潜在的な収縮期を示唆しています。 RSI-14 の読み値は 78 で、オーバーボール状態を示しており、ボリンジャー バンド %B は 0.59 で中間位置を示しています。 低い取引量と短期的な傾向は、低い動きを示しています。",
+    "en": "Figure Heloc's price is expected to remain flat with a slight decline of 0.1% in the next 24 hours, given its overbought RSI-14 and low volume ratio. The sideways short-term trend and mid-band Bollinger Band %B also support this prediction. The overall market context remains bearish, with the Fear & Greed Index at Extreme Fear.",
+    "ja": "Figure Helocの価格は、オーバーボールドなRSI-14と低いボリュームレシオのため、次の24時間に0.1%の小さな値下げが予想されます。短期のトレンドは横方向に動いており、ボリンジャー・バンドの%Bも中間帯にあります。Fear & Greed Indexはエクストリーム・フィアのままで、市場全体の状況は悲観的です。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.86%",
+        "value": "+1.30%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "50% bullish",
         "url": "https://www.coingecko.com/en/coins/figure-heloc"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "EUR trading accounts for 1% of Binance spot volume, CryptoQuant says",
+        "url": "https://cointelegraph.com/news/eur-trades-binance-spot-volume-cryptoquant?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Bank of England eases stablecoin rules, introduces 40B pound issuance cap",
         "url": "https://cointelegraph.com/news/bank-of-england-stablecoin-rules-clears-path-for-2027-launch?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Q2 2026 emerges as most-hacked quarter on record with 83 incidents",
-        "url": "https://cointelegraph.com/news/q2-2026-most-hacked-quarter-record-83-incidents?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

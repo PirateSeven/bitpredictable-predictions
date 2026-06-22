@@ -1,6 +1,6 @@
 {
   "coinId": "ondo-finance",
-  "generatedAt": "2026-06-22T12:00:08.533786Z",
+  "generatedAt": "2026-06-22T13:00:07.807378Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -0.9030689163970518,
-    "confidence": 0.5346
+    "changePercent24h": 0.809383949965345,
+    "confidence": 0.4934
   },
   "commentary": {
-    "en": "Ondo (ONDO-FINANCE) is predicted to decline by 3.0% in the next 24 hours with a confidence level of 83%. The asset's neutral RSI-14 reading and position near the upper Bollinger Band suggest a potential correction. The Fear & Greed Index remains in extreme fear territory, which may contribute to the predicted decline.",
-    "ja": "ONDO-FINANCEは来日24時間で-3.0%の下落を予測し、信頼度は83%です。RSI-14は中立的な値域にあり、ボリンジャー・バンドの上部に位置しているため、値下げの可能性があります。恐怖と欲求不満指数は極度の恐怖の状態にあり、これは予測される下落に寄与する可能性があります。",
+    "en": "Ondo is predicted to move downward by -3.0% in the next 24 hours with a confidence of 83%. This prediction is based on the current technical signals and market context, including the Fear & Greed Index at 20, indicating extreme fear. The recent news about the US dollar strength and Q2 2026 emerging as the most-hacked quarter on record may also contribute to the bearish sentiment.",
+    "ja": "オンド・ファイナンスは次の24時間に-3.0%の下落が予想され、信頼度は83%です。これは、現在の技術指標と市場状況、Fear & Greed Indexが20、極度の恐怖を示すことなどに基づいています。最近のニュースであるドル強化とQ2 2026が最もハッキングされたクォーターとして記録されることなど、市場の恐怖感を高める要因もあります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.86%",
+        "value": "+1.30%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "91% bullish",
+        "value": "90% bullish",
         "url": "https://www.coingecko.com/en/coins/ondo-finance"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "EUR trading accounts for 1% of Binance spot volume, CryptoQuant says",
+        "url": "https://cointelegraph.com/news/eur-trades-binance-spot-volume-cryptoquant?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Bank of England eases stablecoin rules, introduces 40B pound issuance cap",
         "url": "https://cointelegraph.com/news/bank-of-england-stablecoin-rules-clears-path-for-2027-launch?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Q2 2026 emerges as most-hacked quarter on record with 83 incidents",
-        "url": "https://cointelegraph.com/news/q2-2026-most-hacked-quarter-record-83-incidents?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "coinId": "usds",
-  "generatedAt": "2026-06-22T12:00:08.533786Z",
+  "generatedAt": "2026-06-22T13:00:07.807378Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.0186209632068253,
+    "changePercent24h": -0.01154518243750021,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "USDS is expected to remain flat in the next 24 hours with a 95% confidence level, as the RSI-14 is neutral and the Bollinger Band %B is at mid-band. The recent news on stablecoin rules and US dollar strength may have a neutral impact on USDS. Overall market sentiment remains in extreme fear.",
-    "ja": "USDSは次の24時間に95％の確率でフラットに推移することが期待され、RSI-14は中立的でボリンジャーバンド％Bはミッドバンドにあります。安定コイン規制やドル強化に関する最近のニュースはUSDSに中立的な影響を与える可能性があります。総合的な市場感情は極度の恐怖の状態です。",
+    "en": "USDS is expected to remain flat in the next 24 hours with a 95% confidence level, as the Fear & Greed Index indicates extreme fear in the market. The recent news of the Bank of England easing stablecoin rules may have a neutral impact on USDS, while the overall crypto market cap has seen a 1.30% increase. The short-term trend remains sideways.",
+    "ja": "USDSは次の24時間で95%の確率でフラットとなる可能性があり、Fear & Greed Indexは市場が極度の恐怖を感じていることを示しています。Bank of Englandがスタビルコイン規制を緩和したニュースはUSDSに中立的な影響を与える可能性があり、総暗号資産市場キャップは1.30%増加しています。短期的なトレンドは横方向に進んでいる。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.86%",
+        "value": "+1.30%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "0% bullish",
         "url": "https://www.coingecko.com/en/coins/usds"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "EUR trading accounts for 1% of Binance spot volume, CryptoQuant says",
+        "url": "https://cointelegraph.com/news/eur-trades-binance-spot-volume-cryptoquant?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Bank of England eases stablecoin rules, introduces 40B pound issuance cap",
         "url": "https://cointelegraph.com/news/bank-of-england-stablecoin-rules-clears-path-for-2027-launch?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Q2 2026 emerges as most-hacked quarter on record with 83 incidents",
-        "url": "https://cointelegraph.com/news/q2-2026-most-hacked-quarter-record-83-incidents?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

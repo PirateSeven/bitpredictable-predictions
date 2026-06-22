@@ -1,6 +1,6 @@
 {
   "coinId": "paypal-usd",
-  "generatedAt": "2026-06-22T12:00:08.533786Z",
+  "generatedAt": "2026-06-22T13:00:07.807378Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 0.06865507459420203,
+    "changePercent24h": 0.04191001595270589,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "PayPal USD is expected to remain flat in the next 24 hours with a 0.0% predicted return, supported by neutral RSI-14 and mid-band Bollinger Band %B. The recent news of the Bank of England easing stablecoin rules may have a positive impact on PayPal USD, but the overall market sentiment remains in extreme fear. The short-term trend is sideways, indicating a lack of clear direction.",
-    "ja": "PayPal USD は、次の24時間で0.0％の予想リターンでフラットに推定され、中立的なRSI-14と中間帯のボリンジャー・バンド％Bによってサポートされています。Bank of England がスタビルコイン規制を緩和したニュースはPayPal USDに肯定的な影響を与える可能性がありますが、市場全体の感情は極度の恐怖のままです。短期のトレンドは横方向にあり、明確な方向性がないことを示しています。",
+    "en": "PayPal USD is expected to remain flat in the next 24 hours with a 0.0% predicted return, given the neutral RSI-14 reading and mid-band Bollinger Band %B. The sideways short-term trend and normal volume ratio support this prediction. The overall market context, including the Extreme Fear Fear & Greed Index and stable BTC return, also contribute to this outlook.",
+    "ja": "PayPal USD は、次の24時間に0.0%の予想利回りでフラットになる可能性があり、RSI-14の中立的な値とボリンジャーバンドの% B 0.38の値によりそうである。短期の傾向は横方向に動いており、正常なボリューム比率もこれを裏付けています。全体的な市場状況、極度の恐怖のFear & Greed Indexと安定したBTCの利回りも、この見通しに寄与しています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.86%",
+        "value": "+1.30%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "25% bullish",
         "url": "https://www.coingecko.com/en/coins/paypal-usd"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "EUR trading accounts for 1% of Binance spot volume, CryptoQuant says",
+        "url": "https://cointelegraph.com/news/eur-trades-binance-spot-volume-cryptoquant?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Bank of England eases stablecoin rules, introduces 40B pound issuance cap",
         "url": "https://cointelegraph.com/news/bank-of-england-stablecoin-rules-clears-path-for-2027-launch?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Q2 2026 emerges as most-hacked quarter on record with 83 incidents",
-        "url": "https://cointelegraph.com/news/q2-2026-most-hacked-quarter-record-83-incidents?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }
