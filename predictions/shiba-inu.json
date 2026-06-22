@@ -1,6 +1,6 @@
 {
   "coinId": "shiba-inu",
-  "generatedAt": "2026-06-22T04:00:08.209874Z",
+  "generatedAt": "2026-06-22T05:00:08.023981Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": 1.2465267318288609,
-    "confidence": 0.8238
+    "changePercent24h": 1.4755803360660504,
+    "confidence": 0.8472
   },
   "commentary": {
-    "en": "The model predicts Shiba Inu will decline ~0.9% over the next 24 hours with high confidence (76%). Price moved -0.87% in the past 24 hours with volume at 1.0× average. Community sentiment on CoinGecko is 58% bullish and the Fear & Greed Index reads \"Extreme Fear\" (20), diverging from the model's forecast, adding uncertainty.",
-    "ja": "モデルはShiba Inuが今後24時間で約0.9%下落すると予測しています（信頼度: 高い 76%）。過去24時間のリターンは-0.87%、出来高は平均の1.0倍です。CoinGeckoコミュニティでは58%が強気を示し、Fear & Greed指数は「Extreme Fear」（20）です。予測方向と乖離があり、不確実性が高まっています。",
+    "en": "Shiba Inu's price is predicted to decline by 0.9% in the next 24 hours with a confidence level of 76%. The current market sentiment is extreme fear, as indicated by the Fear & Greed Index of 20. The recent news about the Secret Network bridge exploit and potential Bitcoin price drops may contribute to the bearish sentiment.",
+    "ja": "Shiba Inuの価格は、次の24時間で0.9%下落する予想されている。信頼度は76%。Fear & Greed Indexは20で、極度の恐れの感情が示唆されている。最近のニュースで、Secret Network ブリッジのハックとビットコイン価格の下落の可能性が、恐れの感情を強める可能性がある。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,12 +1000,12 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-0.73%",
+        "value": "-0.22%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "58% bullish",
+        "value": "56% bullish",
         "url": "https://www.coingecko.com/en/coins/shiba-inu"
       },
       {

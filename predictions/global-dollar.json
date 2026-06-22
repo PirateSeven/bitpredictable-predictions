@@ -1,6 +1,6 @@
 {
   "coinId": "global-dollar",
-  "generatedAt": "2026-06-22T04:00:08.209874Z",
+  "generatedAt": "2026-06-22T05:00:08.023981Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.021995237423790785,
+    "changePercent24h": -0.036,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "The Global Dollar (GLOBAL-DOLLAR) is expected to remain flat in the next 24 hours with a confidence level of 95%. The recent news of the Secret Network bridge exploitation and potential Bitcoin price fluctuations may have a minimal impact on GLOBAL-DOLLAR. The Fear & Greed Index remains in Extreme Fear territory.",
-    "ja": "グローバル ドル (GLOBAL-DOLLAR) は、次の 24 時間で 95% の確率でフラットに推定されます。セクレット ネットワーク ブリッジの侵害やビットコイン価格の変動など、最近のニュースは GLOBAL-DOLLAR に影響を与える可能性は低いです。恐怖と欲求不満指数は、極度の恐怖の状態にあります。",
+    "en": "The model predicts Global Dollar will trade sideways over the next 24 hours with high confidence (95%). Price is near lower Bollinger Band support, where rebounds are historically more frequent. Market sentiment stands at \"Extreme Fear\" (Fear & Greed: 20); the broader crypto market moved -0.2% over the past 24 hours.",
+    "ja": "モデルはGlobal Dollarが今後24時間で横ばいで推移すると予測しています（信頼度: 高い 95%）。価格がボリンジャーバンド下限付近で、サポートからの反発が過去パターンより多く観察されます。Fear & Greed指数は「Extreme Fear」（20）で、暗号資産市場全体の24時間変動率は-0.2%です。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-0.73%",
+        "value": "-0.22%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {

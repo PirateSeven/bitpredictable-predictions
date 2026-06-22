@@ -1,6 +1,6 @@
 {
   "coinId": "mantle",
-  "generatedAt": "2026-06-22T04:00:08.209874Z",
+  "generatedAt": "2026-06-22T05:00:08.023981Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 0.3248591818082645,
-    "confidence": 0.6342
+    "changePercent24h": 0.019709933634073695,
+    "confidence": 0.3992
   },
   "commentary": {
-    "en": "Mantle (MANTLE) is expected to trade flat with a minor decline of -0.3% in the next 24 hours, based on technical signals. The recent news of the Secret Network bridge exploit may have a limited impact on Mantle's price, given its relatively low market capitalization. Mantle's sideways trend and neutral RSI-14 reading suggest a lack of strong momentum.",
-    "ja": "Mantle（MANTLE）は、技術的シグナルに基づいて、次の24時間で-0.3％の小幅な下落が予想されます。 Secret Network ブリッジのエクスプロイトニュースは、Mantleの価格に限りなく影響を与える可能性がありますが、市場規模が小さいため、価格に影響を与える可能性は低いです。Mantleの横方向の傾向と中立的なRSI-14の値は、強い動きのないことを示しています。",
+    "en": "The model predicts Mantle will trade sideways over the next 24 hours with moderate confidence (58%). Price moved -0.20% in the past 24 hours with volume at 1.1× average. Market sentiment stands at \"Extreme Fear\" (Fear & Greed: 20); the broader crypto market moved -0.2% over the past 24 hours.",
+    "ja": "モデルはMantleが今後24時間で横ばいで推移すると予測しています（信頼度: 中程度の 58%）。過去24時間のリターンは-0.20%、出来高は平均の1.1倍です。Fear & Greed指数は「Extreme Fear」（20）で、暗号資産市場全体の24時間変動率は-0.2%です。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-0.73%",
+        "value": "-0.22%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {

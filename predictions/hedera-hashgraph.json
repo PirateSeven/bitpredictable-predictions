@@ -1,6 +1,6 @@
 {
   "coinId": "hedera-hashgraph",
-  "generatedAt": "2026-06-22T04:00:08.209874Z",
+  "generatedAt": "2026-06-22T05:00:08.023981Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -0.8024965139414504,
-    "confidence": 0.7634
+    "changePercent24h": -0.7226905915307648,
+    "confidence": 0.7439
   },
   "commentary": {
-    "en": "Hedera is predicted to decline by 0.7% in the next 24 hours with a confidence level of 73%. The recent market context suggests a high level of fear, with the Fear & Greed Index at 20, and a total crypto market cap decrease of 0.73%. The neutral RSI-14 reading and mid-band Bollinger Band %B indicate a stable market condition.",
-    "ja": "ヘダラハッシュグラフは、次の24時間で0.7%の下落が予想され、信頼度は73%です。最近の市場状況は恐怖の高まりを示しており、Fear & Greed Indexは20、総暗号資産市場キャップは0.73%減少しています。RSI-14は中立的な値を示し、ボリンジャーブンド％Bは中間帯にあり、安定した市場状況を示しています。",
+    "en": "Hedera is expected to decline by -0.7% in the next 24 hours, with a confidence level of 73%. The current market sentiment is extremely fearful, with the Fear & Greed Index at 20. The recent news of the Secret Network bridge exploit and potential Bitcoin price drops may contribute to the bearish sentiment.",
+    "ja": "ヘダラハッシュグラフは次の24時間で-0.7%の下落が予想され、信頼度は73%です。現在の市場感情は極度の恐怖で、Fear & Greed Indexは20です。最近のニュースであるSecret Network ブリッジのエクスプロイトとビットコイン価格の下落の可能性が、恐怖的な市場感情に寄与する可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,12 +1000,12 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-0.73%",
+        "value": "-0.22%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "89% bullish",
+        "value": "100% bullish",
         "url": "https://www.coingecko.com/en/coins/hedera-hashgraph"
       },
       {

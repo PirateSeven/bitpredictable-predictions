@@ -1,6 +1,6 @@
 {
   "coinId": "stellar",
-  "generatedAt": "2026-06-22T04:00:08.209874Z",
+  "generatedAt": "2026-06-22T05:00:08.023981Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -1.3985527869342436,
-    "confidence": 0.777
+    "changePercent24h": -2.226758231982326,
+    "confidence": 0.8516
   },
   "commentary": {
-    "en": "Stellar is predicted to decline by -1.6% in the next 24 hours with an 80% confidence level, despite a neutral RSI-14 reading and mid-band Bollinger Band %B. The market context suggests a bearish sentiment with the Fear & Greed Index at 20, and a total crypto market cap decline of -0.73%. Recent news highlights security concerns in the crypto space, which may negatively impact Stellar.",
-    "ja": "ステララーは次の24時間に-1.6%の下落を予測し、80%の信頼度を持ちます。ただし、RSI-14は中立的な値を示し、ボリンジャー・バンドの%バンドは中間値を示しています。市場状況は恐怖と欲求不満指数が20、総暗号資産市場キャップが-0.73%減少していることを示しています。最近のニュースは暗号空間でのセキュリティ懸念を強調しており、これがステララーに否定的な影響を与える可能性があります。",
+    "en": "Stellar is predicted to decline by 1.6% in the next 24 hours with an 80% confidence level. The Fear & Greed Index is at 20, indicating extreme fear in the market. This sentiment may impact Stellar's price, but its short-term trend remains sideways.",
+    "ja": "ステララーは、次の24時間で1.6％下落する可能性があり、80％の確信度を持っています。恐怖と欲求不満指数は20で、市場は極度の恐怖の状態です。この感情はステララーの価格に影響を与える可能性がありますが、短期的な傾向は横ばいです。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,12 +1000,12 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-0.73%",
+        "value": "-0.22%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "59% bullish",
+        "value": "64% bullish",
         "url": "https://www.coingecko.com/en/coins/stellar"
       },
       {

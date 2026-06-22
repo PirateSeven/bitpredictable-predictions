@@ -1,6 +1,6 @@
 {
   "coinId": "ondo-us-dollar-yield",
-  "generatedAt": "2026-06-22T04:00:08.209874Z",
+  "generatedAt": "2026-06-22T05:00:08.023981Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": 0.5758921086776186,
-    "confidence": 0.7379
+    "changePercent24h": 0.5854288019672157,
+    "confidence": 0.7409
   },
   "commentary": {
-    "en": "ONDO-US-DOLLAR-YIELD is expected to decline by 0.7% in the next 24 hours, with a confidence level of 76%. The current market sentiment is extremely fearful, with the Fear & Greed Index at 20. The recent news of a Secret Network bridge exploit and potential Bitcoin price drops may contribute to the bearish sentiment.",
-    "ja": "ONDO-US-DOLLAR-YIELDは、次の24時間に0.7%下落する可能性があり、信頼度は76%です。市場の感情は非常に恐怖に満ちている、Fear & Greed Indexは20です。最近のニュースであるSecret Network ブリッジのエクスプロイトとビットコイン価格の下落の可能性が、恐るべき感情に貢献するかもしれません。",
+    "en": "The model predicts Ondo US Dollar Yield will decline ~0.7% over the next 24 hours with high confidence (76%). Price moved -0.17% in the past 24 hours with volume at 0.3× average. Market sentiment stands at \"Extreme Fear\" (Fear & Greed: 20); the broader crypto market moved -0.2% over the past 24 hours.",
+    "ja": "モデルはOndo US Dollar Yieldが今後24時間で約0.7%下落すると予測しています（信頼度: 高い 76%）。過去24時間のリターンは-0.17%、出来高は平均の0.3倍です。Fear & Greed指数は「Extreme Fear」（20）で、暗号資産市場全体の24時間変動率は-0.2%です。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-0.73%",
+        "value": "-0.22%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {

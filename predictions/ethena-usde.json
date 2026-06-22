@@ -1,6 +1,6 @@
 {
   "coinId": "ethena-usde",
-  "generatedAt": "2026-06-22T04:00:08.209874Z",
+  "generatedAt": "2026-06-22T05:00:08.023981Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.025836742775220668,
+    "changePercent24h": -0.036,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "Ethena USDe (ETHENA-USDE) is expected to remain flat with a 24h direction of -0.0% due to neutral technical signals and a sideways short-term trend. The Fear & Greed Index at 20 indicates extreme fear in the market, which may impact ETHENA-USDE's price. The recent news of a Secret Network bridge exploit and potential Bitcoin price drops may also contribute to market uncertainty.",
-    "ja": "Ethena USDe (ETHENA-USDE) は、24時間方向が-0.0%のまま残る可能性があり、技術面のシグナルが中立的であり、短期的なトレンドも横ばいであるためです。恐怖と欲求不満指数が20のため、市場は極度の恐怖の状態にあり、これがETHENA-USDEの価格に影響を与える可能性があります。最近のニュースでSecret Network ブリッジのハッキングとビットコイン価格の下落の可能性が報じられているため、市場の不確実性が高まります。",
+    "en": "Ethena USDe (ETHENA-USDE) is expected to remain flat in the 24-hour period with a 95% confidence level. The current market sentiment is characterized by extreme fear, as indicated by the Fear & Greed Index. The recent news on the Secret Network bridge exploit and potential Bitcoin price fluctuations may impact the overall market sentiment.",
+    "ja": "Ethena USDe (ETHENA-USDE) は24時間の予想はフラットで95%の確信度で予想されます。市場の感情は極度の恐怖であることを示す恐怖と欲求不満指数によって表されます。最近のニュースであるSecret Network ブリッジのエクスプロイトとビットコイン価格の変動の可能性は、市場全体の感情に影響を与える可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-0.73%",
+        "value": "-0.22%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {

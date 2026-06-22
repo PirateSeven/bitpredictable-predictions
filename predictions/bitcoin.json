@@ -1,6 +1,6 @@
 {
   "coinId": "bitcoin",
-  "generatedAt": "2026-06-22T04:00:08.209874Z",
+  "generatedAt": "2026-06-22T05:00:08.023981Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 0.18559924831152275,
-    "confidence": 0.5424
+    "changePercent24h": 0.411393193938824,
+    "confidence": 0.6986
   },
   "commentary": {
-    "en": "Bitcoin's short-term trend remains sideways, with a predicted 24h direction of flat, -0.2% confidence. The Fear & Greed Index is at 20, indicating extreme fear, while the CoinGecko community is 80% bullish. Recent news suggests a mixed sentiment, with some analysts predicting a potential top at $66K and others warning of a possible crash to $24K.",
-    "ja": "ビットコインの短期的なトレンドは横方向に動いており、24時間の予測方向はフラット、-0.2%の信頼性です。恐怖と欲求不満指数は20で、極度の恐怖を示しており、CoinGeckoコミュニティは80%がバブルです。最近のニュースは、$66Kのトップを予測する分析家もあり、$24Kまでのクラッシュを警告する分析家もあり、混乱した感情を示しています。",
+    "en": "Bitcoin's short-term trend remains sideways, with a predicted 24h direction of -0.2% and a neutral RSI-14 reading. The Fear & Greed Index is at 20, indicating extreme fear in the market. Recent news has highlighted potential risks and volatility in the crypto market.",
+    "ja": "ビットコインの短期トレンドは横方向に動いており、24時間予想の方向は-0.2％、RSI-14の値は中立的な位置にある。恐怖と欲求不満指数は20で、市場は極度の恐怖に包まれている。最近のニュースでは、暗号市場におけるリスクとボラティリティが強調されている。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-0.73%",
+        "value": "-0.22%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {

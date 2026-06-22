@@ -1,6 +1,6 @@
 {
   "coinId": "crypto-com-chain",
-  "generatedAt": "2026-06-22T04:00:08.209874Z",
+  "generatedAt": "2026-06-22T05:00:08.023981Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.011533934432288909,
-    "confidence": 0.5466
+    "changePercent24h": -0.1764209067151185,
+    "confidence": 0.6278
   },
   "commentary": {
-    "en": "The model predicts Cronos will trade sideways over the next 24 hours with moderate confidence (54%). Price moved +0.04% in the past 24 hours with volume at 1.0× average. Community sentiment on CoinGecko is 86% bullish and the Fear & Greed Index reads \"Extreme Fear\" (20), diverging from the model's forecast, adding uncertainty.",
-    "ja": "モデルはCronosが今後24時間で横ばいで推移すると予測しています（信頼度: 中程度の 54%）。過去24時間のリターンは+0.04%、出来高は平均の1.0倍です。CoinGeckoコミュニティでは86%が強気を示し、Fear & Greed指数は「Extreme Fear」（20）です。予測方向と乖離があり、不確実性が高まっています。",
+    "en": "Cronos's 24h direction is predicted to be flat with a -0.1% change, indicating a neutral trend. The Fear & Greed Index remains at 20, indicating extreme fear in the market. The recent news of a Secret Network bridge exploit and potential Bitcoin price drops may impact Cronos's performance.",
+    "ja": "Cronos の 24 時間の方向は、-0.1% の変化で予測されており、傾向は中立的である。Fear & Greed Index は 20 で、市場は極度の恐怖の状態である。最近のニュースとして、Secret Network のブリッジが搾取されたことや、ビットコインの価格が下がる可能性などが、Cronos のパフォーマンスに影響を与える可能性がある。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-0.73%",
+        "value": "-0.22%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {

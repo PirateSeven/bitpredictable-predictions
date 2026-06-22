@@ -1,6 +1,6 @@
 {
   "coinId": "world-liberty-financial",
-  "generatedAt": "2026-06-22T04:00:08.209874Z",
+  "generatedAt": "2026-06-22T05:00:08.023981Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -0.23564003175130172,
-    "confidence": 0.4929
+    "changePercent24h": -0.037945193054647275,
+    "confidence": 0.2963
   },
   "commentary": {
-    "en": "World Liberty Financial's predicted 24h direction is DOWN with a 69% confidence level, despite a short-term uptrend and mid-band Bollinger Band reading. The Fear & Greed Index remains in Extreme Fear territory, and the recent news of a Secret Network bridge exploit may contribute to market volatility. The asset's 24h actual return is +1.39%, contradicting the predicted downward trend.",
-    "ja": "ワールド・リバティ・フィナンシャルは、69％の確実性で24時間下落を予測しており、短期的な上昇傾向とマイッドバンドボリンジャーバンドの読み方とは対照的である。恐怖と欲求不満指数は極度の恐怖の領域にあり、最近のニュースで秘密ネットワークのブリッジのハックが市場の不安定化に寄与する可能性がある。24時間の実際のリターンは+1.39％であり、予測の下落傾向とは矛盾する。",
+    "en": "The model predicts World Liberty Financial will decline ~0.6% over the next 24 hours with moderate confidence (69%). The short-term SMA has crossed above the medium-term SMA, signalling positive momentum. Community sentiment on CoinGecko is 0% bullish and the Fear & Greed Index reads \"Extreme Fear\" (20), aligning with the model's forecast.",
+    "ja": "モデルはWorld Liberty Financialが今後24時間で約0.6%下落すると予測しています（信頼度: 中程度の 69%）。短期移動平均が中期移動平均を上回り、ポジティブなモメンタムが示されています。CoinGeckoコミュニティでは0%が強気を示し、Fear & Greed指数は「Extreme Fear」（20）です。予測と方向性が一致しています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-0.73%",
+        "value": "-0.22%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
