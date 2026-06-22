@@ -1,25 +1,25 @@
 {
   "agentVersion": "crypto-ace-1.0.0",
-  "updatedAt": "2026-06-22T14:48:42.920089+00:00",
+  "updatedAt": "2026-06-22T19:44:24.521478+00:00",
   "exchange": "Binance Testnet",
   "currency": "BNB",
   "initialCapital": 1.0,
-  "currentValue": 0.99693,
+  "currentValue": 0.993962,
   "performance": {
-    "totalReturnPct": -0.31,
-    "totalTrades": 3,
+    "totalReturnPct": -0.6,
+    "totalTrades": 4,
     "winRate": 0.0,
-    "maxDrawdownPct": 2.58,
-    "sharpeRatio": -19.15,
+    "maxDrawdownPct": 4.99,
+    "sharpeRatio": -20.22,
     "startDate": "2026-06-17T19:27:34.575587+00:00"
   },
   "weeklyStats": {
     "wins": 0,
-    "losses": 3,
+    "losses": 4,
     "winRate": 0.0,
     "comment": {
-      "en": "Challenging week. 3 trades with 0% win rate. Staying disciplined.",
-      "ja": "\u53b3\u3057\u3044\u9031\u30023\u53d6\u5f15\u3001\u52dd\u73870%\u3002\u5e02\u5834\u74b0\u5883\u304c\u4e0d\u5229\u3067\u3057\u305f\u304c\u898f\u5f8b\u3092\u7dad\u6301\u3057\u3066\u3044\u307e\u3059\u3002"
+      "en": "Challenging week. 4 trades with 0% win rate. Staying disciplined.",
+      "ja": "\u53b3\u3057\u3044\u9031\u30024\u53d6\u5f15\u3001\u52dd\u73870%\u3002\u5e02\u5834\u74b0\u5883\u304c\u4e0d\u5229\u3067\u3057\u305f\u304c\u898f\u5f8b\u3092\u7dad\u6301\u3057\u3066\u3044\u307e\u3059\u3002"
     }
   },
   "bestTrade": {
@@ -30,10 +30,18 @@
     "time": "2026-06-17T19:27:35.599884+00:00"
   },
   "currentStreak": {
-    "count": 3,
+    "count": 4,
     "type": "loss"
   },
-  "currentPosition": null,
+  "currentPosition": {
+    "coin": "sui",
+    "symbol": "SUI",
+    "direction": "long",
+    "entryPrice": 0.001217,
+    "entryTime": "2026-06-22T14:48:41.087896+00:00",
+    "sizeBtc": 0.119966,
+    "unrealizedPnlPct": 0.0
+  },
   "equityCurve": [
     {
       "time": "2026-06-17T19:27:34.575587+00:00",
@@ -54,9 +62,30 @@
       "time": "2026-06-22T14:40:06.407883+00:00",
       "value": 0.99693,
       "benchmarkBtc": 1.0
+    },
+    {
+      "time": "2026-06-22T19:44:24.519103+00:00",
+      "value": 0.993962,
+      "benchmarkBtc": 1.0
     }
   ],
   "recentTrades": [
+    {
+      "id": "1eee78ab",
+      "coin": "cardano",
+      "symbol": "ADA",
+      "action": "sell",
+      "price": 0.000276,
+      "sizeBtc": 0.119966,
+      "time": "2026-06-22T19:44:24.519103+00:00",
+      "pnlBtc": -0.002967,
+      "pnlPct": -2.47,
+      "signal": {
+        "direction": "down",
+        "changePercent24h": 1.3663956378603168,
+        "confidence": 0.8464
+      }
+    },
     {
       "id": "f9d3835c",
       "coin": "solana",
