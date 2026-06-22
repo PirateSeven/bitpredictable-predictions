@@ -1,6 +1,6 @@
 {
   "coinId": "crypto-com-chain",
-  "generatedAt": "2026-06-22T09:00:07.792958Z",
+  "generatedAt": "2026-06-22T10:00:08.169609Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.0953367119972471,
+    "changePercent24h": -0.075978041546157,
     "confidence": 0.5098
   },
   "commentary": {
-    "en": "Cronos's 24h direction is predicted to be flat with a 0.1% decrease in confidence, despite a neutral RSI-14 reading of 54 and a mid-band Bollinger Band %B of 0.62. The recent bridge exploits in the crypto market, including Secret Network and Taiko, may have a negative impact on investor sentiment. The Fear & Greed Index remains at 20, indicating extreme fear.",
-    "ja": "Cronos の 24 時間の方向は、0.1% の減少の予測で、信頼性は 53% です。RSI-14 の値は 54 で中立的、ボリンジャー バンド %B は 0.62 で中間帯です。最近のブリッジの攻撃、Secret Network と Taiko を含む、投資家の感情に否定的な影響を与える可能性があります。Fear & Greed Index は 20 で、極度の恐怖を示しています。",
+    "en": "Cronos's 24-hour return is +0.49% with a predicted flat direction, indicating a neutral sentiment. The Fear & Greed Index at 20 suggests extreme fear in the market, and the recent news on stablecoin rules and Travel Rule expansion may impact the market sentiment. The short-term trend remains sideways.",
+    "ja": "Cronos の 24 時間のリターンは +0.49% で予想される方向はフラット、極度の恐怖が市場の感情に影響を与えていることを示唆しています。最近のニュースでは、スタッブルコイン規制とトラベルルールの拡大が市場感情に影響を与える可能性があります。短期的なトレンドは横方向に進んでいます。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.27%",
+        "value": "-0.04%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
@@ -1010,18 +1010,18 @@
       },
       {
         "label": "CoinTelegraph",
+        "value": "Bank of England eases stablecoin rules, introduces 40B pound issuance cap",
+        "url": "https://cointelegraph.com/news/bank-of-england-stablecoin-rules-clears-path-for-2027-launch?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "South Korea pushes Travel Rule expansion for smaller crypto transfers",
+        "url": "https://cointelegraph.com/news/south-korea-travel-rule-smaller-crypto-transfers?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
         "value": "Here’s what happened in crypto today",
         "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Morgan Stanley amends Ethereum, Solana ETFs to reveal record cheap fees",
-        "url": "https://cointelegraph.com/news/morgan-stanley-amends-ethereum-solana-etfs-to-undercut-rivals-fees?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Taiko urges users to withdraw as bridge exploit drains $1.7M",
-        "url": "https://cointelegraph.com/news/taiko-urges-users-to-withdraw-as-bridge-exploit-drains-17m?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

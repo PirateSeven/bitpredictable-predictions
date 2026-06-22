@@ -1,6 +1,6 @@
 {
   "coinId": "hyperliquid",
-  "generatedAt": "2026-06-22T09:00:07.792958Z",
+  "generatedAt": "2026-06-22T10:00:08.169609Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -0.8601064012704072,
-    "confidence": 0.4589
+    "changePercent24h": -0.6880457127411757,
+    "confidence": 0.3597
   },
   "commentary": {
-    "en": "Hyperliquid (HYPERLIQUID) is predicted to fall by -3.4% in the next 24 hours with a confidence level of 83%. The current market sentiment is extreme fear, with the Fear & Greed Index at 20. The recent news of multiple bridge exploits may have a negative impact on the overall market sentiment.",
-    "ja": "Hyperliquid (HYPERLIQUID) は、次の24時間で-3.4%の下落が予想され、信頼度は83%です。現在の市場感情は極度の恐怖で、Fear & Greed Indexは20です。複数のブリッジのエクスプロイトに関する最近のニュースは、市場感情に否定的な影響を与える可能性があります。",
+    "en": "Hyperliquid (HYPERLIQUID) is expected to decline by -3.4% in the next 24 hours, according to our technical analysis. The Fear & Greed Index is at 20, indicating extreme fear in the market, and the recent news of a bridge exploit draining $1.7M may further contribute to the decline. The short-term trend is in a downtrend.",
+    "ja": "Hyperliquid（HYPERLIQUID）は、技術分析によると、来る24時間で-3.4%の下落が予想される。Fear & Greed Indexは20で、極度の恐怖が示されており、橋のハックによる$1.7Mの損失など最近のニュースも下落に貢献する可能性がある。短期的なトレンドは下降傾向にある。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,28 +1000,28 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.27%",
+        "value": "-0.04%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "59% bullish",
+        "value": "60% bullish",
         "url": "https://www.coingecko.com/en/coins/hyperliquid"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bank of England eases stablecoin rules, introduces 40B pound issuance cap",
+        "url": "https://cointelegraph.com/news/bank-of-england-stablecoin-rules-clears-path-for-2027-launch?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "South Korea pushes Travel Rule expansion for smaller crypto transfers",
+        "url": "https://cointelegraph.com/news/south-korea-travel-rule-smaller-crypto-transfers?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
         "value": "Here’s what happened in crypto today",
         "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Morgan Stanley amends Ethereum, Solana ETFs to reveal record cheap fees",
-        "url": "https://cointelegraph.com/news/morgan-stanley-amends-ethereum-solana-etfs-to-undercut-rivals-fees?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Taiko urges users to withdraw as bridge exploit drains $1.7M",
-        "url": "https://cointelegraph.com/news/taiko-urges-users-to-withdraw-as-bridge-exploit-drains-17m?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

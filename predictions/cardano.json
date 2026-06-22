@@ -1,6 +1,6 @@
 {
   "coinId": "cardano",
-  "generatedAt": "2026-06-22T09:00:07.792958Z",
+  "generatedAt": "2026-06-22T10:00:08.169609Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -1.096192141246632,
-    "confidence": 0.8082
+    "changePercent24h": -0.696,
+    "confidence": 0.7271
   },
   "commentary": {
-    "en": "Cardano is expected to decline by 0.7% in the next 24 hours with a confidence level of 72%. The recent news of several bridge exploits and Morgan Stanley's ETF amendments may have a negative impact on the market sentiment. The Fear & Greed Index is currently at 20, indicating extreme fear.",
-    "ja": "カードアノは次の24時間で0.7%下落する可能性があり、信頼度は72%です。複数のブリッジのエクスプロイトやモルガン・スタンレーのETFの変更など、最近のニュースは市場の感覚に否定的な影響を与える可能性があります。恐怖と欲求不満指数は20で、極度の恐怖を示しています。",
+    "en": "The model predicts Cardano will decline ~0.7% over the next 24 hours with high confidence (72%). Price moved +0.28% in the past 24 hours with volume at 0.0× average. Community sentiment on CoinGecko is 83% bullish and the Fear & Greed Index reads \"Extreme Fear\" (20), diverging from the model's forecast, adding uncertainty.",
+    "ja": "モデルはCardanoが今後24時間で約0.7%下落すると予測しています（信頼度: 高い 72%）。過去24時間のリターンは+0.28%、出来高は平均の0.0倍です。CoinGeckoコミュニティでは83%が強気を示し、Fear & Greed指数は「Extreme Fear」（20）です。予測方向と乖離があり、不確実性が高まっています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,28 +1000,28 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.27%",
+        "value": "-0.04%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "85% bullish",
+        "value": "83% bullish",
         "url": "https://www.coingecko.com/en/coins/cardano"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bank of England eases stablecoin rules, introduces 40B pound issuance cap",
+        "url": "https://cointelegraph.com/news/bank-of-england-stablecoin-rules-clears-path-for-2027-launch?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "South Korea pushes Travel Rule expansion for smaller crypto transfers",
+        "url": "https://cointelegraph.com/news/south-korea-travel-rule-smaller-crypto-transfers?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
         "value": "Here’s what happened in crypto today",
         "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Morgan Stanley amends Ethereum, Solana ETFs to reveal record cheap fees",
-        "url": "https://cointelegraph.com/news/morgan-stanley-amends-ethereum-solana-etfs-to-undercut-rivals-fees?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Taiko urges users to withdraw as bridge exploit drains $1.7M",
-        "url": "https://cointelegraph.com/news/taiko-urges-users-to-withdraw-as-bridge-exploit-drains-17m?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

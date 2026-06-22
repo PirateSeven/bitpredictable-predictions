@@ -1,6 +1,6 @@
 {
   "coinId": "tether",
-  "generatedAt": "2026-06-22T09:00:07.792958Z",
+  "generatedAt": "2026-06-22T10:00:08.169609Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 0.05719387912714368,
+    "changePercent24h": 0.05100038983083038,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "Tether is expected to remain flat with a 0% 24-hour return, supported by neutral RSI-14 and mid-band Bollinger Band %B. The recent news of bridge exploits and Ethereum, Solana ETFs may have a limited impact on Tether's price. The Fear & Greed Index at 20 indicates extreme fear in the market.",
-    "ja": "テザーは24時間のリターンが0％のまま、RSI-14が中立的でボリンジャーバンドの％Bが中間帯にあるため、安定している。最近の橋のハッキングニュースやイーサリアム、ソラナのETFの影響はテザーの価格に限られている。恐怖と欲求不満指数は20で、市場は極度の恐怖に陥っている。",
+    "en": "Tether's (TETHER) 24-hour direction is predicted to be flat with a confidence level of 95%. The Fear & Greed Index remains in extreme fear, and the recent news on stablecoin regulations and market developments may impact Tether's price. The current market context suggests a neutral stance for Tether.",
+    "ja": "Tether（TETHER）の24時間予測は、95％の確率でフラットである。恐怖と欲求不満指数は極度の恐怖の状態で、安定コイン規制や市場動向に関する最近のニュースはTetherの価格に影響を与える可能性がある。現在の市場状況はTetherの中立的な立場を示唆している。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.27%",
+        "value": "-0.04%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
@@ -1010,18 +1010,18 @@
       },
       {
         "label": "CoinTelegraph",
+        "value": "Bank of England eases stablecoin rules, introduces 40B pound issuance cap",
+        "url": "https://cointelegraph.com/news/bank-of-england-stablecoin-rules-clears-path-for-2027-launch?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "South Korea pushes Travel Rule expansion for smaller crypto transfers",
+        "url": "https://cointelegraph.com/news/south-korea-travel-rule-smaller-crypto-transfers?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
         "value": "Here’s what happened in crypto today",
         "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Morgan Stanley amends Ethereum, Solana ETFs to reveal record cheap fees",
-        "url": "https://cointelegraph.com/news/morgan-stanley-amends-ethereum-solana-etfs-to-undercut-rivals-fees?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Taiko urges users to withdraw as bridge exploit drains $1.7M",
-        "url": "https://cointelegraph.com/news/taiko-urges-users-to-withdraw-as-bridge-exploit-drains-17m?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "coinId": "dai",
-  "generatedAt": "2026-06-22T09:00:07.792958Z",
+  "generatedAt": "2026-06-22T10:00:08.169609Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.00648159492525982,
+    "changePercent24h": 0.003564483135514225,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "Dai (DAI) is expected to remain flat with a 24-hour direction of -0.0% due to neutral technical signals and a sideways short-term trend. The Fear & Greed Index at 20 indicates extreme fear in the market, which may impact DAI's price movement. Recent news of bridge exploits and ETF amendments may also influence market sentiment.",
-    "ja": "Dai（DAI）は、ニュートラルな技術指標と短期的な横方向の傾向により、24時間の方向性が-0.0%のままであると予想されます。恐怖と欲求不満指数が20のため、市場の恐怖感が価格動向に影響を与える可能性があります。最近の橋梁のハックやETFの変更に関するニュースは、市場の感情に影響を与える可能性があります。",
+    "en": "Dai (DAI) is expected to remain flat in the next 24 hours with a confidence of 95%. The recent easing of stablecoin rules by the Bank of England may have a limited impact on DAI's price movement. The overall market sentiment remains in extreme fear.",
+    "ja": "Dai (DAI) 24 時間以内は、信頼度 95% でフラットの予想です。Bank of England がスターベルコイン規制を緩和し、40 億ポンドの発行上限を導入したことは、DAI の価格動向に影響を与える可能性があります。総合市場の感覚は極度の恐怖のままです。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,28 +1000,28 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.27%",
+        "value": "-0.04%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "0% bullish",
+        "value": "50% bullish",
         "url": "https://www.coingecko.com/en/coins/dai"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bank of England eases stablecoin rules, introduces 40B pound issuance cap",
+        "url": "https://cointelegraph.com/news/bank-of-england-stablecoin-rules-clears-path-for-2027-launch?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "South Korea pushes Travel Rule expansion for smaller crypto transfers",
+        "url": "https://cointelegraph.com/news/south-korea-travel-rule-smaller-crypto-transfers?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
         "value": "Here’s what happened in crypto today",
         "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Morgan Stanley amends Ethereum, Solana ETFs to reveal record cheap fees",
-        "url": "https://cointelegraph.com/news/morgan-stanley-amends-ethereum-solana-etfs-to-undercut-rivals-fees?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Taiko urges users to withdraw as bridge exploit drains $1.7M",
-        "url": "https://cointelegraph.com/news/taiko-urges-users-to-withdraw-as-bridge-exploit-drains-17m?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

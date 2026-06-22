@@ -1,6 +1,6 @@
 {
   "coinId": "sui",
-  "generatedAt": "2026-06-22T09:00:07.792958Z",
+  "generatedAt": "2026-06-22T10:00:08.169609Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": 0.19244787516002237,
-    "confidence": 0.3111
+    "changePercent24h": 0.48970800989947405,
+    "confidence": 0.5879
   },
   "commentary": {
-    "en": "Sui (SUI) is expected to decline by 0.7% in the next 24 hours, with a confidence level of 69%. The current market sentiment is extreme fear, as indicated by the Fear & Greed Index of 20. The recent news of bridge exploits and ETF amendments may have a negative impact on SUI's price.",
-    "ja": "Sui (SUI) は次の24時間で0.7%下落する可能性があり、信頼度は69%です。Fear & Greed Indexは20で、極度の恐怖の状態です。最近の橋梁のハックやETFの変更に関するニュースはSUIの価格に否定的な影響を与える可能性があります。",
+    "en": "Sui (SUI) is expected to decline in the next 24 hours with a predicted direction of DOWN, -0.7% (confidence: 69%). The recent news about the Bank of England easing stablecoin rules and Morgan Stanley's ETF amendments may have a neutral impact on SUI. The Fear & Greed Index at 20 indicates extreme fear in the market.",
+    "ja": "Sui (SUI) は、次の24時間にDOWN、-0.7% (信頼度：69％) の予想方向を示しています。Bank of England がスタブライツルールを緩和し、Morgan Stanley が ETF を修正したニュースは SUI に中立的な影響を与える可能性があります。Fear & Greed Index は20で、市場は極度の恐怖の状態にあることを示しています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,28 +1000,28 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.27%",
+        "value": "-0.04%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "79% bullish",
+        "value": "78% bullish",
         "url": "https://www.coingecko.com/en/coins/sui"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bank of England eases stablecoin rules, introduces 40B pound issuance cap",
+        "url": "https://cointelegraph.com/news/bank-of-england-stablecoin-rules-clears-path-for-2027-launch?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "South Korea pushes Travel Rule expansion for smaller crypto transfers",
+        "url": "https://cointelegraph.com/news/south-korea-travel-rule-smaller-crypto-transfers?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
         "value": "Here’s what happened in crypto today",
         "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Morgan Stanley amends Ethereum, Solana ETFs to reveal record cheap fees",
-        "url": "https://cointelegraph.com/news/morgan-stanley-amends-ethereum-solana-etfs-to-undercut-rivals-fees?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Taiko urges users to withdraw as bridge exploit drains $1.7M",
-        "url": "https://cointelegraph.com/news/taiko-urges-users-to-withdraw-as-bridge-exploit-drains-17m?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

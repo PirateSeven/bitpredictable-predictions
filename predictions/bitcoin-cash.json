@@ -1,6 +1,6 @@
 {
   "coinId": "bitcoin-cash",
-  "generatedAt": "2026-06-22T09:00:07.792958Z",
+  "generatedAt": "2026-06-22T10:00:08.169609Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": 0.8419864221155434,
-    "confidence": 0.7288
+    "changePercent24h": 1.4700460924696968,
+    "confidence": 0.8278
   },
   "commentary": {
-    "en": "Bitcoin Cash is predicted to move downward by 0.9% in the next 24 hours with a 73% confidence level. The recent news of several crypto bridge exploits and Morgan Stanley's ETF amendments may have a negative impact on BCH. The Fear & Greed Index remains in Extreme Fear territory.",
-    "ja": "ビットコインキャッシュは、次の24時間に0.9%下落する可能性があり、73%の確実性があります。複数の暗号資産ブリッジのハックやマーガン・スタンリーのETFの変更など、最近のニュースはBCHに否定的な影響を与える可能性があります。恐怖と欲求不満指数は、極度の恐怖の領域にあります。",
+    "en": "Bitcoin Cash is expected to decline by 0.9% in the next 24 hours with a 73% confidence level. The recent news of the Bank of England easing stablecoin rules and South Korea expanding the Travel Rule may have a limited impact on BCH. The Fear & Greed Index at 20 indicates extreme fear in the market.",
+    "ja": "ビットコインキャッシュは、次の24時間で0.9%下落する可能性があり、73%の確実性があります。銀行イングランドがスタビルコイン規制を緩和し、韓国がトラベルルールを拡大するニュースはBCHに限りなく影響を与える可能性は低い。恐怖と欲求不満指数は20で、市場は恐怖の状態にある。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.27%",
+        "value": "-0.04%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
@@ -1010,18 +1010,18 @@
       },
       {
         "label": "CoinTelegraph",
+        "value": "Bank of England eases stablecoin rules, introduces 40B pound issuance cap",
+        "url": "https://cointelegraph.com/news/bank-of-england-stablecoin-rules-clears-path-for-2027-launch?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "South Korea pushes Travel Rule expansion for smaller crypto transfers",
+        "url": "https://cointelegraph.com/news/south-korea-travel-rule-smaller-crypto-transfers?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
         "value": "Here’s what happened in crypto today",
         "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Morgan Stanley amends Ethereum, Solana ETFs to reveal record cheap fees",
-        "url": "https://cointelegraph.com/news/morgan-stanley-amends-ethereum-solana-etfs-to-undercut-rivals-fees?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Taiko urges users to withdraw as bridge exploit drains $1.7M",
-        "url": "https://cointelegraph.com/news/taiko-urges-users-to-withdraw-as-bridge-exploit-drains-17m?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

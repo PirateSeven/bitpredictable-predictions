@@ -1,6 +1,6 @@
 {
   "coinId": "binancecoin",
-  "generatedAt": "2026-06-22T09:00:07.792958Z",
+  "generatedAt": "2026-06-22T10:00:08.169609Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 0.40361790047190504,
-    "confidence": 0.7285
+    "changePercent24h": 0.7548892931971746,
+    "confidence": 0.8234
   },
   "commentary": {
-    "en": "BNB's 24-hour direction is predicted to be flat with a -0.2% change, indicating a neutral sentiment. The recent news of various bridge exploits and Morgan Stanley's ETF amendments may have a limited impact on BNB's price. The Fear & Greed Index at 20 suggests extreme fear in the market.",
-    "ja": "ビナンスコインの24時間予想は、-0.2％の変化でフラットであることを示唆しています。橋接攻撃やモーガン・スタンレーのETFの変更などの最近のニュースはビナンスコインの価格に限りなく影響を与える可能性があります。恐怖と欲求不満指数が20であることは市場が極度の恐怖に陥っていることを示しています。",
+    "en": "BNB's 24-hour direction is predicted to be flat with a -0.2% change, indicating a neutral sentiment. The Fear & Greed Index remains at 20, reflecting extreme fear in the market. Recent news on stablecoin regulations and Morgan Stanley's ETF amendments may influence BNB's price.",
+    "ja": "ビナンスコインの24時間の動向は、-0.2％の変化を予測しており、中立的な感情を示しています。恐怖と欲求不満指数は20に留まり、市場全体に恐怖が広がっています。安定コイン規制やマーガン・スタンレーのETFの変更に関するニュースは、ビナンスコインの価格に影響を与えるかもしれません。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.27%",
+        "value": "-0.04%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
@@ -1010,18 +1010,18 @@
       },
       {
         "label": "CoinTelegraph",
+        "value": "Bank of England eases stablecoin rules, introduces 40B pound issuance cap",
+        "url": "https://cointelegraph.com/news/bank-of-england-stablecoin-rules-clears-path-for-2027-launch?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "South Korea pushes Travel Rule expansion for smaller crypto transfers",
+        "url": "https://cointelegraph.com/news/south-korea-travel-rule-smaller-crypto-transfers?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
         "value": "Here’s what happened in crypto today",
         "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Morgan Stanley amends Ethereum, Solana ETFs to reveal record cheap fees",
-        "url": "https://cointelegraph.com/news/morgan-stanley-amends-ethereum-solana-etfs-to-undercut-rivals-fees?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Taiko urges users to withdraw as bridge exploit drains $1.7M",
-        "url": "https://cointelegraph.com/news/taiko-urges-users-to-withdraw-as-bridge-exploit-drains-17m?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

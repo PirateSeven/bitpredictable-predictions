@@ -1,6 +1,6 @@
 {
   "coinId": "rain",
-  "generatedAt": "2026-06-22T09:00:07.792958Z",
+  "generatedAt": "2026-06-22T10:00:08.169609Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 0.4927246479493502,
-    "confidence": 0.9208
+    "changePercent24h": 0.6325027347563766,
+    "confidence": 0.9333
   },
   "commentary": {
-    "en": "Rain's price is expected to remain relatively stable in the short term, with a predicted 24-hour direction of flat, and a confidence level of 83%. The RSI-14 is at 52, indicating a neutral market sentiment. The recent news of various bridge exploits and ETF amendments may have a limited impact on Rain's price.",
-    "ja": "Rainの価格は短期的には比較的安定することが予想され、24時間の予測方向はフラット、信頼度83％です。RSI-14は52で、市場の感情は中立的なものです。最近の橋梁のエクスプロイトやETFの変更などに関するニュースはRainの価格に限りなく影響を与える可能性はあります。",
+    "en": "Rain (RAIN) is expected to remain flat in the next 24 hours with a predicted return of -0.1%. The recent news about stablecoin rules and Travel Rule expansion in South Korea may have a limited impact on RAIN's price. The Fear & Greed Index remains in Extreme Fear territory.",
+    "ja": "Rain (RAIN)は来日24時間で-0.1%の予想リターンでフラットのままになる可能性があります。stablecoin規制や韓国のTravel Rule拡大に関するニュースはRAINの価格に限られた影響を与える可能性があります。Fear & Greed Indexは今でも極度の恐怖の状態です。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.27%",
+        "value": "-0.04%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
@@ -1010,18 +1010,18 @@
       },
       {
         "label": "CoinTelegraph",
+        "value": "Bank of England eases stablecoin rules, introduces 40B pound issuance cap",
+        "url": "https://cointelegraph.com/news/bank-of-england-stablecoin-rules-clears-path-for-2027-launch?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "South Korea pushes Travel Rule expansion for smaller crypto transfers",
+        "url": "https://cointelegraph.com/news/south-korea-travel-rule-smaller-crypto-transfers?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
         "value": "Here’s what happened in crypto today",
         "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Morgan Stanley amends Ethereum, Solana ETFs to reveal record cheap fees",
-        "url": "https://cointelegraph.com/news/morgan-stanley-amends-ethereum-solana-etfs-to-undercut-rivals-fees?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Taiko urges users to withdraw as bridge exploit drains $1.7M",
-        "url": "https://cointelegraph.com/news/taiko-urges-users-to-withdraw-as-bridge-exploit-drains-17m?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

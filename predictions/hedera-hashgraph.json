@@ -1,6 +1,6 @@
 {
   "coinId": "hedera-hashgraph",
-  "generatedAt": "2026-06-22T09:00:07.792958Z",
+  "generatedAt": "2026-06-22T10:00:08.169609Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": 0.15140624364687238,
-    "confidence": 0.3417
+    "changePercent24h": 0.26637243888277884,
+    "confidence": 0.4883
   },
   "commentary": {
-    "en": "Hedera (HEDERA-HASHGRAPH) is expected to decline by -0.8% in the next 24 hours, with a confidence level of 74%. The current market sentiment is extreme fear, as indicated by the Fear & Greed Index of 20. The recent news of bridge exploits and security concerns may have a negative impact on the market.",
-    "ja": "Hedera (HEDERA-HASHGRAPH) は、次の24時間で-0.8%の下落が予想され、信頼度は74%です。Fear & Greed Indexは20で、極度の恐怖の市場感覚を示しています。最近の橋梁の侵害とセキュリティの懸念に関するニュースは市場に否定的な影響を与える可能性があります。",
+    "en": "The model predicts Hedera will decline ~0.8% over the next 24 hours with high confidence (74%). Price moved -0.64% in the past 24 hours with volume at 1.1× average. Community sentiment on CoinGecko is 100% bullish and the Fear & Greed Index reads \"Extreme Fear\" (20), diverging from the model's forecast, adding uncertainty.",
+    "ja": "モデルはHederaが今後24時間で約0.8%下落すると予測しています（信頼度: 高い 74%）。過去24時間のリターンは-0.64%、出来高は平均の1.1倍です。CoinGeckoコミュニティでは100%が強気を示し、Fear & Greed指数は「Extreme Fear」（20）です。予測方向と乖離があり、不確実性が高まっています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.27%",
+        "value": "-0.04%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
@@ -1010,18 +1010,18 @@
       },
       {
         "label": "CoinTelegraph",
+        "value": "Bank of England eases stablecoin rules, introduces 40B pound issuance cap",
+        "url": "https://cointelegraph.com/news/bank-of-england-stablecoin-rules-clears-path-for-2027-launch?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "South Korea pushes Travel Rule expansion for smaller crypto transfers",
+        "url": "https://cointelegraph.com/news/south-korea-travel-rule-smaller-crypto-transfers?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
         "value": "Here’s what happened in crypto today",
         "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Morgan Stanley amends Ethereum, Solana ETFs to reveal record cheap fees",
-        "url": "https://cointelegraph.com/news/morgan-stanley-amends-ethereum-solana-etfs-to-undercut-rivals-fees?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Taiko urges users to withdraw as bridge exploit drains $1.7M",
-        "url": "https://cointelegraph.com/news/taiko-urges-users-to-withdraw-as-bridge-exploit-drains-17m?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

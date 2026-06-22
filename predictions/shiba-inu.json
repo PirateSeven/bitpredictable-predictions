@@ -1,6 +1,6 @@
 {
   "coinId": "shiba-inu",
-  "generatedAt": "2026-06-22T09:00:07.792958Z",
+  "generatedAt": "2026-06-22T10:00:08.169609Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": 1.8817385905456128,
-    "confidence": 0.8684
+    "changePercent24h": 1.8985915863246134,
+    "confidence": 0.8695
   },
   "commentary": {
-    "en": "Shiba Inu's (SHIB) 24-hour direction is predicted to be down by 0.9% with a 75% confidence level. The RSI-14 and Bollinger Band %B indicators suggest a neutral market sentiment. The recent news of various bridge exploits and security concerns in the crypto market may contribute to the bearish sentiment.",
-    "ja": "シャイバ・インウの24時間の方向は、0.9%の下落を予測し、75%の信頼度を持っています。RSI-14とボリンジャー・バンド％Bの指標は、市場の中立的な感性を示しています。最近のニュースで、ブロックチェーン上のブリッジのハッキングやセキュリティの懸念が、恐怖の感覚を高めている可能性があります。",
+    "en": "Shiba Inu (SHIB) is predicted to decline by 0.9% in the next 24 hours with a 75% confidence level. The Fear & Greed Index remains in extreme fear territory, while the overall crypto market cap is relatively stable. The recent news on stablecoin rules and bridge exploits may have a negative impact on SHIB's price.",
+    "ja": "Shiba Inu (SHIB) は、次の 24 時間で 0.9% の下落が予想され、75% の信頼度が付与されています。Fear & Greed Index は、極度の恐怖の状態にありますが、総 crypto マーケット キャップは比較的安定しています。stablecoin の規制とブリッジのエクスプロイトに関する最近のニュースは、SHIB の価格に否定的な影響を与える可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.27%",
+        "value": "-0.04%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
@@ -1010,18 +1010,18 @@
       },
       {
         "label": "CoinTelegraph",
+        "value": "Bank of England eases stablecoin rules, introduces 40B pound issuance cap",
+        "url": "https://cointelegraph.com/news/bank-of-england-stablecoin-rules-clears-path-for-2027-launch?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "South Korea pushes Travel Rule expansion for smaller crypto transfers",
+        "url": "https://cointelegraph.com/news/south-korea-travel-rule-smaller-crypto-transfers?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
         "value": "Here’s what happened in crypto today",
         "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Morgan Stanley amends Ethereum, Solana ETFs to reveal record cheap fees",
-        "url": "https://cointelegraph.com/news/morgan-stanley-amends-ethereum-solana-etfs-to-undercut-rivals-fees?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Taiko urges users to withdraw as bridge exploit drains $1.7M",
-        "url": "https://cointelegraph.com/news/taiko-urges-users-to-withdraw-as-bridge-exploit-drains-17m?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

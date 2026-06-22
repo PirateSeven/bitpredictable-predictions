@@ -1,6 +1,6 @@
 {
   "coinId": "ripple",
-  "generatedAt": "2026-06-22T09:00:07.792958Z",
+  "generatedAt": "2026-06-22T10:00:08.169609Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -1.6194306408139283,
-    "confidence": 0.8615
+    "changePercent24h": -1.2993130706391445,
+    "confidence": 0.8329
   },
   "commentary": {
-    "en": "XRP is expected to decline by 0.7% in the next 24 hours, with a confidence level of 72%. The recent news of bridge exploits and security concerns may have contributed to the market's extreme fear, as indicated by the Fear & Greed Index. XRP's short-term trend remains sideways, with neutral RSI-14 and mid-band Bollinger Band %B.",
-    "ja": "XRPの24時間予想は下落、-0.7%の予想で72%の信頼度です。橋のエクスプロイトやセキュリティの懸念が市場の極度の恐怖に貢献した可能性があり、Fear & Greed Indexが示しています。XRPの短期のトレンドは横方向に動いています、RSI-14は中立的で、ボリンジャー・バンドの%Bは中間です。",
+    "en": "XRP's 24-hour direction is predicted to be down by 0.7% with a 72% confidence level. The recent easing of stablecoin rules by the Bank of England and the expansion of the Travel Rule in South Korea may have a neutral impact on XRP's price. However, the overall market sentiment remains in extreme fear.",
+    "ja": "XRPの24時間の方向は、0.7%の下落を予測し、72%の信頼度を持っています。Bank of Englandがstablecoin規制を緩和し、South KoreaがTravel Ruleを拡大したことは、XRPの価格に中立的な影響を与えるかもしれません。ただし、総合的な市場の感情は極度の恐怖のままです。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.27%",
+        "value": "-0.04%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
@@ -1010,18 +1010,18 @@
       },
       {
         "label": "CoinTelegraph",
+        "value": "Bank of England eases stablecoin rules, introduces 40B pound issuance cap",
+        "url": "https://cointelegraph.com/news/bank-of-england-stablecoin-rules-clears-path-for-2027-launch?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "South Korea pushes Travel Rule expansion for smaller crypto transfers",
+        "url": "https://cointelegraph.com/news/south-korea-travel-rule-smaller-crypto-transfers?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
         "value": "Here’s what happened in crypto today",
         "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Morgan Stanley amends Ethereum, Solana ETFs to reveal record cheap fees",
-        "url": "https://cointelegraph.com/news/morgan-stanley-amends-ethereum-solana-etfs-to-undercut-rivals-fees?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Taiko urges users to withdraw as bridge exploit drains $1.7M",
-        "url": "https://cointelegraph.com/news/taiko-urges-users-to-withdraw-as-bridge-exploit-drains-17m?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

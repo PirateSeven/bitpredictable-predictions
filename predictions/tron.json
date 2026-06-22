@@ -1,6 +1,6 @@
 {
   "coinId": "tron",
-  "generatedAt": "2026-06-22T09:00:07.792958Z",
+  "generatedAt": "2026-06-22T10:00:08.169609Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 1.7023941675475096,
-    "confidence": 0.943
+    "changePercent24h": 1.4321475671755346,
+    "confidence": 0.9338
   },
   "commentary": {
-    "en": "TRON's price movement is expected to be flat in the next 24 hours, with a 0.0% predicted return and a 68% confidence level. The RSI-14 is overbought, and the Bollinger Band %B is at the upper band, indicating potential price correction. The recent news of bridge exploits and security concerns may have a negative impact on investor sentiment.",
-    "ja": "トロンの価格動向は、次の24時間で0.0%の予想上昇率と68%の信頼度でフラットになる可能性があります。RSI-14はオーバーブート、ボリンジャー・バンド %Bは上限にあり、価格の調整が起こりそうです。最近の橋梁のハックやセキュリティの懸念に関するニュースは投資家の意識に否定的な影響を与える可能性があります。",
+    "en": "TRON's 24-hour direction is predicted to be flat with a 68% confidence level, as the RSI-14 is overbought and the short-term trend is sideways. The recent news of easing stablecoin rules and expanding travel rules may have a mixed impact on the market. TRON's price may consolidate in the near term due to the overall market's extreme fear sentiment.",
+    "ja": "トロンの24時間の方向性は、68％の信頼度でフラットと予測されています。RSI-14はオーバーボールド、短期傾向は横方向にあります。安定コイン規制緩和やトラベルルール拡大などの最近のニュースは市場に混乱をもたらす可能性があります。トロンの価格は、総市場の極度の恐怖感に伴い、短期的には安定化する可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,28 +1000,28 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.27%",
+        "value": "-0.04%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "48% bullish",
+        "value": "50% bullish",
         "url": "https://www.coingecko.com/en/coins/tron"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bank of England eases stablecoin rules, introduces 40B pound issuance cap",
+        "url": "https://cointelegraph.com/news/bank-of-england-stablecoin-rules-clears-path-for-2027-launch?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "South Korea pushes Travel Rule expansion for smaller crypto transfers",
+        "url": "https://cointelegraph.com/news/south-korea-travel-rule-smaller-crypto-transfers?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
         "value": "Here’s what happened in crypto today",
         "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Morgan Stanley amends Ethereum, Solana ETFs to reveal record cheap fees",
-        "url": "https://cointelegraph.com/news/morgan-stanley-amends-ethereum-solana-etfs-to-undercut-rivals-fees?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Taiko urges users to withdraw as bridge exploit drains $1.7M",
-        "url": "https://cointelegraph.com/news/taiko-urges-users-to-withdraw-as-bridge-exploit-drains-17m?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

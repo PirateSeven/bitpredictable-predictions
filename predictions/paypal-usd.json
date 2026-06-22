@@ -1,6 +1,6 @@
 {
   "coinId": "paypal-usd",
-  "generatedAt": "2026-06-22T09:00:07.792958Z",
+  "generatedAt": "2026-06-22T10:00:08.169609Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 0.034039180915705465,
+    "changePercent24h": 0.06303908843820077,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "PayPal USD is expected to remain flat with a 0.0% 24-hour direction due to neutral technical signals and a sideways short-term trend. The Fear & Greed Index remains in extreme fear, but the recent news of Morgan Stanley's ETF amendments and the exploitation of several bridges may have a mixed impact on the market. The high volume ratio suggests increased trading activity.",
-    "ja": "PayPal USD は、中立的な技術指標と短期的な傾向の横方向に推定されるため、24時間方向は 0.0% となる。恐怖と欲求不満指数は極度の恐怖のままであり、Morgan Stanley の ETF の修正とブリッジの搾取のニュースは市場に混乱をもたらす可能性がある。高いボリューム比率は、取引活動の増加を示唆している。",
+    "en": "The model predicts PayPal USD will trade sideways over the next 24 hours with high confidence (95%). Volume is elevated at 1.5× the daily average, amplifying the directional signal. Community sentiment on CoinGecko is 25% bullish and the Fear & Greed Index reads \"Extreme Fear\" (20), aligning with the model's forecast.",
+    "ja": "モデルはPayPal USDが今後24時間で横ばいで推移すると予測しています（信頼度: 高い 95%）。出来高が平均の1.5倍と高水準で、方向性シグナルを強化しています。CoinGeckoコミュニティでは25%が強気を示し、Fear & Greed指数は「Extreme Fear」（20）です。予測と方向性が一致しています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.27%",
+        "value": "-0.04%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
@@ -1010,18 +1010,18 @@
       },
       {
         "label": "CoinTelegraph",
+        "value": "Bank of England eases stablecoin rules, introduces 40B pound issuance cap",
+        "url": "https://cointelegraph.com/news/bank-of-england-stablecoin-rules-clears-path-for-2027-launch?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "South Korea pushes Travel Rule expansion for smaller crypto transfers",
+        "url": "https://cointelegraph.com/news/south-korea-travel-rule-smaller-crypto-transfers?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
         "value": "Here’s what happened in crypto today",
         "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Morgan Stanley amends Ethereum, Solana ETFs to reveal record cheap fees",
-        "url": "https://cointelegraph.com/news/morgan-stanley-amends-ethereum-solana-etfs-to-undercut-rivals-fees?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Taiko urges users to withdraw as bridge exploit drains $1.7M",
-        "url": "https://cointelegraph.com/news/taiko-urges-users-to-withdraw-as-bridge-exploit-drains-17m?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

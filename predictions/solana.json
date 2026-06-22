@@ -1,6 +1,6 @@
 {
   "coinId": "solana",
-  "generatedAt": "2026-06-22T09:00:07.792958Z",
+  "generatedAt": "2026-06-22T10:00:08.169609Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -2.27029974556925,
-    "confidence": 0.837
+    "changePercent24h": -1.5381997625864923,
+    "confidence": 0.7703
   },
   "commentary": {
-    "en": "Solana's 24-hour return is +1.20%, with a predicted flat direction and low confidence. The Fear & Greed Index remains in Extreme Fear at 20, while the CoinGecko community is 83% bullish. Recent news includes a bridge exploit draining $1.7M from Taiko and $4.7M from Secret Network.",
-    "ja": "ソラナの24時間リターンは+1.20%、予想はフラットで信頼度は低い。恐怖と欲求不満指数は20でエクストリーム・フィアにあり、CoinGeckoコミュニティは83％がバブルに。最近のニュースには、Taikoから$1.7M、Secret Networkから$4.7Mを流失させるブリッジのハックが含まれる。",
+    "en": "Solana's price is expected to remain flat with a slight decline of -0.2% in the next 24 hours due to the sideways trend and neutral RSI-14 reading. The recent news of Morgan Stanley's amended ETFs with record cheap fees may have a positive impact, but the overall market sentiment remains in extreme fear. The Fear & Greed Index at 20 and the negative total crypto market cap 24h change also indicate a cautious outlook.",
+    "ja": "ソラナの価格は、横方向の傾向と中立的なRSI-14の値を考慮して、来週の24時間で-0.2%の小さな下落が予想されます。モルガン・スタンレーのETFの料金が記録的な安いものに改定されたニュースは、肯定的な影響を与えるかもしれないが、総合的な市場感情は極度の恐怖の状態にある。恐怖と欲求不満指数が20と、総合的な暗号資産市場の24時間の変化が負の値であることも、慎重な姿勢を示している。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.27%",
+        "value": "-0.04%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
@@ -1010,18 +1010,18 @@
       },
       {
         "label": "CoinTelegraph",
+        "value": "Bank of England eases stablecoin rules, introduces 40B pound issuance cap",
+        "url": "https://cointelegraph.com/news/bank-of-england-stablecoin-rules-clears-path-for-2027-launch?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "South Korea pushes Travel Rule expansion for smaller crypto transfers",
+        "url": "https://cointelegraph.com/news/south-korea-travel-rule-smaller-crypto-transfers?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
         "value": "Here’s what happened in crypto today",
         "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Morgan Stanley amends Ethereum, Solana ETFs to reveal record cheap fees",
-        "url": "https://cointelegraph.com/news/morgan-stanley-amends-ethereum-solana-etfs-to-undercut-rivals-fees?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Taiko urges users to withdraw as bridge exploit drains $1.7M",
-        "url": "https://cointelegraph.com/news/taiko-urges-users-to-withdraw-as-bridge-exploit-drains-17m?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }
