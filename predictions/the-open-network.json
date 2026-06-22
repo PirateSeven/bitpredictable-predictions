@@ -1,6 +1,6 @@
 {
   "coinId": "the-open-network",
-  "generatedAt": "2026-06-22T03:00:08.411540Z",
+  "generatedAt": "2026-06-22T04:00:08.209874Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -4.741699729898777,
+    "changePercent24h": -4.7418654073449655,
     "confidence": 0.9294
   },
   "commentary": {
-    "en": "Gram (prev. Toncoin) (THE-OPEN-NETWORK) is predicted to experience a flat 24-hour direction with a -0.5% change, indicating a neutral market sentiment. The recent news on Bitcoin's price fluctuations and potential market crashes may have a limited impact on THE-OPEN-NETWORK's price. The coin's short-term trend remains in a downtrend.",
-    "ja": "THE-OPEN-NETWORKは24時間の方向性はフラットで-0.5％の変化が予想され、市場の感情は中立的である。ビットコインの価格変動や市場の暴落に関する最近のニュースは、THE-OPEN-NETWORKの価格に限られた影響を与える可能性がある。コインの短期的な傾向は下降傾向にある。",
+    "en": "The model predicts Gram (prev. Toncoin) will trade sideways over the next 24 hours with moderate confidence (51%). Price is near lower Bollinger Band support, where rebounds are historically more frequent. Community sentiment on CoinGecko is 75% bullish and the Fear & Greed Index reads \"Extreme Fear\" (20), diverging from the model's forecast, adding uncertainty.",
+    "ja": "モデルはGram (prev. Toncoin)が今後24時間で横ばいで推移すると予測しています（信頼度: 中程度の 51%）。価格がボリンジャーバンド下限付近で、サポートからの反発が過去パターンより多く観察されます。CoinGeckoコミュニティでは75%が強気を示し、Fear & Greed指数は「Extreme Fear」（20）です。予測方向と乖離があり、不確実性が高まっています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.04%",
+        "value": "-0.73%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "75% bullish",
         "url": "https://www.coingecko.com/en/coins/the-open-network"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Secret Network bridge exploited for $4.7M with ‘infinite mint’ bug",
+        "url": "https://cointelegraph.com/news/secret-network-bridge-exploited-infinite-mint-bug?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Bitcoin price may hit $24K if US stock market crashes by 50%, analyst warns",
         "url": "https://cointelegraph.com/markets/bitcoin-price-may-hit-24k-if-us-stock-market-crashes-by-50-analyst-warns?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Dash eyes Philippines as market for crypto payments",
-        "url": "https://cointelegraph.com/news/dash-eyes-philippines-crypto-payments-market?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

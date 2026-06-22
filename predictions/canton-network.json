@@ -1,6 +1,6 @@
 {
   "coinId": "canton-network",
-  "generatedAt": "2026-06-22T03:00:08.411540Z",
+  "generatedAt": "2026-06-22T04:00:08.209874Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -3.1260822704049973,
+    "changePercent24h": -3.1257321623180028,
     "confidence": 0.905
   },
   "commentary": {
-    "en": "Canton (CANTON-NETWORK) is predicted to have a 24-hour direction of DOWN with a confidence of 77%, driven by a downtrend in the short-term trend and a recent 24h actual return of -1.56%. The Fear & Greed Index is at 20, indicating Extreme Fear in the market. With the total crypto market cap experiencing a minimal 24h change, Canton's price may be heavily influenced by external market factors.",
-    "ja": "キャントン ネットワーク (CANTON-NETWORK) の24時間の方向は下向きと予想されており、信頼性は77%です。これは短期的な傾向が下向き傾向であることと、24時間の実際のリターンが-1.56%であることによって推測されます。恐怖と欲求不満指数は20で、市場は極度の恐怖に陥っています。総暗号資産市場キャップは24時間でほとんど変化がないため、キャントン ネットワークの価格は外部の市場要因によって大きく影響を受ける可能性があります。",
+    "en": "The model predicts Canton will decline ~1.2% over the next 24 hours with high confidence (77%). The short-term SMA is below the medium-term SMA, indicating weakening momentum. Community sentiment on CoinGecko is 57% bullish and the Fear & Greed Index reads \"Extreme Fear\" (20), diverging from the model's forecast, adding uncertainty.",
+    "ja": "モデルはCantonが今後24時間で約1.2%下落すると予測しています（信頼度: 高い 77%）。短期移動平均が中期移動平均を下回り、モメンタムの低下が示されています。CoinGeckoコミュニティでは57%が強気を示し、Fear & Greed指数は「Extreme Fear」（20）です。予測方向と乖離があり、不確実性が高まっています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.04%",
+        "value": "-0.73%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "57% bullish",
         "url": "https://www.coingecko.com/en/coins/canton-network"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Secret Network bridge exploited for $4.7M with ‘infinite mint’ bug",
+        "url": "https://cointelegraph.com/news/secret-network-bridge-exploited-infinite-mint-bug?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Bitcoin price may hit $24K if US stock market crashes by 50%, analyst warns",
         "url": "https://cointelegraph.com/markets/bitcoin-price-may-hit-24k-if-us-stock-market-crashes-by-50-analyst-warns?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Dash eyes Philippines as market for crypto payments",
-        "url": "https://cointelegraph.com/news/dash-eyes-philippines-crypto-payments-market?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

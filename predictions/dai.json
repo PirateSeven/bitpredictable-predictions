@@ -1,6 +1,6 @@
 {
   "coinId": "dai",
-  "generatedAt": "2026-06-22T03:00:08.411540Z",
+  "generatedAt": "2026-06-22T04:00:08.209874Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.057163700024508726,
+    "changePercent24h": -0.0571625855493943,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "Dai (DAI) is expected to trade flat in the next 24 hours with a confidence level of 95%. The current market sentiment is extremely fearful, but DAI's neutral RSI-14 reading and mid-band Bollinger Band %B suggest a stable short-term trend. With a normal volume ratio and sideways short-term trend, DAI's price movement is likely to be influenced by the overall crypto market.",
-    "ja": "DAI（DAI）は、次の24時間で95％の確信度でフラットで取引されることが予想されます。現在の市場感情は非常に恐怖に満ちているものの、DAIの中立的なRSI-14の値とバンドの中心にあるボリンジャー・バンドの％Bは短期の傾向を安定させている。正常なボリューム・レシオと横方向の短期傾向とともに、DAIの価格動向は総合的な暗号通貨市場に影響を受ける可能性があります。",
+    "en": "Dai (DAI) is expected to remain flat in the next 24 hours with a 95% confidence level. The current market context, including the Fear & Greed Index and the total crypto market cap, suggests a cautious approach. DAI's technical signals, such as the neutral RSI-14 and mid-band Bollinger Band %B, also support a sideways trend.",
+    "ja": "DAIは次の24時間で95％の確率でフラットで推移することが予想されます。Fear＆Greed Indexや総暗号資産市場キャップなどの市場状況は、慎重なアプローチを示唆しています。DAIの技術指標、RSI-14とボリンジャーバンド％Bの中間線は、横方向のトレンドを支持しています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.04%",
+        "value": "-0.73%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "0% bullish",
         "url": "https://www.coingecko.com/en/coins/dai"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Secret Network bridge exploited for $4.7M with ‘infinite mint’ bug",
+        "url": "https://cointelegraph.com/news/secret-network-bridge-exploited-infinite-mint-bug?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Bitcoin price may hit $24K if US stock market crashes by 50%, analyst warns",
         "url": "https://cointelegraph.com/markets/bitcoin-price-may-hit-24k-if-us-stock-market-crashes-by-50-analyst-warns?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Dash eyes Philippines as market for crypto payments",
-        "url": "https://cointelegraph.com/news/dash-eyes-philippines-crypto-payments-market?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "coinId": "ripple",
-  "generatedAt": "2026-06-22T03:00:08.411540Z",
+  "generatedAt": "2026-06-22T04:00:08.209874Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -1.4482584904766713,
+    "changePercent24h": -1.4481712006742569,
     "confidence": 0.867
   },
   "commentary": {
-    "en": "XRP's 24-hour direction is predicted to be flat with a -0.4% change, indicating a neutral sentiment. The Fear & Greed Index remains in extreme fear territory, while the CoinGecko community is 65% bullish. Recent news on Bitcoin's price movements and potential market crashes may influence XRP's price.",
-    "ja": "リップルは24時間の予想方向はフラットで-0.4％の変化と予想され、ニュートラルの感覚を示しています。恐怖と欲求不満指数はまだ極度の恐怖の領域にあり、CoinGeckoコミュニティは65％がバ Bullishです。最近のニュースではビットコインの価格動向と潜在的な市場の崩壊がリップルの価格に影響を与える可能性があります。",
+    "en": "XRP's 24-hour direction is predicted to be flat with a -0.4% change, indicating a neutral sentiment. The recent market context suggests extreme fear, with the Fear & Greed Index at 20, and a total crypto market cap 24-hour change of -0.73%. XRP's short-term trend remains sideways, with no clear direction.",
+    "ja": "リップルの24時間の方向は、-0.4%の変化で予測されています。最近の市場状況は恐怖の状態で、Fear & Greed Indexは20、総暗号資産の24時間変化は-0.73%です。リップルの短期的な傾向は、明確な方向性がなく、横方向に進んでいます。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.04%",
+        "value": "-0.73%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "65% bullish",
+        "value": "64% bullish",
         "url": "https://www.coingecko.com/en/coins/ripple"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Secret Network bridge exploited for $4.7M with ‘infinite mint’ bug",
+        "url": "https://cointelegraph.com/news/secret-network-bridge-exploited-infinite-mint-bug?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Bitcoin price may hit $24K if US stock market crashes by 50%, analyst warns",
         "url": "https://cointelegraph.com/markets/bitcoin-price-may-hit-24k-if-us-stock-market-crashes-by-50-analyst-warns?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Dash eyes Philippines as market for crypto payments",
-        "url": "https://cointelegraph.com/news/dash-eyes-philippines-crypto-payments-market?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "coinId": "paypal-usd",
-  "generatedAt": "2026-06-22T03:00:08.411540Z",
+  "generatedAt": "2026-06-22T04:00:08.209874Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.05410485720081361,
+    "changePercent24h": -0.05410588123616897,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "PayPal USD is expected to remain flat in the next 24 hours with a -0.0% predicted return, as the Fear & Greed Index remains in Extreme Fear territory and the cryptocurrency market cap sees a minor increase. The recent news of a Japanese corporate pension fund planning a 1% crypto allocation could have a positive impact on the market. However, the overall sentiment remains cautious.",
-    "ja": "PayPal USD は、来る24時間で-0.0%の予想リターンでフラットに推移する可能性があり、Fear & Greed Indexはエクストリーム フィアの領域にあり、cryptocurrency market capは僅かに増加している。日本の企業の年金基金が1%のcryptocurrencyの割合を計画しているニュースは、市場に肯定的な影響を与える可能性があるが、全体的な感覚は慎重である。",
+    "en": "Paypal USD is expected to remain flat in the next 24 hours with a 95% confidence level, as its RSI-14 is neutral and Bollinger Band %B is at the mid band. The recent news on cryptocurrency market has been dominated by negative sentiment, with the Fear & Greed Index at 20, indicating extreme fear. The overall crypto market is experiencing a decline, with the total market cap down 0.73%.",
+    "ja": "Paypal USD は、次の24時間に95％の確率でフラットで推定されます。 RSI-14 は中立的で、ボリンジャー バンド %B は中間帯にあります。 最近のニュースは、恐怖と欲求不満指数が20に達し、極度の恐怖を示しています。 さらに、総市場キャップは0.73％下落しています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.04%",
+        "value": "-0.73%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "25% bullish",
         "url": "https://www.coingecko.com/en/coins/paypal-usd"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Secret Network bridge exploited for $4.7M with ‘infinite mint’ bug",
+        "url": "https://cointelegraph.com/news/secret-network-bridge-exploited-infinite-mint-bug?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Bitcoin price may hit $24K if US stock market crashes by 50%, analyst warns",
         "url": "https://cointelegraph.com/markets/bitcoin-price-may-hit-24k-if-us-stock-market-crashes-by-50-analyst-warns?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Dash eyes Philippines as market for crypto payments",
-        "url": "https://cointelegraph.com/news/dash-eyes-philippines-crypto-payments-market?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

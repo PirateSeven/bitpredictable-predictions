@@ -1,6 +1,6 @@
 {
   "coinId": "tether",
-  "generatedAt": "2026-06-22T03:00:08.411540Z",
+  "generatedAt": "2026-06-22T04:00:08.209874Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 0.017031967114801018,
+    "changePercent24h": 0.017035809837523973,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "Tether is expected to remain flat in the next 24 hours with a 95% confidence level. The Fear & Greed Index is at 20, indicating extreme fear in the market, and the recent news about Bitcoin's price fluctuations may impact Tether's stability. However, the neutral RSI-14 and sideways short-term trend suggest a stable outlook.",
-    "ja": "テザーは次の24時間に95％の確実性でフラットに推定される。恐怖と欲求不満指数は20で、極度の恐怖を示しており、ビットコインの価格変動に関する最近のニュースがテザーの安定性に影響する可能性がある。ただし、RSI-14は中立的で、短期の傾向は横方向に推移しているため、安定した展開が見込まれる。",
+    "en": "Tether's flat 24-hour direction is expected due to neutral RSI-14 and sideways short-term trend. The Fear & Greed Index remains in Extreme Fear territory, but the recent news on the Secret Network bridge exploit and potential US stock market crash may influence market sentiment. Tether's price stability is likely to be maintained due to its peg to the US dollar.",
+    "ja": "テザーの24時間の方向は、ニュートラルのRSI-14と短期のトレンドが横方向にあるため、予想される平坦なものである。恐怖と欲求不満指数は極度の恐怖の領域にあり、最近のニュースであるシークレット・ネットワークのブリッジのハックと米国株式市場の50％下落による影響が市場の動向に影響を与える可能性がある。テザーの価格安定性は、米国ドルへの固定価格で維持されるため、維持されるようである。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.04%",
+        "value": "-0.73%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "75% bullish",
         "url": "https://www.coingecko.com/en/coins/tether"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Secret Network bridge exploited for $4.7M with ‘infinite mint’ bug",
+        "url": "https://cointelegraph.com/news/secret-network-bridge-exploited-infinite-mint-bug?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Bitcoin price may hit $24K if US stock market crashes by 50%, analyst warns",
         "url": "https://cointelegraph.com/markets/bitcoin-price-may-hit-24k-if-us-stock-market-crashes-by-50-analyst-warns?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Dash eyes Philippines as market for crypto payments",
-        "url": "https://cointelegraph.com/news/dash-eyes-philippines-crypto-payments-market?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

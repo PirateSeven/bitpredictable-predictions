@@ -1,6 +1,6 @@
 {
   "coinId": "memecore",
-  "generatedAt": "2026-06-22T03:00:08.411540Z",
+  "generatedAt": "2026-06-22T04:00:08.209874Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": 1.7888523216946477,
+    "changePercent24h": 1.7889094089596886,
     "confidence": 0.8527
   },
   "commentary": {
-    "en": "MemeCore (MEMECORE) is predicted to drop by -1.1% in the next 24 hours with a confidence level of 77%. The short-term trend remains uptrend despite the Fear & Greed Index indicating extreme fear. The recent news on Bitcoin's potential price movements may influence the broader market sentiment.",
-    "ja": "メムコア (MEMECORE) は次の24時間で-1.1%の下落が予測されており、信頼度は77%です。短期的な傾向は上昇傾向ですが、恐怖と欲求不満指数が極度の恐怖を示しているため、市場の総体感は不安定です。ビットコインの価格変動に関する最近のニュースは、市場の総体感に影響を与える可能性があります。",
+    "en": "MemeCore (MEMECORE) is predicted to move downward by 1.1% in the next 24 hours, with a confidence level of 77%. The recent news of a secret network bridge exploit and potential US stock market crashes may contribute to the bearish sentiment. The short-term trend remains in an uptrend, but the overall market context suggests caution.",
+    "ja": "メムコア (MEMECORE) は、次の24時間に1.1%下落する予想であり、信頼度は77%です。最近のニュースでは、シークレットネットワークのブリッジのハックや米国株式市場の暴落など、恐れの感情が高まっています。短期的な傾向は上昇傾向ですが、総合的な市場状況は注意を要します。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.04%",
+        "value": "-0.73%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "33% bullish",
         "url": "https://www.coingecko.com/en/coins/memecore"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Secret Network bridge exploited for $4.7M with ‘infinite mint’ bug",
+        "url": "https://cointelegraph.com/news/secret-network-bridge-exploited-infinite-mint-bug?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Bitcoin price may hit $24K if US stock market crashes by 50%, analyst warns",
         "url": "https://cointelegraph.com/markets/bitcoin-price-may-hit-24k-if-us-stock-market-crashes-by-50-analyst-warns?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Dash eyes Philippines as market for crypto payments",
-        "url": "https://cointelegraph.com/news/dash-eyes-philippines-crypto-payments-market?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

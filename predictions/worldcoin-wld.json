@@ -1,6 +1,6 @@
 {
   "coinId": "worldcoin-wld",
-  "generatedAt": "2026-06-22T03:00:08.411540Z",
+  "generatedAt": "2026-06-22T04:00:08.209874Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": 7.787575233026619,
+    "changePercent24h": 7.787914351883941,
     "confidence": 0.938
   },
   "commentary": {
-    "en": "Worldcoin WLD is predicted to decline by 2.5% in the next 24 hours with a confidence level of 81%. The recent news about Bitcoin's potential price drop and the overall fear in the market may contribute to this downward trend. The short-term trend remains in an uptrend, but the current market conditions suggest a potential reversal.",
-    "ja": "ワールドコインのWLDは、次の24時間に2.5%の下落が予測されており、信頼度は81%です。ビットコインの価格の潜在的な下落に関する最近のニュースや市場全体での恐れがこの下落の原因となる可能性があります。短期的な傾向は上昇傾向ですが、現在の市場状況では潜在的な逆転が考えられます。",
+    "en": "Worldcoin WLD is predicted to decline by 2.5% in the next 24 hours with 81% confidence, despite a short-term uptrend and neutral RSI-14 reading. The market context suggests extreme fear, with a Fear & Greed Index of 20 and a total crypto market cap decline of 0.73%. Recent news has been dominated by security concerns and market volatility.",
+    "ja": "ワールドコインWLDは、来日24時間で2.5%の下落を予測し、81%の確率で、短期的な上昇傾向と中立的なRSI-14値にもかかわらず。市場状況は極度の恐怖を示しており、Fear & Greed Indexは20、総暗号資産市場キャップは0.73%の下落。最近のニュースはセキュリティの懸念と市場の不安定さが中心となっている。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.04%",
+        "value": "-0.73%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "81% bullish",
+        "value": "80% bullish",
         "url": "https://www.coingecko.com/en/coins/worldcoin-wld"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Secret Network bridge exploited for $4.7M with ‘infinite mint’ bug",
+        "url": "https://cointelegraph.com/news/secret-network-bridge-exploited-infinite-mint-bug?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Bitcoin price may hit $24K if US stock market crashes by 50%, analyst warns",
         "url": "https://cointelegraph.com/markets/bitcoin-price-may-hit-24k-if-us-stock-market-crashes-by-50-analyst-warns?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Dash eyes Philippines as market for crypto payments",
-        "url": "https://cointelegraph.com/news/dash-eyes-philippines-crypto-payments-market?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

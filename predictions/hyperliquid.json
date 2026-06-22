@@ -1,6 +1,6 @@
 {
   "coinId": "hyperliquid",
-  "generatedAt": "2026-06-22T03:00:08.411540Z",
+  "generatedAt": "2026-06-22T04:00:08.209874Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": 0.8162884224996985,
+    "changePercent24h": 0.8164671080164028,
     "confidence": 0.5607
   },
   "commentary": {
-    "en": "Hyperliquid is predicted to decline by -1.5% in the next 24 hours, with a 72% confidence level. The current market context suggests an extreme fear sentiment, with the Fear & Greed Index at 20. The recent news on Bitcoin's price and potential market crashes may influence the overall market sentiment.",
-    "ja": "ハイパーリクイッドは、来日24時間で-1.5%の下落が予想され、信頼度は72%です。現在の市場状況では、恐怖の感情が極端であることを示す、恐怖と欲求不満指数が20です。ビットコインの価格と潜在的な市場の崩壊に関する最近のニュースは、総合的な市場の感情に影響を与える可能性があります。",
+    "en": "Hyperliquid (HYPERLIQUID) is predicted to decrease by 1.5% in the next 24 hours with a confidence level of 72%. The current market context suggests a high level of fear, with the Fear & Greed Index at 20. The recent news of a Secret Network bridge exploit and potential Bitcoin price drops may contribute to the bearish sentiment.",
+    "ja": "Hyperliquid（HYPERLIQUID）は、次の24時間で1.5%の値下げが予想され、信頼度は72%です。現在の市場状況は恐怖の高まりを示しており、Fear & Greed Indexは20です。最近のニュースであるSecret Network ブリッジのハックとビットコインの価格低下の可能性は、恐怖の感情を高めているようです。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.04%",
+        "value": "-0.73%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "55% bullish",
+        "value": "56% bullish",
         "url": "https://www.coingecko.com/en/coins/hyperliquid"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Secret Network bridge exploited for $4.7M with ‘infinite mint’ bug",
+        "url": "https://cointelegraph.com/news/secret-network-bridge-exploited-infinite-mint-bug?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Bitcoin price may hit $24K if US stock market crashes by 50%, analyst warns",
         "url": "https://cointelegraph.com/markets/bitcoin-price-may-hit-24k-if-us-stock-market-crashes-by-50-analyst-warns?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Dash eyes Philippines as market for crypto payments",
-        "url": "https://cointelegraph.com/news/dash-eyes-philippines-crypto-payments-market?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "coinId": "usd-coin",
-  "generatedAt": "2026-06-22T03:00:08.411540Z",
+  "generatedAt": "2026-06-22T04:00:08.209874Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -970,8 +970,8 @@
     "confidence": 0.95
   },
   "commentary": {
-    "en": "USD Coin (USD-COIN) is expected to remain flat in the next 24 hours with a 95% confidence level. The neutral RSI-14 reading and sideways short-term trend support this prediction. The recent news on Bitcoin's price movement and potential market crashes may have a limited impact on USD-COIN's price.",
-    "ja": "USDコイン（USD-COIN）は、来日24時間に95％の確実性でフラットで推定される。中立的なRSI-14の読みと短期的なトレンドはこの予測を裏付ける。ビットコインの価格動向や潜在的な市場の崩壊に関する最近のニュースは、USDコインの価格に限りなく影響を与える可能性は低い。",
+    "en": "USD Coin's flat 24h direction is expected, with a confidence level of 95%. This is due to neutral RSI-14 and Bollinger Band %B readings, as well as a sideways short-term trend. The Fear & Greed Index remains in extreme fear territory, which may impact USD Coin's price movement.",
+    "ja": "USDコインの24時間方向は、95％の確信度でフラットと予想される。中性のRSI-14とボリンジャーバンド％Bの値、短期的な傾向も横方向であるためである。恐れと欲求不満指数は極度の恐怖の領域にあり、USDコインの価格動向に影響を与える可能性がある。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.04%",
+        "value": "-0.73%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "50% bullish",
         "url": "https://www.coingecko.com/en/coins/usd-coin"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Secret Network bridge exploited for $4.7M with ‘infinite mint’ bug",
+        "url": "https://cointelegraph.com/news/secret-network-bridge-exploited-infinite-mint-bug?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Bitcoin price may hit $24K if US stock market crashes by 50%, analyst warns",
         "url": "https://cointelegraph.com/markets/bitcoin-price-may-hit-24k-if-us-stock-market-crashes-by-50-analyst-warns?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Dash eyes Philippines as market for crypto payments",
-        "url": "https://cointelegraph.com/news/dash-eyes-philippines-crypto-payments-market?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

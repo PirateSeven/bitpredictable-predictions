@@ -1,6 +1,6 @@
 {
   "coinId": "stellar",
-  "generatedAt": "2026-06-22T03:00:08.411540Z",
+  "generatedAt": "2026-06-22T04:00:08.209874Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -1.3986346047096738,
+    "changePercent24h": -1.3985527869342436,
     "confidence": 0.777
   },
   "commentary": {
-    "en": "Stellar's price is predicted to decline by 1.6% in the next 24 hours with an 80% confidence level. The RSI-14 is neutral at 49, and the Bollinger Band %B is at 0.47, indicating a mid-band position. The sideways short-term trend and normal volume ratio suggest a lack of strong momentum.",
-    "ja": "ステラルの価格は、次の24時間で1.6%下落する予想がある。RSI-14は49で中立的な位置にある。ボリンジャー・バンド %Bは0.47で中間位置にある。短期のトレンドは横方向で、ボリュームの比率は正常な値である。",
+    "en": "Stellar is predicted to decline by -1.6% in the next 24 hours with an 80% confidence level, despite a neutral RSI-14 reading and mid-band Bollinger Band %B. The market context suggests a bearish sentiment with the Fear & Greed Index at 20, and a total crypto market cap decline of -0.73%. Recent news highlights security concerns in the crypto space, which may negatively impact Stellar.",
+    "ja": "ステララーは次の24時間に-1.6%の下落を予測し、80%の信頼度を持ちます。ただし、RSI-14は中立的な値を示し、ボリンジャー・バンドの%バンドは中間値を示しています。市場状況は恐怖と欲求不満指数が20、総暗号資産市場キャップが-0.73%減少していることを示しています。最近のニュースは暗号空間でのセキュリティ懸念を強調しており、これがステララーに否定的な影響を与える可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.04%",
+        "value": "-0.73%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "57% bullish",
+        "value": "59% bullish",
         "url": "https://www.coingecko.com/en/coins/stellar"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Secret Network bridge exploited for $4.7M with ‘infinite mint’ bug",
+        "url": "https://cointelegraph.com/news/secret-network-bridge-exploited-infinite-mint-bug?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Bitcoin price may hit $24K if US stock market crashes by 50%, analyst warns",
         "url": "https://cointelegraph.com/markets/bitcoin-price-may-hit-24k-if-us-stock-market-crashes-by-50-analyst-warns?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Dash eyes Philippines as market for crypto payments",
-        "url": "https://cointelegraph.com/news/dash-eyes-philippines-crypto-payments-market?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

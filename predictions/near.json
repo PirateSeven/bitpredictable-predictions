@@ -1,6 +1,6 @@
 {
   "coinId": "near",
-  "generatedAt": "2026-06-22T03:00:08.411540Z",
+  "generatedAt": "2026-06-22T04:00:08.209874Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -5.892950025048489,
-    "confidence": 0.924
+    "changePercent24h": -5.892467828773923,
+    "confidence": 0.9239
   },
   "commentary": {
-    "en": "NEAR Protocol (NEAR) is expected to decline by 1.3% in the next 24 hours, with a confidence level of 69%. The recent news of Bitcoin's potential price fluctuations and the overall market sentiment of extreme fear may impact NEAR Protocol's performance. The neutral RSI-14 reading and mid-band Bollinger Band %B suggest a stable but uncertain market.",
-    "ja": "NEAR Protocol（NEAR）は、次の24時間に1.3%の下落が予想され、信頼度は69％です。ビットコインの価格変動に関する最近のニュースと、極度の恐怖感が支配する市場情勢は、NEAR Protocolのパフォーマンスに影響を与える可能性があります。中立的なRSI-14の読みと、Bollinger Band %Bの中間帯は、安定したが不確実な市場を示しています。",
+    "en": "NEAR Protocol's 24-hour direction is predicted to be DOWN with a -1.3% change, based on technical signals. The market context suggests a cautious sentiment, with the Fear & Greed Index at Extreme Fear and a negative total crypto market cap change. NEAR Protocol's short-term trend remains in a downtrend.",
+    "ja": "NEAR Protocolの24時間方向はDOWNに予想されており、-1.3％の変化が見込まれる。市場状況は慎重な気分で、Fear & Greed Indexがエクストリーム フィアに、総暗号資産市場キャップの24時間変化が否定的なものである。NEAR Protocolの短期傾向は下降傾向にあり続けている。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.04%",
+        "value": "-0.73%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "88% bullish",
         "url": "https://www.coingecko.com/en/coins/near"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Secret Network bridge exploited for $4.7M with ‘infinite mint’ bug",
+        "url": "https://cointelegraph.com/news/secret-network-bridge-exploited-infinite-mint-bug?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Bitcoin price may hit $24K if US stock market crashes by 50%, analyst warns",
         "url": "https://cointelegraph.com/markets/bitcoin-price-may-hit-24k-if-us-stock-market-crashes-by-50-analyst-warns?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Dash eyes Philippines as market for crypto payments",
-        "url": "https://cointelegraph.com/news/dash-eyes-philippines-crypto-payments-market?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

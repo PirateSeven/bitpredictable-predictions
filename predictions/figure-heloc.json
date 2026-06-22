@@ -1,6 +1,6 @@
 {
   "coinId": "figure-heloc",
-  "generatedAt": "2026-06-22T03:00:08.411540Z",
+  "generatedAt": "2026-06-22T04:00:08.209874Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -1.4444530143160719,
+    "changePercent24h": -1.444468667247712,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "Figure Heloc (FIGURE-HELOC) is expected to experience a flat 24-hour period with a potential -0.1% change, based on technical analysis. The asset is in an overbought state, with a 24-hour return of +2.13% and low volume. The sideways short-term trend and extreme fear market context suggest a cautious outlook.",
-    "ja": "Figure Heloc (FIGURE-HELOC) は、技術分析に基づいて、24 時間で -0.1% の変動を経験する可能性があります。資産はオーバーボールド状態にあり、24 時間のリターンは +2.13%、低いボリュームです。短期の横方向のトレンドと極度の恐怖の市場状況から、慎重な展開が予想されます。",
+    "en": "Figure Heloc is likely to experience a flat 24-hour period with a -0.1% return, given its overbought RSI-14 and mid-band Bollinger Band %B. The low volume ratio and sideways short-term trend also support this prediction. The overall crypto market context, including the Fear & Greed Index and recent news, does not provide significant bullish or bearish signals for Figure Heloc.",
+    "ja": "Figure Heloc は、オーバーボールド RSI-14 とミッドバンド ボリンジャー バンド %B の影響を受け、24 時間間で -0.1% のリターンを経験する可能性があります。低いボリューム レシオと短期的な傾向は、この予測を裏付けます。総合的な暗号通貨市場の状況、Fear & Greed Index と最近のニュースは、Figure Heloc に対して重要なバブルか恐怖のシグナルを提供していません。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.04%",
+        "value": "-0.73%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "0% bullish",
         "url": "https://www.coingecko.com/en/coins/figure-heloc"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Secret Network bridge exploited for $4.7M with ‘infinite mint’ bug",
+        "url": "https://cointelegraph.com/news/secret-network-bridge-exploited-infinite-mint-bug?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Bitcoin price may hit $24K if US stock market crashes by 50%, analyst warns",
         "url": "https://cointelegraph.com/markets/bitcoin-price-may-hit-24k-if-us-stock-market-crashes-by-50-analyst-warns?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Dash eyes Philippines as market for crypto payments",
-        "url": "https://cointelegraph.com/news/dash-eyes-philippines-crypto-payments-market?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

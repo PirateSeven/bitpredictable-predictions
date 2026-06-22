@@ -1,6 +1,6 @@
 {
   "coinId": "blackrock-usd-institutional-digital-liquidity-fund",
-  "generatedAt": "2026-06-22T03:00:08.411540Z",
+  "generatedAt": "2026-06-22T04:00:08.209874Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 0.06467175721078175,
+    "changePercent24h": 0.0646710032145714,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "The Blackrock USD Institutional Digital Liquidity Fund is expected to remain flat, with a 0.1% increase in the next 24 hours, due to its overbought condition and low volume ratio. The fund's short-term trend is sideways, indicating a lack of momentum. The overall crypto market sentiment remains in extreme fear, which may impact the fund's performance.",
-    "ja": "ブラックロック US ドル インスティテューショナル デジタル リキデティ フンドは、オーバーボールド状態と低いボリューム比率のため、次の24時間に0.1%の増加が予想されます。短期のトレンドは横方向に動いており、動きのない状況です。総合的な暗号通貨市場の感覚は極度の恐怖の状態であり、これがファンドのパフォーマンスに影響を与える可能性があります。",
+    "en": "The Blackrock USD Institutional Digital Liquidity Fund is expected to remain flat with a 0.1% increase in the next 24 hours, with a 95% confidence level. The fund's current overbought RSI-14 and low volume ratio suggest a potential consolidation period. The Extreme Fear sentiment in the market and recent negative news may contribute to this expected flat direction.",
+    "ja": "ブラックロック US ドル インスティテューショナル デジタル リキデティ フンドは、次の 24 時間で 0.1% の増加が予想され、95% の信頼度を持っています。現在のオーバーボールド RSI-14 と低いボリューム レシオは、潜在的なコンソリデーション期間を示唆しています。市場の極度の恐怖感と最近の否定的なニュースは、この予想されるフラット ディレクションに貢献する可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.04%",
+        "value": "-0.73%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "0% bullish",
         "url": "https://www.coingecko.com/en/coins/blackrock-usd-institutional-digital-liquidity-fund"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Secret Network bridge exploited for $4.7M with ‘infinite mint’ bug",
+        "url": "https://cointelegraph.com/news/secret-network-bridge-exploited-infinite-mint-bug?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Bitcoin price may hit $24K if US stock market crashes by 50%, analyst warns",
         "url": "https://cointelegraph.com/markets/bitcoin-price-may-hit-24k-if-us-stock-market-crashes-by-50-analyst-warns?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Dash eyes Philippines as market for crypto payments",
-        "url": "https://cointelegraph.com/news/dash-eyes-philippines-crypto-payments-market?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

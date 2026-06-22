@@ -1,6 +1,6 @@
 {
   "coinId": "dogecoin",
-  "generatedAt": "2026-06-22T03:00:08.411540Z",
+  "generatedAt": "2026-06-22T04:00:08.209874Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.4918522483927684,
+    "changePercent24h": -0.4917379637492111,
     "confidence": 0.7194
   },
   "commentary": {
-    "en": "Dogecoin's 24-hour direction is predicted to be flat with a -0.4% return, reflecting a neutral RSI-14 reading of 50. The recent news surrounding Bitcoin's price fluctuations and potential market crashes may impact Dogecoin's performance, but the Fear & Greed Index remains in extreme fear territory.",
-    "ja": "ドージコインの24時間の動向は、-0.4%のリターンで予測されており、RSI-14の値は50に落ち着いている。ビットコインの価格変動や潜在的な市場の崩壊に関するニュースがドージコインのパフォーマンスに影響を与える可能性があるが、恐怖と欲求不満指数は極度の恐怖の状態にある。",
+    "en": "Dogecoin is expected to remain flat in the short term, with a 24-hour direction of -0.4% and a confidence level of 65%. The current market context suggests extreme fear, with a Fear & Greed Index of 20 and a total crypto market cap 24h change of -0.73%. The recent news on the Secret Network bridge exploit and potential Bitcoin price movements may impact Dogecoin's performance.",
+    "ja": "ドージコインは短期的にはフラットの動きを続け、24時間方向は-0.4%、信頼度は65%と予想される。現在の市場状況は極度の恐怖を示しており、恐怖と欲求不満指数は20、総暗号資産市場キャップ24時間変化は-0.73%である。セクレットネットワークブリッジのハックとビットコイン価格の動向に関する最近のニュースはドージコインのパフォーマンスに影響を与える可能性がある。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.04%",
+        "value": "-0.73%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "75% bullish",
+        "value": "73% bullish",
         "url": "https://www.coingecko.com/en/coins/dogecoin"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Secret Network bridge exploited for $4.7M with ‘infinite mint’ bug",
+        "url": "https://cointelegraph.com/news/secret-network-bridge-exploited-infinite-mint-bug?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Bitcoin price may hit $24K if US stock market crashes by 50%, analyst warns",
         "url": "https://cointelegraph.com/markets/bitcoin-price-may-hit-24k-if-us-stock-market-crashes-by-50-analyst-warns?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Dash eyes Philippines as market for crypto payments",
-        "url": "https://cointelegraph.com/news/dash-eyes-philippines-crypto-payments-market?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

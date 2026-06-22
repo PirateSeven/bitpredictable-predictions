@@ -1,6 +1,6 @@
 {
   "coinId": "monero",
-  "generatedAt": "2026-06-22T03:00:08.411540Z",
+  "generatedAt": "2026-06-22T04:00:08.209874Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": 3.0352579853387516,
+    "changePercent24h": 3.035372274660954,
     "confidence": 0.872
   },
   "commentary": {
-    "en": "Monero's short-term trend remains sideways, but our technical analysis suggests a 74% confidence in a 1.4% decline in the next 24 hours. The Fear & Greed Index is at an extreme fear level, which may be a contributing factor to the predicted decline. The recent news on Bitcoin's price movements and potential market crashes may also be affecting Monero's price.",
-    "ja": "モノロの短期トレンドは横方向に進んでいるが、技術分析では次の24時間に1.4%の下落が74%確実であると予測している。恐怖と欲求不満指数は極度の恐怖のレベルにあり、これが予測される下落に寄与している可能性がある。ビットコインの価格動向や市場崩壊の可能性に関する最近のニュースもモノロの価格に影響を与えている可能性がある。",
+    "en": "Monero is predicted to decline by 1.4% in the next 24 hours with a confidence level of 74%. The recent news of a Secret Network bridge exploit and potential Bitcoin price drops may contribute to the bearish sentiment. The Fear & Greed Index remains in Extreme Fear territory.",
+    "ja": "モネロは次の24時間で1.4%の下落が予測され、信頼度は74%です。シークレット・ネットワークのブリッジが搾取されたニュースやビットコインの価格が下落する可能性など、恐怖の感情が強い状況が続いています。恐怖と欲求不満指数は極度の恐怖の状態です。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.04%",
+        "value": "-0.73%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "94% bullish",
+        "value": "95% bullish",
         "url": "https://www.coingecko.com/en/coins/monero"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Secret Network bridge exploited for $4.7M with ‘infinite mint’ bug",
+        "url": "https://cointelegraph.com/news/secret-network-bridge-exploited-infinite-mint-bug?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Bitcoin price may hit $24K if US stock market crashes by 50%, analyst warns",
         "url": "https://cointelegraph.com/markets/bitcoin-price-may-hit-24k-if-us-stock-market-crashes-by-50-analyst-warns?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Dash eyes Philippines as market for crypto payments",
-        "url": "https://cointelegraph.com/news/dash-eyes-philippines-crypto-payments-market?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "coinId": "ethereum",
-  "generatedAt": "2026-06-22T03:00:08.411540Z",
+  "generatedAt": "2026-06-22T04:00:08.209874Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 0.8884392840351846,
+    "changePercent24h": 0.8886606748529869,
     "confidence": 0.8057
   },
   "commentary": {
-    "en": "Ethereum's 24-hour direction is predicted to be flat with a 0.3% decline, based on technical signals. The Fear & Greed Index remains in Extreme Fear territory, while the CoinGecko community remains 89% bullish. Ethereum's recent performance is closely tied to the overall crypto market and Bitcoin's price movements.",
-    "ja": "エーテレムの24時間の動向は、技術的シグナルに基づいて0.3％の下落が予想されます。Fear & Greed Indexは、エクストリーム フィアの状態が続いています。CoinGeckoコミュニティは89％がバブルです。エーテレムの最近のパフォーマンスは、総合の暗号通貨市場とビットコインの価格動向に大きく依存しています。",
+    "en": "Ethereum is expected to experience a flat 24-hour direction with a 0.3% decline, based on technical signals. The Fear & Greed Index remains in extreme fear, while the CoinGecko community is 89% bullish. Recent news on bridge exploits and potential US stock market crashes may influence investor sentiment.",
+    "ja": "イーサリアムは24時間の方向性がフラットになる可能性があり、0.3%の下落が予想されます。恐怖と欲求不満指数は極度の恐怖の状態にあり、CoinGeckoコミュニティは89％がbullishです。最近のニュースではブリッジのエクスプロイトや米国株式市場の暴落が投資家の感情に影響を与える可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.04%",
+        "value": "-0.73%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "89% bullish",
         "url": "https://www.coingecko.com/en/coins/ethereum"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Secret Network bridge exploited for $4.7M with ‘infinite mint’ bug",
+        "url": "https://cointelegraph.com/news/secret-network-bridge-exploited-infinite-mint-bug?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Bitcoin price may hit $24K if US stock market crashes by 50%, analyst warns",
         "url": "https://cointelegraph.com/markets/bitcoin-price-may-hit-24k-if-us-stock-market-crashes-by-50-analyst-warns?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Dash eyes Philippines as market for crypto payments",
-        "url": "https://cointelegraph.com/news/dash-eyes-philippines-crypto-payments-market?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

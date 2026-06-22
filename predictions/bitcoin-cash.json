@@ -1,6 +1,6 @@
 {
   "coinId": "bitcoin-cash",
-  "generatedAt": "2026-06-22T03:00:08.411540Z",
+  "generatedAt": "2026-06-22T04:00:08.209874Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -0.10111403865516655,
-    "confidence": 0.3362
+    "changePercent24h": -0.10087444132147788,
+    "confidence": 0.3358
   },
   "commentary": {
-    "en": "Bitcoin Cash is expected to decline by 0.5% in the next 24 hours, with a confidence level of 69%. The RSI-14 is neutral at 52, and the Bollinger Band %B is at 0.67, indicating a mid-band position. The recent news on the crypto market, including the potential for a US stock market crash, may contribute to the bearish sentiment.",
-    "ja": "ビットコイン・キャッシュは、次の24時間で0.5%下落する可能性があり、信頼度は69%です。RSI-14は52で中立的な状態、ボリンジャー・バンド %Bは0.67で中間位置です。最近のニュースでは、米国株式市場の崩壊がビットコイン価格の下落につながる可能性があるため、恐怖感が高まっています。",
+    "en": "The model predicts Bitcoin Cash will decline ~0.5% over the next 24 hours with moderate confidence (69%). Price moved +0.18% in the past 24 hours with volume at 1.0× average. Community sentiment on CoinGecko is 67% bullish and the Fear & Greed Index reads \"Extreme Fear\" (20), diverging from the model's forecast, adding uncertainty.",
+    "ja": "モデルはBitcoin Cashが今後24時間で約0.5%下落すると予測しています（信頼度: 中程度の 69%）。過去24時間のリターンは+0.18%、出来高は平均の1.0倍です。CoinGeckoコミュニティでは67%が強気を示し、Fear & Greed指数は「Extreme Fear」（20）です。予測方向と乖離があり、不確実性が高まっています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.04%",
+        "value": "-0.73%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "71% bullish",
+        "value": "67% bullish",
         "url": "https://www.coingecko.com/en/coins/bitcoin-cash"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Secret Network bridge exploited for $4.7M with ‘infinite mint’ bug",
+        "url": "https://cointelegraph.com/news/secret-network-bridge-exploited-infinite-mint-bug?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Bitcoin price may hit $24K if US stock market crashes by 50%, analyst warns",
         "url": "https://cointelegraph.com/markets/bitcoin-price-may-hit-24k-if-us-stock-market-crashes-by-50-analyst-warns?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Dash eyes Philippines as market for crypto payments",
-        "url": "https://cointelegraph.com/news/dash-eyes-philippines-crypto-payments-market?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

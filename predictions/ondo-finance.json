@@ -1,6 +1,6 @@
 {
   "coinId": "ondo-finance",
-  "generatedAt": "2026-06-22T03:00:08.411540Z",
+  "generatedAt": "2026-06-22T04:00:08.209874Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -2.305015991680305,
+    "changePercent24h": -2.3048060485794784,
     "confidence": 0.7983
   },
   "commentary": {
-    "en": "Ondo (ONDO-FINANCE) is expected to decline by 3.1% in the next 24 hours, with a confidence level of 84%. The current market sentiment is dominated by fear, as the Fear & Greed Index is at 20. However, the recent news of a Japanese corporate pension fund planning a 1% crypto allocation may have a positive impact on the market.",
-    "ja": "ONDO-FINANCEは次の24時間で3.1%の下落が予想され、信頼度は84%です。現在の市場感覚は恐怖が支配的で、Fear & Greed Indexは20です。ただし、日本の企業の年金基金が1%の暗号資産割合を計画しているニュースは、市場に良い影響を与える可能性があります。",
+    "en": "Ondo is predicted to drop by -3.1% in the next 24 hours with a confidence level of 84%. The current market sentiment is extremely fearful, with the Fear & Greed Index at 20. The recent news on the Secret Network bridge exploit and potential Bitcoin price drops may contribute to the bearish sentiment.",
+    "ja": "ONDO-FINANCEは、次の24時間で-3.1%の下落が予測され、信頼度は84%です。現在の市場感情は極度の恐怖で、Fear & Greed Indexは20です。最近のニュースでは、Secret Network ブリッジのエクスプロイトとビットコインの価格下落に関する情報が流れ、恐怖の感情を高めているようです。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.04%",
+        "value": "-0.73%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "100% bullish",
         "url": "https://www.coingecko.com/en/coins/ondo-finance"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Secret Network bridge exploited for $4.7M with ‘infinite mint’ bug",
+        "url": "https://cointelegraph.com/news/secret-network-bridge-exploited-infinite-mint-bug?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Bitcoin price may hit $24K if US stock market crashes by 50%, analyst warns",
         "url": "https://cointelegraph.com/markets/bitcoin-price-may-hit-24k-if-us-stock-market-crashes-by-50-analyst-warns?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Dash eyes Philippines as market for crypto payments",
-        "url": "https://cointelegraph.com/news/dash-eyes-philippines-crypto-payments-market?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

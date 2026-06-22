@@ -1,6 +1,6 @@
 {
   "coinId": "avalanche-2",
-  "generatedAt": "2026-06-22T03:00:08.411540Z",
+  "generatedAt": "2026-06-22T04:00:08.209874Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -1.5930377628633656,
-    "confidence": 0.8408
+    "changePercent24h": -1.592874386776721,
+    "confidence": 0.8407
   },
   "commentary": {
-    "en": "Avalanche is expected to remain flat with a 0.5% decline in the next 24 hours, based on current technical signals. The recent news on Bitcoin's price and market trends may have a limited impact on Avalanche's performance. The Fear & Greed Index at 20 indicates extreme fear in the market, which could influence investor sentiment.",
-    "ja": "アバランチ2は、現在の技術指標に基づいて、次の24時間で0.5%の下落が予想されます。ビットコインの価格と市場の動向に関する最近のニュースは、アバランチ2のパフォーマンスに限りなく影響を与える可能性があります。恐怖と欲求不満指数が20に達していることは、市場全体に恐怖が広がっていることを示しています。",
+    "en": "Avalanche-2 is expected to remain flat with a potential decline of up to 0.5% in the next 24 hours. The current market sentiment is dominated by fear, as indicated by the Fear & Greed Index of 20. The recent news of a Secret Network bridge exploit and potential Bitcoin price drops may impact Avalanche-2's performance.",
+    "ja": "アバランチ2は、次の24時間で最大0.5%の下落が予想される。Fear & Greed Indexは20で、恐怖が市場の感情を支配している。最近のニュースでSecret Networkのブリッジのハックやビットコインの価格の下落がアバランチ2のパフォーマンスに影響を与える可能性がある。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.04%",
+        "value": "-0.73%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "71% bullish",
         "url": "https://www.coingecko.com/en/coins/avalanche-2"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Secret Network bridge exploited for $4.7M with ‘infinite mint’ bug",
+        "url": "https://cointelegraph.com/news/secret-network-bridge-exploited-infinite-mint-bug?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Bitcoin price may hit $24K if US stock market crashes by 50%, analyst warns",
         "url": "https://cointelegraph.com/markets/bitcoin-price-may-hit-24k-if-us-stock-market-crashes-by-50-analyst-warns?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Dash eyes Philippines as market for crypto payments",
-        "url": "https://cointelegraph.com/news/dash-eyes-philippines-crypto-payments-market?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

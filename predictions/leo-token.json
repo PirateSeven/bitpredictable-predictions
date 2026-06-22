@@ -1,6 +1,6 @@
 {
   "coinId": "leo-token",
-  "generatedAt": "2026-06-22T03:00:08.411540Z",
+  "generatedAt": "2026-06-22T04:00:08.209874Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 0.3768931412219941,
+    "changePercent24h": 0.3768431637329082,
     "confidence": 0.7385
   },
   "commentary": {
-    "en": "LEO Token's price is predicted to remain flat with a slight decline of -0.3% in the next 24 hours, based on current technical signals. The Fear & Greed Index at 20 indicates extreme fear in the market, which may impact LEO-TOKEN's price. Recent news about Bitcoin's price fluctuations and potential crashes may also influence the market.",
-    "ja": "レオトークンの価格は、現在の技術指標に基づいて、次の24時間に-0.3%の小幅な下落が予想される。恐怖と欲求不満指数が20のため、市場は極度の恐怖に陥っており、これがレオトークンの価格に影響を与える可能性がある。ビットコインの価格変動や潜在的な大幅な下落に関するニュースは、市場に影響を与える可能性がある。",
+    "en": "LEO Token's 24-hour direction is predicted to be flat with a -0.3% change, based on current technical signals. The Fear & Greed Index remains in extreme fear, while the total crypto market cap has seen a -0.73% change in the last 24 hours. The recent news of a Secret Network bridge exploit and potential Bitcoin price fluctuations may influence the market.",
+    "ja": "レオトークンの24時間の方向は、現在の技術指標に基づいて、-0.3％の変化を予測している。恐怖と欲求不満指数は極度の恐怖の状態であり、総暗号資産市場キャップは過去24時間で-0.73％の変化を記録している。最近のニュースであるセクレットネットワークのブリッジのハックやビットコインの価格変動の可能性が市場に影響を与える可能性がある。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.04%",
+        "value": "-0.73%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "67% bullish",
         "url": "https://www.coingecko.com/en/coins/leo-token"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Secret Network bridge exploited for $4.7M with ‘infinite mint’ bug",
+        "url": "https://cointelegraph.com/news/secret-network-bridge-exploited-infinite-mint-bug?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Bitcoin price may hit $24K if US stock market crashes by 50%, analyst warns",
         "url": "https://cointelegraph.com/markets/bitcoin-price-may-hit-24k-if-us-stock-market-crashes-by-50-analyst-warns?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Dash eyes Philippines as market for crypto payments",
-        "url": "https://cointelegraph.com/news/dash-eyes-philippines-crypto-payments-market?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }
