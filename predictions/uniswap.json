@@ -1,6 +1,6 @@
 {
   "coinId": "uniswap",
-  "generatedAt": "2026-06-22T00:00:08.548546Z",
+  "generatedAt": "2026-06-22T01:00:08.365550Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": 0.09981594685188444,
+    "changePercent24h": 0.011449079083448277,
     "confidence": 0.1
   },
   "commentary": {
-    "en": "Uniswap's 24-hour direction is predicted to be down by 1.8% with an 80% confidence level. The current technical signals indicate a neutral RSI-14 reading and a mid-band Bollinger Band %B. The recent news surrounding Bitcoin's price fluctuations may impact Uniswap's performance.",
-    "ja": "ユニスワップの24時間の予想方向は下げ1.8%で80%の信頼度です。現在の技術指標はRSI-14の中立的な値とボリンジャー・バンドの%Bの中央値を示しています。最近のニュースでビットコインの価格変動がユニスワップのパフォーマンスに影響を与える可能性があります。",
+    "en": "Uniswap's 24-hour direction is predicted to be DOWN by 1.8% with 80% confidence. The recent market context suggests a bearish sentiment with the Fear & Greed Index at 20, and the total crypto market cap experiencing a 0.53% decline. The sideways short-term trend and neutral RSI-14 reading indicate a lack of clear direction.",
+    "ja": "ユニスワップの24時間の予測は、下げて1.8%で80%の確信を持っています。最近の市場状況は、恐怖と欲求不満指数が20で、総暗号資産市場キャップが0.53%減少していることを示しています。短期的な傾向は横ばい、RSI-14は中立的な値を示しています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-1.34%",
+        "value": "-0.53%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {

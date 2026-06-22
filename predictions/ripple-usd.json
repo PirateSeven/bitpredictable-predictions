@@ -1,6 +1,6 @@
 {
   "coinId": "ripple-usd",
-  "generatedAt": "2026-06-22T00:00:08.548546Z",
+  "generatedAt": "2026-06-22T01:00:08.365550Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.02175274009964067,
+    "changePercent24h": -0.02174710558331793,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "Ripple USD (RIPPLE-USD) is expected to trade flat in the next 24 hours with a 95% confidence level. The current market conditions, including the Fear & Greed Index at 20 and a total crypto market cap 24h change of -1.34%, suggest a cautious outlook. The recent news on Bitcoin's price movements and potential market crashes may impact Ripple's performance.",
-    "ja": "Ripple USD (RIPPLE-USD) は来日24時間で95%の確率でフラットに取引される予想されています。Fear & Greed Indexが20、総暗号資産マーケットキャップ24時間変化が-1.34%の状況から、慎重な姿勢が推測されます。Bitコインの価格動向や潜在的な市場崩壊に関する最近のニュースは、Rippleのパフォーマンスに影響を与える可能性があります。",
+    "en": "The model predicts Ripple USD will trade sideways over the next 24 hours with high confidence (95%). Price moved -0.01% in the past 24 hours with volume at 1.0× average. Community sentiment on CoinGecko is 33% bullish and the Fear & Greed Index reads \"Extreme Fear\" (20), aligning with the model's forecast.",
+    "ja": "モデルはRipple USDが今後24時間で横ばいで推移すると予測しています（信頼度: 高い 95%）。過去24時間のリターンは-0.01%、出来高は平均の1.0倍です。CoinGeckoコミュニティでは33%が強気を示し、Fear & Greed指数は「Extreme Fear」（20）です。予測と方向性が一致しています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,12 +1000,12 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-1.34%",
+        "value": "-0.53%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "50% bullish",
+        "value": "33% bullish",
         "url": "https://www.coingecko.com/en/coins/ripple-usd"
       },
       {

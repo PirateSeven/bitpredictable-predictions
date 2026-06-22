@@ -1,6 +1,6 @@
 {
   "coinId": "chainlink",
-  "generatedAt": "2026-06-22T00:00:08.548546Z",
+  "generatedAt": "2026-06-22T01:00:08.365550Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -2.9315588575568836,
-    "confidence": 0.9268
+    "changePercent24h": -2.965376728138316,
+    "confidence": 0.9276
   },
   "commentary": {
-    "en": "Chainlink's price is expected to remain flat with a slight decline of -0.5% in the next 24 hours, given its oversold RSI-14 reading and lower Bollinger Band %B. The Fear & Greed Index at 20 indicates extreme fear in the market, which may impact Chainlink's price. The recent news about Bitcoin's potential price movements may also influence Chainlink's price.",
-    "ja": "Chainlinkの価格は、オーバーサルドのRSI-14と下方ボリンジャーバンド％Bの影響を受けて、来日24時間で-0.5%の小幅な低下が予想されます。Fear & Greed Indexが20に達していることは、市場全体が極度の恐怖に陥っていることを示しており、これがChainlinkの価格に影響を与える可能性があります。近日、ビットコインの価格変動に関するニュースが発表され、これがChainlinkの価格に影響を与える可能性があります。",
+    "en": "The model predicts Chainlink will trade sideways over the next 24 hours with moderate confidence (67%). RSI is oversold (29), indicating potential for a mean-reversion bounce. Community sentiment on CoinGecko is 83% bullish and the Fear & Greed Index reads \"Extreme Fear\" (20), diverging from the model's forecast, adding uncertainty.",
+    "ja": "モデルはChainlinkが今後24時間で横ばいで推移すると予測しています（信頼度: 中程度の 67%）。RSIが29と売られすぎ水準で、平均回帰による反発が期待される局面です。CoinGeckoコミュニティでは83%が強気を示し、Fear & Greed指数は「Extreme Fear」（20）です。予測方向と乖離があり、不確実性が高まっています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,12 +1000,12 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-1.34%",
+        "value": "-0.53%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "80% bullish",
+        "value": "83% bullish",
         "url": "https://www.coingecko.com/en/coins/chainlink"
       },
       {

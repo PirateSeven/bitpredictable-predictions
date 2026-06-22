@@ -1,6 +1,6 @@
 {
   "coinId": "hedera-hashgraph",
-  "generatedAt": "2026-06-22T00:00:08.548546Z",
+  "generatedAt": "2026-06-22T01:00:08.365550Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -2.947394944318395,
-    "confidence": 0.9197
+    "changePercent24h": -2.6591367588111345,
+    "confidence": 0.9117
   },
   "commentary": {
-    "en": "Hedera (HEDERA-HASHGRAPH) is expected to continue its downward trend in the short term, with a predicted 24h direction of DOWN and a 24h actual return of -3.12%. The RSI-14 is oversold, but the Bollinger Band %B is at a lower band, indicating potential volatility. The market context suggests a bearish sentiment, with the Fear & Greed Index at 20 and the total crypto market cap experiencing a 24h change of -1.34%.",
-    "ja": "ヘダラハッシュグラフ（HEDERA-HASHGRAPH）は短期的には下落を続ける可能性があり、24時間予想方向はDOWN、24時間実際のリターンは-3.12%と予想されています。RSI-14はオーバーサルドですが、ボリンジャーバンド％Bは下方の帯にあり、波動性が高まっている可能性があります。マーケットコンテキストは、恐怖と欲求不満指数が20、総暗号資産マーケットキャップが24時間で-1.34%の変化を経験しているなど、悲観的な感情を示しています。",
+    "en": "The model predicts Hedera will decline ~0.7% over the next 24 hours with high confidence (74%). RSI is oversold (24), indicating potential for a mean-reversion bounce. Community sentiment on CoinGecko is 88% bullish and the Fear & Greed Index reads \"Extreme Fear\" (20), diverging from the model's forecast, adding uncertainty.",
+    "ja": "モデルはHederaが今後24時間で約0.7%下落すると予測しています（信頼度: 高い 74%）。RSIが24と売られすぎ水準で、平均回帰による反発が期待される局面です。CoinGeckoコミュニティでは88%が強気を示し、Fear & Greed指数は「Extreme Fear」（20）です。予測方向と乖離があり、不確実性が高まっています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,12 +1000,12 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-1.34%",
+        "value": "-0.53%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "90% bullish",
+        "value": "88% bullish",
         "url": "https://www.coingecko.com/en/coins/hedera-hashgraph"
       },
       {

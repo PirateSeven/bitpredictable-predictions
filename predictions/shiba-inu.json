@@ -1,6 +1,6 @@
 {
   "coinId": "shiba-inu",
-  "generatedAt": "2026-06-22T00:00:08.548546Z",
+  "generatedAt": "2026-06-22T01:00:08.365550Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -1.9902169889144026,
-    "confidence": 0.8796
+    "changePercent24h": -1.2275418880260878,
+    "confidence": 0.8175
   },
   "commentary": {
-    "en": "Shiba Inu's 24-hour direction is predicted to be DOWN with a 77% confidence level due to the recent price drop of -2.08%. The RSI-14 is at 31, indicating a neutral trend. The Fear & Greed Index is at 20, reflecting an Extreme Fear sentiment in the market.",
-    "ja": "シャイバ・インウの24時間の方向は、77%の確率で下降予想される。RSI-14は31で、中立的な傾向を示している。恐怖と欲求不満指数は20で、市場全体が極度の恐怖を感じていることを示している。",
+    "en": "The model predicts Shiba Inu will decline ~0.9% over the next 24 hours with high confidence (77%). Price is near lower Bollinger Band support, where rebounds are historically more frequent. Community sentiment on CoinGecko is 61% bullish and the Fear & Greed Index reads \"Extreme Fear\" (20), diverging from the model's forecast, adding uncertainty.",
+    "ja": "モデルはShiba Inuが今後24時間で約0.9%下落すると予測しています（信頼度: 高い 77%）。価格がボリンジャーバンド下限付近で、サポートからの反発が過去パターンより多く観察されます。CoinGeckoコミュニティでは61%が強気を示し、Fear & Greed指数は「Extreme Fear」（20）です。予測方向と乖離があり、不確実性が高まっています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-1.34%",
+        "value": "-0.53%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {

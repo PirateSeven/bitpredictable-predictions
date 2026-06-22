@@ -1,6 +1,6 @@
 {
   "coinId": "avalanche-2",
-  "generatedAt": "2026-06-22T00:00:08.548546Z",
+  "generatedAt": "2026-06-22T01:00:08.365550Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -3.238317002964395,
-    "confidence": 0.9186
+    "changePercent24h": -3.2704733209025476,
+    "confidence": 0.9194
   },
   "commentary": {
-    "en": "Avalanche (AVALANCHE-2) is likely to experience a flat 24-hour period with a possible decline of up to 0.5% due to the current market sentiment and technical indicators. The Fear & Greed Index at 20 indicates extreme fear, and the recent news about Bitcoin's potential price drop may further impact Avalanche's price. The short-term trend and volume ratio suggest a sideways movement.",
-    "ja": "Avalanche (AVALANCHE-2) は、24時間間で 0.5% の下落を経験する可能性があり、現在の市場感覚と技術指標に基づいて推測しています。Fear & Greed Index が 20 に達していることは、極度の恐怖を示しており、Bitcoin の価格下落に関する最近のニュースは、Avalanche の価格に影響を与える可能性があります。短期的な傾向とボリューム比率は、横方向の動きを示しています。",
+    "en": "The model predicts Avalanche will trade sideways over the next 24 hours with moderate confidence (59%). Price is near lower Bollinger Band support, where rebounds are historically more frequent. Community sentiment on CoinGecko is 68% bullish and the Fear & Greed Index reads \"Extreme Fear\" (20), diverging from the model's forecast, adding uncertainty.",
+    "ja": "モデルはAvalancheが今後24時間で横ばいで推移すると予測しています（信頼度: 中程度の 59%）。価格がボリンジャーバンド下限付近で、サポートからの反発が過去パターンより多く観察されます。CoinGeckoコミュニティでは68%が強気を示し、Fear & Greed指数は「Extreme Fear」（20）です。予測方向と乖離があり、不確実性が高まっています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,12 +1000,12 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-1.34%",
+        "value": "-0.53%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "65% bullish",
+        "value": "68% bullish",
         "url": "https://www.coingecko.com/en/coins/avalanche-2"
       },
       {

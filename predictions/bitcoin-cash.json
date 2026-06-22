@@ -1,6 +1,6 @@
 {
   "coinId": "bitcoin-cash",
-  "generatedAt": "2026-06-22T00:00:08.548546Z",
+  "generatedAt": "2026-06-22T01:00:08.365550Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -3.087340881982101,
-    "confidence": 0.9325
+    "changePercent24h": -2.812648739490571,
+    "confidence": 0.9265
   },
   "commentary": {
-    "en": "Bitcoin Cash is expected to trade flat with a potential 0.5% decline in the next 24 hours due to the current market sentiment and technical signals. The Fear & Greed Index remains in Extreme Fear territory, and the recent news about the US stock market crash and Bitcoin's potential price drop to $24K may contribute to the bearish trend. However, the community remains 71% bullish, indicating a possible reversal in the near future.",
-    "ja": "ビットコインキャッシュは、現在の市場感覚と技術指標から、次の24時間に0.5%の下落が予想される。恐怖と欲求不満指数は極度の恐怖の領域にあり、米国株式市場の崩壊とビットコインの価格が24Kに下がる可能性についてのニュースが、下落傾向に貢献する可能性がある。ただし、コミュニティは71％がbullishを示しており、短期的には反転の可能性がある。",
+    "en": "The model predicts Bitcoin Cash will trade sideways over the next 24 hours with moderate confidence (69%). Price is near lower Bollinger Band support, where rebounds are historically more frequent. Community sentiment on CoinGecko is 71% bullish and the Fear & Greed Index reads \"Extreme Fear\" (20), diverging from the model's forecast, adding uncertainty.",
+    "ja": "モデルはBitcoin Cashが今後24時間で横ばいで推移すると予測しています（信頼度: 中程度の 69%）。価格がボリンジャーバンド下限付近で、サポートからの反発が過去パターンより多く観察されます。CoinGeckoコミュニティでは71%が強気を示し、Fear & Greed指数は「Extreme Fear」（20）です。予測方向と乖離があり、不確実性が高まっています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-1.34%",
+        "value": "-0.53%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {

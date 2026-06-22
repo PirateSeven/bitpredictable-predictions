@@ -1,6 +1,6 @@
 {
   "coinId": "bitcoin",
-  "generatedAt": "2026-06-22T00:00:08.548546Z",
+  "generatedAt": "2026-06-22T01:00:08.365550Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -2.2929443267932452,
-    "confidence": 0.9188
+    "changePercent24h": -2.0541720102434073,
+    "confidence": 0.9103
   },
   "commentary": {
-    "en": "Bitcoin's short-term trend remains sideways, with a 24-hour return of -1.56% and a Fear & Greed Index of 20, indicating extreme fear in the market. The recent news of a potential $24K price drop if the US stock market crashes by 50% and a Japanese corporate pension fund planning a 1% crypto allocation may influence investor sentiment. A 61% confidence level predicts a flat 24-hour direction.",
-    "ja": "ビットコインの短期トレンドは横方向に推移しており、24時間のリターンは-1.56%、Fear & Greed Indexは20で、市場は極度の恐怖に包まれている。米国株式市場が50%落ち込む場合の$24,000の価格下落や日本の企業年金が1%の暗号資産割合を計画するなどのニュースが投資家の意見に影響を与える可能性がある。61%の信頼度で24時間の方向性は横方向と予測される。",
+    "en": "Bitcoin's short-term trend remains sideways, with a predicted 24h direction of -0.3% and an RSI-14 of 30, indicating oversold conditions. The Fear & Greed Index at 20 suggests extreme fear in the market, while the CoinGecko community remains 82% bullish. Recent news highlights conflicting price predictions, ranging from a potential $66K top to a possible $24K drop.",
+    "ja": "ビットコインの短期トレンドは横方向に推移しており、24時間予想方向は-0.3%、RSI-14は30を示し、オーバーサールド状態である。恐怖と欲求不満指数は20を示し、市場は極度の恐怖を示しているが、CoinGeckoコミュニティは82％がバ Bullishである。最近のニュースでは価格予測が矛盾しており、$66,000のトップから$24,000のドロップまでの可能性が示唆されている。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,12 +1000,12 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-1.34%",
+        "value": "-0.53%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "83% bullish",
+        "value": "82% bullish",
         "url": "https://www.coingecko.com/en/coins/bitcoin"
       },
       {

@@ -1,6 +1,6 @@
 {
   "coinId": "dogecoin",
-  "generatedAt": "2026-06-22T00:00:08.548546Z",
+  "generatedAt": "2026-06-22T01:00:08.365550Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -1.861498034741137,
-    "confidence": 0.9006
+    "changePercent24h": -1.7788982552384665,
+    "confidence": 0.8965
   },
   "commentary": {
-    "en": "Dogecoin's flat 24h direction prediction is based on neutral RSI-14 and sideways short-term trend. The recent market context, including the Fear & Greed Index at 20 and total crypto market cap 24h change of -1.34%, suggests a cautious outlook. However, the 80% bullish sentiment from the CoinGecko community may indicate a potential reversal.",
-    "ja": "ドージコインの24時間予想は、中立的なRSI-14と短期的な傾向の横方向の傾向に基づいています。最近の市場状況、Fear & Greed Indexが20と総暗号資産マーケットキャップ24時間変化が-1.34%ということから、慎重な展開が見込まれます。ただし、CoinGeckoコミュニティの80%のバブル的な意見は、逆転の可能性を示唆しています。",
+    "en": "Dogecoin's 24-hour direction is predicted to be flat with a -0.4% return, driven by neutral RSI-14 and Bollinger Band %B readings. The market context remains bearish, with the Fear & Greed Index at 20 and a 24-hour total crypto market cap change of -0.53%. Recent news on Bitcoin's price movements and potential market crashes may influence Dogecoin's price.",
+    "ja": "ドージコインの24時間の方向は、-0.4％のリターンで予測されており、中立的なRSI-14とボリンジャーバンド％Bの読み方によって推進されています。市場状況は、恐怖と欲求不満指数が20、24時間の総暗号資産市場キャップの変化が-0.53％という状況が続いています。最近のニュースでは、ビットコインの価格動向と潜在的な市場崩壊についてのニュースがドージコインの価格に影響を与える可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-1.34%",
+        "value": "-0.53%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {

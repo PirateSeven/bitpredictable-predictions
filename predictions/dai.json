@@ -1,6 +1,6 @@
 {
   "coinId": "dai",
-  "generatedAt": "2026-06-22T00:00:08.548546Z",
+  "generatedAt": "2026-06-22T01:00:08.365550Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.05732784874062184,
+    "changePercent24h": -0.06421374334735949,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "Dai (DAI) is expected to remain flat in the next 24 hours with a 95% confidence level due to its neutral RSI-14 reading and sideways short-term trend. The Fear & Greed Index is at an extreme fear level, which may impact investor sentiment. Recent news about the crypto market and Bitcoin's price movements may also influence DAI's price.",
-    "ja": "DAI（DAI）は、次の24時間に95％の確率で横ばいになることが予想されます。これは、RSI-14の中立的な値と短期の傾向が横ばいのためです。恐怖と欲求不満指数は極度の恐怖のレベルにあり、これが投資家の感情に影響を与える可能性があります。最近のニュースでは、cryptocurrency市場とビットコインの価格動向がDAIの価格に影響を与える可能性があります。",
+    "en": "Dai (DAI) is expected to remain flat in the next 24 hours with a 95% confidence level, as its RSI-14 and Bollinger Band %B indicate a neutral trend. The recent market downturn and extreme fear sentiment may impact DAI's price, but its short-term trend remains sideways. The lack of significant news affecting DAI directly also supports a flat prediction.",
+    "ja": "DAIは次の24時間に95％の確信度でフラットになることが予想され、RSI-14とボリンジャー・バンド％Bは中立的なトレンドを示しています。最近の市場の低迷と極度の恐怖感はDAIの価格に影響する可能性がありますが、短期のトレンドは横方向にあります。DAIに直接影響を与えるような重大なニュースも存在しないため、フラットな予測を裏付けています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,12 +1000,12 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-1.34%",
+        "value": "-0.53%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "100% bullish",
+        "value": "67% bullish",
         "url": "https://www.coingecko.com/en/coins/dai"
       },
       {
