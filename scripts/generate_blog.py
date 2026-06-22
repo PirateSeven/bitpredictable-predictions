@@ -179,6 +179,34 @@ def groq_generate_model(prompt: str, system: str, model: str) -> str:
         return ""
 
 
+COIN_DISPLAY = {
+    "bitcoin":     ("Bitcoin", "ビットコイン"),
+    "ethereum":    ("Ethereum", "イーサリアム"),
+    "binancecoin": ("BNB", "BNB"),
+    "solana":      ("Solana", "Solana"),
+    "ripple":      ("Ripple", "リップル"),
+    "dogecoin":    ("Dogecoin", "ドージコイン"),
+}
+
+
+def auto_link_coins(text: str, coin_ids, lang: str) -> str:
+    """Groqがリンク指示に従わなかった場合の保険。本文中の最初のコイン名出現を /coins/{id} にリンクする。"""
+    for coin_id in coin_ids:
+        names = COIN_DISPLAY.get(coin_id)
+        if not names:
+            continue
+        if "/coins/" + coin_id + ")" in text:
+            continue
+        name = names[0] if lang == "en" else names[1]
+        flags = re.IGNORECASE if lang == "en" else 0
+        pattern = re.compile((r"\b" + re.escape(name) + r"\b") if lang == "en" else re.escape(name), flags)
+        m = pattern.search(text)
+        if m:
+            matched = text[m.start():m.end()]
+            text = text[:m.start()] + "[" + matched + "](/coins/" + coin_id + ")" + text[m.end():]
+    return text
+
+
 def generate_post_content(ctx: dict) -> dict:
     ctx_text = format_context_text(ctx)
     week = ctx["week"]
@@ -276,6 +304,9 @@ def generate_post_content(ctx: dict) -> dict:
             )
             + "\n\n*本記事は情報提供のみを目的としています。投資助言ではありません。*"
         )
+
+    body_en = auto_link_coins(body_en, ctx["predictions"].keys(), "en")
+    body_ja = auto_link_coins(body_ja, ctx["predictions"].keys(), "ja")
 
     # Extract title from generated content
     title_match_en = re.match(r"^#{1,2}\s+(.+)", body_en)
