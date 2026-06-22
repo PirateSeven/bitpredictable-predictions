@@ -1,6 +1,6 @@
 {
   "coinId": "ripple",
-  "generatedAt": "2026-06-22T07:00:08.549905Z",
+  "generatedAt": "2026-06-22T08:00:08.133007Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -1.714640336679706,
-    "confidence": 0.8769
+    "changePercent24h": -1.6075627036782105,
+    "confidence": 0.8698
   },
   "commentary": {
-    "en": "XRP's 24-hour direction is predicted to be down by 0.5% with a confidence level of 69%. The current market sentiment is extreme fear, as indicated by the Fear & Greed Index of 20. XRP's recent performance is influenced by the overall crypto market, which experienced a 0.35% decline in the total market cap.",
-    "ja": "XRPの24時間方向は、0.5%下げになる予測です。信頼度は69%です。Fear & Greed Indexは20で、極度の恐怖の状態です。XRPの最近のパフォーマンスは、総市場キャップの0.35%の減少に影響されています。",
+    "en": "XRP's 24-hour direction is predicted to be DOWN with a 69% confidence level. The current market sentiment is in extreme fear, as indicated by the Fear & Greed Index of 20. XRP's recent performance is in line with the sideways short-term trend.",
+    "ja": "リップルは24時間の予測方向は下に、信頼度69％で予測されています。現在の市場の感情は極度の恐怖にあり、恐怖と欲求不満指数は20です。リップルの最近のパフォーマンスは短期の傾向として横方向にあります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,12 +1000,12 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-0.35%",
+        "value": "+0.08%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "64% bullish",
+        "value": "63% bullish",
         "url": "https://www.coingecko.com/en/coins/ripple"
       },
       {

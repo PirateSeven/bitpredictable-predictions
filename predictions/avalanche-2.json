@@ -1,6 +1,6 @@
 {
   "coinId": "avalanche-2",
-  "generatedAt": "2026-06-22T07:00:08.549905Z",
+  "generatedAt": "2026-06-22T08:00:08.133007Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -0.8182272678237179,
-    "confidence": 0.7142
+    "changePercent24h": -0.5365,
+    "confidence": 0.6118
   },
   "commentary": {
-    "en": "Avalanche's predicted 24h direction is DOWN with a 61% confidence level, driven by the current market sentiment and recent news of bridge exploits. The Fear & Greed Index at 20 indicates extreme fear, while the CoinGecko community remains 62% bullish. The recent news of bridge exploits may weigh on investor sentiment.",
-    "ja": "アバランチ2の予想24時間の方向は下にあり、61％の信頼度を持っています。これは、現在の市場感情と最近のブリッジの搾取ニュースに影響されています。恐怖と欲求不満指数は20で、極度の恐怖を示しています。コインゲコのコミュニティは62％がバブルを信じています。最近のブリッジの搾取ニュースは投資家の感情に影響を与える可能性があります。",
+    "en": "Avalanche is predicted to move downwards by 0.5% in the next 24 hours with a confidence level of 61%. The current market sentiment is extremely fearful, with the Fear & Greed Index at 20. Recent news of bridge exploits and security concerns may have contributed to this sentiment.",
+    "ja": "アバランチ2は次の24時間で0.5%下落する予想です。信頼度は61%です。現在の市場感情は非常に恐れを抱いており、Fear & Greed Indexは20です。最近の橋梁のハックとセキュリティに関する懸念がこの感情に寄与している可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,12 +1000,12 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-0.35%",
+        "value": "+0.08%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "62% bullish",
+        "value": "60% bullish",
         "url": "https://www.coingecko.com/en/coins/avalanche-2"
       },
       {

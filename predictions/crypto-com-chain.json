@@ -1,6 +1,6 @@
 {
   "coinId": "crypto-com-chain",
-  "generatedAt": "2026-06-22T07:00:08.549905Z",
+  "generatedAt": "2026-06-22T08:00:08.133007Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.20473927816223966,
-    "confidence": 0.6332
+    "changePercent24h": -0.24789326196072115,
+    "confidence": 0.665
   },
   "commentary": {
-    "en": "Cronos is expected to remain flat in the next 24 hours with a predicted return of -0.1% based on technical analysis. The current market context indicates extreme fear with the Fear & Greed Index at 20 and a negative total crypto market cap change of -0.35%. Recent news of bridge exploits and ETF amendments may influence investor sentiment.",
-    "ja": "Cronos は、技術分析に基づいて次の24時間に -0.1% の予想リターンでフラットに維持される可能性があります。Fear & Greed Index が20と総暗号資産市場キャップの24時間変化が-0.35%である現在の市場状況は、極度の恐れを示しています。最近の橋梁の侵害やETFの変更などのニュースは投資家の意識に影響を与える可能性があります。",
+    "en": "The model predicts Cronos will trade sideways over the next 24 hours with moderate confidence (52%). Price moved +0.41% in the past 24 hours with volume at 1.0× average. Community sentiment on CoinGecko is 83% bullish and the Fear & Greed Index reads \"Extreme Fear\" (20), diverging from the model's forecast, adding uncertainty.",
+    "ja": "モデルはCronosが今後24時間で横ばいで推移すると予測しています（信頼度: 中程度の 52%）。過去24時間のリターンは+0.41%、出来高は平均の1.0倍です。CoinGeckoコミュニティでは83%が強気を示し、Fear & Greed指数は「Extreme Fear」（20）です。予測方向と乖離があり、不確実性が高まっています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-0.35%",
+        "value": "+0.08%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {

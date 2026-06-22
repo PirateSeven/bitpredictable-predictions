@@ -1,6 +1,6 @@
 {
   "coinId": "bittensor",
-  "generatedAt": "2026-06-22T07:00:08.549905Z",
+  "generatedAt": "2026-06-22T08:00:08.133007Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -5.591730297590456,
-    "confidence": 0.9427
+    "changePercent24h": -5.038200822335531,
+    "confidence": 0.9367
   },
   "commentary": {
-    "en": "The model predicts Bittensor will decline ~0.7% over the next 24 hours with moderate confidence (64%). The short-term SMA is below the medium-term SMA, indicating weakening momentum. Community sentiment on CoinGecko is 62% bullish and the Fear & Greed Index reads \"Extreme Fear\" (20), diverging from the model's forecast, adding uncertainty.",
-    "ja": "モデルはBittensorが今後24時間で約0.7%下落すると予測しています（信頼度: 中程度の 64%）。短期移動平均が中期移動平均を下回り、モメンタムの低下が示されています。CoinGeckoコミュニティでは62%が強気を示し、Fear & Greed指数は「Extreme Fear」（20）です。予測方向と乖離があり、不確実性が高まっています。",
+    "en": "Bittensor's 24-hour direction is predicted to be DOWN with a -0.7% change, indicating a possible decline in the short-term. The recent news of several bridge exploits and a Fear & Greed Index of 20 suggest a cautious market sentiment. The short-term trend and RSI-14 value of 46 also support a neutral to bearish outlook.",
+    "ja": "BITTENSORの24時間の予想方向はDOWNで、-0.7%の変化が見込まれるため、短期的には下落が予想される。橋接攻撃やFEAR & GREED INDEXの20の値は、慎重な市場の気分を示している。短期の傾向とRSI-14の値46も、中立的から悲観的な展開を支持している。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,12 +1000,12 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-0.35%",
+        "value": "+0.08%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "62% bullish",
+        "value": "59% bullish",
         "url": "https://www.coingecko.com/en/coins/bittensor"
       },
       {

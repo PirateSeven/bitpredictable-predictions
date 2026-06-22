@@ -1,6 +1,6 @@
 {
   "coinId": "bitcoin",
-  "generatedAt": "2026-06-22T07:00:08.549905Z",
+  "generatedAt": "2026-06-22T08:00:08.133007Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 0.3904296314594803,
-    "confidence": 0.6833
+    "changePercent24h": 0.4516134852057535,
+    "confidence": 0.7109
   },
   "commentary": {
-    "en": "Bitcoin's 24-hour direction is predicted to be flat with a -0.3% return, indicating a neutral market sentiment. The Fear & Greed Index remains at 20, indicating extreme fear among investors. Recent news of bridge exploits and ETF amendments may have contributed to the current market volatility.",
-    "ja": "ビットコインの24時間の予測は、-0.3%のリターンでフラットであることを示しています。恐怖と欲求不満指数は20で、投資家の感情は極度の恐怖です。最近の橋梁のハックやETFの改修のニュースは、現在の市場の不安定さに寄与している可能性があります。",
+    "en": "Bitcoin's 24-hour direction is predicted to be flat with a -0.3% change, indicating a stable market. The Fear & Greed Index remains in Extreme Fear territory, while the CoinGecko community is 78% bullish. Recent news highlights security concerns in the crypto space, which may impact investor sentiment.",
+    "ja": "ビットコインの24時間の予測方向は、-0.3％の変化でフラットであることを示しています。恐怖と欲求不満指数は、極度の恐怖の状態にありますが、CoinGeckoコミュニティは78％がビジンです。最近のニュースでは、暗号資産のセキュリティに関する懸念が高まり、投資家の態度に影響を与えているようです。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-0.35%",
+        "value": "+0.08%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {

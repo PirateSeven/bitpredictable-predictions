@@ -1,6 +1,6 @@
 {
   "coinId": "worldcoin-wld",
-  "generatedAt": "2026-06-22T07:00:08.549905Z",
+  "generatedAt": "2026-06-22T08:00:08.133007Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": 2.773311420029638,
-    "confidence": 0.8327
+    "changePercent24h": 0.1810596333742973,
+    "confidence": 0.1
   },
   "commentary": {
-    "en": "Worldcoin WLD is predicted to decline by -2.5% in the next 24 hours with a confidence level of 81%. The recent news of several bridge exploits and a 'suspicious' BTC price gain may contribute to the market's extreme fear sentiment. The short-term trend remains in an uptrend despite the overall market's slight decline.",
-    "ja": "ワールドコインのWLDは、次の24時間に-2.5%の下落が予想され、信頼度は81%です。橋接攻撃やBTC価格上昇の疑問が市場の極度の恐怖感に寄与している可能性があります。短期的なトレンドは、総市場の微妙な下落にもかかわらず、上昇傾向にあります。",
+    "en": "The model predicts Worldcoin will decline ~2.5% over the next 24 hours with high confidence (81%). The short-term SMA has crossed above the medium-term SMA, signalling positive momentum. Community sentiment on CoinGecko is 77% bullish and the Fear & Greed Index reads \"Extreme Fear\" (20), diverging from the model's forecast, adding uncertainty.",
+    "ja": "モデルはWorldcoinが今後24時間で約2.5%下落すると予測しています（信頼度: 高い 81%）。短期移動平均が中期移動平均を上回り、ポジティブなモメンタムが示されています。CoinGeckoコミュニティでは77%が強気を示し、Fear & Greed指数は「Extreme Fear」（20）です。予測方向と乖離があり、不確実性が高まっています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,12 +1000,12 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-0.35%",
+        "value": "+0.08%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "76% bullish",
+        "value": "77% bullish",
         "url": "https://www.coingecko.com/en/coins/worldcoin-wld"
       },
       {

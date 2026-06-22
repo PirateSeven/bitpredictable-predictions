@@ -1,6 +1,6 @@
 {
   "coinId": "dai",
-  "generatedAt": "2026-06-22T07:00:08.549905Z",
+  "generatedAt": "2026-06-22T08:00:08.133007Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.00033338791278476193,
+    "changePercent24h": 0.009534012189742702,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "The model predicts Dai will trade sideways over the next 24 hours with high confidence (95%). Price is testing the upper Bollinger Band, a resistance level that often precedes short-term consolidation. Community sentiment on CoinGecko is 0% bullish and the Fear & Greed Index reads \"Extreme Fear\" (20), aligning with the model's forecast.",
-    "ja": "モデルはDaiが今後24時間で横ばいで推移すると予測しています（信頼度: 高い 95%）。価格がボリンジャーバンド上限に到達しており、短期的な調整が起こりやすい状態です。CoinGeckoコミュニティでは0%が強気を示し、Fear & Greed指数は「Extreme Fear」（20）です。予測と方向性が一致しています。",
+    "en": "Dai (DAI) is expected to remain flat in the next 24 hours with a 0.0% return, based on technical signals. The Fear & Greed Index is at extreme fear levels, and the recent news of bridge exploits and ETF amendments may have a negative impact on the market. The short-term trend is sideways, with a neutral RSI-14 reading.",
+    "ja": "Dai (DAI) は、次の24時間で0.0%のリターンでフラットに推定される。恐怖と欲求不満指数は極度の恐怖にあり、最近の橋のエクスプロイトやETFの変更などのニュースは市場に否定的な影響を与える可能性がある。短期のトレンドは横方向にあり、RSI-14の読みは中立的である。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-0.35%",
+        "value": "+0.08%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {

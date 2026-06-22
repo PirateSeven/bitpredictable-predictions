@@ -1,6 +1,6 @@
 {
   "coinId": "uniswap",
-  "generatedAt": "2026-06-22T07:00:08.549905Z",
+  "generatedAt": "2026-06-22T08:00:08.133007Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": 0.609607357263934,
-    "confidence": 0.5254
+    "changePercent24h": -0.0015643495267763097,
+    "confidence": 0.1
   },
   "commentary": {
-    "en": "Uniswap's predicted 24h direction is DOWN with a confidence of 79%, driven by a recent 24h actual return of +2.57% and a short-term trend indicating sideways movement. The Fear & Greed Index remains at Extreme Fear, and recent news of bridge exploits and price fluctuations may impact investor sentiment. With a neutral RSI-14 and mid-band Bollinger Band %B, Uniswap's technical signals suggest a potential correction.",
-    "ja": "ユニスワップの24時間予想は下落です。信頼度は79%です。24時間実際のリターンは+2.57%、短期のトレンドは横方向に動いています。恐怖と欲望指数は極度の恐怖のままです。最近のニュースではブリッジのエクスプロイトや価格の変動が投資家の意識に影響を与える可能性があります。RSI-14は中立的な値、ボリンジャー・バンドの%Bは中間の値を示しています。",
+    "en": "Uniswap is predicted to decline by 1.7% in the next 24 hours, with a confidence level of 79%. The Fear & Greed Index is at 20, indicating extreme fear in the market. The recent bridge exploits and news of cheap ETF fees may impact investor sentiment.",
+    "ja": "ユニスワップは次の24時間で1.7%下落する可能性があり、信頼度は79%です。恐怖と欲求不満指数は20、市場では極度の恐怖が広がっています。最近のブリッジのハックや安いETFのニュースは投資家の意見に影響を与える可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-0.35%",
+        "value": "+0.08%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
