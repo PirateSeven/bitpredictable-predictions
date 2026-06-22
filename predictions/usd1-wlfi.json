@@ -1,6 +1,6 @@
 {
   "coinId": "usd1-wlfi",
-  "generatedAt": "2026-06-22T10:00:08.169609Z",
+  "generatedAt": "2026-06-22T11:00:08.031643Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.08001646120662237,
+    "changePercent24h": -0.08749977702649998,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "USD1-WLFI is likely to remain flat in the short term with a 95% confidence level, as the RSI-14 is neutral and the short-term trend is sideways. The recent news on stablecoin rules and travel rule expansion may have a limited impact on the market, given the overall extreme fear sentiment. The coin's price is expected to stabilize around the lower Bollinger Band.",
-    "ja": "USD1-WLFIは短期的には95％の確率でフラットに推移する可能性があり、RSI-14は中立的で短期的なトレンドは横方向に推移している。安定コイン規制やトラベルルールの拡大に関する最近のニュースは、全体的な恐怖感が極度に高まっている中で、市場に限られた影響を与える可能性がある。コインの価格は下方ボリンジャーバンド周辺で安定する可能性がある。",
+    "en": "The model predicts USD1 will trade sideways over the next 24 hours with high confidence (95%). Price is near lower Bollinger Band support, where rebounds are historically more frequent. Community sentiment on CoinGecko is 0% bullish and the Fear & Greed Index reads \"Extreme Fear\" (20), aligning with the model's forecast.",
+    "ja": "モデルはUSD1が今後24時間で横ばいで推移すると予測しています（信頼度: 高い 95%）。価格がボリンジャーバンド下限付近で、サポートからの反発が過去パターンより多く観察されます。CoinGeckoコミュニティでは0%が強気を示し、Fear & Greed指数は「Extreme Fear」（20）です。予測と方向性が一致しています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-0.04%",
+        "value": "-0.14%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
@@ -1010,18 +1010,18 @@
       },
       {
         "label": "CoinTelegraph",
+        "value": "Q2 2026 emerges as most-hacked quarter on record with 83 incidents",
+        "url": "https://cointelegraph.com/news/q2-2026-most-hacked-quarter-record-83-incidents?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "US dollar strength hits highest since May 2025: Five things to know in Bitcoin this week",
+        "url": "https://cointelegraph.com/markets/us-dollar-strength-hits-highest-since-may-2025-five-things-to-know-in-bitcoin-this-week?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
         "value": "Bank of England eases stablecoin rules, introduces 40B pound issuance cap",
         "url": "https://cointelegraph.com/news/bank-of-england-stablecoin-rules-clears-path-for-2027-launch?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "South Korea pushes Travel Rule expansion for smaller crypto transfers",
-        "url": "https://cointelegraph.com/news/south-korea-travel-rule-smaller-crypto-transfers?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Here’s what happened in crypto today",
-        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

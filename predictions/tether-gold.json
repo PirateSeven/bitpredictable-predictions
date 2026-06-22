@@ -1,6 +1,6 @@
 {
   "coinId": "tether-gold",
-  "generatedAt": "2026-06-22T10:00:08.169609Z",
+  "generatedAt": "2026-06-22T11:00:08.031643Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 0.9149024198721514,
+    "changePercent24h": 1.1049168599283155,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "Tether Gold (TETHER-GOLD) is predicted to remain flat with a 0.0% return, driven by its neutral RSI-14 reading and sideways short-term trend. The recent easing of stablecoin rules by the Bank of England may have a positive impact on Tether's overall market sentiment. However, the Extreme Fear sentiment in the market and recent market volatility may offset this effect.",
-    "ja": "Tether Gold（TETHER-GOLD）は、ニュートラルのRSI-14値と短期的な横方向のトレンドにより、0.0％のリターンで平穏な状態を維持する可能性があります。Bank of Englandがスタッブルコイン規制を緩和し、40億ポンドの発行上限を設けたことは、Tetherの市場感覚にプラスの影響を与えるかもしれません。しかし、市場全体の恐怖感と最近の市場の動揺は、この効果を打ち消す可能性があります。",
+    "en": "The model predicts Tether Gold will trade sideways over the next 24 hours with high confidence (91%). Price is testing the upper Bollinger Band, a resistance level that often precedes short-term consolidation. Community sentiment on CoinGecko is 100% bullish and the Fear & Greed Index reads \"Extreme Fear\" (20), diverging from the model's forecast, adding uncertainty.",
+    "ja": "モデルはTether Goldが今後24時間で横ばいで推移すると予測しています（信頼度: 高い 91%）。価格がボリンジャーバンド上限に到達しており、短期的な調整が起こりやすい状態です。CoinGeckoコミュニティでは100%が強気を示し、Fear & Greed指数は「Extreme Fear」（20）です。予測方向と乖離があり、不確実性が高まっています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-0.04%",
+        "value": "-0.14%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
@@ -1010,18 +1010,18 @@
       },
       {
         "label": "CoinTelegraph",
+        "value": "Q2 2026 emerges as most-hacked quarter on record with 83 incidents",
+        "url": "https://cointelegraph.com/news/q2-2026-most-hacked-quarter-record-83-incidents?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "US dollar strength hits highest since May 2025: Five things to know in Bitcoin this week",
+        "url": "https://cointelegraph.com/markets/us-dollar-strength-hits-highest-since-may-2025-five-things-to-know-in-bitcoin-this-week?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
         "value": "Bank of England eases stablecoin rules, introduces 40B pound issuance cap",
         "url": "https://cointelegraph.com/news/bank-of-england-stablecoin-rules-clears-path-for-2027-launch?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "South Korea pushes Travel Rule expansion for smaller crypto transfers",
-        "url": "https://cointelegraph.com/news/south-korea-travel-rule-smaller-crypto-transfers?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Here’s what happened in crypto today",
-        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

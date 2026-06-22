@@ -1,6 +1,6 @@
 {
   "coinId": "litecoin",
-  "generatedAt": "2026-06-22T10:00:08.169609Z",
+  "generatedAt": "2026-06-22T11:00:08.031643Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -1.0190654394085843,
-    "confidence": 0.8246
+    "changePercent24h": -0.4412562670152152,
+    "confidence": 0.6779
   },
   "commentary": {
-    "en": "Litecoin's 24-hour direction is predicted to be flat with a minor decline of -0.2%, due to neutral technical signals and a sideways short-term trend. The Fear & Greed Index remains in extreme fear, while the total crypto market cap shows a minor decline. The recent news on stablecoin rules and crypto regulations may have a limited impact on Litecoin's price.",
-    "ja": "リテコインの24時間予想は、-0.2%の小幅な下落に傾く可能性があり、中立的な技術指標と短期的な横方向の傾向によりそうである。恐怖と欲求不満指数は極度の恐怖のままであり、総暗号資産市場キャップは小幅な下落を見せている。安定コイン規制や暗号資産規制に関する最近のニュースはリテコインの価格に限られた影響を与える可能性がある。",
+    "en": "The model predicts Litecoin will trade sideways over the next 24 hours with moderate confidence (50%). Price moved +0.22% in the past 24 hours with volume at 1.0× average. Community sentiment on CoinGecko is 77% bullish and the Fear & Greed Index reads \"Extreme Fear\" (20), diverging from the model's forecast, adding uncertainty.",
+    "ja": "モデルはLitecoinが今後24時間で横ばいで推移すると予測しています（信頼度: 中程度の 50%）。過去24時間のリターンは+0.22%、出来高は平均の1.0倍です。CoinGeckoコミュニティでは77%が強気を示し、Fear & Greed指数は「Extreme Fear」（20）です。予測方向と乖離があり、不確実性が高まっています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,28 +1000,28 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-0.04%",
+        "value": "-0.14%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "83% bullish",
+        "value": "77% bullish",
         "url": "https://www.coingecko.com/en/coins/litecoin"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Q2 2026 emerges as most-hacked quarter on record with 83 incidents",
+        "url": "https://cointelegraph.com/news/q2-2026-most-hacked-quarter-record-83-incidents?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "US dollar strength hits highest since May 2025: Five things to know in Bitcoin this week",
+        "url": "https://cointelegraph.com/markets/us-dollar-strength-hits-highest-since-may-2025-five-things-to-know-in-bitcoin-this-week?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
         "value": "Bank of England eases stablecoin rules, introduces 40B pound issuance cap",
         "url": "https://cointelegraph.com/news/bank-of-england-stablecoin-rules-clears-path-for-2027-launch?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "South Korea pushes Travel Rule expansion for smaller crypto transfers",
-        "url": "https://cointelegraph.com/news/south-korea-travel-rule-smaller-crypto-transfers?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Here’s what happened in crypto today",
-        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

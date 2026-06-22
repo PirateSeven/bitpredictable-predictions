@@ -1,6 +1,6 @@
 {
   "coinId": "leo-token",
-  "generatedAt": "2026-06-22T10:00:08.169609Z",
+  "generatedAt": "2026-06-22T11:00:08.031643Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.46326810097724064,
-    "confidence": 0.7519
+    "changePercent24h": -0.8392976173973565,
+    "confidence": 0.8376
   },
   "commentary": {
-    "en": "LEO Token is expected to remain flat with a potential 0.3% decrease in the next 24 hours, based on current technical signals. The Fear & Greed Index indicates extreme fear in the market, which may impact LEO Token's price. Recent news on stablecoin rules and regulatory changes may have a mixed effect on the token's performance.",
-    "ja": "LEO Tokenは、現在の技術指標に基づいて、来日24時間で0.3%の下落が予想される。Fear & Greed Indexは、市場全体が極度の恐怖に陥っていることを示しており、LEO Tokenの価格に影響を与える可能性がある。安定コイン規制のニュースや規制の変更など、最近のニュースはトークンのパフォーマンスにさまざまな影響を与える可能性がある。",
+    "en": "LEO Token (LEO-TOKEN) is expected to remain flat with a 24-hour direction of -0.3% due to the current neutral RSI-14 reading and mid-band Bollinger Band %B. The recent news on increased hacking incidents and US dollar strength may have a negative impact on the market sentiment. The overall market context suggests a cautious approach with the Fear & Greed Index at Extreme Fear.",
+    "ja": "LEO Token (LEO-TOKEN) は、現在の中立的な RSI-14 の値と中間帯のボリンジャー バンド %B の値により、24 時間方向は -0.3% のままである可能性があります。最近のニュースでは、ハッキングの増加と米ドル強化がマーケットの感性に否定的な影響を与える可能性があります。総合的なマーケット コンテキストでは、マーケットの恐怖感が極度の恐怖に達しているため、慎重なアプローチが必要です。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-0.04%",
+        "value": "-0.14%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
@@ -1010,18 +1010,18 @@
       },
       {
         "label": "CoinTelegraph",
+        "value": "Q2 2026 emerges as most-hacked quarter on record with 83 incidents",
+        "url": "https://cointelegraph.com/news/q2-2026-most-hacked-quarter-record-83-incidents?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "US dollar strength hits highest since May 2025: Five things to know in Bitcoin this week",
+        "url": "https://cointelegraph.com/markets/us-dollar-strength-hits-highest-since-may-2025-five-things-to-know-in-bitcoin-this-week?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
         "value": "Bank of England eases stablecoin rules, introduces 40B pound issuance cap",
         "url": "https://cointelegraph.com/news/bank-of-england-stablecoin-rules-clears-path-for-2027-launch?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "South Korea pushes Travel Rule expansion for smaller crypto transfers",
-        "url": "https://cointelegraph.com/news/south-korea-travel-rule-smaller-crypto-transfers?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Here’s what happened in crypto today",
-        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

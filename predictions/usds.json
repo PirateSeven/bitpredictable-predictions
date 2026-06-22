@@ -1,6 +1,6 @@
 {
   "coinId": "usds",
-  "generatedAt": "2026-06-22T10:00:08.169609Z",
+  "generatedAt": "2026-06-22T11:00:08.031643Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.036,
+    "changePercent24h": -0.02346747065896916,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "USDS is expected to remain flat in the next 24 hours with a 95% confidence level. The current market conditions, including a Fear & Greed Index of 20 and a sideways short-term trend, suggest a neutral outlook. The recent news on stablecoin rules and ETFs may have a limited impact on USDS.",
-    "ja": "USDSは次の24時間に95%の確率でフラットで推定される。Fear & Greed Indexが20と短期的な傾向が横方向のままであることから、現在の市場状況は中立的な展開を示唆している。最近のニュースであるステーブルコイン規制とETFのニュースはUSDSに限りなく影響を与える可能性は低い。",
+    "en": "USDS is expected to remain flat in the next 24 hours with a 95% confidence level. The current market conditions, including the Fear & Greed Index at 20 and the total crypto market cap 24h change of -0.14%, suggest a cautious outlook. The recent news on Q2 2026's high number of hacking incidents and US dollar strength may also contribute to this neutral prediction.",
+    "ja": "USDSは次の24時間で95％の確率でフラットに推移する予想されています。Fear & Greed Indexが20、総暗号資産市場キャップ24時間変化が-0.14%と現在の市場状況は慎重な展開を示しており、近日発表されたQ2 2026におけるハッキング件数の高さや米ドル強化もこの中立的な予測に寄与する可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-0.04%",
+        "value": "-0.14%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
@@ -1010,18 +1010,18 @@
       },
       {
         "label": "CoinTelegraph",
+        "value": "Q2 2026 emerges as most-hacked quarter on record with 83 incidents",
+        "url": "https://cointelegraph.com/news/q2-2026-most-hacked-quarter-record-83-incidents?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "US dollar strength hits highest since May 2025: Five things to know in Bitcoin this week",
+        "url": "https://cointelegraph.com/markets/us-dollar-strength-hits-highest-since-may-2025-five-things-to-know-in-bitcoin-this-week?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
         "value": "Bank of England eases stablecoin rules, introduces 40B pound issuance cap",
         "url": "https://cointelegraph.com/news/bank-of-england-stablecoin-rules-clears-path-for-2027-launch?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "South Korea pushes Travel Rule expansion for smaller crypto transfers",
-        "url": "https://cointelegraph.com/news/south-korea-travel-rule-smaller-crypto-transfers?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Here’s what happened in crypto today",
-        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

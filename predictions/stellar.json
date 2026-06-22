@@ -1,6 +1,6 @@
 {
   "coinId": "stellar",
-  "generatedAt": "2026-06-22T10:00:08.169609Z",
+  "generatedAt": "2026-06-22T11:00:08.031643Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -2.7640764576579544,
-    "confidence": 0.872
+    "changePercent24h": -2.1615829216553113,
+    "confidence": 0.8401
   },
   "commentary": {
-    "en": "Stellar's price is predicted to decline by 2.1% in the next 24 hours with a confidence level of 83%. The recent easing of stablecoin rules by the Bank of England may have a limited impact on Stellar's price due to its existing stablecoin infrastructure. The Fear & Greed Index remains in Extreme Fear territory, indicating a high level of caution among investors.",
-    "ja": "ステラルの価格は、次の24時間で2.1%下落する予想されており、確信度は83%です。銀行の安定コイン規制緩和は、既存の安定コインインフラストラクチャに影響を与える可能性は低いです。恐怖と欲求不満指数は、極度の恐怖の状態にあり、投資家の警戒心が高まっています。",
+    "en": "Stellar's predicted 24-hour direction is DOWN with a confidence of 83%, driven by a neutral RSI-14 reading and a mid-band Bollinger Band %B. The recent news on increased hacking incidents and US dollar strength may contribute to the bearish sentiment. However, the sideways short-term trend and neutral RSI-14 reading suggest a possible stabilization.",
+    "ja": "ステラルの24時間予測方向は下降にあり、83%の確信度があります。これは中立的なRSI-14の値とボリンジャーバンド％Bの中央値が原因です。最近のニュースではハッキングの増加と米国ドル強化が恐れの感情を高めているようです。ただし、短期的な傾向は横ばいであり、RSI-14の値は中立的であるため、安定化が可能である可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,28 +1000,28 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-0.04%",
+        "value": "-0.14%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "57% bullish",
+        "value": "55% bullish",
         "url": "https://www.coingecko.com/en/coins/stellar"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Q2 2026 emerges as most-hacked quarter on record with 83 incidents",
+        "url": "https://cointelegraph.com/news/q2-2026-most-hacked-quarter-record-83-incidents?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "US dollar strength hits highest since May 2025: Five things to know in Bitcoin this week",
+        "url": "https://cointelegraph.com/markets/us-dollar-strength-hits-highest-since-may-2025-five-things-to-know-in-bitcoin-this-week?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
         "value": "Bank of England eases stablecoin rules, introduces 40B pound issuance cap",
         "url": "https://cointelegraph.com/news/bank-of-england-stablecoin-rules-clears-path-for-2027-launch?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "South Korea pushes Travel Rule expansion for smaller crypto transfers",
-        "url": "https://cointelegraph.com/news/south-korea-travel-rule-smaller-crypto-transfers?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Here’s what happened in crypto today",
-        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

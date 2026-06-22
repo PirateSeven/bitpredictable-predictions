@@ -1,6 +1,6 @@
 {
   "coinId": "blackrock-usd-institutional-digital-liquidity-fund",
-  "generatedAt": "2026-06-22T10:00:08.169609Z",
+  "generatedAt": "2026-06-22T11:00:08.031643Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 0.14229122540031408,
+    "changePercent24h": 0.12626920615771992,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "The Blackrock USD Institutional Digital Liquidity Fund is expected to remain flat with a 0.2% increase in the next 24 hours, with a 95% confidence level. The fund's RSI-14 is overbought, and the Bollinger Band %B is at its lower band, indicating potential volatility. The recent news on stablecoin rules and crypto regulations may have a limited impact on the fund's performance.",
-    "ja": "ブラックロック US ドル インスタイトショナル ディジタル リキッドティ ファンドは、次の24時間に0.2%の増加が予想され、95%の信頼度を持っています。 このファンドの RSI-14 はオーバーボールトであり、ボリンジャー バンド %B は下限にあり、潜在的なボリュームが示唆されています。 安定コイン規則や暗号資産規制に関する最近のニュースは、このファンドのパフォーマンスに限られた影響を与える可能性があります。",
+    "en": "The Blackrock USD Institutional Digital Liquidity Fund is expected to remain flat with a 0.2% increase in the next 24 hours, driven by a sideways short-term trend and low volume ratio. The overbought RSI-14 reading and lower Bollinger Band %B suggest a potential correction, but the Extreme Fear Fear & Greed Index and recent market volatility may limit the fund's upside.",
+    "ja": "ブラックロック US ドル インスティテューショナル デジタル リクイディティ ファンドは、次の 24 時間で 0.2% の増加が予想され、短期的な傾向と低いボリューム比率によって推進される。オーバーボールド RSI-14 の読み取りと下方ボリンジャー バンド %B は、価格の修正を示唆しているが、極度の恐怖のFear & Greed Indexと最近の市場の不安は、ファンドの上昇を制限する可能性がある。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-0.04%",
+        "value": "-0.14%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
@@ -1010,18 +1010,18 @@
       },
       {
         "label": "CoinTelegraph",
+        "value": "Q2 2026 emerges as most-hacked quarter on record with 83 incidents",
+        "url": "https://cointelegraph.com/news/q2-2026-most-hacked-quarter-record-83-incidents?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "US dollar strength hits highest since May 2025: Five things to know in Bitcoin this week",
+        "url": "https://cointelegraph.com/markets/us-dollar-strength-hits-highest-since-may-2025-five-things-to-know-in-bitcoin-this-week?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
         "value": "Bank of England eases stablecoin rules, introduces 40B pound issuance cap",
         "url": "https://cointelegraph.com/news/bank-of-england-stablecoin-rules-clears-path-for-2027-launch?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "South Korea pushes Travel Rule expansion for smaller crypto transfers",
-        "url": "https://cointelegraph.com/news/south-korea-travel-rule-smaller-crypto-transfers?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Here’s what happened in crypto today",
-        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

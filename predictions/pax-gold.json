@@ -1,6 +1,6 @@
 {
   "coinId": "pax-gold",
-  "generatedAt": "2026-06-22T10:00:08.169609Z",
+  "generatedAt": "2026-06-22T11:00:08.031643Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 0.831685206145875,
+    "changePercent24h": 1.0478937506868602,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "PAX Gold (PAX-GOLD) is predicted to remain flat with a 0.0% change in the next 24 hours, with a confidence level of 88%. The recent easing of stablecoin rules by the Bank of England may have a positive impact on PAX-GOLD, but the overall market sentiment remains in extreme fear. The high volume ratio and neutral RSI-14 reading indicate a potential for increased volatility.",
-    "ja": "PAX Gold (PAX-GOLD) は、次の24時間で0.0%の変化を予測し、信頼度は88%です。 Bank of Englandがスターブルコイン規制を緩和したことはPAX-GOLDに好影響を与える可能性がありますが、市場全体の感情は極度の恐怖のままです。 高いボリュームレシオと中立的なRSI-14の値は、増加する波動性の可能性を示しています。",
+    "en": "PAX Gold (PAX-GOLD) is expected to remain flat in the next 24 hours with a predicted return of -0.0% due to its neutral RSI-14 reading and sideways short-term trend. The recent news of US dollar strength and eased stablecoin rules may impact the market, but PAX-GOLD's price movement is expected to be minimal. The high volume ratio and upper Bollinger Band %B suggest a potential for volatility.",
+    "ja": "PAX Gold (PAX-GOLD) は、次の24時間で予想されるリターンは-0.0%で、ニュートラルのRSI-14の値と短期のトレンドが横方向に動いているため、平穏な動きが続く可能性があります。米ドル強化と安定コイン規制緩和などの最近のニュースは市場に影響を与える可能性がありますが、PAX-GOLDの価格動向は予想外の小さな変化が見込まれます。高いボリュームレシオと上のボリンジャー・バンド％Bは、波動性の可能性を示唆しています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,28 +1000,23 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-0.04%",
+        "value": "-0.14%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
-        "label": "CoinGecko Community Sentiment",
-        "value": "100% bullish",
-        "url": "https://www.coingecko.com/en/coins/pax-gold"
+        "label": "CoinTelegraph",
+        "value": "Q2 2026 emerges as most-hacked quarter on record with 83 incidents",
+        "url": "https://cointelegraph.com/news/q2-2026-most-hacked-quarter-record-83-incidents?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "US dollar strength hits highest since May 2025: Five things to know in Bitcoin this week",
+        "url": "https://cointelegraph.com/markets/us-dollar-strength-hits-highest-since-may-2025-five-things-to-know-in-bitcoin-this-week?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
         "value": "Bank of England eases stablecoin rules, introduces 40B pound issuance cap",
         "url": "https://cointelegraph.com/news/bank-of-england-stablecoin-rules-clears-path-for-2027-launch?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "South Korea pushes Travel Rule expansion for smaller crypto transfers",
-        "url": "https://cointelegraph.com/news/south-korea-travel-rule-smaller-crypto-transfers?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Here’s what happened in crypto today",
-        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

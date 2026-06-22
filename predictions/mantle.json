@@ -1,6 +1,6 @@
 {
   "coinId": "mantle",
-  "generatedAt": "2026-06-22T10:00:08.169609Z",
+  "generatedAt": "2026-06-22T11:00:08.031643Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 0.11521682547405288,
-    "confidence": 0.3725
+    "changePercent24h": -0.012475549088104776,
+    "confidence": 0.3452
   },
   "commentary": {
-    "en": "Mantle (MANTLE) is expected to remain flat with a 0.4% decline in the next 24 hours, according to technical signals. The current market context, including an Extreme Fear sentiment and a slight decline in the total crypto market cap, may have a neutral impact on MANTLE's price. Recent news about stablecoin regulations and a bridge exploit may not have a direct effect on MANTLE's price movement.",
-    "ja": "Mantle（MANTLE）は、技術的信号に基づいて次の24時間で0.4％の下落を予想しています。市場状況、特に極度の恐怖感と総暗号資産市場キャップの微妙な下落は、MANTLEの価格に中立的な影響を与える可能性があります。安定コイン規制やブリッジのハックに関する最近のニュースは、MANTLEの価格動向に直接的な影響を与える可能性は低いです。",
+    "en": "Mantle (MANTLE) is expected to experience a flat 24-hour period with a slight decline of -0.4% due to the current market sentiment and technical signals. The Fear & Greed Index remains in the Extreme Fear zone, and the recent news on US dollar strength and stablecoin regulations may impact the cryptocurrency market.",
+    "ja": "Mantle (MANTLE) は24時間で-0.4%の小幅な下落を経験する可能性があり、現在の市場感覚や技術指標から推測される。Fear & Greed Indexはエクストリーム フィアの状態にあり、米国ドル強化やスタビルコイン規制に関する最近のニュースは、暗号通貨市場に影響を与える可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,23 +1000,23 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-0.04%",
+        "value": "-0.14%",
         "url": "https://www.coingecko.com/en/global-charts"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Q2 2026 emerges as most-hacked quarter on record with 83 incidents",
+        "url": "https://cointelegraph.com/news/q2-2026-most-hacked-quarter-record-83-incidents?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "US dollar strength hits highest since May 2025: Five things to know in Bitcoin this week",
+        "url": "https://cointelegraph.com/markets/us-dollar-strength-hits-highest-since-may-2025-five-things-to-know-in-bitcoin-this-week?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
         "value": "Bank of England eases stablecoin rules, introduces 40B pound issuance cap",
         "url": "https://cointelegraph.com/news/bank-of-england-stablecoin-rules-clears-path-for-2027-launch?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "South Korea pushes Travel Rule expansion for smaller crypto transfers",
-        "url": "https://cointelegraph.com/news/south-korea-travel-rule-smaller-crypto-transfers?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Here’s what happened in crypto today",
-        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

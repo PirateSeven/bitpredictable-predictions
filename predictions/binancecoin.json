@@ -1,6 +1,6 @@
 {
   "coinId": "binancecoin",
-  "generatedAt": "2026-06-22T10:00:08.169609Z",
+  "generatedAt": "2026-06-22T11:00:08.031643Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 0.7548892931971746,
-    "confidence": 0.8234
+    "changePercent24h": 1.1696935698657387,
+    "confidence": 0.875
   },
   "commentary": {
-    "en": "BNB's 24-hour direction is predicted to be flat with a -0.2% change, indicating a neutral sentiment. The Fear & Greed Index remains at 20, reflecting extreme fear in the market. Recent news on stablecoin regulations and Morgan Stanley's ETF amendments may influence BNB's price.",
-    "ja": "ビナンスコインの24時間の動向は、-0.2％の変化を予測しており、中立的な感情を示しています。恐怖と欲求不満指数は20に留まり、市場全体に恐怖が広がっています。安定コイン規制やマーガン・スタンレーのETFの変更に関するニュースは、ビナンスコインの価格に影響を与えるかもしれません。",
+    "en": "BNB's 24-hour direction is predicted to be flat with a 0.2% decrease in confidence. The Fear & Greed Index remains in Extreme Fear territory, while the CoinGecko community is split 50% bullish. Recent news on US dollar strength and stablecoin regulations may impact BNB's price.",
+    "ja": "ビナンスコインの24時間予測は、0.2%の減少率でフラットと予想されています。恐怖と欲求不満指数はエクストリーム・フィアの状態で、CoinGeckoコミュニティは50%がバ Bullishです。米国ドル強化とスタビルコイン規制に関する最近のニュースはビナンスコインの価格に影響を与える可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-0.04%",
+        "value": "-0.14%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
@@ -1010,18 +1010,18 @@
       },
       {
         "label": "CoinTelegraph",
+        "value": "Q2 2026 emerges as most-hacked quarter on record with 83 incidents",
+        "url": "https://cointelegraph.com/news/q2-2026-most-hacked-quarter-record-83-incidents?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "US dollar strength hits highest since May 2025: Five things to know in Bitcoin this week",
+        "url": "https://cointelegraph.com/markets/us-dollar-strength-hits-highest-since-may-2025-five-things-to-know-in-bitcoin-this-week?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
         "value": "Bank of England eases stablecoin rules, introduces 40B pound issuance cap",
         "url": "https://cointelegraph.com/news/bank-of-england-stablecoin-rules-clears-path-for-2027-launch?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "South Korea pushes Travel Rule expansion for smaller crypto transfers",
-        "url": "https://cointelegraph.com/news/south-korea-travel-rule-smaller-crypto-transfers?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Here’s what happened in crypto today",
-        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

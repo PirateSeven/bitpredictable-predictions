@@ -1,6 +1,6 @@
 {
   "coinId": "usd-coin",
-  "generatedAt": "2026-06-22T10:00:08.169609Z",
+  "generatedAt": "2026-06-22T11:00:08.031643Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.0095015964522909,
+    "changePercent24h": -0.001002053649835917,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "USD Coin (USD-COIN) is expected to remain flat in the next 24 hours with a 0% predicted return, driven by neutral technical signals and a stable market context. The Fear & Greed Index indicates extreme fear, but the recent easing of stablecoin rules by the Bank of England may provide some support. A cautious approach is advised due to the current market sentiment.",
-    "ja": "USDコイン（USD-COIN）は、次の24時間で0％の予想利回りで横ばいになる可能性があり、技術指標と安定した市場状況が推進している。恐怖と欲求不満指数は極度の恐怖を示しているが、銀行・英国の安定コイン規制緩和は一定のサポートを与える可能性がある。現在の市場感覚に注意を払うことが必要である。",
+    "en": "USD Coin (USD-COIN) is predicted to move flat in the next 24 hours with a -0.0% return, based on technical signals and market context. The Fear & Greed Index remains in Extreme Fear territory, while the recent news on stablecoin rules and US dollar strength may impact USD-COIN's price. However, the neutral RSI-14 and mid-band Bollinger Band %B suggest a stable short-term trend.",
+    "ja": "USD コイン（USD-COIN）は、技術的信号と市場状況に基づいて、次の24時間に-0.0％のリターンで動く予想されています。恐怖と欲求不満指数は、極度の恐怖の状態にあります。安定コイン規則と米ドル強化に関する最近のニュースは、USD-COINの価格に影響を与える可能性があります。ただし、RSI-14は中立的であり、ボリンジャー バンド %Bは中間帯にあり、短期的な傾向は安定しています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-0.04%",
+        "value": "-0.14%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
@@ -1010,18 +1010,18 @@
       },
       {
         "label": "CoinTelegraph",
+        "value": "Q2 2026 emerges as most-hacked quarter on record with 83 incidents",
+        "url": "https://cointelegraph.com/news/q2-2026-most-hacked-quarter-record-83-incidents?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "US dollar strength hits highest since May 2025: Five things to know in Bitcoin this week",
+        "url": "https://cointelegraph.com/markets/us-dollar-strength-hits-highest-since-may-2025-five-things-to-know-in-bitcoin-this-week?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
         "value": "Bank of England eases stablecoin rules, introduces 40B pound issuance cap",
         "url": "https://cointelegraph.com/news/bank-of-england-stablecoin-rules-clears-path-for-2027-launch?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "South Korea pushes Travel Rule expansion for smaller crypto transfers",
-        "url": "https://cointelegraph.com/news/south-korea-travel-rule-smaller-crypto-transfers?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Here’s what happened in crypto today",
-        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

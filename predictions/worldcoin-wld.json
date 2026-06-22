@@ -1,6 +1,6 @@
 {
   "coinId": "worldcoin-wld",
-  "generatedAt": "2026-06-22T10:00:08.169609Z",
+  "generatedAt": "2026-06-22T11:00:08.031643Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -3.063019204471778,
-    "confidence": 0.8551
+    "changePercent24h": -4.537939546768342,
+    "confidence": 0.8997
   },
   "commentary": {
-    "en": "Worldcoin is expected to drop by -2.1% in the next 24 hours, according to technical signals. The recent news on stablecoin rules and Travel Rule expansion in South Korea may have a limited impact on Wld's price. However, the overall market sentiment remains in extreme fear.",
-    "ja": "ワールドコインWldは、技術指標から24時間以内に-2.1％の値下げが予想される。安定コイン規制や韓国のトラベルルールのニュースはWldの価格に限られた影響を与える可能性があるが、市場全体の感情は極度の恐怖の状態にある。",
+    "en": "Worldcoin is predicted to drop by -2.1% in the next 24 hours, with a confidence level of 79%. This forecast is based on current technical signals, including a neutral RSI-14 reading and a mid-band Bollinger Band %B. The market context, with an Extreme Fear index and a slight decline in the total crypto market cap, also suggests a potential downward trend.",
+    "ja": "ワールドコインWLDは、次の24時間で-2.1%下落すると予想されています。信頼度は79%です。この予想は、現在の技術指標、包括中性のRSI-14とバンドの中心に位置するボリンジャー・バンド%Bに基づいています。市場状況、極度の恐怖指数と総暗号資産市場キャップの微小な下落も、下降傾向の可能性を示唆しています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,28 +1000,28 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-0.04%",
+        "value": "-0.14%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "78% bullish",
+        "value": "79% bullish",
         "url": "https://www.coingecko.com/en/coins/worldcoin-wld"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Q2 2026 emerges as most-hacked quarter on record with 83 incidents",
+        "url": "https://cointelegraph.com/news/q2-2026-most-hacked-quarter-record-83-incidents?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "US dollar strength hits highest since May 2025: Five things to know in Bitcoin this week",
+        "url": "https://cointelegraph.com/markets/us-dollar-strength-hits-highest-since-may-2025-five-things-to-know-in-bitcoin-this-week?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
         "value": "Bank of England eases stablecoin rules, introduces 40B pound issuance cap",
         "url": "https://cointelegraph.com/news/bank-of-england-stablecoin-rules-clears-path-for-2027-launch?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "South Korea pushes Travel Rule expansion for smaller crypto transfers",
-        "url": "https://cointelegraph.com/news/south-korea-travel-rule-smaller-crypto-transfers?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Here’s what happened in crypto today",
-        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }
