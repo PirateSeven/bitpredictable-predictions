@@ -414,7 +414,7 @@ def _send_telegram(text: str) -> None:
         logger.warning("Telegram alert failed: %s", e)
 
 
-def _check_cv_mae_regression(cv_mae: float) -> None:
+def _check_cv_mae_regression(cv_mae: float) -> bool:
     if cv_mae != cv_mae:  # NaN check
         logger.warning("CV MAE is NaN — walk_forward_cv produced no results")
         _send_telegram("crypto-ace 再学習アラート\nCV MAE が NaN — walk_forward_cv が結果を出せませんでした")
@@ -443,6 +443,8 @@ def _check_cv_mae_regression(cv_mae: float) -> None:
         _send_telegram(text)
     else:
         logger.info("CV MAE regression check: OK (no alert)")
+
+    return cv_mae > MAE_TARGET_PCT
 
 
 # ── Main ───────────────────────────────────────────────────────────────────────
@@ -478,7 +480,10 @@ def main():
     # 2. Walk-forward CV (scaler fit per-fold inside, no global leakage)
     logger.info("Running walk-forward CV...")
     cv_mae = walk_forward_cv(all_X_per_coin, all_y_per_coin, device)
-    _check_cv_mae_regression(cv_mae)
+    blocked = _check_cv_mae_regression(cv_mae)
+    if blocked:
+        logger.warning(f"CV MAE {cv_mae:.2f}% exceeds target — skipping final model save/push; previous model.pt stays live")
+        return
 
     # 3. Final model: concatenate all coins, fit global scaler on full dataset
     X_all = np.concatenate(all_X_per_coin, axis=0)
