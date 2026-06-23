@@ -1,6 +1,6 @@
 {
   "coinId": "whitebit",
-  "generatedAt": "2026-06-23T04:00:08.429208Z",
+  "generatedAt": "2026-06-23T05:00:08.502277Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -3.6152621838845933,
-    "confidence": 0.9365
+    "changePercent24h": -3.6524871367963483,
+    "confidence": 0.9371
   },
   "commentary": {
-    "en": "WhiteBIT Coin's price is predicted to decrease by 0.5% in the next 24 hours with a confidence level of 68%. The recent news about Ethereum R&D nonprofit and Bitcoin funding rate hitting a 2-week high may influence the market sentiment. However, the Fear & Greed Index remains in Extreme Fear territory.",
-    "ja": "WHITEBITの価格は、次の24時間で0.5%下落する可能性があり、信頼度は68%です。Ethereum R&D非営利団体やビットコインのファンディングレートが2週間ぶりに高まったニュースが市場感情に影響を与える可能性がありますが、恐怖と欲求不満指数は極度の恐怖の状態にあります。",
+    "en": "WhiteBIT Coin's 24-hour direction is predicted to be DOWN with a -0.5% change, driven by the overall crypto market's negative sentiment. The Fear & Greed Index remains in Extreme Fear territory, while the total crypto market cap has seen a 0.72% decline in the past 24 hours. The recent news on Ethereum R&D nonprofit and Bitcoin funding rate may have a limited impact on WhiteBIT Coin's price.",
+    "ja": "ホワイトビットの24時間予想は下げ込む方向で、-0.5%の変化が見込まれる。総コインマーケットキャップは24時間で0.72%減少している。イーサリアムR&D非営利団体とビットコインのファンディングレートに関するニュースはホワイトビットの価格に限りなく影響を与える可能性は低い。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-0.09%",
+        "value": "-0.72%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
