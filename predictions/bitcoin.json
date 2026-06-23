@@ -1,6 +1,6 @@
 {
   "coinId": "bitcoin",
-  "generatedAt": "2026-06-23T03:00:08.591804Z",
+  "generatedAt": "2026-06-23T04:00:08.429208Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -1.5058849753447796,
-    "confidence": 0.8672
+    "changePercent24h": -2.5648556160233835,
+    "confidence": 0.9172
   },
   "commentary": {
-    "en": "Bitcoin's 24-hour direction is predicted to be flat with a -0.5% change, indicating a neutral sentiment. The Fear & Greed Index remains in extreme fear, while the CoinGecko community is 75% bullish. Recent news on Bitcoin funding rate and crypto market developments may influence the market.",
-    "ja": "ビットコインの24時間の予測方向は、-0.5%の変化を示し、中立的な意見を示しています。恐怖と欲求不満指数は極度の恐怖のままですが、CoinGeckoコミュニティは75％がbullishです。ビットコインのファンディングレートや暗号通貨市場のニュースは市場に影響を与える可能性があります。",
+    "en": "Bitcoin's predicted 24-hour direction is flat with a -0.5% confidence, indicating a neutral short-term trend. The Fear & Greed Index remains in extreme fear at 23, while the CoinGecko community is 75% bullish. Recent news, including the Ethereum R&D nonprofit and Bitcoin funding rate hitting a 2-week high, may influence market sentiment.",
+    "ja": "ビットコインの24時間予想は、-0.5%の確率でフラットである。恐怖と欲求不満指数は23で、コインゲッコーのコミュニティは75%がbullishである。最近のニュース、エーテレウムのR&D非営利団体とビットコインのファンディングレートが2週間で高くなったことは、市場の意見を変える可能性がある。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-0.10%",
+        "value": "-0.09%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "75% bullish",
         "url": "https://www.coingecko.com/en/coins/bitcoin"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitmine, Sharplink and Joe Lubin back Ethereum R&D nonprofit",
+        "url": "https://cointelegraph.com/news/bitmine-sharplink-and-joe-lubin-back-ethereum-rd-nonprofit?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Here’s what happened in crypto today",
         "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Franklin Templeton launches dedicated crypto division after closing 250 Digital acquisition",
-        "url": "https://cointelegraph.com/news/franklin-templeton-launches-dedicated-crypto-division-after-completing-250-digital-acquisition?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

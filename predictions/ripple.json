@@ -1,6 +1,6 @@
 {
   "coinId": "ripple",
-  "generatedAt": "2026-06-23T03:00:08.591804Z",
+  "generatedAt": "2026-06-23T04:00:08.429208Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -2.7372925513420636,
-    "confidence": 0.8943
+    "changePercent24h": -3.132480240559362,
+    "confidence": 0.9067
   },
   "commentary": {
-    "en": "XRP's price is expected to decline by 1.0% in the next 24 hours, with a 75% confidence level. The current market sentiment is extreme fear, as indicated by the Fear & Greed Index of 23. The recent news of Bitcoin's funding rate hitting a 2-week high may have a negative impact on XRP's price.",
-    "ja": "XRPの価格は、次の24時間で1.0%下落する可能性があり、75%の信頼度があります。Fear & Greed Indexは23で、極度の恐怖の市場感情を示しています。Bitcoinのファンディングレートが2週間で最高値を達成したニュースがXRPの価格に否定的な影響を与える可能性があります。",
+    "en": "XRP's 24-hour direction is predicted to be DOWN with a 75% confidence level, following a 0.71% decline in the past 24 hours. The Fear & Greed Index remains at 23, indicating extreme fear in the market. XRP's short-term trend is sideways, with no clear indication of a significant shift.",
+    "ja": "リップルは24時間の予想方向が下落であると75％の確信度で予測されており、過去24時間で0.71％の下落を記録している。恐怖と欲求不満指数は23に留まり、市場は極度の恐怖の状態にある。リップルの短期トレンドは横ばいであり、重大な変化の兆候は見られない。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-0.10%",
+        "value": "-0.09%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "51% bullish",
         "url": "https://www.coingecko.com/en/coins/ripple"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitmine, Sharplink and Joe Lubin back Ethereum R&D nonprofit",
+        "url": "https://cointelegraph.com/news/bitmine-sharplink-and-joe-lubin-back-ethereum-rd-nonprofit?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Here’s what happened in crypto today",
         "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Franklin Templeton launches dedicated crypto division after closing 250 Digital acquisition",
-        "url": "https://cointelegraph.com/news/franklin-templeton-launches-dedicated-crypto-division-after-completing-250-digital-acquisition?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "coinId": "figure-heloc",
-  "generatedAt": "2026-06-23T03:00:08.591804Z",
+  "generatedAt": "2026-06-23T04:00:08.429208Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 0.043201519097512645,
+    "changePercent24h": 0.6569707630128201,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "Figure Heloc's 24-hour direction is predicted to be flat with a 0.0% return, indicating a neutral market sentiment. The recent news of Bitcoin's funding rate hitting a 2-week high and the launch of Franklin Templeton's crypto division may have a moderate impact on the market. However, the overall market context remains cautious with the Fear & Greed Index at 23.",
-    "ja": "Figure Helocの24時間の方向は、0.0%のリターンで予測され、市場の感覚は中立的である。 Bitcoinのファンディングレートが2週間で高値を達成し、Franklin Templetonが暗号資産部門を立ち上げたニュースは、市場に一定の影響を与える可能性がある。ただし、Fear & Greed Indexが23のままであることから、市場全体の状況は慎重なものである。",
+    "en": "FIGURE-HELOC is expected to remain flat in the next 24 hours with a 95% confidence level. The neutral RSI-14 reading and mid-band Bollinger Band %B suggest a stable market condition. The low volume ratio and sideways short-term trend also support this prediction.",
+    "ja": "FIGURE-HELOCは来日24時間で95%の確率でフラットであると予想されます。中立的なRSI-14の値とボリンジャーバンドの％Bは安定した市場状況を示しており、低いボリューム比率と短期の横方向のトレンドもこれを裏付けています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-0.10%",
+        "value": "-0.09%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "50% bullish",
+        "value": "33% bullish",
         "url": "https://www.coingecko.com/en/coins/figure-heloc"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitmine, Sharplink and Joe Lubin back Ethereum R&D nonprofit",
+        "url": "https://cointelegraph.com/news/bitmine-sharplink-and-joe-lubin-back-ethereum-rd-nonprofit?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Here’s what happened in crypto today",
         "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Franklin Templeton launches dedicated crypto division after closing 250 Digital acquisition",
-        "url": "https://cointelegraph.com/news/franklin-templeton-launches-dedicated-crypto-division-after-completing-250-digital-acquisition?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "coinId": "blackrock-usd-institutional-digital-liquidity-fund",
-  "generatedAt": "2026-06-23T03:00:08.591804Z",
+  "generatedAt": "2026-06-23T04:00:08.429208Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.04128683719127882,
+    "changePercent24h": -0.06805526743001014,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "The Blackrock USD Institutional Digital Liquidity Fund is expected to experience a flat 24-hour direction with a 0.1% increase, driven by a sideways short-term trend and low volume ratio. The overbought RSI-14 and lower Bollinger Band %B suggest a potential correction, but the Extreme Fear Fear & Greed Index and recent news on Bitcoin's funding rate may influence the market. A cautious approach is advised given the current market conditions.",
-    "ja": "Blackrock USD Institutional Digital Liquidity Fund は、24 時間の方向性は横方向に 0.1% の増加が予想され、短期の傾向は横方向にあり、ボリューム比率も低い。オーバーボールド RSI-14 と下方のボリンジャー バンド %B は、調整の可能性を示唆しているが、ビットコインのファンディングレートに関する最近のニュースや、Fear & Greed Index の極度の恐怖と、市場状況を考慮すると、慎重なアプローチが必要である。",
+    "en": "The model predicts BlackRock USD Institutional Digital Liquidity Fund will trade sideways over the next 24 hours with high confidence (95%). RSI has reached overbought territory (100), suggesting elevated selling pressure. Community sentiment on CoinGecko is 100% bullish and the Fear & Greed Index reads \"Extreme Fear\" (23), diverging from the model's forecast, adding uncertainty.",
+    "ja": "モデルはBlackRock USD Institutional Digital Liquidity Fundが今後24時間で横ばいで推移すると予測しています（信頼度: 高い 95%）。RSIが100と買われすぎ水準に達しており、短期的な売り圧力が高まりやすい局面です。CoinGeckoコミュニティでは100%が強気を示し、Fear & Greed指数は「Extreme Fear」（23）です。予測方向と乖離があり、不確実性が高まっています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-0.10%",
+        "value": "-0.09%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "100% bullish",
         "url": "https://www.coingecko.com/en/coins/blackrock-usd-institutional-digital-liquidity-fund"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitmine, Sharplink and Joe Lubin back Ethereum R&D nonprofit",
+        "url": "https://cointelegraph.com/news/bitmine-sharplink-and-joe-lubin-back-ethereum-rd-nonprofit?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Here’s what happened in crypto today",
         "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Franklin Templeton launches dedicated crypto division after closing 250 Digital acquisition",
-        "url": "https://cointelegraph.com/news/franklin-templeton-launches-dedicated-crypto-division-after-completing-250-digital-acquisition?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "coinId": "near",
-  "generatedAt": "2026-06-23T03:00:08.591804Z",
+  "generatedAt": "2026-06-23T04:00:08.429208Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -13.33976712864671,
-    "confidence": 0.9296
+    "changePercent24h": -13.639388304281955,
+    "confidence": 0.9312
   },
   "commentary": {
-    "en": "NEAR Protocol's 24-hour direction is predicted to be DOWN with a confidence of 74%, driven by a downtrend in the short-term trend and a lower Bollinger Band %B. The Fear & Greed Index remains in Extreme Fear territory, while the CoinGecko community is 93% bullish. NEAR Protocol's price movement may be influenced by the overall crypto market sentiment and recent news in the space.",
-    "ja": "NEAR Protocolの24時間の方向はDOWNに予測され、信頼度は74%、短期の傾向とボリンジャー・バンドの%Bが低くなっている影響を受けている。Fear & Greed Indexはエクストリーム・フィアの状態にあり、CoinGeckoコミュニティは93%がバブルしている。NEAR Protocolの価格動向は、総合的な暗号通貨市場の感情と最近のニュースに影響を受ける可能性がある。",
+    "en": "The model predicts NEAR Protocol will decline ~3.6% over the next 24 hours with high confidence (74%). Price is near lower Bollinger Band support, where rebounds are historically more frequent. Community sentiment on CoinGecko is 93% bullish and the Fear & Greed Index reads \"Extreme Fear\" (23), diverging from the model's forecast, adding uncertainty.",
+    "ja": "モデルはNEAR Protocolが今後24時間で約3.6%下落すると予測しています（信頼度: 高い 74%）。価格がボリンジャーバンド下限付近で、サポートからの反発が過去パターンより多く観察されます。CoinGeckoコミュニティでは93%が強気を示し、Fear & Greed指数は「Extreme Fear」（23）です。予測方向と乖離があり、不確実性が高まっています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-0.10%",
+        "value": "-0.09%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "93% bullish",
         "url": "https://www.coingecko.com/en/coins/near"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitmine, Sharplink and Joe Lubin back Ethereum R&D nonprofit",
+        "url": "https://cointelegraph.com/news/bitmine-sharplink-and-joe-lubin-back-ethereum-rd-nonprofit?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Here’s what happened in crypto today",
         "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Franklin Templeton launches dedicated crypto division after closing 250 Digital acquisition",
-        "url": "https://cointelegraph.com/news/franklin-templeton-launches-dedicated-crypto-division-after-completing-250-digital-acquisition?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

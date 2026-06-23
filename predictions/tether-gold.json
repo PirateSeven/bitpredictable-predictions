@@ -1,6 +1,6 @@
 {
   "coinId": "tether-gold",
-  "generatedAt": "2026-06-23T03:00:08.591804Z",
+  "generatedAt": "2026-06-23T04:00:08.429208Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -2.8135030196330435,
+    "changePercent24h": -2.9640698556836806,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "Tether Gold's price is expected to remain flat with a minor decline of -0.1% in the next 24 hours, based on technical analysis. The Fear & Greed Index indicates extreme fear in the market, which may impact Tether Gold's price. Recent news about Bitcoin's funding rate and crypto market trends may also influence Tether Gold's performance.",
-    "ja": "Tether Goldの価格は、次の24時間に-0.1%の小幅な下落が予想されます。Fear & Greed Indexは市場に恐怖が広がっていることを示しており、これがTether Goldの価格に影響を与える可能性があります。Bitcoinのファンディングレートや暗号通貨市場の動向に関する最近のニュースもTether Goldのパフォーマンスに影響を与える可能性があります。",
+    "en": "Tether Gold's 24-hour direction is predicted to be flat with a -0.1% change, reflecting a neutral RSI-14 reading of 34. The recent news of institutional investment in Ethereum and Bitcoin's stable funding rate may have a limited impact on Tether Gold's price movement. The Fear & Greed Index remains in extreme fear territory.",
+    "ja": "Tether Goldの24時間の方向は、-0.1%の変化で予想されており、RSI-14の読みは34で中立的なものです。Ethereumへの機関投資家の投資とビットコインのファンディングレートの安定化は、Tether Goldの価格変動に限られた影響を与える可能性があります。恐怖と欲求不満指数は極度の恐怖の領域にあります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-0.10%",
+        "value": "-0.09%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "100% bullish",
         "url": "https://www.coingecko.com/en/coins/tether-gold"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitmine, Sharplink and Joe Lubin back Ethereum R&D nonprofit",
+        "url": "https://cointelegraph.com/news/bitmine-sharplink-and-joe-lubin-back-ethereum-rd-nonprofit?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Here’s what happened in crypto today",
         "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Franklin Templeton launches dedicated crypto division after closing 250 Digital acquisition",
-        "url": "https://cointelegraph.com/news/franklin-templeton-launches-dedicated-crypto-division-after-completing-250-digital-acquisition?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

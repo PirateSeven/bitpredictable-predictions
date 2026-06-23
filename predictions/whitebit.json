@@ -1,6 +1,6 @@
 {
   "coinId": "whitebit",
-  "generatedAt": "2026-06-23T03:00:08.591804Z",
+  "generatedAt": "2026-06-23T04:00:08.429208Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -3.1723302713446846,
-    "confidence": 0.9282
+    "changePercent24h": -3.6152621838845933,
+    "confidence": 0.9365
   },
   "commentary": {
-    "en": "WhiteBIT Coin's predicted 24h direction is DOWN with a 68% confidence, driven by the extreme fear sentiment in the market. The recent news about Bitcoin's funding rate and Solana's tokenized equity may impact investor sentiment, but the overall market context remains cautious. WhiteBIT Coin's short-term trend is sideways, with a 24h actual return of -0.40%.",
-    "ja": "ホワイトビットの24時間予想は下落で、信頼度68%。市場情勢は極度の恐怖感で、ビットコインのファンディングレートやソラナのトークニゼッドエクイティに関するニュースが投資家の態度に影響を与える可能性があります。短期のトレンドは横ばいで、24時間実際のリターンは-0.40%です。",
+    "en": "WhiteBIT Coin's price is predicted to decrease by 0.5% in the next 24 hours with a confidence level of 68%. The recent news about Ethereum R&D nonprofit and Bitcoin funding rate hitting a 2-week high may influence the market sentiment. However, the Fear & Greed Index remains in Extreme Fear territory.",
+    "ja": "WHITEBITの価格は、次の24時間で0.5%下落する可能性があり、信頼度は68%です。Ethereum R&D非営利団体やビットコインのファンディングレートが2週間ぶりに高まったニュースが市場感情に影響を与える可能性がありますが、恐怖と欲求不満指数は極度の恐怖の状態にあります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-0.10%",
+        "value": "-0.09%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "0% bullish",
         "url": "https://www.coingecko.com/en/coins/whitebit"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitmine, Sharplink and Joe Lubin back Ethereum R&D nonprofit",
+        "url": "https://cointelegraph.com/news/bitmine-sharplink-and-joe-lubin-back-ethereum-rd-nonprofit?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Here’s what happened in crypto today",
         "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Franklin Templeton launches dedicated crypto division after closing 250 Digital acquisition",
-        "url": "https://cointelegraph.com/news/franklin-templeton-launches-dedicated-crypto-division-after-completing-250-digital-acquisition?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

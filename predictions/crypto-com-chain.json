@@ -1,6 +1,6 @@
 {
   "coinId": "crypto-com-chain",
-  "generatedAt": "2026-06-23T03:00:08.591804Z",
+  "generatedAt": "2026-06-23T04:00:08.429208Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -2.6478612043291796,
-    "confidence": 0.9311
+    "changePercent24h": -2.9014549907017266,
+    "confidence": 0.9366
   },
   "commentary": {
-    "en": "Cronos is predicted to experience a flat 24-hour trend with a -0.3% return, indicating a neutral market sentiment. The recent news of Bitcoin's funding rate hitting a 2-week high may positively impact the market, but the overall Fear & Greed Index remains in extreme fear. The short-term trend is sideways, suggesting a lack of clear direction.",
-    "ja": "Cronos は、24時間のトレンドがフラットで-0.3%のリターンを示すことが予測されています。これは、市場の感情が中立的なものであることを示しています。ビットコインのファンディングレートが2週間で最高値に達したニュースは、市場にプラスの影響を与える可能性がありますが、総合的な恐怖と欲求不満指数はまだ極度の恐怖の状態です。短期的なトレンドは横方向に動いているため、明確な方向性はありません。",
+    "en": "Cronos's 24-hour direction is predicted to be flat with a -0.3% change, indicating a neutral sentiment. The recent news about Ethereum R&D nonprofit and Bitcoin funding rate hitting a 2-week high may have a limited impact on Cronos's price. The Fear & Greed Index at 23, indicating extreme fear, suggests a potential short-term price stabilization.",
+    "ja": "Cronos の 24 時間の方向は、-0.3% の変化を予想しており、中立的な感覚を示しています。Ethereum R&D の非営利団体とビットコインのファンディングレートが 2 週間で高くなったニュースは、Cronos の価格に限られた影響を与える可能性があります。恐怖と欲望指数が 23 であることは、極度の恐怖を示しており、短期的な価格安定化につながる可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-0.10%",
+        "value": "-0.09%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "83% bullish",
         "url": "https://www.coingecko.com/en/coins/crypto-com-chain"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitmine, Sharplink and Joe Lubin back Ethereum R&D nonprofit",
+        "url": "https://cointelegraph.com/news/bitmine-sharplink-and-joe-lubin-back-ethereum-rd-nonprofit?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Here’s what happened in crypto today",
         "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Franklin Templeton launches dedicated crypto division after closing 250 Digital acquisition",
-        "url": "https://cointelegraph.com/news/franklin-templeton-launches-dedicated-crypto-division-after-completing-250-digital-acquisition?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

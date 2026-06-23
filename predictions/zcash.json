@@ -1,6 +1,6 @@
 {
   "coinId": "zcash",
-  "generatedAt": "2026-06-23T03:00:08.591804Z",
+  "generatedAt": "2026-06-23T04:00:08.429208Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -7.4147255415777895,
-    "confidence": 0.9067
+    "changePercent24h": -7.867467547006051,
+    "confidence": 0.9119
   },
   "commentary": {
-    "en": "Zcash is predicted to move downward with a 3.6% drop in the next 24 hours, based on technical analysis. The Fear & Greed Index is at 23, indicating extreme fear in the market. The recent news about Bitcoin funding rate and Solana's tokenized equity may influence the market sentiment.",
-    "ja": "Zcashは、技術的分析に基づいて次の24時間で3.6％の下落が予想される。Fear & Greed Indexは23で、市場の恐怖感が極度に高まっていることを示している。ビットコインのファンディングレートとソラナのトークン化された株式のニュースは、市場の感覚に影響を与える可能性がある。",
+    "en": "Zcash (ZCASH) is predicted to move downward by 3.6% in the next 24 hours with a confidence level of 81%. The current market context suggests a neutral sentiment, with the Fear & Greed Index at 23 and a downtrend in the short-term trend. The recent news about Ethereum R&D nonprofit and Bitcoin funding rate may have a limited impact on Zcash's price.",
+    "ja": "Zcash (ZCASH) は、次の24時間で3.6%下落する予測があり、信頼度は81%です。Fear & Greed Indexは23で、短期傾向は下降傾向です。Ethereum R&D非営利団体やビットコインのファンディングレートに関するニュースは、Zcashの価格に限りなく影響を与える可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-0.10%",
+        "value": "-0.09%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "25% bullish",
+        "value": "27% bullish",
         "url": "https://www.coingecko.com/en/coins/zcash"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitmine, Sharplink and Joe Lubin back Ethereum R&D nonprofit",
+        "url": "https://cointelegraph.com/news/bitmine-sharplink-and-joe-lubin-back-ethereum-rd-nonprofit?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Here’s what happened in crypto today",
         "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Franklin Templeton launches dedicated crypto division after closing 250 Digital acquisition",
-        "url": "https://cointelegraph.com/news/franklin-templeton-launches-dedicated-crypto-division-after-completing-250-digital-acquisition?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

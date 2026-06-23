@@ -1,6 +1,6 @@
 {
   "coinId": "bittensor",
-  "generatedAt": "2026-06-23T03:00:08.591804Z",
+  "generatedAt": "2026-06-23T04:00:08.429208Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -3.844946321803962,
-    "confidence": 0.8677
+    "changePercent24h": -4.3429807934254026,
+    "confidence": 0.8821
   },
   "commentary": {
-    "en": "Bittensor is predicted to move downwards by -1.8% in the next 24 hours with a confidence level of 73%. The current market sentiment is extreme fear, with the Fear & Greed Index at 23. The recent news of Bitcoin's funding rate hitting a 2-week high and Solana's tokenized equity surge may influence market sentiment.",
-    "ja": "ビットテンソルは次の24時間に-1.8%下落する可能性があり、信頼度は73%です。現在の市場感覚は極度の恐怖で、Fear & Greed Indexは23です。ビットコインのファンディングレートが2週間で最高に達し、ソラナのトークン化された株式が急上昇したニュースが市場感覚に影響を与える可能性があります。",
+    "en": "Bittensor is expected to decline by 1.8% in the next 24 hours, with a confidence level of 73%. The current market sentiment is extreme fear, as indicated by the Fear & Greed Index of 23. The recent news about Ethereum R&D nonprofit and Bitcoin funding rate hitting a 2-week high may have a mixed impact on Bittensor's price.",
+    "ja": "ビッテンサーは次の24時間で1.8％下落する可能性があり、信頼度は73％です。現在の市場感情は、恐怖指数が23の極度恐怖を示しています。エーテレムR&D非営利団体やビットコインの資金供給率が2週間で2番目の高値を記録したニュースは、ビッテンサーの価格に混在した影響を与える可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-0.10%",
+        "value": "-0.09%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "62% bullish",
+        "value": "63% bullish",
         "url": "https://www.coingecko.com/en/coins/bittensor"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitmine, Sharplink and Joe Lubin back Ethereum R&D nonprofit",
+        "url": "https://cointelegraph.com/news/bitmine-sharplink-and-joe-lubin-back-ethereum-rd-nonprofit?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Here’s what happened in crypto today",
         "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Franklin Templeton launches dedicated crypto division after closing 250 Digital acquisition",
-        "url": "https://cointelegraph.com/news/franklin-templeton-launches-dedicated-crypto-division-after-completing-250-digital-acquisition?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

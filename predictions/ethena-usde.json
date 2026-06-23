@@ -1,6 +1,6 @@
 {
   "coinId": "ethena-usde",
-  "generatedAt": "2026-06-23T03:00:08.591804Z",
+  "generatedAt": "2026-06-23T04:00:08.429208Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -970,8 +970,8 @@
     "confidence": 0.95
   },
   "commentary": {
-    "en": "Ethena USDe (ETHENA-USDE) is expected to remain flat in the short term due to its neutral RSI-14 reading and sideways short-term trend. The Fear & Greed Index at 23 indicates extreme fear in the market, which may impact investor sentiment. With the recent news of Bitcoin's funding rate hitting a 2-week high, ETHENA-USDE's price movement may be influenced by broader market trends.",
-    "ja": "Ethena USDe (ETHENA-USDE) は短期的には中立的な RSI-14 の値と短期の傾向が横方向に動いているため、価格は変動しない可能性があります。Fear & Greed Index が 23 であることは、市場全体で極度の恐怖が広がっていることを示しており、投資家の意識に影響を与える可能性があります。Bitcoin のファンディングレートが 2 週間で最高に達したニュースの影響を受けて、ETHENA-USDE の価格動向は市場全体の傾向に左右される可能性があります。",
+    "en": "The model predicts Ethena USDe will trade sideways over the next 24 hours with high confidence (95%). Price moved +0.01% in the past 24 hours with volume at 1.0× average. Community sentiment on CoinGecko is 100% bullish and the Fear & Greed Index reads \"Extreme Fear\" (23), diverging from the model's forecast, adding uncertainty.",
+    "ja": "モデルはEthena USDeが今後24時間で横ばいで推移すると予測しています（信頼度: 高い 95%）。過去24時間のリターンは+0.01%、出来高は平均の1.0倍です。CoinGeckoコミュニティでは100%が強気を示し、Fear & Greed指数は「Extreme Fear」（23）です。予測方向と乖離があり、不確実性が高まっています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-0.10%",
+        "value": "-0.09%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "100% bullish",
         "url": "https://www.coingecko.com/en/coins/ethena-usde"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitmine, Sharplink and Joe Lubin back Ethereum R&D nonprofit",
+        "url": "https://cointelegraph.com/news/bitmine-sharplink-and-joe-lubin-back-ethereum-rd-nonprofit?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Here’s what happened in crypto today",
         "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Franklin Templeton launches dedicated crypto division after closing 250 Digital acquisition",
-        "url": "https://cointelegraph.com/news/franklin-templeton-launches-dedicated-crypto-division-after-completing-250-digital-acquisition?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

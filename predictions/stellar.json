@@ -1,6 +1,6 @@
 {
   "coinId": "stellar",
-  "generatedAt": "2026-06-23T03:00:08.591804Z",
+  "generatedAt": "2026-06-23T04:00:08.429208Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -7.6936465018755245,
-    "confidence": 0.9464
+    "changePercent24h": -7.547119210221416,
+    "confidence": 0.9454
   },
   "commentary": {
-    "en": "Stellar's short-term trend remains in a downtrend, with a predicted 24h direction of DOWN at -1.7% confidence. The RSI-14 is oversold at 26, but the Bollinger Band %B is at 0.06, near the lower band. The recent news on Bitcoin funding rate and Solana's tokenized equity may impact Stellar's price.",
-    "ja": "ステラルの短期トレンドは下降線形にあり、24時間予想はDOWNの-1.7%の確信度です。RSI-14は26でオーバーサルですが、ボリンジャーバンド%バは0.06で下限に近い。ビットコインのファンディングレートとソラナのトークン化株のニュースはステラルの価格に影響を与える可能性があります。",
+    "en": "Stellar's 24-hour direction is predicted to be DOWN with a 1.7% decline, reflecting the current market sentiment. The RSI-14 is at 26, indicating oversold conditions, but the Bollinger Band %B is at 0.06, suggesting a potential bounce. However, the short-term trend remains in a downtrend.",
+    "ja": "ステラルの24時間の方向は、1.7%の下げ込む予想です。RSI-14は26で、オーバーサル条件を示していますが、ボリンジャー・バンド %Bは0.06で、反発の可能性を示しています。しかし、短期のトレンドは下降トレンドを維持しています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-0.10%",
+        "value": "-0.09%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "48% bullish",
+        "value": "45% bullish",
         "url": "https://www.coingecko.com/en/coins/stellar"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitmine, Sharplink and Joe Lubin back Ethereum R&D nonprofit",
+        "url": "https://cointelegraph.com/news/bitmine-sharplink-and-joe-lubin-back-ethereum-rd-nonprofit?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Here’s what happened in crypto today",
         "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Franklin Templeton launches dedicated crypto division after closing 250 Digital acquisition",
-        "url": "https://cointelegraph.com/news/franklin-templeton-launches-dedicated-crypto-division-after-completing-250-digital-acquisition?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }
