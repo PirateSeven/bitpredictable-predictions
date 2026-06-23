@@ -1,6 +1,6 @@
 {
   "coinId": "mantle",
-  "generatedAt": "2026-06-23T10:00:07.802186Z",
+  "generatedAt": "2026-06-23T11:00:08.198527Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -4.582638523463667,
-    "confidence": 0.9466
+    "changePercent24h": -4.264121246767825,
+    "confidence": 0.9428
   },
   "commentary": {
-    "en": "Mantle (MANTLE) is predicted to decline by 0.6% in the next 24 hours, based on technical signals. The RSI-14 is oversold, but the short-term trend remains in a downtrend. The recent news about the US Senate passing a housing bill with a CBDC ban until 2030 may have a negative impact on the crypto market.",
-    "ja": "Mantle (MANTLE) は、技術的シグナルに基づいて次の24時間で0.6%の下落が予想される。RSI-14はオーバーサールドであるが、短期傾向は下傾 đangである。米国上院が2030年までCBDCの禁止を含む住宅法を通過したニュースは、暗号市場に否定的な影響を与える可能性がある。",
+    "en": "The model predicts Mantle will decline ~0.6% over the next 24 hours with moderate confidence (68%). RSI is oversold (20), indicating potential for a mean-reversion bounce. Market sentiment stands at \"Extreme Fear\" (Fear & Greed: 23); the broader crypto market moved -2.9% over the past 24 hours.",
+    "ja": "モデルはMantleが今後24時間で約0.6%下落すると予測しています（信頼度: 中程度の 68%）。RSIが20と売られすぎ水準で、平均回帰による反発が期待される局面です。Fear & Greed指数は「Extreme Fear」（23）で、暗号資産市場全体の24時間変動率は-2.9%です。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,23 +1000,23 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-2.66%",
+        "value": "-2.93%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinTelegraph",
-        "value": "Ripple gains preliminary MiCA license ahead of July 1 EU deadline",
-        "url": "https://cointelegraph.com/news/ripple-preliminary-casp-mica-license-july-1-deadline?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+        "value": "Binance’s Yi He warns of alleged impersonation scam, CoinUp denies ties",
+        "url": "https://cointelegraph.com/news/binances-yi-he-warns-alleged-scammer-coinup-responds?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
-        "value": "Here’s what happened in crypto today",
-        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+        "value": "Bitcoin gets new $54K warning as BTC price hits 11-day low on Asia tech sell-off",
+        "url": "https://cointelegraph.com/markets/bitcoin-gets-new-54k-warning-as-btc-price-hits-11-day-low-on-asia-tech-sell-off?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
-        "value": "US Senate passes housing bill with CBDC ban until 2030",
-        "url": "https://cointelegraph.com/news/senate-passes-housing-bill-that-includes-a-cbdc-ban-through-2030?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+        "value": "THORChain resumes trading more than a month after $10M exploit",
+        "url": "https://cointelegraph.com/news/thorchain-resumes-trading-month-10m-exploit?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

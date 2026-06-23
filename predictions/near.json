@@ -1,6 +1,6 @@
 {
   "coinId": "near",
-  "generatedAt": "2026-06-23T10:00:07.802186Z",
+  "generatedAt": "2026-06-23T11:00:08.198527Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -12.732266594867133,
-    "confidence": 0.921
+    "changePercent24h": -12.373212816822228,
+    "confidence": 0.9187
   },
   "commentary": {
-    "en": "NEAR Protocol (NEAR) is predicted to continue its downward trend with a 24h direction of DOWN, -4.9% (confidence: 80%). The RSI-14 is oversold at 28, and the Bollinger Band %B is at 0.04, near the lower band. However, the short-term trend remains in a downtrend.",
-    "ja": "NEAR Protocol (NEAR) は、24時間方向がDOWN、-4.9% (信頼度：80%)と予想されています。RSI-14は28でオーバーサールド、ボリンジャー・バンド %Bは0.04で下限近くにあります。ただし、短期傾向は下傾きを維持しています。",
+    "en": "NEAR Protocol's price is expected to decline by approximately 4.9% in the next 24 hours, with a confidence level of 80%. The recent price drop has pushed the RSI-14 to an oversold level, but the short-term trend remains in a downtrend. The Fear & Greed Index is at an extreme fear level, indicating a potential for a short-term price recovery.",
+    "ja": "NEAR Protocolの価格は、次の24時間で約4.9%の下落が予想され、信頼度は80%です。最近の価格の低下により、RSI-14はオーバーサールドレベルに達していますが、短期的な傾向は下降傾向にあります。Fear & Greed Indexは極度の恐怖レベルにあり、短期的な価格の回復につながる可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,28 +1000,28 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-2.66%",
+        "value": "-2.93%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "89% bullish",
+        "value": "88% bullish",
         "url": "https://www.coingecko.com/en/coins/near"
       },
       {
         "label": "CoinTelegraph",
-        "value": "Ripple gains preliminary MiCA license ahead of July 1 EU deadline",
-        "url": "https://cointelegraph.com/news/ripple-preliminary-casp-mica-license-july-1-deadline?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+        "value": "Binance’s Yi He warns of alleged impersonation scam, CoinUp denies ties",
+        "url": "https://cointelegraph.com/news/binances-yi-he-warns-alleged-scammer-coinup-responds?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
-        "value": "Here’s what happened in crypto today",
-        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+        "value": "Bitcoin gets new $54K warning as BTC price hits 11-day low on Asia tech sell-off",
+        "url": "https://cointelegraph.com/markets/bitcoin-gets-new-54k-warning-as-btc-price-hits-11-day-low-on-asia-tech-sell-off?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
-        "value": "US Senate passes housing bill with CBDC ban until 2030",
-        "url": "https://cointelegraph.com/news/senate-passes-housing-bill-that-includes-a-cbdc-ban-through-2030?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+        "value": "THORChain resumes trading more than a month after $10M exploit",
+        "url": "https://cointelegraph.com/news/thorchain-resumes-trading-month-10m-exploit?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

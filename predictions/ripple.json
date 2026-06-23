@@ -1,6 +1,6 @@
 {
   "coinId": "ripple",
-  "generatedAt": "2026-06-23T10:00:07.802186Z",
+  "generatedAt": "2026-06-23T11:00:08.198527Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -5.142146832111225,
-    "confidence": 0.9432
+    "changePercent24h": -4.7057424540173916,
+    "confidence": 0.9382
   },
   "commentary": {
-    "en": "XRP's short-term trend remains bearish, driven by the downtrend in the short-term moving averages and the recent decline in price. Despite the oversold RSI-14 reading, the predicted 24-hour direction is down, with a 66% confidence level. The recent news of XRP gaining a preliminary MiCA license may have a limited impact on the short-term price movement.",
-    "ja": "XRPの短期のトレンドは、短期の移動平均線の下落と最近の価格の低下によって下がり続けています。RSI-14がオーバーサルドリップを示しているにもかかわらず、24時間の予想方向は下がり、66％の信頼度で推測されています。XRPが前倒しでMiCAライセンスを取得したというニュースは、短期の価格動向に限り影響を与える可能性があります。",
+    "en": "XRP's price is expected to decline in the next 24 hours, with a predicted -0.7% drop. The RSI-14 is oversold, but the short-term trend remains in a downtrend. XRP's recent gain of a preliminary MiCA license may not be enough to offset the current market downturn.",
+    "ja": "XRPの価格は来日24時間で-0.7%の下落が予想される。RSI-14はオーバーサルドだが、短期のトレンドは下降線上にある。XRPが前日取得した仮想通貨法(MiCA)の初期ライセンスは、現在の市場の低迷に効果を発揮しない可能性がある。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,28 +1000,28 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-2.66%",
+        "value": "-2.93%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "55% bullish",
+        "value": "54% bullish",
         "url": "https://www.coingecko.com/en/coins/ripple"
       },
       {
         "label": "CoinTelegraph",
-        "value": "Ripple gains preliminary MiCA license ahead of July 1 EU deadline",
-        "url": "https://cointelegraph.com/news/ripple-preliminary-casp-mica-license-july-1-deadline?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+        "value": "Binance’s Yi He warns of alleged impersonation scam, CoinUp denies ties",
+        "url": "https://cointelegraph.com/news/binances-yi-he-warns-alleged-scammer-coinup-responds?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
-        "value": "Here’s what happened in crypto today",
-        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+        "value": "Bitcoin gets new $54K warning as BTC price hits 11-day low on Asia tech sell-off",
+        "url": "https://cointelegraph.com/markets/bitcoin-gets-new-54k-warning-as-btc-price-hits-11-day-low-on-asia-tech-sell-off?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
-        "value": "US Senate passes housing bill with CBDC ban until 2030",
-        "url": "https://cointelegraph.com/news/senate-passes-housing-bill-that-includes-a-cbdc-ban-through-2030?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+        "value": "THORChain resumes trading more than a month after $10M exploit",
+        "url": "https://cointelegraph.com/news/thorchain-resumes-trading-month-10m-exploit?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

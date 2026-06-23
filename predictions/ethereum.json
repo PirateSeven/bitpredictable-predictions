@@ -1,6 +1,6 @@
 {
   "coinId": "ethereum",
-  "generatedAt": "2026-06-23T10:00:07.802186Z",
+  "generatedAt": "2026-06-23T11:00:08.198527Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -5.448889845902672,
-    "confidence": 0.9385
+    "changePercent24h": -4.933614389635808,
+    "confidence": 0.9323
   },
   "commentary": {
-    "en": "Ethereum's short-term trend remains in a downtrend, with a predicted 24h direction of flat to slightly negative. The Fear & Greed Index is at 23, indicating extreme fear in the crypto market. The recent news on Ripple's MiCA license and the US Senate's housing bill with a CBDC ban may have a limited impact on Ethereum's price.",
-    "ja": "イーサリアムの短期傾向は下降傾向にあり、24時間予測はフラットからマイナスに傾いている。Fear & Greed Indexは23で、暗号資産市場では極度の恐怖が広がっている。RippleのMiCAライセンスや米議会の住宅法案に付随するCBDCの禁止についてのニュースはイーサリアムの価格に限られた影響を与える可能性がある。",
+    "en": "Ethereum is experiencing a downtrend with a 24h return of -5.69%. The Fear & Greed Index is at 23, indicating extreme fear in the market. With the RSI-14 at 17, Ethereum is oversold but the short-term trend remains bearish.",
+    "ja": "イーサリアムは24時間で-5.69％の下落を経験している。恐怖と欲求不満指数は23で、極度の恐怖を示している。RSI-14が17に達しているため、イーサリアムはオーバーサルドだが、短期的な傾向は下降傾向にある。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,28 +1000,28 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-2.66%",
+        "value": "-2.93%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "86% bullish",
+        "value": "84% bullish",
         "url": "https://www.coingecko.com/en/coins/ethereum"
       },
       {
         "label": "CoinTelegraph",
-        "value": "Ripple gains preliminary MiCA license ahead of July 1 EU deadline",
-        "url": "https://cointelegraph.com/news/ripple-preliminary-casp-mica-license-july-1-deadline?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+        "value": "Binance’s Yi He warns of alleged impersonation scam, CoinUp denies ties",
+        "url": "https://cointelegraph.com/news/binances-yi-he-warns-alleged-scammer-coinup-responds?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
-        "value": "Here’s what happened in crypto today",
-        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+        "value": "Bitcoin gets new $54K warning as BTC price hits 11-day low on Asia tech sell-off",
+        "url": "https://cointelegraph.com/markets/bitcoin-gets-new-54k-warning-as-btc-price-hits-11-day-low-on-asia-tech-sell-off?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
-        "value": "US Senate passes housing bill with CBDC ban until 2030",
-        "url": "https://cointelegraph.com/news/senate-passes-housing-bill-that-includes-a-cbdc-ban-through-2030?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+        "value": "THORChain resumes trading more than a month after $10M exploit",
+        "url": "https://cointelegraph.com/news/thorchain-resumes-trading-month-10m-exploit?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

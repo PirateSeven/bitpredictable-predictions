@@ -1,6 +1,6 @@
 {
   "coinId": "ripple-usd",
-  "generatedAt": "2026-06-23T10:00:07.802186Z",
+  "generatedAt": "2026-06-23T11:00:08.198527Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 0.019417200360376533,
+    "changePercent24h": -0.00037182498518302173,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "Ripple USD is predicted to remain flat in the next 24 hours with a confidence level of 95%. The recent news of Ripple gaining a preliminary MiCA license ahead of the July 1 EU deadline may have a positive impact on the price, but the overall market context remains bearish. The Fear & Greed Index is at Extreme Fear, and the total crypto market cap has decreased by 2.66% in the past 24 hours.",
-    "ja": "Ripple USD は、来る 24 時間で 95% の確実性を持ってフラットに推定されます。Ripple が 7 月 1 日の EU 締切前に MiCA ライセンスを取得したというニュースは、価格にプラスの影響を与える可能性がありますが、総コインマーケットキャップは過去 24 時間で 2.66% 下落しているため、総市場状況は悲観的です。恐怖と欲求不満指数は極度の恐怖にあります。",
+    "en": "Ripple USD is expected to remain flat in the next 24 hours with a 0.0% predicted return, indicating a neutral market sentiment. The recent news of Ripple gaining a preliminary MiCA license is a positive development, but the overall market context remains bearish with the Fear & Greed Index at Extreme Fear. The sideways short-term trend and neutral RSI-14 also suggest a lack of momentum.",
+    "ja": "Ripple USD は、次の24時間に0.0%の予想リターンで平坦になる可能性があり、市場の感情は中立的であることを示しています。Ripple が前期のMiCAライセンスを取得したニュースはプラスの開発ですが、Fear & Greed Index が極度の恐怖にあり、総暗号資産市場キャップが2.93%下落し、ビットコインの24時間リターンが-2.78%であることから、市場全体の状況は陰性です。短期の傾向は横方向で、RSI-14も中立的です。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-2.66%",
+        "value": "-2.93%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
@@ -1010,18 +1010,18 @@
       },
       {
         "label": "CoinTelegraph",
-        "value": "Ripple gains preliminary MiCA license ahead of July 1 EU deadline",
-        "url": "https://cointelegraph.com/news/ripple-preliminary-casp-mica-license-july-1-deadline?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+        "value": "Binance’s Yi He warns of alleged impersonation scam, CoinUp denies ties",
+        "url": "https://cointelegraph.com/news/binances-yi-he-warns-alleged-scammer-coinup-responds?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
-        "value": "Here’s what happened in crypto today",
-        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+        "value": "Bitcoin gets new $54K warning as BTC price hits 11-day low on Asia tech sell-off",
+        "url": "https://cointelegraph.com/markets/bitcoin-gets-new-54k-warning-as-btc-price-hits-11-day-low-on-asia-tech-sell-off?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
-        "value": "US Senate passes housing bill with CBDC ban until 2030",
-        "url": "https://cointelegraph.com/news/senate-passes-housing-bill-that-includes-a-cbdc-ban-through-2030?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+        "value": "THORChain resumes trading more than a month after $10M exploit",
+        "url": "https://cointelegraph.com/news/thorchain-resumes-trading-month-10m-exploit?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

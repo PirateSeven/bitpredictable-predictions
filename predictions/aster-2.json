@@ -1,6 +1,6 @@
 {
   "coinId": "aster-2",
-  "generatedAt": "2026-06-23T10:00:07.802186Z",
+  "generatedAt": "2026-06-23T11:00:08.198527Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -2.295915021370567,
-    "confidence": 0.8621
+    "changePercent24h": -2.181455207232428,
+    "confidence": 0.8557
   },
   "commentary": {
-    "en": "The model predicts Aster will decline ~1.5% over the next 24 hours with high confidence (79%). RSI is oversold (27), indicating potential for a mean-reversion bounce. Community sentiment on CoinGecko is 67% bullish and the Fear & Greed Index reads \"Extreme Fear\" (23), diverging from the model's forecast, adding uncertainty.",
-    "ja": "モデルはAsterが今後24時間で約1.5%下落すると予測しています（信頼度: 高い 79%）。RSIが27と売られすぎ水準で、平均回帰による反発が期待される局面です。CoinGeckoコミュニティでは67%が強気を示し、Fear & Greed指数は「Extreme Fear」（23）です。予測方向と乖離があり、不確実性が高まっています。",
+    "en": "Aster (ASTER-2) is expected to continue its downtrend in the next 24 hours with a predicted return of -1.5% and a confidence level of 79%. The recent market context, including the Fear & Greed Index and total crypto market cap, suggests a bearish sentiment. The short-term trend and RSI-14 indicate oversold conditions.",
+    "ja": "Aster (ASTER-2) は、次の24時間に下落を続ける可能性があり、予想される戻りは-1.5%、信頼度は79%です。近況の市場状況、恐怖と欲求不満指数、総暗号通貨市場キャップは、恐怖の感情を示しています。短期傾向とRSI-14は、売りが過剰であることを示しています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-2.66%",
+        "value": "-2.93%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
@@ -1010,18 +1010,18 @@
       },
       {
         "label": "CoinTelegraph",
-        "value": "Ripple gains preliminary MiCA license ahead of July 1 EU deadline",
-        "url": "https://cointelegraph.com/news/ripple-preliminary-casp-mica-license-july-1-deadline?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+        "value": "Binance’s Yi He warns of alleged impersonation scam, CoinUp denies ties",
+        "url": "https://cointelegraph.com/news/binances-yi-he-warns-alleged-scammer-coinup-responds?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
-        "value": "Here’s what happened in crypto today",
-        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+        "value": "Bitcoin gets new $54K warning as BTC price hits 11-day low on Asia tech sell-off",
+        "url": "https://cointelegraph.com/markets/bitcoin-gets-new-54k-warning-as-btc-price-hits-11-day-low-on-asia-tech-sell-off?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
-        "value": "US Senate passes housing bill with CBDC ban until 2030",
-        "url": "https://cointelegraph.com/news/senate-passes-housing-bill-that-includes-a-cbdc-ban-through-2030?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+        "value": "THORChain resumes trading more than a month after $10M exploit",
+        "url": "https://cointelegraph.com/news/thorchain-resumes-trading-month-10m-exploit?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

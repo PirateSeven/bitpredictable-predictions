@@ -1,6 +1,6 @@
 {
   "coinId": "binancecoin",
-  "generatedAt": "2026-06-23T10:00:07.802186Z",
+  "generatedAt": "2026-06-23T11:00:08.198527Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -4.979011019537349,
-    "confidence": 0.95
+    "changePercent24h": -4.271251124766763,
+    "confidence": 0.9447
   },
   "commentary": {
-    "en": "BNB is likely to continue its downtrend in the next 24 hours, with a predicted -1.0% return. The RSI-14 is oversold, but the short-term trend and recent market movements suggest a bearish bias. The Fear & Greed Index remains in Extreme Fear territory, indicating a high level of market anxiety.",
-    "ja": "ビナンスコインは、来日24時間で-1.0％のリターンを予測しており、ダウントレンドに続く可能性が高い。RSI-14はオーバーセール状態にあるが、短期のトレンドと最近の市場動向は、バイヤーブイアスを示している。恐怖と欲求不満指数はエクストリーム・フィアの領域にあり、市場の不安が高まっている。",
+    "en": "BNB is expected to continue its downward trend in the next 24 hours, with a predicted return of -1.0% and a confidence level of 80%. The RSI-14 is oversold, indicating a potential bounce, but the Bollinger Band %B is below the lower band, suggesting further decline. The market context is dominated by fear, with the Fear & Greed Index at 23 and a negative total crypto market cap change.",
+    "ja": "ビナンスコインは、次の24時間に下落を続ける可能性があり、予測されるリターンは-1.0%、信頼度は80%です。RSI-14はオーバーサルド、ボリンジャー・バンド %Bは下方バンドより下にあるため、下落が続く可能性があります。市場状況は恐怖に支配されており、恐怖&欲求不満指数は23、総暗号資産市場キャップの24時間変化は負です。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,28 +1000,28 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-2.66%",
+        "value": "-2.93%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "60% bullish",
+        "value": "64% bullish",
         "url": "https://www.coingecko.com/en/coins/binancecoin"
       },
       {
         "label": "CoinTelegraph",
-        "value": "Ripple gains preliminary MiCA license ahead of July 1 EU deadline",
-        "url": "https://cointelegraph.com/news/ripple-preliminary-casp-mica-license-july-1-deadline?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+        "value": "Binance’s Yi He warns of alleged impersonation scam, CoinUp denies ties",
+        "url": "https://cointelegraph.com/news/binances-yi-he-warns-alleged-scammer-coinup-responds?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
-        "value": "Here’s what happened in crypto today",
-        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+        "value": "Bitcoin gets new $54K warning as BTC price hits 11-day low on Asia tech sell-off",
+        "url": "https://cointelegraph.com/markets/bitcoin-gets-new-54k-warning-as-btc-price-hits-11-day-low-on-asia-tech-sell-off?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
-        "value": "US Senate passes housing bill with CBDC ban until 2030",
-        "url": "https://cointelegraph.com/news/senate-passes-housing-bill-that-includes-a-cbdc-ban-through-2030?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+        "value": "THORChain resumes trading more than a month after $10M exploit",
+        "url": "https://cointelegraph.com/news/thorchain-resumes-trading-month-10m-exploit?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

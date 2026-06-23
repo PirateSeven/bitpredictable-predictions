@@ -1,6 +1,6 @@
 {
   "coinId": "bitcoin",
-  "generatedAt": "2026-06-23T10:00:07.802186Z",
+  "generatedAt": "2026-06-23T11:00:08.198527Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -4.589359322461025,
-    "confidence": 0.95
+    "changePercent24h": -4.209288588771189,
+    "confidence": 0.9485
   },
   "commentary": {
-    "en": "Bitcoin's short-term trend remains in a downtrend, with a 24-hour return of -2.78% and a Fear & Greed Index of 23, indicating extreme fear in the market. The RSI-14 is oversold at 24, suggesting a potential bounce. However, the predicted 24-hour direction is flat with a -0.3% confidence level.",
-    "ja": "ビットコインの短期トレンドは下降線にあり、24時間のリターンは-2.78%、Fear & Greed Indexは23、市場は極度の恐怖の状態にある。RSI-14は24でオーバーサルド、反発の可能性がある。ただし、24時間の予想方向はフラットで-0.3%の信頼度がある。",
+    "en": "Bitcoin's predicted 24h direction is flat with a -0.3% change, indicating a possible stabilization after a recent decline. The Fear & Greed Index remains at extreme fear levels, while the CoinGecko community is 74% bullish. The recent news of Binance's warning and Asia tech sell-off may have contributed to the current market sentiment.",
+    "ja": "ビットコインの24時間予想は、-0.3%の変化でフラット化し、最近の低下から安定化する可能性がある。Fear & Greed Indexは極度の恐怖のレベルにあり、CoinGeckoコミュニティは74％がバ Bullishである。Binanceの警告とアジアテック売却が現在の市場感覚に寄与している可能性がある。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-2.66%",
+        "value": "-2.93%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
@@ -1010,18 +1010,18 @@
       },
       {
         "label": "CoinTelegraph",
-        "value": "Ripple gains preliminary MiCA license ahead of July 1 EU deadline",
-        "url": "https://cointelegraph.com/news/ripple-preliminary-casp-mica-license-july-1-deadline?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+        "value": "Binance’s Yi He warns of alleged impersonation scam, CoinUp denies ties",
+        "url": "https://cointelegraph.com/news/binances-yi-he-warns-alleged-scammer-coinup-responds?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
-        "value": "Here’s what happened in crypto today",
-        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+        "value": "Bitcoin gets new $54K warning as BTC price hits 11-day low on Asia tech sell-off",
+        "url": "https://cointelegraph.com/markets/bitcoin-gets-new-54k-warning-as-btc-price-hits-11-day-low-on-asia-tech-sell-off?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
-        "value": "US Senate passes housing bill with CBDC ban until 2030",
-        "url": "https://cointelegraph.com/news/senate-passes-housing-bill-that-includes-a-cbdc-ban-through-2030?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+        "value": "THORChain resumes trading more than a month after $10M exploit",
+        "url": "https://cointelegraph.com/news/thorchain-resumes-trading-month-10m-exploit?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

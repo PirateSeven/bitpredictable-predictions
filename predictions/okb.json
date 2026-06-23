@@ -1,6 +1,6 @@
 {
   "coinId": "okb",
-  "generatedAt": "2026-06-23T10:00:07.802186Z",
+  "generatedAt": "2026-06-23T11:00:08.198527Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -3.8453189789237254,
+    "changePercent24h": -3.7460575373415423,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "OKB's predicted 24h direction is flat with a 0.4% decline, reflecting the current market sentiment. The recent news of Ripple's preliminary MiCA license and the US Senate's housing bill with a CBDC ban until 2030 may influence the market. The Fear & Greed Index at 23 indicates extreme fear, which could impact OKB's price.",
-    "ja": "OKBの24時間予想は、0.4%の下落となり、現在の市場感情を反映しています。  Rippleの初期MiCAライセンスや、2030年までCBDCの禁止を含む米国上院の住宅法が市場に影響を与える可能性があります。  恐怖と欲求不満指数は23、極度の恐怖を示しており、これがOKBの価格に影響を与える可能性があります。",
+    "en": "The model predicts OKB will trade sideways over the next 24 hours with high confidence (77%). Price is near lower Bollinger Band support, where rebounds are historically more frequent. Market sentiment stands at \"Extreme Fear\" (Fear & Greed: 23); the broader crypto market moved -2.9% over the past 24 hours.",
+    "ja": "モデルはOKBが今後24時間で横ばいで推移すると予測しています（信頼度: 高い 77%）。価格がボリンジャーバンド下限付近で、サポートからの反発が過去パターンより多く観察されます。Fear & Greed指数は「Extreme Fear」（23）で、暗号資産市場全体の24時間変動率は-2.9%です。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,23 +1000,23 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-2.66%",
+        "value": "-2.93%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinTelegraph",
-        "value": "Ripple gains preliminary MiCA license ahead of July 1 EU deadline",
-        "url": "https://cointelegraph.com/news/ripple-preliminary-casp-mica-license-july-1-deadline?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+        "value": "Binance’s Yi He warns of alleged impersonation scam, CoinUp denies ties",
+        "url": "https://cointelegraph.com/news/binances-yi-he-warns-alleged-scammer-coinup-responds?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
-        "value": "Here’s what happened in crypto today",
-        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+        "value": "Bitcoin gets new $54K warning as BTC price hits 11-day low on Asia tech sell-off",
+        "url": "https://cointelegraph.com/markets/bitcoin-gets-new-54k-warning-as-btc-price-hits-11-day-low-on-asia-tech-sell-off?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
-        "value": "US Senate passes housing bill with CBDC ban until 2030",
-        "url": "https://cointelegraph.com/news/senate-passes-housing-bill-that-includes-a-cbdc-ban-through-2030?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+        "value": "THORChain resumes trading more than a month after $10M exploit",
+        "url": "https://cointelegraph.com/news/thorchain-resumes-trading-month-10m-exploit?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }
