@@ -1,6 +1,6 @@
 {
   "coinId": "shiba-inu",
-  "generatedAt": "2026-06-23T18:00:07.970518Z",
+  "generatedAt": "2026-06-23T19:00:08.153227Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 0.7466768092225831,
-    "confidence": 0.6839
+    "changePercent24h": 0.9848145803811938,
+    "confidence": 0.7449
   },
   "commentary": {
-    "en": "Shiba Inu's price is expected to remain flat with a minor decline of -0.3% in the next 24 hours, based on current technical signals. The Fear & Greed Index indicates extreme fear in the market, which may impact SHIBA-INU's price. The recent news about CFTC chair's statement and Bitcoin's volatility may also influence the cryptocurrency market.",
-    "ja": "Shiba Inuの価格は、現在の技術指標に基づいて、次の24時間で-0.3%の小幅な下落が予想されます。Fear & Greed Indexは市場が極度の恐怖に陥っていることを示しており、これがSHIBA-INUの価格に影響を与える可能性があります。CFTC会長の声明やビットコインのボラティリティに関する最近のニュースも、暗号資産市場に影響を与える可能性があります。",
+    "en": "The model predicts Shiba Inu will trade sideways over the next 24 hours with low confidence (42%). Price moved -3.27% in the past 24 hours with volume at 1.1× average. Community sentiment on CoinGecko is 71% bullish and the Fear & Greed Index reads \"Extreme Fear\" (23), diverging from the model's forecast, adding uncertainty.",
+    "ja": "モデルはShiba Inuが今後24時間で横ばいで推移すると予測しています（信頼度: 低い 42%）。過去24時間のリターンは-3.27%、出来高は平均の1.1倍です。CoinGeckoコミュニティでは71%が強気を示し、Fear & Greed指数は「Extreme Fear」（23）です。予測方向と乖離があり、不確実性が高まっています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-3.03%",
+        "value": "-3.13%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "71% bullish",
         "url": "https://www.coingecko.com/en/coins/shiba-inu"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Zcash miner Fortitude gets Nasdaq listing via HeartSciences merger",
+        "url": "https://cointelegraph.com/news/zcash-miner-fortitude-go-public-heartsciences-merger?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "CBOE weighs converting BTC, ETH continuous futures into perpetual futures: Report",
         "url": "https://cointelegraph.com/news/cboe-bitcoin-ether-perpetual-futures-cftc-kalshi?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Chainlink joins European and Korean bank consortia to develop FX settlement network",
-        "url": "https://cointelegraph.com/news/chainlink-europe-korea-banks-stablecoin-fx-settlement-project-pangea?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

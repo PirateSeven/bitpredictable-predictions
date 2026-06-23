@@ -1,6 +1,6 @@
 {
   "coinId": "stellar",
-  "generatedAt": "2026-06-23T18:00:07.970518Z",
+  "generatedAt": "2026-06-23T19:00:08.153227Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": 0.8026899060975736,
-    "confidence": 0.4932
+    "changePercent24h": 1.996821292497766,
+    "confidence": 0.7626
   },
   "commentary": {
-    "en": "Stellar (STELLAR) is predicted to decline by 1.6% in the next 24 hours with a confidence level of 70%. The recent market context, including the Fear & Greed Index at 23 and a total crypto market cap 24h change of -3.03%, suggests a bearish trend. The recent news about CFTC and CBOE may have a limited impact on Stellar's price.",
-    "ja": "ステララー（STELLAR）は、次の24時間で1.6％の下落が予測され、信頼性は70％です。最近の市場状況、Fear & Greed Indexが23、総暗号資産市場キャップ24時間変化が-3.03％など、ベアーマーケットの傾向が示唆されています。CFTCとCBOEに関する最近のニュースは、ステララーの価格に限りなく影響を与える可能性があります。",
+    "en": "Stellar's 24-hour direction is predicted to be DOWN with a 70% confidence level, following a 7.16% actual return. The short-term trend is in a downtrend, and the Fear & Greed Index is at 23, indicating Extreme Fear in the market. The recent news surrounding other cryptocurrencies may have a limited impact on Stellar's price.",
+    "ja": "ステラルの24時間の方向は、70％の確信度でDOWNと予想され、7.16％の実際のリターンに続いています。短期のトレンドは下降トレンドにあり、Fear & Greed Indexは23で、市場は極度の恐怖にあります。ステラルの価格に影響を与える可能性はあるものの、他のcryptocurrencyに関する最近のニュースは限定的です。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-3.03%",
+        "value": "-3.13%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "50% bullish",
+        "value": "49% bullish",
         "url": "https://www.coingecko.com/en/coins/stellar"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Zcash miner Fortitude gets Nasdaq listing via HeartSciences merger",
+        "url": "https://cointelegraph.com/news/zcash-miner-fortitude-go-public-heartsciences-merger?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "CBOE weighs converting BTC, ETH continuous futures into perpetual futures: Report",
         "url": "https://cointelegraph.com/news/cboe-bitcoin-ether-perpetual-futures-cftc-kalshi?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Chainlink joins European and Korean bank consortia to develop FX settlement network",
-        "url": "https://cointelegraph.com/news/chainlink-europe-korea-banks-stablecoin-fx-settlement-project-pangea?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "coinId": "ethena-usde",
-  "generatedAt": "2026-06-23T18:00:07.970518Z",
+  "generatedAt": "2026-06-23T19:00:08.153227Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.00620016472122077,
+    "changePercent24h": 0.00021588274099573063,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "Ethena USDe (ETHENA-USDE) is expected to remain flat in the next 24 hours with a confidence level of 95%. The current market context, including the Fear & Greed Index and total crypto market cap, suggests a cautious outlook. The recent news on CFTC chair's statement and CBOE's potential conversion of futures may have a limited impact on ETHENA-USDE.",
-    "ja": "ETHENA-USDEは来日24時間で、95%の確率でフラットになる予想です。Fear & Greed Indexや総暗号資産マーケットキャップなどの市場状況は、慎重な展開を示しています。CFTC会長の発言やCBOEのFutures変換についてのニュースは、ETHENA-USDEに限りなく影響を与える可能性は低いです。",
+    "en": "Ethena USDe (ETHENA-USDE) is predicted to remain flat with a 0.0% 24h direction, as the market context suggests a cautious sentiment with the Fear & Greed Index at 23. The recent news on CFTC chair's comments on perp trading and Chainlink's FX settlement network development may have a neutral impact on the market. The technical signals, including a neutral RSI-14 and mid-band Bollinger Band %B, support this prediction.",
+    "ja": "Ethena USDe (ETHENA-USDE) は、24 時間の方向が 0.0% であると予想され、Fear & Greed Index が 23 にあることから、市場情勢が慎重な感情を示している。CFTC 代表のパーペントレーディングに関する発言とChainlinkのFX決済ネットワーク開発に関するニュースは、市場に中立的な影響を与える可能性がある。技術的指標、RSI-14 が中立的な値域にあり、ボリンジャー・バンド %B が中間帯にあり、これらの予測を裏付ける。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-3.03%",
+        "value": "-3.13%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "100% bullish",
         "url": "https://www.coingecko.com/en/coins/ethena-usde"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Zcash miner Fortitude gets Nasdaq listing via HeartSciences merger",
+        "url": "https://cointelegraph.com/news/zcash-miner-fortitude-go-public-heartsciences-merger?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "CBOE weighs converting BTC, ETH continuous futures into perpetual futures: Report",
         "url": "https://cointelegraph.com/news/cboe-bitcoin-ether-perpetual-futures-cftc-kalshi?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Chainlink joins European and Korean bank consortia to develop FX settlement network",
-        "url": "https://cointelegraph.com/news/chainlink-europe-korea-banks-stablecoin-fx-settlement-project-pangea?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

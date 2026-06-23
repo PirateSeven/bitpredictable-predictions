@@ -1,6 +1,6 @@
 {
   "coinId": "hedera-hashgraph",
-  "generatedAt": "2026-06-23T18:00:07.970518Z",
+  "generatedAt": "2026-06-23T19:00:08.153227Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 1.388576704240453,
-    "confidence": 0.8052
+    "changePercent24h": 1.8162005852984264,
+    "confidence": 0.8455
   },
   "commentary": {
-    "en": "Hedera's 24-hour direction is predicted to be flat with a -0.3% change, indicating a neutral sentiment. The RSI-14 and Bollinger Band %B suggest a sideways trend, while the Fear & Greed Index at 23 indicates extreme fear in the market. The recent news on CFTC chair's statement and CBOE's consideration of converting BTC and ETH futures may have a limited impact on HEDERA-HASHGRAPH's price.",
-    "ja": "ヘダラハッシュグラフの24時間の予想方向は、-0.3%の変化でフラットであることが示唆されています。RSI-14とボリンジャーバンド％Bは横方向のトレンドを示しており、恐怖と欲求不満指数が23の極度の恐怖を示しています。CFTC会長の声明とCBOEがBTCとETHのフューチャーを永続的フューチャーに変換することを検討しているニュースは、HEDERA-HASHGRAPHの価格に限られた影響を与える可能性があります。",
+    "en": "Hedera's 24-hour return is -2.59%, with a predicted flat direction and confidence of 39%. The Fear & Greed Index is at 23, indicating extreme fear in the market. The recent news of Chainlink joining a bank consortium to develop an FX settlement network may have a positive impact on the cryptocurrency market.",
+    "ja": "ヘダラハッシュグラフの24時間の戻りは-2.59%で、予想はフラット方向で信頼度は39%です。Fear & Greed Indexは23で、市場は極度の恐怖の状態です。Chainlinkが銀行コンソーシアムでFX決済ネットワークを開発することに参加したニュースは、暗号通貨市場に肯定的な影響を与える可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-3.03%",
+        "value": "-3.13%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "89% bullish",
         "url": "https://www.coingecko.com/en/coins/hedera-hashgraph"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Zcash miner Fortitude gets Nasdaq listing via HeartSciences merger",
+        "url": "https://cointelegraph.com/news/zcash-miner-fortitude-go-public-heartsciences-merger?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "CBOE weighs converting BTC, ETH continuous futures into perpetual futures: Report",
         "url": "https://cointelegraph.com/news/cboe-bitcoin-ether-perpetual-futures-cftc-kalshi?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Chainlink joins European and Korean bank consortia to develop FX settlement network",
-        "url": "https://cointelegraph.com/news/chainlink-europe-korea-banks-stablecoin-fx-settlement-project-pangea?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

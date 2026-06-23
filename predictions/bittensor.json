@@ -1,6 +1,6 @@
 {
   "coinId": "bittensor",
-  "generatedAt": "2026-06-23T18:00:07.970518Z",
+  "generatedAt": "2026-06-23T19:00:08.153227Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -5.347241626683736,
-    "confidence": 0.8838
+    "changePercent24h": -3.689150124659311,
+    "confidence": 0.8349
   },
   "commentary": {
-    "en": "Bittensor is likely to experience a downward movement in the next 24 hours, with a predicted return of -3.2% and a confidence level of 81%. The current market conditions, including the Fear & Greed Index and the total crypto market cap 24h change, support this prediction. The recent news on CFTC chair's comments on perp trading and CBOE's consideration to convert BTC and ETH futures into perpetual futures may also contribute to the market's bearish sentiment.",
-    "ja": "ビットテンサーは、次の24時間で下落する可能性があり、予想されるリターンは-3.2%、信頼度は81%です。Fear & Greed Indexと総暗号資産市場キャップ24時間変化などの現在の市場状況は、この予測を裏付けている。CFTC会長のパーシャス取引に関するコメントとCBOEのBTCとETHの連続的な期次商品を永久期次商品に変換する可能性についての報道は、市場の悲観的な気分を高めている可能性がある。",
+    "en": "Bittensor is predicted to decline by 3.2% in the next 24 hours with a confidence level of 81%. The recent price drop has pushed the RSI-14 into oversold territory, but the Bollinger Band %B suggests the price is still near the lower band. The high volume ratio and downtrend in short-term trend indicators support the bearish prediction.",
+    "ja": "ビットテンソルは来日24時間で3.2％の下落が予想され、信頼度は81％です。最近の価格の下落により、RSI-14はオーバーサルドの領域に突入しましたが、ボリンジャー・バンドの％Bは価格が下方バンドに近いことを示しています。高ボリュームレシオと短期傾向指標の下降傾向は、悲観的な予測を裏付けています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-3.03%",
+        "value": "-3.13%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "56% bullish",
+        "value": "55% bullish",
         "url": "https://www.coingecko.com/en/coins/bittensor"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Zcash miner Fortitude gets Nasdaq listing via HeartSciences merger",
+        "url": "https://cointelegraph.com/news/zcash-miner-fortitude-go-public-heartsciences-merger?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "CBOE weighs converting BTC, ETH continuous futures into perpetual futures: Report",
         "url": "https://cointelegraph.com/news/cboe-bitcoin-ether-perpetual-futures-cftc-kalshi?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Chainlink joins European and Korean bank consortia to develop FX settlement network",
-        "url": "https://cointelegraph.com/news/chainlink-europe-korea-banks-stablecoin-fx-settlement-project-pangea?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

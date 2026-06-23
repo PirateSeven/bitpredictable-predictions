@@ -1,6 +1,6 @@
 {
   "coinId": "hyperliquid",
-  "generatedAt": "2026-06-23T18:00:07.970518Z",
+  "generatedAt": "2026-06-23T19:00:08.153227Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -6.636828635271918,
-    "confidence": 0.9256
+    "changePercent24h": -5.3951268362669635,
+    "confidence": 0.9093
   },
   "commentary": {
-    "en": "Hyperliquid (HYPERLIQUID) is predicted to decrease by -1.7% in the next 24 hours with a confidence level of 73%. The current market sentiment is extreme fear, as indicated by the Fear & Greed Index of 23. The short-term trend is in a downtrend, with the SMA7/SMA24 ratio showing a decline.",
-    "ja": "ハイパーリキッド（HYPERLIQUID）は、次の24時間で-1.7%の値下げが予想され、信頼度は73％です。現在の市場感覚は、恐怖の極度である、フェア＆グリード指数が23に示しています。短期のトレンドは、SMA7/SMA24の比率が下降しているため、下降トレンドにあります。",
+    "en": "Hyperliquid (HYPERLIQUID) is predicted to move downwards with a 24h direction of -1.7% (confidence: 73%). The recent market context, including the Fear & Greed Index at 23 and the total crypto market cap 24h change of -3.13%, suggests a bearish trend. The recent news on CFTC chair's statements and Chainlink's partnership may have a limited impact on HYPERLIQUID's price.",
+    "ja": "Hyperliquid (HYPERLIQUID) は、24時間方向が-1.7% (信頼度: 73%) の下方動きが予測されています。恐怖と欲求不満指数が23、総暗号資産市場キャップ24時間変化が-3.13%という状況は、バブルの崩壊を示唆しています。CFTC会長の発言やChainlinkのパートナーシップに関するニュースは、HYPERLIQUIDの価格に限りなく影響を与える可能性は低いです。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-3.03%",
+        "value": "-3.13%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "37% bullish",
+        "value": "35% bullish",
         "url": "https://www.coingecko.com/en/coins/hyperliquid"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Zcash miner Fortitude gets Nasdaq listing via HeartSciences merger",
+        "url": "https://cointelegraph.com/news/zcash-miner-fortitude-go-public-heartsciences-merger?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "CBOE weighs converting BTC, ETH continuous futures into perpetual futures: Report",
         "url": "https://cointelegraph.com/news/cboe-bitcoin-ether-perpetual-futures-cftc-kalshi?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Chainlink joins European and Korean bank consortia to develop FX settlement network",
-        "url": "https://cointelegraph.com/news/chainlink-europe-korea-banks-stablecoin-fx-settlement-project-pangea?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

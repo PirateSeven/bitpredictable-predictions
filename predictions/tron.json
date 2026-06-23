@@ -1,6 +1,6 @@
 {
   "coinId": "tron",
-  "generatedAt": "2026-06-23T18:00:07.970518Z",
+  "generatedAt": "2026-06-23T19:00:08.153227Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.7642111629273626,
-    "confidence": 0.9171
+    "changePercent24h": -0.5331657301672953,
+    "confidence": 0.8926
   },
   "commentary": {
-    "en": "TRON's price is expected to remain flat in the next 24 hours with a confidence level of 75%. The recent news about CFTC's stance on perp trading and CBOE's consideration to convert BTC and ETH futures into perpetual futures may have a neutral impact on TRON's price. The overall market sentiment remains in extreme fear, which could influence TRON's price movement.",
-    "ja": "トロンの価格は次の24時間で、75％の確信度でフラットのままであると予想されます。CFTCのパーペチュアル取引の立場とCBOEのBTCとETHの連続取引をパーペチュアル取引に変換する可能性についてのニュースはトロンの価格に中立的な影響を与える可能性があります。トロンの価格動向は、総合的な市場感情が極度の恐怖にあります。",
+    "en": "TRON's 24-hour return is -0.65%, with a predicted flat direction and neutral RSI-14. The Fear & Greed Index remains at 23, indicating extreme fear in the market. TRON's short-term trend is sideways, with a volume ratio close to average.",
+    "ja": "トロンの24時間リターンは-0.65％で、予想はフラットで、RSI-14は中立的な値を示しています。Fear & Greed Indexは23で、市場は恐れに包まれています。トロンの短期傾向は横方向にあり、ボリューム比率は平均値に近いです。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-3.03%",
+        "value": "-3.13%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "48% bullish",
         "url": "https://www.coingecko.com/en/coins/tron"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Zcash miner Fortitude gets Nasdaq listing via HeartSciences merger",
+        "url": "https://cointelegraph.com/news/zcash-miner-fortitude-go-public-heartsciences-merger?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "CBOE weighs converting BTC, ETH continuous futures into perpetual futures: Report",
         "url": "https://cointelegraph.com/news/cboe-bitcoin-ether-perpetual-futures-cftc-kalshi?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Chainlink joins European and Korean bank consortia to develop FX settlement network",
-        "url": "https://cointelegraph.com/news/chainlink-europe-korea-banks-stablecoin-fx-settlement-project-pangea?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

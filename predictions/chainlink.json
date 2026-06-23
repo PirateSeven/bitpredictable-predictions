@@ -1,6 +1,6 @@
 {
   "coinId": "chainlink",
-  "generatedAt": "2026-06-23T18:00:07.970518Z",
+  "generatedAt": "2026-06-23T19:00:08.153227Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -0.7991226248167045,
-    "confidence": 0.6213
+    "changePercent24h": 0.028180224510188312,
+    "confidence": 0.1
   },
   "commentary": {
-    "en": "Chainlink's 24-hour direction is predicted to be DOWN by 1.7% with a confidence level of 79%. This prediction is based on the current technical signals, including a downtrend in the short-term trend and a 24-hour actual return of -4.64%. The Fear & Greed Index is at 23, indicating extreme fear in the market.",
-    "ja": "Chainlinkの24時間予想はDOWNに1.7%、信頼度79%です。これは、短期傾向の下降と24時間実際の利回り-4.64%など、現在の技術指標に基づいています。Fear & Greed Indexは23、市場は極度の恐怖です。",
+    "en": "Chainlink is predicted to decline by 1.7% in the next 24 hours with a confidence level of 79%. The recent news of Chainlink joining European and Korean bank consortia to develop an FX settlement network may have a neutral impact on the price. The Fear & Greed Index at 23 indicates extreme fear in the market.",
+    "ja": "Chainlink は次の24時間で1.7%下落が予想され、信頼度は79%となります。Chainlink が欧州と韓国の銀行連合にFX決済ネットワークを開発するために参加したニュースは価格に中立的な影響を与える可能性があります。Fear & Greed Indexは23で、市場は極度の恐怖状態です。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-3.03%",
+        "value": "-3.13%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "62% bullish",
         "url": "https://www.coingecko.com/en/coins/chainlink"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Zcash miner Fortitude gets Nasdaq listing via HeartSciences merger",
+        "url": "https://cointelegraph.com/news/zcash-miner-fortitude-go-public-heartsciences-merger?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "CBOE weighs converting BTC, ETH continuous futures into perpetual futures: Report",
         "url": "https://cointelegraph.com/news/cboe-bitcoin-ether-perpetual-futures-cftc-kalshi?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Chainlink joins European and Korean bank consortia to develop FX settlement network",
-        "url": "https://cointelegraph.com/news/chainlink-europe-korea-banks-stablecoin-fx-settlement-project-pangea?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

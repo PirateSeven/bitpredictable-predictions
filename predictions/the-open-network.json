@@ -1,6 +1,6 @@
 {
   "coinId": "the-open-network",
-  "generatedAt": "2026-06-23T18:00:07.970518Z",
+  "generatedAt": "2026-06-23T19:00:08.153227Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -7.585029659695234,
+    "changePercent24h": -8.639024200026443,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "Gram (prev. Toncoin)'s 24h direction is predicted to be DOWN with a -1.9% return, driven by the current downtrend and low volume ratio. The Fear & Greed Index at 23 indicates extreme fear in the market, which may contribute to THE-OPEN-NETWORK's decline. Recent news on CFTC chair's comments on perp trading and CBOE's consideration of perpetual futures may also impact market sentiment.",
-    "ja": "THE-OPEN-NETWORKの24時間の方向はDOWNに予測されており、-1.9％のリターンが予想されます。これは、短期のトレンドと低いボリュームレシオの影響を受けます。恐怖と欲求不満指数が23で極度の恐怖を示すことも、THE-OPEN-NETWORKの下落に寄与する可能性があります。CFTC会長のパーペント取引に関するコメントやCBOEのパーペントフューチャーの検討に関するニュースも市場の動向に影響を与える可能性があります。",
+    "en": "The model predicts Gram (prev. Toncoin) will decline ~1.9% over the next 24 hours with high confidence (88%). The short-term SMA is below the medium-term SMA, indicating weakening momentum. Community sentiment on CoinGecko is 67% bullish and the Fear & Greed Index reads \"Extreme Fear\" (23), diverging from the model's forecast, adding uncertainty.",
+    "ja": "モデルはGram (prev. Toncoin)が今後24時間で約1.9%下落すると予測しています（信頼度: 高い 88%）。短期移動平均が中期移動平均を下回り、モメンタムの低下が示されています。CoinGeckoコミュニティでは67%が強気を示し、Fear & Greed指数は「Extreme Fear」（23）です。予測方向と乖離があり、不確実性が高まっています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-3.03%",
+        "value": "-3.13%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "67% bullish",
         "url": "https://www.coingecko.com/en/coins/the-open-network"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Zcash miner Fortitude gets Nasdaq listing via HeartSciences merger",
+        "url": "https://cointelegraph.com/news/zcash-miner-fortitude-go-public-heartsciences-merger?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "CBOE weighs converting BTC, ETH continuous futures into perpetual futures: Report",
         "url": "https://cointelegraph.com/news/cboe-bitcoin-ether-perpetual-futures-cftc-kalshi?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Chainlink joins European and Korean bank consortia to develop FX settlement network",
-        "url": "https://cointelegraph.com/news/chainlink-europe-korea-banks-stablecoin-fx-settlement-project-pangea?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

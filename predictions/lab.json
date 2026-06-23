@@ -1,6 +1,6 @@
 {
   "coinId": "lab",
-  "generatedAt": "2026-06-23T18:00:07.970518Z",
+  "generatedAt": "2026-06-23T19:00:08.153227Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -23.6479239928264,
+    "changePercent24h": -23.851391765378928,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "LAB (LAB) is predicted to decline by 5.8% in the next 24 hours with a high confidence level of 83%. The recent market context, including the Fear & Greed Index at 23 and a total crypto market cap 24h change of -3.03%, suggests a bearish trend. The short-term trend and Bollinger Band %B also indicate a downtrend.",
-    "ja": "LAB (LAB) は、83% の確実性で次の 24 時間で 5.8% の下落を予測しています。Fear & Greed Index が 23 と総暗号資産市場キャップ 24 時間変化が -3.03% などの最近の市場状況は、下落の傾向を示しています。短期傾向とボリンジャー バンド %B も下落の傾向を示しています。",
+    "en": "LAB's price is predicted to decline by 5.8% in the next 24 hours with an 83% confidence level. The recent Nasdaq listing of Zcash miner Fortitude via HeartSciences merger may have a limited impact on LAB's price. The overall market sentiment remains in extreme fear.",
+    "ja": "LABの価格は次の24時間で5.8%下落する可能性があり、83%の確率で予測されています。ZcashのマイナーであるFortitudeがHeartSciencesのmergerによりNasdaqに上場したことはLABの価格に限られた影響を与える可能性があります。市場全体の感覚は極度の恐怖の状態です。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-3.03%",
+        "value": "-3.13%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "41% bullish",
         "url": "https://www.coingecko.com/en/coins/lab"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Zcash miner Fortitude gets Nasdaq listing via HeartSciences merger",
+        "url": "https://cointelegraph.com/news/zcash-miner-fortitude-go-public-heartsciences-merger?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "CBOE weighs converting BTC, ETH continuous futures into perpetual futures: Report",
         "url": "https://cointelegraph.com/news/cboe-bitcoin-ether-perpetual-futures-cftc-kalshi?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Chainlink joins European and Korean bank consortia to develop FX settlement network",
-        "url": "https://cointelegraph.com/news/chainlink-europe-korea-banks-stablecoin-fx-settlement-project-pangea?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

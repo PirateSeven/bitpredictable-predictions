@@ -1,6 +1,6 @@
 {
   "coinId": "zcash",
-  "generatedAt": "2026-06-23T18:00:07.970518Z",
+  "generatedAt": "2026-06-23T19:00:08.153227Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -3.9587024405071802,
-    "confidence": 0.8374
+    "changePercent24h": -2.7032816783682607,
+    "confidence": 0.7682
   },
   "commentary": {
-    "en": "Zcash is expected to continue its downward trend, with a predicted 24h direction of DOWN at -3.2% confidence. The recent news and market context, including the CFTC chair's comments on perp trading and the Bitcoin slump, may contribute to the bearish sentiment. The RSI-14 reading of 26 indicates oversold conditions, but the short-term trend remains in a downtrend.",
-    "ja": "Zcashは、24時間方向がDOWNの予測で、-3.2％の信頼性を持っています。CFTC会長のパーペット取引に関するコメントやビットコインの低下など、最近のニュースと市場状況は、否定的な感情を引き起こす可能性があります。RSI-14の値は26で、オーバーサールドの状態ですが、短期的な傾向は下降傾向にあります。",
+    "en": "Zcash (ZCASH) is predicted to continue downward movement with a 24h direction of -3.2% due to its short-term downtrend and oversold RSI-14. The recent Nasdaq listing of Zcash miner Fortitude via HeartSciences merger may have a neutral impact on Zcash's price. The overall crypto market is experiencing extreme fear, with the Fear & Greed Index at 23.",
+    "ja": "Zcash（ZCASH）は、短期的な下降傾向とオーバーサルドのRSI-14により、24時間方向が-3.2%と予想されます。ZcashのマイナーであるFortitudeがHeartSciencesとのマージでナスダックに上場したことは、Zcashの価格に中立的な影響を与える可能性があります。総合的に、Fear & Greed Indexは23と極度の恐怖を示しており、全体的な暗号通貨市場は恐怖に満ちています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-3.03%",
+        "value": "-3.13%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "41% bullish",
+        "value": "44% bullish",
         "url": "https://www.coingecko.com/en/coins/zcash"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Zcash miner Fortitude gets Nasdaq listing via HeartSciences merger",
+        "url": "https://cointelegraph.com/news/zcash-miner-fortitude-go-public-heartsciences-merger?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "CBOE weighs converting BTC, ETH continuous futures into perpetual futures: Report",
         "url": "https://cointelegraph.com/news/cboe-bitcoin-ether-perpetual-futures-cftc-kalshi?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Chainlink joins European and Korean bank consortia to develop FX settlement network",
-        "url": "https://cointelegraph.com/news/chainlink-europe-korea-banks-stablecoin-fx-settlement-project-pangea?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "coinId": "ripple",
-  "generatedAt": "2026-06-23T18:00:07.970518Z",
+  "generatedAt": "2026-06-23T19:00:08.153227Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -1.0997597934873538,
-    "confidence": 0.745
+    "changePercent24h": -0.047362183673979485,
+    "confidence": 0.1
   },
   "commentary": {
-    "en": "XRP's 24-hour direction is predicted to be flat with a -0.5% change, reflecting a neutral RSI-14 reading of 33. The recent news surrounding CFTC chair's comments on perp trading and CBOE's consideration of converting BTC and ETH futures may impact market sentiment. XRP's price movement is likely to be influenced by the overall crypto market trend.",
-    "ja": "リップルは24時間の方向性は予測され、-0.5%の変化を示す。RSI-14の値は33と中立的な値を示している。CFTC会長のパーペット取引に関するコメントやCBOEのBTCとETHのフューチャーの変換に関する検討は市場の気分を左右する可能性がある。リップル価格の動きは、総合的な暗号資産市場のトレンドによって影響を受ける可能性がある。",
+    "en": "XRP's predicted 24h direction is flat with a -0.5% change, indicating a neutral sentiment. The recent news of Chainlink joining a consortium to develop an FX settlement network may have a positive impact on the overall market. However, the Fear & Greed Index remains in Extreme Fear territory, suggesting caution.",
+    "ja": "リップルは24時間の予想方向はフラットで-0.5%の変化を示し、中立的な感情を示しています。チェーンリンクがFX決済ネットワークの開発に協力するコンソーシアムに参加したニュースは、市場全体に肯定的な影響を与える可能性があります。ただし、恐怖と欲求不満指数はエクストリーム・フィアの領域にあり、注意が必要です。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-3.03%",
+        "value": "-3.13%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "58% bullish",
         "url": "https://www.coingecko.com/en/coins/ripple"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Zcash miner Fortitude gets Nasdaq listing via HeartSciences merger",
+        "url": "https://cointelegraph.com/news/zcash-miner-fortitude-go-public-heartsciences-merger?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "CBOE weighs converting BTC, ETH continuous futures into perpetual futures: Report",
         "url": "https://cointelegraph.com/news/cboe-bitcoin-ether-perpetual-futures-cftc-kalshi?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Chainlink joins European and Korean bank consortia to develop FX settlement network",
-        "url": "https://cointelegraph.com/news/chainlink-europe-korea-banks-stablecoin-fx-settlement-project-pangea?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

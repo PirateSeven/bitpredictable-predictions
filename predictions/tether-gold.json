@@ -1,6 +1,6 @@
 {
   "coinId": "tether-gold",
-  "generatedAt": "2026-06-23T18:00:07.970518Z",
+  "generatedAt": "2026-06-23T19:00:08.153227Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 1.3213481505645805,
-    "confidence": 0.9295
+    "changePercent24h": 1.8830371906984356,
+    "confidence": 0.9481
   },
   "commentary": {
-    "en": "Tether Gold (TETHER-GOLD) is expected to remain flat with a slight decline of -0.1% in the next 24 hours due to the overall bearish sentiment in the crypto market. The Fear & Greed Index is at 23, indicating extreme fear, and the total crypto market cap has dropped by 3.03% in the last 24 hours. The recent news on CFTC and CBOE may have a limited impact on Tether Gold's price.",
-    "ja": "Tether Gold (TETHER-GOLD) は、次の24時間に-0.1%の小幅な下落が予想される。 Fear & Greed Index は23に達しており、トータルクリプトマーケットキャップは24時間で3.03%下落している。 CFTCとCBOEに関する最近のニュースは、Tether Goldの価格に限りなく影響を与える可能性がある。",
+    "en": "Tether Gold (TETHER-GOLD) is expected to experience a flat 24-hour period with a slight decline of -0.1%. The current market sentiment remains in extreme fear, as indicated by the Fear & Greed Index of 23. The recent news on the CFTC chair's comments on perpetual trading and Chainlink's collaboration with European and Korean banks may have a limited impact on Tether Gold's price movement.",
+    "ja": "Tether Gold (TETHER-GOLD) は24時間間の動向がフラットで-0.1%の低下が予想されます。現在の市場感情は、Fear & Greed Indexが23で極度の恐怖の状態にあります。CFTC会長の永久取引に関するコメントとChainlinkがヨーロッパと韓国の銀行と協力するニュースは、Tether Goldの価格動向に限られた影響を与える可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-3.03%",
+        "value": "-3.13%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "100% bullish",
         "url": "https://www.coingecko.com/en/coins/tether-gold"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Zcash miner Fortitude gets Nasdaq listing via HeartSciences merger",
+        "url": "https://cointelegraph.com/news/zcash-miner-fortitude-go-public-heartsciences-merger?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "CBOE weighs converting BTC, ETH continuous futures into perpetual futures: Report",
         "url": "https://cointelegraph.com/news/cboe-bitcoin-ether-perpetual-futures-cftc-kalshi?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Chainlink joins European and Korean bank consortia to develop FX settlement network",
-        "url": "https://cointelegraph.com/news/chainlink-europe-korea-banks-stablecoin-fx-settlement-project-pangea?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

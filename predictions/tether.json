@@ -1,6 +1,6 @@
 {
   "coinId": "tether",
-  "generatedAt": "2026-06-23T18:00:07.970518Z",
+  "generatedAt": "2026-06-23T19:00:08.153227Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 0.035593536022884814,
+    "changePercent24h": 0.02653026466110345,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "Tether's flat 24h direction prediction is supported by its neutral RSI-14 and mid-band Bollinger Band %B. The asset's price movement is likely influenced by the overall market sentiment, which is currently in extreme fear. With the Fear & Greed Index at 23 and the total crypto market cap experiencing a 3.03% decline, Tether's price stability is expected to continue.",
-    "ja": "テザーの24時間の方向予測は中立的なRSI-14とバンドの中央に位置するボリンジャー・バンド％Bによって裏付けられています。資産の価格動向は、現在極度の恐怖の感情を示している総合市場の感情に影響を受けています。恐怖と欲求不満指数が23と総合暗号資産の市場キャップが3.03％減少した場合、テザーの価格安定は続くものと予想されます。",
+    "en": "Tether's flat 24-hour direction prediction is based on neutral RSI-14 and mid-band Bollinger Band %B, with a 95% confidence level. The Fear & Greed Index at 23 indicates extreme fear, while the CoinGecko community remains 100% bullish. Tether's price movement is likely to be influenced by the overall crypto market sentiment.",
+    "ja": "テザーの24時間方向予測は中立的なRSI-14と中間のボリンジャーバンド％Bに基づいており、95％の信頼度を持っています。恐怖と欲求不満指数は23で、コインゲココミュニティは100％のバブルを維持しています。テザーの価格動向は、総合暗号通貨市場の気分に左右される可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-3.03%",
+        "value": "-3.13%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "100% bullish",
         "url": "https://www.coingecko.com/en/coins/tether"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Zcash miner Fortitude gets Nasdaq listing via HeartSciences merger",
+        "url": "https://cointelegraph.com/news/zcash-miner-fortitude-go-public-heartsciences-merger?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "CBOE weighs converting BTC, ETH continuous futures into perpetual futures: Report",
         "url": "https://cointelegraph.com/news/cboe-bitcoin-ether-perpetual-futures-cftc-kalshi?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Chainlink joins European and Korean bank consortia to develop FX settlement network",
-        "url": "https://cointelegraph.com/news/chainlink-europe-korea-banks-stablecoin-fx-settlement-project-pangea?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

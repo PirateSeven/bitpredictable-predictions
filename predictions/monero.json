@@ -1,6 +1,6 @@
 {
   "coinId": "monero",
-  "generatedAt": "2026-06-23T18:00:07.970518Z",
+  "generatedAt": "2026-06-23T19:00:08.153227Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -0.6316743155895768,
-    "confidence": 0.499
+    "changePercent24h": 0.14908487628140965,
+    "confidence": 0.1
   },
   "commentary": {
-    "en": "Monero is expected to decline by 1.9% in the next 24 hours with a confidence level of 79%. This prediction is based on the technical signals, including a downtrend in the short-term trend and a recent decline in the Fear & Greed Index to Extreme Fear. The recent news about CFTC chair's statement and Bitcoin's decline may also contribute to Monero's downward trend.",
-    "ja": "モネロは次の24時間で1.9%下落する可能性があり、信頼度は79%です。これは短期的な傾向の下落と、Fear & Greed Indexの極度の恐怖に達するなど、技術的信号に基づいています。CFTC会長の声明やビットコインの下落など、最近のニュースもモネロの下落傾向に寄与する可能性があります。",
+    "en": "Monero's predicted 24h direction is DOWN by 1.9% with a confidence of 79%. The recent news of Zcash miner Fortitude getting a Nasdaq listing may have a positive impact on Monero, but the overall market context suggests a downtrend. The Fear & Greed Index is at 23, indicating extreme fear, and the total crypto market cap has declined by 3.13% in the last 24 hours.",
+    "ja": "モノロの24時間予測は下落1.9％で、信頼度は79％です。ザシスミナーFortitudeがナスダック上場を果たしたニュースはモノロにポジティブな影響を与える可能性がありますが、総暗号資産市場は下落傾向にあるようです。恐怖と欲求不満指数は23で、総暗号資産市場は24時間で3.13％下落しました。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-3.03%",
+        "value": "-3.13%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "91% bullish",
         "url": "https://www.coingecko.com/en/coins/monero"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Zcash miner Fortitude gets Nasdaq listing via HeartSciences merger",
+        "url": "https://cointelegraph.com/news/zcash-miner-fortitude-go-public-heartsciences-merger?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "CBOE weighs converting BTC, ETH continuous futures into perpetual futures: Report",
         "url": "https://cointelegraph.com/news/cboe-bitcoin-ether-perpetual-futures-cftc-kalshi?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Chainlink joins European and Korean bank consortia to develop FX settlement network",
-        "url": "https://cointelegraph.com/news/chainlink-europe-korea-banks-stablecoin-fx-settlement-project-pangea?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

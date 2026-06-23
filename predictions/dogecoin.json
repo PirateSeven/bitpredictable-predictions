@@ -1,6 +1,6 @@
 {
   "coinId": "dogecoin",
-  "generatedAt": "2026-06-23T18:00:07.970518Z",
+  "generatedAt": "2026-06-23T19:00:08.153227Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -1.9770142968479876,
-    "confidence": 0.8487
+    "changePercent24h": -1.2501352762739646,
+    "confidence": 0.7753
   },
   "commentary": {
-    "en": "Dogecoin is expected to continue its downtrend, with a predicted 24h direction of DOWN and a 24h actual return of -5.66%. The RSI-14 is oversold at 28, but the short-term trend remains in a downtrend. The Fear & Greed Index is at 23, indicating Extreme Fear in the market.",
-    "ja": "ドージコインは、24時間方向が下落し、24時間実際のリターンが-5.66%と予想されています。RSI-14は28でオーバーサルですが、短期傾向は下傾きを示しています。Fear & Greed Indexは23で、市場は極度の恐怖を示しています。",
+    "en": "Dogecoin's 24-hour direction is predicted to be DOWN with a 72% confidence level, following a 5.66% actual return. The RSI-14 is at 28, indicating an oversold condition, while the Bollinger Band %B is at 0.19, near the lower band. The Fear & Greed Index is at 23, reflecting extreme fear in the market.",
+    "ja": "ドージコインの24時間の方向はDOWNであることが72％の確信度で予測され、実際の24時間の戻りは5.66％であった。RSI-14は28に達しており、オーバーサル条件を示しており、ボリンジャー・バンド %Bは0.19に達しており、下方のバンドに近い。恐怖と欲求不満指数は23に達しており、市場全体で極度の恐怖が広がっている。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-3.03%",
+        "value": "-3.13%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "70% bullish",
+        "value": "68% bullish",
         "url": "https://www.coingecko.com/en/coins/dogecoin"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Zcash miner Fortitude gets Nasdaq listing via HeartSciences merger",
+        "url": "https://cointelegraph.com/news/zcash-miner-fortitude-go-public-heartsciences-merger?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "CBOE weighs converting BTC, ETH continuous futures into perpetual futures: Report",
         "url": "https://cointelegraph.com/news/cboe-bitcoin-ether-perpetual-futures-cftc-kalshi?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Chainlink joins European and Korean bank consortia to develop FX settlement network",
-        "url": "https://cointelegraph.com/news/chainlink-europe-korea-banks-stablecoin-fx-settlement-project-pangea?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

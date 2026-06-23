@@ -1,6 +1,6 @@
 {
   "coinId": "bitcoin",
-  "generatedAt": "2026-06-23T18:00:07.970518Z",
+  "generatedAt": "2026-06-23T19:00:08.153227Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -1.3950472629811703,
-    "confidence": 0.8313
+    "changePercent24h": -0.6274930600569747,
+    "confidence": 0.6838
   },
   "commentary": {
-    "en": "Bitcoin is likely to continue its downward trend in the next 24 hours, with a predicted decline of around 0.5% due to the current market conditions and technical signals. The Fear & Greed Index remains in Extreme Fear territory, and the recent news about the CFTC chair's comments on perp trading may have contributed to the market's volatility. The short-term trend also indicates a downtrend.",
-    "ja": "ビットコインは、次の24時間に下落する可能性があり、予測は0.5%の下落です。恐怖と欲求不満指数は今も極度の恐怖の領域にあり、CFTC会長のパーペット取引に関する発言が市場の動揺に寄与している可能性があります。短期傾向も下落傾向を示しています。",
+    "en": "Bitcoin is predicted to move downward by -0.5% in the next 24 hours with a confidence level of 63%. The recent market context suggests a high level of fear, with the Fear & Greed Index at 23 and a total crypto market cap 24h change of -3.13%. Key news includes the CFTC chair's comments on perp trading and Chainlink's involvement in a FX settlement network.",
+    "ja": "ビットコインは、次の24時間で-0.5%の下落を予測しており、信頼度は63%です。最近の市場状況は恐怖の高まりを示しており、Fear & Greed Indexは23、総暗号資産市場キャップ24時間変化は-3.13%です。重要なニュースには、CFTC会長のパーペット取引に関するコメントとChainlinkがFX決済ネットワークに参加したことが含まれます。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-3.03%",
+        "value": "-3.13%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "72% bullish",
         "url": "https://www.coingecko.com/en/coins/bitcoin"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Zcash miner Fortitude gets Nasdaq listing via HeartSciences merger",
+        "url": "https://cointelegraph.com/news/zcash-miner-fortitude-go-public-heartsciences-merger?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "CBOE weighs converting BTC, ETH continuous futures into perpetual futures: Report",
         "url": "https://cointelegraph.com/news/cboe-bitcoin-ether-perpetual-futures-cftc-kalshi?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Chainlink joins European and Korean bank consortia to develop FX settlement network",
-        "url": "https://cointelegraph.com/news/chainlink-europe-korea-banks-stablecoin-fx-settlement-project-pangea?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "coinId": "crypto-com-chain",
-  "generatedAt": "2026-06-23T18:00:07.970518Z",
+  "generatedAt": "2026-06-23T19:00:08.153227Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -1.1565298342689965,
-    "confidence": 0.7902
+    "changePercent24h": -0.4484572174562111,
+    "confidence": 0.5775
   },
   "commentary": {
-    "en": "Cronos's predicted 24h direction is flat with a -0.5% confidence. The RSI-14 is oversold at 30, indicating potential for a short-term rebound. However, the short-term trend remains in a downtrend, suggesting caution.",
-    "ja": "Cronos の 24 時間予想方向は、-0.5% の確信度でフラットです。 RSI-14 は 30 でオーバーサルド、短期的な反発の可能性があります。ただし、短期的なトレンドは下降傾向にあり、注意が必要です。",
+    "en": "Cronos is expected to experience a flat day with a possible decline of -0.5% due to the overall bearish market sentiment. The RSI-14 is oversold, indicating a potential bounce, but the short-term trend remains in a downtrend. The Fear & Greed Index is at extreme fear, suggesting a possible buying opportunity.",
+    "ja": "Cronos は、総じて厳しい市場感覚の影響を受けて、0.5%の下落が予想されます。 RSI-14 はオーバーサルド、短期的なトレンドは下降中です。 Fear & Greed Index は極度の恐怖の状態にあり、買い機の機会が見込まれます。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-3.03%",
+        "value": "-3.13%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "57% bullish",
+        "value": "62% bullish",
         "url": "https://www.coingecko.com/en/coins/crypto-com-chain"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Zcash miner Fortitude gets Nasdaq listing via HeartSciences merger",
+        "url": "https://cointelegraph.com/news/zcash-miner-fortitude-go-public-heartsciences-merger?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "CBOE weighs converting BTC, ETH continuous futures into perpetual futures: Report",
         "url": "https://cointelegraph.com/news/cboe-bitcoin-ether-perpetual-futures-cftc-kalshi?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Chainlink joins European and Korean bank consortia to develop FX settlement network",
-        "url": "https://cointelegraph.com/news/chainlink-europe-korea-banks-stablecoin-fx-settlement-project-pangea?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

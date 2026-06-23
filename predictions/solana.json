@@ -1,6 +1,6 @@
 {
   "coinId": "solana",
-  "generatedAt": "2026-06-23T18:00:07.970518Z",
+  "generatedAt": "2026-06-23T19:00:08.153227Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -2.8972824692203236,
-    "confidence": 0.8575
+    "changePercent24h": -1.8136302555658252,
+    "confidence": 0.7827
   },
   "commentary": {
-    "en": "Solana (SOL) is likely to continue its downward trend, with a predicted 24h direction of DOWN at -1.2% confidence. The recent news surrounding CFTC chair's comments on perp trading and CBOE's consideration of perpetual futures may have a limited impact on Solana's price. The Fear & Greed Index remains in Extreme Fear territory, indicating a high level of market uncertainty.",
-    "ja": "ソラナ（SOL）は、24時間の方向性が下降し、-1.2%の確信度で予測される可能性があります。CFTC会長のパーペントトレーディングに関する発言やCBOEのパーペントフューチャーの検討など、近況のニュースはソラナの価格に限られた影響を与える可能性があります。恐怖と欲求不満指数は極度の恐怖の領域にあり、市場の不確実性が高いことを示しています。",
+    "en": "Solana (SOL) is predicted to decline by 1.2% in the next 24 hours, with a confidence level of 68%. The current market sentiment is extremely fearful, as indicated by the Fear & Greed Index of 23. The recent news about the CFTC chair's comments on perp trading and the potential conversion of BTC and ETH futures to perpetual futures may have a negative impact on Solana's price.",
+    "ja": "ソラナ（SOL）は、次の24時間に1.2％下落する可能性があり、信頼度は68％です。恐怖と欲求不満指数は23で、極度の恐怖を示しています。CFTC委員長のパーペット取引に関するコメントやBTCとETHの連続的な取引を永続的な取引に変換する可能性についてのニュースは、ソラナの価格に否定的な影響を与える可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-3.03%",
+        "value": "-3.13%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "75% bullish",
+        "value": "74% bullish",
         "url": "https://www.coingecko.com/en/coins/solana"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Zcash miner Fortitude gets Nasdaq listing via HeartSciences merger",
+        "url": "https://cointelegraph.com/news/zcash-miner-fortitude-go-public-heartsciences-merger?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "CBOE weighs converting BTC, ETH continuous futures into perpetual futures: Report",
         "url": "https://cointelegraph.com/news/cboe-bitcoin-ether-perpetual-futures-cftc-kalshi?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Chainlink joins European and Korean bank consortia to develop FX settlement network",
-        "url": "https://cointelegraph.com/news/chainlink-europe-korea-banks-stablecoin-fx-settlement-project-pangea?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

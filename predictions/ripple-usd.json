@@ -1,6 +1,6 @@
 {
   "coinId": "ripple-usd",
-  "generatedAt": "2026-06-23T18:00:07.970518Z",
+  "generatedAt": "2026-06-23T19:00:08.153227Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.0879592666133181,
+    "changePercent24h": -0.09226409733033225,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "Ripple USD is expected to remain flat in the next 24 hours with a confidence level of 95%. The current market sentiment is characterized by extreme fear, as indicated by the Fear & Greed Index of 23. Ripple's price movement is likely to be influenced by the overall crypto market, which is experiencing a decline.",
-    "ja": "Ripple USD は来日24時間で95％の確率でフラットとなる予想されています。Fear & Greed Indexは23で、極度の恐怖が市場の感情を支配しています。Rippleの価格動向は、総合的な暗号資産市場の低迷に影響を受ける可能性があります。",
+    "en": "Ripple USD (RIPPLE-USD) is expected to remain flat in the next 24 hours with a confidence level of 95%. The current market sentiment is extreme fear, with the Fear & Greed Index at 23. The recent news on Chainlink joining a bank consortium to develop an FX settlement network may have a positive impact on the market.",
+    "ja": "Ripple USD (RIPPLE-USD) は、来る24時間で95%の確率でフラットの動きが予想される。Fear & Greed Indexは23で、極度の恐怖の状況である。ChainlinkがFX決済ネットワークを開発するための銀行コンソーシアムに参加したニュースは、市場に肯定的な影響を与える可能性がある。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-3.03%",
+        "value": "-3.13%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "100% bullish",
         "url": "https://www.coingecko.com/en/coins/ripple-usd"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Zcash miner Fortitude gets Nasdaq listing via HeartSciences merger",
+        "url": "https://cointelegraph.com/news/zcash-miner-fortitude-go-public-heartsciences-merger?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "CBOE weighs converting BTC, ETH continuous futures into perpetual futures: Report",
         "url": "https://cointelegraph.com/news/cboe-bitcoin-ether-perpetual-futures-cftc-kalshi?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Chainlink joins European and Korean bank consortia to develop FX settlement network",
-        "url": "https://cointelegraph.com/news/chainlink-europe-korea-banks-stablecoin-fx-settlement-project-pangea?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "coinId": "ondo-us-dollar-yield",
-  "generatedAt": "2026-06-23T18:00:07.970518Z",
+  "generatedAt": "2026-06-23T19:00:08.153227Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.09339210221390623,
-    "confidence": 0.6815
+    "changePercent24h": -0.2010070701171438,
+    "confidence": 0.7528
   },
   "commentary": {
-    "en": "ONDO-US-DOLLAR-YIELD is expected to experience a flat 24-hour direction with a minor decline of -0.1% due to the current market sentiment and technical indicators. The Fear & Greed Index remains in Extreme Fear territory, and the recent news about the CFTC chair's statement on perp trading and CBOE's consideration to convert BTC and ETH futures into perpetual futures may contribute to the market's volatility. The short-term trend and volume ratio indicate a neutral stance.",
-    "ja": "ONDO-US-DOLLAR-YIELD は24時間方向がフラットで-0.1%の小幅な下落が予想される。Fear & Greed Indexはエクストリーム・フィアの状態であり、CFTC会長のパーペントトレーディングに関する発言やCBOEのBTCとETHの連続的フューチャーをパーペントフューチャーに変換する可能性についてのニュースは市場の動向に影響を与える可能性がある。短期のトレンドとボリュームレシオは中立的な立場を示している。",
+    "en": "The model predicts Ondo US Dollar Yield will trade sideways over the next 24 hours with high confidence (71%). Volume is elevated at 1.5× the daily average, amplifying the directional signal. Market sentiment stands at \"Extreme Fear\" (Fear & Greed: 23); the broader crypto market moved -3.1% over the past 24 hours.",
+    "ja": "モデルはOndo US Dollar Yieldが今後24時間で横ばいで推移すると予測しています（信頼度: 高い 71%）。出来高が平均の1.5倍と高水準で、方向性シグナルを強化しています。Fear & Greed指数は「Extreme Fear」（23）で、暗号資産市場全体の24時間変動率は-3.1%です。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,8 +1000,13 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-3.03%",
+        "value": "-3.13%",
         "url": "https://www.coingecko.com/en/global-charts"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Zcash miner Fortitude gets Nasdaq listing via HeartSciences merger",
+        "url": "https://cointelegraph.com/news/zcash-miner-fortitude-go-public-heartsciences-merger?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1012,11 +1017,6 @@
         "label": "CoinTelegraph",
         "value": "CBOE weighs converting BTC, ETH continuous futures into perpetual futures: Report",
         "url": "https://cointelegraph.com/news/cboe-bitcoin-ether-perpetual-futures-cftc-kalshi?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Chainlink joins European and Korean bank consortia to develop FX settlement network",
-        "url": "https://cointelegraph.com/news/chainlink-europe-korea-banks-stablecoin-fx-settlement-project-pangea?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "coinId": "worldcoin-wld",
-  "generatedAt": "2026-06-23T18:00:07.970518Z",
+  "generatedAt": "2026-06-23T19:00:08.153227Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -13.325608753782475,
-    "confidence": 0.9359
+    "changePercent24h": -12.158064242486086,
+    "confidence": 0.9298
   },
   "commentary": {
-    "en": "Worldcoin WLD is predicted to continue its downward trend with a 24h direction of DOWN and a 1.8% drop in value, indicating a high likelihood of further price decline. The RSI-14 is oversold, but the Bollinger Band %B is at its lower band, suggesting a potential bounce. However, the short-term trend and recent market context indicate a bearish sentiment.",
-    "ja": "ワールドコイン WLD の24時間の方向はDOWNで、1.8%の値下げが予想されるため、価格の下落が続く可能性が高い。RSI-14はオーバーサル、ボリンジャーバンド %Bは下限にあり、反発の可能性があるが、短期の傾向と最近の市場状況は悲観的である。",
+    "en": "Worldcoin WLD is predicted to move downward with a 1.8% decline in the next 24 hours, despite being oversold according to the RSI-14 indicator. The recent news about the CFTC chair's comments on perp trading and Chainlink's involvement in a FX settlement network may have a limited impact on WLD's price. The overall market context, including the Fear & Greed Index and the total crypto market cap, suggests a bearish trend.",
+    "ja": "ワールドコインのWLDは、次の24時間に1.8%の下落が予想される。RSI-14指標によると、オーバーサールドであるにもかかわらず、WLDの価格は下落する可能性が高い。CFTC会長のパーペット取引に関するコメントやChainlinkのFX決済ネットワークへの関与など、最近のニュースはWLDの価格に限りなく影響を与える可能性は低い。総合的な市場状況、Fear & Greed Indexや総コインマーケットキャップなどは、下落の傾向がある。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-3.03%",
+        "value": "-3.13%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "83% bullish",
+        "value": "85% bullish",
         "url": "https://www.coingecko.com/en/coins/worldcoin-wld"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Zcash miner Fortitude gets Nasdaq listing via HeartSciences merger",
+        "url": "https://cointelegraph.com/news/zcash-miner-fortitude-go-public-heartsciences-merger?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "CBOE weighs converting BTC, ETH continuous futures into perpetual futures: Report",
         "url": "https://cointelegraph.com/news/cboe-bitcoin-ether-perpetual-futures-cftc-kalshi?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Chainlink joins European and Korean bank consortia to develop FX settlement network",
-        "url": "https://cointelegraph.com/news/chainlink-europe-korea-banks-stablecoin-fx-settlement-project-pangea?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

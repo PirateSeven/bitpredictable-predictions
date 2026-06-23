@@ -1,6 +1,6 @@
 {
   "coinId": "uniswap",
-  "generatedAt": "2026-06-23T18:00:07.970518Z",
+  "generatedAt": "2026-06-23T19:00:08.153227Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -2.5596670952758,
-    "confidence": 0.8413
+    "changePercent24h": -1.955916693689765,
+    "confidence": 0.7979
   },
   "commentary": {
-    "en": "Uniswap's predicted 24h direction is DOWN with a confidence of 45%, following the downtrend in the short-term trend and the recent decline in the total crypto market cap and BTC return. The Fear & Greed Index remains in Extreme Fear territory, which may contribute to the bearish sentiment. The recent news on perp trading and CBOE's consideration of converting BTC and ETH futures may also impact the market.",
-    "ja": "ユニスワップの24時間予想方向は下落で、信頼度は45％。短期傾向と総暗号資産市場キャップ、BTCのリターンが下落していることから、下落が続く可能性が高い。恐怖と欲求不満指数は極度の恐怖の状態であり、近日発表されたパーペチュアルトレーディングやCBOEのBTC、ETHの連続的フューチャーの変換に関するニュースも市場に影響を与える可能性がある。",
+    "en": "Uniswap's predicted 24h direction is DOWN with a -0.6% confidence. The recent market downturn, coupled with the Fear & Greed Index at Extreme Fear, suggests a bearish sentiment. The short-term trend and 24h actual return also indicate a downtrend.",
+    "ja": "Uniswapの24時間予想は下落で、-0.6%の信頼性を持っています。最近の市場の下落、Fear & Greed Indexが極度の恐怖にあり、短期のトレンドと24時間の実際の戻りも下落を示しています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-3.03%",
+        "value": "-3.13%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "56% bullish",
         "url": "https://www.coingecko.com/en/coins/uniswap"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Zcash miner Fortitude gets Nasdaq listing via HeartSciences merger",
+        "url": "https://cointelegraph.com/news/zcash-miner-fortitude-go-public-heartsciences-merger?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "CBOE weighs converting BTC, ETH continuous futures into perpetual futures: Report",
         "url": "https://cointelegraph.com/news/cboe-bitcoin-ether-perpetual-futures-cftc-kalshi?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Chainlink joins European and Korean bank consortia to develop FX settlement network",
-        "url": "https://cointelegraph.com/news/chainlink-europe-korea-banks-stablecoin-fx-settlement-project-pangea?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

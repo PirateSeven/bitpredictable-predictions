@@ -1,6 +1,6 @@
 {
   "coinId": "avalanche-2",
-  "generatedAt": "2026-06-23T18:00:07.970518Z",
+  "generatedAt": "2026-06-23T19:00:08.153227Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": 2.612057851480926,
-    "confidence": 0.8714
+    "changePercent24h": 3.6410055771981424,
+    "confidence": 0.9054
   },
   "commentary": {
-    "en": "Avalanche is expected to decline by 1.4% in the next 24 hours based on technical signals, with a confidence level of 78%. The Fear & Greed Index is at 23, indicating extreme fear in the market. The recent news about CFTC and CBOE may have a mixed impact on the cryptocurrency market.",
-    "ja": "アバランチ2は、技術指標に基づいて次の24時間で1.4%下落する可能性があり、信頼度は78%です。恐怖と欲求不満指数は23で、市場は極度の恐怖に陥っています。CFTCとCBOEの最近のニュースは、cryptocurrency市場に混乱をもたらす可能性があります。",
+    "en": "Avalanche is expected to decline by 1.4% in the next 24 hours with a confidence level of 78%. The current market sentiment is extreme fear, with the Fear & Greed Index at 23. The recent news on Zcash and Chainlink may have a limited impact on Avalanche's price movement.",
+    "ja": "アバランチ2は、次の24時間で1.4%の下落が予想され、信頼度は78%です。現在の市場感情は極度の恐怖で、Fear & Greed Indexは23です。ザキャッシュとチェーンリンクに関する最近のニュースは、アバランチ2の価格動向に限りなく影響を与える可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-3.03%",
+        "value": "-3.13%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "74% bullish",
+        "value": "77% bullish",
         "url": "https://www.coingecko.com/en/coins/avalanche-2"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Zcash miner Fortitude gets Nasdaq listing via HeartSciences merger",
+        "url": "https://cointelegraph.com/news/zcash-miner-fortitude-go-public-heartsciences-merger?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "CBOE weighs converting BTC, ETH continuous futures into perpetual futures: Report",
         "url": "https://cointelegraph.com/news/cboe-bitcoin-ether-perpetual-futures-cftc-kalshi?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Chainlink joins European and Korean bank consortia to develop FX settlement network",
-        "url": "https://cointelegraph.com/news/chainlink-europe-korea-banks-stablecoin-fx-settlement-project-pangea?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "coinId": "pax-gold",
-  "generatedAt": "2026-06-23T18:00:07.970518Z",
+  "generatedAt": "2026-06-23T19:00:08.153227Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 1.2884949395898428,
-    "confidence": 0.9068
+    "changePercent24h": 1.8650086905556145,
+    "confidence": 0.9322
   },
   "commentary": {
-    "en": "PAX Gold (PAX-GOLD) is expected to remain flat with a 0.2% decline, based on technical signals. The Fear & Greed Index is at extreme fear, which may impact investor sentiment. Recent news on CFTC chair's comments and Bitcoin's price action may influence the market.",
-    "ja": "PAX Gold (PAX-GOLD) は、技術指標から見て、0.2% の下落が予想される。Fear & Greed Index は極度の恐怖にあり、投資家の意識に影響を与える可能性がある。CFTC の委員長の発言やビットコインの価格動向など、最近のニュースは市場に影響を与える可能性がある。",
+    "en": "The model predicts PAX Gold will trade sideways over the next 24 hours with moderate confidence (67%). Price moved -1.27% in the past 24 hours with volume at 1.3× average. Community sentiment on CoinGecko is 100% bullish and the Fear & Greed Index reads \"Extreme Fear\" (23), diverging from the model's forecast, adding uncertainty.",
+    "ja": "モデルはPAX Goldが今後24時間で横ばいで推移すると予測しています（信頼度: 中程度の 67%）。過去24時間のリターンは-1.27%、出来高は平均の1.3倍です。CoinGeckoコミュニティでは100%が強気を示し、Fear & Greed指数は「Extreme Fear」（23）です。予測方向と乖離があり、不確実性が高まっています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-3.03%",
+        "value": "-3.13%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "100% bullish",
         "url": "https://www.coingecko.com/en/coins/pax-gold"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Zcash miner Fortitude gets Nasdaq listing via HeartSciences merger",
+        "url": "https://cointelegraph.com/news/zcash-miner-fortitude-go-public-heartsciences-merger?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "CBOE weighs converting BTC, ETH continuous futures into perpetual futures: Report",
         "url": "https://cointelegraph.com/news/cboe-bitcoin-ether-perpetual-futures-cftc-kalshi?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Chainlink joins European and Korean bank consortia to develop FX settlement network",
-        "url": "https://cointelegraph.com/news/chainlink-europe-korea-banks-stablecoin-fx-settlement-project-pangea?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

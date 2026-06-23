@@ -1,6 +1,6 @@
 {
   "coinId": "usd-coin",
-  "generatedAt": "2026-06-23T18:00:07.970518Z",
+  "generatedAt": "2026-06-23T19:00:08.153227Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -970,8 +970,8 @@
     "confidence": 0.95
   },
   "commentary": {
-    "en": "USD Coin (USD-COIN) is expected to remain flat in the next 24 hours with a 0.0% return, based on technical signals and market context. The Fear & Greed Index is at Extreme Fear, and the total crypto market cap has declined by 3.03% in the last 24 hours. Recent news has focused on regulatory developments and market volatility.",
-    "ja": "USD コイン (USD-COIN) は、次の 24 時間で 0.0% のリターンでフラットに推定されます。恐怖と欲求不満指数は極度の恐怖にあり、総暗号資産市場キャップは過去 24 時間で 3.03% 下がっています。最近のニュースは規制開発と市場ボラティリティに焦点を当てています。",
+    "en": "USD Coin (USD-COIN) is expected to remain flat in the short term due to neutral technical signals and a market context dominated by extreme fear. The recent news of various developments in the crypto market, including the CFTC chair's comments on perp trading and Chainlink's partnership with European and Korean banks, may have a limited impact on USD-COIN's price. Overall, the current market conditions suggest a cautious approach to investing in USD-COIN.",
+    "ja": "USDコイン（USD-COIN）は短期的には中立的な技術指標と極度の恐怖が支配する市場状況のため、平坦な動向が予想されます。Crypto市場におけるさまざまな開発のニュース、CFTC会長のパーペット取引に関するコメント、Chainlinkがヨーロッパと韓国の銀行との提携など、USD-COINの価格に限りなく影響を与える可能性があります。現在の市場状況は、USD-COINへの投資に対する慎重なアプローチを示唆しています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-3.03%",
+        "value": "-3.13%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "0% bullish",
         "url": "https://www.coingecko.com/en/coins/usd-coin"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Zcash miner Fortitude gets Nasdaq listing via HeartSciences merger",
+        "url": "https://cointelegraph.com/news/zcash-miner-fortitude-go-public-heartsciences-merger?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "CBOE weighs converting BTC, ETH continuous futures into perpetual futures: Report",
         "url": "https://cointelegraph.com/news/cboe-bitcoin-ether-perpetual-futures-cftc-kalshi?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Chainlink joins European and Korean bank consortia to develop FX settlement network",
-        "url": "https://cointelegraph.com/news/chainlink-europe-korea-banks-stablecoin-fx-settlement-project-pangea?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }
