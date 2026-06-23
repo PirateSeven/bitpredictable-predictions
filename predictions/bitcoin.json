@@ -1,6 +1,6 @@
 {
   "coinId": "bitcoin",
-  "generatedAt": "2026-06-23T16:00:08.058168Z",
+  "generatedAt": "2026-06-23T17:00:08.483270Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -2.138375813248731,
-    "confidence": 0.893
+    "changePercent24h": -1.6417055808736825,
+    "confidence": 0.8649
   },
   "commentary": {
-    "en": "Bitcoin's short-term trend remains in a downtrend, with a 24-hour return of -4.71% and a Fear & Greed Index of 23, indicating extreme fear in the market. The recent news of Chainlink's FX settlement network development and the impact of SpaceX's rout on Bitcoin's price may continue to influence market sentiment. With a predicted 24h direction of FLAT, -0.4%, Bitcoin's price may experience a slight stabilization but is likely to remain volatile.",
-    "ja": "ビットコインの短期トレンドは下降線にあり、24時間の戻りは-4.71%、恐怖と欲求不満指数は23で極度の恐怖を示しています。チェーンリンクのFX決済ネットワーク開発とスペースエクスプロレーションの影響が価格に与える影響は今後も市場の意見を左右する可能性があります。予想される24時間の方向はFLAT、-0.4%で、価格は一時的に安定する可能性がありますが、不安定な状況が続く可能性があります。",
+    "en": "Bitcoin is expected to remain flat with a slight decline of -0.4% in the next 24 hours, based on technical analysis. The Fear & Greed Index remains in extreme fear territory, and the recent news on CFTC chair's comments and potential changes to BTC futures may influence market sentiment. However, the short-term trend remains in a downtrend.",
+    "ja": "ビットコインは、技術分析に基づいて次の24時間に-0.4%の小さな下落を維持する可能性があります。恐怖と欲求不満指数は極度の恐怖の状態にあり、CFTC会長の発言やBTCの期次取引の変更についてのニュースが市場の感情に影響を与える可能性があります。短期のトレンドは下降トレンドにあります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-3.61%",
+        "value": "-3.00%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
@@ -1010,18 +1010,18 @@
       },
       {
         "label": "CoinTelegraph",
+        "value": "CFTC chair says perp trading not suitable for all assets it regulates",
+        "url": "https://cointelegraph.com/news/cftc-regulating-agricultural-markets-crypto-prediction-markets-push?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "CBOE weighs converting BTC, ETH continuous futures into perpetual futures: Report",
+        "url": "https://cointelegraph.com/news/cboe-bitcoin-ether-perpetual-futures-cftc-kalshi?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
         "value": "Chainlink joins European and Korean bank consortia to develop FX settlement network",
         "url": "https://cointelegraph.com/news/chainlink-europe-korea-banks-stablecoin-fx-settlement-project-pangea?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Bitcoin teases $62K breakdown as analysis sees Micron earnings volatility next",
-        "url": "https://cointelegraph.com/markets/bitcoin-teases-62k-breakdown-as-analysis-sees-micron-earnings-volatility-next?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Bitcoin slump worsens amid SpaceX rout: Can BTC price hold $60K any longer?",
-        "url": "https://cointelegraph.com/markets/bitcoin-slump-worsens-amid-spacex-rout-can-btc-price-hold-60k-any-longer?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "coinId": "ondo-us-dollar-yield",
-  "generatedAt": "2026-06-23T16:00:08.058168Z",
+  "generatedAt": "2026-06-23T17:00:08.483270Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.44270572509954476,
-    "confidence": 0.8536
+    "changePercent24h": -0.5945939617121098,
+    "confidence": 0.8799
   },
   "commentary": {
-    "en": "Ondo US Dollar Yield is expected to remain flat with a slight decline of 0.1% in the next 24 hours, driven by the overall bearish sentiment in the crypto market. The Fear & Greed Index is at 23, indicating extreme fear, and the total crypto market cap has declined by 3.61% in the last 24 hours. The recent news of Chainlink joining a FX settlement network and the slump in Bitcoin price may contribute to the bearish trend.",
-    "ja": "ONDO-US-DOLLAR-YIELDは、次の24時間に0.1%の小幅な下落が予想され、暗黒の市場情勢に導かれる。恐怖と欲求不満指数は23、過去24時間で総暗黒市場キャップは3.61%減少した。ChainlinkがFX決済ネットワークに参加したニュースやビットコインの下落など、最近のニュースが暗黒の傾向に貢献する可能性がある。",
+    "en": "Ondo US Dollar Yield is expected to remain flat with a -0.1% change in the next 24 hours, with a confidence level of 71%. The short-term trend is sideways, and the Fear & Greed Index is at an extreme fear level. The recent news about CFTC chair's statement on perp trading and CBOE's consideration to convert BTC and ETH futures into perpetual futures may have a limited impact on ONDO-US-DOLLAR-YIELD.",
+    "ja": "ONDO-US-DOLLAR-YIELDは次の24時間で-0.1%の変動を予想し、信頼度は71%です。短期の傾向は横方向にあり、恐怖と欲求の指数は極度の恐怖のレベルです。CFTC会長のパーシャス・トラウトマン氏の声明やCBOEのBTCおよびETHの連続的フューチャーを永続的フューチャーに変換する可能性についてのニュースは、ONDO-US-DOLLAR-YIELDに限りなく影響を与える可能性は低いです。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,23 +1000,23 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-3.61%",
+        "value": "-3.00%",
         "url": "https://www.coingecko.com/en/global-charts"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "CFTC chair says perp trading not suitable for all assets it regulates",
+        "url": "https://cointelegraph.com/news/cftc-regulating-agricultural-markets-crypto-prediction-markets-push?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "CBOE weighs converting BTC, ETH continuous futures into perpetual futures: Report",
+        "url": "https://cointelegraph.com/news/cboe-bitcoin-ether-perpetual-futures-cftc-kalshi?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
         "value": "Chainlink joins European and Korean bank consortia to develop FX settlement network",
         "url": "https://cointelegraph.com/news/chainlink-europe-korea-banks-stablecoin-fx-settlement-project-pangea?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Bitcoin teases $62K breakdown as analysis sees Micron earnings volatility next",
-        "url": "https://cointelegraph.com/markets/bitcoin-teases-62k-breakdown-as-analysis-sees-micron-earnings-volatility-next?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Bitcoin slump worsens amid SpaceX rout: Can BTC price hold $60K any longer?",
-        "url": "https://cointelegraph.com/markets/bitcoin-slump-worsens-amid-spacex-rout-can-btc-price-hold-60k-any-longer?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

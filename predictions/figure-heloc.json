@@ -1,6 +1,6 @@
 {
   "coinId": "figure-heloc",
-  "generatedAt": "2026-06-23T16:00:08.058168Z",
+  "generatedAt": "2026-06-23T17:00:08.483270Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.4908060505672891,
+    "changePercent24h": -0.5602264373668607,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "Figure Heloc (FIGURE-HELOC) is predicted to be flat with a 95% confidence level, as its RSI-14 is neutral and Bollinger Band %B is at the mid band. The recent news about Chainlink's FX settlement network development and Bitcoin's price volatility may have a limited impact on FIGURE-HELOC's price. The overall crypto market is in an extreme fear state, which may not significantly influence FIGURE-HELOC's short-term trend.",
-    "ja": "Figure Heloc (FIGURE-HELOC) の24時間予想は95%の確率でフラットと予想されます。RSI-14は中立的で、ボリンジャー バンド %Bは中間帯にあります。ChainlinkのFX決済ネットワーク開発やビットコインの価格不確実性などの最近のニュースは、FIGURE-HELOCの価格に限りなく影響を与える可能性は低いです。総合的な暗号通貨市場は極度の恐怖状態にあり、FIGURE-HELOCの短期的な傾向には影響を与えない可能性があります。",
+    "en": "FIGURE-HELOC is expected to remain flat in the next 24 hours with a confidence level of 95%. The current market context, including the Fear & Greed Index at 23 and a total crypto market cap 24h change of -3.00%, suggests a cautious outlook. The recent news on CFTC chair's comments on perp trading and CBOE's consideration to convert BTC and ETH futures into perpetual futures may have a neutral impact on FIGURE-HELOC.",
+    "ja": "FIGURE-HELOC は、来る24時間で95%の確率でフラットの動きを示す可能性があります。Fear & Greed Indexが23、総暗号資産市場キャップ24時間変化が-3.00%という市場状況は、慎重な姿勢を示しています。CFTC委員長によるパーフェクトトレーディングに関するコメントやCBOEによるBTCとETHの連続的フューチャーをパーフェクトフューチャーに変換する可能性についてのニュースは、FIGURE-HELOCに中立的な影響を与える可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-3.61%",
+        "value": "-3.00%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
@@ -1010,18 +1010,18 @@
       },
       {
         "label": "CoinTelegraph",
+        "value": "CFTC chair says perp trading not suitable for all assets it regulates",
+        "url": "https://cointelegraph.com/news/cftc-regulating-agricultural-markets-crypto-prediction-markets-push?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "CBOE weighs converting BTC, ETH continuous futures into perpetual futures: Report",
+        "url": "https://cointelegraph.com/news/cboe-bitcoin-ether-perpetual-futures-cftc-kalshi?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
         "value": "Chainlink joins European and Korean bank consortia to develop FX settlement network",
         "url": "https://cointelegraph.com/news/chainlink-europe-korea-banks-stablecoin-fx-settlement-project-pangea?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Bitcoin teases $62K breakdown as analysis sees Micron earnings volatility next",
-        "url": "https://cointelegraph.com/markets/bitcoin-teases-62k-breakdown-as-analysis-sees-micron-earnings-volatility-next?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Bitcoin slump worsens amid SpaceX rout: Can BTC price hold $60K any longer?",
-        "url": "https://cointelegraph.com/markets/bitcoin-slump-worsens-amid-spacex-rout-can-btc-price-hold-60k-any-longer?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

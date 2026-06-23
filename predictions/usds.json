@@ -1,6 +1,6 @@
 {
   "coinId": "usds",
-  "generatedAt": "2026-06-23T16:00:08.058168Z",
+  "generatedAt": "2026-06-23T17:00:08.483270Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -970,8 +970,8 @@
     "confidence": 0.95
   },
   "commentary": {
-    "en": "USDS is expected to remain flat with a 95% confidence level, as the RSI-14 is at a neutral level and the Bollinger Band %B is at the lower band. The recent news of Chainlink joining a FX settlement network and the Bitcoin price fluctuations due to Micron earnings volatility may have a neutral impact on USDS. The Fear & Greed Index is at an extreme fear level, which may also contribute to the flat direction.",
-    "ja": "USDSは95％の確実性で、平坦の方向性を予想する。RSI-14は中立的なレベルにあり、ボリンジャー・バンドの%Bは下方にあります。ChainlinkがFX決済ネットワークに参加し、Micronの収益性の変動によるビットコイン価格の変動などの最近のニュースは、USDSに中立的な影響を与える可能性があります。恐怖と欲求不満指数は極度の恐怖のレベルにあり、これも平坦の方向性に寄与する可能性があります。",
+    "en": "USDS is expected to remain flat with a 95% confidence level, as the RSI-14 is neutral and the short-term trend is sideways. The Fear & Greed Index is at extreme fear, and the total crypto market cap has declined by 3%. The recent news on CFTC and CBOE may have a limited impact on USDS.",
+    "ja": "USDSは95％の確実性で、フラットの予想となります。RSI-14は中立的であり、短期トレンドは横方向に動いています。Fear & Greed Indexは極度の恐怖にあり、総暗号資産マーケットキャップは3％減少しています。CFTCとCBOEの最近のニュースはUSDSに限りなく影響を与える可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,23 +1000,23 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-3.61%",
+        "value": "-3.00%",
         "url": "https://www.coingecko.com/en/global-charts"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "CFTC chair says perp trading not suitable for all assets it regulates",
+        "url": "https://cointelegraph.com/news/cftc-regulating-agricultural-markets-crypto-prediction-markets-push?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "CBOE weighs converting BTC, ETH continuous futures into perpetual futures: Report",
+        "url": "https://cointelegraph.com/news/cboe-bitcoin-ether-perpetual-futures-cftc-kalshi?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
         "value": "Chainlink joins European and Korean bank consortia to develop FX settlement network",
         "url": "https://cointelegraph.com/news/chainlink-europe-korea-banks-stablecoin-fx-settlement-project-pangea?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Bitcoin teases $62K breakdown as analysis sees Micron earnings volatility next",
-        "url": "https://cointelegraph.com/markets/bitcoin-teases-62k-breakdown-as-analysis-sees-micron-earnings-volatility-next?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Bitcoin slump worsens amid SpaceX rout: Can BTC price hold $60K any longer?",
-        "url": "https://cointelegraph.com/markets/bitcoin-slump-worsens-amid-spacex-rout-can-btc-price-hold-60k-any-longer?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

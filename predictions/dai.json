@@ -1,6 +1,6 @@
 {
   "coinId": "dai",
-  "generatedAt": "2026-06-23T16:00:08.058168Z",
+  "generatedAt": "2026-06-23T17:00:08.483270Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 0.047155071687187494,
+    "changePercent24h": 0.05100961665047156,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "Dai (DAI) is expected to remain flat in the next 24 hours with a predicted return of -0.0%. The current market context, including the Fear & Greed Index and total crypto market cap, suggests a cautious outlook. The recent news of Chainlink joining a bank consortium may have a positive impact on DAI's price.",
-    "ja": "Dai（DAI）は、次の24時間で-0.0％の予想リターンでフラットに維持される可能性があります。Fear & Greed Indexや総暗号資産市場キャップなどの現在の市場状況は、慎重な展開を示しています。Chainlinkが銀行コンソーシアムに参加したニュースは、DAIの価格に肯定的な影響を与える可能性があります。",
+    "en": "Dai (DAI) is expected to remain flat in the next 24 hours with a confidence level of 95%. The current market conditions, including the Fear & Greed Index at Extreme Fear and the total crypto market cap 24h change of -3.00%, suggest a cautious outlook. The recent news on CFTC chair's comments on perp trading and CBOE's potential conversion of futures contracts may have a limited impact on DAI's price.",
+    "ja": "DAI (DAI) は、来る24時間で95％の確信度でフラットのままになることが予想されます。Fear & Greed Indexがエクストリーム・フィアと、総暗号資産マーケットキャップ24時間変化が-3.00%である現在の市場状況は、慎重な姿勢を示しています。CFTC委員長によるパーペチュアル・トレーディングに関するコメントやCBOEによる取引契約の変換に関する可能性についてのニュースは、DAIの価格に限られた影響を与える可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-3.61%",
+        "value": "-3.00%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
@@ -1010,18 +1010,18 @@
       },
       {
         "label": "CoinTelegraph",
+        "value": "CFTC chair says perp trading not suitable for all assets it regulates",
+        "url": "https://cointelegraph.com/news/cftc-regulating-agricultural-markets-crypto-prediction-markets-push?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "CBOE weighs converting BTC, ETH continuous futures into perpetual futures: Report",
+        "url": "https://cointelegraph.com/news/cboe-bitcoin-ether-perpetual-futures-cftc-kalshi?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
         "value": "Chainlink joins European and Korean bank consortia to develop FX settlement network",
         "url": "https://cointelegraph.com/news/chainlink-europe-korea-banks-stablecoin-fx-settlement-project-pangea?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Bitcoin teases $62K breakdown as analysis sees Micron earnings volatility next",
-        "url": "https://cointelegraph.com/markets/bitcoin-teases-62k-breakdown-as-analysis-sees-micron-earnings-volatility-next?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Bitcoin slump worsens amid SpaceX rout: Can BTC price hold $60K any longer?",
-        "url": "https://cointelegraph.com/markets/bitcoin-slump-worsens-amid-spacex-rout-can-btc-price-hold-60k-any-longer?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

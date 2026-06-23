@@ -1,6 +1,6 @@
 {
   "coinId": "stellar",
-  "generatedAt": "2026-06-23T16:00:08.058168Z",
+  "generatedAt": "2026-06-23T17:00:08.483270Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -0.9454488737676545,
-    "confidence": 0.5704
+    "changePercent24h": 0.3884530810351019,
+    "confidence": 0.1955
   },
   "commentary": {
-    "en": "Stellar is predicted to move down by 1.4% in the next 24 hours with a confidence level of 67%. The current market context, including the Fear & Greed Index at 23 and the total crypto market cap 24h change of -3.61%, suggests a bearish trend. The recent news about Chainlink and SpaceX may have a limited impact on Stellar's price.",
-    "ja": "ステララーは、次の24時間に1.4%下落する予想があり、信頼度は67%です。現在の市場状況、恐怖と欲求不満指数が23、総暗号資産市場キャップ24時間変化が-3.61%であることを考えると、下落の傾向が見られます。Chainlinkとスペースエックスの最近のニュースは、ステララーの価格に限りなく影響を与える可能性があります。",
+    "en": "Stellar is predicted to move down by 1.4% in the next 24 hours with a confidence level of 67%. The recent news about the CFTC chair's comments on perp trading and the potential conversion of BTC and ETH futures may have a negative impact on the market. The Fear & Greed Index is at 23, indicating extreme fear among investors.",
+    "ja": "ステララーは、次の24時間で1.4%下落する予想であり、信頼度は67%です。CFTC会長によるペルペトゥアル取引に関する発言やBTCおよびETHの取引の永久取引への変換に関するニュースは市場に否定的な影響を与える可能性があります。恐怖と欲求不満指数は23で、投資家の恐怖が極度に高まっていることを示しています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,28 +1000,28 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-3.61%",
+        "value": "-3.00%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "44% bullish",
+        "value": "49% bullish",
         "url": "https://www.coingecko.com/en/coins/stellar"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "CFTC chair says perp trading not suitable for all assets it regulates",
+        "url": "https://cointelegraph.com/news/cftc-regulating-agricultural-markets-crypto-prediction-markets-push?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "CBOE weighs converting BTC, ETH continuous futures into perpetual futures: Report",
+        "url": "https://cointelegraph.com/news/cboe-bitcoin-ether-perpetual-futures-cftc-kalshi?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
         "value": "Chainlink joins European and Korean bank consortia to develop FX settlement network",
         "url": "https://cointelegraph.com/news/chainlink-europe-korea-banks-stablecoin-fx-settlement-project-pangea?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Bitcoin teases $62K breakdown as analysis sees Micron earnings volatility next",
-        "url": "https://cointelegraph.com/markets/bitcoin-teases-62k-breakdown-as-analysis-sees-micron-earnings-volatility-next?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Bitcoin slump worsens amid SpaceX rout: Can BTC price hold $60K any longer?",
-        "url": "https://cointelegraph.com/markets/bitcoin-slump-worsens-amid-spacex-rout-can-btc-price-hold-60k-any-longer?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

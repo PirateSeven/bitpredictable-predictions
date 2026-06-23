@@ -1,6 +1,6 @@
 {
   "coinId": "paypal-usd",
-  "generatedAt": "2026-06-23T16:00:08.058168Z",
+  "generatedAt": "2026-06-23T17:00:08.483270Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 0.04741096840184662,
+    "changePercent24h": 0.05133035519097008,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "PayPal USD is expected to remain flat with a 0.0% 24-hour direction, based on technical signals. The Fear & Greed Index at 23 indicates extreme fear in the market, which may impact PayPal's price. The recent news about Chainlink and Bitcoin's performance may also influence PayPal's movement.",
-    "ja": "PayPal USD は、技術的シグナルに基づいて 24 時間で 0.0% の動きを予想しており、恐怖と欲求不満指数が 23 であることから、市場の恐怖感が価格に影響を与える可能性があります。Chainlink とビットコインの最近のニュースも PayPal の動向に影響を与える可能性があります。",
+    "en": "Paypal USD is expected to remain flat with a 24-hour return of -0.0% due to neutral technical signals and a sideways short-term trend. The Fear & Greed Index at 23 indicates extreme fear in the market, which may impact investor sentiment. Recent news on CFTC and CBOE developments may have a limited impact on PAYPAL-USD.",
+    "ja": "Paypal USD は 24 時間で -0.0% のリターンで安定する可能性があり、技術的シグナルは中立的であり、短期の傾向は横方向に動いている。Fear & Greed Index が 23 の場合、市場には極度の恐怖が存在し、これが投資家の意識に影響を与える可能性がある。CFTC と CBOE のニュースは PAYPAL-USD に及ぼす影響は限られている。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-3.61%",
+        "value": "-3.00%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
@@ -1010,18 +1010,18 @@
       },
       {
         "label": "CoinTelegraph",
+        "value": "CFTC chair says perp trading not suitable for all assets it regulates",
+        "url": "https://cointelegraph.com/news/cftc-regulating-agricultural-markets-crypto-prediction-markets-push?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "CBOE weighs converting BTC, ETH continuous futures into perpetual futures: Report",
+        "url": "https://cointelegraph.com/news/cboe-bitcoin-ether-perpetual-futures-cftc-kalshi?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
         "value": "Chainlink joins European and Korean bank consortia to develop FX settlement network",
         "url": "https://cointelegraph.com/news/chainlink-europe-korea-banks-stablecoin-fx-settlement-project-pangea?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Bitcoin teases $62K breakdown as analysis sees Micron earnings volatility next",
-        "url": "https://cointelegraph.com/markets/bitcoin-teases-62k-breakdown-as-analysis-sees-micron-earnings-volatility-next?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Bitcoin slump worsens amid SpaceX rout: Can BTC price hold $60K any longer?",
-        "url": "https://cointelegraph.com/markets/bitcoin-slump-worsens-amid-spacex-rout-can-btc-price-hold-60k-any-longer?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

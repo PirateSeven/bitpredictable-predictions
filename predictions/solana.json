@@ -1,6 +1,6 @@
 {
   "coinId": "solana",
-  "generatedAt": "2026-06-23T16:00:08.058168Z",
+  "generatedAt": "2026-06-23T17:00:08.483270Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -2.9179524477433585,
-    "confidence": 0.8645
+    "changePercent24h": -2.229273632442142,
+    "confidence": 0.8268
   },
   "commentary": {
-    "en": "Solana's price is expected to decline by 0.7% in the next 24 hours, with a confidence level of 52%. This prediction is based on neutral RSI-14 and mid-band Bollinger Band %B, as well as a downtrend in the short-term trend. The Fear & Greed Index remains in Extreme Fear territory.",
-    "ja": "ソラナの価格は、次の24時間で0.7%下落する可能性があり、信頼度は52%です。これは、RSI-14が中立的で、ボリンジャー・バンドの%バンドが中間帯にあり、短期的な傾向が下降傾向にあることによる予測です。恐怖と欲求不満指数は、極度の恐怖の状態にあります。",
+    "en": "Solana's 24-hour direction is predicted to be down with a 52% confidence level, following a 5.98% return. The Fear & Greed Index remains at 23, indicating extreme fear in the market. The recent news surrounding CFTC chair's comments and CBOE's potential conversion of futures may impact Solana's price.",
+    "ja": "ソラナの24時間予測は下落にあり、52%の確率で-0.7%の変化が予想される。恐怖と欲求の指数は23、極度の恐怖を示している。CFTC委員長の発言やCBOEのFuturesの変換に関するニュースはソラナの価格に影響を与える可能性がある。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-3.61%",
+        "value": "-3.00%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
@@ -1010,18 +1010,18 @@
       },
       {
         "label": "CoinTelegraph",
+        "value": "CFTC chair says perp trading not suitable for all assets it regulates",
+        "url": "https://cointelegraph.com/news/cftc-regulating-agricultural-markets-crypto-prediction-markets-push?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "CBOE weighs converting BTC, ETH continuous futures into perpetual futures: Report",
+        "url": "https://cointelegraph.com/news/cboe-bitcoin-ether-perpetual-futures-cftc-kalshi?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
         "value": "Chainlink joins European and Korean bank consortia to develop FX settlement network",
         "url": "https://cointelegraph.com/news/chainlink-europe-korea-banks-stablecoin-fx-settlement-project-pangea?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Bitcoin teases $62K breakdown as analysis sees Micron earnings volatility next",
-        "url": "https://cointelegraph.com/markets/bitcoin-teases-62k-breakdown-as-analysis-sees-micron-earnings-volatility-next?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Bitcoin slump worsens amid SpaceX rout: Can BTC price hold $60K any longer?",
-        "url": "https://cointelegraph.com/markets/bitcoin-slump-worsens-amid-spacex-rout-can-btc-price-hold-60k-any-longer?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

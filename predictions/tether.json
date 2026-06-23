@@ -1,6 +1,6 @@
 {
   "coinId": "tether",
-  "generatedAt": "2026-06-23T16:00:08.058168Z",
+  "generatedAt": "2026-06-23T17:00:08.483270Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 0.02601961453321749,
+    "changePercent24h": 0.03057901524715877,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "Tether's flat 24-hour direction indicates a stable price, supported by neutral RSI-14 and mid-band Bollinger Band %B. The Fear & Greed Index at 23 suggests extreme fear in the market, which may not directly impact Tether's price. However, the overall market context, including a 3.61% decline in the total crypto market cap, may influence Tether's performance.",
-    "ja": "テザーの24時間の方向は平穏で、RSI-14が中立的、ボリンジャーバンドの%Bも中間帯にある。恐怖と欲求不満の指数が23で、極度の恐怖を示しているが、テザーの価格に直接影響する可能性は低い。総暗号資産市場キャップが3.61%減少したことなど、総合的な市場状況はテザーのパフォーマンスに影響する可能性がある。",
+    "en": "Tether (TETHER) is expected to remain flat in the next 24 hours with a 0.0% return, reflecting the current market sentiment. The Fear & Greed Index at 23 indicates extreme fear, while the RSI-14 at 47 suggests a neutral position. The recent news on CFTC chair's comments and CBOE's consideration of perpetual futures may have a limited impact on Tether's price.",
+    "ja": "Tether (TETHER)は、来る24時間で0.0％の戻りを示す可能性があり、現在の市場感情を反映している。Fear & Greed Indexは23、RSI-14は47を示し、中立的な位置を示している。CFTC会長のコメントやCBOEの永久的なフューチャーの検討に関するニュースは、Tetherの価格に限られた影響を与える可能性がある。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-3.61%",
+        "value": "-3.00%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
@@ -1010,18 +1010,18 @@
       },
       {
         "label": "CoinTelegraph",
+        "value": "CFTC chair says perp trading not suitable for all assets it regulates",
+        "url": "https://cointelegraph.com/news/cftc-regulating-agricultural-markets-crypto-prediction-markets-push?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "CBOE weighs converting BTC, ETH continuous futures into perpetual futures: Report",
+        "url": "https://cointelegraph.com/news/cboe-bitcoin-ether-perpetual-futures-cftc-kalshi?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
         "value": "Chainlink joins European and Korean bank consortia to develop FX settlement network",
         "url": "https://cointelegraph.com/news/chainlink-europe-korea-banks-stablecoin-fx-settlement-project-pangea?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Bitcoin teases $62K breakdown as analysis sees Micron earnings volatility next",
-        "url": "https://cointelegraph.com/markets/bitcoin-teases-62k-breakdown-as-analysis-sees-micron-earnings-volatility-next?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Bitcoin slump worsens amid SpaceX rout: Can BTC price hold $60K any longer?",
-        "url": "https://cointelegraph.com/markets/bitcoin-slump-worsens-amid-spacex-rout-can-btc-price-hold-60k-any-longer?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

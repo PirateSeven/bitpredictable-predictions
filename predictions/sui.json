@@ -1,6 +1,6 @@
 {
   "coinId": "sui",
-  "generatedAt": "2026-06-23T16:00:08.058168Z",
+  "generatedAt": "2026-06-23T17:00:08.483270Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -1.6844232110793818,
-    "confidence": 0.7701
+    "changePercent24h": -0.6765089412564436,
+    "confidence": 0.52
   },
   "commentary": {
-    "en": "Sui (SUI) is predicted to experience a 24-hour decline of 1.9% with 79% confidence, as the short-term trend remains in a downtrend. The Fear & Greed Index is at 23, indicating extreme fear in the market. SUI's recent performance is in line with the broader crypto market, which saw a 3.61% decline in the total market cap.",
-    "ja": "Sui (SUI) は、24 時間で 1.9% の下落を予測し、79% の確率で、短期傾向は下降傾向にあります。Fear & Greed Index は 23 にあり、市場は極度の恐怖にあります。SUI の最近のパフォーマンスは、総マーケットキャップが 3.61% 下落したブロードな暗号通貨市場と一致しています。",
+    "en": "Sui (SUI) is expected to continue its downtrend with a predicted 24h direction of DOWN, -1.9% (confidence: 79%). The recent market context, including the Fear & Greed Index at 23 (Extreme Fear), suggests a bearish sentiment. The short-term trend and recent news may also contribute to the bearish outlook.",
+    "ja": "Sui (SUI) は、24時間の予想方向がDOWN、-1.9%（信頼度：79％）と予想されています。Fear & Greed Indexが23（極度の恐怖）に達していることや、短期のトレンドや最近のニュースは、悲観的な意見を支持しています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-3.61%",
+        "value": "-3.00%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
@@ -1010,18 +1010,18 @@
       },
       {
         "label": "CoinTelegraph",
+        "value": "CFTC chair says perp trading not suitable for all assets it regulates",
+        "url": "https://cointelegraph.com/news/cftc-regulating-agricultural-markets-crypto-prediction-markets-push?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "CBOE weighs converting BTC, ETH continuous futures into perpetual futures: Report",
+        "url": "https://cointelegraph.com/news/cboe-bitcoin-ether-perpetual-futures-cftc-kalshi?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
         "value": "Chainlink joins European and Korean bank consortia to develop FX settlement network",
         "url": "https://cointelegraph.com/news/chainlink-europe-korea-banks-stablecoin-fx-settlement-project-pangea?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Bitcoin teases $62K breakdown as analysis sees Micron earnings volatility next",
-        "url": "https://cointelegraph.com/markets/bitcoin-teases-62k-breakdown-as-analysis-sees-micron-earnings-volatility-next?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Bitcoin slump worsens amid SpaceX rout: Can BTC price hold $60K any longer?",
-        "url": "https://cointelegraph.com/markets/bitcoin-slump-worsens-amid-spacex-rout-can-btc-price-hold-60k-any-longer?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

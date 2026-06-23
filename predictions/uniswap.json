@@ -1,6 +1,6 @@
 {
   "coinId": "uniswap",
-  "generatedAt": "2026-06-23T16:00:08.058168Z",
+  "generatedAt": "2026-06-23T17:00:08.483270Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -2.546910128882634,
-    "confidence": 0.8432
+    "changePercent24h": -2.2183942336032954,
+    "confidence": 0.8223
   },
   "commentary": {
-    "en": "Uniswap's 24-hour direction is predicted to be flat with a -0.4% change, but the confidence level is relatively low at 32%. The recent downturn in the crypto market, coupled with the Fear & Greed Index at 23, suggests a bearish trend. The short-term trend is also in a downtrend.",
-    "ja": "ユニスワップの24時間の予測は、-0.4%の変化でフラットと予想されていますが、信頼度は32%に低いです。最近の暗号資産市場の下落、Fear & Greed Indexが23であることから、バブル傾向が見られます。短期の傾向も下降傾向にあります。",
+    "en": "Uniswap is expected to remain flat with a 0.4% decline in the next 24 hours, driven by the current downtrend in the short-term trend and the overall bearish sentiment in the market. The Fear & Greed Index at 23 indicates extreme fear, which may lead to a potential rebound in the coming days. The recent news on CFTC chair's statement and CBOE's consideration to convert BTC and ETH futures into perpetual futures may have a mixed impact on the market.",
+    "ja": "ユニスワップは次の24時間で0.4%の下落が予想され、短期のトレンドの下落と市場全体の否定的な感情に推進される。恐怖と欲求不満指数が23に達しているため、来日における反発が起こる可能性がある。CFTC会長の声明とCBOEがBTCとETHのフューチャーを永久的なフューチャーに変換することを検討しているニュースは市場に混乱をもたらす可能性がある。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,28 +1000,28 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-3.61%",
+        "value": "-3.00%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "50% bullish",
+        "value": "56% bullish",
         "url": "https://www.coingecko.com/en/coins/uniswap"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "CFTC chair says perp trading not suitable for all assets it regulates",
+        "url": "https://cointelegraph.com/news/cftc-regulating-agricultural-markets-crypto-prediction-markets-push?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "CBOE weighs converting BTC, ETH continuous futures into perpetual futures: Report",
+        "url": "https://cointelegraph.com/news/cboe-bitcoin-ether-perpetual-futures-cftc-kalshi?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
         "value": "Chainlink joins European and Korean bank consortia to develop FX settlement network",
         "url": "https://cointelegraph.com/news/chainlink-europe-korea-banks-stablecoin-fx-settlement-project-pangea?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Bitcoin teases $62K breakdown as analysis sees Micron earnings volatility next",
-        "url": "https://cointelegraph.com/markets/bitcoin-teases-62k-breakdown-as-analysis-sees-micron-earnings-volatility-next?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Bitcoin slump worsens amid SpaceX rout: Can BTC price hold $60K any longer?",
-        "url": "https://cointelegraph.com/markets/bitcoin-slump-worsens-amid-spacex-rout-can-btc-price-hold-60k-any-longer?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

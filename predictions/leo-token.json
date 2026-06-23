@@ -1,6 +1,6 @@
 {
   "coinId": "leo-token",
-  "generatedAt": "2026-06-23T16:00:08.058168Z",
+  "generatedAt": "2026-06-23T17:00:08.483270Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.1283069557793714,
-    "confidence": 0.7615
+    "changePercent24h": -0.46244287261456524,
+    "confidence": 0.8734
   },
   "commentary": {
-    "en": "LEO Token's price is expected to remain flat in the next 24 hours with a confidence of 74%, as the RSI-14 and Bollinger Band %B indicate a neutral trend. The recent news of Chainlink joining a bank consortium may have a positive impact, but the overall market sentiment remains in extreme fear. The short-term trend is sideways, with a 24h actual return of +0.29%.",
-    "ja": "レオトークンの価格は、次の24時間でフラットの動きを予想しており、信頼度は74%である。RSI-14とボリンジャー・バンド％Bは中立的なトレンドを示しており、近況のChainlinkが銀行コンソーシアムに参加したニュースは肯定的な影響を与える可能性があるが、市場全体の感情は極度の恐怖の状態である。短期トレンドは横方向で、24時間実際のリターンは+0.29%である。",
+    "en": "LEO Token is expected to trade flat in the next 24 hours with a confidence level of 74%, as the RSI-14 and Bollinger Band %B indicators suggest a neutral trend. The recent news on CFTC and CBOE may have a limited impact on LEO Token, but the overall market sentiment remains in extreme fear. The short-term trend and volume ratio also indicate a sideways movement.",
+    "ja": "レオ・トークンは、次の24時間でフラットで交易される可能性があり、信頼度は74％です。RSI-14とボリンジャー・バンド％Bの指標は中立的な傾向を示しており、近日発表されたCFTCとCBOEのニュースはレオ・トークンに限りなく影響を与える可能性は低いが、市場全体の感情は極度の恐怖の状態にある。短期の傾向とボリューム・レシオも横方向の動きを示している。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-3.61%",
+        "value": "-3.00%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
@@ -1010,18 +1010,18 @@
       },
       {
         "label": "CoinTelegraph",
+        "value": "CFTC chair says perp trading not suitable for all assets it regulates",
+        "url": "https://cointelegraph.com/news/cftc-regulating-agricultural-markets-crypto-prediction-markets-push?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "CBOE weighs converting BTC, ETH continuous futures into perpetual futures: Report",
+        "url": "https://cointelegraph.com/news/cboe-bitcoin-ether-perpetual-futures-cftc-kalshi?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
         "value": "Chainlink joins European and Korean bank consortia to develop FX settlement network",
         "url": "https://cointelegraph.com/news/chainlink-europe-korea-banks-stablecoin-fx-settlement-project-pangea?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Bitcoin teases $62K breakdown as analysis sees Micron earnings volatility next",
-        "url": "https://cointelegraph.com/markets/bitcoin-teases-62k-breakdown-as-analysis-sees-micron-earnings-volatility-next?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Bitcoin slump worsens amid SpaceX rout: Can BTC price hold $60K any longer?",
-        "url": "https://cointelegraph.com/markets/bitcoin-slump-worsens-amid-spacex-rout-can-btc-price-hold-60k-any-longer?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

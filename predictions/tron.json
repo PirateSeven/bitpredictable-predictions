@@ -1,6 +1,6 @@
 {
   "coinId": "tron",
-  "generatedAt": "2026-06-23T16:00:08.058168Z",
+  "generatedAt": "2026-06-23T17:00:08.483270Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.979114550135514,
-    "confidence": 0.9336
+    "changePercent24h": -0.9306468208727866,
+    "confidence": 0.9309
   },
   "commentary": {
-    "en": "TRON's 24-hour direction is predicted to be flat with a confidence of 76%, indicating a neutral short-term trend. The Fear & Greed Index remains at 23, reflecting extreme fear in the market. TRON's recent performance is largely influenced by the overall market sentiment.",
-    "ja": "トロンの24時間方向は、信頼度76％でフラットと予想されています。これは、短期的なトレンドが中立的なことを示しています。恐れと欲求不満指数は23で、市場全体の動向に大きく影響されています。",
+    "en": "TRON's flat 24h direction prediction is based on neutral technical signals, with RSI-14 at 40 and Bollinger Band %B at 0.17. The recent news from the crypto market, including the CFTC chair's comments on perp trading and Chainlink's involvement in a FX settlement network, may have a limited impact on TRON's price. The overall market context, with an Extreme Fear index and a 3% decline in the total crypto market cap, suggests a cautious outlook for TRON.",
+    "ja": "トロンの24時間の方向予測は、RSI-14が40、ボリンジャー・バンドの％Bが0.17と中立的な技術指標に基づいており、24時間の方向はフラットである。最近のニュースから、CFTC会長のパーペントレーディングに関するコメントやChainlinkのFX決済ネットワークへの参加など、トロンの価格に影響を与える可能性は限られている。総コインマーケットキャップが3％減少し、恐怖指数が極度の恐怖に達した状況から、トロンの価格については慎重な姿勢が必要である。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-3.61%",
+        "value": "-3.00%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
@@ -1010,18 +1010,18 @@
       },
       {
         "label": "CoinTelegraph",
+        "value": "CFTC chair says perp trading not suitable for all assets it regulates",
+        "url": "https://cointelegraph.com/news/cftc-regulating-agricultural-markets-crypto-prediction-markets-push?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "CBOE weighs converting BTC, ETH continuous futures into perpetual futures: Report",
+        "url": "https://cointelegraph.com/news/cboe-bitcoin-ether-perpetual-futures-cftc-kalshi?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
         "value": "Chainlink joins European and Korean bank consortia to develop FX settlement network",
         "url": "https://cointelegraph.com/news/chainlink-europe-korea-banks-stablecoin-fx-settlement-project-pangea?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Bitcoin teases $62K breakdown as analysis sees Micron earnings volatility next",
-        "url": "https://cointelegraph.com/markets/bitcoin-teases-62k-breakdown-as-analysis-sees-micron-earnings-volatility-next?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Bitcoin slump worsens amid SpaceX rout: Can BTC price hold $60K any longer?",
-        "url": "https://cointelegraph.com/markets/bitcoin-slump-worsens-amid-spacex-rout-can-btc-price-hold-60k-any-longer?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

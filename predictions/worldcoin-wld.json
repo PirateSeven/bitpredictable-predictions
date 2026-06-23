@@ -1,6 +1,6 @@
 {
   "coinId": "worldcoin-wld",
-  "generatedAt": "2026-06-23T16:00:08.058168Z",
+  "generatedAt": "2026-06-23T17:00:08.483270Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -9.449167734459419,
-    "confidence": 0.9299
+    "changePercent24h": -9.354250737473436,
+    "confidence": 0.9292
   },
   "commentary": {
-    "en": "Worldcoin WLD is predicted to move downward with a 61% confidence level, driven by the current downtrend and Extreme Fear sentiment. The recent news about Chainlink's FX settlement network and Bitcoin's volatility may not directly impact WLD's price. The 24h actual return of -11.50% suggests a significant decline in the past day.",
-    "ja": "ワールドコインのWLDは、61％の確信度で下落する方向性を示しており、現在の下落傾向と極度の恐怖感が推進力となっています。チェーンリンクのFX決済ネットワークやビットコインのボラティリティに関する最近のニュースはWLDの価格に直接影響を与えそうにありません。24時間の実際のリターンは-11.50％と過去1日で大幅な下落を示しています。",
+    "en": "Worldcoin WLD is expected to decline by 1.5% in the next 24 hours, with a confidence level of 61%. The recent news on CFTC chair's statement and Bitcoin's potential breakdown may contribute to the bearish sentiment. The Fear & Greed Index at 23 indicates extreme fear in the market.",
+    "ja": "ワールドコインのWLDは、次の24時間で1.5%の下落が予想され、信頼度は61%です。CFTC会長の発言やビットコインの潜在的な下落が、恐れの感情を高めている可能性があります。恐怖と欲求不満指数は23で、市場は極度の恐怖の状態です。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,28 +1000,28 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-3.61%",
+        "value": "-3.00%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "89% bullish",
+        "value": "82% bullish",
         "url": "https://www.coingecko.com/en/coins/worldcoin-wld"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "CFTC chair says perp trading not suitable for all assets it regulates",
+        "url": "https://cointelegraph.com/news/cftc-regulating-agricultural-markets-crypto-prediction-markets-push?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "CBOE weighs converting BTC, ETH continuous futures into perpetual futures: Report",
+        "url": "https://cointelegraph.com/news/cboe-bitcoin-ether-perpetual-futures-cftc-kalshi?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
         "value": "Chainlink joins European and Korean bank consortia to develop FX settlement network",
         "url": "https://cointelegraph.com/news/chainlink-europe-korea-banks-stablecoin-fx-settlement-project-pangea?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Bitcoin teases $62K breakdown as analysis sees Micron earnings volatility next",
-        "url": "https://cointelegraph.com/markets/bitcoin-teases-62k-breakdown-as-analysis-sees-micron-earnings-volatility-next?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Bitcoin slump worsens amid SpaceX rout: Can BTC price hold $60K any longer?",
-        "url": "https://cointelegraph.com/markets/bitcoin-slump-worsens-amid-spacex-rout-can-btc-price-hold-60k-any-longer?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }
