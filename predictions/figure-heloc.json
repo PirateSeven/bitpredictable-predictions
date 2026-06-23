@@ -1,142 +1,127 @@
 {
   "coinId": "figure-heloc",
-  "generatedAt": "2026-06-22T23:00:08.103276Z",
+  "generatedAt": "2026-06-23T00:00:07.575400Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
-      "time": "2026-06-15T22:00:00Z",
+      "time": "2026-06-16T01:00:00Z",
       "actualIndex": 100.0,
       "predictedIndex": 100.0
     },
     {
-      "time": "2026-06-15T23:00:00Z",
-      "actualIndex": 100.0,
-      "predictedIndex": 99.9849
-    },
-    {
-      "time": "2026-06-16T00:00:00Z",
-      "actualIndex": 100.0,
-      "predictedIndex": 99.9877
-    },
-    {
-      "time": "2026-06-16T01:00:00Z",
+      "time": "2026-06-16T02:00:00Z",
       "actualIndex": 100.0,
       "predictedIndex": 99.9896
     },
     {
-      "time": "2026-06-16T02:00:00Z",
-      "actualIndex": 100.0,
-      "predictedIndex": 99.9911
-    },
-    {
       "time": "2026-06-16T03:00:00Z",
       "actualIndex": 99.9911,
-      "predictedIndex": 99.9924
+      "predictedIndex": 99.991
     },
     {
       "time": "2026-06-16T04:00:00Z",
       "actualIndex": 99.9911,
-      "predictedIndex": 99.9846
+      "predictedIndex": 99.9837
     },
     {
       "time": "2026-06-16T05:00:00Z",
       "actualIndex": 99.9911,
-      "predictedIndex": 99.985
+      "predictedIndex": 99.9843
     },
     {
       "time": "2026-06-16T06:00:00Z",
       "actualIndex": 99.9911,
-      "predictedIndex": 99.9856
+      "predictedIndex": 99.9848
     },
     {
       "time": "2026-06-16T07:00:00Z",
       "actualIndex": 99.9911,
-      "predictedIndex": 99.9859
+      "predictedIndex": 99.9852
     },
     {
       "time": "2026-06-16T08:00:00Z",
       "actualIndex": 99.9911,
-      "predictedIndex": 99.9861
+      "predictedIndex": 99.9854
     },
     {
       "time": "2026-06-16T09:00:00Z",
       "actualIndex": 99.9911,
-      "predictedIndex": 99.9862
+      "predictedIndex": 99.9856
     },
     {
       "time": "2026-06-16T10:00:00Z",
       "actualIndex": 99.9911,
-      "predictedIndex": 99.986
+      "predictedIndex": 99.9856
     },
     {
       "time": "2026-06-16T11:00:00Z",
       "actualIndex": 99.9911,
-      "predictedIndex": 99.986
+      "predictedIndex": 99.9858
     },
     {
       "time": "2026-06-16T12:00:00Z",
       "actualIndex": 99.9911,
-      "predictedIndex": 99.9864
+      "predictedIndex": 99.9859
     },
     {
       "time": "2026-06-16T13:00:00Z",
       "actualIndex": 99.9944,
-      "predictedIndex": 99.9868
+      "predictedIndex": 99.986
     },
     {
       "time": "2026-06-16T14:00:00Z",
       "actualIndex": 99.9944,
-      "predictedIndex": 99.9908
+      "predictedIndex": 99.9893
     },
     {
       "time": "2026-06-16T15:00:00Z",
       "actualIndex": 99.9944,
-      "predictedIndex": 99.9916
+      "predictedIndex": 99.9902
     },
     {
       "time": "2026-06-16T16:00:00Z",
       "actualIndex": 100.107,
-      "predictedIndex": 99.9923
+      "predictedIndex": 99.9914
     },
     {
       "time": "2026-06-16T17:00:00Z",
       "actualIndex": 100.5228,
-      "predictedIndex": 100.1052
+      "predictedIndex": 100.1047
     },
     {
       "time": "2026-06-16T18:00:00Z",
       "actualIndex": 100.5169,
-      "predictedIndex": 100.521
+      "predictedIndex": 100.5209
     },
     {
       "time": "2026-06-16T19:00:00Z",
       "actualIndex": 100.4752,
-      "predictedIndex": 100.515
+      "predictedIndex": 100.5151
     },
     {
       "time": "2026-06-16T20:00:00Z",
       "actualIndex": 100.584,
-      "predictedIndex": 100.4731
+      "predictedIndex": 100.4734
     },
     {
       "time": "2026-06-16T21:00:00Z",
       "actualIndex": 100.8189,
-      "predictedIndex": 100.5817
+      "predictedIndex": 100.5821
     },
     {
       "time": "2026-06-16T22:00:00Z",
       "actualIndex": 100.7469,
-      "predictedIndex": 100.8167
+      "predictedIndex": 100.817
     },
     {
       "time": "2026-06-16T23:00:00Z",
       "actualIndex": 100.7469,
-      "predictedIndex": 100.7447
+      "predictedIndex": 100.745
     },
     {
       "time": "2026-06-17T00:00:00Z",
       "actualIndex": 100.7469,
-      "predictedIndex": 100.7448
+      "predictedIndex": 100.7447
     },
     {
       "time": "2026-06-17T01:00:00Z",
@@ -766,7 +751,7 @@
     {
       "time": "2026-06-22T06:00:00Z",
       "actualIndex": 100.6678,
-      "predictedIndex": 100.6659
+      "predictedIndex": 100.6658
     },
     {
       "time": "2026-06-22T07:00:00Z",
@@ -845,147 +830,162 @@
     },
     {
       "time": "2026-06-22T22:00:00Z",
-      "actualIndex": null,
+      "actualIndex": 100.7079,
       "predictedIndex": 100.7241
     },
     {
       "time": "2026-06-22T23:00:00Z",
-      "actualIndex": null,
-      "predictedIndex": 100.7244
+      "actualIndex": 100.7709,
+      "predictedIndex": 100.7055
     },
     {
       "time": "2026-06-23T00:00:00Z",
-      "actualIndex": null,
-      "predictedIndex": 100.7216
+      "actualIndex": 100.7709,
+      "predictedIndex": 100.7686
     },
     {
       "time": "2026-06-23T01:00:00Z",
       "actualIndex": null,
-      "predictedIndex": 100.7149
+      "predictedIndex": 100.7687
     },
     {
       "time": "2026-06-23T02:00:00Z",
       "actualIndex": null,
-      "predictedIndex": 100.7124
+      "predictedIndex": 100.7689
     },
     {
       "time": "2026-06-23T03:00:00Z",
       "actualIndex": null,
-      "predictedIndex": 100.7165
+      "predictedIndex": 100.7659
     },
     {
       "time": "2026-06-23T04:00:00Z",
       "actualIndex": null,
-      "predictedIndex": 100.7136
+      "predictedIndex": 100.7595
     },
     {
       "time": "2026-06-23T05:00:00Z",
       "actualIndex": null,
-      "predictedIndex": 100.7125
+      "predictedIndex": 100.7568
     },
     {
       "time": "2026-06-23T06:00:00Z",
       "actualIndex": null,
-      "predictedIndex": 100.7093
+      "predictedIndex": 100.7609
     },
     {
       "time": "2026-06-23T07:00:00Z",
       "actualIndex": null,
-      "predictedIndex": 100.7109
+      "predictedIndex": 100.758
     },
     {
       "time": "2026-06-23T08:00:00Z",
       "actualIndex": null,
-      "predictedIndex": 100.7122
+      "predictedIndex": 100.7565
     },
     {
       "time": "2026-06-23T09:00:00Z",
       "actualIndex": null,
-      "predictedIndex": 100.7102
+      "predictedIndex": 100.753
     },
     {
       "time": "2026-06-23T10:00:00Z",
       "actualIndex": null,
-      "predictedIndex": 100.7075
+      "predictedIndex": 100.7544
     },
     {
       "time": "2026-06-23T11:00:00Z",
       "actualIndex": null,
-      "predictedIndex": 100.7056
+      "predictedIndex": 100.7558
     },
     {
       "time": "2026-06-23T12:00:00Z",
       "actualIndex": null,
-      "predictedIndex": 100.7016
+      "predictedIndex": 100.7538
     },
     {
       "time": "2026-06-23T13:00:00Z",
       "actualIndex": null,
-      "predictedIndex": 100.703
+      "predictedIndex": 100.7508
     },
     {
       "time": "2026-06-23T14:00:00Z",
       "actualIndex": null,
-      "predictedIndex": 100.7036
+      "predictedIndex": 100.7488
     },
     {
       "time": "2026-06-23T15:00:00Z",
       "actualIndex": null,
-      "predictedIndex": 100.7028
+      "predictedIndex": 100.7447
     },
     {
       "time": "2026-06-23T16:00:00Z",
       "actualIndex": null,
-      "predictedIndex": 100.7004
+      "predictedIndex": 100.7459
     },
     {
       "time": "2026-06-23T17:00:00Z",
       "actualIndex": null,
-      "predictedIndex": 100.6961
+      "predictedIndex": 100.7462
     },
     {
       "time": "2026-06-23T18:00:00Z",
       "actualIndex": null,
-      "predictedIndex": 100.6957
+      "predictedIndex": 100.7455
     },
     {
       "time": "2026-06-23T19:00:00Z",
       "actualIndex": null,
-      "predictedIndex": 100.6984
+      "predictedIndex": 100.743
     },
     {
       "time": "2026-06-23T20:00:00Z",
       "actualIndex": null,
-      "predictedIndex": 100.7017
+      "predictedIndex": 100.7385
     },
     {
       "time": "2026-06-23T21:00:00Z",
       "actualIndex": null,
-      "predictedIndex": 100.706
+      "predictedIndex": 100.7379
+    },
+    {
+      "time": "2026-06-23T22:00:00Z",
+      "actualIndex": null,
+      "predictedIndex": 100.7406
+    },
+    {
+      "time": "2026-06-23T23:00:00Z",
+      "actualIndex": null,
+      "predictedIndex": 100.7436
+    },
+    {
+      "time": "2026-06-24T00:00:00Z",
+      "actualIndex": null,
+      "predictedIndex": 100.748
     }
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 0.9463997018319422,
+    "changePercent24h": 0.7231597599799893,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "Figure Heloc is predicted to remain flat with a 95% confidence level, as its RSI-14 and Bollinger Band %B indicate a neutral trend. The low volume ratio and sideways short-term trend also support this prediction. However, the overall market context suggests a cautious approach due to the extreme fear sentiment.",
-    "ja": "Figure Heloc の予測は95％の信頼度で、flatのままであると考えられる。RSI-14とBollinger Band %Bは中立的な傾向を示しており、低いボリューム比率と短期の横方向の傾向もこれを裏付ける。ただし、極度の恐怖感が広がっている市場全体の状況から、慎重なアプローチが必要である。",
+    "en": "Figure Heloc (FIGURE-HELOC) is expected to remain flat in the next 24 hours with a 95% confidence level. The neutral RSI-14 reading and mid-band Bollinger Band %B suggest a stable market condition. However, the low volume ratio and sideways short-term trend indicate a lack of momentum.",
+    "ja": "Figure Heloc (FIGURE-HELOC) は、来日24時間で95%の確率でフラットのままであると予想されます。中立的なRSI-14の値と中間のボリンジャー・バンド %Bは安定した市場状況を示しています。ただし、低いボリューム・レシオと短期の横方向のトレンドは、動きのない市場状況を示しています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
-        "value": "20 — Extreme Fear",
+        "value": "23 — Extreme Fear",
         "url": "https://alternative.me/crypto/fear-and-greed-index/"
       },
       {
         "label": "RSI-14",
-        "value": "56.7 (neutral)",
+        "value": "57.4 (neutral)",
         "url": "https://www.coingecko.com/en/coins/figure-heloc"
       },
       {
         "label": "Bollinger Band %B",
-        "value": "0.66 (mid range)",
+        "value": "0.68 (mid range)",
         "url": null
       },
       {
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.19%",
+        "value": "+0.90%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
