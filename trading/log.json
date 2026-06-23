@@ -1,1 +1,191 @@
-{"agentVersion":"crypto-ace-1.0.0","updatedAt":"2026-06-23T03:05:24.133522+00:00","exchange":"Binance Testnet","currency":"BNB","initialCapital":1.0,"currentValue":0.992598,"performance":{"totalReturnPct":-0.74,"totalTrades":5,"winRate":0.0,"maxDrawdownPct":6.07,"sharpeRatio":-22.82,"startDate":"2026-06-17T19:27:34.575587+00:00"},"weeklyStats":{"wins":0,"losses":5,"winRate":0.0,"comment":{"en":"Challenging week. 5 trades with 0% win rate. Staying disciplined.","ja":"厳しい週。5取引、勝率0%。市場環境が不利でしたが規律を維持しています。"}},"bestTrade":{"symbol":"ETH","coin":"ethereum","pnlPct":-0.04,"pnlBtc":-0.0,"time":"2026-06-17T19:27:35.599884+00:00"},"currentStreak":{"count":5,"type":"loss"},"currentPositions":[{"coin":"sui","symbol":"SUI","direction":"long","entryPrice":0.001217,"entryTime":"2026-06-22T14:48:41.087896+00:00","sizeBtc":0.119966,"unrealizedPnlPct":0.0},{"coin":"cardano","symbol":"ADA","direction":"long","entryPrice":0.000283,"entryTime":"2026-06-22T19:57:50.604668+00:00","sizeBtc":0.119966,"unrealizedPnlPct":0.0}],"equityCurve":[{"time":"2026-06-17T19:27:34.575587+00:00","value":1.0,"benchmarkBtc":1.0},{"time":"2026-06-17T19:27:35.599884+00:00","value":1.0,"benchmarkBtc":1.0},{"time":"2026-06-21T21:15:16.076810+00:00","value":0.99847,"benchmarkBtc":1.0},{"time":"2026-06-22T14:40:06.407883+00:00","value":0.99693,"benchmarkBtc":1.0},{"time":"2026-06-22T19:44:24.519103+00:00","value":0.993962,"benchmarkBtc":1.0},{"time":"2026-06-23T00:18:21.424050+00:00","value":0.992598,"benchmarkBtc":1.0}],"recentTrades":[{"id":"de6772c8","coin":"solana","symbol":"SOL","action":"sell","price":0.1217,"sizeBtc":0.119966,"time":"2026-06-23T00:18:21.424050+00:00","pnlBtc":-0.001364,"pnlPct":-1.14,"signal":{"direction":"flat","changePercent24h":3.0966722049629096,"confidence":0.8753}},{"id":"1eee78ab","coin":"cardano","symbol":"ADA","action":"sell","price":0.000276,"sizeBtc":0.119966,"time":"2026-06-22T19:44:24.519103+00:00","pnlBtc":-0.002967,"pnlPct":-2.47,"signal":{"direction":"down","changePercent24h":1.3663956378603168,"confidence":0.8464}},{"id":"f9d3835c","coin":"solana","symbol":"SOL","action":"sell","price":0.123,"sizeBtc":0.119966,"time":"2026-06-22T14:40:06.407883+00:00","pnlBtc":-0.00154,"pnlPct":-1.28,"signal":{"direction":"flat","changePercent24h":3.0966722049629096,"confidence":0.8753}},{"id":"abcfbbd0","coin":"solana","symbol":"SOL","action":"sell","price":0.1239,"sizeBtc":0.119966,"time":"2026-06-21T21:15:16.076810+00:00","pnlBtc":-0.001529,"pnlPct":-1.27,"signal":{"direction":"flat","changePercent24h":3.0966722049629096,"confidence":0.8753}},{"id":"ac744a91","coin":"ethereum","symbol":"ETH","action":"sell","price":0.02706,"sizeBtc":0.001354,"time":"2026-06-17T19:27:35.599884+00:00","pnlBtc":-0.0,"pnlPct":-0.04,"signal":{"direction":"up","changePercent24h":5.0,"confidence":0.8}}],"regime":"high_vol","riskMetrics":{"varPct":3.035,"exposurePct":0.0,"cbStatus":"active","kellyF":0.0,"openPositions":0,"maxPositions":3},"signalScores":[{"symbol":"RAIN","coin":"rain","score":100.0,"confidence":0.95,"status":"watching"},{"symbol":"LAB","coin":"lab","score":87.69,"confidence":0.9055,"status":"watching"},{"symbol":"LEO","coin":"leo-token","score":53.42,"confidence":0.8196,"status":"holding"},{"symbol":"ONDO","coin":"ondo-us-dollar-yield","score":51.8,"confidence":0.7112,"status":"holding"},{"symbol":"THE","coin":"the-open-network","score":51.03,"confidence":0.3128,"status":"holding"},{"symbol":"WORLDC","coin":"worldcoin-wld","score":50.77,"confidence":0.1,"status":"holding"},{"symbol":"FIGURE","coin":"figure-heloc","score":50.22,"confidence":0.95,"status":"holding"},{"symbol":"RIPPLE","coin":"ripple-usd","score":50.18,"confidence":0.95,"status":"holding"},{"symbol":"GLOBAL","coin":"global-dollar","score":50.11,"confidence":0.95,"status":"holding"},{"symbol":"USD1","coin":"usd1-wlfi","score":50.06,"confidence":0.95,"status":"holding"},{"symbol":"USD","coin":"usd-coin","score":49.97,"confidence":0.95,"status":"holding"},{"symbol":"USDS","coin":"usds","score":49.92,"confidence":0.95,"status":"holding"},{"symbol":"ETHENA","coin":"ethena-usde","score":49.92,"confidence":0.95,"status":"holding"},{"symbol":"BLACKR","coin":"blackrock-usd-institutional-digital-liquidity-fund","score":49.79,"confidence":0.95,"status":"holding"},{"symbol":"PAYPAL","coin":"paypal-usd","score":49.73,"confidence":0.95,"status":"holding"},{"symbol":"USDT","coin":"tether","score":49.69,"confidence":0.95,"status":"holding"},{"symbol":"DAI","coin":"dai","score":49.64,"confidence":0.95,"status":"holding"},{"symbol":"TRX","coin":"tron","score":48.26,"confidence":0.868,"status":"holding"},{"symbol":"OKB","coin":"okb","score":47.74,"confidence":0.7554,"status":"holding"},{"symbol":"WORLD","coin":"world-liberty-financial","score":46.79,"confidence":0.7421,"status":"holding"},{"symbol":"UNI","coin":"uniswap","score":46.24,"confidence":0.512,"status":"holding"},{"symbol":"MEMECO","coin":"memecore","score":45.39,"confidence":0.75,"status":"holding"},{"symbol":"BTC","coin":"bitcoin","score":42.47,"confidence":0.8672,"status":"weak"},{"symbol":"HYPERL","coin":"hyperliquid","score":39.47,"confidence":0.7563,"status":"weak"},{"symbol":"ASTER","coin":"aster-2","score":39.25,"confidence":0.8421,"status":"weak"},{"symbol":"LTC","coin":"litecoin","score":39.13,"confidence":0.8952,"status":"weak"},{"symbol":"MANTLE","coin":"mantle","score":38.05,"confidence":0.9019,"status":"weak"},{"symbol":"CRYPTO","coin":"crypto-com-chain","score":36.76,"confidence":0.9311,"status":"weak"},{"symbol":"XRP","coin":"ripple","score":36.31,"confidence":0.8943,"status":"weak"},{"symbol":"TETHER","coin":"tether-gold","score":35.93,"confidence":0.95,"status":"weak"},{"symbol":"PAX","coin":"pax-gold","score":35.91,"confidence":0.95,"status":"weak"},{"symbol":"ADA","coin":"cardano","score":35.79,"confidence":0.9051,"status":"weak"},{"symbol":"CANTON","coin":"canton-network","score":35.41,"confidence":0.8525,"status":"weak"},{"symbol":"WHITEB","coin":"whitebit","score":34.14,"confidence":0.9282,"status":"weak"},{"symbol":"BNB","coin":"binancecoin","score":33.04,"confidence":0.9348,"status":"weak"},{"symbol":"XMR","coin":"monero","score":33.01,"confidence":0.8828,"status":"weak"},{"symbol":"ETH","coin":"ethereum","score":32.75,"confidence":0.9093,"status":"weak"},{"symbol":"HBAR","coin":"hedera-hashgraph","score":30.99,"confidence":0.9194,"status":"weak"},{"symbol":"SOL","coin":"solana","score":30.83,"confidence":0.9008,"status":"weak"},{"symbol":"BITTEN","coin":"bittensor","score":30.78,"confidence":0.8677,"status":"weak"},{"symbol":"SHIB","coin":"shiba-inu","score":30.67,"confidence":0.9195,"status":"weak"},{"symbol":"DOGE","coin":"dogecoin","score":28.7,"confidence":0.9298,"status":"blocked"},{"symbol":"AVAX","coin":"avalanche-2","score":27.06,"confidence":0.9011,"status":"blocked"},{"symbol":"LINK","coin":"chainlink","score":20.96,"confidence":0.9434,"status":"blocked"},{"symbol":"SUI","coin":"sui","score":19.96,"confidence":0.9345,"status":"blocked"},{"symbol":"BITCOI","coin":"bitcoin-cash","score":15.32,"confidence":0.943,"status":"blocked"},{"symbol":"ZCASH","coin":"zcash","score":12.93,"confidence":0.9067,"status":"blocked"},{"symbol":"XLM","coin":"stellar","score":11.53,"confidence":0.9464,"status":"blocked"},{"symbol":"NEAR","coin":"near","score":0.0,"confidence":0.9296,"status":"blocked"}],"predictionAccuracy":[{"symbol":"BTC","date":"2026-06-23","predictedPct":-1.5059,"actualPct":-0.6676,"hit":true},{"symbol":"ETH","date":"2026-06-23","predictedPct":-3.4496,"actualPct":-0.7789,"hit":true},{"symbol":"USDT","date":"2026-06-23","predictedPct":-0.0626,"actualPct":-0.0017,"hit":true},{"symbol":"BNB","date":"2026-06-23","predictedPct":-3.3919,"actualPct":0.1459,"hit":false},{"symbol":"USD","date":"2026-06-23","predictedPct":-0.0062,"actualPct":-0.0131,"hit":true},{"symbol":"XRP","date":"2026-06-23","predictedPct":-2.7373,"actualPct":-0.7068,"hit":true},{"symbol":"SOL","date":"2026-06-23","predictedPct":-3.833,"actualPct":-2.5025,"hit":true},{"symbol":"TRX","date":"2026-06-23","predictedPct":-0.3488,"actualPct":1.6637,"hit":false},{"symbol":"FIGURE","date":"2026-06-23","predictedPct":0.0432,"actualPct":0.1024,"hit":true},{"symbol":"HYPERL","date":"2026-06-23","predictedPct":-2.1057,"actualPct":-1.6168,"hit":true},{"symbol":"DOGE","date":"2026-06-23","predictedPct":-4.259,"actualPct":-1.3726,"hit":true},{"symbol":"USDS","date":"2026-06-23","predictedPct":-0.0165,"actualPct":-0.0081,"hit":true},{"symbol":"RAIN","date":"2026-06-23","predictedPct":10.3526,"actualPct":11.497,"hit":true},{"symbol":"LEO","date":"2026-06-23","predictedPct":0.6835,"actualPct":0.7466,"hit":true},{"symbol":"ZCASH","date":"2026-06-23","predictedPct":-7.4147,"actualPct":-0.1889,"hit":true},{"symbol":"XLM","date":"2026-06-23","predictedPct":-7.6936,"actualPct":-6.8273,"hit":true},{"symbol":"XMR","date":"2026-06-23","predictedPct":-3.3988,"actualPct":2.7861,"hit":false},{"symbol":"WHITEB","date":"2026-06-23","predictedPct":-3.1723,"actualPct":-0.4028,"hit":true},{"symbol":"CANTON","date":"2026-06-23","predictedPct":-2.9173,"actualPct":1.5141,"hit":false},{"symbol":"ADA","date":"2026-06-23","predictedPct":-2.841,"actualPct":-1.1373,"hit":true}]}
+{
+  "agentVersion": "crypto-ace-1.0.0",
+  "updatedAt": "2026-06-23T04:02:56.312250+00:00",
+  "exchange": "Binance Testnet",
+  "currency": "BNB",
+  "initialCapital": 1.0,
+  "currentValue": 0.993386,
+  "performance": {
+    "totalReturnPct": -0.66,
+    "totalTrades": 6,
+    "winRate": 0.1667,
+    "maxDrawdownPct": 6.07,
+    "sharpeRatio": -9.97,
+    "startDate": "2026-06-17T19:27:34.575587+00:00"
+  },
+  "weeklyStats": {
+    "wins": 1,
+    "losses": 5,
+    "winRate": 0.1667,
+    "comment": {
+      "en": "Challenging week. 6 trades with 17% win rate. Staying disciplined.",
+      "ja": "\u53b3\u3057\u3044\u9031\u30026\u53d6\u5f15\u3001\u52dd\u738717%\u3002\u5e02\u5834\u74b0\u5883\u304c\u4e0d\u5229\u3067\u3057\u305f\u304c\u898f\u5f8b\u3092\u7dad\u6301\u3057\u3066\u3044\u307e\u3059\u3002"
+    }
+  },
+  "bestTrade": {
+    "symbol": "SUI",
+    "coin": "sui",
+    "pnlPct": 1.31,
+    "pnlBtc": 0.000789,
+    "time": "2026-06-23T04:02:56.308884+00:00"
+  },
+  "currentStreak": {
+    "count": 1,
+    "type": "win"
+  },
+  "currentPositions": [
+    {
+      "coin": "sui",
+      "symbol": "SUI",
+      "direction": "long",
+      "entryPrice": 0.001217,
+      "entryTime": "2026-06-22T14:48:41.087896+00:00",
+      "sizeBtc": 0.059983,
+      "unrealizedPnlPct": 0.0
+    },
+    {
+      "coin": "cardano",
+      "symbol": "ADA",
+      "direction": "long",
+      "entryPrice": 0.000283,
+      "entryTime": "2026-06-22T19:57:50.604668+00:00",
+      "sizeBtc": 0.119966,
+      "unrealizedPnlPct": 0.0
+    }
+  ],
+  "equityCurve": [
+    {
+      "time": "2026-06-17T19:27:34.575587+00:00",
+      "value": 1.0,
+      "benchmarkBtc": 1.0
+    },
+    {
+      "time": "2026-06-17T19:27:35.599884+00:00",
+      "value": 1.0,
+      "benchmarkBtc": 1.0
+    },
+    {
+      "time": "2026-06-21T21:15:16.076810+00:00",
+      "value": 0.99847,
+      "benchmarkBtc": 1.0
+    },
+    {
+      "time": "2026-06-22T14:40:06.407883+00:00",
+      "value": 0.99693,
+      "benchmarkBtc": 1.0
+    },
+    {
+      "time": "2026-06-22T19:44:24.519103+00:00",
+      "value": 0.993962,
+      "benchmarkBtc": 1.0
+    },
+    {
+      "time": "2026-06-23T00:18:21.424050+00:00",
+      "value": 0.992598,
+      "benchmarkBtc": 1.0
+    },
+    {
+      "time": "2026-06-23T04:02:56.308884+00:00",
+      "value": 0.993386,
+      "benchmarkBtc": 1.0
+    }
+  ],
+  "recentTrades": [
+    {
+      "id": "5d4229d8",
+      "coin": "sui",
+      "symbol": "SUI",
+      "action": "sell",
+      "price": 0.001233,
+      "sizeBtc": 0.059983,
+      "time": "2026-06-23T04:02:56.308884+00:00",
+      "pnlBtc": 0.000789,
+      "pnlPct": 1.31,
+      "signal": {
+        "direction": "down",
+        "changePercent24h": 5.921519860914575,
+        "confidence": 0.9421
+      }
+    },
+    {
+      "id": "de6772c8",
+      "coin": "solana",
+      "symbol": "SOL",
+      "action": "sell",
+      "price": 0.1217,
+      "sizeBtc": 0.119966,
+      "time": "2026-06-23T00:18:21.424050+00:00",
+      "pnlBtc": -0.001364,
+      "pnlPct": -1.14,
+      "signal": {
+        "direction": "flat",
+        "changePercent24h": 3.0966722049629096,
+        "confidence": 0.8753
+      }
+    },
+    {
+      "id": "1eee78ab",
+      "coin": "cardano",
+      "symbol": "ADA",
+      "action": "sell",
+      "price": 0.000276,
+      "sizeBtc": 0.119966,
+      "time": "2026-06-22T19:44:24.519103+00:00",
+      "pnlBtc": -0.002967,
+      "pnlPct": -2.47,
+      "signal": {
+        "direction": "down",
+        "changePercent24h": 1.3663956378603168,
+        "confidence": 0.8464
+      }
+    },
+    {
+      "id": "f9d3835c",
+      "coin": "solana",
+      "symbol": "SOL",
+      "action": "sell",
+      "price": 0.123,
+      "sizeBtc": 0.119966,
+      "time": "2026-06-22T14:40:06.407883+00:00",
+      "pnlBtc": -0.00154,
+      "pnlPct": -1.28,
+      "signal": {
+        "direction": "flat",
+        "changePercent24h": 3.0966722049629096,
+        "confidence": 0.8753
+      }
+    },
+    {
+      "id": "abcfbbd0",
+      "coin": "solana",
+      "symbol": "SOL",
+      "action": "sell",
+      "price": 0.1239,
+      "sizeBtc": 0.119966,
+      "time": "2026-06-21T21:15:16.076810+00:00",
+      "pnlBtc": -0.001529,
+      "pnlPct": -1.27,
+      "signal": {
+        "direction": "flat",
+        "changePercent24h": 3.0966722049629096,
+        "confidence": 0.8753
+      }
+    },
+    {
+      "id": "ac744a91",
+      "coin": "ethereum",
+      "symbol": "ETH",
+      "action": "sell",
+      "price": 0.02706,
+      "sizeBtc": 0.001354,
+      "time": "2026-06-17T19:27:35.599884+00:00",
+      "pnlBtc": -0.0,
+      "pnlPct": -0.04,
+      "signal": {
+        "direction": "up",
+        "changePercent24h": 5.0,
+        "confidence": 0.8
+      }
+    }
+  ]
+}
