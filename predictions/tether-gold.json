@@ -1,6 +1,6 @@
 {
   "coinId": "tether-gold",
-  "generatedAt": "2026-06-23T12:00:08.798910Z",
+  "generatedAt": "2026-06-23T13:00:07.743038Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -1.3640193110929937,
-    "confidence": 0.9433
+    "changePercent24h": -1.1300645372095777,
+    "confidence": 0.9337
   },
   "commentary": {
-    "en": "Tether Gold (TETHER-GOLD) is expected to remain flat with a -0.1% change, based on technical signals. The Fear & Greed Index at 23 indicates extreme fear in the market, and the total crypto market cap has seen a -3.23% change in the past 24 hours. Recent news has been dominated by market downturns and regulatory updates.",
-    "ja": "Tether Gold (TETHER-GOLD)は、技術的信号に基づいて-0.1%の変化で平坦と予想されます。恐怖と欲求不満指数は23で、市場全体の総価値は過去24時間で-3.23%の変化を記録しています。最近のニュースは市場の低迷と規制の更新に占められています。",
+    "en": "The model predicts Tether Gold will trade sideways over the next 24 hours with high confidence (73%). The short-term SMA is below the medium-term SMA, indicating weakening momentum. Community sentiment on CoinGecko is 100% bullish and the Fear & Greed Index reads \"Extreme Fear\" (23), diverging from the model's forecast, adding uncertainty.",
+    "ja": "モデルはTether Goldが今後24時間で横ばいで推移すると予測しています（信頼度: 高い 73%）。短期移動平均が中期移動平均を下回り、モメンタムの低下が示されています。CoinGeckoコミュニティでは100%が強気を示し、Fear & Greed指数は「Extreme Fear」（23）です。予測方向と乖離があり、不確実性が高まっています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-3.23%",
+        "value": "-3.91%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
@@ -1010,18 +1010,18 @@
       },
       {
         "label": "CoinTelegraph",
-        "value": "Binance’s Yi He warns of alleged impersonation scam, CoinUp denies ties",
-        "url": "https://cointelegraph.com/news/binances-yi-he-warns-alleged-scammer-coinup-responds?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+        "value": "Kalshi adds India to growing list of restricted jurisdictions",
+        "url": "https://cointelegraph.com/news/kalshi-adds-india-restricted-jurisdictions?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
-        "value": "Bitcoin gets new $54K warning as BTC price hits 11-day low on Asia tech sell-off",
-        "url": "https://cointelegraph.com/markets/bitcoin-gets-new-54k-warning-as-btc-price-hits-11-day-low-on-asia-tech-sell-off?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+        "value": "EU committee advances digital euro bill after key vote",
+        "url": "https://cointelegraph.com/news/eu-committee-digital-euro-cbdc-bill-key-vote?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
-        "value": "THORChain resumes trading more than month after $10M exploit",
-        "url": "https://cointelegraph.com/news/thorchain-resumes-trading-month-10m-exploit?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+        "value": "Former BIS chief softens stance on stablecoins, backs coexistence with fiat",
+        "url": "https://cointelegraph.com/news/former-bis-chief-softens-stance-stablecoins-coexistence-fiat?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

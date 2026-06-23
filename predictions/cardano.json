@@ -1,6 +1,6 @@
 {
   "coinId": "cardano",
-  "generatedAt": "2026-06-23T12:00:08.798910Z",
+  "generatedAt": "2026-06-23T13:00:07.743038Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -4.5186635499327155,
-    "confidence": 0.932
+    "changePercent24h": -3.9911746202555842,
+    "confidence": 0.9236
   },
   "commentary": {
-    "en": "Cardano's 24-hour direction is predicted to be flat with a -0.2% change, but the confidence level is low at 33%. The RSI-14 is at 34, indicating a neutral trend. The short-term trend is in a downtrend, and the recent news has been dominated by market volatility and security concerns.",
-    "ja": "カードアノの24時間方向は、-0.2％の変化が予想されていますが、信頼度は33％に低い。RSI-14は34にあり、中立的な傾向を示しています。短期傾向は下降傾向にあり、最近のニュースは市場の不安定性とセキュリティの懸念に支配されています。",
+    "en": "Cardano's price is expected to remain flat with a slight decline of -0.2% in the next 24 hours, based on current technical signals. The market context suggests a bearish trend, with the Fear & Greed Index at Extreme Fear and the total crypto market cap experiencing a 3.91% decline. Recent news has not provided significant support for Cardano.",
+    "ja": "カードアノの価格は、現在の技術指標に基づいて、来日24時間で-0.2%の小幅な下落が予想されます。市場状況は、恐怖と欲求不満指数が極度の恐怖に達し、総暗号通貨マーケットキャップが3.91%減少していることを示唆しています。最近のニュースはカードアノの支持に大きく貢献していません。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,28 +1000,28 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-3.23%",
+        "value": "-3.91%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "76% bullish",
+        "value": "69% bullish",
         "url": "https://www.coingecko.com/en/coins/cardano"
       },
       {
         "label": "CoinTelegraph",
-        "value": "Binance’s Yi He warns of alleged impersonation scam, CoinUp denies ties",
-        "url": "https://cointelegraph.com/news/binances-yi-he-warns-alleged-scammer-coinup-responds?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+        "value": "Kalshi adds India to growing list of restricted jurisdictions",
+        "url": "https://cointelegraph.com/news/kalshi-adds-india-restricted-jurisdictions?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
-        "value": "Bitcoin gets new $54K warning as BTC price hits 11-day low on Asia tech sell-off",
-        "url": "https://cointelegraph.com/markets/bitcoin-gets-new-54k-warning-as-btc-price-hits-11-day-low-on-asia-tech-sell-off?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+        "value": "EU committee advances digital euro bill after key vote",
+        "url": "https://cointelegraph.com/news/eu-committee-digital-euro-cbdc-bill-key-vote?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
-        "value": "THORChain resumes trading more than month after $10M exploit",
-        "url": "https://cointelegraph.com/news/thorchain-resumes-trading-month-10m-exploit?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+        "value": "Former BIS chief softens stance on stablecoins, backs coexistence with fiat",
+        "url": "https://cointelegraph.com/news/former-bis-chief-softens-stance-stablecoins-coexistence-fiat?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

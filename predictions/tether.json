@@ -1,6 +1,6 @@
 {
   "coinId": "tether",
-  "generatedAt": "2026-06-23T12:00:08.798910Z",
+  "generatedAt": "2026-06-23T13:00:07.743038Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 0.011908593542043194,
+    "changePercent24h": 0.013006850602564197,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "Tether's 24-hour direction is predicted to be flat with a 0.0% return, indicating a neutral sentiment. The Fear & Greed Index at 23 suggests extreme fear in the market, which may impact Tether's price. With the recent news of market sell-offs and security concerns, Tether's price is likely to remain stable.",
-    "ja": "テザーの24時間の動向は、0.0%のリターンで予測されており、中立的な感情を示しています。恐怖と欲求不満指数が23のため、市場は極度に恐れ、テザーの価格に影響を与える可能性があります。最近のニュースで市場の売り出しやセキュリティの懸念が生じたため、テザーの価格は安定する可能性があります。",
+    "en": "Tether's 24-hour return is expected to remain flat at -0.0% with high confidence, as the RSI-14 and Bollinger Band %B indicate a neutral and mid-band position respectively. The recent news on stablecoins and digital euro bill advancement may have a minimal impact on Tether's price. The overall market context, including the Fear & Greed Index and total crypto market cap, suggests a cautious sentiment.",
+    "ja": "テザーの24時間リターンは、信頼性が高いハイコンフィデンスで-0.0％のフラットに予想される。RSI-14とボリンジャーブンド％Bは、ニュートラルとミッドバンドのポジションを示している。安定コインとデジタルユーロビル進展に関する最近のニュースは、テザーの価格にほとんどの影響を与えない可能性がある。総コインマーケットキャップと恐怖と欲求不満指数などの総マーケットコンテキストは、慎重な感性を示している。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-3.23%",
+        "value": "-3.91%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
@@ -1010,18 +1010,18 @@
       },
       {
         "label": "CoinTelegraph",
-        "value": "Binance’s Yi He warns of alleged impersonation scam, CoinUp denies ties",
-        "url": "https://cointelegraph.com/news/binances-yi-he-warns-alleged-scammer-coinup-responds?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+        "value": "Kalshi adds India to growing list of restricted jurisdictions",
+        "url": "https://cointelegraph.com/news/kalshi-adds-india-restricted-jurisdictions?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
-        "value": "Bitcoin gets new $54K warning as BTC price hits 11-day low on Asia tech sell-off",
-        "url": "https://cointelegraph.com/markets/bitcoin-gets-new-54k-warning-as-btc-price-hits-11-day-low-on-asia-tech-sell-off?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+        "value": "EU committee advances digital euro bill after key vote",
+        "url": "https://cointelegraph.com/news/eu-committee-digital-euro-cbdc-bill-key-vote?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
-        "value": "THORChain resumes trading more than month after $10M exploit",
-        "url": "https://cointelegraph.com/news/thorchain-resumes-trading-month-10m-exploit?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+        "value": "Former BIS chief softens stance on stablecoins, backs coexistence with fiat",
+        "url": "https://cointelegraph.com/news/former-bis-chief-softens-stance-stablecoins-coexistence-fiat?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

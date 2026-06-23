@@ -1,6 +1,6 @@
 {
   "coinId": "ondo-us-dollar-yield",
-  "generatedAt": "2026-06-23T12:00:08.798910Z",
+  "generatedAt": "2026-06-23T13:00:07.743038Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 0.45732643223345965,
-    "confidence": 0.856
+    "changePercent24h": 0.39558145096330116,
+    "confidence": 0.8423
   },
   "commentary": {
-    "en": "ONDO-US-DOLLAR-YIELD is expected to remain flat with a -0.1% change in the next 24 hours, based on technical signals. The recent market context, including the Fear & Greed Index at 23 and a total crypto market cap 24h change of -3.23%, suggests a cautious outlook. ONDO-US-DOLLAR-YIELD's short-term trend remains sideways.",
-    "ja": "ONDO-US-DOLLAR-YIELDは、技術的信号に基づいて次の24時間で-0.1%の変動を予想しております。Fear & Greed Indexが23、総暗号資産マーケットキャップ24時間変動が-3.23%と考えると、慎重な姿勢が求められます。ONDO-US-DOLLAR-YIELDの短期トレンドは横方向に推移しています。",
+    "en": "The model predicts Ondo US Dollar Yield will trade sideways over the next 24 hours with high confidence (70%). Price moved +0.57% in the past 24 hours with volume at 0.7× average. Market sentiment stands at \"Extreme Fear\" (Fear & Greed: 23); the broader crypto market moved -3.9% over the past 24 hours.",
+    "ja": "モデルはOndo US Dollar Yieldが今後24時間で横ばいで推移すると予測しています（信頼度: 高い 70%）。過去24時間のリターンは+0.57%、出来高は平均の0.7倍です。Fear & Greed指数は「Extreme Fear」（23）で、暗号資産市場全体の24時間変動率は-3.9%です。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,23 +1000,23 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-3.23%",
+        "value": "-3.91%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinTelegraph",
-        "value": "Binance’s Yi He warns of alleged impersonation scam, CoinUp denies ties",
-        "url": "https://cointelegraph.com/news/binances-yi-he-warns-alleged-scammer-coinup-responds?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+        "value": "Kalshi adds India to growing list of restricted jurisdictions",
+        "url": "https://cointelegraph.com/news/kalshi-adds-india-restricted-jurisdictions?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
-        "value": "Bitcoin gets new $54K warning as BTC price hits 11-day low on Asia tech sell-off",
-        "url": "https://cointelegraph.com/markets/bitcoin-gets-new-54k-warning-as-btc-price-hits-11-day-low-on-asia-tech-sell-off?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+        "value": "EU committee advances digital euro bill after key vote",
+        "url": "https://cointelegraph.com/news/eu-committee-digital-euro-cbdc-bill-key-vote?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
-        "value": "THORChain resumes trading more than month after $10M exploit",
-        "url": "https://cointelegraph.com/news/thorchain-resumes-trading-month-10m-exploit?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+        "value": "Former BIS chief softens stance on stablecoins, backs coexistence with fiat",
+        "url": "https://cointelegraph.com/news/former-bis-chief-softens-stance-stablecoins-coexistence-fiat?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

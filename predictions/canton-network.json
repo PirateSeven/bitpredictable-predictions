@@ -1,6 +1,6 @@
 {
   "coinId": "canton-network",
-  "generatedAt": "2026-06-23T12:00:08.798910Z",
+  "generatedAt": "2026-06-23T13:00:07.743038Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -1.5393992580591394,
-    "confidence": 0.7573
+    "changePercent24h": -1.5057237949734614,
+    "confidence": 0.7527
   },
   "commentary": {
-    "en": "Canton (CANTON-NETWORK) is expected to decline by 3.1% in the next 24 hours with a confidence level of 86%. The recent market context, including the Fear & Greed Index at 23 and a total crypto market cap 24h change of -3.23%, suggests a bearish trend. The high volume ratio and sideways short-term trend further support this prediction.",
-    "ja": "Canton (CANTON-NETWORK) は、次の24時間で3.1%の下落が予想され、信頼度は86%です。Fear & Greed Indexが23、総暗号資産マーケットキャップ24時間変化が-3.23%など、最近の市場状況は下落の傾向を示しており、ハイボリュームレシオと短期的な傾向もこの予想を裏付けています。",
+    "en": "The model predicts Canton will decline ~3.1% over the next 24 hours with high confidence (86%). Volume is elevated at 1.7× the daily average, amplifying the directional signal. Community sentiment on CoinGecko is 48% bullish and the Fear & Greed Index reads \"Extreme Fear\" (23), aligning with the model's forecast.",
+    "ja": "モデルはCantonが今後24時間で約3.1%下落すると予測しています（信頼度: 高い 86%）。出来高が平均の1.7倍と高水準で、方向性シグナルを強化しています。CoinGeckoコミュニティでは48%が強気を示し、Fear & Greed指数は「Extreme Fear」（23）です。予測と方向性が一致しています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,28 +1000,28 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-3.23%",
+        "value": "-3.91%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "45% bullish",
+        "value": "48% bullish",
         "url": "https://www.coingecko.com/en/coins/canton-network"
       },
       {
         "label": "CoinTelegraph",
-        "value": "Binance’s Yi He warns of alleged impersonation scam, CoinUp denies ties",
-        "url": "https://cointelegraph.com/news/binances-yi-he-warns-alleged-scammer-coinup-responds?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+        "value": "Kalshi adds India to growing list of restricted jurisdictions",
+        "url": "https://cointelegraph.com/news/kalshi-adds-india-restricted-jurisdictions?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
-        "value": "Bitcoin gets new $54K warning as BTC price hits 11-day low on Asia tech sell-off",
-        "url": "https://cointelegraph.com/markets/bitcoin-gets-new-54k-warning-as-btc-price-hits-11-day-low-on-asia-tech-sell-off?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+        "value": "EU committee advances digital euro bill after key vote",
+        "url": "https://cointelegraph.com/news/eu-committee-digital-euro-cbdc-bill-key-vote?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
-        "value": "THORChain resumes trading more than month after $10M exploit",
-        "url": "https://cointelegraph.com/news/thorchain-resumes-trading-month-10m-exploit?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+        "value": "Former BIS chief softens stance on stablecoins, backs coexistence with fiat",
+        "url": "https://cointelegraph.com/news/former-bis-chief-softens-stance-stablecoins-coexistence-fiat?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

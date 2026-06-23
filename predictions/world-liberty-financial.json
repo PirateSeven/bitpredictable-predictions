@@ -1,6 +1,6 @@
 {
   "coinId": "world-liberty-financial",
-  "generatedAt": "2026-06-23T12:00:08.798910Z",
+  "generatedAt": "2026-06-23T13:00:07.743038Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 0.12199314333599043,
-    "confidence": 0.2559
+    "changePercent24h": -0.22279025227568827,
+    "confidence": 0.4145
   },
   "commentary": {
-    "en": "World Liberty Financial's price is predicted to be flat with a 0.3% decline, with a 46% confidence level. The RSI-14 is neutral at 42, and the Bollinger Band %B is at 0.22, indicating a mid-band position. The short-term trend remains in a downtrend.",
-    "ja": "ワールド・リバティ・フィナンシャル（WORLD-LIBERTY-FINANCIAL）の価格予測は、0.3%の下落を示し、46%の信頼性を持つフラットの予測です。RSI-14は42、ボリンジャー・バンド %Bは0.22、短期傾向は下降傾向を示しています。",
+    "en": "World Liberty Financial's 24-hour return is -2.38% with a predicted direction of flat, indicating a neutral technical signal. The Fear & Greed Index is at 23, reflecting extreme fear in the market. The recent news on stablecoins and digital euros may have a mixed impact on WORLD-LIBERTY-FINANCIAL.",
+    "ja": "ワールド・リバティー・フィナンシャルは24時間で-2.38%の戻りを示し、予測方向はフラットで、技術指標は中立的なものである。恐れと欲求の指数は23で、市場全体が極度の恐怖に包まれていることを示している。安定コインやデジタルユーロに関する最近のニュースは、ワールド・リバティー・フィナンシャルに影響を与える可能性があるが、混在するものである。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-3.23%",
+        "value": "-3.91%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
@@ -1010,18 +1010,18 @@
       },
       {
         "label": "CoinTelegraph",
-        "value": "Binance’s Yi He warns of alleged impersonation scam, CoinUp denies ties",
-        "url": "https://cointelegraph.com/news/binances-yi-he-warns-alleged-scammer-coinup-responds?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+        "value": "Kalshi adds India to growing list of restricted jurisdictions",
+        "url": "https://cointelegraph.com/news/kalshi-adds-india-restricted-jurisdictions?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
-        "value": "Bitcoin gets new $54K warning as BTC price hits 11-day low on Asia tech sell-off",
-        "url": "https://cointelegraph.com/markets/bitcoin-gets-new-54k-warning-as-btc-price-hits-11-day-low-on-asia-tech-sell-off?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+        "value": "EU committee advances digital euro bill after key vote",
+        "url": "https://cointelegraph.com/news/eu-committee-digital-euro-cbdc-bill-key-vote?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
-        "value": "THORChain resumes trading more than month after $10M exploit",
-        "url": "https://cointelegraph.com/news/thorchain-resumes-trading-month-10m-exploit?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+        "value": "Former BIS chief softens stance on stablecoins, backs coexistence with fiat",
+        "url": "https://cointelegraph.com/news/former-bis-chief-softens-stance-stablecoins-coexistence-fiat?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

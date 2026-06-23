@@ -1,6 +1,6 @@
 {
   "coinId": "leo-token",
-  "generatedAt": "2026-06-23T12:00:08.798910Z",
+  "generatedAt": "2026-06-23T13:00:07.743038Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 1.129322986003598,
-    "confidence": 0.9349
+    "changePercent24h": 0.633201029309133,
+    "confidence": 0.8983
   },
   "commentary": {
-    "en": "LEO Token's 24-hour direction is predicted to be flat with a -0.0% return, indicating a stable price movement. The RSI-14 and Bollinger Band %B suggest a neutral market sentiment, while the short-term trend remains sideways. The recent market context, including the Fear & Greed Index and total crypto market cap change, supports this prediction.",
-    "ja": "レオトークンの24時間の方向は、-0.0％のリターンで予測されており、安定した価格動きを示しています。RSI-14とボリンジャーバンド％Bは中立的な市場感情を示しており、短期的なトレンドは横方向に動いています。最近の市場状況、包括的暗号資産市場キャップの変化など、Fear & Greed Indexを含む、予測を裏付けています。",
+    "en": "LEO Token's predicted 24-hour direction is flat with a confidence of 74%, as the RSI-14 and Bollinger Band %B indicate a neutral trend. The recent news on stablecoins and digital currencies may have a limited impact on LEO Token, given the overall market's extreme fear sentiment. The sideways short-term trend and normal volume ratio also suggest a stable price movement.",
+    "ja": "レオ・トークンの24時間予想は、信頼度74％でフラットに推定される。RSI-14とボリンジャー・バンド％Bは中立的な傾向を示しており、安定した価格動向を示唆している。安定化コインやデジタル通貨に関する最近のニュースは、レオ・トークンに限り、極度の恐怖感を持つ総合市場に影響を与える可能性は低い。短期傾向は横方向に推移しており、ボリューム比率も通常の値を示している。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-3.23%",
+        "value": "-3.91%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
@@ -1010,18 +1010,18 @@
       },
       {
         "label": "CoinTelegraph",
-        "value": "Binance’s Yi He warns of alleged impersonation scam, CoinUp denies ties",
-        "url": "https://cointelegraph.com/news/binances-yi-he-warns-alleged-scammer-coinup-responds?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+        "value": "Kalshi adds India to growing list of restricted jurisdictions",
+        "url": "https://cointelegraph.com/news/kalshi-adds-india-restricted-jurisdictions?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
-        "value": "Bitcoin gets new $54K warning as BTC price hits 11-day low on Asia tech sell-off",
-        "url": "https://cointelegraph.com/markets/bitcoin-gets-new-54k-warning-as-btc-price-hits-11-day-low-on-asia-tech-sell-off?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+        "value": "EU committee advances digital euro bill after key vote",
+        "url": "https://cointelegraph.com/news/eu-committee-digital-euro-cbdc-bill-key-vote?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
-        "value": "THORChain resumes trading more than month after $10M exploit",
-        "url": "https://cointelegraph.com/news/thorchain-resumes-trading-month-10m-exploit?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+        "value": "Former BIS chief softens stance on stablecoins, backs coexistence with fiat",
+        "url": "https://cointelegraph.com/news/former-bis-chief-softens-stance-stablecoins-coexistence-fiat?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

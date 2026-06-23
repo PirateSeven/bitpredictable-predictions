@@ -1,6 +1,6 @@
 {
   "coinId": "solana",
-  "generatedAt": "2026-06-23T12:00:08.798910Z",
+  "generatedAt": "2026-06-23T13:00:07.743038Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -5.937033056173474,
-    "confidence": 0.9292
+    "changePercent24h": -5.051885775599928,
+    "confidence": 0.9174
   },
   "commentary": {
-    "en": "Solana's (SOL) 24-hour return is -6.69%, with a predicted flat direction and a confidence level of 27%. The RSI-14 is at 29, indicating an oversold condition. The market context suggests a negative sentiment, with the Fear & Greed Index at 23 and the total crypto market cap experiencing a 3.23% decline.",
-    "ja": "ソラナ（SOL）の24時間リターンは-6.69％、予想はフラット方向で、信頼度は27％。RSI-14は29、オーバーサルド条件である。マーケットコンテキストは否定的な感情を示しており、恐怖と欲求不満指数は23、総暗号資産マーケットキャップは3.23％減少している。",
+    "en": "Solana's 24-hour return is -6.69%, with a predicted flat direction and a confidence level of 27%. The RSI-14 is oversold at 29, and the Bollinger Band %B is at 0.14, indicating a potential bounce. However, the short-term trend remains in a downtrend.",
+    "ja": "ソラナの24時間戻り率は-6.69%で、予想はフラットで信頼度は27%です。RSI-14は29でオーバーサル、ボリンジャーバンド％Bは0.14で、反発の可能性があります。ただし、短期的なトレンドは下降トレンドにあります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-3.23%",
+        "value": "-3.91%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
@@ -1010,18 +1010,18 @@
       },
       {
         "label": "CoinTelegraph",
-        "value": "Binance’s Yi He warns of alleged impersonation scam, CoinUp denies ties",
-        "url": "https://cointelegraph.com/news/binances-yi-he-warns-alleged-scammer-coinup-responds?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+        "value": "Kalshi adds India to growing list of restricted jurisdictions",
+        "url": "https://cointelegraph.com/news/kalshi-adds-india-restricted-jurisdictions?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
-        "value": "Bitcoin gets new $54K warning as BTC price hits 11-day low on Asia tech sell-off",
-        "url": "https://cointelegraph.com/markets/bitcoin-gets-new-54k-warning-as-btc-price-hits-11-day-low-on-asia-tech-sell-off?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+        "value": "EU committee advances digital euro bill after key vote",
+        "url": "https://cointelegraph.com/news/eu-committee-digital-euro-cbdc-bill-key-vote?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
-        "value": "THORChain resumes trading more than month after $10M exploit",
-        "url": "https://cointelegraph.com/news/thorchain-resumes-trading-month-10m-exploit?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+        "value": "Former BIS chief softens stance on stablecoins, backs coexistence with fiat",
+        "url": "https://cointelegraph.com/news/former-bis-chief-softens-stance-stablecoins-coexistence-fiat?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

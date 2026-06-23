@@ -1,6 +1,6 @@
 {
   "coinId": "hedera-hashgraph",
-  "generatedAt": "2026-06-23T12:00:08.798910Z",
+  "generatedAt": "2026-06-23T13:00:07.743038Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -2.609254444156483,
-    "confidence": 0.8954
+    "changePercent24h": -1.8795336046845132,
+    "confidence": 0.8596
   },
   "commentary": {
-    "en": "Hedera is predicted to have a 24-hour direction of DOWN with a -0.7% change, based on technical signals. The current market context suggests a high level of fear, with the Fear & Greed Index at 23. Recent news has been dominated by market volatility and security concerns.",
-    "ja": "ヘダラハッシュグラフは、技術的信号に基づいて24時間の方向性が下落、-0.7％の変化と予想されています。現在の市場状況は、恐怖のレベルが高くなっています。Fear & Greed Indexは23です。最近のニュースは市場の不安定さとセキュリティの懸念に焦点を当てています。",
+    "en": "Hedera's 24-hour direction is predicted to be DOWN with a -0.7% change, indicating a slight decline in the short term. The RSI-14 is at 38, a neutral level, while the Bollinger Band %B is at 0.21, indicating the price is near the mid-band. The recent news on stablecoins and digital euros may have a mixed impact on the market.",
+    "ja": "ヘダラハッシュグラフの24時間の方向は、-0.7%の変化で下向きと予想され、短期的には微妙な下落が見込まれる。RSI-14は38、中立的なレベルにあり、ボリンジャー・バンドの%Bは0.21、価格は中間帯に近い。安定コインやデジタルユーロに関する最近のニュースは市場に混乱をもたらす可能性がある。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,28 +1000,28 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-3.23%",
+        "value": "-3.91%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "75% bullish",
+        "value": "100% bullish",
         "url": "https://www.coingecko.com/en/coins/hedera-hashgraph"
       },
       {
         "label": "CoinTelegraph",
-        "value": "Binance’s Yi He warns of alleged impersonation scam, CoinUp denies ties",
-        "url": "https://cointelegraph.com/news/binances-yi-he-warns-alleged-scammer-coinup-responds?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+        "value": "Kalshi adds India to growing list of restricted jurisdictions",
+        "url": "https://cointelegraph.com/news/kalshi-adds-india-restricted-jurisdictions?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
-        "value": "Bitcoin gets new $54K warning as BTC price hits 11-day low on Asia tech sell-off",
-        "url": "https://cointelegraph.com/markets/bitcoin-gets-new-54k-warning-as-btc-price-hits-11-day-low-on-asia-tech-sell-off?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+        "value": "EU committee advances digital euro bill after key vote",
+        "url": "https://cointelegraph.com/news/eu-committee-digital-euro-cbdc-bill-key-vote?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
-        "value": "THORChain resumes trading more than month after $10M exploit",
-        "url": "https://cointelegraph.com/news/thorchain-resumes-trading-month-10m-exploit?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+        "value": "Former BIS chief softens stance on stablecoins, backs coexistence with fiat",
+        "url": "https://cointelegraph.com/news/former-bis-chief-softens-stance-stablecoins-coexistence-fiat?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "coinId": "bitcoin",
-  "generatedAt": "2026-06-23T12:00:08.798910Z",
+  "generatedAt": "2026-06-23T13:00:07.743038Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -3.776277240944651,
-    "confidence": 0.9393
+    "changePercent24h": -3.097706103554191,
+    "confidence": 0.927
   },
   "commentary": {
-    "en": "Bitcoin's 24-hour direction is predicted to be flat with a -0.3% change, based on a 57% confidence level. The RSI-14 is oversold at 28, and the Bollinger Band %B is at 0.13, indicating a potential short-term bounce. However, the short-term trend remains in a downtrend.",
-    "ja": "ビットコインの24時間の予想は、-0.3%の変化で、57%の信頼性を持って予測されています。RSI-14は28で、オーバーサルです。ボリンジャー・バンドの%Bは0.13で、短期的な反発の可能性があります。ただし、短期的なトレンドは下降トレンドです。",
+    "en": "Bitcoin's 24-hour direction is predicted to be flat with a -0.3% decline, driven by oversold conditions and a downtrend in the short-term trend. The Fear & Greed Index remains in extreme fear, while the CoinGecko community is 71% bullish. Recent news on regulatory developments and market volatility may influence Bitcoin's price.",
+    "ja": "ビットコインの24時間の予測は、-0.3%の下落となり、オーバーサールドの条件と短期のトレンドの下落に推進される。恐怖と欲求不満指数は極度の恐怖の状態にあり、CoinGeckoコミュニティは71%がバブルである。最近のニュースでは、規制開発と市場のボラティリティがビットコインの価格に影響を与える可能性がある。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,28 +1000,28 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-3.23%",
+        "value": "-3.91%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "72% bullish",
+        "value": "71% bullish",
         "url": "https://www.coingecko.com/en/coins/bitcoin"
       },
       {
         "label": "CoinTelegraph",
-        "value": "Binance’s Yi He warns of alleged impersonation scam, CoinUp denies ties",
-        "url": "https://cointelegraph.com/news/binances-yi-he-warns-alleged-scammer-coinup-responds?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+        "value": "Kalshi adds India to growing list of restricted jurisdictions",
+        "url": "https://cointelegraph.com/news/kalshi-adds-india-restricted-jurisdictions?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
-        "value": "Bitcoin gets new $54K warning as BTC price hits 11-day low on Asia tech sell-off",
-        "url": "https://cointelegraph.com/markets/bitcoin-gets-new-54k-warning-as-btc-price-hits-11-day-low-on-asia-tech-sell-off?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+        "value": "EU committee advances digital euro bill after key vote",
+        "url": "https://cointelegraph.com/news/eu-committee-digital-euro-cbdc-bill-key-vote?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
-        "value": "THORChain resumes trading more than month after $10M exploit",
-        "url": "https://cointelegraph.com/news/thorchain-resumes-trading-month-10m-exploit?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+        "value": "Former BIS chief softens stance on stablecoins, backs coexistence with fiat",
+        "url": "https://cointelegraph.com/news/former-bis-chief-softens-stance-stablecoins-coexistence-fiat?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

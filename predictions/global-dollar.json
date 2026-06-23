@@ -1,6 +1,6 @@
 {
   "coinId": "global-dollar",
-  "generatedAt": "2026-06-23T12:00:08.798910Z",
+  "generatedAt": "2026-06-23T13:00:07.743038Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 0.014320426326569557,
+    "changePercent24h": 0.005352938566837898,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "The Global Dollar is expected to remain flat in the next 24 hours with a 0.0% change, based on technical signals. The Fear & Greed Index at 23 indicates extreme fear in the market, while the recent news suggests a mixed sentiment with some positive developments such as Ripple's MiCA license. The overall market context remains cautious.",
-    "ja": "グローバル・ドルは、技術的シグナルに基づいて、次の24時間で0.0％の変動が予想されます。恐怖と欲求不満指数は23で、極度の恐怖を示しており、近日発表されたニュースは、リップルがMiCAライセンスを取得したことや、混乱した市場情勢を示しています。総合的な市場状況は、慎重なものです。",
+    "en": "The Global Dollar (GLOBAL-DOLLAR) is expected to remain flat in the next 24 hours with a 0.0% predicted direction, as the Fear & Greed Index indicates extreme fear in the market. The recent news of Kalshi's restriction in India and the EU's digital euro bill advancement may have a neutral impact on the GLOBAL-DOLLAR. The sideways short-term trend and normal volume ratio also support the flat prediction.",
+    "ja": "グローバル・ドル（GLOBAL-DOLLAR）は、次の24時間に0.0％の予想方向で平穏な状態を維持する可能性があり、Fear & Greed Indexは市場が極度の恐怖に陥っていることを示している。 Kalshiのインドでの制限とEUのデジタル・ユーロ法の進歩などの最近のニュースは、グローバル・ドルに中立的な影響を与える可能性がある。短期的なトレンドは横方向に動いており、ボリュームの比率も正常な値を示している。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,23 +1000,23 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-3.23%",
+        "value": "-3.91%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinTelegraph",
-        "value": "Binance’s Yi He warns of alleged impersonation scam, CoinUp denies ties",
-        "url": "https://cointelegraph.com/news/binances-yi-he-warns-alleged-scammer-coinup-responds?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+        "value": "Kalshi adds India to growing list of restricted jurisdictions",
+        "url": "https://cointelegraph.com/news/kalshi-adds-india-restricted-jurisdictions?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
-        "value": "Bitcoin gets new $54K warning as BTC price hits 11-day low on Asia tech sell-off",
-        "url": "https://cointelegraph.com/markets/bitcoin-gets-new-54k-warning-as-btc-price-hits-11-day-low-on-asia-tech-sell-off?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+        "value": "EU committee advances digital euro bill after key vote",
+        "url": "https://cointelegraph.com/news/eu-committee-digital-euro-cbdc-bill-key-vote?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
-        "value": "THORChain resumes trading more than month after $10M exploit",
-        "url": "https://cointelegraph.com/news/thorchain-resumes-trading-month-10m-exploit?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+        "value": "Former BIS chief softens stance on stablecoins, backs coexistence with fiat",
+        "url": "https://cointelegraph.com/news/former-bis-chief-softens-stance-stablecoins-coexistence-fiat?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }
