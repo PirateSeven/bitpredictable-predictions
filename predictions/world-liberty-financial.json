@@ -1,6 +1,6 @@
 {
   "coinId": "world-liberty-financial",
-  "generatedAt": "2026-06-23T00:00:07.575400Z",
+  "generatedAt": "2026-06-23T01:00:07.889400Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -1.000040374398262,
-    "confidence": 0.8225
+    "changePercent24h": -0.6510863303776084,
+    "confidence": 0.7538
   },
   "commentary": {
-    "en": "World Liberty Financial is predicted to have a 24-hour direction of DOWN with a confidence level of 72%, driven by the current market sentiment of Extreme Fear. The recent news of Bitcoin's funding rate hitting a 2-week high and the overall sideways trend in the short-term may contribute to this prediction. However, the neutral RSI-14 and mid-band Bollinger Band %B suggest a potential stabilization in the near term.",
-    "ja": "ワールド・リバティ・フィナンシャルは、72%の信頼性で24時間方向が下がり、現在の市場感情が極度の恐怖であることや、ビットコインのファンディングレートが2週間の高値を記録したこと、短期的な傾向が横ばいであることなどが影響している可能性がある。RSI-14が中立的で、ボリンジャー・バンドの%Bが中間帯に位置していることから、短期的には安定化が見込まれる可能性もある。",
+    "en": "The model predicts World Liberty Financial will decline ~0.6% over the next 24 hours with high confidence (72%). Price moved -1.40% in the past 24 hours with volume at 0.8× average. Community sentiment on CoinGecko is 0% bullish and the Fear & Greed Index reads \"Extreme Fear\" (23), aligning with the model's forecast.",
+    "ja": "モデルはWorld Liberty Financialが今後24時間で約0.6%下落すると予測しています（信頼度: 高い 72%）。過去24時間のリターンは-1.40%、出来高は平均の0.8倍です。CoinGeckoコミュニティでは0%が強気を示し、Fear & Greed指数は「Extreme Fear」（23）です。予測と方向性が一致しています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.90%",
+        "value": "+0.20%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {

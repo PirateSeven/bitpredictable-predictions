@@ -1,6 +1,6 @@
 {
   "coinId": "dai",
-  "generatedAt": "2026-06-23T00:00:07.575400Z",
+  "generatedAt": "2026-06-23T01:00:07.889400Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.0164,
+    "changePercent24h": -0.04655238919759401,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "Dai (DAI) is expected to remain flat in the next 24 hours with a 95% confidence level, as its RSI-14 is neutral at 47 and Bollinger Band %B is at 0.32, indicating a mid-band position. The recent news on the crypto market, including the Bitcoin funding rate hitting a 2-week high, may have a limited impact on DAI's short-term price movement. Overall, the market context suggests a cautious approach.",
-    "ja": "Dai (DAI) は、次の24時間に95%の確率でフラットの動きを示す可能性があり、RSI-14は47、ボリンジャー・バンドの%Bは0.32と、中間位置にあります。cryptocurrency市場の最近のニュース、ビットコインのファンディングレートが2週間で最高値を記録したことなど、DAIの短期価格動向に影響を与える可能性は限られています。市場状況からみて、慎重なアプローチが必要です。",
+    "en": "The model predicts Dai will trade sideways over the next 24 hours with high confidence (95%). Price moved -0.02% in the past 24 hours with volume at 1.5× average. Community sentiment on CoinGecko is 100% bullish and the Fear & Greed Index reads \"Extreme Fear\" (23), diverging from the model's forecast, adding uncertainty.",
+    "ja": "モデルはDaiが今後24時間で横ばいで推移すると予測しています（信頼度: 高い 95%）。過去24時間のリターンは-0.02%、出来高は平均の1.5倍です。CoinGeckoコミュニティでは100%が強気を示し、Fear & Greed指数は「Extreme Fear」（23）です。予測方向と乖離があり、不確実性が高まっています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,12 +1000,12 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.90%",
+        "value": "+0.20%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "50% bullish",
+        "value": "100% bullish",
         "url": "https://www.coingecko.com/en/coins/dai"
       },
       {

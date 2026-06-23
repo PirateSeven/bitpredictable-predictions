@@ -1,6 +1,6 @@
 {
   "coinId": "bitcoin",
-  "generatedAt": "2026-06-23T00:00:07.575400Z",
+  "generatedAt": "2026-06-23T01:00:07.889400Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -1.0964015431864906,
-    "confidence": 0.8253
+    "changePercent24h": -1.0984466717189973,
+    "confidence": 0.8255
   },
   "commentary": {
-    "en": "Bitcoin is likely to decline by -0.5% in the next 24 hours with a confidence level of 68%. The recent surge in the Bitcoin funding rate has sparked speculation about a potential price increase to $70,000, but the Fear & Greed Index remains in Extreme Fear territory. The short-term trend is sideways, indicating a lack of clear direction.",
-    "ja": "ビットコインは、次の24時間で-0.5%の下落が予想される。信頼度は68%。ビットコインのファンディングレートが2週間で高値を記録したことは、$70,000の価格上昇につながる可能性があるが、恐怖と欲求不満指数は極度の恐怖の領域にある。短期的なトレンドは横方向に動いているため、明確な方向性は見られない。",
+    "en": "Bitcoin is expected to decline by 0.5% in the next 24 hours, with a confidence level of 68%. The recent surge in the funding rate could be a sign of increased bearish sentiment, but the Fear & Greed Index remains at extreme fear levels. The market context suggests a mixed sentiment, with a 75% bullish community on CoinGecko.",
+    "ja": "ビットコインは次の24時間で0.5%の下落が予想され、信頼度は68%です。ファンディングレートの急上昇は、恐怖の感情が強まっていることを示唆していますが、恐怖と欲求不満指数は極度の恐怖のレベルにあります。コインゲッコーのコミュニティでは、75%がバブルを信じています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,12 +1000,12 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.90%",
+        "value": "+0.20%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "74% bullish",
+        "value": "75% bullish",
         "url": "https://www.coingecko.com/en/coins/bitcoin"
       },
       {

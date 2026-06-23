@@ -1,6 +1,6 @@
 {
   "coinId": "uniswap",
-  "generatedAt": "2026-06-23T00:00:07.575400Z",
+  "generatedAt": "2026-06-23T01:00:07.889400Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.1483473268738157,
-    "confidence": 0.1
+    "changePercent24h": -0.4416012632645461,
+    "confidence": 0.2954
   },
   "commentary": {
-    "en": "Uniswap's predicted 24h direction is flat with a confidence of 10%, as the RSI-14 is neutral at 41 and the Bollinger Band %B is at the lower band at 0.13. The recent news of Bitcoin's funding rate hitting a 2-week high and the overall crypto market's slight increase in market cap may have a neutral impact on Uniswap's price. The Fear & Greed Index remains in extreme fear, which could influence investor sentiment.",
-    "ja": "ユニスワップの24時間予想方向は、信頼度10%でフラットです。RSI-14は41で中立的、ボリンジャー・バンド %Bは0.13で下限です。ビットコインのファンディングレートが2週間で高値を達成したニュースや、総暗号資産市場キャップの微増はユニスワップの価格に中立的な影響を与える可能性があります。恐怖と欲求不満指数は極度の恐怖のままで、投資家の感情に影響を与える可能性があります。",
+    "en": "Uniswap's 24-hour direction is predicted to be flat, with a confidence level of 10%. The RSI-14 is at 41, indicating a neutral position. The recent news on the crypto market, including the Bitcoin funding rate hitting a 2-week high, may have a minimal impact on Uniswap's short-term trend.",
+    "ja": "ユニスワップの24時間の方向は、10%の信頼度でフラットと予想されています。RSI-14は41で、中立的な位置を示しています。最近のニュースの中で、ビットコインのファンディングレートが2週間で高値を記録したことは、ユニスワップの短期的なトレンドに影響を与える可能性は低いです。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.90%",
+        "value": "+0.20%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {

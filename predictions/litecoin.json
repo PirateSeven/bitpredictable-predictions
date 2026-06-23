@@ -1,6 +1,6 @@
 {
   "coinId": "litecoin",
-  "generatedAt": "2026-06-23T00:00:07.575400Z",
+  "generatedAt": "2026-06-23T01:00:07.889400Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.01844554474587834,
-    "confidence": 0.2931
+    "changePercent24h": -0.6659261297768235,
+    "confidence": 0.7299
   },
   "commentary": {
-    "en": "Litecoin's 24-hour direction is predicted to be flat with a -0.2% change, indicating a neutral sentiment. The recent news of Bitcoin's funding rate hitting a 2-week high and the overall crypto market's slight increase in market cap suggest a cautious optimism. However, the Fear & Greed Index remains in extreme fear territory, indicating a potential for volatility.",
-    "ja": "リテコインの24時間予測は、-0.2%の変化でフラットと予測されています。ビットコインのファンディングレートが2週間で最高に達し、総コインマーケットキャップがわずかに増加したことから、慎重な楽観主義が見られるものの、恐怖と欲求不満指数は極度の恐怖の領域にあり、波動性が予想される。",
+    "en": "The model predicts Litecoin will trade sideways over the next 24 hours with low confidence (44%). Price is near lower Bollinger Band support, where rebounds are historically more frequent. Community sentiment on CoinGecko is 75% bullish and the Fear & Greed Index reads \"Extreme Fear\" (23), diverging from the model's forecast, adding uncertainty.",
+    "ja": "モデルはLitecoinが今後24時間で横ばいで推移すると予測しています（信頼度: 低い 44%）。価格がボリンジャーバンド下限付近で、サポートからの反発が過去パターンより多く観察されます。CoinGeckoコミュニティでは75%が強気を示し、Fear & Greed指数は「Extreme Fear」（23）です。予測方向と乖離があり、不確実性が高まっています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.90%",
+        "value": "+0.20%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {

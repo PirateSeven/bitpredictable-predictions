@@ -1,6 +1,6 @@
 {
   "coinId": "paypal-usd",
-  "generatedAt": "2026-06-23T00:00:07.575400Z",
+  "generatedAt": "2026-06-23T01:00:07.889400Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.06856930881845429,
+    "changePercent24h": -0.07217141347685818,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "PayPal USD is expected to remain flat in the next 24 hours with a 0.0% predicted return, supported by a neutral RSI-14 reading and mid-band Bollinger Band %B. The recent news of Bitcoin's funding rate hitting a 2-week high and the launch of Franklin Templeton's dedicated crypto division may have a limited impact on PayPal's price. The overall market context, including an Extreme Fear Fear & Greed Index, may also contribute to a stable price.",
-    "ja": "PayPal USD は、次の24時間に0.0%の予想利回りで平坦になる可能性があり、RSI-14の中立的な値とボリンジャーバンドの% Bの中間値によって裏付けられています。ビットコインのファンディングレートが2週間で最高の値を達成し、フランクリン・テンプルトンのデジタル部門が立ち上げられたというニュースは、PayPalの価格に限られた影響を与える可能性があります。Fear & Greed Indexが極度の恐怖を示すなど、総合的な市場状況も価格に安定をもたらす可能性があります。",
+    "en": "The model predicts PayPal USD will trade sideways over the next 24 hours with high confidence (95%). Volume is elevated at 1.5× the daily average, amplifying the directional signal. Community sentiment on CoinGecko is 20% bullish and the Fear & Greed Index reads \"Extreme Fear\" (23), aligning with the model's forecast.",
+    "ja": "モデルはPayPal USDが今後24時間で横ばいで推移すると予測しています（信頼度: 高い 95%）。出来高が平均の1.5倍と高水準で、方向性シグナルを強化しています。CoinGeckoコミュニティでは20%が強気を示し、Fear & Greed指数は「Extreme Fear」（23）です。予測と方向性が一致しています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,12 +1000,12 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.90%",
+        "value": "+0.20%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "17% bullish",
+        "value": "20% bullish",
         "url": "https://www.coingecko.com/en/coins/paypal-usd"
       },
       {

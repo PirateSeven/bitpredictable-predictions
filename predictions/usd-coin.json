@@ -1,6 +1,6 @@
 {
   "coinId": "usd-coin",
-  "generatedAt": "2026-06-23T00:00:07.575400Z",
+  "generatedAt": "2026-06-23T01:00:07.889400Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.000679853873554237,
+    "changePercent24h": -0.00017354113863636556,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "USD Coin (USD-COIN) is expected to remain flat in the next 24 hours with a 0% predicted return, in line with the current neutral RSI-14 reading of 52. The mid-band Bollinger Band %B of 0.77 suggests that USD-COIN is trading within its normal range. The recent news on Bitcoin funding rate and other market developments may have a limited impact on USD-COIN's short-term price movement.",
-    "ja": "USDコイン（USD-COIN）は、次の24時間に0％の予想リターンでフラットを維持する可能性があり、現在のRSI-14の値52は中立的な値です。ボリンジャーバンドの％Bは0.77で、USD-COINは通常の範囲内で取引されていることを示しています。ビットコインのファンディングレートやその他の市場の動向に関する最近のニュースは、USD-COINの短期的な価格動向に限りなく影響を与える可能性があります。",
+    "en": "USD Coin (USD-COIN) is expected to remain flat in the next 24 hours with a 95% confidence level. The recent market context, including the Fear & Greed Index at 23, suggests a cautious sentiment. The neutral RSI-14 and mid-band Bollinger Band %B also support a sideways trend.",
+    "ja": "USD コイン (USD-COIN) は、次の 24 時間で 95% の確率でフラットに推移することが予想されます。Fear & Greed Index が 23 に達したことや、RSI-14 とボリンジャー バンド %B が中間帯にあり、短期的な傾向が横方向に推移していることから、慎重な気分が広がっていることがうかがえる。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,8 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.90%",
+        "value": "+0.20%",
         "url": "https://www.coingecko.com/en/global-charts"
-      },
-      {
-        "label": "CoinGecko Community Sentiment",
-        "value": "0% bullish",
-        "url": "https://www.coingecko.com/en/coins/usd-coin"
       },
       {
         "label": "CoinTelegraph",

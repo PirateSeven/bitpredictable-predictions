@@ -1,6 +1,6 @@
 {
   "coinId": "canton-network",
-  "generatedAt": "2026-06-23T00:00:07.575400Z",
+  "generatedAt": "2026-06-23T01:00:07.889400Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -2.3655896157915945,
-    "confidence": 0.8134
+    "changePercent24h": -3.098545729105294,
+    "confidence": 0.8543
   },
   "commentary": {
-    "en": "Canton's predicted 24h direction is DOWN with a 73% confidence, driven by its position near the upper Bollinger Band and a sideways short-term trend. The Fear & Greed Index remains in Extreme Fear territory, which may contribute to the predicted decline. The recent news on Bitcoin funding rate and Solana's tokenized equity may also impact Canton's price.",
-    "ja": "キャントン ネットワークの予測24時間の方向は、73％の確率で下方に動くことになります。これは、ボリンジャー バンドの上部に位置し、短期の傾向が横方向に動いていることによるものです。恐怖と欲求不満指数は今も極度の恐怖の状態にあり、これが予測される下落に貢献する可能性があります。ビットコインのファンディングレートやソラナのトークン化された株式に関する最近のニュースもキャントン ネットワークの価格に影響を与える可能性があります。",
+    "en": "Canton's predicted 24h direction is DOWN with a 73% confidence level, following a 1.44% 24h actual return. The Bollinger Band %B at 1.02 indicates an overbought condition, while the RSI-14 at 60 is neutral. The market context suggests an Extreme Fear sentiment, with a total crypto market cap 24h change of +0.20%.",
+    "ja": "カントン ネットワークの予測24時間方向は下に動くことになり、73%の確信度で、24時間の実際のリターンは1.44%です。ボリンジャー バンド %B が 1.02 であることはオーバーボールドの条件を示し、RSI-14 が 60 であることは中立的な条件です。市場状況は極度の恐怖の感情を示しており、総暗号資産市場キャップの24時間変化は+0.20%です。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,12 +1000,12 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.90%",
+        "value": "+0.20%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "33% bullish",
+        "value": "35% bullish",
         "url": "https://www.coingecko.com/en/coins/canton-network"
       },
       {
