@@ -1,6 +1,6 @@
 {
   "coinId": "blackrock-usd-institutional-digital-liquidity-fund",
-  "generatedAt": "2026-06-23T15:00:07.673872Z",
+  "generatedAt": "2026-06-23T16:00:08.058168Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 0.09636246864594405,
+    "changePercent24h": 0.1137,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "The Blackrock USD Institutional Digital Liquidity Fund is expected to remain flat with a 0.1% increase in the next 24 hours, as indicated by our technical analysis. The fund's overbought RSI-14 reading and low volume ratio suggest a potential consolidation phase. The current market context, with an extreme fear sentiment and a decline in the total crypto market cap, may also contribute to this flat direction.",
-    "ja": "ブラックロック US ドル インスティテューショナル デジタル リキデティ フンドは、次の 24 時間で 0.1% の増加が予想されます。これは、技術分析から示唆されています。RSI-14 のオーバーボールド読みとボリューム比率の低さは、潜在的なコンソリデーション期を示唆しています。現在の市場状況、極度の恐怖感と総コインマーケットキャップの減少は、この方向の平坦化に寄与する可能性があります。",
+    "en": "The model predicts BlackRock USD Institutional Digital Liquidity Fund will trade sideways over the next 24 hours with high confidence (95%). RSI has reached overbought territory (100), suggesting elevated selling pressure. Community sentiment on CoinGecko is 100% bullish and the Fear & Greed Index reads \"Extreme Fear\" (23), diverging from the model's forecast, adding uncertainty.",
+    "ja": "モデルはBlackRock USD Institutional Digital Liquidity Fundが今後24時間で横ばいで推移すると予測しています（信頼度: 高い 95%）。RSIが100と買われすぎ水準に達しており、短期的な売り圧力が高まりやすい局面です。CoinGeckoコミュニティでは100%が強気を示し、Fear & Greed指数は「Extreme Fear」（23）です。予測方向と乖離があり、不確実性が高まっています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-3.39%",
+        "value": "-3.61%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
@@ -1010,18 +1010,18 @@
       },
       {
         "label": "CoinTelegraph",
+        "value": "Chainlink joins European and Korean bank consortia to develop FX settlement network",
+        "url": "https://cointelegraph.com/news/chainlink-europe-korea-banks-stablecoin-fx-settlement-project-pangea?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitcoin teases $62K breakdown as analysis sees Micron earnings volatility next",
+        "url": "https://cointelegraph.com/markets/bitcoin-teases-62k-breakdown-as-analysis-sees-micron-earnings-volatility-next?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
         "value": "Bitcoin slump worsens amid SpaceX rout: Can BTC price hold $60K any longer?",
         "url": "https://cointelegraph.com/markets/bitcoin-slump-worsens-amid-spacex-rout-can-btc-price-hold-60k-any-longer?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Why tokenized SpaceX shares broke before retail investors could buy them",
-        "url": "https://cointelegraph.com/learn/tokenized-spacex-shares-xstocks-refunds?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Here’s what happened in crypto today",
-        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

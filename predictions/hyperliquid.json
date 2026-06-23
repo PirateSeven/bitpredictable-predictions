@@ -1,6 +1,6 @@
 {
   "coinId": "hyperliquid",
-  "generatedAt": "2026-06-23T15:00:07.673872Z",
+  "generatedAt": "2026-06-23T16:00:08.058168Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -4.656905542793834,
-    "confidence": 0.8983
+    "changePercent24h": -5.015725116499371,
+    "confidence": 0.9052
   },
   "commentary": {
-    "en": "Hyperliquid is predicted to decline by 1.8% in the next 24 hours, with a confidence level of 76%. The current market sentiment is extremely fearful, with the Fear & Greed Index at 23. The recent news about the Bitcoin slump and SpaceX rout may have a negative impact on the cryptocurrency market.",
-    "ja": "Hyperliquid は、次の 24 時間で 1.8% の下落が予想され、信頼度は 76% です。 Fear & Greed Index は 23 で、極度の恐れの感情です。 Bitcoin の下落と SpaceX の路線のニュースは、暗号資産市場に負の影響を与える可能性があります。",
+    "en": "Hyperliquid (HYPERLIQUID) is expected to decline by 1.8% in the next 24 hours with a confidence level of 76%. The current market sentiment is extremely fearful, with the Fear & Greed Index at 23. The recent news surrounding Chainlink and Bitcoin's price action may have a negative impact on HYPERLIQUID.",
+    "ja": "ハイパーリクイッド（HYPERLIQUID）は、次の24時間で1.8％の下落が予想され、信頼度は76％です。 Fear & Greed Indexは23で、極度の恐怖の状況です。Chainlinkとビットコインの価格動向に関する最近のニュースは、ハイパーリクイッドに否定的な影響を与える可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,28 +1000,28 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-3.39%",
+        "value": "-3.61%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "37% bullish",
+        "value": "38% bullish",
         "url": "https://www.coingecko.com/en/coins/hyperliquid"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Chainlink joins European and Korean bank consortia to develop FX settlement network",
+        "url": "https://cointelegraph.com/news/chainlink-europe-korea-banks-stablecoin-fx-settlement-project-pangea?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitcoin teases $62K breakdown as analysis sees Micron earnings volatility next",
+        "url": "https://cointelegraph.com/markets/bitcoin-teases-62k-breakdown-as-analysis-sees-micron-earnings-volatility-next?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
         "value": "Bitcoin slump worsens amid SpaceX rout: Can BTC price hold $60K any longer?",
         "url": "https://cointelegraph.com/markets/bitcoin-slump-worsens-amid-spacex-rout-can-btc-price-hold-60k-any-longer?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Why tokenized SpaceX shares broke before retail investors could buy them",
-        "url": "https://cointelegraph.com/learn/tokenized-spacex-shares-xstocks-refunds?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Here’s what happened in crypto today",
-        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

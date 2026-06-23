@@ -1,6 +1,6 @@
 {
   "coinId": "crypto-com-chain",
-  "generatedAt": "2026-06-23T15:00:07.673872Z",
+  "generatedAt": "2026-06-23T16:00:08.058168Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -2.1808349113689762,
-    "confidence": 0.8874
+    "changePercent24h": -1.5681018654860783,
+    "confidence": 0.8494
   },
   "commentary": {
-    "en": "Cronos's 24-hour direction is predicted to be flat with a -0.4% change, indicating a neutral sentiment. The recent market context, including an Extreme Fear index and a total crypto market cap decline of 3.39%, suggests a bearish trend. The short-term trend and recent news about the Bitcoin slump and regulatory updates may impact Cronos's price.",
-    "ja": "Cronos の24時間の予測方向は、-0.4％の変化でフラットであることを示唆しており、中立的な感情を表しています。最近の市場状況、特にエクストリーム・フィア指数と総暗号資産市場キャップの3.39％の下落は、陰性の傾向を示しています。短期の傾向とビットコインの下落や規制ニュースはCronosの価格に影響を与える可能性があります。",
+    "en": "The model predicts Cronos will trade sideways over the next 24 hours with moderate confidence (59%). The short-term SMA is below the medium-term SMA, indicating weakening momentum. Community sentiment on CoinGecko is 57% bullish and the Fear & Greed Index reads \"Extreme Fear\" (23), diverging from the model's forecast, adding uncertainty.",
+    "ja": "モデルはCronosが今後24時間で横ばいで推移すると予測しています（信頼度: 中程度の 59%）。短期移動平均が中期移動平均を下回り、モメンタムの低下が示されています。CoinGeckoコミュニティでは57%が強気を示し、Fear & Greed指数は「Extreme Fear」（23）です。予測方向と乖離があり、不確実性が高まっています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-3.39%",
+        "value": "-3.61%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
@@ -1010,18 +1010,18 @@
       },
       {
         "label": "CoinTelegraph",
+        "value": "Chainlink joins European and Korean bank consortia to develop FX settlement network",
+        "url": "https://cointelegraph.com/news/chainlink-europe-korea-banks-stablecoin-fx-settlement-project-pangea?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitcoin teases $62K breakdown as analysis sees Micron earnings volatility next",
+        "url": "https://cointelegraph.com/markets/bitcoin-teases-62k-breakdown-as-analysis-sees-micron-earnings-volatility-next?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
         "value": "Bitcoin slump worsens amid SpaceX rout: Can BTC price hold $60K any longer?",
         "url": "https://cointelegraph.com/markets/bitcoin-slump-worsens-amid-spacex-rout-can-btc-price-hold-60k-any-longer?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Why tokenized SpaceX shares broke before retail investors could buy them",
-        "url": "https://cointelegraph.com/learn/tokenized-spacex-shares-xstocks-refunds?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Here’s what happened in crypto today",
-        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

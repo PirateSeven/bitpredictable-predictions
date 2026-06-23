@@ -1,6 +1,6 @@
 {
   "coinId": "ethereum",
-  "generatedAt": "2026-06-23T15:00:07.673872Z",
+  "generatedAt": "2026-06-23T16:00:08.058168Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -2.0015669369352524,
-    "confidence": 0.8362
+    "changePercent24h": -1.6899988107811914,
+    "confidence": 0.8099
   },
   "commentary": {
-    "en": "Ethereum's 24-hour direction is predicted to be flat with a -0.4% change, indicating a possible stabilization after a -6.44% drop. The RSI-14 is oversold at 30, suggesting a potential bounce. However, the short-term trend remains in a downtrend, and the Fear & Greed Index is at an extreme fear level of 23.",
-    "ja": "エーテレムの24時間の予想方向は、-0.4%の変化でフラット化し、-6.44%の落とし込みを終えた可能性があります。RSI-14は30でオーバーサウンドの状態であり、反発の可能性があります。しかし、短期のトレンドは下降傾向にあり、恐怖と欲求不満指数は23の極度の恐怖レベルにあります。",
+    "en": "Ethereum's 24-hour direction is predicted to be flat with a -0.4% change, but the confidence level is relatively low at 46%. The RSI-14 is oversold at 30, and the Bollinger Band %B is at 0.20, indicating a potential bounce. However, the short-term trend remains in a downtrend.",
+    "ja": "イーサリアムの24時間の予測は、-0.4%の変化でフラットであるが、信頼度は46％に低い。RSI-14は30でオーバーサル、ボリンジャーバンド％Bは0.20で、反発の可能性があるが、短期的な傾向は下降傾向にある。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,28 +1000,28 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-3.39%",
+        "value": "-3.61%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "80% bullish",
+        "value": "78% bullish",
         "url": "https://www.coingecko.com/en/coins/ethereum"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Chainlink joins European and Korean bank consortia to develop FX settlement network",
+        "url": "https://cointelegraph.com/news/chainlink-europe-korea-banks-stablecoin-fx-settlement-project-pangea?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitcoin teases $62K breakdown as analysis sees Micron earnings volatility next",
+        "url": "https://cointelegraph.com/markets/bitcoin-teases-62k-breakdown-as-analysis-sees-micron-earnings-volatility-next?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
         "value": "Bitcoin slump worsens amid SpaceX rout: Can BTC price hold $60K any longer?",
         "url": "https://cointelegraph.com/markets/bitcoin-slump-worsens-amid-spacex-rout-can-btc-price-hold-60k-any-longer?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Why tokenized SpaceX shares broke before retail investors could buy them",
-        "url": "https://cointelegraph.com/learn/tokenized-spacex-shares-xstocks-refunds?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Here’s what happened in crypto today",
-        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

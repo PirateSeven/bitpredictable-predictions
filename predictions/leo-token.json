@@ -1,6 +1,6 @@
 {
   "coinId": "leo-token",
-  "generatedAt": "2026-06-23T15:00:07.673872Z",
+  "generatedAt": "2026-06-23T16:00:08.058168Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 0.20019664328594974,
-    "confidence": 0.7996
+    "changePercent24h": -0.1283069557793714,
+    "confidence": 0.7615
   },
   "commentary": {
-    "en": "LEO Token's 24-hour direction is predicted to be flat with a 0.0% return, indicating a neutral sentiment. The recent market context, including the Fear & Greed Index at 23 and the total crypto market cap 24h change at -3.39%, suggests a bearish trend. However, the CoinGecko community's 67% bullish sentiment may provide some support for LEO-TOKEN.",
-    "ja": "LEO Token の 24 時間の方向は、0.0% のリターンで予測されており、中立的な感情を示しています。Fear & Greed Index が 23 で、総暗号資産マーケットキャップ 24 時間の変化が -3.39% であることから、ベアのトレンドが見られます。ただし、CoinGecko コミュニティの 67% の bulls が LEO-TOKEN に対して一定のサポートを提供する可能性があります。",
+    "en": "LEO Token's price is expected to remain flat in the next 24 hours with a confidence of 74%, as the RSI-14 and Bollinger Band %B indicate a neutral trend. The recent news of Chainlink joining a bank consortium may have a positive impact, but the overall market sentiment remains in extreme fear. The short-term trend is sideways, with a 24h actual return of +0.29%.",
+    "ja": "レオトークンの価格は、次の24時間でフラットの動きを予想しており、信頼度は74%である。RSI-14とボリンジャー・バンド％Bは中立的なトレンドを示しており、近況のChainlinkが銀行コンソーシアムに参加したニュースは肯定的な影響を与える可能性があるが、市場全体の感情は極度の恐怖の状態である。短期トレンドは横方向で、24時間実際のリターンは+0.29%である。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-3.39%",
+        "value": "-3.61%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
@@ -1010,18 +1010,18 @@
       },
       {
         "label": "CoinTelegraph",
+        "value": "Chainlink joins European and Korean bank consortia to develop FX settlement network",
+        "url": "https://cointelegraph.com/news/chainlink-europe-korea-banks-stablecoin-fx-settlement-project-pangea?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitcoin teases $62K breakdown as analysis sees Micron earnings volatility next",
+        "url": "https://cointelegraph.com/markets/bitcoin-teases-62k-breakdown-as-analysis-sees-micron-earnings-volatility-next?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
         "value": "Bitcoin slump worsens amid SpaceX rout: Can BTC price hold $60K any longer?",
         "url": "https://cointelegraph.com/markets/bitcoin-slump-worsens-amid-spacex-rout-can-btc-price-hold-60k-any-longer?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Why tokenized SpaceX shares broke before retail investors could buy them",
-        "url": "https://cointelegraph.com/learn/tokenized-spacex-shares-xstocks-refunds?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Here’s what happened in crypto today",
-        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

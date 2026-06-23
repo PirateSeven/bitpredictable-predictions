@@ -1,6 +1,6 @@
 {
   "coinId": "world-liberty-financial",
-  "generatedAt": "2026-06-23T15:00:07.673872Z",
+  "generatedAt": "2026-06-23T16:00:08.058168Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -1.4952567229540674,
-    "confidence": 0.8173
+    "changePercent24h": -1.567337292494754,
+    "confidence": 0.8246
   },
   "commentary": {
-    "en": "World Liberty Financial's 24h direction is predicted to be flat with a -0.4% change, indicating a neutral sentiment. The recent news of the Bitcoin slump and SpaceX rout may have contributed to the current market fear, as reflected in the Fear & Greed Index of 23. The short-term trend remains in a downtrend.",
-    "ja": "ワールド・リバティ・フィナンシャルは24時間の方向性は予想されるが、-0.4%の変化で中立的な感覚を示しています。ビットコインの低下とスペースXの低下は、恐怖指数の23に貢献した可能性があります。短期的な傾向は下降傾向を維持しています。",
+    "en": "World Liberty Financial's 24-hour direction is predicted to be flat with a -0.4% change, indicating a neutral sentiment. The recent downtrend in the short-term trend and the extreme fear in the Fear & Greed Index suggest a bearish market sentiment. The recent news about Chainlink and Bitcoin's performance may not directly impact World Liberty Financial's price.",
+    "ja": "ワールド・リバティー・フィナンシャルは24時間の予測方向はフラットで-0.4%の変化を示しており、中立的な意見を示しています。短期のトレンドの下降と恐怖のFear & Greed Indexは、陰性の市場感情を示しています。チェーンリンクとビットコインの最近のニュースはワールド・リバティー・フィナンシャルの価格に直接影響しない可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-3.39%",
+        "value": "-3.61%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
@@ -1010,18 +1010,18 @@
       },
       {
         "label": "CoinTelegraph",
+        "value": "Chainlink joins European and Korean bank consortia to develop FX settlement network",
+        "url": "https://cointelegraph.com/news/chainlink-europe-korea-banks-stablecoin-fx-settlement-project-pangea?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitcoin teases $62K breakdown as analysis sees Micron earnings volatility next",
+        "url": "https://cointelegraph.com/markets/bitcoin-teases-62k-breakdown-as-analysis-sees-micron-earnings-volatility-next?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
         "value": "Bitcoin slump worsens amid SpaceX rout: Can BTC price hold $60K any longer?",
         "url": "https://cointelegraph.com/markets/bitcoin-slump-worsens-amid-spacex-rout-can-btc-price-hold-60k-any-longer?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Why tokenized SpaceX shares broke before retail investors could buy them",
-        "url": "https://cointelegraph.com/learn/tokenized-spacex-shares-xstocks-refunds?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Here’s what happened in crypto today",
-        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

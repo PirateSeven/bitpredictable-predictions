@@ -1,6 +1,6 @@
 {
   "coinId": "near",
-  "generatedAt": "2026-06-23T15:00:07.673872Z",
+  "generatedAt": "2026-06-23T16:00:08.058168Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -5.296289043892571,
-    "confidence": 0.8207
+    "changePercent24h": -2.149156779226114,
+    "confidence": 0.5854
   },
   "commentary": {
-    "en": "NEAR Protocol (NEAR) is expected to decline by 5.8% in the next 24 hours, with a confidence level of 83%. The current market sentiment is extreme fear, as indicated by the Fear & Greed Index of 23. The recent news of the Bitcoin slump and the SpaceX rout may have a negative impact on the overall crypto market.",
-    "ja": "NEAR Protocol (NEAR) は、次の24時間で5.8%の下落が予想され、確実性は83%です。Fear & Greed Indexは23で、極度の恐怖の状態です。Bitcoinの下落とSpaceXのルートのニュースは、全体的な暗号通貨市場に負の影響を与える可能性があります。",
+    "en": "NEAR Protocol's price is predicted to drop by -5.8% in the next 24 hours, with a confidence level of 83%. The RSI-14 is at 34, indicating a neutral trend. The short-term trend is in a downtrend, with the SMA7/SMA24 ratio showing a decline.",
+    "ja": "NEAR Protocolの価格は、来日24時間で-5.8%の下落が予想され、信頼度は83%。RSI-14は34で、傾向は中立的。短期傾向は下降傾向で、SMA7/SMA24比率は下落を示している。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-3.39%",
+        "value": "-3.61%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
@@ -1010,18 +1010,18 @@
       },
       {
         "label": "CoinTelegraph",
+        "value": "Chainlink joins European and Korean bank consortia to develop FX settlement network",
+        "url": "https://cointelegraph.com/news/chainlink-europe-korea-banks-stablecoin-fx-settlement-project-pangea?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitcoin teases $62K breakdown as analysis sees Micron earnings volatility next",
+        "url": "https://cointelegraph.com/markets/bitcoin-teases-62k-breakdown-as-analysis-sees-micron-earnings-volatility-next?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
         "value": "Bitcoin slump worsens amid SpaceX rout: Can BTC price hold $60K any longer?",
         "url": "https://cointelegraph.com/markets/bitcoin-slump-worsens-amid-spacex-rout-can-btc-price-hold-60k-any-longer?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Why tokenized SpaceX shares broke before retail investors could buy them",
-        "url": "https://cointelegraph.com/learn/tokenized-spacex-shares-xstocks-refunds?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Here’s what happened in crypto today",
-        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

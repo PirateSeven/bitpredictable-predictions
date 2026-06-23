@@ -1,6 +1,6 @@
 {
   "coinId": "stellar",
-  "generatedAt": "2026-06-23T15:00:07.673872Z",
+  "generatedAt": "2026-06-23T16:00:08.058168Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -2.912908013651403,
-    "confidence": 0.8376
+    "changePercent24h": -0.9454488737676545,
+    "confidence": 0.5704
   },
   "commentary": {
-    "en": "Stellar is predicted to decline by 1.4% in the next 24 hours, with a confidence level of 67%. The recent downturn in the crypto market, coupled with the extreme fear sentiment, may continue to weigh on Stellar's price. The short-term trend remains in a downtrend.",
-    "ja": "ステララーは、次の24時間で1.4%の下落が予想され、信頼度は67%です。最近の暗号通貨市場の低迷と極度の恐怖感は、ステララーの価格に影響を与え続ける可能性があります。短期の傾向は下降傾向にあります。",
+    "en": "Stellar is predicted to move down by 1.4% in the next 24 hours with a confidence level of 67%. The current market context, including the Fear & Greed Index at 23 and the total crypto market cap 24h change of -3.61%, suggests a bearish trend. The recent news about Chainlink and SpaceX may have a limited impact on Stellar's price.",
+    "ja": "ステララーは、次の24時間に1.4%下落する予想があり、信頼度は67%です。現在の市場状況、恐怖と欲求不満指数が23、総暗号資産市場キャップ24時間変化が-3.61%であることを考えると、下落の傾向が見られます。Chainlinkとスペースエックスの最近のニュースは、ステララーの価格に限りなく影響を与える可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,28 +1000,28 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-3.39%",
+        "value": "-3.61%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "47% bullish",
+        "value": "44% bullish",
         "url": "https://www.coingecko.com/en/coins/stellar"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Chainlink joins European and Korean bank consortia to develop FX settlement network",
+        "url": "https://cointelegraph.com/news/chainlink-europe-korea-banks-stablecoin-fx-settlement-project-pangea?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitcoin teases $62K breakdown as analysis sees Micron earnings volatility next",
+        "url": "https://cointelegraph.com/markets/bitcoin-teases-62k-breakdown-as-analysis-sees-micron-earnings-volatility-next?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
         "value": "Bitcoin slump worsens amid SpaceX rout: Can BTC price hold $60K any longer?",
         "url": "https://cointelegraph.com/markets/bitcoin-slump-worsens-amid-spacex-rout-can-btc-price-hold-60k-any-longer?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Why tokenized SpaceX shares broke before retail investors could buy them",
-        "url": "https://cointelegraph.com/learn/tokenized-spacex-shares-xstocks-refunds?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Here’s what happened in crypto today",
-        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

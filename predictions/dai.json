@@ -1,6 +1,6 @@
 {
   "coinId": "dai",
-  "generatedAt": "2026-06-23T15:00:07.673872Z",
+  "generatedAt": "2026-06-23T16:00:08.058168Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 0.03711399993353305,
+    "changePercent24h": 0.047155071687187494,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "Dai (DAI) is expected to remain flat in the next 24 hours with a 0.0% predicted return, driven by neutral technical signals and a sideways short-term trend. The Fear & Greed Index remains in extreme fear territory, while the CoinGecko community remains 100% bullish. Recent news surrounding the crypto market, including the Bitcoin slump and regulatory updates, may have a neutral impact on DAI's price.",
-    "ja": "Dai (DAI) は、来日24時間で0.0％の予想リターンでフラットに推移し、ニュートラルな技術指標と短期の横方向のトレンドによって推進される。恐怖と欲求不満指数は極度の恐怖の領域にあり、CoinGeckoコミュニティは100％のバブルである。最近のニュース、ビットコインの下落や規制の更新などは、DAIの価格に中立的な影響を与える可能性がある。",
+    "en": "Dai (DAI) is expected to remain flat in the next 24 hours with a predicted return of -0.0%. The current market context, including the Fear & Greed Index and total crypto market cap, suggests a cautious outlook. The recent news of Chainlink joining a bank consortium may have a positive impact on DAI's price.",
+    "ja": "Dai（DAI）は、次の24時間で-0.0％の予想リターンでフラットに維持される可能性があります。Fear & Greed Indexや総暗号資産市場キャップなどの現在の市場状況は、慎重な展開を示しています。Chainlinkが銀行コンソーシアムに参加したニュースは、DAIの価格に肯定的な影響を与える可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-3.39%",
+        "value": "-3.61%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
@@ -1010,18 +1010,18 @@
       },
       {
         "label": "CoinTelegraph",
+        "value": "Chainlink joins European and Korean bank consortia to develop FX settlement network",
+        "url": "https://cointelegraph.com/news/chainlink-europe-korea-banks-stablecoin-fx-settlement-project-pangea?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitcoin teases $62K breakdown as analysis sees Micron earnings volatility next",
+        "url": "https://cointelegraph.com/markets/bitcoin-teases-62k-breakdown-as-analysis-sees-micron-earnings-volatility-next?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
         "value": "Bitcoin slump worsens amid SpaceX rout: Can BTC price hold $60K any longer?",
         "url": "https://cointelegraph.com/markets/bitcoin-slump-worsens-amid-spacex-rout-can-btc-price-hold-60k-any-longer?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Why tokenized SpaceX shares broke before retail investors could buy them",
-        "url": "https://cointelegraph.com/learn/tokenized-spacex-shares-xstocks-refunds?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Here’s what happened in crypto today",
-        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

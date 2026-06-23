@@ -1,6 +1,6 @@
 {
   "coinId": "dogecoin",
-  "generatedAt": "2026-06-23T15:00:07.673872Z",
+  "generatedAt": "2026-06-23T16:00:08.058168Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -3.3192902589781985,
-    "confidence": 0.9122
+    "changePercent24h": -2.4822987352816113,
+    "confidence": 0.8853
   },
   "commentary": {
-    "en": "Dogecoin is likely to continue its downtrend in the short term, with a predicted 24h direction of DOWN and a confidence level of 71%. The recent news of the Bitcoin slump and the SpaceX rout may have contributed to the overall market fear, which is currently at an Extreme Fear level. The oversold RSI-14 and lower Bollinger Band %B also indicate a potential short-term bounce.",
-    "ja": "ドージコインは短期的には下降の可能性があり、24時間予測の方向はDOWN、信頼度は71％です。ビットコインの下落とスペースエクスプロレーションの影響により、市場は恐怖の状態にあり、恐怖と欲求不満指数は極度の恐怖のレベルに達しています。RSI-14はオーバーサールド、ボリンジャー・バンドの%Bは下方にあり、短期的な反発の可能性があります。",
+    "en": "Dogecoin is expected to continue its downward trend in the next 24 hours with a predicted return of -0.9% due to its oversold RSI-14 level and downtrend in short-term trend. However, the recent news of Chainlink's partnership with European and Korean banks may have a positive impact on the overall market sentiment. The Fear & Greed Index remains in Extreme Fear territory, suggesting a potential buying opportunity.",
+    "ja": "ドージコインは、次の24時間に下降を続ける可能性があり、予想されるリターンは-0.9%である。RSI-14がオーバーサルドレベルに達し、短期傾向が下降傾向にあるためである。Chainlinkがヨーロッパと韓国の銀行と提携したニュースは、市場全体の感性に良い影響を与える可能性がある。Fear & Greed Indexは、極度の恐怖の領域にあり、買い機の機会が生まれる可能性がある。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-3.39%",
+        "value": "-3.61%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
@@ -1010,18 +1010,18 @@
       },
       {
         "label": "CoinTelegraph",
+        "value": "Chainlink joins European and Korean bank consortia to develop FX settlement network",
+        "url": "https://cointelegraph.com/news/chainlink-europe-korea-banks-stablecoin-fx-settlement-project-pangea?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitcoin teases $62K breakdown as analysis sees Micron earnings volatility next",
+        "url": "https://cointelegraph.com/markets/bitcoin-teases-62k-breakdown-as-analysis-sees-micron-earnings-volatility-next?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
         "value": "Bitcoin slump worsens amid SpaceX rout: Can BTC price hold $60K any longer?",
         "url": "https://cointelegraph.com/markets/bitcoin-slump-worsens-amid-spacex-rout-can-btc-price-hold-60k-any-longer?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Why tokenized SpaceX shares broke before retail investors could buy them",
-        "url": "https://cointelegraph.com/learn/tokenized-spacex-shares-xstocks-refunds?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Here’s what happened in crypto today",
-        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

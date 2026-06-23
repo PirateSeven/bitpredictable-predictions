@@ -1,6 +1,6 @@
 {
   "coinId": "shiba-inu",
-  "generatedAt": "2026-06-23T15:00:07.673872Z",
+  "generatedAt": "2026-06-23T16:00:08.058168Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 0.27036987362730636,
-    "confidence": 0.3809
+    "changePercent24h": 0.621871041613827,
+    "confidence": 0.6305
   },
   "commentary": {
-    "en": "Shiba Inu's flat 24h direction prediction is based on neutral RSI-14 and mid band Bollinger Band %B. However, the downtrend in short-term trend and recent market downturn, including the total crypto market cap and Bitcoin's flat return, may weigh on SHIBA-INU's price. The Fear & Greed Index at Extreme Fear further supports this cautious view.",
-    "ja": "シャイバ・インウの24時間の方向予測は中立的なRSI-14とバンドの中央のボリンジャー・バンド％Bに基づいています。しかし、短期のトレンドの下降と最近の市場の低迷、包括的暗号資産の市場キャップとビットコインのflatのリターンはSHIBA-INUの価格に影響を与える可能性があります。恐怖と欲求不満指数が極度の恐怖に達していることもこの慎重な見方を裏付けています。",
+    "en": "Shiba Inu's (SHIB) 24-hour direction is predicted to be flat with a -0.4% change, but the confidence level is only 53%. The recent news about Chainlink and Bitcoin's volatility may not have a significant impact on SHIB's price. The Fear & Greed Index remains in Extreme Fear territory, which could influence investor sentiment.",
+    "ja": "Shiba Inu (SHIB) の24時間の方向は、-0.4% の変化で予想されていますが、信頼度は 53% だけです。Chainlink とビットコインのボリュームの変動はSHIBの価格に影響を与えない可能性があります。Fear & Greed Indexは今も極度の恐怖の状態にあります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,28 +1000,28 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-3.39%",
+        "value": "-3.61%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "59% bullish",
+        "value": "62% bullish",
         "url": "https://www.coingecko.com/en/coins/shiba-inu"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Chainlink joins European and Korean bank consortia to develop FX settlement network",
+        "url": "https://cointelegraph.com/news/chainlink-europe-korea-banks-stablecoin-fx-settlement-project-pangea?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitcoin teases $62K breakdown as analysis sees Micron earnings volatility next",
+        "url": "https://cointelegraph.com/markets/bitcoin-teases-62k-breakdown-as-analysis-sees-micron-earnings-volatility-next?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
         "value": "Bitcoin slump worsens amid SpaceX rout: Can BTC price hold $60K any longer?",
         "url": "https://cointelegraph.com/markets/bitcoin-slump-worsens-amid-spacex-rout-can-btc-price-hold-60k-any-longer?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Why tokenized SpaceX shares broke before retail investors could buy them",
-        "url": "https://cointelegraph.com/learn/tokenized-spacex-shares-xstocks-refunds?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Here’s what happened in crypto today",
-        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

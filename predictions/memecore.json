@@ -1,6 +1,6 @@
 {
   "coinId": "memecore",
-  "generatedAt": "2026-06-23T15:00:07.673872Z",
+  "generatedAt": "2026-06-23T16:00:08.058168Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": 0.39441743608345103,
-    "confidence": 0.4948
+    "changePercent24h": -0.07137546181788001,
+    "confidence": 0.1
   },
   "commentary": {
-    "en": "MemeCore (MEMECORE) is expected to decline by -0.6% in the next 24 hours, with a confidence level of 61%. The current market sentiment is extreme fear, with a Fear & Greed Index of 23. The recent news of a Bitcoin slump and SpaceX rout may have a negative impact on MemeCore's price.",
-    "ja": "メムコア (MEMECORE) の価格は次の24時間で-0.6%下落する可能性があり、信頼度は61%です。現在の市場感情は極度の恐怖で、Fear & Greed Indexは23です。ビットコインの下落とスペースエクスプロレーションのニュースはメムコアの価格に負の影響を与える可能性があります。",
+    "en": "MemeCore (MEMECORE) is predicted to move downward with a 61% confidence level, driven by a downtrend in the short-term trend and a high volume ratio. The Fear & Greed Index remains in Extreme Fear territory, contributing to the bearish sentiment. The recent news on Chainlink's FX settlement network development and Bitcoin's price volatility may have a limited impact on MEMECORE's price.",
+    "ja": "メムコア (MEMECORE) は、短期傾向の下降と高ボリューム比率の影響により、61% の確率で下落する可能性があります。恐怖と欲求不満指数は極度の恐怖の状態にあり、メムコアの価格に影響を与えます。チェーンリンクのFX決済ネットワーク開発やビットコインの価格変動に関するニュースは、メムコアの価格に限定的な影響を与える可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-3.39%",
+        "value": "-3.61%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
@@ -1010,18 +1010,18 @@
       },
       {
         "label": "CoinTelegraph",
+        "value": "Chainlink joins European and Korean bank consortia to develop FX settlement network",
+        "url": "https://cointelegraph.com/news/chainlink-europe-korea-banks-stablecoin-fx-settlement-project-pangea?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitcoin teases $62K breakdown as analysis sees Micron earnings volatility next",
+        "url": "https://cointelegraph.com/markets/bitcoin-teases-62k-breakdown-as-analysis-sees-micron-earnings-volatility-next?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
         "value": "Bitcoin slump worsens amid SpaceX rout: Can BTC price hold $60K any longer?",
         "url": "https://cointelegraph.com/markets/bitcoin-slump-worsens-amid-spacex-rout-can-btc-price-hold-60k-any-longer?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Why tokenized SpaceX shares broke before retail investors could buy them",
-        "url": "https://cointelegraph.com/learn/tokenized-spacex-shares-xstocks-refunds?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Here’s what happened in crypto today",
-        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

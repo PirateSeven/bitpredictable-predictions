@@ -1,6 +1,6 @@
 {
   "coinId": "bitcoin",
-  "generatedAt": "2026-06-23T15:00:07.673872Z",
+  "generatedAt": "2026-06-23T16:00:08.058168Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -2.393929489563775,
-    "confidence": 0.9033
+    "changePercent24h": -2.138375813248731,
+    "confidence": 0.893
   },
   "commentary": {
-    "en": "Bitcoin is expected to experience a flat 24-hour period with a -0.4% return, driven by neutral RSI-14 and Bollinger Band %B readings. The recent slump in the market, exacerbated by the SpaceX rout, has led to an Extreme Fear sentiment, as indicated by the Fear & Greed Index. The short-term trend remains in a downtrend.",
-    "ja": "ビットコインは24時間で-0.4％のリターンでフラットな動きが予想され、RSI-14とボリンジャーバンド％Bの読みは中立的である。最近の市場の低迷、特にスペースXの低迷が恐怖の感情を引き起こしており、恐怖と欲求不満指数は極度の恐怖を示している。短期的な傾向は下降傾向にある。",
+    "en": "Bitcoin's short-term trend remains in a downtrend, with a 24-hour return of -4.71% and a Fear & Greed Index of 23, indicating extreme fear in the market. The recent news of Chainlink's FX settlement network development and the impact of SpaceX's rout on Bitcoin's price may continue to influence market sentiment. With a predicted 24h direction of FLAT, -0.4%, Bitcoin's price may experience a slight stabilization but is likely to remain volatile.",
+    "ja": "ビットコインの短期トレンドは下降線にあり、24時間の戻りは-4.71%、恐怖と欲求不満指数は23で極度の恐怖を示しています。チェーンリンクのFX決済ネットワーク開発とスペースエクスプロレーションの影響が価格に与える影響は今後も市場の意見を左右する可能性があります。予想される24時間の方向はFLAT、-0.4%で、価格は一時的に安定する可能性がありますが、不安定な状況が続く可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-3.39%",
+        "value": "-3.61%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
@@ -1010,18 +1010,18 @@
       },
       {
         "label": "CoinTelegraph",
+        "value": "Chainlink joins European and Korean bank consortia to develop FX settlement network",
+        "url": "https://cointelegraph.com/news/chainlink-europe-korea-banks-stablecoin-fx-settlement-project-pangea?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitcoin teases $62K breakdown as analysis sees Micron earnings volatility next",
+        "url": "https://cointelegraph.com/markets/bitcoin-teases-62k-breakdown-as-analysis-sees-micron-earnings-volatility-next?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
         "value": "Bitcoin slump worsens amid SpaceX rout: Can BTC price hold $60K any longer?",
         "url": "https://cointelegraph.com/markets/bitcoin-slump-worsens-amid-spacex-rout-can-btc-price-hold-60k-any-longer?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Why tokenized SpaceX shares broke before retail investors could buy them",
-        "url": "https://cointelegraph.com/learn/tokenized-spacex-shares-xstocks-refunds?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Here’s what happened in crypto today",
-        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

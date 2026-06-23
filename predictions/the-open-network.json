@@ -1,6 +1,6 @@
 {
   "coinId": "the-open-network",
-  "generatedAt": "2026-06-23T15:00:07.673872Z",
+  "generatedAt": "2026-06-23T16:00:08.058168Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -14.370711726146236,
+    "changePercent24h": -12.112549789898974,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "Gram (prev. Toncoin) (THE-OPEN-NETWORK) is expected to continue its downward trend with a predicted 24h direction of DOWN, -1.7%. This is supported by the short-term trend and recent market volatility. The Fear & Greed Index at 23 indicates extreme fear among investors.",
-    "ja": "Gram (prev. Toncoin) (THE-OPEN-NETWORK) は、24時間方向がDOWN、-1.7%と予想される。短期のトレンドと最近の市場の波動によって裏付けられている。Fear & Greed Indexは23で、投資家の恐怖が極めて高いことを示している。",
+    "en": "Gram (prev. Toncoin) (THE-OPEN-NETWORK) is predicted to fall by 1.7% in the next 24 hours with a confidence level of 87%. The current market context is characterized by extreme fear, with the Fear & Greed Index at 23. The recent news of Chainlink's partnership with European and Korean banks may have a limited impact on THE-OPEN-NETWORK's price.",
+    "ja": "THE-OPEN-NETWORKは次の24時間で1.7%下落する可能性があり、信頼度は87%です。市場状況は恐怖の域にあり、Fear & Greed Indexは23です。Chainlinkがヨーロッパと韓国の銀行と提携したニュースは、THE-OPEN-NETWORKの価格に限りつく影響を与える可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,28 +1000,28 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-3.39%",
+        "value": "-3.61%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "75% bullish",
+        "value": "70% bullish",
         "url": "https://www.coingecko.com/en/coins/the-open-network"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Chainlink joins European and Korean bank consortia to develop FX settlement network",
+        "url": "https://cointelegraph.com/news/chainlink-europe-korea-banks-stablecoin-fx-settlement-project-pangea?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitcoin teases $62K breakdown as analysis sees Micron earnings volatility next",
+        "url": "https://cointelegraph.com/markets/bitcoin-teases-62k-breakdown-as-analysis-sees-micron-earnings-volatility-next?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
         "value": "Bitcoin slump worsens amid SpaceX rout: Can BTC price hold $60K any longer?",
         "url": "https://cointelegraph.com/markets/bitcoin-slump-worsens-amid-spacex-rout-can-btc-price-hold-60k-any-longer?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Why tokenized SpaceX shares broke before retail investors could buy them",
-        "url": "https://cointelegraph.com/learn/tokenized-spacex-shares-xstocks-refunds?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Here’s what happened in crypto today",
-        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

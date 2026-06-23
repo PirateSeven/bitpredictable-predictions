@@ -1,6 +1,6 @@
 {
   "coinId": "ripple",
-  "generatedAt": "2026-06-23T15:00:07.673872Z",
+  "generatedAt": "2026-06-23T16:00:08.058168Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -2.672727954255527,
-    "confidence": 0.8878
+    "changePercent24h": -1.9640572057380439,
+    "confidence": 0.8519
   },
   "commentary": {
-    "en": "XRP's 24-hour direction is predicted to be down by 0.6% with a 60% confidence level. The recent market context, including the Fear & Greed Index at 23, or Extreme Fear, and the total crypto market cap 24h change of -3.39%, suggests a bearish trend. XRP's short-term trend is also in a downtrend.",
-    "ja": "リップルは24時間の予測方向は下方向で、0.6%の確率で60%の信頼性を持っています。最近の市場状況、Fear & Greed Indexが23、または極度の恐怖、総暗号資産市場キャップ24時間変化が-3.39%、暗号資産市場が下落傾向にあることを示しています。リップルの短期傾向も下降傾向にあります。",
+    "en": "XRP is expected to decline in the short term with a 24h direction of DOWN, -0.6% confidence. The recent news of Chainlink joining a consortium to develop an FX settlement network may have a mixed impact on XRP's price. The Fear & Greed Index remains in Extreme Fear territory, indicating a potential for further price drops.",
+    "ja": "XRPの短期的な動向は下降と予想され、24時間方向はDOWN、-0.6%の確信度です。ChainlinkがFX決済ネットワークの開発を目的としたコンソーシアムに加わったニュースは、XRPの価格への影響は混在する可能性があります。Fear & Greed Indexは今も極度の恐怖の状態であり、価格のさらなる下落につながる可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,28 +1000,28 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-3.39%",
+        "value": "-3.61%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "57% bullish",
+        "value": "53% bullish",
         "url": "https://www.coingecko.com/en/coins/ripple"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Chainlink joins European and Korean bank consortia to develop FX settlement network",
+        "url": "https://cointelegraph.com/news/chainlink-europe-korea-banks-stablecoin-fx-settlement-project-pangea?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitcoin teases $62K breakdown as analysis sees Micron earnings volatility next",
+        "url": "https://cointelegraph.com/markets/bitcoin-teases-62k-breakdown-as-analysis-sees-micron-earnings-volatility-next?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
         "value": "Bitcoin slump worsens amid SpaceX rout: Can BTC price hold $60K any longer?",
         "url": "https://cointelegraph.com/markets/bitcoin-slump-worsens-amid-spacex-rout-can-btc-price-hold-60k-any-longer?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Why tokenized SpaceX shares broke before retail investors could buy them",
-        "url": "https://cointelegraph.com/learn/tokenized-spacex-shares-xstocks-refunds?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Here’s what happened in crypto today",
-        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "coinId": "tether-gold",
-  "generatedAt": "2026-06-23T15:00:07.673872Z",
+  "generatedAt": "2026-06-23T16:00:08.058168Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.4988882773393494,
-    "confidence": 0.8657
+    "changePercent24h": 0.33397590043440806,
+    "confidence": 0.8278
   },
   "commentary": {
-    "en": "Tether Gold (TETHER-GOLD) is expected to remain flat with a -0.1% 24-hour direction, driven by the current sideways short-term trend and neutral RSI-14 reading. The recent market context, including the Extreme Fear Fear & Greed Index and the total crypto market cap decline, may also influence the price. However, the lack of significant news affecting Tether Gold directly may limit its movement.",
-    "ja": "Tether Gold (TETHER-GOLD) は、24時間の方向性は-0.1%のフラットに予想され、短期的な傾向と中立的なRSI-14の値が推進力となっている。極度の恐怖のFear & Greed Indexと総暗号資産市場キャップの減少など、近況は価格に影響を与える可能性があるが、Tether Goldに直接影響を与えるニュースは見られない。",
+    "en": "Tether Gold's flat 24h direction prediction is based on neutral technical signals and the current market context. The Fear & Greed Index at 23 indicates extreme fear, while the CoinGeck community remains 100% bullish. The recent news surrounding Chainlink and Bitcoin's price movement may influence Tether Gold's price in the short term.",
+    "ja": "Tether Goldの24時間の予測は中立的な技術指標と現在の市場状況に基づいてフラットである。恐怖と欲求不満指数が23であることは極度の恐怖を示しており、CoinGeckコミュニティは100％bullishである。Chainlinkとビットコインの価格動向に関する最近のニュースは、Tether Goldの短期価格に影響を与える可能性がある。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-3.39%",
+        "value": "-3.61%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
@@ -1010,18 +1010,18 @@
       },
       {
         "label": "CoinTelegraph",
+        "value": "Chainlink joins European and Korean bank consortia to develop FX settlement network",
+        "url": "https://cointelegraph.com/news/chainlink-europe-korea-banks-stablecoin-fx-settlement-project-pangea?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitcoin teases $62K breakdown as analysis sees Micron earnings volatility next",
+        "url": "https://cointelegraph.com/markets/bitcoin-teases-62k-breakdown-as-analysis-sees-micron-earnings-volatility-next?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
         "value": "Bitcoin slump worsens amid SpaceX rout: Can BTC price hold $60K any longer?",
         "url": "https://cointelegraph.com/markets/bitcoin-slump-worsens-amid-spacex-rout-can-btc-price-hold-60k-any-longer?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Why tokenized SpaceX shares broke before retail investors could buy them",
-        "url": "https://cointelegraph.com/learn/tokenized-spacex-shares-xstocks-refunds?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Here’s what happened in crypto today",
-        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

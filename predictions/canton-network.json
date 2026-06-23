@@ -1,6 +1,6 @@
 {
   "coinId": "canton-network",
-  "generatedAt": "2026-06-23T15:00:07.673872Z",
+  "generatedAt": "2026-06-23T16:00:08.058168Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": 0.23645508931279302,
-    "confidence": 0.3211
+    "changePercent24h": -0.28451503597958183,
+    "confidence": 0.3821
   },
   "commentary": {
-    "en": "Canton (CANTON-NETWORK) is predicted to move down by 2.0% in the next 24 hours with high confidence. The recent news of Bitcoin's slump and the SpaceX rout may negatively impact the overall crypto market. The Fear & Greed Index is at 23, indicating extreme fear among investors.",
-    "ja": "カントン ネットワーク（CANTON-NETWORK）は、次の24時間で2.0%下落する可能性が高く、信頼性が高い。ビットコインの下落とスペースエックスの路線悪化は、総合的な暗号資産市場に悪影響を及ぼす可能性があります。恐怖と欲求不満指数は23、投資家の恐怖が極度に高まっていることを示しています。",
+    "en": "Canton (CANTON-NETWORK) is predicted to move downward by -2.0% in the next 24 hours with a confidence level of 85%. The recent news of Chainlink joining European and Korean bank consortia may have a neutral impact on the market. The Fear & Greed Index is at 23, indicating extreme fear in the market.",
+    "ja": "Canton (CANTON-NETWORK) は、次の24時間に-2.0%の下落が予想され、信頼度は85%です。Chainlinkがヨーロッパと韓国の銀行連合と協力するニュースは、市場に中立的な影響を与える可能性があります。Fear & Greed Indexは23、市場全体に恐怖感が広がっています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-3.39%",
+        "value": "-3.61%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
@@ -1010,18 +1010,18 @@
       },
       {
         "label": "CoinTelegraph",
+        "value": "Chainlink joins European and Korean bank consortia to develop FX settlement network",
+        "url": "https://cointelegraph.com/news/chainlink-europe-korea-banks-stablecoin-fx-settlement-project-pangea?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitcoin teases $62K breakdown as analysis sees Micron earnings volatility next",
+        "url": "https://cointelegraph.com/markets/bitcoin-teases-62k-breakdown-as-analysis-sees-micron-earnings-volatility-next?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
         "value": "Bitcoin slump worsens amid SpaceX rout: Can BTC price hold $60K any longer?",
         "url": "https://cointelegraph.com/markets/bitcoin-slump-worsens-amid-spacex-rout-can-btc-price-hold-60k-any-longer?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Why tokenized SpaceX shares broke before retail investors could buy them",
-        "url": "https://cointelegraph.com/learn/tokenized-spacex-shares-xstocks-refunds?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Here’s what happened in crypto today",
-        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

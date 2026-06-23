@@ -1,6 +1,6 @@
 {
   "coinId": "paypal-usd",
-  "generatedAt": "2026-06-23T15:00:07.673872Z",
+  "generatedAt": "2026-06-23T16:00:08.058168Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 0.04762486083850005,
+    "changePercent24h": 0.04741096840184662,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "PayPal USD is expected to remain flat in the next 24 hours with a confidence level of 95%. The Fear & Greed Index at 23 indicates extreme fear in the market, which may impact PayPal USD's performance. The recent news about the Bitcoin slump and regulatory changes may also influence the market.",
-    "ja": "PayPal USD は、来る24時間に 95% の信頼度でフラットになることが予想されます。Fear & Greed Index が 23 であることは、市場が極度に恐怖に陥っていることを示しており、これはPayPal USD のパフォーマンスに影響を与える可能性があります。最近のニュースであるビットコインの下落と規制の変更は、市場に影響を与える可能性があります。",
+    "en": "PayPal USD is expected to remain flat with a 0.0% 24-hour direction, based on technical signals. The Fear & Greed Index at 23 indicates extreme fear in the market, which may impact PayPal's price. The recent news about Chainlink and Bitcoin's performance may also influence PayPal's movement.",
+    "ja": "PayPal USD は、技術的シグナルに基づいて 24 時間で 0.0% の動きを予想しており、恐怖と欲求不満指数が 23 であることから、市場の恐怖感が価格に影響を与える可能性があります。Chainlink とビットコインの最近のニュースも PayPal の動向に影響を与える可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,28 +1000,28 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-3.39%",
+        "value": "-3.61%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "20% bullish",
+        "value": "17% bullish",
         "url": "https://www.coingecko.com/en/coins/paypal-usd"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Chainlink joins European and Korean bank consortia to develop FX settlement network",
+        "url": "https://cointelegraph.com/news/chainlink-europe-korea-banks-stablecoin-fx-settlement-project-pangea?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitcoin teases $62K breakdown as analysis sees Micron earnings volatility next",
+        "url": "https://cointelegraph.com/markets/bitcoin-teases-62k-breakdown-as-analysis-sees-micron-earnings-volatility-next?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
         "value": "Bitcoin slump worsens amid SpaceX rout: Can BTC price hold $60K any longer?",
         "url": "https://cointelegraph.com/markets/bitcoin-slump-worsens-amid-spacex-rout-can-btc-price-hold-60k-any-longer?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Why tokenized SpaceX shares broke before retail investors could buy them",
-        "url": "https://cointelegraph.com/learn/tokenized-spacex-shares-xstocks-refunds?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Here’s what happened in crypto today",
-        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

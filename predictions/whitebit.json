@@ -1,6 +1,6 @@
 {
   "coinId": "whitebit",
-  "generatedAt": "2026-06-23T15:00:07.673872Z",
+  "generatedAt": "2026-06-23T16:00:08.058168Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -1.2174805742365196,
-    "confidence": 0.8141
+    "changePercent24h": -0.8721330496352905,
+    "confidence": 0.7569
   },
   "commentary": {
-    "en": "WhiteBIT Coin's price is expected to remain flat with a slight decline of -0.3% in the next 24 hours, according to our technical analysis. The Fear & Greed Index is at 23, indicating extreme fear in the market, and the total crypto market cap has seen a 3.39% decline in the last 24 hours. The recent news about Bitcoin's slump and regulatory updates may continue to impact the market sentiment.",
-    "ja": "WHITEBITの価格は、次の24時間に-0.3%の小幅な下落が予想されます。恐怖と欲求不満指数は23で、極度の恐怖を示しており、総暗号資産マーケットキャップは過去24時間で3.39%の下落を記録しています。ビットコインの下落と規制関連ニュースが、市場の感覚に影響を与え続ける可能性があります。",
+    "en": "WhiteBIT Coin's 24-hour direction is predicted to be flat with a -0.3% change, indicating a neutral sentiment. The current market context is dominated by extreme fear, with the Fear & Greed Index at 23 and the total crypto market cap experiencing a -3.61% change. The recent news surrounding Chainlink's FX settlement network and Bitcoin's price fluctuations may have a limited impact on WhiteBIT Coin's price.",
+    "ja": "ホワイトビットの24時間の予測は、-0.3%の変化でフラットであると予測されています。これは中立的な感情を示しています。現在の市場状況は極度の恐怖に支配されており、Fear & Greed Indexは23、総暗号資産マーケットキャップは-3.61%の変化を経験しています。ChainlinkのFX決済ネットワークやビットコインの価格変動に関する最近のニュースは、ホワイトビットの価格に限りなく影響を与える可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-3.39%",
+        "value": "-3.61%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
@@ -1010,18 +1010,18 @@
       },
       {
         "label": "CoinTelegraph",
+        "value": "Chainlink joins European and Korean bank consortia to develop FX settlement network",
+        "url": "https://cointelegraph.com/news/chainlink-europe-korea-banks-stablecoin-fx-settlement-project-pangea?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitcoin teases $62K breakdown as analysis sees Micron earnings volatility next",
+        "url": "https://cointelegraph.com/markets/bitcoin-teases-62k-breakdown-as-analysis-sees-micron-earnings-volatility-next?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
         "value": "Bitcoin slump worsens amid SpaceX rout: Can BTC price hold $60K any longer?",
         "url": "https://cointelegraph.com/markets/bitcoin-slump-worsens-amid-spacex-rout-can-btc-price-hold-60k-any-longer?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Why tokenized SpaceX shares broke before retail investors could buy them",
-        "url": "https://cointelegraph.com/learn/tokenized-spacex-shares-xstocks-refunds?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Here’s what happened in crypto today",
-        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

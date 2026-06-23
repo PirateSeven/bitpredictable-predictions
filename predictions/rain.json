@@ -1,6 +1,6 @@
 {
   "coinId": "rain",
-  "generatedAt": "2026-06-23T15:00:07.673872Z",
+  "generatedAt": "2026-06-23T16:00:08.058168Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -10.641572416959846,
+    "changePercent24h": -11.075378083651676,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "Rain (RAIN) is expected to remain flat with a 24h direction of +0.0% due to neutral RSI-14 and sideways short-term trend. The recent news on the crypto market, particularly the Bitcoin slump, may have a limited impact on RAIN's price. However, the overall market sentiment remains in extreme fear, which could influence RAIN's performance.",
-    "ja": "Rain (RAIN) は、中立的な RSI-14 と短期的な傾向が横方向にあるため、24 時間方向は +0.0% のままである可能性があります。最近のニュースであるビットコインの低下は、RAIN の価格に限りなく影響を与える可能性がありますが、総合的な市場感覚は極度の恐怖の状態にあるため、RAIN のパフォーマンスに影響を与える可能性があります。",
+    "en": "Rain (RAIN) is expected to experience a flat 24-hour period with a 0.0% return, based on a 70% confidence level. The recent news of Chainlink joining a consortium to develop an FX settlement network may have a positive impact on the market, but the overall sentiment remains cautious due to the extreme fear in the Fear & Greed Index. The short-term trend is sideways, with the RSI-14 at a neutral level.",
+    "ja": "Rain (RAIN) は、70% の信頼性レベルで 24 時間の flat 期間を経験し、0.0% のリターンを予想します。Chainlink が FX セットルメント ネットワークを開発するコンソーシアムに参加したニュースは、市場に肯定的な影響を与える可能性がありますが、Fear & Greed Index の極度の恐怖感は、市場全体に懐疑的な気分を引き起こしています。短期的なトレンドは、RSI-14 が中立的なレベルにあり、横方向に動いています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-3.39%",
+        "value": "-3.61%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
@@ -1010,18 +1010,18 @@
       },
       {
         "label": "CoinTelegraph",
+        "value": "Chainlink joins European and Korean bank consortia to develop FX settlement network",
+        "url": "https://cointelegraph.com/news/chainlink-europe-korea-banks-stablecoin-fx-settlement-project-pangea?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitcoin teases $62K breakdown as analysis sees Micron earnings volatility next",
+        "url": "https://cointelegraph.com/markets/bitcoin-teases-62k-breakdown-as-analysis-sees-micron-earnings-volatility-next?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
         "value": "Bitcoin slump worsens amid SpaceX rout: Can BTC price hold $60K any longer?",
         "url": "https://cointelegraph.com/markets/bitcoin-slump-worsens-amid-spacex-rout-can-btc-price-hold-60k-any-longer?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Why tokenized SpaceX shares broke before retail investors could buy them",
-        "url": "https://cointelegraph.com/learn/tokenized-spacex-shares-xstocks-refunds?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Here’s what happened in crypto today",
-        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }
