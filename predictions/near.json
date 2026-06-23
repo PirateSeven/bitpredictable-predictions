@@ -1,6 +1,6 @@
 {
   "coinId": "near",
-  "generatedAt": "2026-06-23T06:00:08.491984Z",
+  "generatedAt": "2026-06-23T07:00:08.090555Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -13.62249641857318,
-    "confidence": 0.9319
+    "changePercent24h": -12.70107225681361,
+    "confidence": 0.9271
   },
   "commentary": {
-    "en": "NEAR Protocol (NEAR) is predicted to move down by -4.1% in the next 24 hours with a confidence level of 78%. The current market sentiment is characterized by extreme fear, as indicated by the Fear & Greed Index of 23. The recent news of a staking and mining tax bill and Bitcoin's funding rate hitting a 2-week high may influence the market.",
-    "ja": "NEAR Protocol (NEAR) は、次の24時間で-4.1%下落する予想が78%の信頼性で示されています。市場の感情は、Fear & Greed Indexが23の極度の恐怖によって特徴づけられています。ストakingとマイニング税法案とビットコインのファンディングレートが2週間で高くなったニュースは市場に影響を与える可能性があります。",
+    "en": "NEAR Protocol (NEAR) is predicted to experience a downward movement in the next 24 hours with a confidence of 78% and a potential decline of -4.1%. The current market context suggests a high level of fear, as indicated by the Fear & Greed Index of 23, and a downtrend in the short-term trend. The recent news surrounding CBDC ban and staking and mining tax bill may have a negative impact on NEAR's price.",
+    "ja": "NEAR Protocol (NEAR) は、次の24時間で下落を予測し、信頼度78%、-4.1%の可能性があります。Fear & Greed Indexが23と高く、短期傾向が下降している市場状況は、NEARの価格に否定的な影響を与える可能性があります。CBDCの禁止や、stakingとmining税金法の最近のニュースは、NEARの価格に否定的な影響を与える可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,28 +1000,28 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-1.14%",
+        "value": "-1.87%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "93% bullish",
+        "value": "94% bullish",
         "url": "https://www.coingecko.com/en/coins/near"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Here’s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "US Senate passes housing bill with CBDC ban until 2030",
+        "url": "https://cointelegraph.com/news/senate-passes-housing-bill-that-includes-a-cbdc-ban-through-2030?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
         "value": "Crypto lobby urges Congress pass staking and mining tax bill as is",
         "url": "https://cointelegraph.com/news/crypto-lobby-urges-congress-pass-staking-mining-tax-bill-without-changes?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Trump signs orders for quantum computer, cryptography upgrades",
-        "url": "https://cointelegraph.com/news/trump-orders-quantum-computing-push-and-post-quantum-cryptography-upgrade?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Bitmine, Sharplink and Joe Lubin back Ethereum R&D nonprofit",
-        "url": "https://cointelegraph.com/news/bitmine-sharplink-and-joe-lubin-back-ethereum-rd-nonprofit?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "coinId": "canton-network",
-  "generatedAt": "2026-06-23T06:00:08.491984Z",
+  "generatedAt": "2026-06-23T07:00:08.090555Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -5.420445744905187,
-    "confidence": 0.9206
+    "changePercent24h": -4.75827952028767,
+    "confidence": 0.9101
   },
   "commentary": {
-    "en": "Canton is predicted to decline by -2.0% in the next 24 hours with a confidence level of 79%. The recent news on staking and mining tax bill, quantum computer upgrades, and Ethereum R&D nonprofit may have a limited impact on Canton's price. The Fear & Greed Index at 23 indicates extreme fear in the market.",
-    "ja": "カントン ネットワークは、次の24時間で-2.0%の下落が予測され、信頼度は79%です。 稼働と鉱業税法、量子コンピュータのアップグレード、イーサリアムR&D非営利団体に関する最近のニュースは、カントン ネットワークの価格に限りつく可能性があります。 恐怖と欲求不満指数が23に達しているため、市場は極度の恐怖の状態です。",
+    "en": "Canton's predicted 24h direction is DOWN with a -2.0% confidence level of 79%. The recent news of a CBDC ban until 2030 may have a negative impact on the market. The Fear & Greed Index is at 23, indicating extreme fear.",
+    "ja": "カントン ネットワークの予想24時間の方向は下方向で、-2.0%の信頼度が79%です。CBDCの禁止まで2030年までのニュースがマーケットに否定的な影響を与える可能性があります。恐怖と欲求不満指数は23で、極度の恐怖を示しています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,28 +1000,28 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-1.14%",
+        "value": "-1.87%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "33% bullish",
+        "value": "38% bullish",
         "url": "https://www.coingecko.com/en/coins/canton-network"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Here’s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "US Senate passes housing bill with CBDC ban until 2030",
+        "url": "https://cointelegraph.com/news/senate-passes-housing-bill-that-includes-a-cbdc-ban-through-2030?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
         "value": "Crypto lobby urges Congress pass staking and mining tax bill as is",
         "url": "https://cointelegraph.com/news/crypto-lobby-urges-congress-pass-staking-mining-tax-bill-without-changes?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Trump signs orders for quantum computer, cryptography upgrades",
-        "url": "https://cointelegraph.com/news/trump-orders-quantum-computing-push-and-post-quantum-cryptography-upgrade?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Bitmine, Sharplink and Joe Lubin back Ethereum R&D nonprofit",
-        "url": "https://cointelegraph.com/news/bitmine-sharplink-and-joe-lubin-back-ethereum-rd-nonprofit?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

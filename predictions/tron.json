@@ -1,6 +1,6 @@
 {
   "coinId": "tron",
-  "generatedAt": "2026-06-23T06:00:08.491984Z",
+  "generatedAt": "2026-06-23T07:00:08.090555Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.5626940584395441,
-    "confidence": 0.898
+    "changePercent24h": -0.5110457499336738,
+    "confidence": 0.891
   },
   "commentary": {
-    "en": "TRON's 24-hour direction is predicted to be flat with a 76% confidence level, as its RSI-14 and Bollinger Band %B indicate a neutral position. The recent news of a crypto lobby urging Congress to pass a staking and mining tax bill may have a positive impact on TRON's price. However, the overall market sentiment remains in extreme fear, which could limit TRON's potential gains.",
-    "ja": "トロンの24時間の方向性は、信頼度76％でフラットと予測され、RSI-14とボリンジャーバンド％Bは中立的な位置を示しています。トロンの価格にプラスの影響を与える可能性のある、コインテレグラフのニュースでは、コインロビーが議会にスタッキングとマイニング税法を通過させるよう求めました。ただし、市場全体の感情は極度の恐怖にあり、トロンの潜在的な利益を制限する可能性があります。",
+    "en": "TRON's price is expected to remain flat with a 0.0% change in the next 24 hours, according to technical signals. The recent news on US Senate passing a housing bill with a CBDC ban until 2030 may have a negative impact on the crypto market. TRON's price movement will likely be influenced by the overall market sentiment.",
+    "ja": "トロンの価格は、次の24時間で0.0％の変化が予想されます。技術的指標によると、トロンの価格の変化は、総市場の動向に左右される可能性があります。米国上院が2030年までCBDCを禁止する住宅法を通過したニュースは、暗号資産市場に否定的な影響を与える可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-1.14%",
+        "value": "-1.87%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
@@ -1010,18 +1010,18 @@
       },
       {
         "label": "CoinTelegraph",
+        "value": "Here’s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "US Senate passes housing bill with CBDC ban until 2030",
+        "url": "https://cointelegraph.com/news/senate-passes-housing-bill-that-includes-a-cbdc-ban-through-2030?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
         "value": "Crypto lobby urges Congress pass staking and mining tax bill as is",
         "url": "https://cointelegraph.com/news/crypto-lobby-urges-congress-pass-staking-mining-tax-bill-without-changes?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Trump signs orders for quantum computer, cryptography upgrades",
-        "url": "https://cointelegraph.com/news/trump-orders-quantum-computing-push-and-post-quantum-cryptography-upgrade?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Bitmine, Sharplink and Joe Lubin back Ethereum R&D nonprofit",
-        "url": "https://cointelegraph.com/news/bitmine-sharplink-and-joe-lubin-back-ethereum-rd-nonprofit?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

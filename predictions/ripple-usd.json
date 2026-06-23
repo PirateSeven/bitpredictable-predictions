@@ -1,6 +1,6 @@
 {
   "coinId": "ripple-usd",
-  "generatedAt": "2026-06-23T06:00:08.491984Z",
+  "generatedAt": "2026-06-23T07:00:08.090555Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 0.04930107534218049,
+    "changePercent24h": 0.036861464497950434,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "Ripple USD (RIPPLE-USD) is expected to remain flat in the next 24 hours with a 95% confidence level. The current market context, including the Fear & Greed Index at 23 and the total crypto market cap 24h change at -1.14%, suggests a cautious outlook. Recent news on staking and mining tax bills, quantum computer upgrades, and Ethereum R&D nonprofit backing may have a limited impact on Ripple's price.",
-    "ja": "Ripple USD (RIPPLE-USD) は、来る 24 時間で 95% の確率でフラットの動きを予想しています。Fear & Greed Index が 23、総暗号資産市場キャップ 24 時間変化が -1.14% である現在の市場状況は、慎重な姿勢を示しています。最近のニュースである、staking と mining の税金法案、量子コンピューターのアップグレード、Ethereum R&D の非営利団体の支援は、Ripple の価格に限られた影響を与える可能性があります。",
+    "en": "Ripple USD (RIPPLE-USD) is expected to remain flat in the next 24 hours with a confidence level of 95%. The recent news of a CBDC ban until 2030 may have a negative impact on the market, but the Fear & Greed Index at 23 indicates extreme fear, which could lead to a potential bounce. The neutral RSI-14 reading and mid-band Bollinger Band %B suggest a sideways trend.",
+    "ja": "Ripple USD (RIPPLE-USD) は、次の24時間に95％の確実性でフラットを予測しています。CBDCの2030年までの禁止についてのニュースはマーケットに否定的な影響を与える可能性がありますが、Fear & Greed Indexが23であることは極度の恐怖を示しており、これが反発につながる可能性があります。RSI-14の中立的な値とBollinger Band %Bの中間帯は、横方向のトレンドを示しています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,28 +1000,28 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-1.14%",
+        "value": "-1.87%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "25% bullish",
+        "value": "33% bullish",
         "url": "https://www.coingecko.com/en/coins/ripple-usd"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Here’s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "US Senate passes housing bill with CBDC ban until 2030",
+        "url": "https://cointelegraph.com/news/senate-passes-housing-bill-that-includes-a-cbdc-ban-through-2030?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
         "value": "Crypto lobby urges Congress pass staking and mining tax bill as is",
         "url": "https://cointelegraph.com/news/crypto-lobby-urges-congress-pass-staking-mining-tax-bill-without-changes?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Trump signs orders for quantum computer, cryptography upgrades",
-        "url": "https://cointelegraph.com/news/trump-orders-quantum-computing-push-and-post-quantum-cryptography-upgrade?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Bitmine, Sharplink and Joe Lubin back Ethereum R&D nonprofit",
-        "url": "https://cointelegraph.com/news/bitmine-sharplink-and-joe-lubin-back-ethereum-rd-nonprofit?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

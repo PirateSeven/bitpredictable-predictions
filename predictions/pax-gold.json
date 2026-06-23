@@ -1,6 +1,6 @@
 {
   "coinId": "pax-gold",
-  "generatedAt": "2026-06-23T06:00:08.491984Z",
+  "generatedAt": "2026-06-23T07:00:08.090555Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -3.2239329334325237,
+    "changePercent24h": -2.845573913850153,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "PAX Gold (PAX-GOLD) is expected to remain flat with a -0.1% change in the next 24 hours, given its oversold RSI-14 reading and lower Bollinger Band %B. The recent news of a staking and mining tax bill and Trump's orders for quantum computer and cryptography upgrades may have a positive impact on the crypto market, but the current Extreme Fear sentiment and negative market cap change suggest caution. The short-term trend remains sideways, with a 1.1x average volume ratio.",
-    "ja": "PAX Gold (PAX-GOLD)は、次の24時間に-0.1%の変化が予想され、RSI-14のオーバーサルドとボリンジャーバンドの下方指標から推測される。最近のニュースでは、ストーミングとマイニング税法の提案とトランプの量子コンピュータと暗号化のアップグレードに関する指示が、暗号市場に良い影響を与える可能性がありますが、現在は極度の恐怖の感情とマーケットキャップの変化が否定的な影響を与えているため、注意が必要です。短期のトレンドは横方向に推移しており、1.1倍の平均ボリューム比率が示唆しています。",
+    "en": "The model predicts PAX Gold will trade sideways over the next 24 hours with high confidence (70%). RSI is oversold (26), indicating potential for a mean-reversion bounce. Market sentiment stands at \"Extreme Fear\" (Fear & Greed: 23); the broader crypto market moved -1.9% over the past 24 hours.",
+    "ja": "モデルはPAX Goldが今後24時間で横ばいで推移すると予測しています（信頼度: 高い 70%）。RSIが26と売られすぎ水準で、平均回帰による反発が期待される局面です。Fear & Greed指数は「Extreme Fear」（23）で、暗号資産市場全体の24時間変動率は-1.9%です。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,23 +1000,23 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-1.14%",
+        "value": "-1.87%",
         "url": "https://www.coingecko.com/en/global-charts"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Here’s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "US Senate passes housing bill with CBDC ban until 2030",
+        "url": "https://cointelegraph.com/news/senate-passes-housing-bill-that-includes-a-cbdc-ban-through-2030?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
         "value": "Crypto lobby urges Congress pass staking and mining tax bill as is",
         "url": "https://cointelegraph.com/news/crypto-lobby-urges-congress-pass-staking-mining-tax-bill-without-changes?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Trump signs orders for quantum computer, cryptography upgrades",
-        "url": "https://cointelegraph.com/news/trump-orders-quantum-computing-push-and-post-quantum-cryptography-upgrade?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Bitmine, Sharplink and Joe Lubin back Ethereum R&D nonprofit",
-        "url": "https://cointelegraph.com/news/bitmine-sharplink-and-joe-lubin-back-ethereum-rd-nonprofit?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

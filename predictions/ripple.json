@@ -1,6 +1,6 @@
 {
   "coinId": "ripple",
-  "generatedAt": "2026-06-23T06:00:08.491984Z",
+  "generatedAt": "2026-06-23T07:00:08.090555Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -4.468583795235476,
-    "confidence": 0.9356
+    "changePercent24h": -4.407648680029196,
+    "confidence": 0.9348
   },
   "commentary": {
-    "en": "XRP's predicted 24-hour direction is DOWN at -0.9% with a 72% confidence level, driven by the current market sentiment and technical signals. The Fear & Greed Index remains in Extreme Fear territory, and the Total crypto market cap has seen a 1.14% decline in the past 24 hours. XRP's short-term trend is sideways, with a 24-hour actual return of -1.67%.",
-    "ja": "リップルは24時間の予想方向が下降(-0.9%)で、72%の確信度を持っています。これは、現在の市場感情と技術指標によって推進されています。恐怖と欲求不満指数は極度の恐怖の領域にあり、総暗号資産市場キャップは過去24時間で1.14%の減少を記録しています。リップルの短期トレンドは横方向にあり、24時間の実際のリターンは-1.67%です。",
+    "en": "XRP is expected to decline by 0.9% in the next 24 hours with a 72% confidence level. The recent news of a CBDC ban until 2030 in the US Senate housing bill may have a negative impact on XRP's price. The Fear & Greed Index at 23 indicates extreme fear in the market.",
+    "ja": "XRPは来日24時間で0.9%の下落が予想され、72%の確実度が付いています。米国議会の住宅法案でCBDCの禁止が2030年まで続くというニュースがXRPの価格に否定的な影響を与える可能性があります。恐怖と欲求不満指数は23で、市場は極度の恐怖状態です。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-1.14%",
+        "value": "-1.87%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
@@ -1010,18 +1010,18 @@
       },
       {
         "label": "CoinTelegraph",
+        "value": "Here’s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "US Senate passes housing bill with CBDC ban until 2030",
+        "url": "https://cointelegraph.com/news/senate-passes-housing-bill-that-includes-a-cbdc-ban-through-2030?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
         "value": "Crypto lobby urges Congress pass staking and mining tax bill as is",
         "url": "https://cointelegraph.com/news/crypto-lobby-urges-congress-pass-staking-mining-tax-bill-without-changes?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Trump signs orders for quantum computer, cryptography upgrades",
-        "url": "https://cointelegraph.com/news/trump-orders-quantum-computing-push-and-post-quantum-cryptography-upgrade?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Bitmine, Sharplink and Joe Lubin back Ethereum R&D nonprofit",
-        "url": "https://cointelegraph.com/news/bitmine-sharplink-and-joe-lubin-back-ethereum-rd-nonprofit?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

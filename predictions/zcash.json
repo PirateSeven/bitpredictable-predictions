@@ -1,6 +1,6 @@
 {
   "coinId": "zcash",
-  "generatedAt": "2026-06-23T06:00:08.491984Z",
+  "generatedAt": "2026-06-23T07:00:08.090555Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -9.26161475618562,
-    "confidence": 0.926
+    "changePercent24h": -8.939825353013642,
+    "confidence": 0.9235
   },
   "commentary": {
-    "en": "Zcash (ZCASH) is expected to decline by -3.9% in the next 24 hours with a confidence level of 83%. The current market sentiment is extremely fearful, with the Fear & Greed Index at 23. The recent news about the crypto lobby urging Congress to pass a staking and mining tax bill may have a negative impact on Zcash's price.",
-    "ja": "Zcash (ZCASH)は、来週24時間で-3.9%の値下げが予想され、83%の信頼性があります。Fear & Greed Indexは23で、極度の恐怖の感情を示しています。Cryptoロビーが議会に採択を求めるスタッキングとマイニング税法に関するニュースは、Zcashの価格に否定的な影響を与える可能性があります。",
+    "en": "Zcash is predicted to decline by -3.9% in the next 24 hours, with a confidence level of 83%. The recent US Senate passing a housing bill with a CBDC ban until 2030 may have a negative impact on the cryptocurrency market. The Fear & Greed Index is currently at 23, indicating extreme fear among investors.",
+    "ja": "Zcashは来日24時間で-3.9%の下落が予測され、信頼度は83%です。最近の米国上院が2030年までCBDCの禁止を盛り込んだ住宅法を可決したことは、cryptocurrency市場に否定的な影響を与える可能性があります。Fear & Greed Indexは現在23で、投資家の恐怖感が極めて高い状態です。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,28 +1000,28 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-1.14%",
+        "value": "-1.87%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "26% bullish",
+        "value": "31% bullish",
         "url": "https://www.coingecko.com/en/coins/zcash"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Here’s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "US Senate passes housing bill with CBDC ban until 2030",
+        "url": "https://cointelegraph.com/news/senate-passes-housing-bill-that-includes-a-cbdc-ban-through-2030?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
         "value": "Crypto lobby urges Congress pass staking and mining tax bill as is",
         "url": "https://cointelegraph.com/news/crypto-lobby-urges-congress-pass-staking-mining-tax-bill-without-changes?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Trump signs orders for quantum computer, cryptography upgrades",
-        "url": "https://cointelegraph.com/news/trump-orders-quantum-computing-push-and-post-quantum-cryptography-upgrade?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Bitmine, Sharplink and Joe Lubin back Ethereum R&D nonprofit",
-        "url": "https://cointelegraph.com/news/bitmine-sharplink-and-joe-lubin-back-ethereum-rd-nonprofit?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

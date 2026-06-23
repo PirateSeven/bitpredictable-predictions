@@ -1,6 +1,6 @@
 {
   "coinId": "the-open-network",
-  "generatedAt": "2026-06-23T06:00:08.491984Z",
+  "generatedAt": "2026-06-23T07:00:08.090555Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": 0.801301771370545,
-    "confidence": 0.723
+    "changePercent24h": -0.7191951396200933,
+    "confidence": 0.6995
   },
   "commentary": {
-    "en": "Gram (prev. Toncoin) (THE-OPEN-NETWORK) is expected to decline by 1.1% in the next 24 hours with a confidence level of 78%. The recent news of a staking and mining tax bill and upgrades in quantum computers and cryptography may have a mixed impact on the market. The Fear & Greed Index is currently at 23, indicating extreme fear.",
-    "ja": "THE-OPEN-NETWORKは、次の24時間で1.1%の下落が予想され、信頼度は78%です。スタッキングとマイニング税法や量子コンピュータと暗号化のアップグレードに関するニュースは市場に混乱をもたらすかもしれません。恐怖と欲求不満指数は23、極度の恐怖を示しています。",
+    "en": "Gram (prev. Toncoin) (THE-OPEN-NETWORK) is predicted to move downward by 1.1% in the next 24 hours, with a confidence level of 78%. This prediction is based on the current technical signals and market context, including the Fear & Greed Index at 23, indicating extreme fear. The recent news about the US Senate passing a housing bill with a CBDC ban until 2030 may also contribute to the bearish sentiment.",
+    "ja": "THE-OPEN-NETWORKは、次の24時間で1.1%下落する可能性があり、信頼度は78%です。これは、現在の技術指標と市場状況、Fear & Greed Indexが23で極度の恐怖を示すこと、およびUSSenateが2030年までCBDCを禁止する住宅法を通過したことなどに基づいています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-1.14%",
+        "value": "-1.87%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
@@ -1010,18 +1010,18 @@
       },
       {
         "label": "CoinTelegraph",
+        "value": "Here’s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "US Senate passes housing bill with CBDC ban until 2030",
+        "url": "https://cointelegraph.com/news/senate-passes-housing-bill-that-includes-a-cbdc-ban-through-2030?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
         "value": "Crypto lobby urges Congress pass staking and mining tax bill as is",
         "url": "https://cointelegraph.com/news/crypto-lobby-urges-congress-pass-staking-mining-tax-bill-without-changes?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Trump signs orders for quantum computer, cryptography upgrades",
-        "url": "https://cointelegraph.com/news/trump-orders-quantum-computing-push-and-post-quantum-cryptography-upgrade?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Bitmine, Sharplink and Joe Lubin back Ethereum R&D nonprofit",
-        "url": "https://cointelegraph.com/news/bitmine-sharplink-and-joe-lubin-back-ethereum-rd-nonprofit?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

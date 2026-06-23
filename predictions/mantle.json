@@ -1,6 +1,6 @@
 {
   "coinId": "mantle",
-  "generatedAt": "2026-06-23T06:00:08.491984Z",
+  "generatedAt": "2026-06-23T07:00:08.090555Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -2.4867394560861964,
-    "confidence": 0.904
+    "changePercent24h": -2.333592692066386,
+    "confidence": 0.8983
   },
   "commentary": {
-    "en": "Mantle (MANTLE) is expected to decline by 0.7% in the next 24 hours with a 72% confidence level. The RSI-14 is neutral at 35, and the Bollinger Band %B is at -0.00, indicating the price is near the lower band. The sideways short-term trend and normal volume ratio also support a potential decline.",
-    "ja": "Mantle (MANTLE) は、来る24時間で0.7%の下落が予想され、72%の信頼度が付いています。RSI-14は35で中立的な状況であり、ボリンジャー・バンドの%Bは-0.00で、価格は下方のバンドに近い位置にあります。短期の傾向は横方向に動いており、ボリュームの比率も通常のレベルです。",
+    "en": "Mantle (MANTLE) is predicted to experience a 0.7% decline in the next 24 hours, with a confidence level of 72%. The RSI-14 is neutral at 35, while the Bollinger Band %B is at -0.00, indicating a lower band. The recent news of a CBDC ban until 2030 and the overall market fear may contribute to this downward trend.",
+    "ja": "Mantle (MANTLE) は、来る24時間で0.7%の下落が予想され、信頼度は72%です。RSI-14は35で中立的な状態であり、ボリンジャーバンドの%Bは-0.00で下方の帯域にあります。CBDCの2030年までの禁止と市場全体の恐怖など、最近のニュースがこの下落に寄与する可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,23 +1000,23 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-1.14%",
+        "value": "-1.87%",
         "url": "https://www.coingecko.com/en/global-charts"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Here’s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "US Senate passes housing bill with CBDC ban until 2030",
+        "url": "https://cointelegraph.com/news/senate-passes-housing-bill-that-includes-a-cbdc-ban-through-2030?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
         "value": "Crypto lobby urges Congress pass staking and mining tax bill as is",
         "url": "https://cointelegraph.com/news/crypto-lobby-urges-congress-pass-staking-mining-tax-bill-without-changes?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Trump signs orders for quantum computer, cryptography upgrades",
-        "url": "https://cointelegraph.com/news/trump-orders-quantum-computing-push-and-post-quantum-cryptography-upgrade?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Bitmine, Sharplink and Joe Lubin back Ethereum R&D nonprofit",
-        "url": "https://cointelegraph.com/news/bitmine-sharplink-and-joe-lubin-back-ethereum-rd-nonprofit?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

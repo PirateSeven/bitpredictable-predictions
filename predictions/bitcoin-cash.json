@@ -1,6 +1,6 @@
 {
   "coinId": "bitcoin-cash",
-  "generatedAt": "2026-06-23T06:00:08.491984Z",
+  "generatedAt": "2026-06-23T07:00:08.090555Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -7.457813096644932,
-    "confidence": 0.947
+    "changePercent24h": -6.567703886711134,
+    "confidence": 0.9401
   },
   "commentary": {
-    "en": "Bitcoin Cash is predicted to decline by 1.7% in the next 24 hours with a confidence level of 79%. The recent news of a staking and mining tax bill and Bitcoin funding rate hitting a 2-week high may have a mixed impact on the market. The Fear & Greed Index remains in Extreme Fear territory.",
-    "ja": "ビットコインキャッシュは、次の24時間で1.7%の下落が予想され、信頼度は79%です。 稼働税と鉱業税の法案やビットコインのファンディングレートが2週間で最高に達したニュースは市場に混乱をもたらす可能性があります。 恐怖と欲求不満指数は極度の恐怖の状態にあります。",
+    "en": "Bitcoin Cash is predicted to decline by 1.7% in the next 24 hours with a confidence level of 79%. The current market sentiment is extreme fear, as indicated by the Fear & Greed Index of 23. The recent news of a CBDC ban in the US until 2030 may have contributed to the bearish sentiment.",
+    "ja": "ビットコインキャッシュは、次の24時間で1.7%の下落が予測され、信頼度は79%です。現在の市場感情は、恐怖指数が23の極度の恐怖を示しています。CBDCの禁止が2030年までの米国で発表されたニュースは、恐怖的な市場感情に貢献した可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,28 +1000,28 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-1.14%",
+        "value": "-1.87%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "43% bullish",
+        "value": "50% bullish",
         "url": "https://www.coingecko.com/en/coins/bitcoin-cash"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Here’s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "US Senate passes housing bill with CBDC ban until 2030",
+        "url": "https://cointelegraph.com/news/senate-passes-housing-bill-that-includes-a-cbdc-ban-through-2030?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
         "value": "Crypto lobby urges Congress pass staking and mining tax bill as is",
         "url": "https://cointelegraph.com/news/crypto-lobby-urges-congress-pass-staking-mining-tax-bill-without-changes?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Trump signs orders for quantum computer, cryptography upgrades",
-        "url": "https://cointelegraph.com/news/trump-orders-quantum-computing-push-and-post-quantum-cryptography-upgrade?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Bitmine, Sharplink and Joe Lubin back Ethereum R&D nonprofit",
-        "url": "https://cointelegraph.com/news/bitmine-sharplink-and-joe-lubin-back-ethereum-rd-nonprofit?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

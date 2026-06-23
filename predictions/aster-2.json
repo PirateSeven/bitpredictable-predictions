@@ -1,6 +1,6 @@
 {
   "coinId": "aster-2",
-  "generatedAt": "2026-06-23T06:00:08.491984Z",
+  "generatedAt": "2026-06-23T07:00:08.090555Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -0.8927764551710486,
-    "confidence": 0.6701
+    "changePercent24h": -0.7432153860043791,
+    "confidence": 0.6204
   },
   "commentary": {
-    "en": "Aster (ASTER-2) is predicted to decline by 1.6% in the next 24 hours with a confidence level of 79%. The current market sentiment is extreme fear, as indicated by the Fear & Greed Index of 23. The recent news about the crypto lobby urging Congress to pass a staking and mining tax bill may have a negative impact on the market.",
-    "ja": "Aster (ASTER-2) は、次の24時間に1.6%の下落を予測しており、信頼度は79%です。Fear & Greed Indexは23で、極度の恐怖の状態です。最近のニュースでは、コインロビーが議会にスタッキングとマイニング税法を通過するように求めることがあり、これが市場に否定的な影響を与える可能性があります。",
+    "en": "Aster (ASTER-2) is predicted to move downward by 1.6% in the next 24 hours with 79% confidence. The recent news about the US Senate passing a housing bill with a CBDC ban until 2030 and the crypto lobby urging Congress to pass a staking and mining tax bill as is may have a negative impact on the market. The Fear & Greed Index is at 23, indicating extreme fear.",
+    "ja": "ASTER-2は来日24時間で1.6%下落する可能性があり、確率は79%です。米国上院が2030年までCBDCの禁止を含む住宅法を通過したニュースや、議会にスタッキングとマイニング税法をそのまま通過するよう求める暗号資産ロビーなど、最近のニュースは市場に否定的な影響を与える可能性があります。恐怖と欲求不満指数は23で、極度の恐怖を示しています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-1.14%",
+        "value": "-1.87%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
@@ -1010,18 +1010,18 @@
       },
       {
         "label": "CoinTelegraph",
+        "value": "Here’s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "US Senate passes housing bill with CBDC ban until 2030",
+        "url": "https://cointelegraph.com/news/senate-passes-housing-bill-that-includes-a-cbdc-ban-through-2030?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
         "value": "Crypto lobby urges Congress pass staking and mining tax bill as is",
         "url": "https://cointelegraph.com/news/crypto-lobby-urges-congress-pass-staking-mining-tax-bill-without-changes?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Trump signs orders for quantum computer, cryptography upgrades",
-        "url": "https://cointelegraph.com/news/trump-orders-quantum-computing-push-and-post-quantum-cryptography-upgrade?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Bitmine, Sharplink and Joe Lubin back Ethereum R&D nonprofit",
-        "url": "https://cointelegraph.com/news/bitmine-sharplink-and-joe-lubin-back-ethereum-rd-nonprofit?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

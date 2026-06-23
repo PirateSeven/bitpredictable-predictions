@@ -1,6 +1,6 @@
 {
   "coinId": "rain",
-  "generatedAt": "2026-06-23T06:00:08.491984Z",
+  "generatedAt": "2026-06-23T07:00:08.090555Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 7.743687675018182,
+    "changePercent24h": 5.442562701550744,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "Rain (RAIN) is experiencing a short-term uptrend, but its 24-hour return has reached +10.62%, indicating a potential overbought condition. The Fear & Greed Index remains in Extreme Fear, suggesting a possible market correction. With the predicted 24h direction being FLAT, a consolidation phase may be imminent.",
-    "ja": "Rain (RAIN) は短期的に上昇傾向にあるが、24時間のリターンは+10.62%に達しており、過剰買い状態である可能性がある。Fear & Greed Indexはエクストリーム・フィアのままで、市場の調整が起こる可能性がある。予測の24時間の方向はFLATであり、調整期が始まる可能性がある。",
+    "en": "Rain (RAIN) is predicted to be flat with a 0.0% 24-hour direction, indicating a potential consolidation phase. The RSI-14 is overbought at 81, while the Bollinger Band %B is at 0.68, suggesting a mid-band position. The short-term trend remains in an uptrend despite the low volume ratio.",
+    "ja": "Rain（RAIN）は、0.0％の24時間方向で予測されており、潜在的な収縮期を示唆しています。RSI-14は81でオーバーボールド、ボリンジャー・バンド％Bは0.68で中間位置を示しています。短期トレンドは、低いボリューム比率にもかかわらず、上昇トレンドを維持しています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-1.14%",
+        "value": "-1.87%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
@@ -1010,18 +1010,18 @@
       },
       {
         "label": "CoinTelegraph",
+        "value": "Here’s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "US Senate passes housing bill with CBDC ban until 2030",
+        "url": "https://cointelegraph.com/news/senate-passes-housing-bill-that-includes-a-cbdc-ban-through-2030?utm_source=rss&utm_medium=rss&utm_campaign=rss"
+      },
+      {
+        "label": "CoinTelegraph",
         "value": "Crypto lobby urges Congress pass staking and mining tax bill as is",
         "url": "https://cointelegraph.com/news/crypto-lobby-urges-congress-pass-staking-mining-tax-bill-without-changes?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Trump signs orders for quantum computer, cryptography upgrades",
-        "url": "https://cointelegraph.com/news/trump-orders-quantum-computing-push-and-post-quantum-cryptography-upgrade?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Bitmine, Sharplink and Joe Lubin back Ethereum R&D nonprofit",
-        "url": "https://cointelegraph.com/news/bitmine-sharplink-and-joe-lubin-back-ethereum-rd-nonprofit?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }
