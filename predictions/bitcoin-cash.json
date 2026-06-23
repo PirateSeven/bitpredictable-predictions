@@ -1,6 +1,6 @@
 {
   "coinId": "bitcoin-cash",
-  "generatedAt": "2026-06-23T07:00:08.090555Z",
+  "generatedAt": "2026-06-23T08:00:07.701195Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -6.567703886711134,
-    "confidence": 0.9401
+    "changePercent24h": -5.121214439452763,
+    "confidence": 0.924
   },
   "commentary": {
-    "en": "Bitcoin Cash is predicted to decline by 1.7% in the next 24 hours with a confidence level of 79%. The current market sentiment is extreme fear, as indicated by the Fear & Greed Index of 23. The recent news of a CBDC ban in the US until 2030 may have contributed to the bearish sentiment.",
-    "ja": "ビットコインキャッシュは、次の24時間で1.7%の下落が予測され、信頼度は79%です。現在の市場感情は、恐怖指数が23の極度の恐怖を示しています。CBDCの禁止が2030年までの米国で発表されたニュースは、恐怖的な市場感情に貢献した可能性があります。",
+    "en": "The model predicts Bitcoin Cash will decline ~1.7% over the next 24 hours with high confidence (79%). Price is near lower Bollinger Band support, where rebounds are historically more frequent. Community sentiment on CoinGecko is 40% bullish and the Fear & Greed Index reads \"Extreme Fear\" (23), aligning with the model's forecast.",
+    "ja": "モデルはBitcoin Cashが今後24時間で約1.7%下落すると予測しています（信頼度: 高い 79%）。価格がボリンジャーバンド下限付近で、サポートからの反発が過去パターンより多く観察されます。CoinGeckoコミュニティでは40%が強気を示し、Fear & Greed指数は「Extreme Fear」（23）です。予測と方向性が一致しています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1005,7 +1005,7 @@
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "50% bullish",
+        "value": "40% bullish",
         "url": "https://www.coingecko.com/en/coins/bitcoin-cash"
       },
       {
@@ -1020,7 +1020,7 @@
       },
       {
         "label": "CoinTelegraph",
-        "value": "Crypto lobby urges Congress pass staking and mining tax bill as is",
+        "value": "Crypto lobby urges Congress to pass staking and mining tax bill as is",
         "url": "https://cointelegraph.com/news/crypto-lobby-urges-congress-pass-staking-mining-tax-bill-without-changes?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]

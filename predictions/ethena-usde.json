@@ -1,6 +1,6 @@
 {
   "coinId": "ethena-usde",
-  "generatedAt": "2026-06-23T07:00:08.090555Z",
+  "generatedAt": "2026-06-23T08:00:07.701195Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.026431909070385184,
+    "changePercent24h": -0.033837198517009726,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "The model predicts Ethena USDe will trade sideways over the next 24 hours with high confidence (95%). Price is near lower Bollinger Band support, where rebounds are historically more frequent. Community sentiment on CoinGecko is 100% bullish and the Fear & Greed Index reads \"Extreme Fear\" (23), diverging from the model's forecast, adding uncertainty.",
-    "ja": "モデルはEthena USDeが今後24時間で横ばいで推移すると予測しています（信頼度: 高い 95%）。価格がボリンジャーバンド下限付近で、サポートからの反発が過去パターンより多く観察されます。CoinGeckoコミュニティでは100%が強気を示し、Fear & Greed指数は「Extreme Fear」（23）です。予測方向と乖離があり、不確実性が高まっています。",
+    "en": "Ethena USDe (ETHENA-USDE) is expected to remain flat with a 24-hour direction of -0.0% due to a neutral RSI-14 reading and a sideways short-term trend. The Fear & Greed Index at 23 indicates extreme fear in the market, while the CoinGecko community remains 100% bullish. Recent news on CBDC ban and staking tax bill may impact ETHENA-USDE's price.",
+    "ja": "Ethena USDe (ETHENA-USDE) は、ニュートラルの RSI-14 の値と短期的なトレンドが横方向に動いていることから、24 時間の方向が -0.0% で残る可能性があります。Fear & Greed Index が 23 で極度の恐怖を示している一方、コインゲッコーのコミュニティは 100% のバ Bullish です。CBDC の禁止とステーキングの税金に関するニュースは ETHENA-USDE の価格に影響を与える可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1020,7 +1020,7 @@
       },
       {
         "label": "CoinTelegraph",
-        "value": "Crypto lobby urges Congress pass staking and mining tax bill as is",
+        "value": "Crypto lobby urges Congress to pass staking and mining tax bill as is",
         "url": "https://cointelegraph.com/news/crypto-lobby-urges-congress-pass-staking-mining-tax-bill-without-changes?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]

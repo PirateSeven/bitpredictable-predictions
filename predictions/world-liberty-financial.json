@@ -1,6 +1,6 @@
 {
   "coinId": "world-liberty-financial",
-  "generatedAt": "2026-06-23T07:00:08.090555Z",
+  "generatedAt": "2026-06-23T08:00:07.701195Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -0.2666347542116233,
-    "confidence": 0.5404
+    "changePercent24h": 0.8631096563619932,
+    "confidence": 0.7867
   },
   "commentary": {
-    "en": "The model predicts World Liberty Financial will decline ~0.5% over the next 24 hours with moderate confidence (69%). Price is near lower Bollinger Band support, where rebounds are historically more frequent. Community sentiment on CoinGecko is 0% bullish and the Fear & Greed Index reads \"Extreme Fear\" (23), aligning with the model's forecast.",
-    "ja": "モデルはWorld Liberty Financialが今後24時間で約0.5%下落すると予測しています（信頼度: 中程度の 69%）。価格がボリンジャーバンド下限付近で、サポートからの反発が過去パターンより多く観察されます。CoinGeckoコミュニティでは0%が強気を示し、Fear & Greed指数は「Extreme Fear」（23）です。予測と方向性が一致しています。",
+    "en": "World Liberty Financial (WORLD-LIBERTY-FINANCIAL) is predicted to move downward with a 69% confidence level, driven by the current market sentiment of extreme fear and a negative 24-hour return. The recent news of a CBDC ban until 2030 and the lack of bullish sentiment from the CoinGecko community may contribute to this downward trend. The technical signals also indicate a neutral RSI-14 and a sideways short-term trend.",
+    "ja": "ワールド・リバティ・フィナンシャル（WORLD-LIBERTY-FINANCIAL）は、極度の恐怖感と24時間の負のリターンにより、69％の信頼度で下方動きが予想される。CBDCの2030年までの禁止とCoinGeckoコミュニティからの無気力感はこの下方動きに寄与する可能性があり、技術指標も中立的なRSI-14と短期的な横方向のトレンドを示している。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1020,7 +1020,7 @@
       },
       {
         "label": "CoinTelegraph",
-        "value": "Crypto lobby urges Congress pass staking and mining tax bill as is",
+        "value": "Crypto lobby urges Congress to pass staking and mining tax bill as is",
         "url": "https://cointelegraph.com/news/crypto-lobby-urges-congress-pass-staking-mining-tax-bill-without-changes?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]

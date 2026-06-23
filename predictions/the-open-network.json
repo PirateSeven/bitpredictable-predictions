@@ -1,6 +1,6 @@
 {
   "coinId": "the-open-network",
-  "generatedAt": "2026-06-23T07:00:08.090555Z",
+  "generatedAt": "2026-06-23T08:00:07.701195Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -0.7191951396200933,
-    "confidence": 0.6995
+    "changePercent24h": -3.18508776679597,
+    "confidence": 0.9152
   },
   "commentary": {
-    "en": "Gram (prev. Toncoin) (THE-OPEN-NETWORK) is predicted to move downward by 1.1% in the next 24 hours, with a confidence level of 78%. This prediction is based on the current technical signals and market context, including the Fear & Greed Index at 23, indicating extreme fear. The recent news about the US Senate passing a housing bill with a CBDC ban until 2030 may also contribute to the bearish sentiment.",
-    "ja": "THE-OPEN-NETWORKは、次の24時間で1.1%下落する可能性があり、信頼度は78%です。これは、現在の技術指標と市場状況、Fear & Greed Indexが23で極度の恐怖を示すこと、およびUSSenateが2030年までCBDCを禁止する住宅法を通過したことなどに基づいています。",
+    "en": "The model predicts Gram (prev. Toncoin) will decline ~1.1% over the next 24 hours with high confidence (78%). Price is testing the upper Bollinger Band, a resistance level that often precedes short-term consolidation. Community sentiment on CoinGecko is 100% bullish and the Fear & Greed Index reads \"Extreme Fear\" (23), diverging from the model's forecast, adding uncertainty.",
+    "ja": "モデルはGram (prev. Toncoin)が今後24時間で約1.1%下落すると予測しています（信頼度: 高い 78%）。価格がボリンジャーバンド上限に到達しており、短期的な調整が起こりやすい状態です。CoinGeckoコミュニティでは100%が強気を示し、Fear & Greed指数は「Extreme Fear」（23）です。予測方向と乖離があり、不確実性が高まっています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1020,7 +1020,7 @@
       },
       {
         "label": "CoinTelegraph",
-        "value": "Crypto lobby urges Congress pass staking and mining tax bill as is",
+        "value": "Crypto lobby urges Congress to pass staking and mining tax bill as is",
         "url": "https://cointelegraph.com/news/crypto-lobby-urges-congress-pass-staking-mining-tax-bill-without-changes?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]

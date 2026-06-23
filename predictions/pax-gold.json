@@ -1,6 +1,6 @@
 {
   "coinId": "pax-gold",
-  "generatedAt": "2026-06-23T07:00:08.090555Z",
+  "generatedAt": "2026-06-23T08:00:07.701195Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -2.845573913850153,
+    "changePercent24h": -2.1852772839818666,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "The model predicts PAX Gold will trade sideways over the next 24 hours with high confidence (70%). RSI is oversold (26), indicating potential for a mean-reversion bounce. Market sentiment stands at \"Extreme Fear\" (Fear & Greed: 23); the broader crypto market moved -1.9% over the past 24 hours.",
-    "ja": "モデルはPAX Goldが今後24時間で横ばいで推移すると予測しています（信頼度: 高い 70%）。RSIが26と売られすぎ水準で、平均回帰による反発が期待される局面です。Fear & Greed指数は「Extreme Fear」（23）で、暗号資産市場全体の24時間変動率は-1.9%です。",
+    "en": "PAX Gold (PAX-GOLD) is expected to remain flat with a slight decline of -0.1% in the next 24 hours due to the overall bearish market sentiment. The RSI-14 is oversold, indicating a potential short-term bounce, but the Bollinger Band %B is below the lower band, suggesting a continued downward trend. The recent news on CBDC ban and staking tax bill may have a mixed impact on the crypto market.",
+    "ja": "PAX Gold (PAX-GOLD)は、次の24時間に-0.1%の小幅な下落が予想される。RSI-14はオーバーサルド、Bollinger Band %Bは下方バンド下にあるため、短期的な反発の可能性はあるものの、下降傾向が続く可能性もある。CBDC禁止やステーキング税法に関するニュースは、cryptocurrency市場に混乱をもたらす可能性がある。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1015,7 +1015,7 @@
       },
       {
         "label": "CoinTelegraph",
-        "value": "Crypto lobby urges Congress pass staking and mining tax bill as is",
+        "value": "Crypto lobby urges Congress to pass staking and mining tax bill as is",
         "url": "https://cointelegraph.com/news/crypto-lobby-urges-congress-pass-staking-mining-tax-bill-without-changes?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]

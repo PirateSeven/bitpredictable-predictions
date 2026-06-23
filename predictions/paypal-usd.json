@@ -1,6 +1,6 @@
 {
   "coinId": "paypal-usd",
-  "generatedAt": "2026-06-23T07:00:08.090555Z",
+  "generatedAt": "2026-06-23T08:00:07.701195Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.04305926385328111,
+    "changePercent24h": 0.01374061396743212,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "PayPal USD is expected to remain flat in the next 24 hours with a confidence level of 95%. The current market conditions, including the Fear & Greed Index at 23 and the total crypto market cap 24h change at -1.87%, suggest a cautious outlook. The recent news on CBDC ban and staking and mining tax bill may have a limited impact on PayPal USD.",
-    "ja": "PayPal USD は、次の24時間で95%の確信度でフラットになることが予想されます。Fear & Greed Indexが23、総暗号資産市場キャップ24時間変化が-1.87%である現在の市場状況は、慎重な姿勢を示唆しています。CBDC禁止とスタッキング・マイニング税法案に関する最近のニュースは、PayPal USDに限りある影響を与える可能性があります。",
+    "en": "PayPal USD is expected to remain flat in the next 24 hours with a 95% confidence level, as the RSI-14 and Bollinger Band %B indicate a neutral trend. The recent news about the US Senate passing a housing bill with a CBDC ban until 2030 may have a negative impact on the cryptocurrency market. The Fear & Greed Index remains in extreme fear territory.",
+    "ja": "Paypal USD は、次の24時間に95%の確率でフラットな動きを予想しており、RSI-14とボリンジャーバンド％Bは中立的な傾向を示しています。米国上院が2030年までCBDCの禁止を含む住宅法を通過したニュースは、暗号資産市場に否定的な影響を与える可能性があります。恐怖と欲求不満指数はまだ極度の恐怖の領域にあります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1005,7 +1005,7 @@
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "17% bullish",
+        "value": "0% bullish",
         "url": "https://www.coingecko.com/en/coins/paypal-usd"
       },
       {
@@ -1020,7 +1020,7 @@
       },
       {
         "label": "CoinTelegraph",
-        "value": "Crypto lobby urges Congress pass staking and mining tax bill as is",
+        "value": "Crypto lobby urges Congress to pass staking and mining tax bill as is",
         "url": "https://cointelegraph.com/news/crypto-lobby-urges-congress-pass-staking-mining-tax-bill-without-changes?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]

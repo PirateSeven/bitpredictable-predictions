@@ -1,6 +1,6 @@
 {
   "coinId": "crypto-com-chain",
-  "generatedAt": "2026-06-23T07:00:08.090555Z",
+  "generatedAt": "2026-06-23T08:00:07.701195Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -3.387830344780326,
-    "confidence": 0.9459
+    "changePercent24h": -3.0132890517357973,
+    "confidence": 0.9397
   },
   "commentary": {
-    "en": "The model predicts Cronos will trade sideways over the next 24 hours with moderate confidence (51%). RSI is oversold (28), indicating potential for a mean-reversion bounce. Community sentiment on CoinGecko is 83% bullish and the Fear & Greed Index reads \"Extreme Fear\" (23), diverging from the model's forecast, adding uncertainty.",
-    "ja": "モデルはCronosが今後24時間で横ばいで推移すると予測しています（信頼度: 中程度の 51%）。RSIが28と売られすぎ水準で、平均回帰による反発が期待される局面です。CoinGeckoコミュニティでは83%が強気を示し、Fear & Greed指数は「Extreme Fear」（23）です。予測方向と乖離があり、不確実性が高まっています。",
+    "en": "Cronos is experiencing a downtrend with a predicted 24h direction of flat, indicating a slight recovery. The Fear & Greed Index is at 23, reflecting extreme fear in the market. The recent news about CBDC ban and staking tax bill may impact the market sentiment.",
+    "ja": "Cronos は、24時間方向がflat、下落傾向にある。Fear & Greed Index は23、極度の恐怖を示している。CBDC禁止とステーキング税法のニュースは、市場の意識に影響を与える可能性がある。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1005,7 +1005,7 @@
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "83% bullish",
+        "value": "80% bullish",
         "url": "https://www.coingecko.com/en/coins/crypto-com-chain"
       },
       {
@@ -1020,7 +1020,7 @@
       },
       {
         "label": "CoinTelegraph",
-        "value": "Crypto lobby urges Congress pass staking and mining tax bill as is",
+        "value": "Crypto lobby urges Congress to pass staking and mining tax bill as is",
         "url": "https://cointelegraph.com/news/crypto-lobby-urges-congress-pass-staking-mining-tax-bill-without-changes?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]

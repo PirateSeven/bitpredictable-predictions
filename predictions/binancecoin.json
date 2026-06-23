@@ -1,6 +1,6 @@
 {
   "coinId": "binancecoin",
-  "generatedAt": "2026-06-23T07:00:08.090555Z",
+  "generatedAt": "2026-06-23T08:00:07.701195Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -4.588230097948497,
-    "confidence": 0.95
+    "changePercent24h": -3.9182315301446247,
+    "confidence": 0.9425
   },
   "commentary": {
-    "en": "BNB's 24-hour direction is predicted to be down with a confidence of 80%, driven by a lower Bollinger Band %B and a sideways short-term trend. The Fear & Greed Index is at 23, indicating extreme fear in the market. BNB's price is likely to be influenced by the overall market sentiment and recent news.",
-    "ja": "ビナンスコインの24時間の方向は下に予測され、信頼度は80%となり、下方ボリンジャーバンドと短期のトレンドが横方向に動いている影響を受けます。恐怖と欲求不満指数は23、市場全体の感情状態が影響を受けます。ビナンスコインの価格は、最近のニュースや市場全体の感情状態に影響を受けます。",
+    "en": "BNB is expected to decline by 1.0% in the next 24 hours, with a confidence level of 80%. The recent news of a CBDC ban until 2030 in the US Senate housing bill could negatively impact the cryptocurrency market. The Fear & Greed Index remains in Extreme Fear territory.",
+    "ja": "ビナンスコインは、次の24時間で1.0％下落する可能性があり、信頼度は80％です。米国上院が提出した住宅法案にCBDCの禁止が含まれていることが、cryptocurrency市場に悪影響を与える可能性があります。恐怖と欲求不満指数は今でも極度の恐怖の状態です。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1005,7 +1005,7 @@
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "56% bullish",
+        "value": "60% bullish",
         "url": "https://www.coingecko.com/en/coins/binancecoin"
       },
       {
@@ -1020,7 +1020,7 @@
       },
       {
         "label": "CoinTelegraph",
-        "value": "Crypto lobby urges Congress pass staking and mining tax bill as is",
+        "value": "Crypto lobby urges Congress to pass staking and mining tax bill as is",
         "url": "https://cointelegraph.com/news/crypto-lobby-urges-congress-pass-staking-mining-tax-bill-without-changes?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]

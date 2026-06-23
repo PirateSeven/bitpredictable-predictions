@@ -1,6 +1,6 @@
 {
   "coinId": "dogecoin",
-  "generatedAt": "2026-06-23T07:00:08.090555Z",
+  "generatedAt": "2026-06-23T08:00:07.701195Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -4.697798710923304,
-    "confidence": 0.9381
+    "changePercent24h": -4.038494226114628,
+    "confidence": 0.9285
   },
   "commentary": {
-    "en": "Dogecoin is expected to continue its downtrend, with a predicted 24h direction of DOWN at -0.9% confidence. The Fear & Greed Index remains in Extreme Fear, while the CoinGecko community is still 77% bullish. The recent news on CBDC ban and staking and mining tax bill may have a mixed impact on Dogecoin's price.",
-    "ja": "ドージコインは、24時間方向がDOWNの予測値を持っており、信頼度は74%です。恐怖と欲求不満指数は極度の恐怖の状態にあり、コインゲコのコミュニティは77％がbullishです。CBDCの禁止とスタッキングとマイニングの税金法案のニュースは、ドージコインの価格に混乱をもたらす可能性があります。",
+    "en": "Dogecoin is predicted to experience a downward trend with a 74% confidence level, driven by the current downtrend in the short-term trend and the extreme fear sentiment in the market. The recent news about the US Senate passing a housing bill with a CBDC ban until 2030 may also contribute to the bearish sentiment. The RSI-14 at 35 indicates a neutral sentiment, but the Bollinger Band %B at 0.14 suggests that Dogecoin is trading near the lower band.",
+    "ja": "ドージコインは短期のトレンドとマーケットの極度の恐怖感に加えて、下降傾向が予想される。米国上院が2030年までCBDCの禁止を含む住宅法を通過させたニュースは、陰性の感情に貢献する可能性があります。RSI-14は35で中立的な感情を示していますが、ボリンジャー・バンド %Bは0.14で下方のバンドに近い位置にあります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1005,7 +1005,7 @@
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "77% bullish",
+        "value": "74% bullish",
         "url": "https://www.coingecko.com/en/coins/dogecoin"
       },
       {
@@ -1020,7 +1020,7 @@
       },
       {
         "label": "CoinTelegraph",
-        "value": "Crypto lobby urges Congress pass staking and mining tax bill as is",
+        "value": "Crypto lobby urges Congress to pass staking and mining tax bill as is",
         "url": "https://cointelegraph.com/news/crypto-lobby-urges-congress-pass-staking-mining-tax-bill-without-changes?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]

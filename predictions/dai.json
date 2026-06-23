@@ -1,6 +1,6 @@
 {
   "coinId": "dai",
-  "generatedAt": "2026-06-23T07:00:08.090555Z",
+  "generatedAt": "2026-06-23T08:00:07.701195Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.0164,
+    "changePercent24h": 0.004662656609536724,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "The model predicts Dai will trade sideways over the next 24 hours with high confidence (95%). Price moved +0.02% in the past 24 hours with volume at 1.2× average. Community sentiment on CoinGecko is 100% bullish and the Fear & Greed Index reads \"Extreme Fear\" (23), diverging from the model's forecast, adding uncertainty.",
-    "ja": "モデルはDaiが今後24時間で横ばいで推移すると予測しています（信頼度: 高い 95%）。過去24時間のリターンは+0.02%、出来高は平均の1.2倍です。CoinGeckoコミュニティでは100%が強気を示し、Fear & Greed指数は「Extreme Fear」（23）です。予測方向と乖離があり、不確実性が高まっています。",
+    "en": "Dai (DAI) is expected to remain flat in the next 24 hours with a 0.0% predicted return, reflecting a neutral market sentiment. The Fear & Greed Index at 23 indicates extreme fear, while the CoinGecko community remains 100% bullish. Recent news on CBDC ban and staking tax bill may influence the market.",
+    "ja": "DAI (DAI) は、来る24時間で0.0％の予想利回りを示し、中立的な市場感情を反映しています。Fear & Greed Indexは23で、極度の恐怖を示していますが、CoinGeckoコミュニティは100％のバブルを維持しています。CBDCの禁止とステーキング税法に関する最近のニュースは市場に影響を与える可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1020,7 +1020,7 @@
       },
       {
         "label": "CoinTelegraph",
-        "value": "Crypto lobby urges Congress pass staking and mining tax bill as is",
+        "value": "Crypto lobby urges Congress to pass staking and mining tax bill as is",
         "url": "https://cointelegraph.com/news/crypto-lobby-urges-congress-pass-staking-mining-tax-bill-without-changes?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]

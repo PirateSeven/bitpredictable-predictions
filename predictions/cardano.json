@@ -1,6 +1,6 @@
 {
   "coinId": "cardano",
-  "generatedAt": "2026-06-23T07:00:08.090555Z",
+  "generatedAt": "2026-06-23T08:00:07.701195Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -4.202585825163023,
-    "confidence": 0.934
+    "changePercent24h": -3.630056635465897,
+    "confidence": 0.9242
   },
   "commentary": {
-    "en": "Cardano's short-term trend remains sideways, with a flat 24-hour direction prediction of -0.2% and a neutral RSI-14 reading of 41. The Fear & Greed Index at 23 indicates extreme fear in the market, while the CoinGecko community remains 81% bullish. Recent news on CBDC ban and staking tax bill may impact Cardano's price.",
-    "ja": "カードアノの短期トレンドは横方向に動いており、24時間の予測は-0.2%で、RSI-14の値は41で中立的な値です。恐れと欲求不満指数が23で極度の恐れを示しており、コインゲックコミュニティは81％がバブルを信じています。CBDCの禁止やスタッキング税法のニュースはカードアノの価格に影響を与える可能性があります。",
+    "en": "Cardano's short-term trend remains sideways, with a predicted 24h direction of flat to slightly negative. The Fear & Greed Index indicates extreme fear in the market, while the CoinGecko community remains 79% bullish. Recent news surrounding CBDC ban and staking tax bill may impact Cardano's price.",
+    "ja": "カードアノの短期トレンドは横方向に動いており、24時間の予想方向はフラットからマイナスに傾いている。恐怖と欲求不満指数は極度の恐怖を示しており、コインゲッココミュニティは79％がバ Bullishである。CBDCの禁止とステーキング税法に関する最近のニュースはカードアノの価格に影響を与える可能性がある。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1005,7 +1005,7 @@
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "81% bullish",
+        "value": "79% bullish",
         "url": "https://www.coingecko.com/en/coins/cardano"
       },
       {
@@ -1020,7 +1020,7 @@
       },
       {
         "label": "CoinTelegraph",
-        "value": "Crypto lobby urges Congress pass staking and mining tax bill as is",
+        "value": "Crypto lobby urges Congress to pass staking and mining tax bill as is",
         "url": "https://cointelegraph.com/news/crypto-lobby-urges-congress-pass-staking-mining-tax-bill-without-changes?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]

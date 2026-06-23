@@ -1,6 +1,6 @@
 {
   "coinId": "okb",
-  "generatedAt": "2026-06-23T07:00:08.090555Z",
+  "generatedAt": "2026-06-23T08:00:07.701195Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -2.2740176433749646,
-    "confidence": 0.9354
+    "changePercent24h": -2.8919281571014412,
+    "confidence": 0.9481
   },
   "commentary": {
-    "en": "The model predicts OKB will trade sideways over the next 24 hours with high confidence (76%). Price moved +2.64% in the past 24 hours with volume at 1.3× average. Market sentiment stands at \"Extreme Fear\" (Fear & Greed: 23); the broader crypto market moved -1.9% over the past 24 hours.",
-    "ja": "モデルはOKBが今後24時間で横ばいで推移すると予測しています（信頼度: 高い 76%）。過去24時間のリターンは+2.64%、出来高は平均の1.3倍です。Fear & Greed指数は「Extreme Fear」（23）で、暗号資産市場全体の24時間変動率は-1.9%です。",
+    "en": "OKB's 24-hour direction is predicted to be flat with a -0.5% change, driven by neutral technical signals and a cautious market context. The Fear & Greed Index remains in extreme fear territory, while the total crypto market cap has seen a decline. Recent news on CBDC ban and staking tax bill may influence OKB's price movement.",
+    "ja": "OKBの24時間の予測は、-0.5%の変化を示し、中立的な技術指標と慎重な市場状況によって推進される。恐怖と欲求不満指数は極度の恐怖の領域にあり、総暗号資産市場キャップは減少している。CBDCの禁止とステーキング税法に関する最近のニュースは、OKBの価格変動に影響を与える可能性がある。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1015,7 +1015,7 @@
       },
       {
         "label": "CoinTelegraph",
-        "value": "Crypto lobby urges Congress pass staking and mining tax bill as is",
+        "value": "Crypto lobby urges Congress to pass staking and mining tax bill as is",
         "url": "https://cointelegraph.com/news/crypto-lobby-urges-congress-pass-staking-mining-tax-bill-without-changes?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]

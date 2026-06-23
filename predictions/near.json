@@ -1,6 +1,6 @@
 {
   "coinId": "near",
-  "generatedAt": "2026-06-23T07:00:08.090555Z",
+  "generatedAt": "2026-06-23T08:00:07.701195Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -12.70107225681361,
-    "confidence": 0.9271
+    "changePercent24h": -11.26479987778449,
+    "confidence": 0.918
   },
   "commentary": {
-    "en": "NEAR Protocol (NEAR) is predicted to experience a downward movement in the next 24 hours with a confidence of 78% and a potential decline of -4.1%. The current market context suggests a high level of fear, as indicated by the Fear & Greed Index of 23, and a downtrend in the short-term trend. The recent news surrounding CBDC ban and staking and mining tax bill may have a negative impact on NEAR's price.",
-    "ja": "NEAR Protocol (NEAR) は、次の24時間で下落を予測し、信頼度78%、-4.1%の可能性があります。Fear & Greed Indexが23と高く、短期傾向が下降している市場状況は、NEARの価格に否定的な影響を与える可能性があります。CBDCの禁止や、stakingとmining税金法の最近のニュースは、NEARの価格に否定的な影響を与える可能性があります。",
+    "en": "The model predicts NEAR Protocol will decline ~4.1% over the next 24 hours with high confidence (78%). Price is near lower Bollinger Band support, where rebounds are historically more frequent. Community sentiment on CoinGecko is 88% bullish and the Fear & Greed Index reads \"Extreme Fear\" (23), diverging from the model's forecast, adding uncertainty.",
+    "ja": "モデルはNEAR Protocolが今後24時間で約4.1%下落すると予測しています（信頼度: 高い 78%）。価格がボリンジャーバンド下限付近で、サポートからの反発が過去パターンより多く観察されます。CoinGeckoコミュニティでは88%が強気を示し、Fear & Greed指数は「Extreme Fear」（23）です。予測方向と乖離があり、不確実性が高まっています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1005,7 +1005,7 @@
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "94% bullish",
+        "value": "88% bullish",
         "url": "https://www.coingecko.com/en/coins/near"
       },
       {
@@ -1020,7 +1020,7 @@
       },
       {
         "label": "CoinTelegraph",
-        "value": "Crypto lobby urges Congress pass staking and mining tax bill as is",
+        "value": "Crypto lobby urges Congress to pass staking and mining tax bill as is",
         "url": "https://cointelegraph.com/news/crypto-lobby-urges-congress-pass-staking-mining-tax-bill-without-changes?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]

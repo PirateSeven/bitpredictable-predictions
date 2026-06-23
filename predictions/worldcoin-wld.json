@@ -1,6 +1,6 @@
 {
   "coinId": "worldcoin-wld",
-  "generatedAt": "2026-06-23T07:00:08.090555Z",
+  "generatedAt": "2026-06-23T08:00:07.701195Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -1.1118613552348582,
-    "confidence": 0.6387
+    "changePercent24h": -0.07668782873818386,
+    "confidence": 0.1
   },
   "commentary": {
-    "en": "Worldcoin WLD is predicted to move downward with a 38% confidence level, driven by the short-term downtrend and recent market volatility. The Fear & Greed Index at 23 indicates extreme fear, contributing to the bearish sentiment. The recent news on CBDC ban and staking tax bill may also impact WLD's price.",
-    "ja": "ワールドコインのWLDは、短期的な下落傾向と最近の市場の不確実性により、38％の確実性で下落する可能性があります。恐怖と欲求不満指数が23の極度の恐怖を示しており、これは否定的な意見に貢献します。CBDCの禁止とステーキング税法のニュースもWLDの価格に影響を与える可能性があります。",
+    "en": "The model predicts Worldcoin will decline ~0.6% over the next 24 hours with low confidence (38%). Price is near lower Bollinger Band support, where rebounds are historically more frequent. Community sentiment on CoinGecko is 75% bullish and the Fear & Greed Index reads \"Extreme Fear\" (23), diverging from the model's forecast, adding uncertainty.",
+    "ja": "モデルはWorldcoinが今後24時間で約0.6%下落すると予測しています（信頼度: 低い 38%）。価格がボリンジャーバンド下限付近で、サポートからの反発が過去パターンより多く観察されます。CoinGeckoコミュニティでは75%が強気を示し、Fear & Greed指数は「Extreme Fear」（23）です。予測方向と乖離があり、不確実性が高まっています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1005,7 +1005,7 @@
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "71% bullish",
+        "value": "75% bullish",
         "url": "https://www.coingecko.com/en/coins/worldcoin-wld"
       },
       {
@@ -1020,7 +1020,7 @@
       },
       {
         "label": "CoinTelegraph",
-        "value": "Crypto lobby urges Congress pass staking and mining tax bill as is",
+        "value": "Crypto lobby urges Congress to pass staking and mining tax bill as is",
         "url": "https://cointelegraph.com/news/crypto-lobby-urges-congress-pass-staking-mining-tax-bill-without-changes?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]

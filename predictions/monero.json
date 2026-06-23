@@ -1,6 +1,6 @@
 {
   "coinId": "monero",
-  "generatedAt": "2026-06-23T07:00:08.090555Z",
+  "generatedAt": "2026-06-23T08:00:07.701195Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -3.6741783618988992,
-    "confidence": 0.8854
+    "changePercent24h": -3.1947643591795956,
+    "confidence": 0.8695
   },
   "commentary": {
-    "en": "Monero's 24-hour direction is predicted to be DOWN by 1.6% with a 75% confidence level, despite a neutral RSI-14 reading of 45. The market context suggests extreme fear, with the Fear & Greed Index at 23 and a total crypto market cap 24-hour change of -1.87%. The recent news on CBDC ban and staking and mining tax bill may have a negative impact on Monero's price.",
-    "ja": "モネロの24時間の方向は、75％の確率で1.6％の下落予想です。RSI-14の値は45で中立的な状態ですが、総暗号資産の24時間の変化は-1.87%で、恐怖の指数は23に低くなっています。最近のニュースではCBDCの禁止とスタッキングとマイニング税法の影響がモネロの価格に悪影響を及ぼす可能性があります。",
+    "en": "Monero's 24-hour direction is predicted to be down by 1.6% with a 75% confidence level, despite a neutral RSI-14 reading of 45. The Fear & Greed Index remains at 23, indicating extreme fear in the market. Recent news on CBDC ban and staking tax bill may influence Monero's price.",
+    "ja": "モノロの24時間予想は下げる方向で、1.6%の予想下落率で75%の信頼度があります。RSI-14の値は45で中立的な値です。Fear & Greed Indexは23で恐怖の状態です。最近のニュースではCBDCの禁止とスタッキング税法の影響がモノロの価格に影響を与える可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1020,7 +1020,7 @@
       },
       {
         "label": "CoinTelegraph",
-        "value": "Crypto lobby urges Congress pass staking and mining tax bill as is",
+        "value": "Crypto lobby urges Congress to pass staking and mining tax bill as is",
         "url": "https://cointelegraph.com/news/crypto-lobby-urges-congress-pass-staking-mining-tax-bill-without-changes?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]

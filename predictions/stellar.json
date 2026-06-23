@@ -1,6 +1,6 @@
 {
   "coinId": "stellar",
-  "generatedAt": "2026-06-23T07:00:08.090555Z",
+  "generatedAt": "2026-06-23T08:00:07.701195Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -6.886006837420618,
-    "confidence": 0.9443
+    "changePercent24h": -5.919035323048487,
+    "confidence": 0.9356
   },
   "commentary": {
-    "en": "Stellar's 24-hour direction is predicted to be down, with a -1.4% return (confidence: 75%). The RSI-14 is at 22, indicating an oversold condition, while the Bollinger Band %B is at 0.10, suggesting a lower band. The recent news on CBDC ban and staking tax bill may impact Stellar's price.",
-    "ja": "ステラルの24時間の予想方向は下げ、-1.4%のリターン（信頼度：75％）です。RSI-14は22で、オーバーサールドの状態を示しており、ボリンジャー・バンド %Bは0.10で、下のバンドを示しています。CBDCの禁止とスタッキング税法のニュースはステラルの価格に影響を与える可能性があります。",
+    "en": "Stellar's price is expected to decline by 1.4% in the next 24 hours, with a confidence level of 75%. This prediction is based on the current technical signals, including the RSI-14 being oversold and the Bollinger Band %B touching the lower band. The market context, including the Fear & Greed Index and the total crypto market cap 24h change, also supports this downward trend.",
+    "ja": "ステラルの価格は、次の24時間で1.4%下落する可能性があり、信頼度は75%です。この予測は、現在の技術指標、RSI-14がオーバーサルド、ボリンジャーバンド％Bが下方バンドに触れていることなどに基づいています。Fear & Greed Indexや総暗号資産市場キャップ24時間変化など、市場状況もこの下落傾向を支持しています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1005,7 +1005,7 @@
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "47% bullish",
+        "value": "46% bullish",
         "url": "https://www.coingecko.com/en/coins/stellar"
       },
       {
@@ -1020,7 +1020,7 @@
       },
       {
         "label": "CoinTelegraph",
-        "value": "Crypto lobby urges Congress pass staking and mining tax bill as is",
+        "value": "Crypto lobby urges Congress to pass staking and mining tax bill as is",
         "url": "https://cointelegraph.com/news/crypto-lobby-urges-congress-pass-staking-mining-tax-bill-without-changes?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]

@@ -1,6 +1,6 @@
 {
   "coinId": "usd1-wlfi",
-  "generatedAt": "2026-06-23T07:00:08.090555Z",
+  "generatedAt": "2026-06-23T08:00:07.701195Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 0.07585777041569623,
+    "changePercent24h": 0.06349512346732082,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "USD1-WLFI is expected to remain flat with a 0.0% change in the next 24 hours, given its neutral RSI-14 reading and sideways short-term trend. The recent news on CBDC ban and staking and mining tax bill may have a limited impact on the coin's price movement. Overall market conditions, including the Fear & Greed Index and total crypto market cap, also suggest a stable short-term outlook.",
-    "ja": "USD1-WLFIは、RSI-14の中立的な値と短期的な傾向の横方向の動きから、次の24時間に0.0%の変化が予想される。CBDCの禁止と採掘およびマイニング税法の影響は価格の動きに限られた影響を与える可能性があり、Fear & Greed Indexと総暗号資産市場の状況も短期的な安定を示唆している。",
+    "en": "The model predicts USD1 will trade sideways over the next 24 hours with high confidence (95%). Price moved +0.02% in the past 24 hours with volume at 0.9× average. Community sentiment on CoinGecko is 0% bullish and the Fear & Greed Index reads \"Extreme Fear\" (23), aligning with the model's forecast.",
+    "ja": "モデルはUSD1が今後24時間で横ばいで推移すると予測しています（信頼度: 高い 95%）。過去24時間のリターンは+0.02%、出来高は平均の0.9倍です。CoinGeckoコミュニティでは0%が強気を示し、Fear & Greed指数は「Extreme Fear」（23）です。予測と方向性が一致しています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1020,7 +1020,7 @@
       },
       {
         "label": "CoinTelegraph",
-        "value": "Crypto lobby urges Congress pass staking and mining tax bill as is",
+        "value": "Crypto lobby urges Congress to pass staking and mining tax bill as is",
         "url": "https://cointelegraph.com/news/crypto-lobby-urges-congress-pass-staking-mining-tax-bill-without-changes?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
