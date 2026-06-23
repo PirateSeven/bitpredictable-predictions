@@ -1,6 +1,6 @@
 {
   "coinId": "the-open-network",
-  "generatedAt": "2026-06-23T13:00:07.743038Z",
+  "generatedAt": "2026-06-23T14:00:08.216674Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -14.526261267043362,
+    "changePercent24h": -14.201585494557973,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "The model predicts Gram (prev. Toncoin) will decline ~1.4% over the next 24 hours with high confidence (85%). Price is near lower Bollinger Band support, where rebounds are historically more frequent. Community sentiment on CoinGecko is 75% bullish and the Fear & Greed Index reads \"Extreme Fear\" (23), diverging from the model's forecast, adding uncertainty.",
-    "ja": "モデルはGram (prev. Toncoin)が今後24時間で約1.4%下落すると予測しています（信頼度: 高い 85%）。価格がボリンジャーバンド下限付近で、サポートからの反発が過去パターンより多く観察されます。CoinGeckoコミュニティでは75%が強気を示し、Fear & Greed指数は「Extreme Fear」（23）です。予測方向と乖離があり、不確実性が高まっています。",
+    "en": "Gram (prev. Toncoin) (THE-OPEN-NETWORK) is predicted to have a 24-hour direction of DOWN with a -1.4% return, based on technical signals. The recent news on stablecoins and digital euro bill advancement may have a mixed impact on the market. The Fear & Greed Index remains in Extreme Fear, indicating a potential for short-term volatility.",
+    "ja": "THE-OPEN-NETWORKは24時間方向がDOWNで、-1.4%のリターンが予想されます。技術指標から見ると、短期的な下降傾向が続いています。最近のニュースでは、安定コインとデジタルユーロの進展についてのニュースが流れましたが、市場への影響は混在しています。恐怖と欲求不満指数は今も極度の恐怖の状態にあり、短期的な波動が見込まれます。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-3.91%",
+        "value": "-4.41%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "75% bullish",
+        "value": "78% bullish",
         "url": "https://www.coingecko.com/en/coins/the-open-network"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Here’s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "EU committee advances digital euro bill after key vote",
         "url": "https://cointelegraph.com/news/eu-committee-digital-euro-cbdc-bill-key-vote?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Former BIS chief softens stance on stablecoins, backs coexistence with fiat",
-        "url": "https://cointelegraph.com/news/former-bis-chief-softens-stance-stablecoins-coexistence-fiat?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "coinId": "hedera-hashgraph",
-  "generatedAt": "2026-06-23T13:00:07.743038Z",
+  "generatedAt": "2026-06-23T14:00:08.216674Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -1.8795336046845132,
-    "confidence": 0.8596
+    "changePercent24h": -1.1871831442096932,
+    "confidence": 0.7919
   },
   "commentary": {
-    "en": "Hedera's 24-hour direction is predicted to be DOWN with a -0.7% change, indicating a slight decline in the short term. The RSI-14 is at 38, a neutral level, while the Bollinger Band %B is at 0.21, indicating the price is near the mid-band. The recent news on stablecoins and digital euros may have a mixed impact on the market.",
-    "ja": "ヘダラハッシュグラフの24時間の方向は、-0.7%の変化で下向きと予想され、短期的には微妙な下落が見込まれる。RSI-14は38、中立的なレベルにあり、ボリンジャー・バンドの%Bは0.21、価格は中間帯に近い。安定コインやデジタルユーロに関する最近のニュースは市場に混乱をもたらす可能性がある。",
+    "en": "Hedera's 24-hour direction is predicted to be DOWN with a 66% confidence level, driven by a downtrend in the short-term trend and a 24h actual return of -2.95%. The Fear & Greed Index at 23 indicates extreme fear in the market, which may contribute to HEDERA-HASHGRAPH's decline. The RSI-14 at 38 suggests a neutral sentiment.",
+    "ja": "ヘダラハッシュグラフの24時間予測は下落に予想されており、66％の信頼性があり、短期傾向の下降と24時間実際のリターン-2.95％に推進されています。恐怖と欲求不満指数が23であることは、市場の恐怖が高まり、ヘダラハッシュグラフの下落に貢献する可能性があります。RSI-14が38であることは中立的な感情を示しています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-3.91%",
+        "value": "-4.41%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "100% bullish",
+        "value": "89% bullish",
         "url": "https://www.coingecko.com/en/coins/hedera-hashgraph"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Here’s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "EU committee advances digital euro bill after key vote",
         "url": "https://cointelegraph.com/news/eu-committee-digital-euro-cbdc-bill-key-vote?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Former BIS chief softens stance on stablecoins, backs coexistence with fiat",
-        "url": "https://cointelegraph.com/news/former-bis-chief-softens-stance-stablecoins-coexistence-fiat?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

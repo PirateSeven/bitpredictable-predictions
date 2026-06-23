@@ -1,6 +1,6 @@
 {
   "coinId": "tether-gold",
-  "generatedAt": "2026-06-23T13:00:07.743038Z",
+  "generatedAt": "2026-06-23T14:00:08.216674Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,8 +966,8 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -1.1300645372095777,
-    "confidence": 0.9337
+    "changePercent24h": -0.8741320734584316,
+    "confidence": 0.9186
   },
   "commentary": {
     "en": "The model predicts Tether Gold will trade sideways over the next 24 hours with high confidence (73%). The short-term SMA is below the medium-term SMA, indicating weakening momentum. Community sentiment on CoinGecko is 100% bullish and the Fear & Greed Index reads \"Extreme Fear\" (23), diverging from the model's forecast, adding uncertainty.",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-3.91%",
+        "value": "-4.41%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "100% bullish",
         "url": "https://www.coingecko.com/en/coins/tether-gold"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Here’s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "EU committee advances digital euro bill after key vote",
         "url": "https://cointelegraph.com/news/eu-committee-digital-euro-cbdc-bill-key-vote?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Former BIS chief softens stance on stablecoins, backs coexistence with fiat",
-        "url": "https://cointelegraph.com/news/former-bis-chief-softens-stance-stablecoins-coexistence-fiat?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

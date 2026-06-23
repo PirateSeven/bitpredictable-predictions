@@ -1,6 +1,6 @@
 {
   "coinId": "dai",
-  "generatedAt": "2026-06-23T13:00:07.743038Z",
+  "generatedAt": "2026-06-23T14:00:08.216674Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 0.004497975769121112,
+    "changePercent24h": 0.013421215774827449,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "The model predicts Dai will trade sideways over the next 24 hours with high confidence (95%). Price moved -0.03% in the past 24 hours with volume at 1.1× average. Market sentiment stands at \"Extreme Fear\" (Fear & Greed: 23); the broader crypto market moved -3.9% over the past 24 hours.",
-    "ja": "モデルはDaiが今後24時間で横ばいで推移すると予測しています（信頼度: 高い 95%）。過去24時間のリターンは-0.03%、出来高は平均の1.1倍です。Fear & Greed指数は「Extreme Fear」（23）で、暗号資産市場全体の24時間変動率は-3.9%です。",
+    "en": "Dai (DAI) is expected to remain flat in the next 24 hours with a confidence level of 95%. The recent news on stablecoins and the digital euro bill may have a neutral impact on DAI's price. The Fear & Greed Index at Extreme Fear level may also contribute to the flat direction.",
+    "ja": "DAI（DAI）は、次の24時間に95％の確実性でフラットに推定されます。安定コインやデジタルユーロビルに関する最近のニュースはDAIの価格に中立的な影響を与える可能性があります。恐怖と欲求不満指数が極度の恐怖レベルであることもDAIの価格に影響を与える可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,8 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-3.91%",
+        "value": "-4.41%",
         "url": "https://www.coingecko.com/en/global-charts"
+      },
+      {
+        "label": "CoinGecko Community Sentiment",
+        "value": "100% bullish",
+        "url": "https://www.coingecko.com/en/coins/dai"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Here’s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1012,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "EU committee advances digital euro bill after key vote",
         "url": "https://cointelegraph.com/news/eu-committee-digital-euro-cbdc-bill-key-vote?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Former BIS chief softens stance on stablecoins, backs coexistence with fiat",
-        "url": "https://cointelegraph.com/news/former-bis-chief-softens-stance-stablecoins-coexistence-fiat?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

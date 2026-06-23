@@ -1,6 +1,6 @@
 {
   "coinId": "paypal-usd",
-  "generatedAt": "2026-06-23T13:00:07.743038Z",
+  "generatedAt": "2026-06-23T14:00:08.216674Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,7 +966,7 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 0.02324671426019062,
+    "changePercent24h": 0.03126322024166206,
     "confidence": 0.95
   },
   "commentary": {
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-3.91%",
+        "value": "-4.41%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "25% bullish",
         "url": "https://www.coingecko.com/en/coins/paypal-usd"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Here’s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "EU committee advances digital euro bill after key vote",
         "url": "https://cointelegraph.com/news/eu-committee-digital-euro-cbdc-bill-key-vote?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Former BIS chief softens stance on stablecoins, backs coexistence with fiat",
-        "url": "https://cointelegraph.com/news/former-bis-chief-softens-stance-stablecoins-coexistence-fiat?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

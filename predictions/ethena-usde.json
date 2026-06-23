@@ -1,6 +1,6 @@
 {
   "coinId": "ethena-usde",
-  "generatedAt": "2026-06-23T13:00:07.743038Z",
+  "generatedAt": "2026-06-23T14:00:08.216674Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.060636439581858353,
+    "changePercent24h": -0.05823035360849403,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "Ethena USDe (ETHENA-USDE) is expected to remain flat in the next 24 hours with a 95% confidence level. The current market conditions, including the Fear & Greed Index at 23 and the total crypto market cap 24h change at -3.91%, suggest a cautious outlook. The recent news on stablecoins and digital currencies may have a limited impact on ETHENA-USDE's short-term price movement.",
-    "ja": "ETHENA-USDEは来日24時間で95%の確率でフラットの動きとなる予想です。Fear & Greed Indexが23と総コインマーケットキャップ24時間変化が-3.91%であるなど、現在の市場状況は慎重な姿勢を示しています。最近のニュースでstablecoinやデジタル通貨についての報道は、ETHENA-USDEの短期価格動向に限り大きな影響を与える可能性は低いです。",
+    "en": "The model predicts Ethena USDe will trade sideways over the next 24 hours with high confidence (95%). Price is near lower Bollinger Band support, where rebounds are historically more frequent. Community sentiment on CoinGecko is 100% bullish and the Fear & Greed Index reads \"Extreme Fear\" (23), diverging from the model's forecast, adding uncertainty.",
+    "ja": "モデルはEthena USDeが今後24時間で横ばいで推移すると予測しています（信頼度: 高い 95%）。価格がボリンジャーバンド下限付近で、サポートからの反発が過去パターンより多く観察されます。CoinGeckoコミュニティでは100%が強気を示し、Fear & Greed指数は「Extreme Fear」（23）です。予測方向と乖離があり、不確実性が高まっています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-3.91%",
+        "value": "-4.41%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "100% bullish",
         "url": "https://www.coingecko.com/en/coins/ethena-usde"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Here’s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "EU committee advances digital euro bill after key vote",
         "url": "https://cointelegraph.com/news/eu-committee-digital-euro-cbdc-bill-key-vote?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Former BIS chief softens stance on stablecoins, backs coexistence with fiat",
-        "url": "https://cointelegraph.com/news/former-bis-chief-softens-stance-stablecoins-coexistence-fiat?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

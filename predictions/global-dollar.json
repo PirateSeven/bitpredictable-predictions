@@ -1,6 +1,6 @@
 {
   "coinId": "global-dollar",
-  "generatedAt": "2026-06-23T13:00:07.743038Z",
+  "generatedAt": "2026-06-23T14:00:08.216674Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 0.005352938566837898,
+    "changePercent24h": -0.0164,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "The Global Dollar (GLOBAL-DOLLAR) is expected to remain flat in the next 24 hours with a 0.0% predicted direction, as the Fear & Greed Index indicates extreme fear in the market. The recent news of Kalshi's restriction in India and the EU's digital euro bill advancement may have a neutral impact on the GLOBAL-DOLLAR. The sideways short-term trend and normal volume ratio also support the flat prediction.",
-    "ja": "グローバル・ドル（GLOBAL-DOLLAR）は、次の24時間に0.0％の予想方向で平穏な状態を維持する可能性があり、Fear & Greed Indexは市場が極度の恐怖に陥っていることを示している。 Kalshiのインドでの制限とEUのデジタル・ユーロ法の進歩などの最近のニュースは、グローバル・ドルに中立的な影響を与える可能性がある。短期的なトレンドは横方向に動いており、ボリュームの比率も正常な値を示している。",
+    "en": "The Global Dollar token is expected to remain flat in the next 24 hours with a confidence level of 95%. This prediction is supported by neutral technical indicators, including an RSI-14 reading of 51 and a Bollinger Band %B of 0.51. The recent news on regulatory developments and market trends suggests a cautious market sentiment.",
+    "ja": "グローバル・ドラー・トークンは、次の24時間で95％の確実性でフラットのままであると予想されます。この予測は、RSI-14の値が51、ボリンジャー・バンドの%Bが0.51であるなど中立的な技術指標によって裏付けられています。最近のニュースでは、規制開発や市場の動向についてのニュースは、慎重な市場の感覚を示しています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,8 +1000,13 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-3.91%",
+        "value": "-4.41%",
         "url": "https://www.coingecko.com/en/global-charts"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Here’s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1012,11 +1017,6 @@
         "label": "CoinTelegraph",
         "value": "EU committee advances digital euro bill after key vote",
         "url": "https://cointelegraph.com/news/eu-committee-digital-euro-cbdc-bill-key-vote?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Former BIS chief softens stance on stablecoins, backs coexistence with fiat",
-        "url": "https://cointelegraph.com/news/former-bis-chief-softens-stance-stablecoins-coexistence-fiat?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

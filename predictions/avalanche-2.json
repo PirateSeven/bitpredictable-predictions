@@ -1,6 +1,6 @@
 {
   "coinId": "avalanche-2",
-  "generatedAt": "2026-06-23T13:00:07.743038Z",
+  "generatedAt": "2026-06-23T14:00:08.216674Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -2.563324807833956,
-    "confidence": 0.8238
+    "changePercent24h": -1.5424865789834403,
+    "confidence": 0.7234
   },
   "commentary": {
-    "en": "Avalanche's 24-hour direction is predicted to be DOWN with a confidence of 80% and a potential return of -2.3%. The recent news on stablecoins and the digital euro bill may have a mixed impact on the market. The Fear & Greed Index at 23 indicates extreme fear, which could contribute to the predicted downtrend.",
-    "ja": "アバランチ2の24時間の方向は、80%の確率で下降を予測し、-2.3%のリターンを予想する。安定コインやデジタルユーロに関する最近のニュースは、市場に混乱をもたらす可能性がある。恐怖と欲求不満指数が23に達しているため、極度の恐怖が予想される下降傾向に貢献する可能性がある。",
+    "en": "Avalanche (AVALANCHE-2) is predicted to decline by 2.3% in the next 24 hours with an 80% confidence level. The current market sentiment is in extreme fear with a Fear & Greed Index of 23. The recent news on regulatory developments and market volatility may contribute to the predicted decline.",
+    "ja": "Avalanche (AVALANCHE-2) は、次の24時間で2.3%の下落が予想され、80%の確実度で予測されています。現在の市場感情は、恐怖の極度にあり、恐怖と欲求不満指数は23です。規制開発や市場ボラティリティに関する最近のニュースは、予想される下落に寄与する可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-3.91%",
+        "value": "-4.41%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "72% bullish",
         "url": "https://www.coingecko.com/en/coins/avalanche-2"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Here’s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "EU committee advances digital euro bill after key vote",
         "url": "https://cointelegraph.com/news/eu-committee-digital-euro-cbdc-bill-key-vote?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Former BIS chief softens stance on stablecoins, backs coexistence with fiat",
-        "url": "https://cointelegraph.com/news/former-bis-chief-softens-stance-stablecoins-coexistence-fiat?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

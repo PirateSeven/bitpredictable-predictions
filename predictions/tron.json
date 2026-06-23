@@ -1,6 +1,6 @@
 {
   "coinId": "tron",
-  "generatedAt": "2026-06-23T13:00:07.743038Z",
+  "generatedAt": "2026-06-23T14:00:08.216674Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.9222882382976336,
-    "confidence": 0.9354
+    "changePercent24h": -0.9686758678375532,
+    "confidence": 0.9378
   },
   "commentary": {
-    "en": "TRON's 24-hour direction is predicted to be flat with a 0.0% return, indicating a neutral sentiment. The recent news of regulatory developments and market volatility may impact TRON's price movement. TRON's short-term trend remains sideways, suggesting a lack of clear direction.",
-    "ja": "トロンの24時間の動向は、0.0％のリターンで予測されており、中立的な感情を示しています。規制開発と市場の波動に関する最近のニュースはトロンの価格動向に影響を与える可能性があります。トロンの短期的な傾向は、明確な方向性の欠如を示しています。",
+    "en": "TRON's technical signals suggest a flat 24-hour direction with a 78% confidence level. The Fear & Greed Index remains in extreme fear territory, while the CoinGecko community is 58% bullish. Recent news highlights regulatory developments and market volatility.",
+    "ja": "トロンの技術指標は、24時間の方向性がフラットであることを示しており、78％の信頼度を持っています。恐怖と欲求不満指数は極度の恐怖の領域にあり、CoinGeckoコミュニティは58％がバ Bullishです。最近のニュースでは、規制開発と市場のボラティリティが強調されています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-3.91%",
+        "value": "-4.41%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "57% bullish",
+        "value": "58% bullish",
         "url": "https://www.coingecko.com/en/coins/tron"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Here’s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "EU committee advances digital euro bill after key vote",
         "url": "https://cointelegraph.com/news/eu-committee-digital-euro-cbdc-bill-key-vote?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Former BIS chief softens stance on stablecoins, backs coexistence with fiat",
-        "url": "https://cointelegraph.com/news/former-bis-chief-softens-stance-stablecoins-coexistence-fiat?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

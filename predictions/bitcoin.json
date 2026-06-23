@@ -1,6 +1,6 @@
 {
   "coinId": "bitcoin",
-  "generatedAt": "2026-06-23T13:00:07.743038Z",
+  "generatedAt": "2026-06-23T14:00:08.216674Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -3.097706103554191,
-    "confidence": 0.927
+    "changePercent24h": -2.622037626105982,
+    "confidence": 0.9149
   },
   "commentary": {
-    "en": "Bitcoin's 24-hour direction is predicted to be flat with a -0.3% decline, driven by oversold conditions and a downtrend in the short-term trend. The Fear & Greed Index remains in extreme fear, while the CoinGecko community is 71% bullish. Recent news on regulatory developments and market volatility may influence Bitcoin's price.",
-    "ja": "ビットコインの24時間の予測は、-0.3%の下落となり、オーバーサールドの条件と短期のトレンドの下落に推進される。恐怖と欲求不満指数は極度の恐怖の状態にあり、CoinGeckoコミュニティは71%がバブルである。最近のニュースでは、規制開発と市場のボラティリティがビットコインの価格に影響を与える可能性がある。",
+    "en": "Bitcoin's short-term trend remains in a downtrend, but the RSI-14 is oversold at 28. The recent news on regulatory developments, such as the digital euro bill and stablecoin coexistence, may have a mixed impact on the market. A flat 24-hour direction with a -0.3% confidence level suggests a possible consolidation phase.",
+    "ja": "ビットコインの短期トレンドは下降線形を維持しているが、RSI-14は28でオーバーサルである。規制開発に関する最近のニュース、デジタルユーロビルやスターブルコインの共存などは市場に混乱をもたらす可能性がある。24時間の方向性は-0.3％の信頼度でフラットを示しており、可能なのはコンソリデーションフェイズである。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-3.91%",
+        "value": "-4.41%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "71% bullish",
         "url": "https://www.coingecko.com/en/coins/bitcoin"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Here’s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "EU committee advances digital euro bill after key vote",
         "url": "https://cointelegraph.com/news/eu-committee-digital-euro-cbdc-bill-key-vote?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Former BIS chief softens stance on stablecoins, backs coexistence with fiat",
-        "url": "https://cointelegraph.com/news/former-bis-chief-softens-stance-stablecoins-coexistence-fiat?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

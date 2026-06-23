@@ -1,6 +1,6 @@
 {
   "coinId": "dogecoin",
-  "generatedAt": "2026-06-23T13:00:07.743038Z",
+  "generatedAt": "2026-06-23T14:00:08.216674Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -3.833963382399875,
-    "confidence": 0.9307
+    "changePercent24h": -3.1930409537079196,
+    "confidence": 0.9178
   },
   "commentary": {
-    "en": "Dogecoin is predicted to continue its downward trend in the next 24 hours with a -0.7% drop, despite being oversold according to the RSI-14 indicator. The recent news from the crypto market, including the decline in Bitcoin price and the advancement of the digital euro bill, may have a negative impact on Dogecoin's price. The Fear & Greed Index remains in Extreme Fear territory, indicating a high level of market anxiety.",
-    "ja": "ドージコインは、次の24時間に-0.7%の下落が予想され、RSI-14指標ではオーバーサルドであるにもかかわらず。最近のニュースから、ビットコインの価格の下落とデジタルユーロの法案の進展がドージコインの価格に否定的な影響を与える可能性があります。恐怖と欲求不満指数は、極度の恐怖の領域にあり、市場の不安が高いことを示しています。",
+    "en": "Dogecoin is expected to continue its downward trend in the short term, with a predicted 24h direction of DOWN at -0.7% confidence. The RSI-14 is oversold, but the short-term trend remains in a downtrend. The recent news on stablecoins and digital euro bill may have a mixed impact on the market.",
+    "ja": "ドージコインは短期的には下落を続ける可能性があり、24時間の予想方向はDOWNで、-0.7%の信頼性を持っています。RSI-14はオーバーサールドですが、短期的な傾向は下傾きを続けています。安定コインやデジタルユーロのニュースは市場に混乱をもたらす可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-3.91%",
+        "value": "-4.41%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "74% bullish",
+        "value": "68% bullish",
         "url": "https://www.coingecko.com/en/coins/dogecoin"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Here’s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "EU committee advances digital euro bill after key vote",
         "url": "https://cointelegraph.com/news/eu-committee-digital-euro-cbdc-bill-key-vote?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Former BIS chief softens stance on stablecoins, backs coexistence with fiat",
-        "url": "https://cointelegraph.com/news/former-bis-chief-softens-stance-stablecoins-coexistence-fiat?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "coinId": "crypto-com-chain",
-  "generatedAt": "2026-06-23T13:00:07.743038Z",
+  "generatedAt": "2026-06-23T14:00:08.216674Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -3.3338255521732614,
-    "confidence": 0.9323
+    "changePercent24h": -2.7904563657184993,
+    "confidence": 0.9203
   },
   "commentary": {
-    "en": "Cronos's predicted 24h direction is flat with a -0.3% change, indicating a possible stabilization after a 4.58% decline. The RSI-14 is oversold, but the short-term trend remains in a downtrend. The Fear & Greed Index is at 23, indicating extreme fear in the market.",
-    "ja": "Cronosの24時間予想は-0.3%の変動でフラットに推測され、4.58%の下落後に安定化する可能性がある。RSI-14はオーバーサルドだが、短期トレンドは下降傾向にある。Fear & Greed Indexは23で、市場は極度の恐怖に陥っている。",
+    "en": "Cronos's 24-hour direction is predicted to be flat with a -0.3% change, indicating a potential stabilization after recent price drops. The RSI-14 is oversold at 28, suggesting a possible bounce. However, the short-term trend remains in a downtrend, and the Fear & Greed Index is at Extreme Fear, indicating a cautious market.",
+    "ja": "Cronosの24時間の方向は、-0.3%の変化で予測されており、最近の価格の低下後に安定化が見込まれる。RSI-14は28でオーバーサルであるため、反発が起こり得る。ただし、短期のトレンドは下降傾向にあり、Fear & Greed Indexは極度の恐怖にあり、慎重な市場である。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-3.91%",
+        "value": "-4.41%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "75% bullish",
+        "value": "60% bullish",
         "url": "https://www.coingecko.com/en/coins/crypto-com-chain"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Here’s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "EU committee advances digital euro bill after key vote",
         "url": "https://cointelegraph.com/news/eu-committee-digital-euro-cbdc-bill-key-vote?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Former BIS chief softens stance on stablecoins, backs coexistence with fiat",
-        "url": "https://cointelegraph.com/news/former-bis-chief-softens-stance-stablecoins-coexistence-fiat?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

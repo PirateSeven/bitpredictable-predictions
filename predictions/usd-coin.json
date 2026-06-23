@@ -1,6 +1,6 @@
 {
   "coinId": "usd-coin",
-  "generatedAt": "2026-06-23T13:00:07.743038Z",
+  "generatedAt": "2026-06-23T14:00:08.216674Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -970,8 +970,8 @@
     "confidence": 0.95
   },
   "commentary": {
-    "en": "USD Coin (USD-COIN) is expected to trade flat in the next 24 hours with a confidence level of 95%. The current market conditions, including the Fear & Greed Index and total crypto market cap, suggest a cautious approach. The recent news on stablecoins and digital euro bill may have a limited impact on USD-COIN's short-term price movement.",
-    "ja": "USDコイン（USD-COIN）は、次の24時間にフラットで取引される可能性があり、信頼度は95%です。Fear＆Greed Indexと総暗号資産市場キャップなどの現在の市場状況は、慎重なアプローチを示唆しています。安定コインやデジタルユーロ法案に関する最近のニュースは、短期的な価格動向に限り影響を与える可能性があります。",
+    "en": "USD Coin (USD-COIN) is expected to remain flat in the next 24 hours with a 0.0% predicted return, based on technical signals and market context. The Fear & Greed Index is at an extreme fear level, while the recent news has been mixed with some positive developments for stablecoins. The overall market sentiment remains cautious.",
+    "ja": "USDコイン（USD-COIN）は、次の24時間に0.0％の予想利回りでフラットに推定される。技術的信号と市場状況に基づいて。恐怖と欲求不満指数は極度の恐怖レベルにあり、最近のニュースは安定コインに良いニュースもある。総市場状況は慎重な気分。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,8 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-3.91%",
+        "value": "-4.41%",
         "url": "https://www.coingecko.com/en/global-charts"
+      },
+      {
+        "label": "CoinGecko Community Sentiment",
+        "value": "0% bullish",
+        "url": "https://www.coingecko.com/en/coins/usd-coin"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Here’s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1012,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "EU committee advances digital euro bill after key vote",
         "url": "https://cointelegraph.com/news/eu-committee-digital-euro-cbdc-bill-key-vote?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Former BIS chief softens stance on stablecoins, backs coexistence with fiat",
-        "url": "https://cointelegraph.com/news/former-bis-chief-softens-stance-stablecoins-coexistence-fiat?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

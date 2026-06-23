@@ -1,6 +1,6 @@
 {
   "coinId": "canton-network",
-  "generatedAt": "2026-06-23T13:00:07.743038Z",
+  "generatedAt": "2026-06-23T14:00:08.216674Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -1.5057237949734614,
-    "confidence": 0.7527
+    "changePercent24h": -1.2623496160579781,
+    "confidence": 0.7129
   },
   "commentary": {
-    "en": "The model predicts Canton will decline ~3.1% over the next 24 hours with high confidence (86%). Volume is elevated at 1.7× the daily average, amplifying the directional signal. Community sentiment on CoinGecko is 48% bullish and the Fear & Greed Index reads \"Extreme Fear\" (23), aligning with the model's forecast.",
-    "ja": "モデルはCantonが今後24時間で約3.1%下落すると予測しています（信頼度: 高い 86%）。出来高が平均の1.7倍と高水準で、方向性シグナルを強化しています。CoinGeckoコミュニティでは48%が強気を示し、Fear & Greed指数は「Extreme Fear」（23）です。予測と方向性が一致しています。",
+    "en": "Canton (CANTON-NETWORK) is predicted to decline by 3.1% in the next 24 hours with a confidence level of 86%. The current market sentiment is extreme fear, with the Fear & Greed Index at 23. The recent news on regulatory developments and market volatility may contribute to the predicted decline.",
+    "ja": "カントン ネットワーク（CANTON-NETWORK）は、次の24時間に3.1％の下落が予想され、信頼度は86％です。現在の市場感情は極度の恐怖で、恐怖と欲求不満指数は23です。規制開発と市場ボラティリティに関する最近のニュースが予想される下落に寄与する可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-3.91%",
+        "value": "-4.41%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "48% bullish",
+        "value": "50% bullish",
         "url": "https://www.coingecko.com/en/coins/canton-network"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Here’s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "EU committee advances digital euro bill after key vote",
         "url": "https://cointelegraph.com/news/eu-committee-digital-euro-cbdc-bill-key-vote?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Former BIS chief softens stance on stablecoins, backs coexistence with fiat",
-        "url": "https://cointelegraph.com/news/former-bis-chief-softens-stance-stablecoins-coexistence-fiat?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

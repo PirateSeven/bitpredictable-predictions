@@ -1,6 +1,6 @@
 {
   "coinId": "bittensor",
-  "generatedAt": "2026-06-23T13:00:07.743038Z",
+  "generatedAt": "2026-06-23T14:00:08.216674Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -9.243509021543204,
-    "confidence": 0.9299
+    "changePercent24h": -8.189324983009428,
+    "confidence": 0.9212
   },
   "commentary": {
-    "en": "Bittensor's 24-hour return is expected to be down by 3.3% with a confidence level of 81%. The recent market downturn and high volume ratio are contributing factors to this prediction. The Fear & Greed Index is at 23, indicating extreme fear in the market.",
-    "ja": "BITTENSORの24時間リターンは、信頼度81%で3.3%下落予想です。最近の市場低迷と高ボリューム比率はこの予想に寄与しています。恐怖と欲求不満指数は23で、市場は極度の恐怖状態です。",
+    "en": "Bittensor is predicted to decline by -3.3% in the next 24 hours with 81% confidence, driven by a downtrend in the short-term and a high volume ratio. The Fear & Greed Index remains in Extreme Fear territory, and the total crypto market cap has also declined by -4.41% in the last 24 hours. Recent news has been mixed, with some developments potentially supporting the market, but overall sentiment remains cautious.",
+    "ja": "ビットテンソルは来日24時間で-3.3%の下落が予想され、信頼度は81%となり、短期の下降傾向と高い取引量比率が推進力となっている。恐怖と欲求不満指数は極度の恐怖の領域にあり、総暗号資産市場キャップは24時間で-4.41%の下落となっている。最近のニュースは混在しており、一部の出来事は市場を支える可能性があるが、全体的な意見は慎重である。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-3.91%",
+        "value": "-4.41%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "67% bullish",
         "url": "https://www.coingecko.com/en/coins/bittensor"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Here’s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "EU committee advances digital euro bill after key vote",
         "url": "https://cointelegraph.com/news/eu-committee-digital-euro-cbdc-bill-key-vote?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Former BIS chief softens stance on stablecoins, backs coexistence with fiat",
-        "url": "https://cointelegraph.com/news/former-bis-chief-softens-stance-stablecoins-coexistence-fiat?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

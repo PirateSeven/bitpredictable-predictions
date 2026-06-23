@@ -1,6 +1,6 @@
 {
   "coinId": "tether",
-  "generatedAt": "2026-06-23T13:00:07.743038Z",
+  "generatedAt": "2026-06-23T14:00:08.216674Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 0.013006850602564197,
+    "changePercent24h": 0.014764454723670509,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "Tether's 24-hour return is expected to remain flat at -0.0% with high confidence, as the RSI-14 and Bollinger Band %B indicate a neutral and mid-band position respectively. The recent news on stablecoins and digital euro bill advancement may have a minimal impact on Tether's price. The overall market context, including the Fear & Greed Index and total crypto market cap, suggests a cautious sentiment.",
-    "ja": "テザーの24時間リターンは、信頼性が高いハイコンフィデンスで-0.0％のフラットに予想される。RSI-14とボリンジャーブンド％Bは、ニュートラルとミッドバンドのポジションを示している。安定コインとデジタルユーロビル進展に関する最近のニュースは、テザーの価格にほとんどの影響を与えない可能性がある。総コインマーケットキャップと恐怖と欲求不満指数などの総マーケットコンテキストは、慎重な感性を示している。",
+    "en": "Tether's 24-hour direction is predicted to be flat, with a confidence level of 95%. The Fear & Greed Index remains at extreme fear, while the CoinGecko community is 67% bullish. Recent news includes developments on stablecoins, digital euro, and regulatory updates.",
+    "ja": "テザーの24時間の方向は、95％の確率でフラットと予想されています。恐怖と欲求不満指数は極度の恐怖のままで、コインゲコのコミュニティは67％がバブルです。最近のニュースには、安定コイン、デジタルユーロ、規制の更新に関する情報が含まれます。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-3.91%",
+        "value": "-4.41%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "50% bullish",
+        "value": "67% bullish",
         "url": "https://www.coingecko.com/en/coins/tether"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Here’s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "EU committee advances digital euro bill after key vote",
         "url": "https://cointelegraph.com/news/eu-committee-digital-euro-cbdc-bill-key-vote?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Former BIS chief softens stance on stablecoins, backs coexistence with fiat",
-        "url": "https://cointelegraph.com/news/former-bis-chief-softens-stance-stablecoins-coexistence-fiat?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

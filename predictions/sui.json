@@ -1,6 +1,6 @@
 {
   "coinId": "sui",
-  "generatedAt": "2026-06-23T13:00:07.743038Z",
+  "generatedAt": "2026-06-23T14:00:08.216674Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -5.027689099550242,
-    "confidence": 0.9224
+    "changePercent24h": -3.637465164861158,
+    "confidence": 0.8947
   },
   "commentary": {
-    "en": "The model predicts Sui will decline ~1.6% over the next 24 hours with high confidence (77%). The short-term SMA is below the medium-term SMA, indicating weakening momentum. Community sentiment on CoinGecko is 90% bullish and the Fear & Greed Index reads \"Extreme Fear\" (23), diverging from the model's forecast, adding uncertainty.",
-    "ja": "モデルはSuiが今後24時間で約1.6%下落すると予測しています（信頼度: 高い 77%）。短期移動平均が中期移動平均を下回り、モメンタムの低下が示されています。CoinGeckoコミュニティでは90%が強気を示し、Fear & Greed指数は「Extreme Fear」（23）です。予測方向と乖離があり、不確実性が高まっています。",
+    "en": "Sui (SUI) is expected to continue its downward trend with a predicted 24h direction of DOWN, -1.6%. The Fear & Greed Index remains in Extreme Fear at 23, and the total crypto market cap has declined by 4.41% in the last 24 hours. SUI's short-term trend is in a downtrend, with a volume ratio of 1.1x average.",
+    "ja": "Sui (SUI) は24時間方向がDOWN、-1.6%と予想されており、Fear & Greed Indexは23でExtream Fearの状態にあり、総暗号資産市場キャップは24時間で4.41%減少している。SUIの短期トレンドは下降傾向にあり、ボリューム比率は1.1倍平均に近い。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-3.91%",
+        "value": "-4.41%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "90% bullish",
+        "value": "89% bullish",
         "url": "https://www.coingecko.com/en/coins/sui"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Here’s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "EU committee advances digital euro bill after key vote",
         "url": "https://cointelegraph.com/news/eu-committee-digital-euro-cbdc-bill-key-vote?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Former BIS chief softens stance on stablecoins, backs coexistence with fiat",
-        "url": "https://cointelegraph.com/news/former-bis-chief-softens-stance-stablecoins-coexistence-fiat?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

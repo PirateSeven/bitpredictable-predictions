@@ -1,6 +1,6 @@
 {
   "coinId": "litecoin",
-  "generatedAt": "2026-06-23T13:00:07.743038Z",
+  "generatedAt": "2026-06-23T14:00:08.216674Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -3.539080039923478,
-    "confidence": 0.9166
+    "changePercent24h": -3.1484968139134146,
+    "confidence": 0.907
   },
   "commentary": {
-    "en": "Litecoin's short-term trend remains in a downtrend, with a predicted 24h direction of -0.5% and an oversold RSI-14 reading of 28. The Fear & Greed Index at 23 indicates extreme fear in the market, while the CoinGecko community remains 86% bullish.",
-    "ja": "リテコインの短期トレンドは下降線にあり、24時間予想方向は-0.5%、RSI-14は28でオーバーサルです。恐怖と欲求不満指数は23で恐怖が極まり、コインゲッココミュニティは86％がbullishです。",
+    "en": "The model predicts Litecoin will trade sideways over the next 24 hours with moderate confidence (55%). RSI is oversold (28), indicating potential for a mean-reversion bounce. Community sentiment on CoinGecko is 86% bullish and the Fear & Greed Index reads \"Extreme Fear\" (23), diverging from the model's forecast, adding uncertainty.",
+    "ja": "モデルはLitecoinが今後24時間で横ばいで推移すると予測しています（信頼度: 中程度の 55%）。RSIが28と売られすぎ水準で、平均回帰による反発が期待される局面です。CoinGeckoコミュニティでは86%が強気を示し、Fear & Greed指数は「Extreme Fear」（23）です。予測方向と乖離があり、不確実性が高まっています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-3.91%",
+        "value": "-4.41%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "86% bullish",
         "url": "https://www.coingecko.com/en/coins/litecoin"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Here’s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "EU committee advances digital euro bill after key vote",
         "url": "https://cointelegraph.com/news/eu-committee-digital-euro-cbdc-bill-key-vote?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Former BIS chief softens stance on stablecoins, backs coexistence with fiat",
-        "url": "https://cointelegraph.com/news/former-bis-chief-softens-stance-stablecoins-coexistence-fiat?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "coinId": "ethereum",
-  "generatedAt": "2026-06-23T13:00:07.743038Z",
+  "generatedAt": "2026-06-23T14:00:08.216674Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -3.1935523452096777,
-    "confidence": 0.8941
+    "changePercent24h": -2.6014708495301044,
+    "confidence": 0.8721
   },
   "commentary": {
-    "en": "Ethereum's predicted 24-hour direction is flat with a -0.4% confidence level, indicating a possible stabilization after a -6.10% 24-hour return. The RSI-14 is oversold at 26, but the short-term trend remains in a downtrend. The Fear & Greed Index at 23 indicates extreme fear in the market.",
-    "ja": "イーサリアムの24時間予想方向は、-0.4%の信頼度でフラットを示しており、-6.10%の24時間リターン後の安定化が可能である。RSI-14は26でオーバーセールであるが、短期トレンドは下降トレンドを維持している。恐怖と欲求不満指数が23を示すのは、市場が極度の恐怖状態にあることを示している。",
+    "en": "Ethereum's 24-hour direction is predicted to be flat with a -0.4% change, based on technical signals. The RSI-14 is at 26, indicating oversold conditions, and the Bollinger Band %B is at 0.11, near the lower band. The Fear & Greed Index is at 23, reflecting extreme fear in the market.",
+    "ja": "エーテレムの24時間の予測は、-0.4％の変化を予測しており、技術的シグナルに基づいています。RSI-14は26にあり、オーバーサールドの状態を示しており、ボリンジャー・バンド %Bは0.11にあり、下のバンドに近くなっています。恐怖と欲求不満指数は23にあり、市場全体に恐怖が広がっていることを示しています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-3.91%",
+        "value": "-4.41%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "82% bullish",
+        "value": "80% bullish",
         "url": "https://www.coingecko.com/en/coins/ethereum"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Here’s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "EU committee advances digital euro bill after key vote",
         "url": "https://cointelegraph.com/news/eu-committee-digital-euro-cbdc-bill-key-vote?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Former BIS chief softens stance on stablecoins, backs coexistence with fiat",
-        "url": "https://cointelegraph.com/news/former-bis-chief-softens-stance-stablecoins-coexistence-fiat?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

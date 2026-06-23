@@ -1,6 +1,6 @@
 {
   "coinId": "binancecoin",
-  "generatedAt": "2026-06-23T13:00:07.743038Z",
+  "generatedAt": "2026-06-23T14:00:08.216674Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -3.1082842314544035,
-    "confidence": 0.927
+    "changePercent24h": -2.4954371894356058,
+    "confidence": 0.9107
   },
   "commentary": {
-    "en": "BNB is expected to continue its downtrend in the short term, with a predicted 24h direction of DOWN at -0.9% confidence. The RSI-14 is oversold, but the Bollinger Band %B is near the lower band, indicating potential volatility. The recent news about Binance's Yi He warning of an impersonation scam may have a negative impact on BNB's price.",
-    "ja": "ビナンスコインは短期的には下落を続ける可能性があり、24時間の予想方向はDOWNで-0.9%の確信度です。RSI-14はオーバーサルドですが、ボリンジャー・バンドの%Bは下方の境界に近いため、波動性が高くなります。ビナンスのYi Heによる偽装詐欺の警告に関する最近のニュースはビナンスコインの価格に否定的な影響を与える可能性があります。",
+    "en": "BNB is expected to continue its downward trend with a predicted 24h direction of -0.9% (confidence: 78%). The RSI-14 is oversold at 28, but the short-term trend remains in a downtrend. The Fear & Greed Index is at 23, indicating extreme fear in the market.",
+    "ja": "ビナンスコインは、24時間の予想方向が-0.9% (信頼度78%)と予想されており、短期的な傾向は下降傾向にある。RSI-14は28でオーバーサールドであるが、Fear & Greed Indexは23で極度の恐怖を示している。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-3.91%",
+        "value": "-4.41%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "54% bullish",
         "url": "https://www.coingecko.com/en/coins/binancecoin"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Here’s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "EU committee advances digital euro bill after key vote",
         "url": "https://cointelegraph.com/news/eu-committee-digital-euro-cbdc-bill-key-vote?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Former BIS chief softens stance on stablecoins, backs coexistence with fiat",
-        "url": "https://cointelegraph.com/news/former-bis-chief-softens-stance-stablecoins-coexistence-fiat?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

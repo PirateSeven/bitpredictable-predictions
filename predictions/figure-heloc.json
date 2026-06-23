@@ -1,6 +1,6 @@
 {
   "coinId": "figure-heloc",
-  "generatedAt": "2026-06-23T13:00:07.743038Z",
+  "generatedAt": "2026-06-23T14:00:08.216674Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.8081422269502772,
+    "changePercent24h": -0.7381334482012184,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "Figure Heloc (FIGURE-HELOC) is expected to remain flat in the next 24 hours with a 0.0% predicted return, given its neutral RSI-14 reading and mid-band Bollinger Band %B. The low volume ratio and sideways short-term trend also support this prediction. The overall market context, including the Extreme Fear Fear & Greed Index and recent news on stablecoins and cryptocurrencies, does not provide significant bullish or bearish signals.",
-    "ja": "Figure Heloc (FIGURE-HELOC) は、次の24時間に0.0%の予想リターンでフラットになる可能性があり、RSI-14の中立的な値とボリンジャーブンドの% B 0.59の値が裏付けている。 低いボリュームレシオと短期的なトレンドもこの予測を裏付ける。 Fear & Greed Index の極度の恐怖と最近のニュースは、安定コインと暗号通貨に関するものは、どちらも大きなバブルやバブルのシグナルを提供していない。",
+    "en": "Figure Heloc (FIGURE-HELOC) is expected to remain flat in the next 24 hours with a predicted return of -0.0% due to neutral technical signals and a low volume ratio. The market context suggests a bearish trend with the Fear & Greed Index at Extreme Fear and a decline in the total crypto market cap. Recent news has been focused on regulatory developments and market volatility.",
+    "ja": "Figure Heloc（FIGURE-HELOC）は、次の24時間に-0.0%の予想リターンでフラットを維持する可能性があり、低いボリュームレシオと中立的な技術指標のためです。市場状況は、恐怖と欲求不満指数が極度の恐怖に達し、総暗号化市場キャップが下落しているため、バ Bullishの傾向を示しています。最近のニュースは、規制開発と市場の不安定性に焦点を当てています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-3.91%",
+        "value": "-4.41%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "0% bullish",
         "url": "https://www.coingecko.com/en/coins/figure-heloc"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Here’s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "EU committee advances digital euro bill after key vote",
         "url": "https://cointelegraph.com/news/eu-committee-digital-euro-cbdc-bill-key-vote?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Former BIS chief softens stance on stablecoins, backs coexistence with fiat",
-        "url": "https://cointelegraph.com/news/former-bis-chief-softens-stance-stablecoins-coexistence-fiat?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

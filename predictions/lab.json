@@ -1,6 +1,6 @@
 {
   "coinId": "lab",
-  "generatedAt": "2026-06-23T13:00:07.743038Z",
+  "generatedAt": "2026-06-23T14:00:08.216674Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -12.526109179251446,
-    "confidence": 0.9038
+    "changePercent24h": -12.687428869988025,
+    "confidence": 0.905
   },
   "commentary": {
-    "en": "LAB (LAB) is predicted to decline by -4.9% in the next 24 hours with a confidence level of 76%. The recent news of regulatory restrictions and market volatility may contribute to this decline. The Fear & Greed Index at 23 indicates extreme fear in the market.",
-    "ja": "LAB (LAB) は、次の24時間で-4.9%の下落が予想され、信頼度は76%である。規制の制限や市場の不穏な動向がこの下落に寄与する可能性がある。恐怖と欲求不満指数は23で、市場は極度の恐怖状態にある。",
+    "en": "LAB (LAB) is expected to decline by 4.9% in the next 24 hours due to the overall bearish market sentiment. The Fear & Greed Index is at 23, indicating extreme fear, and the total crypto market cap has decreased by 4.41% in the last 24 hours. LAB's recent price surge of 7.98% may be short-lived.",
+    "ja": "LAB（LAB）は、総合的な恐怖の市場感情に応じて、来日24時間で4.9％の下落が予想されます。恐怖と欲求不満指数は23、総クリプトマーケットキャップは過去24時間で4.41％減少しています。LABの7.98％の価格上昇は短期的には短期的かもしれません。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-3.91%",
+        "value": "-4.41%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "39% bullish",
+        "value": "38% bullish",
         "url": "https://www.coingecko.com/en/coins/lab"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Here’s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "EU committee advances digital euro bill after key vote",
         "url": "https://cointelegraph.com/news/eu-committee-digital-euro-cbdc-bill-key-vote?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Former BIS chief softens stance on stablecoins, backs coexistence with fiat",
-        "url": "https://cointelegraph.com/news/former-bis-chief-softens-stance-stablecoins-coexistence-fiat?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }

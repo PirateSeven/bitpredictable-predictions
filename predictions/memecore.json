@@ -1,6 +1,6 @@
 {
   "coinId": "memecore",
-  "generatedAt": "2026-06-23T13:00:07.743038Z",
+  "generatedAt": "2026-06-23T14:00:08.216674Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,8 +966,8 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 1.5491558838416442,
-    "confidence": 0.8294
+    "changePercent24h": 1.3467106223927763,
+    "confidence": 0.8077
   },
   "commentary": {
     "en": "The model predicts MemeCore will trade sideways over the next 24 hours with moderate confidence (56%). Volume is elevated at 1.9× the daily average, amplifying the directional signal. Community sentiment on CoinGecko is 0% bullish and the Fear & Greed Index reads \"Extreme Fear\" (23), aligning with the model's forecast.",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-3.91%",
+        "value": "-4.41%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "0% bullish",
         "url": "https://www.coingecko.com/en/coins/memecore"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Here’s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "EU committee advances digital euro bill after key vote",
         "url": "https://cointelegraph.com/news/eu-committee-digital-euro-cbdc-bill-key-vote?utm_source=rss&utm_medium=rss&utm_campaign=rss"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Former BIS chief softens stance on stablecoins, backs coexistence with fiat",
-        "url": "https://cointelegraph.com/news/former-bis-chief-softens-stance-stablecoins-coexistence-fiat?utm_source=rss&utm_medium=rss&utm_campaign=rss"
       }
     ]
   }
