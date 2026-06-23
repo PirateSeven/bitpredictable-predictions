@@ -15,6 +15,8 @@ import json
 import os
 import sys
 import re
+import urllib.request
+import xml.etree.ElementTree as ET
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
@@ -54,6 +56,32 @@ GROQ_MODEL = "llama-3.3-70b-versatile"  # better for blog writing; falls back to
 TOP_COINS = ["bitcoin", "ethereum", "binancecoin", "solana", "ripple", "dogecoin"]
 
 TAGS = ["weekly", "market-analysis", "crypto", "AI-forecast", "bitcoin"]
+
+
+NEWS_FEEDS = [
+    ("CoinDesk", "https://www.coindesk.com/arc/outboundfeeds/rss"),
+    ("Cointelegraph", "https://cointelegraph.com/rss"),
+]
+
+
+def fetch_news(limit_per_feed=5, total_limit=6):
+    """CoinDesk / Cointelegraph の公開RSSから直近の見出しを取得する。
+    失敗しても記事生成自体は止めない（空リストを返すだけ）。"""
+    items = []
+    for source, url in NEWS_FEEDS:
+        try:
+            req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (BitPredictableBot)"})
+            with urllib.request.urlopen(req, timeout=10) as resp:
+                xml_data = resp.read()
+            root = ET.fromstring(xml_data)
+            for it in root.findall("./channel/item")[:limit_per_feed]:
+                title = (it.findtext("title") or "").strip()
+                link = (it.findtext("link") or "").strip()
+                if title and link:
+                    items.append({"title": title, "link": link, "source": source})
+        except Exception as e:
+            print(f"News fetch error ({source}): {e}", file=sys.stderr)
+    return items[:total_limit]
 
 
 def load_json(path: Path):
@@ -96,6 +124,7 @@ def gather_context() -> dict:
             "weeklyStats": log.get("weeklyStats"),
         }
 
+    context["news"] = fetch_news()
     return context
 
 
@@ -124,6 +153,11 @@ def format_context_text(ctx: dict) -> str:
             comment = ws.get("comment", {})
             if comment.get("en"):
                 lines.append(f"  Agent note: {comment['en']}")
+    if ctx.get("news"):
+        lines.append("")
+        lines.append("Recent crypto news headlines (use exact titles/urls, do not alter):")
+        for n in ctx["news"]:
+            lines.append(f"  - [{n['source']}] {n['title']} — {n['link']}")
     return "\n".join(lines)
 
 
@@ -207,6 +241,18 @@ def auto_link_coins(text: str, coin_ids, lang: str) -> str:
     return text
 
 
+def append_news_section(body: str, news: list, lang: str) -> str:
+    """SEO目的の外部リンクを確実に入れるための保険。Groqが本文中で触れなくても、
+    末尾に関連ニュースをmarkdownリンク付きで機械的に追加する。"""
+    if not news:
+        return body
+    header = "## In the News" if lang == "en" else "## 関連ニュース"
+    parts = [header]
+    for n in news[:3]:
+        parts.append(f"{n['title']} ([{n['source']}]({n['link']}))")
+    return body.rstrip() + "\n\n" + "\n\n".join(parts)
+
+
 def generate_post_content(ctx: dict) -> dict:
     ctx_text = format_context_text(ctx)
     week = ctx["week"]
@@ -230,7 +276,7 @@ def generate_post_content(ctx: dict) -> dict:
         "You are a concise, data-driven crypto market analyst for BitPredictable, "
         "a site that publishes open-book AI trading results. Write clearly and factually. "
         "No hype, no price predictions as investment advice. Always note this is for informational purposes only. "
-        "Use markdown headings (## for sections, ### for sub-sections). Write 3-4 sections, ~400 words total. The first time you mention a tracked coin by name, link it using markdown: [Bitcoin](/coins/bitcoin) — use only the exact coin ids listed in the data, never invent a slug. Link each coin at most once per post. Write like a sharp, specific human analyst, not generic AI summary text. Never use cliches like \"in today's fast-paced market\", \"it's important to note\", or \"navigate the landscape\". Avoid formulaic transitions (moreover, furthermore, in conclusion). Lean on the specific numbers given rather than vague language, and take a clear point of view grounded in the data instead of neutrally listing both sides. Vary sentence length."
+        "Use markdown headings (## for sections, ### for sub-sections). Write 3-4 sections, ~400 words total. The first time you mention a tracked coin by name, link it using markdown: [Bitcoin](/coins/bitcoin) — use only the exact coin ids listed in the data, never invent a slug. Link each coin at most once per post. Write like a sharp, specific human analyst, not generic AI summary text. Never use cliches like \"in today's fast-paced market\", \"it's important to note\", or \"navigate the landscape\". Avoid formulaic transitions (moreover, furthermore, in conclusion). Lean on the specific numbers given rather than vague language, and take a clear point of view grounded in the data instead of neutrally listing both sides. Vary sentence length. If a relevant recent news headline is provided in the data, you may reference it naturally with a markdown link, e.g. [headline text](url) — only if genuinely relevant, do not force it."
     )
     prompt_en = (
         f"Write a weekly crypto market analysis blog post for the week of {week}.\n\n"
@@ -248,7 +294,7 @@ def generate_post_content(ctx: dict) -> dict:
         "あなたはBitPredictableのデータ駆動型の暗号資産マーケットアナリストです。"
         "サイトはAIトレードの結果を完全公開しています。明確・簡潔・事実に基づいて書いてください。"
         "誇大表現は禁止。投資助言ではないことを必ず明記。"
-        "マークダウン見出し（##）を使い、3〜4セクション、合計350〜450字程度。追跡中のコイン名を初めて言及する際は、[Bitcoin](/coins/bitcoin) のようにmarkdownリンクにしてください。データに記載された正確なcoin idのみ使用し、推測で作らないこと。1つのコインにつき記事内で1回までリンク。「急速に変化する市場」「〜することが重要です」のような決まり文句や、AIの要約っぽい無難な言い回しは禁止。データの具体的な数字を使い、両論併記で終わらせず、データに基づいた明確な見立てを書くこと。文の長さにも変化をつけること。"
+        "マークダウン見出し（##）を使い、3〜4セクション、合計350〜450字程度。追跡中のコイン名を初めて言及する際は、[Bitcoin](/coins/bitcoin) のようにmarkdownリンクにしてください。データに記載された正確なcoin idのみ使用し、推測で作らないこと。1つのコインにつき記事内で1回までリンク。「急速に変化する市場」「〜することが重要です」のような決まり文句や、AIの要約っぽい無難な言い回しは禁止。データの具体的な数字を使い、両論併記で終わらせず、データに基づいた明確な見立てを書くこと。文の長さにも変化をつけること。提供されたニュース見出しの中に関連性の高いものがあれば、[見出し](url)のようにmarkdownリンクで自然に触れてよい。無理にこじつけないこと。"
     )
     prompt_ja = (
         f"{week}の週次暗号資産マーケット分析ブログ記事を書いてください。\n\n"
@@ -307,6 +353,8 @@ def generate_post_content(ctx: dict) -> dict:
 
     body_en = auto_link_coins(body_en, ctx["predictions"].keys(), "en")
     body_ja = auto_link_coins(body_ja, ctx["predictions"].keys(), "ja")
+    body_en = append_news_section(body_en, ctx.get("news", []), "en")
+    body_ja = append_news_section(body_ja, ctx.get("news", []), "ja")
 
     # Extract title from generated content
     title_match_en = re.match(r"^#{1,2}\s+(.+)", body_en)
