@@ -1,6 +1,6 @@
 {
   "coinId": "ondo-us-dollar-yield",
-  "generatedAt": "2026-06-23T01:00:07.889400Z",
+  "generatedAt": "2026-06-23T02:00:07.663413Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -0.18759916410056998,
-    "confidence": 0.5454
+    "changePercent24h": -0.2301381581282863,
+    "confidence": 0.5856
   },
   "commentary": {
-    "en": "Ondo US Dollar Yield is predicted to move downward by 1.0% in the next 24 hours with a confidence level of 84%. The recent news of Bitcoin's funding rate hitting a 2-week high may impact the crypto market, but the Fear & Greed Index remains in Extreme Fear. The sideways short-term trend and neutral RSI-14 suggest a cautious outlook.",
-    "ja": "ONDO-US-DOLLAR-YIELDは、24時間以内に下落する予測で、信頼度は84％です。ビットコインのファンディングレートが2週間で最高値を記録したニュースがcryptomarketに影響を与える可能性がありますが、Fear & Greed IndexはExtreme Fearのままで、短期の傾向は横方向に動いており、RSI-14は中立的な値を示しています。",
+    "en": "The Ondo US Dollar Yield (ONDO-US-DOLLAR-YIELD) is predicted to move downward by 1.0% in the next 24 hours with a confidence level of 84%. This prediction is based on a neutral RSI-14 reading and a mid-band Bollinger Band %B. The high volume ratio and sideways short-term trend also support this downward prediction.",
+    "ja": "ONDO-US-DOLLAR-YIELDは、次の24時間に下方1.0%の動きが予想され、信頼度は84%です。これは、RSI-14の中立的な値とボリンジャーバンドの%バンドの中間値に基づいています。高いボリュームレシオと短期の横方向のトレンドも、この下方の動きを支持しています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.20%",
+        "value": "-0.67%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {

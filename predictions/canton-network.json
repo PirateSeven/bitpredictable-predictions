@@ -1,6 +1,6 @@
 {
   "coinId": "canton-network",
-  "generatedAt": "2026-06-23T01:00:07.889400Z",
+  "generatedAt": "2026-06-23T02:00:07.663413Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -3.098545729105294,
-    "confidence": 0.8543
+    "changePercent24h": -3.9006168470060647,
+    "confidence": 0.8824
   },
   "commentary": {
-    "en": "Canton's predicted 24h direction is DOWN with a 73% confidence level, following a 1.44% 24h actual return. The Bollinger Band %B at 1.02 indicates an overbought condition, while the RSI-14 at 60 is neutral. The market context suggests an Extreme Fear sentiment, with a total crypto market cap 24h change of +0.20%.",
-    "ja": "カントン ネットワークの予測24時間方向は下に動くことになり、73%の確信度で、24時間の実際のリターンは1.44%です。ボリンジャー バンド %B が 1.02 であることはオーバーボールドの条件を示し、RSI-14 が 60 であることは中立的な条件です。市場状況は極度の恐怖の感情を示しており、総暗号資産市場キャップの24時間変化は+0.20%です。",
+    "en": "Canton's predicted 24h direction is DOWN with a 73% confidence, driven by the current market sentiment of Extreme Fear. The recent news of Bitcoin's funding rate hitting a 2-week high and the overall crypto market's decline may contribute to this prediction. However, the neutral RSI-14 and sideways short-term trend suggest a cautious approach.",
+    "ja": "キャントン ネットワークの24時間予想は下落にあり、73％の確信度があります。これは、極度の恐怖の市場感情と、ビットコインのファンディング率が2週間で最高に達したニュースなど、現在の市場の動向に影響しています。ただし、RSI-14が中立的で、短期の傾向が横方向に推移していることから、慎重なアプローチが必要です。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,12 +1000,12 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.20%",
+        "value": "-0.67%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "35% bullish",
+        "value": "32% bullish",
         "url": "https://www.coingecko.com/en/coins/canton-network"
       },
       {

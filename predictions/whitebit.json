@@ -1,6 +1,6 @@
 {
   "coinId": "whitebit",
-  "generatedAt": "2026-06-23T01:00:07.889400Z",
+  "generatedAt": "2026-06-23T02:00:07.663413Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -2.5176088931895055,
-    "confidence": 0.9115
+    "changePercent24h": -3.0835863722626815,
+    "confidence": 0.9265
   },
   "commentary": {
-    "en": "WhiteBIT Coin's predicted 24h direction is DOWN with a 69% confidence level, driven by the current market sentiment and technical signals. The Fear & Greed Index remains in Extreme Fear territory, and the recent news on Bitcoin's funding rate and Solana's tokenized equity may impact investor sentiment. With a high volume ratio and a sideways short-term trend, WhiteBIT Coin's price movement is likely to be influenced by broader market conditions.",
-    "ja": "ホワイトビットの24時間予測は下落で、69％の信頼度があります。恐怖と欲求不満指数は極度の恐怖の状態にあり、ビットコインのファンディングレートとソラナのトークン化された株式に関する最近のニュースは投資家の感情に影響を与える可能性があります。高ボリュームレシオと短期の横方向のトレンドにより、ホワイトビットの価格変動はより広範な市場状況に影響を受ける可能性があります。",
+    "en": "The model predicts WhiteBIT Coin will decline ~0.5% over the next 24 hours with moderate confidence (69%). Price is near lower Bollinger Band support, where rebounds are historically more frequent. Community sentiment on CoinGecko is 0% bullish and the Fear & Greed Index reads \"Extreme Fear\" (23), aligning with the model's forecast.",
+    "ja": "モデルはWhiteBIT Coinが今後24時間で約0.5%下落すると予測しています（信頼度: 中程度の 69%）。価格がボリンジャーバンド下限付近で、サポートからの反発が過去パターンより多く観察されます。CoinGeckoコミュニティでは0%が強気を示し、Fear & Greed指数は「Extreme Fear」（23）です。予測と方向性が一致しています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.20%",
+        "value": "-0.67%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
