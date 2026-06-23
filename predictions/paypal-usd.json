@@ -1,6 +1,6 @@
 {
   "coinId": "paypal-usd",
-  "generatedAt": "2026-06-23T09:00:08.380396Z",
+  "generatedAt": "2026-06-23T10:00:07.802186Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 0.007627664961439403,
+    "changePercent24h": 0.005291112667850147,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "PayPal USD is expected to remain flat in the next 24 hours with a confidence level of 95%. The current market context suggests a high level of fear, with the Fear & Greed Index at 23 and a negative total crypto market cap 24h change of -2.83%. The recent news on Ripple's MiCA license and the US Senate's housing bill with a CBDC ban may have a limited impact on PayPal USD.",
-    "ja": "PayPal USDは、来日24時間で95％の確実性でフラットを予想しています。Fear & Greed Indexは23、総暗号資産市場キャップ24時間変化は-2.83%と恐怖の高い市場状況です。RippleのMiCAライセンスと米議会の住宅法案にCBDCの禁止が含まれるニュースは、PayPal USDに限りなく影響を与える可能性があります。",
+    "en": "PayPal USD is expected to remain flat in the next 24 hours with a 95% confidence level. The current market context suggests a cautious sentiment with the Fear & Greed Index at Extreme Fear and a decline in the total crypto market cap. The recent news on Ripple's MiCA license and the US Senate's housing bill may have a limited impact on PayPal USD.",
+    "ja": "PayPal USD は、次の24時間で95%の確実性でフラットに推測されます。 Fear & Greed Indexがエクストリーム フィア、総暗号資産市場キャップが下落している現在の市場状況は、慎重な意識を示しています。 Ripple の MiCA ライセンスや US セナートの住宅法案などの最近のニュースは、PayPal USD に影響を与える可能性は限られています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,12 +1000,12 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-2.83%",
+        "value": "-2.66%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "0% bullish",
+        "value": "20% bullish",
         "url": "https://www.coingecko.com/en/coins/paypal-usd"
       },
       {

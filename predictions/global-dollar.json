@@ -1,6 +1,6 @@
 {
   "coinId": "global-dollar",
-  "generatedAt": "2026-06-23T09:00:08.380396Z",
+  "generatedAt": "2026-06-23T10:00:07.802186Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.0164,
+    "changePercent24h": 0.0069571388240681625,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "The Global Dollar (GLOBAL-DOLLAR) is expected to remain flat with a 0% return in the next 24 hours, based on technical analysis. The current market sentiment is extreme fear, as indicated by the Fear & Greed Index, and the total crypto market cap has declined by 2.83% in the last 24 hours. The recent news on Ripple's MiCA license and the US Senate's housing bill with a CBDC ban may have a neutral impact on the GLOBAL-DOLLAR.",
-    "ja": "グローバルドルラ (GLOBAL-DOLLAR) は、技術分析に基づいて、来る24時間で0%のリターンでフラットに維持される可能性があります。現在の市場感情は、恐怖の極度にあり、Fear & Greed Indexが示しています。トータルクリプトマーケットキャップは、過去24時間で2.83%の減少を示しています。リップルのMiCAライセンスや、米国上院の住宅法案でCBDCの禁止が2030年まで延期されたニュースは、グローバルドルラに中立的な影響を与える可能性があります。",
+    "en": "The model predicts Global Dollar will trade sideways over the next 24 hours with high confidence (95%). Price moved -0.01% in the past 24 hours with volume at 0.8× average. Market sentiment stands at \"Extreme Fear\" (Fear & Greed: 23); the broader crypto market moved -2.7% over the past 24 hours.",
+    "ja": "モデルはGlobal Dollarが今後24時間で横ばいで推移すると予測しています（信頼度: 高い 95%）。過去24時間のリターンは-0.01%、出来高は平均の0.8倍です。Fear & Greed指数は「Extreme Fear」（23）で、暗号資産市場全体の24時間変動率は-2.7%です。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-2.83%",
+        "value": "-2.66%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {

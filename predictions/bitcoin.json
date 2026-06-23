@@ -1,6 +1,6 @@
 {
   "coinId": "bitcoin",
-  "generatedAt": "2026-06-23T09:00:08.380396Z",
+  "generatedAt": "2026-06-23T10:00:07.802186Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -4.943707417799852,
+    "changePercent24h": -4.589359322461025,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "Bitcoin's 24-hour direction is predicted to be flat with a -0.3% change, based on technical signals. The RSI-14 is oversold at 24, and the Bollinger Band %B is at -0.09, indicating potential support. However, the short-term trend remains in a downtrend.",
-    "ja": "ビットコインの24時間の動向は、技術的信号に基づいて、-0.3%の変化でフラットと予想される。RSI-14は24でオーバーサル、ボリンジャー・バンドの%Bは-0.09で、潜在的なサポートを示している。ただし、短期のトレンドは下降トレンドにありつつある。",
+    "en": "Bitcoin's short-term trend remains in a downtrend, with a 24-hour return of -2.78% and a Fear & Greed Index of 23, indicating extreme fear in the market. The RSI-14 is oversold at 24, suggesting a potential bounce. However, the predicted 24-hour direction is flat with a -0.3% confidence level.",
+    "ja": "ビットコインの短期トレンドは下降線にあり、24時間のリターンは-2.78%、Fear & Greed Indexは23、市場は極度の恐怖の状態にある。RSI-14は24でオーバーサルド、反発の可能性がある。ただし、24時間の予想方向はフラットで-0.3%の信頼度がある。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-2.83%",
+        "value": "-2.66%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {

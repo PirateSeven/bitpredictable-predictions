@@ -1,6 +1,6 @@
 {
   "coinId": "lab",
-  "generatedAt": "2026-06-23T09:00:08.380396Z",
+  "generatedAt": "2026-06-23T10:00:07.802186Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": 2.3506724668884718,
-    "confidence": 0.5561
+    "changePercent24h": -2.906,
+    "confidence": 0.6342
   },
   "commentary": {
-    "en": "LAB (LAB) is predicted to decline by 2.9% in the next 24 hours with a confidence level of 63%. The recent news of a CBDC ban until 2030 may have a negative impact on the market. The short-term trend remains in an uptrend, but the low volume ratio and extreme fear in the market suggest a potential reversal.",
-    "ja": "LAB (LAB) は、次の24時間に2.9%の下落が予測され、信頼度は63%です。 CBDCの2030年までの禁止が市場に否定的な影響を与える可能性があります。短期のトレンドは上昇傾向ですが、低いボリューム比率と市場の極度の恐怖感は逆転の可能性を示しています。",
+    "en": "The model predicts LAB will decline ~2.9% over the next 24 hours with moderate confidence (63%). The short-term SMA has crossed above the medium-term SMA, signalling positive momentum. Community sentiment on CoinGecko is 36% bullish and the Fear & Greed Index reads \"Extreme Fear\" (23), aligning with the model's forecast.",
+    "ja": "モデルはLABが今後24時間で約2.9%下落すると予測しています（信頼度: 中程度の 63%）。短期移動平均が中期移動平均を上回り、ポジティブなモメンタムが示されています。CoinGeckoコミュニティでは36%が強気を示し、Fear & Greed指数は「Extreme Fear」（23）です。予測と方向性が一致しています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,12 +1000,12 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-2.83%",
+        "value": "-2.66%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "38% bullish",
+        "value": "36% bullish",
         "url": "https://www.coingecko.com/en/coins/lab"
       },
       {

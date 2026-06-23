@@ -1,6 +1,6 @@
 {
   "coinId": "uniswap",
-  "generatedAt": "2026-06-23T09:00:08.380396Z",
+  "generatedAt": "2026-06-23T10:00:07.802186Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -5.397153446301889,
-    "confidence": 0.9307
+    "changePercent24h": -4.938703145692631,
+    "confidence": 0.9246
   },
   "commentary": {
-    "en": "Uniswap's 24-hour return is -5.83%, with a predicted flat direction and a confidence level of 19%. The RSI-14 is oversold, and the Bollinger Band %B is lower band, indicating potential short-term reversal. However, the short-term trend remains in a downtrend.",
-    "ja": "ユニスワップの24時間リターンは-5.83%で、予想はフラット方向で信頼度は19%です。RSI-14はオーバーサルド、ボリンジャーバンドの%Bは下方帯で、短期的な反転の可能性がありますが、短期のトレンドは下降トレンドです。",
+    "en": "The model predicts Uniswap will trade sideways over the next 24 hours with low confidence (19%). RSI is oversold (24), indicating potential for a mean-reversion bounce. Community sentiment on CoinGecko is 86% bullish and the Fear & Greed Index reads \"Extreme Fear\" (23), diverging from the model's forecast, adding uncertainty.",
+    "ja": "モデルはUniswapが今後24時間で横ばいで推移すると予測しています（信頼度: 低い 19%）。RSIが24と売られすぎ水準で、平均回帰による反発が期待される局面です。CoinGeckoコミュニティでは86%が強気を示し、Fear & Greed指数は「Extreme Fear」（23）です。予測方向と乖離があり、不確実性が高まっています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,12 +1000,12 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-2.83%",
+        "value": "-2.66%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "100% bullish",
+        "value": "86% bullish",
         "url": "https://www.coingecko.com/en/coins/uniswap"
       },
       {

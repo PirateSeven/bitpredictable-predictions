@@ -1,6 +1,6 @@
 {
   "coinId": "chainlink",
-  "generatedAt": "2026-06-23T09:00:08.380396Z",
+  "generatedAt": "2026-06-23T10:00:07.802186Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -8.509943035258456,
+    "changePercent24h": -7.773263690105318,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "Chainlink is expected to continue its downward trend in the next 24 hours, with a predicted decline of 1.3% and a confidence level of 78%. The RSI-14 is oversold, but the Bollinger Band %B is below the lower band, indicating a potential reversal. The recent news on CBDC ban and staking and mining tax bill may have a negative impact on Chainlink's price.",
-    "ja": "Chainlinkは次の24時間で下落を続ける可能性があり、予想下落率は1.3%、信頼度は78%です。 RSI-14はオーバーサルドですが、ボリンジャー・バンド %Bは下方バンド以下にあり、反転の可能性があります。 CBDCの禁止とスタッキング・マイニング税法の通過に関する最近のニュースはChainlinkの価格に否定的な影響を与える可能性があります。",
+    "en": "The model predicts Chainlink will decline ~1.3% over the next 24 hours with high confidence (78%). RSI is oversold (20), indicating potential for a mean-reversion bounce. Community sentiment on CoinGecko is 80% bullish and the Fear & Greed Index reads \"Extreme Fear\" (23), diverging from the model's forecast, adding uncertainty.",
+    "ja": "モデルはChainlinkが今後24時間で約1.3%下落すると予測しています（信頼度: 高い 78%）。RSIが20と売られすぎ水準で、平均回帰による反発が期待される局面です。CoinGeckoコミュニティでは80%が強気を示し、Fear & Greed指数は「Extreme Fear」（23）です。予測方向と乖離があり、不確実性が高まっています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,12 +1000,12 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-2.83%",
+        "value": "-2.66%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "86% bullish",
+        "value": "80% bullish",
         "url": "https://www.coingecko.com/en/coins/chainlink"
       },
       {
