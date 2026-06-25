@@ -19,6 +19,15 @@ COINGECKO_API_KEY = os.getenv("COINGECKO_API_KEY")
 SLEEP_BETWEEN_CALLS = 2.1  # Demo key: 30 req/min
 MAX_RETRIES = 3
 
+class QuotaExhaustedError(RuntimeError):
+    """Raised after repeated consecutive rate-limit failures across different
+    coins, signaling the CoinGecko quota is exhausted rather than a transient
+    burst. Callers should abort the whole run instead of retrying every coin."""
+
+
+_consecutive_429_failures = 0
+_MAX_CONSECUTIVE_429_FAILURES = 3
+
 _CACHE_DIR = Path(__file__).resolve().parent.parent / "cache"
 _CACHE_TTL_HOURS = 2.5  # reuse cached data if fetched within the last 2.5 hours (predict runs every 3h)
 
@@ -37,14 +46,18 @@ def _headers() -> dict:
 
 
 def _fetch_with_retry(url: str, params: dict) -> dict:
+    global _consecutive_429_failures
+    hit_rate_limit = False
     for attempt in range(MAX_RETRIES + 1):
         try:
             resp = requests.get(url, headers=_headers(), params=params, timeout=10)
 
             if resp.ok:
+                _consecutive_429_failures = 0
                 return resp.json()
 
             if resp.status_code == 429:
+                hit_rate_limit = True
                 wait = int(resp.headers.get("Retry-After", 60 * (2 ** attempt)))
                 logger.warning(f"Rate limited. Waiting {wait}s (attempt {attempt+1})")
                 time.sleep(wait + random.uniform(0, 2))
@@ -65,6 +78,14 @@ def _fetch_with_retry(url: str, params: dict) -> dict:
                 time.sleep(wait)
                 continue
             raise
+
+    if hit_rate_limit:
+        _consecutive_429_failures += 1
+        if _consecutive_429_failures >= _MAX_CONSECUTIVE_429_FAILURES:
+            raise QuotaExhaustedError(
+                f"{_consecutive_429_failures} consecutive rate-limit failures - "
+                "CoinGecko quota likely exhausted. Aborting this run early."
+            )
 
     raise RuntimeError(f"CoinGecko request failed after {MAX_RETRIES} retries: {url}")
 

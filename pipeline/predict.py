@@ -29,7 +29,7 @@ import numpy as np
 import torch
 from sklearn.preprocessing import StandardScaler
 
-from pipeline.fetch import fetch_coin_list, fetch_hourly
+from pipeline.fetch import fetch_coin_list, fetch_hourly, QuotaExhaustedError
 from pipeline.features import N_FEATURES, SEQ_LEN, HORIZON, build_sequences, build_feature_df
 from pipeline.news import fetch_fear_greed, fetch_global_market, fetch_coin_sentiment, fetch_market_headlines
 from pipeline.commentary import generate_commentary
@@ -345,6 +345,10 @@ def run_inference() -> None:
                 f"conf={inferred['signal']['confidence']:.2f}"
             )
 
+        except QuotaExhaustedError as e:
+            tqdm.write(f"[{coin_id}] {e}")
+            logger.error(f"CoinGecko quota exhausted at [{coin_id}], aborting remaining coins: {e}")
+            break
         except Exception as e:
             tqdm.write(f"[{coin_id}] failed: {e}")
             logger.error(f"[{coin_id}] failed: {e}", exc_info=True)
