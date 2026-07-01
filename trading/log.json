@@ -1,25 +1,25 @@
 {
   "agentVersion": "crypto-ace-1.0.0",
-  "updatedAt": "2026-07-01T14:17:57.145403+00:00",
+  "updatedAt": "2026-07-01T16:56:17.421117+00:00",
   "exchange": "Binance Testnet",
   "currency": "BNB",
   "initialCapital": 1.0,
-  "currentValue": 0.982932,
+  "currentValue": 0.983846,
   "performance": {
-    "totalReturnPct": -1.71,
-    "totalTrades": 9,
-    "winRate": 0.2222,
+    "totalReturnPct": -1.62,
+    "totalTrades": 10,
+    "winRate": 0.3,
     "maxDrawdownPct": 14.69,
-    "sharpeRatio": -8.04,
+    "sharpeRatio": -6.28,
     "startDate": "2026-06-17T19:27:34.575587+00:00"
   },
   "weeklyStats": {
-    "wins": 1,
+    "wins": 2,
     "losses": 0,
     "winRate": 1.0,
     "comment": {
-      "en": "Strong week. 1 trades with 100% win rate. Signal quality was high.",
-      "ja": "\u597d\u8abf\u306a\u9031\u30021\u53d6\u5f15\u3001\u52dd\u7387100%\u3002\u30b7\u30b0\u30ca\u30eb\u54c1\u8cea\u304c\u9ad8\u304f\u898f\u5f8b\u3042\u308b\u904b\u7528\u3067\u3057\u305f\u3002"
+      "en": "Strong week. 2 trades with 100% win rate. Signal quality was high.",
+      "ja": "\u597d\u8abf\u306a\u9031\u30022\u53d6\u5f15\u3001\u52dd\u7387100%\u3002\u30b7\u30b0\u30ca\u30eb\u54c1\u8cea\u304c\u9ad8\u304f\u898f\u5f8b\u3042\u308b\u904b\u7528\u3067\u3057\u305f\u3002"
     }
   },
   "bestTrade": {
@@ -30,20 +30,10 @@
     "time": "2026-07-01T14:17:57.142092+00:00"
   },
   "currentStreak": {
-    "count": 1,
+    "count": 2,
     "type": "win"
   },
-  "currentPositions": [
-    {
-      "coin": "solana",
-      "symbol": "SOL",
-      "direction": "long",
-      "entryPrice": 0.1372,
-      "entryTime": "2026-07-01T05:02:35.374530+00:00",
-      "sizeBtc": 0.052233,
-      "unrealizedPnlPct": 0.0
-    }
-  ],
+  "currentPositions": [],
   "equityCurve": [
     {
       "time": "2026-06-17T19:27:34.575587+00:00",
@@ -94,9 +84,30 @@
       "time": "2026-07-01T14:17:57.142092+00:00",
       "value": 0.982932,
       "benchmarkBtc": 1.0
+    },
+    {
+      "time": "2026-07-01T16:56:17.418083+00:00",
+      "value": 0.983846,
+      "benchmarkBtc": 1.0
     }
   ],
   "recentTrades": [
+    {
+      "id": "6afb3eb4",
+      "coin": "solana",
+      "symbol": "SOL",
+      "action": "sell",
+      "price": 0.1396,
+      "sizeBtc": 0.052233,
+      "time": "2026-07-01T16:56:17.418083+00:00",
+      "pnlBtc": 0.000914,
+      "pnlPct": 1.75,
+      "signal": {
+        "direction": "flat",
+        "changePercent24h": 1.0221236812140322,
+        "confidence": 0.6663
+      }
+    },
     {
       "id": "2d5932fe",
       "coin": "solana",
