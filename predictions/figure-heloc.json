@@ -1,6 +1,6 @@
 {
   "coinId": "figure-heloc",
-  "generatedAt": "2026-07-04T09:00:10.061096Z",
+  "generatedAt": "2026-07-04T15:00:08.158032Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -2.976240238548472,
-    "confidence": 0.95
+    "changePercent24h": -1.5907001567833448,
+    "confidence": 0.9152
   },
   "commentary": {
-    "en": "Figure Heloc's short-term trend remains in a downtrend, with a predicted 24h direction of flat and a 24h actual return of -2.89%. The Fear & Greed Index is at 22, indicating extreme fear in the market. The low volume ratio suggests a lack of market participation.",
-    "ja": "Figure Heloc の短期傾向は下降傾向にあり、24時間予想の方向はフラット、24時間実際のリターンは-2.89%です。Fear & Greed Indexは22、極度の恐怖を示しています。低いボリュームレシオは市場参加の欠如を示しています。",
+    "en": "Figure Heloc is experiencing a downtrend with a 24h return of -2.89%, but the RSI-14 is at 9, indicating oversold conditions. The low volume ratio suggests a lack of market participation. A potential short-term bounce is possible given the oversold RSI-14.",
+    "ja": "Figure Heloc は24時間で-2.89%の下落を経験しているが、RSI-14は9に達し、売りが過剰な状態であることを示している。低いボリューム比率は市場参加者の不足を示している。RSI-14が売りが過剰な状態であることを考えると、短期的な反発が起こり得る。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+1.63%",
+        "value": "+1.03%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
@@ -1010,18 +1010,18 @@
       },
       {
         "label": "CoinTelegraph",
-        "value": "Tim Draper denies moving Bitcoin, reiterates $250,000 BTC prediction",
-        "url": "https://cointelegraph.com/news/tim-draper-denies-moving-bitcoin-250k-btc-prediction?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Bitcoin profit and loss ratio falls to 43-month low",
-        "url": "https://cointelegraph.com/news/bitcoin-realized-profit-loss-ratio-falls-to-lowest-level-since-2022-cryptoquant?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        "value": "Bollinger Bands creator eyes Bitcoin bear-market end, 'W'-shaped reversal",
+        "url": "https://cointelegraph.com/markets/bollinger-bands-creator-eyes-bitcoin-bear-market-end-w-shaped-reversal?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       },
       {
         "label": "CoinTelegraph",
         "value": "Here’s what happened in crypto today",
         "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Revolut to delist USDT in August, citing regulatory and risk concerns",
+        "url": "https://cointelegraph.com/news/revolut-usdt-delisting-regulatory-risk-concerns?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       }
     ]
   }
