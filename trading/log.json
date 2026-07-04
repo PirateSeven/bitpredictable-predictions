@@ -1,6 +1,6 @@
 {
   "agentVersion": "crypto-ace-1.0.0",
-  "updatedAt": "2026-07-04T15:41:44.182829+00:00",
+  "updatedAt": "2026-07-04T22:41:57.740524+00:00",
   "exchange": "Binance Testnet",
   "currency": "BNB",
   "initialCapital": 1.0,
@@ -33,7 +33,17 @@
     "count": 2,
     "type": "loss"
   },
-  "currentPositions": [],
+  "currentPositions": [
+    {
+      "coin": "ripple",
+      "symbol": "XRP",
+      "direction": "long",
+      "entryPrice": 0.0020327,
+      "entryTime": "2026-07-04T15:41:43.174557+00:00",
+      "sizeBtc": 0.103212,
+      "unrealizedPnlPct": 0.0
+    }
+  ],
   "equityCurve": [
     {
       "time": "2026-06-17T19:27:34.575587+00:00",
