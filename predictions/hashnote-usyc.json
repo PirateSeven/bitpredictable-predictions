@@ -1,6 +1,6 @@
 {
   "coinId": "hashnote-usyc",
-  "generatedAt": "2026-07-05T09:00:07.711983Z",
+  "generatedAt": "2026-07-05T15:00:07.023521Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 0.3881157806914408,
+    "changePercent24h": 0.39481260986582356,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "Circle USYC's 24-hour direction is predicted to be flat with a 0.0% return, indicating a neutral sentiment. The recent news on Binance outflows and Vitalik Buterin's priorities for Lean Ethereum may have a limited impact on HASHNOTE-USYC's price movement. The overall market context, with a Fear & Greed Index of 23 and a positive total crypto market cap change, suggests a cautious optimism.",
-    "ja": "HASHNOTE-USYCの24時間方向は、0.0％のリターンで予測されており、中立的な意見を示しています。Binanceの流出とVitalik ButerinのLean Ethereumの優先事項に関するニュースは、HASHNOTE-USYCの価格動向に限りなく影響を与える可能性があります。総合的な市場状況、Fear & Greed Index 23と総合暗号資産市場キャップの24時間変化がプラスの状況は、慎重な楽観主義を示しています。",
+    "en": "Circle USYC (HASHNOTE-USYC) is expected to remain flat with a 0.0% 24h direction, as the RSI-14 is at a neutral level of 67 and the Bollinger Band %B is at 0.61, indicating a mid-band position. The recent news on crypto market developments, including Binance outflows and Vitalik Buterin's priorities for Lean Ethereum, may not significantly impact HASHNOTE-USYC's short-term trend. The overall crypto market remains in extreme fear, according to the Fear & Greed Index.",
+    "ja": "HASHNOTE-USYCは、RSI-14が67、ボリンジャー・バンドの%Bが0.61であるため、短期的なトレンドは中立的であると考えられ、24時間の方向は0.0%に維持される可能性があります。Binanceの流出やVitalik ButerinのLean Ethereumの優先事項などの最近のニュースは、HASHNOTE-USYCの短期的なトレンドに大きな影響を与える可能性は低いです。Fear & Greed Indexによると、総合的な暗号資産市場は極度の恐怖の状態にある。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,8 +1000,13 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.40%",
+        "value": "+0.07%",
         "url": "https://www.coingecko.com/en/global-charts"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "South Africa proposes crypto tax guidance under existing framework",
+        "url": "https://cointelegraph.com/news/south-africa-proposes-crypto-tax-draft-guidance?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       },
       {
         "label": "CoinTelegraph",
@@ -1012,11 +1017,6 @@
         "label": "CoinTelegraph",
         "value": "Here’s what happened in crypto today",
         "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Vitalik Buterin shares top priorities for new 'Lean Ethereum' strawmap",
-        "url": "https://cointelegraph.com/news/vitalik-buterin-shares-top-priorities-for-new-lean-ethereum-roadmap?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "coinId": "figure-heloc",
-  "generatedAt": "2026-07-05T09:00:07.711983Z",
+  "generatedAt": "2026-07-05T15:00:07.023521Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 0.4980005129204068,
-    "confidence": 0.9409
+    "changePercent24h": 1.0352731267859476,
+    "confidence": 0.95
   },
   "commentary": {
-    "en": "Figure Heloc is likely to experience a flat 24-hour period with a potential 0.1% increase, driven by its oversold RSI-14 reading and mid-band Bollinger Band %B. However, the coin's short-term downtrend and low volume ratio may limit its upward momentum. The Extreme Fear sentiment in the market also suggests caution.",
-    "ja": "Figure Helocは24時間で0.1%の増加を経験する可能性があり、RSI-14のオーバーサルとボリンジャーバンドの%バンドが中間を占めることから推測される。ただし、短期的な下降傾向と低いボリューム比率は上昇の制限となる可能性があり、市場全体の極度の恐怖感も注意を要する。",
+    "en": "Figure Heloc is expected to remain flat with a 0.1% increase in the next 24 hours, driven by oversold RSI-14 and mid-band Bollinger Band %B. However, the downtrend in the short-term trend and low volume ratio may limit the potential for a significant bounce. The overall market context suggests a cautious approach given the extreme fear sentiment and recent Binance outflows.",
+    "ja": "Figure Heloc は、次の24時間で0.1%の増加が予想され、RSI-14がオーバーサル、ボリンジャー・バンドの% Bが中間帯にあることから推測される。短期のトレンドとボリュームの比率が下落していることから、価格の大幅な反発は制限される可能性が高い。総合的には、極度の恐怖感と最近のビナンスの流出など、市場の状況から慎重なアプローチが必要である。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.40%",
+        "value": "+0.07%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "100% bullish",
         "url": "https://www.coingecko.com/en/coins/figure-heloc"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "South Africa proposes crypto tax guidance under existing framework",
+        "url": "https://cointelegraph.com/news/south-africa-proposes-crypto-tax-draft-guidance?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Here’s what happened in crypto today",
         "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Vitalik Buterin shares top priorities for new 'Lean Ethereum' strawmap",
-        "url": "https://cointelegraph.com/news/vitalik-buterin-shares-top-priorities-for-new-lean-ethereum-roadmap?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       }
     ]
   }
