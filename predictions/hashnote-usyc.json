@@ -1,6 +1,6 @@
 {
   "coinId": "hashnote-usyc",
-  "generatedAt": "2026-07-04T21:00:08.027169Z",
+  "generatedAt": "2026-07-05T03:00:07.358219Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,16 +966,16 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 0.35178929773369116,
+    "changePercent24h": 0.37854888187089397,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "Circle USYC's flat 24h direction prediction is supported by a neutral RSI-14 and mid-band Bollinger Band %B. The low volume ratio and sideways short-term trend further indicate a stable market. However, the Extreme Fear sentiment and recent news on regulatory concerns may impact the market in the long term.",
-    "ja": "ハッシュノート・ユーシックの24時間予想は、ニュートラルなRSI-14とミッドバンドのボリンジャー・バンド％Bによって裏付けられています。低いボリューム・レシオと短期の横方向のトレンドは、安定した市場を示しています。ただし、極度の恐怖感と、規制上の懸念に関する最近のニュースは、長期的には市場に影響を与える可能性があります。",
+    "en": "Circle USYC (HASHNOTE-USYC) is expected to remain flat with a 24-hour direction of -0.0% due to neutral technical signals and a low volume ratio. The recent news on Moonbeam's pivot and Kraken's new leveraged trade feature may have a limited impact on HASHNOTE-USYC's price. The overall market remains in an extreme fear state.",
+    "ja": "Circle USYC (HASHNOTE-USYC) は、24 時間の方向が -0.0% のまま残る可能性があり、低いボリューム比率と中立的な技術指標の影響を受けている。ムーンビームのパイプラインとクラーケンの新しいレバレッジ取引機能に関するニュースは、HASHNOTE-USYC の価格に限られた影響を与える可能性がある。総合的には、極度の恐怖の状態が続いている。",
     "sources": [
       {
         "label": "Fear & Greed Index",
-        "value": "22 — Extreme Fear",
+        "value": "23 — Extreme Fear",
         "url": "https://alternative.me/crypto/fear-and-greed-index/"
       },
       {
@@ -1000,8 +1000,13 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.92%",
+        "value": "+0.20%",
         "url": "https://www.coingecko.com/en/global-charts"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Moonbeam to pivot from Polkadot to Base, unveils AI agent framework",
+        "url": "https://cointelegraph.com/news/moonbeam-pivots-from-polkadot-to-base-unveils-ai-agent-framework?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       },
       {
         "label": "CoinTelegraph",
@@ -1012,11 +1017,6 @@
         "label": "CoinTelegraph",
         "value": "Kalshi hits record June trading volume as World Cup fuels prediction markets",
         "url": "https://cointelegraph.com/news/world-cup-drives-prediction-markets-to-record-june-trading-volumes?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Bollinger Bands creator eyes Bitcoin bear-market end, 'W'-shaped reversal",
-        "url": "https://cointelegraph.com/markets/bollinger-bands-creator-eyes-bitcoin-bear-market-end-w-shaped-reversal?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       }
     ]
   }

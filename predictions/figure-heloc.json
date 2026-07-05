@@ -1,6 +1,6 @@
 {
   "coinId": "figure-heloc",
-  "generatedAt": "2026-07-04T21:00:08.027169Z",
+  "generatedAt": "2026-07-05T03:00:07.358219Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,16 +966,16 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.7554474407929743,
-    "confidence": 0.95
+    "changePercent24h": -0.2695317926017943,
+    "confidence": 0.9149
   },
   "commentary": {
-    "en": "FIGURE-HELOC is predicted to experience a flat 24-hour period with a +0.1% return, driven by its oversold RSI-14 reading and mid-band Bollinger Band %B. The low volume ratio and downtrend in the short-term trend further support this prediction. However, the overall crypto market is showing signs of recovery, which may influence FIGURE-HELOC's performance.",
-    "ja": "FIGURE-HELOCは、オーバーサルドのRSI-14とミッドバンドのボリンジャー・バンド％Bによって推進される、24時間で+0.1%のリターンを経験する可能性があります。低いボリューム・レシオと短期のトレンドのダウントレンドは、この予測を裏付けます。ただし、総合的な暗号市場は回復の兆候を示しているため、FIGURE-HELOCのパフォーマンスに影響を与える可能性があります。",
+    "en": "FIGURE-HELOC is expected to remain flat with a 0.1% increase in the next 24 hours, given its oversold RSI-14 reading and mid-band Bollinger Band %B. The recent news on Moonbeam's pivot and Kraken's new collateral option may have a limited impact on FIGURE-HELOC's price. The overall market sentiment remains bearish, with the Fear & Greed Index at 23.",
+    "ja": "FIGURE-HELOCは、RSI-14がオーバーサルドとBollinger Band %Bが中間値にあり、来日24時間に0.1%の増加が予想される。MoonbeamのパイブットとKrakenの新しいコラテラルオプションに関する最近のニュースは、FIGURE-HELOCの価格に限りなく影響を与える可能性はある。総合的な市場感覚は、恐怖と欲求不満指数が23のままである。",
     "sources": [
       {
         "label": "Fear & Greed Index",
-        "value": "22 — Extreme Fear",
+        "value": "23 — Extreme Fear",
         "url": "https://alternative.me/crypto/fear-and-greed-index/"
       },
       {
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.92%",
+        "value": "+0.20%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "50% bullish",
         "url": "https://www.coingecko.com/en/coins/figure-heloc"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Moonbeam to pivot from Polkadot to Base, unveils AI agent framework",
+        "url": "https://cointelegraph.com/news/moonbeam-pivots-from-polkadot-to-base-unveils-ai-agent-framework?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Kalshi hits record June trading volume as World Cup fuels prediction markets",
         "url": "https://cointelegraph.com/news/world-cup-drives-prediction-markets-to-record-june-trading-volumes?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Bollinger Bands creator eyes Bitcoin bear-market end, 'W'-shaped reversal",
-        "url": "https://cointelegraph.com/markets/bollinger-bands-creator-eyes-bitcoin-bear-market-end-w-shaped-reversal?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       }
     ]
   }
