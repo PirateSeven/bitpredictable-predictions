@@ -1,25 +1,25 @@
 {
   "agentVersion": "crypto-ace-1.0.0",
-  "updatedAt": "2026-07-05T01:42:15.681320+00:00",
+  "updatedAt": "2026-07-05T08:37:35.859063+00:00",
   "exchange": "Binance Testnet",
   "currency": "BNB",
   "initialCapital": 1.0,
-  "currentValue": 0.981484,
+  "currentValue": 0.979865,
   "performance": {
-    "totalReturnPct": -1.85,
-    "totalTrades": 16,
-    "winRate": 0.4375,
+    "totalReturnPct": -2.01,
+    "totalTrades": 17,
+    "winRate": 0.4118,
     "maxDrawdownPct": 14.69,
-    "sharpeRatio": -3.71,
+    "sharpeRatio": -4.19,
     "startDate": "2026-06-17T19:27:34.575587+00:00"
   },
   "weeklyStats": {
     "wins": 6,
-    "losses": 2,
-    "winRate": 0.75,
+    "losses": 3,
+    "winRate": 0.6667,
     "comment": {
-      "en": "Strong week. 8 trades with 75% win rate. Signal quality was high.",
-      "ja": "\u597d\u8abf\u306a\u9031\u30028\u53d6\u5f15\u3001\u52dd\u738775%\u3002\u30b7\u30b0\u30ca\u30eb\u54c1\u8cea\u304c\u9ad8\u304f\u898f\u5f8b\u3042\u308b\u904b\u7528\u3067\u3057\u305f\u3002"
+      "en": "Balanced week. 9 trades. Mixed signals but risk management held firm.",
+      "ja": "\u5747\u8861\u3057\u305f\u9031\u30029\u53d6\u5f15\u3002\u30b7\u30b0\u30ca\u30eb\u306f\u6df7\u5728\u3057\u307e\u3057\u305f\u304c\u30ea\u30b9\u30af\u7ba1\u7406\u304c\u6a5f\u80fd\u3057\u307e\u3057\u305f\u3002"
     }
   },
   "bestTrade": {
@@ -30,7 +30,7 @@
     "time": "2026-07-02T10:39:46.664981+00:00"
   },
   "currentStreak": {
-    "count": 2,
+    "count": 3,
     "type": "loss"
   },
   "currentPositions": [
@@ -129,9 +129,30 @@
       "time": "2026-07-03T04:08:58.513625+00:00",
       "value": 0.981484,
       "benchmarkBtc": 1.0
+    },
+    {
+      "time": "2026-07-05T08:37:35.854244+00:00",
+      "value": 0.979865,
+      "benchmarkBtc": 1.0
     }
   ],
   "recentTrades": [
+    {
+      "id": "774a4048",
+      "coin": "hedera-hashgraph",
+      "symbol": "HBAR",
+      "action": "sell",
+      "price": 0.00013002,
+      "sizeBtc": 0.090845,
+      "time": "2026-07-05T08:37:35.854244+00:00",
+      "pnlBtc": -0.00162,
+      "pnlPct": -1.78,
+      "signal": {
+        "direction": "down",
+        "changePercent24h": 1.4429785798297752,
+        "confidence": 0.823
+      }
+    },
     {
       "id": "b718258c",
       "coin": "solana",
@@ -274,22 +295,6 @@
         "direction": "down",
         "changePercent24h": 1.3663956378603168,
         "confidence": 0.8464
-      }
-    },
-    {
-      "id": "2afe7072",
-      "coin": "sui",
-      "symbol": "SUI",
-      "action": "sell",
-      "price": 0.001192,
-      "sizeBtc": 0.059983,
-      "time": "2026-06-23T06:17:19.190130+00:00",
-      "pnlBtc": -0.001232,
-      "pnlPct": -2.05,
-      "signal": {
-        "direction": "down",
-        "changePercent24h": 5.921519860914575,
-        "confidence": 0.9421
       }
     }
   ]
