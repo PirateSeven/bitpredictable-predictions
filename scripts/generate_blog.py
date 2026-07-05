@@ -125,6 +125,7 @@ def gather_context() -> dict:
         }
 
     context["news"] = fetch_news()
+    context["previous_opening"] = get_previous_post_opening()
     return context
 
 
@@ -242,15 +243,48 @@ def auto_link_coins(text: str, coin_ids, lang: str) -> str:
 
 
 def append_news_section(body: str, news: list, lang: str) -> str:
-    """SEO目的の外部リンクを確実に入れるための保険。Groqが本文中で触れなくても、
-    末尾に関連ニュースをmarkdownリンク付きで機械的に追加する。"""
+    """SEO目的の外部リンクを確実に入れるための保険。Groqが本文中で触れなかった
+    見出しだけを末尾に追加する — 既に本文中でリンク済みのものを重ねて出すと
+    生成記事特有の「機械的な繰り返し」感が出るため、リンク済みは除外する。"""
     if not news:
+        return body
+    remaining = [n for n in news if n["link"] not in body]
+    if not remaining:
         return body
     header = "## In the News" if lang == "en" else "## 関連ニュース"
     parts = [header]
-    for n in news[:3]:
+    for n in remaining[:3]:
         parts.append(f"{n['title']} ([{n['source']}]({n['link']}))")
     return body.rstrip() + "\n\n" + "\n\n".join(parts)
+
+
+def get_previous_post_opening() -> dict:
+    """直近の記事の書き出し文（英日）を返す。同じ導入パターンの繰り返しを
+    避けるため、プロンプトに「これとは違う書き出しにしろ」という否定例として渡す。"""
+    index = load_json(INDEX_FILE) or {"posts": []}
+    posts = index.get("posts", [])
+    if not posts:
+        return {"en": None, "ja": None}
+    prev_slug = posts[0]["slug"]
+    prev_file = POSTS_DIR / f"{prev_slug}.json"
+    prev = load_json(prev_file)
+    if not prev:
+        return {"en": None, "ja": None}
+
+    def first_sentence(text: str) -> str:
+        for line in text.split("\n"):
+            line = line.strip()
+            if line and not line.startswith("#"):
+                # Cut at the first sentence boundary so the negative example
+                # stays short — we only need the opening move, not the whole para.
+                m = re.search(r"[.!?。]", line)
+                return line[: m.end()] if m else line[:160]
+        return ""
+
+    return {
+        "en": first_sentence(prev.get("body", {}).get("en", "")),
+        "ja": first_sentence(prev.get("body", {}).get("ja", "")),
+    }
 
 
 def generate_post_content(ctx: dict) -> dict:
@@ -271,12 +305,33 @@ def generate_post_content(ctx: dict) -> dict:
         mood = "mixed"
         mood_ja = "まちまち"
 
+    prev_en = ctx.get("previous_opening", {}).get("en")
+    prev_ja = ctx.get("previous_opening", {}).get("ja")
+
     # English post
     sys_en = (
         "You are a concise, data-driven crypto market analyst for BitPredictable, "
         "a site that publishes open-book AI trading results. Write clearly and factually. "
         "No hype, no price predictions as investment advice. Always note this is for informational purposes only. "
-        "Use markdown headings (## for sections, ### for sub-sections). Write 3-4 sections, ~400 words total. The first time you mention a tracked coin by name, link it using markdown: [Bitcoin](/coins/bitcoin) — use only the exact coin ids listed in the data, never invent a slug. Link each coin at most once per post. Write like a sharp, specific human analyst, not generic AI summary text. Never use cliches like \"in today's fast-paced market\", \"it's important to note\", or \"navigate the landscape\". Avoid formulaic transitions (moreover, furthermore, in conclusion). Lean on the specific numbers given rather than vague language, and take a clear point of view grounded in the data instead of neutrally listing both sides. Vary sentence length. If a relevant recent news headline is provided in the data, you may reference it naturally with a markdown link, e.g. [headline text](url) — only if genuinely relevant, do not force it."
+        "Use markdown headings (## for sections, ### for sub-sections). Write 3-4 sections, ~550-650 words total — "
+        "use the extra length for texture and specifics, not padding. The first time you mention a tracked coin by "
+        "name, link it using markdown: [Bitcoin](/coins/bitcoin) — use only the exact coin ids listed in the data, "
+        "never invent a slug. Link each coin at most once per post. Write like a sharp, specific human analyst, not "
+        "generic AI summary text. Never use cliches like \"in today's fast-paced market\", \"it's important to "
+        "note\", \"navigate the landscape\", \"in the world of crypto\", \"looking ahead\", \"in summary\", "
+        "\"overall\", or \"as always\". Avoid formulaic transitions (moreover, furthermore, in conclusion). Do not "
+        "start more than one sentence in the whole post with the same word (especially \"The\" or \"This\"). Lean "
+        "on the specific numbers given rather than vague language, and take a clear point of view grounded in the "
+        "data instead of neutrally listing both sides. Vary sentence length — mix short, blunt sentences with "
+        "longer ones. If a relevant recent news headline is provided in the data, you may reference it naturally "
+        "with a markdown link, e.g. [headline text](url) — only if genuinely relevant, do not force it, and never "
+        "just restate a headline verbatim without saying why it matters."
+    )
+    opening_constraint_en = (
+        f"\n\nDo not open with a sentence shaped like last week's: \"{prev_en}\" — start this post differently. "
+        "Lead with a specific number, a specific coin's move, a contrarian read, or a direct claim — not a general "
+        "restatement that \"the market is expected to [mood]\"."
+        if prev_en else ""
     )
     prompt_en = (
         f"Write a weekly crypto market analysis blog post for the week of {week}.\n\n"
@@ -287,6 +342,7 @@ def generate_post_content(ctx: dict) -> dict:
         "## Trading Agent Update\n"
         "## What to Watch\n\n"
         "End with a one-line disclaimer that this is not investment advice."
+        + opening_constraint_en
     )
 
     # Japanese post
@@ -294,7 +350,22 @@ def generate_post_content(ctx: dict) -> dict:
         "あなたはBitPredictableのデータ駆動型の暗号資産マーケットアナリストです。"
         "サイトはAIトレードの結果を完全公開しています。明確・簡潔・事実に基づいて書いてください。"
         "誇大表現は禁止。投資助言ではないことを必ず明記。"
-        "マークダウン見出し（##）を使い、3〜4セクション、合計350〜450字程度。追跡中のコイン名を初めて言及する際は、[Bitcoin](/coins/bitcoin) のようにmarkdownリンクにしてください。データに記載された正確なcoin idのみ使用し、推測で作らないこと。1つのコインにつき記事内で1回までリンク。「急速に変化する市場」「〜することが重要です」のような決まり文句や、AIの要約っぽい無難な言い回しは禁止。データの具体的な数字を使い、両論併記で終わらせず、データに基づいた明確な見立てを書くこと。文の長さにも変化をつけること。提供されたニュース見出しの中に関連性の高いものがあれば、[見出し](url)のようにmarkdownリンクで自然に触れてよい。無理にこじつけないこと。"
+        "マークダウン見出し（##）を使い、3〜4セクション、合計500〜650字程度 — 増やした分は具体性・深みに使い、水増しはしない。"
+        "追跡中のコイン名を初めて言及する際は、[Bitcoin](/coins/bitcoin) のようにmarkdownリンクにしてください。"
+        "データに記載された正確なcoin idのみ使用し、推測で作らないこと。1つのコインにつき記事内で1回までリンク。"
+        "「急速に変化する市場」「〜することが重要です」「暗号資産の世界では」「今後の展望として」「総じて」"
+        "のような決まり文句や、AIの要約っぽい無難な言い回しは禁止。"
+        "記事全体を通して、同じ書き出しの単語（「〜は」「今週は」等）を2文以上続けて使わないこと。"
+        "データの具体的な数字を使い、両論併記で終わらせず、データに基づいた明確な見立てを書くこと。"
+        "文の長さにも変化をつけること — 短く言い切る文と、長く説明する文を混ぜる。"
+        "提供されたニュース見出しの中に関連性の高いものがあれば、[見出し](url)のようにmarkdownリンクで自然に触れてよい。"
+        "無理にこじつけないこと。見出しをただ言い換えるだけでなく、なぜそれが重要かを書くこと。"
+    )
+    opening_constraint_ja = (
+        f"\n\n先週の書き出し「{prev_ja}」と同じパターンの書き出しにしないこと。"
+        "具体的な数字、特定のコインの値動き、逆張りの視点、明確な主張のいずれかから始めること。"
+        "「今週の市場は〜見込みです」のような一般的な言い換えで始めないこと。"
+        if prev_ja else ""
     )
     prompt_ja = (
         f"{week}の週次暗号資産マーケット分析ブログ記事を書いてください。\n\n"
@@ -305,6 +376,7 @@ def generate_post_content(ctx: dict) -> dict:
         "## トレードエージェントの状況\n"
         "## 来週のチェックポイント\n\n"
         "最後に「投資助言ではありません」と一行追加。"
+        + opening_constraint_ja
     )
 
     body_en = groq_generate(prompt_en, sys_en)
