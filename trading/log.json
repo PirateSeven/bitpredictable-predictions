@@ -1,6 +1,6 @@
 {
   "agentVersion": "crypto-ace-1.0.0",
-  "updatedAt": "2026-07-06T05:44:37.177944+00:00",
+  "updatedAt": "2026-07-06T11:44:52.314802+00:00",
   "exchange": "Binance Testnet",
   "currency": "BNB",
   "initialCapital": 1.0,
@@ -33,7 +33,17 @@
     "count": 5,
     "type": "loss"
   },
-  "currentPositions": [],
+  "currentPositions": [
+    {
+      "coin": "hedera-hashgraph",
+      "symbol": "HBAR",
+      "direction": "long",
+      "entryPrice": 0.000128,
+      "entryTime": "2026-07-06T05:44:36.246939+00:00",
+      "sizeBtc": 0.102423,
+      "unrealizedPnlPct": 0.0
+    }
+  ],
   "equityCurve": [
     {
       "time": "2026-06-17T19:27:34.575587+00:00",
