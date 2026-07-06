@@ -1,6 +1,6 @@
 {
   "coinId": "figure-heloc",
-  "generatedAt": "2026-07-05T21:00:06.102287Z",
+  "generatedAt": "2026-07-06T03:00:06.558407Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -970,12 +970,12 @@
     "confidence": 0.95
   },
   "commentary": {
-    "en": "FIGURE-HELOC is predicted to remain flat with a 0.1% increase in the next 24 hours, given its oversold RSI-14 reading of 9 and low volume ratio of 0.0x average. The short-term trend is in a downtrend, but the Fear & Greed Index at 23 indicates extreme fear in the market. The recent news surrounding Bitcoin's price movement and Binance outflows may not significantly impact FIGURE-HELOC's price in the short term.",
-    "ja": "FIGURE-HELOC は、RSI-14 の値が 9 でオーバーサールド、ボリューム比率が 0.0x の平均値に低いことから、来日間で 0.1% の増加が予想されます。短期的な傾向は下降傾向ですが、恐怖と欲求不満指数が 23 で極度の恐怖を示していることから、FIGURE-HELOC の価格に影響は少ないと思われます。ビットコインの価格動向やビナンスの流出に関する最近のニュースは、短期的にはFIGURE-HELOCの価格に影響を与える可能性は低いと思われます。",
+    "en": "Figure Heloc is predicted to experience a flat 24-hour direction with a 0.1% increase, indicating a possible stabilization in price. The RSI-14 reading of 9 suggests the asset is oversold, while the Bollinger Band %B at 0.25 indicates it's trading near the mid-band. The low volume ratio and downtrend in the short-term trend suggest caution.",
+    "ja": "Figure Heloc の24時間の予想方向は、+0.1%の増加で、価格の安定化が可能であると考えられます。RSI-14の値は9で、オーバーサルドであることを示しており、ボリンジャー・バンド %Bは0.25で、近くの中央値を示しています。低いボリューム・レシオと短期的なトレンドの下降傾向は、注意が必要です。",
     "sources": [
       {
         "label": "Fear & Greed Index",
-        "value": "23 — Extreme Fear",
+        "value": "24 — Extreme Fear",
         "url": "https://alternative.me/crypto/fear-and-greed-index/"
       },
       {
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-0.65%",
+        "value": "+1.09%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "100% bullish",
         "url": "https://www.coingecko.com/en/coins/figure-heloc"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Dubai tops Asian crypto hubs, Taiwan passes crypto laws: Asia Express",
+        "url": "https://cointelegraph.com/features/asia-express?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "South Africa proposes crypto tax guidance under existing framework",
         "url": "https://cointelegraph.com/news/south-africa-proposes-crypto-tax-draft-guidance?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Binance outflows triple to $1.2B as ETH withdrawals hit 3-year high",
-        "url": "https://cointelegraph.com/news/binance-outflows-1-23-billion-eth-withdrawals-3-year-high?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       }
     ]
   }
