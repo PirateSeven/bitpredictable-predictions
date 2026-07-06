@@ -68,9 +68,12 @@ PREDICT_OK=true
 
   fi
 
-  # Weekly blog post — runs on Monday (weekday 1) at 09:00 UTC cron
-  if [ "$(date -u +%u)" = "1" ] && [ "$(date -u +%H)" = "09" ]; then
-    echo "--- weekly blog generation ---"
+  # Blog post — full weekly recap on Monday (weekday 1), shorter midweek
+  # update on Thursday (weekday 4), both at 09:00 UTC. generate_blog.py
+  # detects which one to write (see is_midweek_run()) and picks the slug
+  # and prompt framing accordingly.
+  if { [ "$(date -u +%u)" = "1" ] || [ "$(date -u +%u)" = "4" ]; } && [ "$(date -u +%H)" = "09" ]; then
+    echo "--- blog generation ---"
     if ! "$PYTHON" scripts/generate_blog.py; then
       echo "WARNING: blog generation failed (non-fatal)"
     fi

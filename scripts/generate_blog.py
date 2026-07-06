@@ -98,9 +98,23 @@ def week_slug() -> str:
     return str(monday)
 
 
+def is_midweek_run() -> bool:
+    """True on any day the run_predict.sh cron trigger fires that isn't
+    Monday — currently just Thursday. A midweek run publishes a shorter
+    supplementary update instead of a second "weekly" post for the same
+    week (which would either collide with Monday's slug or misrepresent
+    itself as a second full weekly recap)."""
+    return datetime.now(timezone.utc).isoweekday() != 1
+
+
 def gather_context() -> dict:
     """Collect prediction and trading data for the prompt."""
-    context = {"predictions": {}, "trading": None, "week": week_slug()}
+    context = {
+        "predictions": {},
+        "trading": None,
+        "week": week_slug(),
+        "midweek": is_midweek_run(),
+    }
 
     for coin_id in TOP_COINS:
         pred = load_json(PREDICTIONS_DIR / f"{coin_id}.json")
@@ -307,6 +321,8 @@ def generate_post_content(ctx: dict) -> dict:
 
     prev_en = ctx.get("previous_opening", {}).get("en")
     prev_ja = ctx.get("previous_opening", {}).get("ja")
+    midweek = ctx.get("midweek", False)
+    today_str = str(datetime.now(timezone.utc).date())
 
     # English post
     sys_en = (
@@ -333,17 +349,32 @@ def generate_post_content(ctx: dict) -> dict:
         "restatement that \"the market is expected to [mood]\"."
         if prev_en else ""
     )
-    prompt_en = (
-        f"Write a weekly crypto market analysis blog post for the week of {week}.\n\n"
-        f"Market data from the BitPredictable LSTM AI model:\n{ctx_text}\n\n"
-        "Structure:\n"
-        "## Weekly Overview\n"
-        "## Key Signals This Week\n"
-        "## Trading Agent Update\n"
-        "## What to Watch\n\n"
-        "End with a one-line disclaimer that this is not investment advice."
-        + opening_constraint_en
-    )
+    if midweek:
+        prompt_en = (
+            f"Write a short midweek crypto market update for {today_str}, a supplementary post published between "
+            f"the regular Monday weekly posts. This is NOT a full weekly recap — assume the reader already saw "
+            f"Monday's post and only wants what's new or has shifted since then. Keep it to 2-3 sections, "
+            f"~300-350 words total.\n\n"
+            f"Market data from the BitPredictable LSTM AI model:\n{ctx_text}\n\n"
+            "Structure:\n"
+            "## Midweek Update\n"
+            "## What Changed\n"
+            "## Trading Agent Update\n\n"
+            "End with a one-line disclaimer that this is not investment advice."
+            + opening_constraint_en
+        )
+    else:
+        prompt_en = (
+            f"Write a weekly crypto market analysis blog post for the week of {week}.\n\n"
+            f"Market data from the BitPredictable LSTM AI model:\n{ctx_text}\n\n"
+            "Structure:\n"
+            "## Weekly Overview\n"
+            "## Key Signals This Week\n"
+            "## Trading Agent Update\n"
+            "## What to Watch\n\n"
+            "End with a one-line disclaimer that this is not investment advice."
+            + opening_constraint_en
+        )
 
     # Japanese post
     sys_ja = (
@@ -367,29 +398,55 @@ def generate_post_content(ctx: dict) -> dict:
         "「今週の市場は〜見込みです」のような一般的な言い換えで始めないこと。"
         if prev_ja else ""
     )
-    prompt_ja = (
-        f"{week}の週次暗号資産マーケット分析ブログ記事を書いてください。\n\n"
-        f"BitPredictable LSTMモデルからの市場データ:\n{ctx_text}\n\n"
-        "構成:\n"
-        "## 今週の概況\n"
-        "## 注目シグナル\n"
-        "## トレードエージェントの状況\n"
-        "## 来週のチェックポイント\n\n"
-        "最後に「投資助言ではありません」と一行追加。"
-        + opening_constraint_ja
-    )
+    if midweek:
+        prompt_ja = (
+            f"{today_str}向けの短い「週半ばアップデート」記事を書いてください。これは月曜の週次記事と週次記事の間に"
+            f"公開する補足記事です。週次の総括ではなく、読者は既に月曜の記事を読んでいる前提で、"
+            f"月曜以降に変化した点・新しく出てきた点だけを書いてください。2〜3セクション、合計300〜350字程度。\n\n"
+            f"BitPredictable LSTMモデルからの市場データ:\n{ctx_text}\n\n"
+            "構成:\n"
+            "## 週半ばアップデート\n"
+            "## 変化のポイント\n"
+            "## トレードエージェントの状況\n\n"
+            "最後に「投資助言ではありません」と一行追加。"
+            + opening_constraint_ja
+        )
+    else:
+        prompt_ja = (
+            f"{week}の週次暗号資産マーケット分析ブログ記事を書いてください。\n\n"
+            f"BitPredictable LSTMモデルからの市場データ:\n{ctx_text}\n\n"
+            "構成:\n"
+            "## 今週の概況\n"
+            "## 注目シグナル\n"
+            "## トレードエージェントの状況\n"
+            "## 来週のチェックポイント\n\n"
+            "最後に「投資助言ではありません」と一行追加。"
+            + opening_constraint_ja
+        )
 
     body_en = groq_generate(prompt_en, sys_en)
     body_ja = groq_generate(prompt_ja, sys_ja)
 
     # Fallback if Groq unavailable
+    fallback_heading_en = "## Midweek Update" if midweek else "## Weekly Overview"
+    fallback_heading_ja = "## 週半ばアップデート" if midweek else "## 今週の概況"
+    fallback_intro_en = (
+        f"Since Monday, BitPredictable's LSTM AI model shows a {mood} tilt: "
+        if midweek
+        else f"The week of {week} shows a {mood} market based on BitPredictable's LSTM AI model. "
+    )
+    fallback_intro_ja = (
+        f"月曜以降、BitPredictableのLSTMモデルは{mood_ja}寄りの動きを示しています。"
+        if midweek
+        else f"{week}の週はBitPredictable LSTMモデルによると{mood_ja}相場です。"
+    )
     if not body_en:
         body_en = (
-            f"## Weekly Overview\n\n"
-            f"The week of {week} shows a {mood} market based on BitPredictable's LSTM AI model. "
+            f"{fallback_heading_en}\n\n"
+            f"{fallback_intro_en}"
             f"{up_count} of {len(directions)} tracked coins are forecast to trend upward, "
             f"while {down_count} are forecast to decline.\n\n"
-            f"## Key Signals This Week\n\n"
+            f"## Key Signals\n\n"
             + "\n".join(
                 f"{coin_id}: {'↑' if p['direction']=='up' else ('↓' if p['direction']=='down' else '→')} "
                 f"{p['direction']} ({p['changePercent24h']:+.2f}% predicted)"
@@ -405,8 +462,8 @@ def generate_post_content(ctx: dict) -> dict:
         )
     if not body_ja:
         body_ja = (
-            f"## 今週の概況\n\n"
-            f"{week}の週はBitPredictable LSTMモデルによると{mood_ja}相場です。"
+            f"{fallback_heading_ja}\n\n"
+            f"{fallback_intro_ja}"
             f"追跡中の{len(directions)}銘柄のうち{up_count}銘柄が上昇、{down_count}銘柄が下落予測です。\n\n"
             f"## 注目シグナル\n\n"
             + "\n".join(
@@ -433,11 +490,11 @@ def generate_post_content(ctx: dict) -> dict:
     title_match_ja = re.match(r"^#{1,2}\s+(.+)", body_ja)
     title_en = (
         title_match_en.group(1) if title_match_en
-        else f"Weekly Crypto Market Analysis — {week}"
+        else (f"Midweek Crypto Update — {today_str}" if midweek else f"Weekly Crypto Market Analysis — {week}")
     )
     title_ja = (
         title_match_ja.group(1) if title_match_ja
-        else f"週次暗号資産マーケット分析 — {week}"
+        else (f"週半ばアップデート — {today_str}" if midweek else f"週次暗号資産マーケット分析 — {week}")
     )
     # Remove leading ## title from body if present (it becomes the page heading)
     if title_match_en:
@@ -453,16 +510,18 @@ def generate_post_content(ctx: dict) -> dict:
                 return line[:200]
         return text[:200]
 
+    tags = [("midweek" if t == "weekly" else t) for t in TAGS] if midweek else TAGS
+
     return {
-        "slug": f"weekly-{week}",
+        "slug": f"midweek-{today_str}" if midweek else f"weekly-{week}",
         "title": {"en": title_en, "ja": title_ja},
-        "date": week,
+        "date": today_str if midweek else week,
         "summary": {
             "en": first_para(body_en),
             "ja": first_para(body_ja),
         },
         "body": {"en": body_en, "ja": body_ja},
-        "tags": TAGS,
+        "tags": tags,
         "coins": [c for c in TOP_COINS if c in ctx["predictions"]],
     }
 
@@ -494,7 +553,11 @@ def main():
 
     POSTS_DIR.mkdir(parents=True, exist_ok=True)
 
-    slug = f"weekly-{week_slug()}"
+    slug = (
+        f"midweek-{datetime.now(timezone.utc).date()}"
+        if is_midweek_run()
+        else f"weekly-{week_slug()}"
+    )
     post_file = POSTS_DIR / f"{slug}.json"
 
     if post_file.exists() and not args.force:
