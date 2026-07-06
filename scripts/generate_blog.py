@@ -256,6 +256,15 @@ def auto_link_coins(text: str, coin_ids, lang: str) -> str:
     return text
 
 
+def strip_orphan_source_labels(text: str) -> str:
+    """The model sometimes writes a source name as "[CoinDesk]" without the
+    (url) that would make it a real markdown link — the frontend's link
+    parser only matches [text](url), so an orphaned [CoinDesk] renders as
+    literal bracket text instead of a link. Drop the brackets rather than
+    leave a broken-looking artifact in a published post."""
+    return re.sub(r"\[([A-Za-z][A-Za-z0-9 .'-]{1,30})\](?!\()", r"\1", text)
+
+
 def append_news_section(body: str, news: list, lang: str) -> str:
     """SEO目的の外部リンクを確実に入れるための保険。Groqが本文中で触れなかった
     見出しだけを末尾に追加する — 既に本文中でリンク済みのものを重ねて出すと
@@ -480,6 +489,8 @@ def generate_post_content(ctx: dict) -> dict:
             + "\n\n*本記事は情報提供のみを目的としています。投資助言ではありません。*"
         )
 
+    body_en = strip_orphan_source_labels(body_en)
+    body_ja = strip_orphan_source_labels(body_ja)
     body_en = auto_link_coins(body_en, ctx["predictions"].keys(), "en")
     body_ja = auto_link_coins(body_ja, ctx["predictions"].keys(), "ja")
     body_en = append_news_section(body_en, ctx.get("news", []), "en")
