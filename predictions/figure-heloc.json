@@ -1,991 +1,991 @@
 {
   "coinId": "figure-heloc",
-  "generatedAt": "2026-07-06T15:00:06.365404Z",
+  "generatedAt": "2026-07-07T03:00:06.153507Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
-      "time": "2026-06-27T08:00:00Z",
+      "time": "2026-06-30T04:00:00Z",
       "actualIndex": 100.0,
       "predictedIndex": 100.0
     },
     {
-      "time": "2026-06-27T09:00:00Z",
-      "actualIndex": 100.0,
-      "predictedIndex": 100.0021
-    },
-    {
-      "time": "2026-06-27T10:00:00Z",
-      "actualIndex": 100.0,
-      "predictedIndex": 100.0029
-    },
-    {
-      "time": "2026-06-27T11:00:00Z",
-      "actualIndex": 100.0,
-      "predictedIndex": 100.0021
-    },
-    {
-      "time": "2026-06-27T12:00:00Z",
-      "actualIndex": 99.9987,
-      "predictedIndex": 100.0011
-    },
-    {
-      "time": "2026-06-27T13:00:00Z",
-      "actualIndex": 100.0013,
-      "predictedIndex": 99.9991
-    },
-    {
-      "time": "2026-06-27T14:00:00Z",
-      "actualIndex": 100.0013,
-      "predictedIndex": 100.0011
-    },
-    {
-      "time": "2026-06-27T15:00:00Z",
-      "actualIndex": 100.0013,
-      "predictedIndex": 100.0009
-    },
-    {
-      "time": "2026-06-27T16:00:00Z",
-      "actualIndex": 99.9905,
-      "predictedIndex": 100.0004
-    },
-    {
-      "time": "2026-06-27T17:00:00Z",
-      "actualIndex": 99.9877,
-      "predictedIndex": 99.9894
-    },
-    {
-      "time": "2026-06-27T18:00:00Z",
-      "actualIndex": 100.1362,
-      "predictedIndex": 99.9865
-    },
-    {
-      "time": "2026-06-27T19:00:00Z",
-      "actualIndex": 100.1296,
-      "predictedIndex": 100.1348
-    },
-    {
-      "time": "2026-06-27T20:00:00Z",
-      "actualIndex": 100.1313,
-      "predictedIndex": 100.1282
-    },
-    {
-      "time": "2026-06-27T21:00:00Z",
-      "actualIndex": 100.8792,
-      "predictedIndex": 100.1299
-    },
-    {
-      "time": "2026-06-27T22:00:00Z",
-      "actualIndex": 100.8792,
-      "predictedIndex": 100.8776
-    },
-    {
-      "time": "2026-06-27T23:00:00Z",
-      "actualIndex": 100.8792,
-      "predictedIndex": 100.8776
-    },
-    {
-      "time": "2026-06-28T00:00:00Z",
-      "actualIndex": 101.521,
-      "predictedIndex": 100.8777
-    },
-    {
-      "time": "2026-06-28T01:00:00Z",
-      "actualIndex": 101.521,
-      "predictedIndex": 101.5194
-    },
-    {
-      "time": "2026-06-28T02:00:00Z",
-      "actualIndex": 101.521,
-      "predictedIndex": 101.5195
-    },
-    {
-      "time": "2026-06-28T03:00:00Z",
-      "actualIndex": 101.521,
-      "predictedIndex": 101.5196
-    },
-    {
-      "time": "2026-06-28T04:00:00Z",
-      "actualIndex": 101.521,
-      "predictedIndex": 101.5198
-    },
-    {
-      "time": "2026-06-28T05:00:00Z",
-      "actualIndex": 101.521,
-      "predictedIndex": 101.5199
-    },
-    {
-      "time": "2026-06-28T06:00:00Z",
-      "actualIndex": 101.521,
-      "predictedIndex": 101.52
-    },
-    {
-      "time": "2026-06-28T07:00:00Z",
-      "actualIndex": 101.521,
-      "predictedIndex": 101.5202
-    },
-    {
-      "time": "2026-06-28T08:00:00Z",
-      "actualIndex": 101.521,
-      "predictedIndex": 101.52
-    },
-    {
-      "time": "2026-06-28T09:00:00Z",
-      "actualIndex": 101.521,
-      "predictedIndex": 101.52
-    },
-    {
-      "time": "2026-06-28T10:00:00Z",
-      "actualIndex": 101.521,
-      "predictedIndex": 101.52
-    },
-    {
-      "time": "2026-06-28T11:00:00Z",
-      "actualIndex": 101.521,
-      "predictedIndex": 101.5201
-    },
-    {
-      "time": "2026-06-28T12:00:00Z",
-      "actualIndex": 101.521,
-      "predictedIndex": 101.5201
-    },
-    {
-      "time": "2026-06-28T13:00:00Z",
-      "actualIndex": 101.521,
-      "predictedIndex": 101.5202
-    },
-    {
-      "time": "2026-06-28T14:00:00Z",
-      "actualIndex": 101.521,
-      "predictedIndex": 101.5202
-    },
-    {
-      "time": "2026-06-28T15:00:00Z",
-      "actualIndex": 101.521,
-      "predictedIndex": 101.52
-    },
-    {
-      "time": "2026-06-28T16:00:00Z",
-      "actualIndex": 101.521,
-      "predictedIndex": 101.52
-    },
-    {
-      "time": "2026-06-28T17:00:00Z",
-      "actualIndex": 101.521,
-      "predictedIndex": 101.5195
-    },
-    {
-      "time": "2026-06-28T18:00:00Z",
-      "actualIndex": 101.521,
-      "predictedIndex": 101.5194
-    },
-    {
-      "time": "2026-06-28T19:00:00Z",
-      "actualIndex": 101.521,
-      "predictedIndex": 101.5194
-    },
-    {
-      "time": "2026-06-28T20:00:00Z",
-      "actualIndex": 101.521,
-      "predictedIndex": 101.5194
-    },
-    {
-      "time": "2026-06-28T21:00:00Z",
-      "actualIndex": 101.521,
-      "predictedIndex": 101.5192
-    },
-    {
-      "time": "2026-06-28T22:00:00Z",
-      "actualIndex": 101.521,
-      "predictedIndex": 101.5194
-    },
-    {
-      "time": "2026-06-28T23:00:00Z",
-      "actualIndex": 101.521,
-      "predictedIndex": 101.5191
-    },
-    {
-      "time": "2026-06-29T00:00:00Z",
-      "actualIndex": 101.521,
-      "predictedIndex": 101.5188
-    },
-    {
-      "time": "2026-06-29T01:00:00Z",
-      "actualIndex": 101.521,
-      "predictedIndex": 101.5187
-    },
-    {
-      "time": "2026-06-29T02:00:00Z",
-      "actualIndex": 101.521,
-      "predictedIndex": 101.5188
-    },
-    {
-      "time": "2026-06-29T03:00:00Z",
-      "actualIndex": 101.521,
-      "predictedIndex": 101.5188
-    },
-    {
-      "time": "2026-06-29T04:00:00Z",
-      "actualIndex": 101.521,
-      "predictedIndex": 101.5185
-    },
-    {
-      "time": "2026-06-29T05:00:00Z",
-      "actualIndex": 101.521,
-      "predictedIndex": 101.5183
-    },
-    {
-      "time": "2026-06-29T06:00:00Z",
-      "actualIndex": 101.521,
-      "predictedIndex": 101.5183
-    },
-    {
-      "time": "2026-06-29T07:00:00Z",
-      "actualIndex": 101.521,
-      "predictedIndex": 101.5177
-    },
-    {
-      "time": "2026-06-29T08:00:00Z",
-      "actualIndex": 101.521,
-      "predictedIndex": 101.5176
-    },
-    {
-      "time": "2026-06-29T09:00:00Z",
-      "actualIndex": 101.521,
-      "predictedIndex": 101.5181
-    },
-    {
-      "time": "2026-06-29T10:00:00Z",
-      "actualIndex": 101.521,
-      "predictedIndex": 101.5184
-    },
-    {
-      "time": "2026-06-29T11:00:00Z",
-      "actualIndex": 101.521,
-      "predictedIndex": 101.5187
-    },
-    {
-      "time": "2026-06-29T12:00:00Z",
-      "actualIndex": 101.521,
-      "predictedIndex": 101.519
-    },
-    {
-      "time": "2026-06-29T13:00:00Z",
-      "actualIndex": 99.0823,
-      "predictedIndex": 101.5192
-    },
-    {
-      "time": "2026-06-29T14:00:00Z",
-      "actualIndex": 99.3461,
-      "predictedIndex": 99.0805
-    },
-    {
-      "time": "2026-06-29T15:00:00Z",
-      "actualIndex": 99.3461,
-      "predictedIndex": 99.3441
-    },
-    {
-      "time": "2026-06-29T16:00:00Z",
-      "actualIndex": 99.3461,
-      "predictedIndex": 99.3439
-    },
-    {
-      "time": "2026-06-29T17:00:00Z",
-      "actualIndex": 99.3461,
-      "predictedIndex": 99.3441
-    },
-    {
-      "time": "2026-06-29T18:00:00Z",
-      "actualIndex": 100.5971,
-      "predictedIndex": 99.3443
-    },
-    {
-      "time": "2026-06-29T19:00:00Z",
-      "actualIndex": 100.5563,
-      "predictedIndex": 100.5954
-    },
-    {
-      "time": "2026-06-29T20:00:00Z",
-      "actualIndex": 100.4263,
-      "predictedIndex": 100.5548
-    },
-    {
-      "time": "2026-06-29T21:00:00Z",
-      "actualIndex": 100.4092,
-      "predictedIndex": 100.4248
-    },
-    {
-      "time": "2026-06-29T22:00:00Z",
-      "actualIndex": 101.6548,
-      "predictedIndex": 100.4077
-    },
-    {
-      "time": "2026-06-29T23:00:00Z",
-      "actualIndex": 101.6548,
-      "predictedIndex": 101.6533
-    },
-    {
-      "time": "2026-06-30T00:00:00Z",
-      "actualIndex": 101.6548,
-      "predictedIndex": 101.6532
-    },
-    {
-      "time": "2026-06-30T01:00:00Z",
-      "actualIndex": 101.6548,
-      "predictedIndex": 101.6532
-    },
-    {
-      "time": "2026-06-30T02:00:00Z",
-      "actualIndex": 101.6548,
-      "predictedIndex": 101.6532
-    },
-    {
-      "time": "2026-06-30T03:00:00Z",
-      "actualIndex": 101.6548,
-      "predictedIndex": 101.6531
-    },
-    {
-      "time": "2026-06-30T04:00:00Z",
-      "actualIndex": 101.6548,
-      "predictedIndex": 101.6531
-    },
-    {
       "time": "2026-06-30T05:00:00Z",
-      "actualIndex": 101.6548,
-      "predictedIndex": 101.653
+      "actualIndex": 100.0,
+      "predictedIndex": 100.0026
     },
     {
       "time": "2026-06-30T06:00:00Z",
-      "actualIndex": 101.6548,
-      "predictedIndex": 101.6529
+      "actualIndex": 100.0,
+      "predictedIndex": 100.0023
     },
     {
       "time": "2026-06-30T07:00:00Z",
-      "actualIndex": 101.6548,
-      "predictedIndex": 101.6528
+      "actualIndex": 100.0,
+      "predictedIndex": 100.0023
     },
     {
       "time": "2026-06-30T08:00:00Z",
-      "actualIndex": 101.6548,
-      "predictedIndex": 101.6527
+      "actualIndex": 100.0,
+      "predictedIndex": 100.0019
     },
     {
       "time": "2026-06-30T09:00:00Z",
-      "actualIndex": 101.6548,
-      "predictedIndex": 101.6527
+      "actualIndex": 100.0,
+      "predictedIndex": 100.0015
     },
     {
       "time": "2026-06-30T10:00:00Z",
-      "actualIndex": 101.6548,
-      "predictedIndex": 101.6527
+      "actualIndex": 100.0,
+      "predictedIndex": 100.0011
     },
     {
       "time": "2026-06-30T11:00:00Z",
-      "actualIndex": 101.6548,
-      "predictedIndex": 101.6528
+      "actualIndex": 100.0,
+      "predictedIndex": 100.001
     },
     {
       "time": "2026-06-30T12:00:00Z",
-      "actualIndex": 101.6548,
-      "predictedIndex": 101.6528
+      "actualIndex": 100.0,
+      "predictedIndex": 100.0008
     },
     {
       "time": "2026-06-30T13:00:00Z",
-      "actualIndex": 101.6559,
-      "predictedIndex": 101.6528
+      "actualIndex": 100.0011,
+      "predictedIndex": 100.0006
     },
     {
       "time": "2026-06-30T14:00:00Z",
-      "actualIndex": 101.6644,
-      "predictedIndex": 101.654
+      "actualIndex": 100.0095,
+      "predictedIndex": 100.0013
     },
     {
       "time": "2026-06-30T15:00:00Z",
-      "actualIndex": 101.6644,
-      "predictedIndex": 101.6625
+      "actualIndex": 100.0095,
+      "predictedIndex": 100.0092
     },
     {
       "time": "2026-06-30T16:00:00Z",
-      "actualIndex": 101.6644,
-      "predictedIndex": 101.6625
+      "actualIndex": 100.0095,
+      "predictedIndex": 100.0087
     },
     {
       "time": "2026-06-30T17:00:00Z",
-      "actualIndex": 101.3616,
-      "predictedIndex": 101.6624
+      "actualIndex": 99.7116,
+      "predictedIndex": 100.0084
     },
     {
       "time": "2026-06-30T18:00:00Z",
-      "actualIndex": 101.4036,
-      "predictedIndex": 101.3596
+      "actualIndex": 99.7529,
+      "predictedIndex": 99.7097
     },
     {
       "time": "2026-06-30T19:00:00Z",
-      "actualIndex": 101.5147,
-      "predictedIndex": 101.4016
+      "actualIndex": 99.8622,
+      "predictedIndex": 99.7501
     },
     {
       "time": "2026-06-30T20:00:00Z",
-      "actualIndex": 98.8331,
-      "predictedIndex": 101.5128
+      "actualIndex": 97.2243,
+      "predictedIndex": 99.859
     },
     {
       "time": "2026-06-30T21:00:00Z",
-      "actualIndex": 98.2714,
-      "predictedIndex": 98.8312
+      "actualIndex": 96.6717,
+      "predictedIndex": 97.2206
     },
     {
       "time": "2026-06-30T22:00:00Z",
-      "actualIndex": 98.0917,
-      "predictedIndex": 98.2695
+      "actualIndex": 96.495,
+      "predictedIndex": 96.6677
     },
     {
       "time": "2026-06-30T23:00:00Z",
-      "actualIndex": 98.0917,
-      "predictedIndex": 98.0898
+      "actualIndex": 96.495,
+      "predictedIndex": 96.4907
     },
     {
       "time": "2026-07-01T00:00:00Z",
-      "actualIndex": 98.6698,
-      "predictedIndex": 98.0896
+      "actualIndex": 97.0636,
+      "predictedIndex": 96.4906
     },
     {
       "time": "2026-07-01T01:00:00Z",
-      "actualIndex": 98.6698,
-      "predictedIndex": 98.6674
+      "actualIndex": 97.0636,
+      "predictedIndex": 97.0594
     },
     {
       "time": "2026-07-01T02:00:00Z",
-      "actualIndex": 98.6698,
-      "predictedIndex": 98.6671
+      "actualIndex": 97.0636,
+      "predictedIndex": 97.0598
     },
     {
       "time": "2026-07-01T03:00:00Z",
-      "actualIndex": 98.6698,
-      "predictedIndex": 98.667
+      "actualIndex": 97.0636,
+      "predictedIndex": 97.0601
     },
     {
       "time": "2026-07-01T04:00:00Z",
-      "actualIndex": 98.6698,
-      "predictedIndex": 98.6669
+      "actualIndex": 97.0636,
+      "predictedIndex": 97.0601
     },
     {
       "time": "2026-07-01T05:00:00Z",
-      "actualIndex": 98.6698,
-      "predictedIndex": 98.6671
+      "actualIndex": 97.0636,
+      "predictedIndex": 97.0603
     },
     {
       "time": "2026-07-01T06:00:00Z",
-      "actualIndex": 98.6698,
-      "predictedIndex": 98.6674
+      "actualIndex": 97.0636,
+      "predictedIndex": 97.0608
     },
     {
       "time": "2026-07-01T07:00:00Z",
-      "actualIndex": 98.5881,
-      "predictedIndex": 98.6677
+      "actualIndex": 96.9833,
+      "predictedIndex": 97.0614
     },
     {
       "time": "2026-07-01T08:00:00Z",
-      "actualIndex": 98.5881,
-      "predictedIndex": 98.5867
+      "actualIndex": 96.9833,
+      "predictedIndex": 96.9816
     },
     {
       "time": "2026-07-01T09:00:00Z",
-      "actualIndex": 98.5881,
-      "predictedIndex": 98.5872
+      "actualIndex": 96.9833,
+      "predictedIndex": 96.9822
     },
     {
       "time": "2026-07-01T10:00:00Z",
-      "actualIndex": 98.5881,
-      "predictedIndex": 98.5877
+      "actualIndex": 96.9833,
+      "predictedIndex": 96.9827
     },
     {
       "time": "2026-07-01T11:00:00Z",
-      "actualIndex": 98.5881,
-      "predictedIndex": 98.5881
+      "actualIndex": 96.9833,
+      "predictedIndex": 96.9832
     },
     {
       "time": "2026-07-01T12:00:00Z",
-      "actualIndex": 98.5881,
-      "predictedIndex": 98.5885
+      "actualIndex": 96.9833,
+      "predictedIndex": 96.9836
     },
     {
       "time": "2026-07-01T13:00:00Z",
-      "actualIndex": 98.588,
-      "predictedIndex": 98.5884
+      "actualIndex": 96.9831,
+      "predictedIndex": 96.9835
     },
     {
       "time": "2026-07-01T14:00:00Z",
-      "actualIndex": 98.588,
-      "predictedIndex": 98.5882
+      "actualIndex": 96.9831,
+      "predictedIndex": 96.9833
     },
     {
       "time": "2026-07-01T15:00:00Z",
-      "actualIndex": 98.588,
-      "predictedIndex": 98.5881
+      "actualIndex": 96.9831,
+      "predictedIndex": 96.9833
     },
     {
       "time": "2026-07-01T16:00:00Z",
-      "actualIndex": 98.588,
-      "predictedIndex": 98.5881
+      "actualIndex": 96.9831,
+      "predictedIndex": 96.9832
     },
     {
       "time": "2026-07-01T17:00:00Z",
-      "actualIndex": 98.5587,
-      "predictedIndex": 98.5882
+      "actualIndex": 96.9543,
+      "predictedIndex": 96.9833
     },
     {
       "time": "2026-07-01T18:00:00Z",
-      "actualIndex": 98.6094,
-      "predictedIndex": 98.5588
+      "actualIndex": 97.0042,
+      "predictedIndex": 96.9544
     },
     {
       "time": "2026-07-01T19:00:00Z",
-      "actualIndex": 98.6099,
-      "predictedIndex": 98.6096
+      "actualIndex": 97.0047,
+      "predictedIndex": 97.0044
     },
     {
       "time": "2026-07-01T20:00:00Z",
-      "actualIndex": 98.8901,
-      "predictedIndex": 98.6101
+      "actualIndex": 97.2803,
+      "predictedIndex": 97.0049
     },
     {
       "time": "2026-07-01T21:00:00Z",
-      "actualIndex": 101.0234,
-      "predictedIndex": 98.8902
+      "actualIndex": 99.3789,
+      "predictedIndex": 97.2805
     },
     {
       "time": "2026-07-01T22:00:00Z",
-      "actualIndex": 101.0278,
-      "predictedIndex": 101.0236
+      "actualIndex": 99.3833,
+      "predictedIndex": 99.3791
     },
     {
       "time": "2026-07-01T23:00:00Z",
-      "actualIndex": 101.0278,
-      "predictedIndex": 101.028
+      "actualIndex": 99.3833,
+      "predictedIndex": 99.3835
     },
     {
       "time": "2026-07-02T00:00:00Z",
-      "actualIndex": 99.9688,
-      "predictedIndex": 101.0281
+      "actualIndex": 98.3415,
+      "predictedIndex": 99.3835
     },
     {
       "time": "2026-07-02T01:00:00Z",
-      "actualIndex": 99.9688,
-      "predictedIndex": 99.969
+      "actualIndex": 98.3415,
+      "predictedIndex": 98.3417
     },
     {
       "time": "2026-07-02T02:00:00Z",
-      "actualIndex": 99.9688,
-      "predictedIndex": 99.969
+      "actualIndex": 98.3415,
+      "predictedIndex": 98.3417
     },
     {
       "time": "2026-07-02T03:00:00Z",
-      "actualIndex": 99.9688,
-      "predictedIndex": 99.969
+      "actualIndex": 98.3415,
+      "predictedIndex": 98.3417
     },
     {
       "time": "2026-07-02T04:00:00Z",
-      "actualIndex": 99.9688,
-      "predictedIndex": 99.969
+      "actualIndex": 98.3415,
+      "predictedIndex": 98.3417
     },
     {
       "time": "2026-07-02T05:00:00Z",
-      "actualIndex": 99.9688,
-      "predictedIndex": 99.969
+      "actualIndex": 98.3415,
+      "predictedIndex": 98.3416
     },
     {
       "time": "2026-07-02T06:00:00Z",
-      "actualIndex": 99.9688,
-      "predictedIndex": 99.9689
+      "actualIndex": 98.3415,
+      "predictedIndex": 98.3416
     },
     {
       "time": "2026-07-02T07:00:00Z",
-      "actualIndex": 100.7676,
-      "predictedIndex": 99.9689
+      "actualIndex": 99.1273,
+      "predictedIndex": 98.3416
     },
     {
       "time": "2026-07-02T08:00:00Z",
-      "actualIndex": 100.7676,
-      "predictedIndex": 100.7677
+      "actualIndex": 99.1273,
+      "predictedIndex": 99.1273
     },
     {
       "time": "2026-07-02T09:00:00Z",
-      "actualIndex": 100.7676,
-      "predictedIndex": 100.7676
+      "actualIndex": 99.1273,
+      "predictedIndex": 99.1272
     },
     {
       "time": "2026-07-02T10:00:00Z",
-      "actualIndex": 100.7676,
-      "predictedIndex": 100.7674
+      "actualIndex": 99.1273,
+      "predictedIndex": 99.1271
     },
     {
       "time": "2026-07-02T11:00:00Z",
-      "actualIndex": 100.7676,
-      "predictedIndex": 100.7673
+      "actualIndex": 99.1273,
+      "predictedIndex": 99.1269
     },
     {
       "time": "2026-07-02T12:00:00Z",
-      "actualIndex": 100.7676,
-      "predictedIndex": 100.7671
+      "actualIndex": 99.1273,
+      "predictedIndex": 99.1268
     },
     {
       "time": "2026-07-02T13:00:00Z",
-      "actualIndex": 100.7328,
-      "predictedIndex": 100.767
+      "actualIndex": 99.0931,
+      "predictedIndex": 99.1266
     },
     {
       "time": "2026-07-02T14:00:00Z",
-      "actualIndex": 100.7328,
-      "predictedIndex": 100.7321
+      "actualIndex": 99.0931,
+      "predictedIndex": 99.0923
     },
     {
       "time": "2026-07-02T15:00:00Z",
-      "actualIndex": 100.7328,
-      "predictedIndex": 100.7321
+      "actualIndex": 99.0931,
+      "predictedIndex": 99.0924
     },
     {
       "time": "2026-07-02T16:00:00Z",
-      "actualIndex": 100.7328,
-      "predictedIndex": 100.7323
+      "actualIndex": 99.0931,
+      "predictedIndex": 99.0925
     },
     {
       "time": "2026-07-02T17:00:00Z",
-      "actualIndex": 100.4862,
-      "predictedIndex": 100.7325
+      "actualIndex": 98.8504,
+      "predictedIndex": 99.0928
     },
     {
       "time": "2026-07-02T18:00:00Z",
-      "actualIndex": 100.4962,
-      "predictedIndex": 100.4859
+      "actualIndex": 98.8603,
+      "predictedIndex": 98.8502
     },
     {
       "time": "2026-07-02T19:00:00Z",
-      "actualIndex": 100.6124,
-      "predictedIndex": 100.496
+      "actualIndex": 98.9746,
+      "predictedIndex": 98.8601
     },
     {
       "time": "2026-07-02T20:00:00Z",
-      "actualIndex": 100.5979,
-      "predictedIndex": 100.6122
+      "actualIndex": 98.9604,
+      "predictedIndex": 98.9744
     },
     {
       "time": "2026-07-02T21:00:00Z",
-      "actualIndex": 100.6034,
-      "predictedIndex": 100.5973
+      "actualIndex": 98.9657,
+      "predictedIndex": 98.9597
     },
     {
       "time": "2026-07-02T22:00:00Z",
-      "actualIndex": 101.028,
-      "predictedIndex": 100.6027
+      "actualIndex": 99.3834,
+      "predictedIndex": 98.9651
     },
     {
       "time": "2026-07-02T23:00:00Z",
-      "actualIndex": 101.026,
-      "predictedIndex": 101.0274
+      "actualIndex": 99.3815,
+      "predictedIndex": 99.3829
     },
     {
       "time": "2026-07-03T00:00:00Z",
-      "actualIndex": 101.026,
-      "predictedIndex": 101.0257
+      "actualIndex": 99.3815,
+      "predictedIndex": 99.3812
     },
     {
       "time": "2026-07-03T01:00:00Z",
-      "actualIndex": 101.026,
-      "predictedIndex": 101.0254
+      "actualIndex": 99.3815,
+      "predictedIndex": 99.3809
     },
     {
       "time": "2026-07-03T02:00:00Z",
-      "actualIndex": 101.026,
-      "predictedIndex": 101.025
+      "actualIndex": 99.3815,
+      "predictedIndex": 99.3805
     },
     {
       "time": "2026-07-03T03:00:00Z",
-      "actualIndex": 101.026,
-      "predictedIndex": 101.0252
+      "actualIndex": 99.3815,
+      "predictedIndex": 99.3806
     },
     {
       "time": "2026-07-03T04:00:00Z",
-      "actualIndex": 101.026,
-      "predictedIndex": 101.0253
+      "actualIndex": 99.3815,
+      "predictedIndex": 99.3808
     },
     {
       "time": "2026-07-03T05:00:00Z",
-      "actualIndex": 101.026,
-      "predictedIndex": 101.0254
+      "actualIndex": 99.3815,
+      "predictedIndex": 99.3809
     },
     {
       "time": "2026-07-03T06:00:00Z",
-      "actualIndex": 101.026,
-      "predictedIndex": 101.0254
+      "actualIndex": 99.3815,
+      "predictedIndex": 99.3809
     },
     {
       "time": "2026-07-03T07:00:00Z",
-      "actualIndex": 101.026,
-      "predictedIndex": 101.0252
+      "actualIndex": 99.3815,
+      "predictedIndex": 99.3807
     },
     {
       "time": "2026-07-03T08:00:00Z",
-      "actualIndex": 101.026,
-      "predictedIndex": 101.0249
+      "actualIndex": 99.3815,
+      "predictedIndex": 99.3804
     },
     {
       "time": "2026-07-03T09:00:00Z",
-      "actualIndex": 101.026,
-      "predictedIndex": 101.0245
+      "actualIndex": 99.3815,
+      "predictedIndex": 99.38
     },
     {
       "time": "2026-07-03T10:00:00Z",
-      "actualIndex": 101.026,
-      "predictedIndex": 101.0239
+      "actualIndex": 99.3815,
+      "predictedIndex": 99.3794
     },
     {
       "time": "2026-07-03T11:00:00Z",
-      "actualIndex": 101.026,
-      "predictedIndex": 101.0227
+      "actualIndex": 99.3815,
+      "predictedIndex": 99.3781
     },
     {
       "time": "2026-07-03T12:00:00Z",
-      "actualIndex": 101.026,
-      "predictedIndex": 101.0219
+      "actualIndex": 99.3815,
+      "predictedIndex": 99.3774
     },
     {
       "time": "2026-07-03T13:00:00Z",
-      "actualIndex": 101.0244,
-      "predictedIndex": 101.0224
+      "actualIndex": 99.3799,
+      "predictedIndex": 99.378
     },
     {
       "time": "2026-07-03T14:00:00Z",
-      "actualIndex": 101.0244,
-      "predictedIndex": 101.0211
+      "actualIndex": 99.3799,
+      "predictedIndex": 99.3767
     },
     {
       "time": "2026-07-03T15:00:00Z",
-      "actualIndex": 101.0244,
-      "predictedIndex": 101.0208
+      "actualIndex": 99.3799,
+      "predictedIndex": 99.3764
     },
     {
       "time": "2026-07-03T16:00:00Z",
-      "actualIndex": 101.027,
-      "predictedIndex": 101.0208
+      "actualIndex": 99.3824,
+      "predictedIndex": 99.3764
     },
     {
       "time": "2026-07-03T17:00:00Z",
-      "actualIndex": 101.0344,
-      "predictedIndex": 101.0229
+      "actualIndex": 99.3898,
+      "predictedIndex": 99.3785
     },
     {
       "time": "2026-07-03T18:00:00Z",
-      "actualIndex": 101.0619,
-      "predictedIndex": 101.0305
+      "actualIndex": 99.4168,
+      "predictedIndex": 99.386
     },
     {
       "time": "2026-07-03T19:00:00Z",
-      "actualIndex": 101.1609,
-      "predictedIndex": 101.0578
+      "actualIndex": 99.5141,
+      "predictedIndex": 99.4128
     },
     {
       "time": "2026-07-03T20:00:00Z",
-      "actualIndex": 101.1777,
-      "predictedIndex": 101.1567
+      "actualIndex": 99.5307,
+      "predictedIndex": 99.5101
     },
     {
       "time": "2026-07-03T21:00:00Z",
-      "actualIndex": 101.1777,
-      "predictedIndex": 101.1737
+      "actualIndex": 99.5307,
+      "predictedIndex": 99.5268
     },
     {
       "time": "2026-07-03T22:00:00Z",
-      "actualIndex": 98.2145,
-      "predictedIndex": 101.1737
+      "actualIndex": 96.6157,
+      "predictedIndex": 99.5269
     },
     {
       "time": "2026-07-03T23:00:00Z",
-      "actualIndex": 98.105,
-      "predictedIndex": 98.2112
+      "actualIndex": 96.5081,
+      "predictedIndex": 96.6125
     },
     {
       "time": "2026-07-04T00:00:00Z",
-      "actualIndex": 98.105,
-      "predictedIndex": 98.102
+      "actualIndex": 96.5081,
+      "predictedIndex": 96.5051
     },
     {
       "time": "2026-07-04T01:00:00Z",
-      "actualIndex": 98.105,
-      "predictedIndex": 98.1023
+      "actualIndex": 96.5081,
+      "predictedIndex": 96.5055
     },
     {
       "time": "2026-07-04T02:00:00Z",
-      "actualIndex": 98.105,
-      "predictedIndex": 98.1025
+      "actualIndex": 96.5081,
+      "predictedIndex": 96.5057
     },
     {
       "time": "2026-07-04T03:00:00Z",
-      "actualIndex": 98.105,
-      "predictedIndex": 98.1026
+      "actualIndex": 96.5081,
+      "predictedIndex": 96.5057
     },
     {
       "time": "2026-07-04T04:00:00Z",
-      "actualIndex": 98.105,
-      "predictedIndex": 98.1029
+      "actualIndex": 96.5081,
+      "predictedIndex": 96.506
     },
     {
       "time": "2026-07-04T05:00:00Z",
-      "actualIndex": 98.105,
-      "predictedIndex": 98.1032
+      "actualIndex": 96.5081,
+      "predictedIndex": 96.5063
     },
     {
       "time": "2026-07-04T06:00:00Z",
-      "actualIndex": 98.105,
-      "predictedIndex": 98.1037
+      "actualIndex": 96.5081,
+      "predictedIndex": 96.5068
     },
     {
       "time": "2026-07-04T07:00:00Z",
-      "actualIndex": 98.105,
-      "predictedIndex": 98.104
+      "actualIndex": 96.5081,
+      "predictedIndex": 96.5071
     },
     {
       "time": "2026-07-04T08:00:00Z",
-      "actualIndex": null,
-      "predictedIndex": 98.1047
+      "actualIndex": 96.5081,
+      "predictedIndex": 96.5077
     },
     {
       "time": "2026-07-04T09:00:00Z",
-      "actualIndex": null,
-      "predictedIndex": 98.107
+      "actualIndex": 96.5081,
+      "predictedIndex": 96.508
     },
     {
       "time": "2026-07-04T10:00:00Z",
-      "actualIndex": null,
-      "predictedIndex": 98.1088
+      "actualIndex": 96.5081,
+      "predictedIndex": 96.508
     },
     {
       "time": "2026-07-04T11:00:00Z",
-      "actualIndex": null,
-      "predictedIndex": 98.1112
+      "actualIndex": 96.5081,
+      "predictedIndex": 96.5081
     },
     {
       "time": "2026-07-04T12:00:00Z",
-      "actualIndex": null,
-      "predictedIndex": 98.1145
+      "actualIndex": 96.5081,
+      "predictedIndex": 96.5082
     },
     {
       "time": "2026-07-04T13:00:00Z",
-      "actualIndex": null,
-      "predictedIndex": 98.1158
+      "actualIndex": 96.5081,
+      "predictedIndex": 96.5083
     },
     {
       "time": "2026-07-04T14:00:00Z",
-      "actualIndex": null,
-      "predictedIndex": 98.1174
+      "actualIndex": 96.5081,
+      "predictedIndex": 96.5082
     },
     {
       "time": "2026-07-04T15:00:00Z",
-      "actualIndex": null,
-      "predictedIndex": 98.1188
+      "actualIndex": 96.5081,
+      "predictedIndex": 96.5085
     },
     {
       "time": "2026-07-04T16:00:00Z",
-      "actualIndex": null,
-      "predictedIndex": 98.1228
+      "actualIndex": 96.5081,
+      "predictedIndex": 96.5083
     },
     {
       "time": "2026-07-04T17:00:00Z",
-      "actualIndex": null,
-      "predictedIndex": 98.1257
+      "actualIndex": 96.5081,
+      "predictedIndex": 96.5082
     },
     {
       "time": "2026-07-04T18:00:00Z",
-      "actualIndex": null,
-      "predictedIndex": 98.1287
+      "actualIndex": 96.5081,
+      "predictedIndex": 96.5081
     },
     {
       "time": "2026-07-04T19:00:00Z",
-      "actualIndex": null,
-      "predictedIndex": 98.1282
+      "actualIndex": 96.5081,
+      "predictedIndex": 96.5081
     },
     {
       "time": "2026-07-04T20:00:00Z",
-      "actualIndex": null,
-      "predictedIndex": 98.1292
+      "actualIndex": 96.5081,
+      "predictedIndex": 96.5081
     },
     {
       "time": "2026-07-04T21:00:00Z",
-      "actualIndex": null,
-      "predictedIndex": 98.1318
+      "actualIndex": 96.5081,
+      "predictedIndex": 96.508
     },
     {
       "time": "2026-07-04T22:00:00Z",
-      "actualIndex": null,
-      "predictedIndex": 98.1337
+      "actualIndex": 96.5081,
+      "predictedIndex": 96.508
     },
     {
       "time": "2026-07-04T23:00:00Z",
-      "actualIndex": null,
-      "predictedIndex": 98.1357
+      "actualIndex": 96.5081,
+      "predictedIndex": 96.5081
     },
     {
       "time": "2026-07-05T00:00:00Z",
-      "actualIndex": null,
-      "predictedIndex": 98.139
+      "actualIndex": 96.5081,
+      "predictedIndex": 96.5082
     },
     {
       "time": "2026-07-05T01:00:00Z",
-      "actualIndex": null,
-      "predictedIndex": 98.1427
+      "actualIndex": 96.5081,
+      "predictedIndex": 96.5081
     },
     {
       "time": "2026-07-05T02:00:00Z",
-      "actualIndex": null,
-      "predictedIndex": 98.1448
+      "actualIndex": 96.5081,
+      "predictedIndex": 96.508
     },
     {
       "time": "2026-07-05T03:00:00Z",
-      "actualIndex": null,
-      "predictedIndex": 98.1456
+      "actualIndex": 96.5081,
+      "predictedIndex": 96.5083
     },
     {
       "time": "2026-07-05T04:00:00Z",
-      "actualIndex": null,
-      "predictedIndex": 98.1511
+      "actualIndex": 96.5081,
+      "predictedIndex": 96.5083
     },
     {
       "time": "2026-07-05T05:00:00Z",
-      "actualIndex": null,
-      "predictedIndex": 98.153
+      "actualIndex": 96.5081,
+      "predictedIndex": 96.5084
     },
     {
       "time": "2026-07-05T06:00:00Z",
-      "actualIndex": null,
-      "predictedIndex": 98.155
+      "actualIndex": 96.5081,
+      "predictedIndex": 96.5085
     },
     {
       "time": "2026-07-05T07:00:00Z",
+      "actualIndex": 96.5081,
+      "predictedIndex": 96.5085
+    },
+    {
+      "time": "2026-07-05T08:00:00Z",
+      "actualIndex": 96.5081,
+      "predictedIndex": 96.5083
+    },
+    {
+      "time": "2026-07-05T09:00:00Z",
+      "actualIndex": 96.5081,
+      "predictedIndex": 96.5081
+    },
+    {
+      "time": "2026-07-05T10:00:00Z",
+      "actualIndex": 96.5081,
+      "predictedIndex": 96.5078
+    },
+    {
+      "time": "2026-07-05T11:00:00Z",
+      "actualIndex": 96.5081,
+      "predictedIndex": 96.5076
+    },
+    {
+      "time": "2026-07-05T12:00:00Z",
+      "actualIndex": 96.5081,
+      "predictedIndex": 96.5076
+    },
+    {
+      "time": "2026-07-05T13:00:00Z",
+      "actualIndex": 96.5081,
+      "predictedIndex": 96.5074
+    },
+    {
+      "time": "2026-07-05T14:00:00Z",
+      "actualIndex": 96.5081,
+      "predictedIndex": 96.5074
+    },
+    {
+      "time": "2026-07-05T15:00:00Z",
+      "actualIndex": 96.5081,
+      "predictedIndex": 96.5074
+    },
+    {
+      "time": "2026-07-05T16:00:00Z",
+      "actualIndex": 96.5081,
+      "predictedIndex": 96.5074
+    },
+    {
+      "time": "2026-07-05T17:00:00Z",
+      "actualIndex": 96.5081,
+      "predictedIndex": 96.5074
+    },
+    {
+      "time": "2026-07-05T18:00:00Z",
+      "actualIndex": 96.5081,
+      "predictedIndex": 96.5074
+    },
+    {
+      "time": "2026-07-05T19:00:00Z",
+      "actualIndex": 96.5081,
+      "predictedIndex": 96.5074
+    },
+    {
+      "time": "2026-07-05T20:00:00Z",
+      "actualIndex": 96.5081,
+      "predictedIndex": 96.5074
+    },
+    {
+      "time": "2026-07-05T21:00:00Z",
+      "actualIndex": 96.5081,
+      "predictedIndex": 96.5074
+    },
+    {
+      "time": "2026-07-05T22:00:00Z",
+      "actualIndex": 96.5081,
+      "predictedIndex": 96.5074
+    },
+    {
+      "time": "2026-07-05T23:00:00Z",
+      "actualIndex": 96.5081,
+      "predictedIndex": 96.5074
+    },
+    {
+      "time": "2026-07-06T00:00:00Z",
+      "actualIndex": 96.5081,
+      "predictedIndex": 96.5074
+    },
+    {
+      "time": "2026-07-06T01:00:00Z",
+      "actualIndex": 96.5081,
+      "predictedIndex": 96.5074
+    },
+    {
+      "time": "2026-07-06T02:00:00Z",
+      "actualIndex": 96.5081,
+      "predictedIndex": 96.5074
+    },
+    {
+      "time": "2026-07-06T03:00:00Z",
+      "actualIndex": 96.5081,
+      "predictedIndex": 96.5074
+    },
+    {
+      "time": "2026-07-06T04:00:00Z",
+      "actualIndex": 96.5081,
+      "predictedIndex": 96.5073
+    },
+    {
+      "time": "2026-07-06T05:00:00Z",
+      "actualIndex": 96.5081,
+      "predictedIndex": 96.5073
+    },
+    {
+      "time": "2026-07-06T06:00:00Z",
+      "actualIndex": 96.5081,
+      "predictedIndex": 96.5073
+    },
+    {
+      "time": "2026-07-06T07:00:00Z",
+      "actualIndex": 96.5081,
+      "predictedIndex": 96.5073
+    },
+    {
+      "time": "2026-07-06T08:00:00Z",
+      "actualIndex": 96.5081,
+      "predictedIndex": 96.5072
+    },
+    {
+      "time": "2026-07-06T09:00:00Z",
+      "actualIndex": 96.5081,
+      "predictedIndex": 96.5072
+    },
+    {
+      "time": "2026-07-06T10:00:00Z",
+      "actualIndex": 96.5081,
+      "predictedIndex": 96.5072
+    },
+    {
+      "time": "2026-07-06T11:00:00Z",
+      "actualIndex": 96.5081,
+      "predictedIndex": 96.5071
+    },
+    {
+      "time": "2026-07-06T12:00:00Z",
+      "actualIndex": 96.5081,
+      "predictedIndex": 96.5071
+    },
+    {
+      "time": "2026-07-06T13:00:00Z",
+      "actualIndex": 96.5081,
+      "predictedIndex": 96.5071
+    },
+    {
+      "time": "2026-07-06T14:00:00Z",
+      "actualIndex": 96.5081,
+      "predictedIndex": 96.5071
+    },
+    {
+      "time": "2026-07-06T15:00:00Z",
+      "actualIndex": 96.5081,
+      "predictedIndex": 96.5071
+    },
+    {
+      "time": "2026-07-06T16:00:00Z",
+      "actualIndex": 96.5081,
+      "predictedIndex": 96.5071
+    },
+    {
+      "time": "2026-07-06T17:00:00Z",
+      "actualIndex": 98.6594,
+      "predictedIndex": 96.5071
+    },
+    {
+      "time": "2026-07-06T18:00:00Z",
+      "actualIndex": 98.9737,
+      "predictedIndex": 98.6584
+    },
+    {
+      "time": "2026-07-06T19:00:00Z",
+      "actualIndex": 98.9318,
+      "predictedIndex": 98.9727
+    },
+    {
+      "time": "2026-07-06T20:00:00Z",
+      "actualIndex": 98.8011,
+      "predictedIndex": 98.9309
+    },
+    {
+      "time": "2026-07-06T21:00:00Z",
+      "actualIndex": 98.8011,
+      "predictedIndex": 98.8002
+    },
+    {
+      "time": "2026-07-06T22:00:00Z",
+      "actualIndex": 99.0301,
+      "predictedIndex": 98.8002
+    },
+    {
+      "time": "2026-07-06T23:00:00Z",
+      "actualIndex": 99.0301,
+      "predictedIndex": 99.0292
+    },
+    {
+      "time": "2026-07-07T00:00:00Z",
+      "actualIndex": 99.0301,
+      "predictedIndex": 99.0292
+    },
+    {
+      "time": "2026-07-07T01:00:00Z",
+      "actualIndex": 99.0301,
+      "predictedIndex": 99.0292
+    },
+    {
+      "time": "2026-07-07T02:00:00Z",
+      "actualIndex": 99.0301,
+      "predictedIndex": 99.0292
+    },
+    {
+      "time": "2026-07-07T03:00:00Z",
+      "actualIndex": 99.0301,
+      "predictedIndex": 99.0292
+    },
+    {
+      "time": "2026-07-07T04:00:00Z",
       "actualIndex": null,
-      "predictedIndex": 98.1585
+      "predictedIndex": 99.0292
+    },
+    {
+      "time": "2026-07-07T05:00:00Z",
+      "actualIndex": null,
+      "predictedIndex": 99.028
+    },
+    {
+      "time": "2026-07-07T06:00:00Z",
+      "actualIndex": null,
+      "predictedIndex": 99.0267
+    },
+    {
+      "time": "2026-07-07T07:00:00Z",
+      "actualIndex": null,
+      "predictedIndex": 99.0249
+    },
+    {
+      "time": "2026-07-07T08:00:00Z",
+      "actualIndex": null,
+      "predictedIndex": 99.0236
+    },
+    {
+      "time": "2026-07-07T09:00:00Z",
+      "actualIndex": null,
+      "predictedIndex": 99.0217
+    },
+    {
+      "time": "2026-07-07T10:00:00Z",
+      "actualIndex": null,
+      "predictedIndex": 99.0207
+    },
+    {
+      "time": "2026-07-07T11:00:00Z",
+      "actualIndex": null,
+      "predictedIndex": 99.0183
+    },
+    {
+      "time": "2026-07-07T12:00:00Z",
+      "actualIndex": null,
+      "predictedIndex": 99.017
+    },
+    {
+      "time": "2026-07-07T13:00:00Z",
+      "actualIndex": null,
+      "predictedIndex": 99.0156
+    },
+    {
+      "time": "2026-07-07T14:00:00Z",
+      "actualIndex": null,
+      "predictedIndex": 99.0139
+    },
+    {
+      "time": "2026-07-07T15:00:00Z",
+      "actualIndex": null,
+      "predictedIndex": 99.0124
+    },
+    {
+      "time": "2026-07-07T16:00:00Z",
+      "actualIndex": null,
+      "predictedIndex": 99.0112
+    },
+    {
+      "time": "2026-07-07T17:00:00Z",
+      "actualIndex": null,
+      "predictedIndex": 99.0092
+    },
+    {
+      "time": "2026-07-07T18:00:00Z",
+      "actualIndex": null,
+      "predictedIndex": 99.0073
+    },
+    {
+      "time": "2026-07-07T19:00:00Z",
+      "actualIndex": null,
+      "predictedIndex": 99.0059
+    },
+    {
+      "time": "2026-07-07T20:00:00Z",
+      "actualIndex": null,
+      "predictedIndex": 99.0042
+    },
+    {
+      "time": "2026-07-07T21:00:00Z",
+      "actualIndex": null,
+      "predictedIndex": 99.0028
+    },
+    {
+      "time": "2026-07-07T22:00:00Z",
+      "actualIndex": null,
+      "predictedIndex": 99.0013
+    },
+    {
+      "time": "2026-07-07T23:00:00Z",
+      "actualIndex": null,
+      "predictedIndex": 98.9998
+    },
+    {
+      "time": "2026-07-08T00:00:00Z",
+      "actualIndex": null,
+      "predictedIndex": 98.9979
+    },
+    {
+      "time": "2026-07-08T01:00:00Z",
+      "actualIndex": null,
+      "predictedIndex": 98.9962
+    },
+    {
+      "time": "2026-07-08T02:00:00Z",
+      "actualIndex": null,
+      "predictedIndex": 98.995
+    },
+    {
+      "time": "2026-07-08T03:00:00Z",
+      "actualIndex": null,
+      "predictedIndex": 98.9937
     }
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 1.0352731267859476,
+    "changePercent24h": 0.9439731267859475,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "Figure Heloc is expected to experience a flat 24-hour period with a possible minor increase of 0.1%, based on technical signals with 87% confidence. The current oversold RSI-14 reading of 9 and mid-band Bollinger Band %B of 0.25 suggest a potential rebound. However, the downtrend in the short-term trend and low volume ratio indicate caution.",
-    "ja": "Figure Heloc は24時間でフラットの状態にあり、0.1%の小さな増加が予想される。87%の信頼性を持って技術的なシグナルに基づくと、RSI-14の9のオーバーサールドとボリンジャー・バンドの% B 0.25のミッドバンドは、反発の可能性を示唆している。短期のトレンドと低いボリューム・レシオは、注意を要することを示唆している。",
+    "en": "Figure Heloc's 24-hour direction is predicted to be flat with a 0.0% change, indicating a possible consolidation phase. The overbought RSI-14 reading of 92 and mid-band Bollinger Band %B of 0.74 suggest a potential correction. The low volume ratio and recent market context of fear and a declining total crypto market cap also support this prediction.",
+    "ja": "Figure Helocの24時間の方向は、0.0％の変化で予測されており、可能なのはconsolidation phaseです。 RSI-14のオーバーボール値は92、Bollinger Band %Bのmid-band値は0.74と推測される可能性があります。 低いボリュームレシオと最近のマーケットコンテキストの恐怖と総暗号資産マーケットキャップの減少もこの予測を裏付けています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
-        "value": "24 — Extreme Fear",
+        "value": "27 — Fear",
         "url": "https://alternative.me/crypto/fear-and-greed-index/"
       },
       {
         "label": "RSI-14",
-        "value": "9.3 (oversold)",
+        "value": "92.4 (overbought)",
         "url": "https://www.coingecko.com/en/coins/figure-heloc"
       },
       {
         "label": "Bollinger Band %B",
-        "value": "0.25 (mid range)",
+        "value": "0.74 (mid range)",
         "url": null
       },
       {
@@ -995,33 +995,33 @@
       },
       {
         "label": "BTC 24 h return",
-        "value": "+1.28%",
+        "value": "-0.13%",
         "url": "https://www.coingecko.com/en/coins/bitcoin"
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-1.14%",
+        "value": "-0.16%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "67% bullish",
+        "value": "0% bullish",
         "url": "https://www.coingecko.com/en/coins/figure-heloc"
       },
       {
         "label": "CoinTelegraph",
-        "value": "Here’s what happened in crypto today",
-        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        "value": "US Bitcoin reserve hits snag as federal agencies debate for control: Bloomberg",
+        "url": "https://cointelegraph.com/news/trumps-bitcoin-reserve-stalled-by-interagency-dispute-over-control-bloomberg?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       },
       {
         "label": "CoinTelegraph",
-        "value": "FCA warns of major shakeup as AI agents meet tokenized money",
-        "url": "https://cointelegraph.com/news/fca-warns-of-major-shakeup-as-ai-agents-meet-tokenized-money?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        "value": "Bitcoin bulls shake off Strategy's $216M BTC sale as price overtakes $64K",
+        "url": "https://cointelegraph.com/markets/bitcoin-bulls-shake-off-strategys-216m-btc-sale-as-price-overtakes-64k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       },
       {
         "label": "CoinTelegraph",
-        "value": "Crypto hacks fell 47% in H1 but ecosystem is no safer: CertiK",
-        "url": "https://cointelegraph.com/news/crypto-hacks-fell-47-percent-in-h1-but-ecosystem-is-no-safer-certik?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        "value": "Strategy sells $216M Bitcoin, Bollinger bullish on BTC: Hodler's Digest, June 29-July 6, 2026",
+        "url": "https://cointelegraph.com/features/bollinger-is-bullish-on-bitcoin-trumps-ludicrous-crypto-profits-hodlers-digest?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       }
     ]
   }
