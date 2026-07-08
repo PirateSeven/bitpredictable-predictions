@@ -129,7 +129,7 @@ def apply_bias(results: List[Dict], bias: Dict[str, float]) -> None:
         if abs(b) < 0.01:
             continue
         old = r["signal"]["changePercent24h"]
-        new_pct = old + b
+        new_pct = round(old + b, 4)
         r["signal"]["changePercent24h"] = new_pct
 
         # Recalculate confidence using the pre-stored quantile spread
