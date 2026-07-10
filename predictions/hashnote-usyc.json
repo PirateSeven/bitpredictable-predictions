@@ -1,6 +1,6 @@
 {
   "coinId": "hashnote-usyc",
-  "generatedAt": "2026-07-09T21:00:06.275754Z",
+  "generatedAt": "2026-07-10T03:00:07.901007Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -970,12 +970,12 @@
     "confidence": 0.95
   },
   "commentary": {
-    "en": "Circle USYC (HASHNOTE-USYC) is expected to remain flat in the next 24 hours with a 95% confidence level, despite being oversold according to the RSI-14 indicator. The recent news on the crypto market, including the expansion of US mining hardware production and the CFTC's potential rule modernization, may have a limited impact on HASHNOTE-USYC's price movement. The overall market sentiment remains in extreme fear.",
-    "ja": "Circle USYC (HASHNOTE-USYC) は、次の24時間に95％の確率でフラットに推移することが予想されます。RSI-14指標によると、オーバーサールドであるにもかかわらず、価格動向に影響を与える可能性のある最近のニュースには、米国でハードウェア生産を拡大するなど、暗号市場の拡大やCFTCの規制の近代化などが含まれます。総合的な市場感情は、極度の恐怖の状態です。",
+    "en": "Circle USYC (HASHNOTE-USYC) is predicted to be flat with a 95% confidence level, as it's oversold with an RSI-14 of 18 and has a low volume ratio of 0.0x average. The Fear & Greed Index is at 23, indicating extreme fear in the market, which may be a buying opportunity. However, the recent news on DeFi outperformance and SEC/CFTC vacancies may impact the market.",
+    "ja": "Circle USYC (HASHNOTE-USYC) は、95% の確実性で、flat と予測されます。RSI-14 は 18 で、低いボリュームレシオ 0.0x average を示しています。Fear & Greed Index は 23 で、極度の恐怖を示しており、これが買い機の機会となるかもしれません。ただし、DeFi の出演度と SEC/CFTC の空席が市場に影響を与える可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
-        "value": "22 — Extreme Fear",
+        "value": "23 — Extreme Fear",
         "url": "https://alternative.me/crypto/fear-and-greed-index/"
       },
       {
@@ -1000,23 +1000,23 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+1.30%",
+        "value": "+2.68%",
         "url": "https://www.coingecko.com/en/global-charts"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "DeFi may be ‘quietly re-rating’ given outperformance against Bitcoin: Bitwise",
+        "url": "https://cointelegraph.com/news/defi-quietly-re-rating-holds-up-unusually-well-in-downturn-bitwise?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Coinbase chief legal officer to transition to advisory role on July 31",
+        "url": "https://cointelegraph.com/news/coinbase-chief-legal-officer-stepping-down?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       },
       {
         "label": "CoinTelegraph",
         "value": "Bitdeer stock jumps 14% as company expands US mining hardware production",
         "url": "https://cointelegraph.com/news/bitdeer-stock-jumps-14-bitcoin-mining-hardware-maker-expands-us-manufacturing?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Here’s what happened in crypto today",
-        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "White House says it received no Democratic response related to SEC, CFTC vacancies",
-        "url": "https://cointelegraph.com/news/white-house-request-cftc-sec-nominations-democrats?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       }
     ]
   }
