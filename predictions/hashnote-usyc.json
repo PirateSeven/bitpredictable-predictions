@@ -1,6 +1,6 @@
 {
   "coinId": "hashnote-usyc",
-  "generatedAt": "2026-07-12T09:00:07.007919Z",
+  "generatedAt": "2026-07-12T15:00:07.040177Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 0.0569,
+    "changePercent24h": 0.074,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "Circle USYC (HASHNOTE-USYC) is expected to remain flat with a 0.1% decline over the next 24 hours due to neutral RSI-14 and mid-band Bollinger Band %B. The low volume ratio and sideways short-term trend also support this prediction. The overall market context remains bearish with the Fear & Greed Index at 26.",
-    "ja": "Circle USYC (HASHNOTE-USYC) は、RSI-14 が中立的で、ボリンジャー バンド %B が中間帯にあることなどから、来る24時間で0.1%の下落が予想される。低いボリューム率と短期のトレンドもこの予想を裏付ける。Fear & Greed Indexが26の状況では、総市場の状況は恐怖の状態である。",
+    "en": "Circle USYC (HASHNOTE-USYC) is expected to remain flat with a 0.1% decline in the next 24 hours, based on technical signals. The Fear & Greed Index is at 26, indicating a fearful market sentiment. The recent news about crypto regulations and energy intensity may have a mixed impact on the market.",
+    "ja": "Circle USYC (HASHNOTE-USYC) は、技術的シグナルに基づいて、来る24時間で0.1%の下落が予想されます。恐怖と欲求不満指数は26、恐怖の市場感情を示しています。最近のニュースでは、暗号資産の規制とエネルギー効率についてのニュースが市場に混乱をもたらしているようです。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,28 +1000,23 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-0.37%",
+        "value": "-0.22%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
-        "label": "CoinGecko Community Sentiment",
-        "value": "0% bullish",
-        "url": "https://www.coingecko.com/en/coins/hashnote-usyc"
+        "label": "CoinTelegraph",
+        "value": "Pakistan crypto chief seeks dialogue after scholar rules against crypto payments",
+        "url": "https://cointelegraph.com/news/pakistan-crypto-chief-dialogue-islamic-ruling?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Cambridge study puts Ethereum near the lower end of PoS energy intensity",
+        "url": "https://cointelegraph.com/news/ethereum-pos-energy-intensity-cambridge-study?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       },
       {
         "label": "CoinTelegraph",
         "value": "Here’s what happened in crypto today",
         "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Bitcoin bulls Michael Saylor, Adam Back slam BIP-110 Ordinals proposal",
-        "url": "https://cointelegraph.com/news/bitcoin-leaders-michael-saylor-and-adam-back-rebuff-bip-110-proposal?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Empery Digital shares rise after selling Bitcoin to fund AI data center project",
-        "url": "https://cointelegraph.com/news/empery-digital-shares-rise-after-selling-bitcoin-treasury-to-fund-ai-data-center-project?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       }
     ]
   }
