@@ -1,6 +1,6 @@
 {
   "coinId": "figure-heloc",
-  "generatedAt": "2026-07-12T15:00:07.040177Z",
+  "generatedAt": "2026-07-12T21:00:06.829507Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 0.4976,
+    "changePercent24h": 0.3479,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "Figure Heloc's 24-hour direction is predicted to be flat with a -0.1% change, indicating a potential consolidation phase. The overbought RSI-14 reading of 91 suggests a need for correction, while the mid-band Bollinger Band %B of 0.76 indicates a neutral trend. The low volume ratio and sideways short-term trend further support this consolidation prediction.",
-    "ja": "Figure Heloc の 24 時間の方向は、-0.1% の変化で予測され、潜在的な収縮期を示唆しています。オーバーボールド RSI-14 の読み 91 は、調整が必要であることを示しており、0.76 の中間バンド Bollinger Band %B は中立的なトレンドを示しています。低いボリューム比率と短期のトレンドはこの収縮予測をさらに裏付けます。",
+    "en": "Figure Heloc is expected to be flat with a slight decline of -0.1% in the next 24 hours, based on 95% confidence. The overbought RSI-14 reading of 91 and low volume ratio suggest a potential correction. The sideways short-term trend and mid-band Bollinger Band %B reading of 0.76 also support this prediction.",
+    "ja": "Figure Heloc は、次の24時間に95％の確率で-0.1％の減少を予想しています。オーバーボールドのRSI-14読み値は91、そして低いボリュームレシオは、価格の調整を示唆しています。短期の傾向は横ばい、ボリンジャーバンドの%バンド読み値は0.76です。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,13 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-0.22%",
+        "value": "-0.25%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
-        "label": "CoinGecko Community Sentiment",
-        "value": "20% bullish",
-        "url": "https://www.coingecko.com/en/coins/figure-heloc"
+        "label": "CoinTelegraph",
+        "value": "Strategy's Saylor needs clarity in BTC pivot message to convince investors: StanChart",
+        "url": "https://cointelegraph.com/news/strategys-saylor-needs-clarity-in-btc-pivot-message-to-convince-investors-stanchart?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1017,6 @@
         "label": "CoinTelegraph",
         "value": "Cambridge study puts Ethereum near the lower end of PoS energy intensity",
         "url": "https://cointelegraph.com/news/ethereum-pos-energy-intensity-cambridge-study?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Here’s what happened in crypto today",
-        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       }
     ]
   }

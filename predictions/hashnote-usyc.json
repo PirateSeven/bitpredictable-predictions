@@ -1,6 +1,6 @@
 {
   "coinId": "hashnote-usyc",
-  "generatedAt": "2026-07-12T15:00:07.040177Z",
+  "generatedAt": "2026-07-12T21:00:06.829507Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 0.074,
+    "changePercent24h": 0.0553,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "Circle USYC (HASHNOTE-USYC) is expected to remain flat with a 0.1% decline in the next 24 hours, based on technical signals. The Fear & Greed Index is at 26, indicating a fearful market sentiment. The recent news about crypto regulations and energy intensity may have a mixed impact on the market.",
-    "ja": "Circle USYC (HASHNOTE-USYC) は、技術的シグナルに基づいて、来る24時間で0.1%の下落が予想されます。恐怖と欲求不満指数は26、恐怖の市場感情を示しています。最近のニュースでは、暗号資産の規制とエネルギー効率についてのニュースが市場に混乱をもたらしているようです。",
+    "en": "Circle USYC's flat direction prediction is based on neutral RSI-14 and mid-band Bollinger Band %B, but low volume ratio may indicate a lack of market participation. The overall crypto market remains in a fear state, with a 0.25% decline in total market cap. Bitcoin's positive return may provide some support, but the short-term trend remains sideways.",
+    "ja": "Circle USYCの予想24時間方向は、RSI-14とボリンジャー・バンドのパーセンテージが中間値に近いことから、フラットに予想されるが、低いボリュームの割合は市場の参加が不足している可能性がある。総市場は恐怖の状態にあり、総市場キャップは0.25%減少している。ビットコインのプラスのリターンはある程度のサポートを与えるかもしれないが、短期のトレンドは横方向に推移している。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,8 +1000,13 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-0.22%",
+        "value": "-0.25%",
         "url": "https://www.coingecko.com/en/global-charts"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Strategy's Saylor needs clarity in BTC pivot message to convince investors: StanChart",
+        "url": "https://cointelegraph.com/news/strategys-saylor-needs-clarity-in-btc-pivot-message-to-convince-investors-stanchart?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       },
       {
         "label": "CoinTelegraph",
@@ -1012,11 +1017,6 @@
         "label": "CoinTelegraph",
         "value": "Cambridge study puts Ethereum near the lower end of PoS energy intensity",
         "url": "https://cointelegraph.com/news/ethereum-pos-energy-intensity-cambridge-study?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Here’s what happened in crypto today",
-        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       }
     ]
   }
