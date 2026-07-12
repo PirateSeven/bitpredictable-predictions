@@ -1,67 +1,42 @@
 {
   "coinId": "figure-heloc",
-  "generatedAt": "2026-07-12T03:00:07.195866Z",
+  "generatedAt": "2026-07-12T09:00:07.007919Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
-      "time": "2026-07-05T04:00:00Z",
+      "time": "2026-07-05T09:00:00Z",
       "actualIndex": 100.0,
       "predictedIndex": 100.0
     },
     {
-      "time": "2026-07-05T05:00:00Z",
+      "time": "2026-07-05T10:00:00Z",
       "actualIndex": 100.0,
       "predictedIndex": 99.9979
     },
     {
-      "time": "2026-07-05T06:00:00Z",
-      "actualIndex": 100.0,
-      "predictedIndex": 99.998
-    },
-    {
-      "time": "2026-07-05T07:00:00Z",
-      "actualIndex": 100.0,
-      "predictedIndex": 99.9981
-    },
-    {
-      "time": "2026-07-05T08:00:00Z",
-      "actualIndex": 100.0,
-      "predictedIndex": 99.9981
-    },
-    {
-      "time": "2026-07-05T09:00:00Z",
-      "actualIndex": 100.0,
-      "predictedIndex": 99.998
-    },
-    {
-      "time": "2026-07-05T10:00:00Z",
-      "actualIndex": 100.0,
-      "predictedIndex": 99.998
-    },
-    {
       "time": "2026-07-05T11:00:00Z",
       "actualIndex": 100.0,
-      "predictedIndex": 99.998
+      "predictedIndex": 99.9979
     },
     {
       "time": "2026-07-05T12:00:00Z",
       "actualIndex": 100.0,
-      "predictedIndex": 99.998
+      "predictedIndex": 99.9979
     },
     {
       "time": "2026-07-05T13:00:00Z",
       "actualIndex": 100.0,
-      "predictedIndex": 99.998
+      "predictedIndex": 99.9979
     },
     {
       "time": "2026-07-05T14:00:00Z",
       "actualIndex": 100.0,
-      "predictedIndex": 99.998
+      "predictedIndex": 99.9979
     },
     {
       "time": "2026-07-05T15:00:00Z",
       "actualIndex": 100.0,
-      "predictedIndex": 99.998
+      "predictedIndex": 99.9979
     },
     {
       "time": "2026-07-05T16:00:00Z",
@@ -141,7 +116,7 @@
     {
       "time": "2026-07-06T07:00:00Z",
       "actualIndex": 100.0,
-      "predictedIndex": 99.998
+      "predictedIndex": 99.9979
     },
     {
       "time": "2026-07-06T08:00:00Z",
@@ -206,7 +181,7 @@
     {
       "time": "2026-07-06T20:00:00Z",
       "actualIndex": 102.3761,
-      "predictedIndex": 102.5099
+      "predictedIndex": 102.51
     },
     {
       "time": "2026-07-06T21:00:00Z",
@@ -816,7 +791,7 @@
     {
       "time": "2026-07-11T22:00:00Z",
       "actualIndex": 102.3838,
-      "predictedIndex": 102.3818
+      "predictedIndex": 102.3817
     },
     {
       "time": "2026-07-11T23:00:00Z",
@@ -841,137 +816,162 @@
     {
       "time": "2026-07-12T03:00:00Z",
       "actualIndex": 103.1656,
-      "predictedIndex": 103.1635
+      "predictedIndex": 103.1634
     },
     {
       "time": "2026-07-12T04:00:00Z",
-      "actualIndex": null,
+      "actualIndex": 103.1656,
       "predictedIndex": 103.1634
     },
     {
       "time": "2026-07-12T05:00:00Z",
-      "actualIndex": null,
-      "predictedIndex": 103.1618
+      "actualIndex": 103.1656,
+      "predictedIndex": 103.1634
     },
     {
       "time": "2026-07-12T06:00:00Z",
-      "actualIndex": null,
-      "predictedIndex": 103.1597
+      "actualIndex": 103.1656,
+      "predictedIndex": 103.1634
     },
     {
       "time": "2026-07-12T07:00:00Z",
-      "actualIndex": null,
-      "predictedIndex": 103.1577
+      "actualIndex": 103.1656,
+      "predictedIndex": 103.1634
     },
     {
       "time": "2026-07-12T08:00:00Z",
-      "actualIndex": null,
-      "predictedIndex": 103.1564
+      "actualIndex": 103.1656,
+      "predictedIndex": 103.1634
     },
     {
       "time": "2026-07-12T09:00:00Z",
       "actualIndex": null,
-      "predictedIndex": 103.1526
+      "predictedIndex": 103.1634
     },
     {
       "time": "2026-07-12T10:00:00Z",
       "actualIndex": null,
-      "predictedIndex": 103.1489
+      "predictedIndex": 103.1616
     },
     {
       "time": "2026-07-12T11:00:00Z",
       "actualIndex": null,
-      "predictedIndex": 103.1458
+      "predictedIndex": 103.1594
     },
     {
       "time": "2026-07-12T12:00:00Z",
       "actualIndex": null,
-      "predictedIndex": 103.1429
+      "predictedIndex": 103.1574
     },
     {
       "time": "2026-07-12T13:00:00Z",
       "actualIndex": null,
-      "predictedIndex": 103.1408
+      "predictedIndex": 103.1561
     },
     {
       "time": "2026-07-12T14:00:00Z",
       "actualIndex": null,
-      "predictedIndex": 103.1399
+      "predictedIndex": 103.1521
     },
     {
       "time": "2026-07-12T15:00:00Z",
       "actualIndex": null,
-      "predictedIndex": 103.1372
+      "predictedIndex": 103.1484
     },
     {
       "time": "2026-07-12T16:00:00Z",
       "actualIndex": null,
-      "predictedIndex": 103.1339
+      "predictedIndex": 103.1453
     },
     {
       "time": "2026-07-12T17:00:00Z",
       "actualIndex": null,
-      "predictedIndex": 103.1327
+      "predictedIndex": 103.1424
     },
     {
       "time": "2026-07-12T18:00:00Z",
       "actualIndex": null,
-      "predictedIndex": 103.1309
+      "predictedIndex": 103.1402
     },
     {
       "time": "2026-07-12T19:00:00Z",
       "actualIndex": null,
-      "predictedIndex": 103.1291
+      "predictedIndex": 103.1394
     },
     {
       "time": "2026-07-12T20:00:00Z",
       "actualIndex": null,
-      "predictedIndex": 103.1276
+      "predictedIndex": 103.1367
     },
     {
       "time": "2026-07-12T21:00:00Z",
       "actualIndex": null,
-      "predictedIndex": 103.1269
+      "predictedIndex": 103.1334
     },
     {
       "time": "2026-07-12T22:00:00Z",
       "actualIndex": null,
-      "predictedIndex": 103.1236
+      "predictedIndex": 103.1322
     },
     {
       "time": "2026-07-12T23:00:00Z",
       "actualIndex": null,
-      "predictedIndex": 103.1223
+      "predictedIndex": 103.1303
     },
     {
       "time": "2026-07-13T00:00:00Z",
       "actualIndex": null,
-      "predictedIndex": 103.12
+      "predictedIndex": 103.1285
     },
     {
       "time": "2026-07-13T01:00:00Z",
       "actualIndex": null,
-      "predictedIndex": 103.1191
+      "predictedIndex": 103.127
     },
     {
       "time": "2026-07-13T02:00:00Z",
       "actualIndex": null,
-      "predictedIndex": 103.1162
+      "predictedIndex": 103.1263
     },
     {
       "time": "2026-07-13T03:00:00Z",
       "actualIndex": null,
-      "predictedIndex": 103.1132
+      "predictedIndex": 103.123
+    },
+    {
+      "time": "2026-07-13T04:00:00Z",
+      "actualIndex": null,
+      "predictedIndex": 103.1215
+    },
+    {
+      "time": "2026-07-13T05:00:00Z",
+      "actualIndex": null,
+      "predictedIndex": 103.1192
+    },
+    {
+      "time": "2026-07-13T06:00:00Z",
+      "actualIndex": null,
+      "predictedIndex": 103.1184
+    },
+    {
+      "time": "2026-07-13T07:00:00Z",
+      "actualIndex": null,
+      "predictedIndex": 103.1154
+    },
+    {
+      "time": "2026-07-13T08:00:00Z",
+      "actualIndex": null,
+      "predictedIndex": 103.1124
     }
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 0.1707,
+    "changePercent24h": 0.3623,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "Figure Heloc (FIGURE-HELOC) is expected to experience a 24-hour flat direction with a 0.1% decrease in confidence. The overbought RSI-14 reading and high Bollinger Band %B value suggest a potential correction. However, the sideways short-term trend and low volume ratio indicate a lack of conviction in the market.",
-    "ja": "Figure Heloc (FIGURE-HELOC) は24時間で0.1%の下落が予想され、信頼性は95%に低下します。オーバーボールドのRSI-14と高いボリンジャーブンド％Bの値は、価格の調整を示唆していますが、短期的な傾向は横方向にあり、ボリューム比率も低いことから、市場には意見の相違があります。",
+    "en": "Figure Heloc is expected to remain flat with a slight decline of -0.1% in the next 24 hours, given its overbought RSI-14 reading and low volume ratio. The sideways short-term trend and mid-band Bollinger Band %B suggest a consolidation phase. The overall market context, with a Fear & Greed Index at 26 and a negative total crypto market cap 24h change, supports this prediction.",
+    "ja": "Figure Heloc は、オーバーボールド RSI-14 の値と低いボリュームレシオのため、次の 24 時間で -0.1% の小さな下落が予想されます。短期の横方向のトレンドと中間のボリンジャー バンド %B は、コンソリデーション フェーズを示しています。総コインマーケットキャップ 24 時間の変化がマイナスと、恐怖と欲求不満指数が 26 の状況は、この予測を裏付けています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -985,7 +985,7 @@
       },
       {
         "label": "Bollinger Band %B",
-        "value": "0.97 (near upper)",
+        "value": "0.76 (mid range)",
         "url": null
       },
       {
@@ -995,33 +995,33 @@
       },
       {
         "label": "BTC 24 h return",
-        "value": "-0.09%",
+        "value": "-0.41%",
         "url": "https://www.coingecko.com/en/coins/bitcoin"
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-0.12%",
+        "value": "-0.37%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "17% bullish",
+        "value": "20% bullish",
         "url": "https://www.coingecko.com/en/coins/figure-heloc"
       },
       {
         "label": "CoinTelegraph",
-        "value": "Empery Digital shares rise after selling Bitcoin treasury to fund AI data center project",
+        "value": "Here’s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitcoin bulls Michael Saylor, Adam Back slam BIP-110 Ordinals proposal",
+        "url": "https://cointelegraph.com/news/bitcoin-leaders-michael-saylor-and-adam-back-rebuff-bip-110-proposal?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Empery Digital shares rise after selling Bitcoin to fund AI data center project",
         "url": "https://cointelegraph.com/news/empery-digital-shares-rise-after-selling-bitcoin-treasury-to-fund-ai-data-center-project?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Bitcoin nearing late stages of bear market: Jamie Coutts, Real Vision",
-        "url": "https://cointelegraph.com/features/bitcoin-is-approaching-the-second-half-of-the-bear-market-jamie-coutts?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Ethereum climbs 3% on tokenization boom: Can bulls push ETH price past $1,800?",
-        "url": "https://cointelegraph.com/markets/ethereum-climbs-3-on-tokenization-boom-can-bulls-push-eth-price-past-1800?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       }
     ]
   }

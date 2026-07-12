@@ -1,6 +1,6 @@
 {
   "coinId": "hashnote-usyc",
-  "generatedAt": "2026-07-12T03:00:07.195866Z",
+  "generatedAt": "2026-07-12T09:00:07.007919Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.0342,
+    "changePercent24h": 0.0569,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "Circle USYC's predicted 24-hour direction is flat with a 0.1% decrease in confidence. The RSI-14 and Bollinger Band %B indicators suggest a neutral market stance, while the low volume ratio and sideways short-term trend support this view. The Fear & Greed Index remains in fear territory, and the recent news does not indicate significant market-moving events for Circle USYC.",
-    "ja": "Circle USYCの24時間予想は、0.1%の減少率でフラットです。RSI-14とボリンジャー・バンド %Bの指標は中立的な市場スタンスを示し、低いボリューム比率と短期の横方向のトレンドはこれを裏付けます。恐怖と欲求不満指数は恐怖の領域にあり、Circle USYCに関する最近のニュースは市場を動かすような大きなイベントを示していません。",
+    "en": "Circle USYC (HASHNOTE-USYC) is expected to remain flat with a 0.1% decline over the next 24 hours due to neutral RSI-14 and mid-band Bollinger Band %B. The low volume ratio and sideways short-term trend also support this prediction. The overall market context remains bearish with the Fear & Greed Index at 26.",
+    "ja": "Circle USYC (HASHNOTE-USYC) は、RSI-14 が中立的で、ボリンジャー バンド %B が中間帯にあることなどから、来る24時間で0.1%の下落が予想される。低いボリューム率と短期のトレンドもこの予想を裏付ける。Fear & Greed Indexが26の状況では、総市場の状況は恐怖の状態である。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-0.12%",
+        "value": "-0.37%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
@@ -1010,18 +1010,18 @@
       },
       {
         "label": "CoinTelegraph",
-        "value": "Empery Digital shares rise after selling Bitcoin treasury to fund AI data center project",
+        "value": "Here’s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bitcoin bulls Michael Saylor, Adam Back slam BIP-110 Ordinals proposal",
+        "url": "https://cointelegraph.com/news/bitcoin-leaders-michael-saylor-and-adam-back-rebuff-bip-110-proposal?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Empery Digital shares rise after selling Bitcoin to fund AI data center project",
         "url": "https://cointelegraph.com/news/empery-digital-shares-rise-after-selling-bitcoin-treasury-to-fund-ai-data-center-project?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Bitcoin nearing late stages of bear market: Jamie Coutts, Real Vision",
-        "url": "https://cointelegraph.com/features/bitcoin-is-approaching-the-second-half-of-the-bear-market-jamie-coutts?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Ethereum climbs 3% on tokenization boom: Can bulls push ETH price past $1,800?",
-        "url": "https://cointelegraph.com/markets/ethereum-climbs-3-on-tokenization-boom-can-bulls-push-eth-price-past-1800?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       }
     ]
   }
