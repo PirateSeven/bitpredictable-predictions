@@ -1,6 +1,6 @@
 {
   "coinId": "figure-heloc",
-  "generatedAt": "2026-07-13T03:00:06.878079Z",
+  "generatedAt": "2026-07-13T09:00:06.751853Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 0.2745,
+    "changePercent24h": -0.1183,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "Figure Heloc is expected to experience a flat 24-hour direction with a 0.1% decrease in confidence. The overbought RSI-14 reading of 91 and low volume ratio suggest a potential correction. The sideways short-term trend and mid-band Bollinger Band %B reading of 0.76 further support this prediction.",
-    "ja": "Figure Heloc は、24 時間の方向性が平坦で、0.1% の減少が予想されます。オーバーボールド RSI-14 の読み 91 と低いボリューム比率は、コレクションの可能性を示唆しています。短期の傾向が横方向で、ボリンジャー バンド %B の読み 0.76 が中間帯にあります。",
+    "en": "Figure Heloc (FIGURE-HELOC) is expected to experience a flat 24-hour period with a slight decline of -0.1% due to its overbought condition and low trading volume. The Fear & Greed Index remains in fear territory, and the total crypto market cap has declined by 0.90% in the last 24 hours. This suggests a cautious outlook for the asset.",
+    "ja": "Figure Heloc (FIGURE-HELOC) は、オーバーボールド状態と低い取引量のため、24時間で-0.1%の小さな下落が予想されます。Fear & Greed Indexは恐怖の領域にあり、総暗号資産市場キャップは24時間で0.90%減少しています。これは資産に対する慎重な姿勢を示しています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,23 +1000,28 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-0.64%",
+        "value": "-0.90%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
-        "label": "CoinTelegraph",
-        "value": "Bitcoin ETFs draw $197M, snap 8-week outflow streak",
-        "url": "https://cointelegraph.com/news/bitcoin-etfs-draw-197m-snap-8-week-outflow-streak?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        "label": "CoinGecko Community Sentiment",
+        "value": "100% bullish",
+        "url": "https://www.coingecko.com/en/coins/figure-heloc"
       },
       {
         "label": "CoinTelegraph",
-        "value": "Robinhood L2 sparks ETH optimism, Saylor 'muddies waters.' Hodler's Digest, July 5-12, 2026",
-        "url": "https://cointelegraph.com/features/ethereum-climbs-as-robinhood-l2-takes-off?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        "value": "Here’s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       },
       {
         "label": "CoinTelegraph",
-        "value": "Strategy's Saylor needs clarity in BTC pivot message to convince investors: StanChart",
-        "url": "https://cointelegraph.com/news/strategys-saylor-needs-clarity-in-btc-pivot-message-to-convince-investors-stanchart?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        "value": "AI microbusinesses could drive $262B in stablecoin volume by 2033: Swyftx",
+        "url": "https://cointelegraph.com/news/ai-enabled-businesses-freelancers-could-add-262b-in-stablecoin-volumes-swyftx?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bank of Thailand targets USDT and cash flows in gray money crackdown",
+        "url": "https://cointelegraph.com/news/thailand-targets-stablecoins-in-latest-laundering-crackdown?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       }
     ]
   }

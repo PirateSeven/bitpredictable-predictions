@@ -1,6 +1,6 @@
 {
   "coinId": "hashnote-usyc",
-  "generatedAt": "2026-07-13T03:00:06.878079Z",
+  "generatedAt": "2026-07-13T09:00:06.751853Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 0.0461,
+    "changePercent24h": -0.0376,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "Circle USYC (HASHNOTE-USYC) is expected to remain flat, with a predicted 24h direction of -0.1% and a confidence level of 95%. The recent news surrounding Bitcoin ETFs and the Cambridge study on Ethereum's energy intensity may have a neutral impact on the market. The Fear & Greed Index at 28 indicates a fearful market sentiment.",
-    "ja": "Circle USYC (HASHNOTE-USYC) は、24 時間方向が-0.1%、信頼度95%と予想され、平坦に推移する可能性が高い。ビットコイン ETF とカンブリッジ大学のエネルギー効率に関する研究は市場に中立的な影響を与える可能性がある。恐怖と欲求不満指数は28で、恐怖の市場感情が続いている。",
+    "en": "Circle USYC (HASHNOTE-USYC) is expected to remain flat in the next 24 hours with a predicted return of -0.1%. The current market context, including a Fear & Greed Index of 28, a negative total crypto market cap 24h change, and a low volume ratio, suggests caution. The recent news on AI microbusinesses and Bitcoin ETFs may have a limited impact on HASHNOTE-USYC's short-term price movement.",
+    "ja": "HASHNOTE-USYCは次の24時間で-0.1%の予想リターンでフラットの状態にあります。Fear & Greed Indexが28、総暗号資産市場キャップ24時間変化がマイナス、ボリュームレシオが低いなどの市場状況から、慎重な姿勢が求められます。AIマイクロビジネスやビットコインETFなどの最近のニュースは、HASHNOTE-USYCの短期的な価格変動に限りなく影響を与える可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,23 +1000,28 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-0.64%",
+        "value": "-0.90%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
-        "label": "CoinTelegraph",
-        "value": "Bitcoin ETFs draw $197M, snap 8-week outflow streak",
-        "url": "https://cointelegraph.com/news/bitcoin-etfs-draw-197m-snap-8-week-outflow-streak?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        "label": "CoinGecko Community Sentiment",
+        "value": "100% bullish",
+        "url": "https://www.coingecko.com/en/coins/hashnote-usyc"
       },
       {
         "label": "CoinTelegraph",
-        "value": "Robinhood L2 sparks ETH optimism, Saylor 'muddies waters.' Hodler's Digest, July 5-12, 2026",
-        "url": "https://cointelegraph.com/features/ethereum-climbs-as-robinhood-l2-takes-off?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        "value": "Here’s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       },
       {
         "label": "CoinTelegraph",
-        "value": "Strategy's Saylor needs clarity in BTC pivot message to convince investors: StanChart",
-        "url": "https://cointelegraph.com/news/strategys-saylor-needs-clarity-in-btc-pivot-message-to-convince-investors-stanchart?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        "value": "AI microbusinesses could drive $262B in stablecoin volume by 2033: Swyftx",
+        "url": "https://cointelegraph.com/news/ai-enabled-businesses-freelancers-could-add-262b-in-stablecoin-volumes-swyftx?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Bank of Thailand targets USDT and cash flows in gray money crackdown",
+        "url": "https://cointelegraph.com/news/thailand-targets-stablecoins-in-latest-laundering-crackdown?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       }
     ]
   }
