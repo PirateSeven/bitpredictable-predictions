@@ -51,7 +51,8 @@ MAX_IMPLAUSIBLE  = 50.0  # % — flag if any 24h prediction exceeds this
 
 # crypto-ace が取引対象にしているコイン。CoinGeckoの時価総額トップNランキングから
 # 外れても予測を切らさないよう、top-N取得後に強制的に含める（2026-07: polkadotが
-# 54位に後退し、trading/config.pyのDOT/BNBだけ9日以上予測が凍結した事故の再発防止）
+# 54位に後退し、trading/config.pyのDOT/BNBだけ9日以上予測が凍結した事故の再発防止）。
+# crypto-ace/config.py の `symbols` を変更したらここも合わせて更新すること
 REQUIRED_COINS = [
     "binancecoin", "solana", "cardano", "polkadot", "ripple",
     "litecoin", "tron", "hedera-hashgraph", "sui",

@@ -26,7 +26,15 @@ send_telegram() {
 }
 
 PREDICT_OK=true
+STATE_FILE="$REPO/data/missing_required_coins.txt"
+mkdir -p "$REPO/data"
 
+# `{ ... } | tee` would run the block in a subshell (pipes always fork the
+# left side), silently discarding PREDICT_OK/CHANGED_DIRS updates made
+# inside — the FAILED alert below never fired as a result. Redirecting to a
+# temp file instead keeps the block in the current shell so those variables
+# actually propagate.
+RUN_LOG_TMP="$(mktemp)"
 {
   echo "=== $(date -u +%Y-%m-%dT%H:%M:%SZ) predict start ==="
 
@@ -104,12 +112,34 @@ PREDICT_OK=true
   fi
 
   echo "=== $(date -u +%Y-%m-%dT%H:%M:%SZ) predict done (ok=${PREDICT_OK}) ==="
-} 2>&1 | tee -a "$LOG_FILE"
+} > "$RUN_LOG_TMP" 2>&1
+cat "$RUN_LOG_TMP" >> "$LOG_FILE"
+RUN_OUTPUT="$(cat "$RUN_LOG_TMP")"
+rm -f "$RUN_LOG_TMP"
+echo "$RUN_OUTPUT"
 
-# Telegram notifications (outside tee block so credentials aren't logged)
+# Telegram notifications (outside the redirected block so credentials aren't logged)
 if [ "$PREDICT_OK" = false ]; then
   FREE_MB=$(awk '/MemAvailable/ {printf "%d", $2/1024}' /proc/meminfo)
   send_telegram "❌ crypto-ace predict FAILED at $(date -u +%Y-%m-%dT%H:%M:%SZ)
 Free memory: ${FREE_MB}MB
 Check: tail -50 ${LOG_FILE}"
 fi
+
+# Alert only on change (not every run) — a coin can stay outside the top-N
+# for days (see crypto-ace.md 4.8), and re-sending the same alert hourly
+# would just get muted/ignored.
+CURRENT_MISSING="$(echo "$RUN_OUTPUT" | grep -o "Adding required coins outside top-[0-9]*: \[.*\]" | tail -1 || true)"
+PREV_MISSING=""
+[ -f "$STATE_FILE" ] && PREV_MISSING="$(cat "$STATE_FILE")"
+if [ "$CURRENT_MISSING" != "$PREV_MISSING" ]; then
+  if [ -n "$CURRENT_MISSING" ]; then
+    send_telegram "⚠️ crypto-ace predict: coin(s) fell outside CoinGecko's top-N market cap and had to be force-included (REQUIRED_COINS).
+${CURRENT_MISSING}
+Predictions still work, but worth checking whether these are still valid trading candidates."
+  elif [ -n "$PREV_MISSING" ]; then
+    send_telegram "✅ crypto-ace predict: previously-missing required coin(s) are back in the top-N market cap ranking.
+${PREV_MISSING}"
+  fi
+fi
+echo "$CURRENT_MISSING" > "$STATE_FILE"
