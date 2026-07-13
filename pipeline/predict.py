@@ -49,6 +49,14 @@ MIN_RAW_ROWS     = SEQ_LEN + BACKTEST_WINDOWS * HORIZON  # 96 + 168 = 264
 MIN_COINS        = 10
 MAX_IMPLAUSIBLE  = 50.0  # % — flag if any 24h prediction exceeds this
 
+# crypto-ace が取引対象にしているコイン。CoinGeckoの時価総額トップNランキングから
+# 外れても予測を切らさないよう、top-N取得後に強制的に含める（2026-07: polkadotが
+# 54位に後退し、trading/config.pyのDOT/BNBだけ9日以上予測が凍結した事故の再発防止）
+REQUIRED_COINS = [
+    "binancecoin", "solana", "cardano", "polkadot", "ripple",
+    "litecoin", "tron", "hedera-hashgraph", "sui",
+]
+
 
 # ── Logging ────────────────────────────────────────────────────────────────────
 
@@ -294,6 +302,10 @@ def run_inference() -> None:
     # Coin list + market signals
     logger.info("Fetching coin list...")
     coin_ids = fetch_coin_list(TOP_N_COINS)
+    missing_required = [c for c in REQUIRED_COINS if c not in coin_ids]
+    if missing_required:
+        logger.info(f"Adding required coins outside top-{TOP_N_COINS}: {missing_required}")
+        coin_ids = coin_ids + missing_required
     btc_df = fetch_hourly("bitcoin",  FETCH_DAYS)
     eth_df = fetch_hourly("ethereum", FETCH_DAYS)
 
