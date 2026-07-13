@@ -1,6 +1,6 @@
 {
   "coinId": "bitcoin-cash",
-  "generatedAt": "2026-07-13T19:16:19.897699Z",
+  "generatedAt": "2026-07-13T21:00:07.482789Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -4.1484,
-    "confidence": 0.8936
+    "changePercent24h": -3.9344,
+    "confidence": 0.8882
   },
   "commentary": {
-    "en": "Bitcoin Cash is expected to decline by 1.8% in the next 24 hours with a confidence level of 77%. The current market sentiment is fearful, as indicated by the Fear & Greed Index of 28. The recent news surrounding USDT and Donald Trump's statements may contribute to the market's volatility.",
-    "ja": "ビットコインキャッシュは、次の24時間で1.8%下落する可能性があり、信頼度は77%です。現在の市場感情は恐怖で、恐怖と欲求不満の指数は28です。USDTやドナルド・トランプの発言に関する最近のニュースは市場の動揺に寄与する可能性があります。",
+    "en": "The model predicts Bitcoin Cash will decline ~1.8% over the next 24 hours with high confidence (77%). Price moved -4.18% in the past 24 hours with volume at 1.1× average. Community sentiment on CoinGecko is 0% bullish and the Fear & Greed Index reads \"Fear\" (28), aligning with the model's forecast.",
+    "ja": "モデルはBitcoin Cashが今後24時間で約1.8%下落すると予測しています（信頼度: 高い 77%）。過去24時間のリターンは-4.18%、出来高は平均の1.1倍です。CoinGeckoコミュニティでは0%が強気を示し、Fear & Greed指数は「Fear」（28）です。予測と方向性が一致しています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-2.88%",
+        "value": "-2.82%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {

@@ -1,6 +1,6 @@
 {
   "coinId": "near",
-  "generatedAt": "2026-07-13T19:16:19.897699Z",
+  "generatedAt": "2026-07-13T21:00:07.482789Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -0.7824,
-    "confidence": 0.6099
+    "changePercent24h": -1.3316,
+    "confidence": 0.7454
   },
   "commentary": {
-    "en": "NEAR Protocol (NEAR) is predicted to move downward by -0.7% in the next 24 hours with a confidence level of 55%. The recent news surrounding USDT's potential adoption as a payment currency in Bolivia and Hyundai's successful pilot settlement may have a neutral impact on NEAR's price. The Fear & Greed Index remains in the fear zone, which could contribute to NEAR's downward trend.",
-    "ja": "NEAR Protocol (NEAR) は、次の24時間に-0.7%の下落が予想され、信頼度は55%です。ボリビアでのUSDTの採用とヒュンダイの成功したパイロット決済に影響を与える可能性のある最近のニュースは、NEARの価格に中立的な影響を与えるかもしれません。恐怖と欲求不満指数は恐怖のゾーンにあり、これがNEARの下落に貢献する可能性があります。",
+    "en": "The model predicts NEAR Protocol will decline ~0.7% over the next 24 hours with moderate confidence (55%). Volume is elevated at 1.5× the daily average, amplifying the directional signal. Community sentiment on CoinGecko is 67% bullish and the Fear & Greed Index reads \"Fear\" (28), diverging from the model's forecast, adding uncertainty.",
+    "ja": "モデルはNEAR Protocolが今後24時間で約0.7%下落すると予測しています（信頼度: 中程度の 55%）。出来高が平均の1.5倍と高水準で、方向性シグナルを強化しています。CoinGeckoコミュニティでは67%が強気を示し、Fear & Greed指数は「Fear」（28）です。予測方向と乖離があり、不確実性が高まっています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-2.88%",
+        "value": "-2.82%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {

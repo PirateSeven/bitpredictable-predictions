@@ -1,6 +1,6 @@
 {
   "coinId": "blackrock-usd-institutional-digital-liquidity-fund",
-  "generatedAt": "2026-07-13T19:16:19.897699Z",
+  "generatedAt": "2026-07-13T21:00:07.482789Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.0484,
+    "changePercent24h": -0.0534,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "The Blackrock USD Institutional Digital Liquidity Fund is experiencing a flat 24-hour direction with a 95% confidence level, indicating a lack of significant price movement. The overbought RSI-14 and low volume ratio suggest a potential correction in the near future. The sideways short-term trend and lower band Bollinger Band %B indicate a consolidation phase.",
-    "ja": "ブラックロック US ドル インスティテューショナル デジタル リキッド フンドは 24 時間間で 95% の信頼度でフラットな動向を示しており、価格の変動が見られないことを示しています。オーバーボールド RSI-14 と低いボリューム レイティオは、短期的には価格の調整が起こる可能性があります。横方向の短期的トレンドと下方のボリンジャー バンド %B は、調整期を示しています。",
+    "en": "The Blackrock USD Institutional Digital Liquidity Fund is expected to remain flat in the next 24 hours with a 95% confidence level. The overbought RSI-14 and low volume ratio suggest a potential correction. However, the recent news of USDT adoption in Bolivia and Hyundai's pilot settlement may support the fund's value.",
+    "ja": "ブラックロック US ドル インスティテューショナル デジタル リキッド ティー フンドは、次の24時間に95％の確率でフラットで推定される。オーバーボイルした RSI-14 と低いボリューム レシオは、値下げの可能性を示唆している。ただし、ボリビアでの USDT の採用とヒュンダイのパイロット セットルメントのニュースは、ファンドの価値を支える可能性がある。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,8 +1000,13 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-2.88%",
+        "value": "-2.82%",
         "url": "https://www.coingecko.com/en/global-charts"
+      },
+      {
+        "label": "CoinGecko Community Sentiment",
+        "value": "100% bullish",
+        "url": "https://www.coingecko.com/en/coins/blackrock-usd-institutional-digital-liquidity-fund"
       },
       {
         "label": "CoinTelegraph",

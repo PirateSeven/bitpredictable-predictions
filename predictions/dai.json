@@ -1,6 +1,6 @@
 {
   "coinId": "dai",
-  "generatedAt": "2026-07-13T19:16:19.897699Z",
+  "generatedAt": "2026-07-13T21:00:07.482789Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.0163,
+    "changePercent24h": -0.0194,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "Dai (DAI) is expected to remain flat with a minor decline of -0.1% over the next 24 hours due to the overall bearish sentiment in the market. The Fear & Greed Index is at 28, indicating fear, and the total crypto market cap has declined by 2.88% over the past 24 hours. DAI's recent price action is neutral, with an RSI-14 of 48 and a Bollinger Band %B of 0.35.",
-    "ja": "DAI（DAI）は、市場全体の恐慌的な気分から、次の24時間で-0.1%の小幅な下落が予想される。Fear & Greed Indexは28、総暗号資産市場キャップは過去24時間で2.88%減少している。DAIの価格動向は中立的で、RSI-14は48、ボリンジャーバンド％Bは0.35である。",
+    "en": "Dai (DAI) is expected to remain flat with a minor decline of -0.1% in the next 24 hours, based on technical signals. The Fear & Greed Index indicates a fearful market sentiment, which may impact DAI's price. Recent news on stablecoins and USDT may have a neutral effect on DAI.",
+    "ja": "Dai (DAI) は、技術指標に基づくと、来る24時間で-0.1%の小幅な下落が予想されます。Fear & Greed Indexは恐怖の市場感情を示しており、これがDAIの価格に影響を与える可能性があります。最近のニュースでは、StablecoinとUSDTについてのニュースはDAIに中立的な影響を与える可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-2.88%",
+        "value": "-2.82%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {

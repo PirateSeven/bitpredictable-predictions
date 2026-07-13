@@ -1,6 +1,6 @@
 {
   "coinId": "avalanche-2",
-  "generatedAt": "2026-07-13T19:16:19.897699Z",
+  "generatedAt": "2026-07-13T21:00:07.482789Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": 1.5833,
-    "confidence": 0.7898
+    "changePercent24h": 1.1554,
+    "confidence": 0.7258
   },
   "commentary": {
-    "en": "Avalanche (AVALANCHE-2) is predicted to move downward by -0.6% in the next 24 hours with a confidence level of 56%. The current market sentiment is fearful, as indicated by the Fear & Greed Index of 28. The recent news of Donald Trump's comments on the US economy and the Hormuz Strait may have a negative impact on the crypto market, including AVALANCHE-2.",
-    "ja": "Avalanche (AVALANCHE-2) は、次の24時間で-0.6%の下落が予想され、信頼度は56%です。Fear & Greed Indexは28で、恐怖の感情が広がっています。Donald Trumpの経済についての発言やホルムズ海峡についての発言が、AVALANCHE-2などに影響を与える可能性があります。",
+    "en": "The model predicts Avalanche will decline ~0.6% over the next 24 hours with moderate confidence (56%). Price moved -0.22% in the past 24 hours with volume at 1.2× average. Community sentiment on CoinGecko is 95% bullish and the Fear & Greed Index reads \"Fear\" (28), diverging from the model's forecast, adding uncertainty.",
+    "ja": "モデルはAvalancheが今後24時間で約0.6%下落すると予測しています（信頼度: 中程度の 56%）。過去24時間のリターンは-0.22%、出来高は平均の1.2倍です。CoinGeckoコミュニティでは95%が強気を示し、Fear & Greed指数は「Fear」（28）です。予測方向と乖離があり、不確実性が高まっています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,12 +1000,12 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-2.88%",
+        "value": "-2.82%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "92% bullish",
+        "value": "95% bullish",
         "url": "https://www.coingecko.com/en/coins/avalanche-2"
       },
       {
