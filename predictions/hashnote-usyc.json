@@ -1,6 +1,6 @@
 {
   "coinId": "hashnote-usyc",
-  "generatedAt": "2026-07-14T03:00:06.712291Z",
+  "generatedAt": "2026-07-14T09:00:08.091346Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.0772,
+    "changePercent24h": 0.0075,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "Circle USYC's (HASHNOTE-USYC) 24-hour direction is predicted to be flat with a -0.1% change, indicating a neutral sentiment. The recent news on regulatory developments in Asia and Europe may have a limited impact on the token's price. The Fear & Greed Index remains in extreme fear territory.",
-    "ja": "HASHNOTE-USYCの24時間の動向は、-0.1%の変化で予測されており、中立的な感覚を示しています。アジアとヨーロッパでの規制開発に関する最近のニュースは、トークンの価格に限りなく影響を与える可能性があります。恐怖と欲求不満指数は、極度の恐怖の領域にあります。",
+    "en": "Circle USYC (HASHNOTE-USYC) is expected to remain flat in the next 24 hours with a predicted -0.1% change, indicating a neutral sentiment. The recent news on tokenized government bonds and US spot Bitcoin ETFs may influence market sentiment but the overall impact is unclear. The Fear & Greed Index remains in extreme fear territory, suggesting caution.",
+    "ja": "Circle USYC (HASHNOTE-USYC) は、次の24時間で-0.1%の変化を予想しており、中立的な意見を示しています。トークナイズされた政府債券やUSスポットビットコインETFに関する最近のニュースは市場の感性に影響を与えるかもしれませんが、総合的な影響は不明です。恐怖と欲求不満指数は極度の恐怖の領域にあり、注意が必要です。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,28 +1000,23 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-1.24%",
+        "value": "-0.77%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
-        "label": "CoinGecko Community Sentiment",
-        "value": "100% bullish",
-        "url": "https://www.coingecko.com/en/coins/hashnote-usyc"
+        "label": "CoinTelegraph",
+        "value": "South Korea to test tokenized government bonds with CBDC in 2027",
+        "url": "https://cointelegraph.com/news/south-korea-tokenized-government-bonds-cbdc-pilot-2027?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       },
       {
         "label": "CoinTelegraph",
-        "value": "Thai scammer's $122M wallet, Japan embraces crypto credit: Asia Express",
-        "url": "https://cointelegraph.com/features/thai-scammer-japan-crypto-loans?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        "value": "US spot Bitcoin ETFs post $425M outflow after brief rebound",
+        "url": "https://cointelegraph.com/news/bitcoin-etf-425-million-daily-outflow-inflows-reverse?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       },
       {
         "label": "CoinTelegraph",
-        "value": "CLARITY Act gains second law enforcement endorsement before Senate push",
-        "url": "https://cointelegraph.com/news/clarity-act-gains-second-law-enforcement-endorsement-before-senate-push?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Global law firm launches MiCA compliance tool as crypto companies navigate new EU rules",
-        "url": "https://cointelegraph.com/news/global-law-firm-mica-compliance-tool-crypto-companies-navigate-new-eu-rules?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        "value": "Here’s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       }
     ]
   }
