@@ -1,6 +1,6 @@
 {
   "coinId": "hashnote-usyc",
-  "generatedAt": "2026-07-15T15:00:07.443948Z",
+  "generatedAt": "2026-07-15T21:00:06.585558Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.0516,
+    "changePercent24h": -0.0831,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "Circle USYC (HASHNOTE-USYC) is expected to remain flat with a 0.1% decrease in the next 24 hours due to its overbought RSI-14 and low trading volume. The recent news of Bitcoin's price increase and the overall crypto market's positive trend may have a limited impact on HASHNOTE-USYC's price movement. The asset's short-term trend remains sideways.",
-    "ja": "Circle USYC (HASHNOTE-USYC) は、RSI-14 がオーバーボールと、取引量が低いことから、来る24時間で0.1%の下落が予想されます。ビットコインの価格上昇や、総暗号通貨市場のポジティブなトレンドは、HASHNOTE-USYCの価格動向に限りなく影響を与える可能性はあります。短期のトレンドは横ばいです。",
+    "en": "Circle USYC (HASHNOTE-USYC) is expected to remain flat with a 0.1% decline in the next 24 hours, as the asset is overbought and trading near the mid-band of the Bollinger Bands. The low volume ratio and sideways short-term trend also support this prediction. The overall market sentiment remains in extreme fear, but the total crypto market cap and Bitcoin's return suggest a slight recovery.",
+    "ja": "Circle USYC (HASHNOTE-USYC) は、次の24時間に0.1%の下落が予想されます。アセットはオーバーボールドで、ボリンジャー・バンドの中央帯近くに取引されているためです。低いボリューム・レシオと短期の横方向のトレンドもこの予想を裏付けています。総暗号資産マーケットキャップとビットコインのリターンは、総暗号資産マーケットキャップとビットコインのリターンが回復していることを示していますが、総暗号資産マーケットキャップとビットコインのリターンは回復していることを示しています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,23 +1000,23 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+1.64%",
+        "value": "+0.62%",
         "url": "https://www.coingecko.com/en/global-charts"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Bitcoin hits $65.5K as more surprise US inflation data sparks three-week BTC price high",
-        "url": "https://cointelegraph.com/markets/bitcoin-hits-655k-as-more-surprise-us-inflation-data-sparks-three-week-btc-price-high?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Is Robinhood Chain’s success bullish or bearish for ETH the asset?",
-        "url": "https://cointelegraph.com/features/has-robinhoods-layer-2-given-eth-a-new-bull-case?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       },
       {
         "label": "CoinTelegraph",
         "value": "Here’s what happened in crypto today",
         "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Stanford study says 5-minute Bitcoin prediction markets enable settlement manipulation",
+        "url": "https://cointelegraph.com/news/stanford-study-5-minute-bitcoin-prediction-markets-enable-settlement-manipulation?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Revolut receives in-principle approval from UAE authorities for crypto services",
+        "url": "https://cointelegraph.com/news/revolut-approval-uae-crypto-services?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       }
     ]
   }
