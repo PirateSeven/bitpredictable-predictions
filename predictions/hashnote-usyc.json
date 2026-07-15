@@ -1,6 +1,6 @@
 {
   "coinId": "hashnote-usyc",
-  "generatedAt": "2026-07-15T09:00:07.623858Z",
+  "generatedAt": "2026-07-15T15:00:07.443948Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.0409,
+    "changePercent24h": -0.0516,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "Circle USYC (HASHNOTE-USYC) is expected to remain flat with a 0.1% decline in the next 24 hours due to its overbought RSI-14 reading and low volume ratio. The sideways short-term trend and mid-band Bollinger Band %B also support this prediction. The overall market context, including the Extreme Fear Fear & Greed Index, suggests a cautious outlook.",
-    "ja": "Circle USYC (HASHNOTE-USYC) は、オーバーボールド RSI-14 の値と低いボリュームレシオのため、次の 24 時間で 0.1% の下落が予想されます。短期的な傾向は横ばいであり、ボリンジャー バンド %B は中間帯にあります。総合的な市場状況、特に極度の恐怖のFear & Greed Indexは、慎重な姿勢を示唆しています。",
+    "en": "Circle USYC (HASHNOTE-USYC) is expected to remain flat with a 0.1% decrease in the next 24 hours due to its overbought RSI-14 and low trading volume. The recent news of Bitcoin's price increase and the overall crypto market's positive trend may have a limited impact on HASHNOTE-USYC's price movement. The asset's short-term trend remains sideways.",
+    "ja": "Circle USYC (HASHNOTE-USYC) は、RSI-14 がオーバーボールと、取引量が低いことから、来る24時間で0.1%の下落が予想されます。ビットコインの価格上昇や、総暗号通貨市場のポジティブなトレンドは、HASHNOTE-USYCの価格動向に限りなく影響を与える可能性はあります。短期のトレンドは横ばいです。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,23 +1000,23 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+2.83%",
+        "value": "+1.64%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinTelegraph",
-        "value": "Stripe, Advent offer $53B to acquire PayPal: Report",
-        "url": "https://cointelegraph.com/news/stripe-advent-53b-acquire-paypal-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        "value": "Bitcoin hits $65.5K as more surprise US inflation data sparks three-week BTC price high",
+        "url": "https://cointelegraph.com/markets/bitcoin-hits-655k-as-more-surprise-us-inflation-data-sparks-three-week-btc-price-high?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Is Robinhood Chain’s success bullish or bearish for ETH the asset?",
+        "url": "https://cointelegraph.com/features/has-robinhoods-layer-2-given-eth-a-new-bull-case?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       },
       {
         "label": "CoinTelegraph",
         "value": "Here’s what happened in crypto today",
         "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Kalshi says CFTC, Michigan orders leave it in ‘impossible position’",
-        "url": "https://cointelegraph.com/news/kalshi-says-cftc-michigan-orders-leave-it-in-impossible-position?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       }
     ]
   }
