@@ -1,6 +1,6 @@
 {
   "coinId": "hashnote-usyc",
-  "generatedAt": "2026-07-15T21:00:06.585558Z",
+  "generatedAt": "2026-07-16T03:00:07.841998Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.0831,
+    "changePercent24h": -0.0516,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "Circle USYC (HASHNOTE-USYC) is expected to remain flat with a 0.1% decline in the next 24 hours, as the asset is overbought and trading near the mid-band of the Bollinger Bands. The low volume ratio and sideways short-term trend also support this prediction. The overall market sentiment remains in extreme fear, but the total crypto market cap and Bitcoin's return suggest a slight recovery.",
-    "ja": "Circle USYC (HASHNOTE-USYC) は、次の24時間に0.1%の下落が予想されます。アセットはオーバーボールドで、ボリンジャー・バンドの中央帯近くに取引されているためです。低いボリューム・レシオと短期の横方向のトレンドもこの予想を裏付けています。総暗号資産マーケットキャップとビットコインのリターンは、総暗号資産マーケットキャップとビットコインのリターンが回復していることを示していますが、総暗号資産マーケットキャップとビットコインのリターンは回復していることを示しています。",
+    "en": "Circle USYC (HASHNOTE-USYC) is predicted to remain flat with a 0.1% decline in the next 24 hours due to its overbought RSI-14 and low volume ratio. The sideways short-term trend and mid-band Bollinger Band %B suggest a consolidation phase. The recent news on prediction markets and regulatory developments may not significantly impact HASHNOTE-USYC's price in the short term.",
+    "ja": "Circle USYC（HASHNOTE-USYC）は、オーバーボールドのRSI-14と低いボリュームレシオのため、次の24時間に0.1％の下落が予想されます。短期の横方向のトレンドと中間のボリンジャー・バンド％Bは、consolidationのフェーズを示しています。予測市場や規制開発に関する最近のニュースは、短期的にはHASHNOTE-USYCの価格に大きな影響を与えそうにありません。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,8 +1000,13 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.62%",
+        "value": "+0.46%",
         "url": "https://www.coingecko.com/en/global-charts"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Base’s social bet left it trailing in prediction markets and perps: Pollak",
+        "url": "https://cointelegraph.com/news/bases-social-bet-left-it-trailing-in-prediction-markets-and-perps-pollak?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       },
       {
         "label": "CoinTelegraph",
@@ -1012,11 +1017,6 @@
         "label": "CoinTelegraph",
         "value": "Stanford study says 5-minute Bitcoin prediction markets enable settlement manipulation",
         "url": "https://cointelegraph.com/news/stanford-study-5-minute-bitcoin-prediction-markets-enable-settlement-manipulation?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Revolut receives in-principle approval from UAE authorities for crypto services",
-        "url": "https://cointelegraph.com/news/revolut-approval-uae-crypto-services?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       }
     ]
   }
