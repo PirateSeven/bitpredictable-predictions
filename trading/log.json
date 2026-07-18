@@ -1,36 +1,36 @@
 {
   "agentVersion": "crypto-ace-1.0.0",
-  "updatedAt": "2026-07-18T17:26:59.942790+00:00",
+  "updatedAt": "2026-07-18T20:01:07.169681+00:00",
   "exchange": "Binance Testnet",
   "currency": "BNB",
   "initialCapital": 1.0,
-  "currentValue": 0.972595,
+  "currentValue": 0.971607,
   "performance": {
-    "totalReturnPct": -2.74,
-    "totalTrades": 20,
-    "winRate": 0.35,
-    "maxDrawdownPct": 2.74,
-    "sharpeRatio": -8.24,
+    "totalReturnPct": -2.84,
+    "totalTrades": 21,
+    "winRate": 0.3333,
+    "maxDrawdownPct": 2.84,
+    "sharpeRatio": -8.35,
     "startDate": "2026-06-17T19:27:34.575587+00:00"
   },
   "weeklyStats": {
     "wins": 0,
-    "losses": 0,
+    "losses": 1,
     "winRate": 0.0,
     "comment": {
-      "en": "No closed trades this week. Waiting for high-quality signals.",
-      "ja": "\u4eca\u9031\u306f\u30af\u30ed\u30fc\u30ba\u53d6\u5f15\u306a\u3057\u3002\u9ad8\u54c1\u8cea\u306a\u30b7\u30b0\u30ca\u30eb\u3092\u5f85\u6a5f\u4e2d\u3002"
+      "en": "Caution: currently on a 7-trade losing streak (1 trades this week, 0% win rate). Monitoring closely.",
+      "ja": "\u6ce8\u610f: \u73fe\u57287\u9023\u6557\u4e2d\uff08\u4eca\u90311\u53d6\u5f15\u3001\u52dd\u73870%\uff09\u3002\u52d5\u5411\u3092\u6ce8\u8996\u3057\u3066\u3044\u307e\u3059\u3002"
     }
   },
   "bestTrade": {
-    "symbol": "SOL",
-    "coin": "solana",
-    "pnlPct": 2.9,
-    "pnlBtc": 0.001521,
-    "time": "2026-07-02T10:39:46.664981+00:00"
+    "symbol": "LTC",
+    "coin": "litecoin",
+    "pnlPct": -0.97,
+    "pnlBtc": -0.000987,
+    "time": "2026-07-18T20:01:07.163311+00:00"
   },
   "currentStreak": {
-    "count": 6,
+    "count": 7,
     "type": "loss"
   },
   "currentPositions": [],
@@ -139,9 +139,30 @@
       "time": "2026-07-06T21:09:51.127545+00:00",
       "value": 0.972595,
       "benchmarkBtc": 1.010104
+    },
+    {
+      "time": "2026-07-18T20:01:07.163311+00:00",
+      "value": 0.971607,
+      "benchmarkBtc": 1.040502
     }
   ],
   "recentTrades": [
+    {
+      "id": "77ad515a",
+      "coin": "litecoin",
+      "symbol": "LTC",
+      "action": "sell",
+      "price": 0.082,
+      "sizeBtc": 0.102203,
+      "time": "2026-07-18T20:01:07.163311+00:00",
+      "pnlBtc": -0.000987,
+      "pnlPct": -0.97,
+      "signal": {
+        "direction": "up",
+        "changePercent24h": 3.1904,
+        "confidence": 0.95
+      }
+    },
     {
       "id": "465e19fc",
       "coin": "hedera-hashgraph",
@@ -280,22 +301,6 @@
       "time": "2026-07-02T04:44:13.376461+00:00",
       "pnlBtc": 0.000449,
       "pnlPct": 0.86,
-      "signal": {
-        "direction": "flat",
-        "changePercent24h": 0.9856236812140321,
-        "confidence": 0.6465
-      }
-    },
-    {
-      "id": "5f60aa05",
-      "coin": "solana",
-      "symbol": "SOL",
-      "action": "sell",
-      "price": 0.1423,
-      "sizeBtc": 0.052335,
-      "time": "2026-07-02T01:38:56.552215+00:00",
-      "pnlBtc": 0.000898,
-      "pnlPct": 1.72,
       "signal": {
         "direction": "flat",
         "changePercent24h": 0.9856236812140321,
