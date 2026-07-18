@@ -13,6 +13,8 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Dict, List
 
+from pipeline.output import direction_from_pct
+
 logger = logging.getLogger(__name__)
 
 ALPHA = 0.3          # EWMA weight for newest error; higher = adapts faster
@@ -131,6 +133,7 @@ def apply_bias(results: List[Dict], bias: Dict[str, float]) -> None:
         old = r["signal"]["changePercent24h"]
         new_pct = round(old + b, 4)
         r["signal"]["changePercent24h"] = new_pct
+        r["signal"]["direction"] = direction_from_pct(new_pct)
 
         # Recalculate confidence using the pre-stored quantile spread
         spread = r["signal"].get("_spread")

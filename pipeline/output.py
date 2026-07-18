@@ -23,6 +23,19 @@ OUTPUT_DIR  = Path("predictions")
 MODEL_VERSION = "lstm-2.0.0"
 
 
+def direction_from_pct(change_pct: float) -> str:
+    """Shared with bias.apply_bias() — direction must be recomputed whenever
+    changePercent24h changes (bias correction), or the two drift out of sync
+    (2026-07-19: apply_bias updated changePercent24h but not direction, so
+    coins bias-corrected from ~0% to +2-3% stayed labeled "flat", zeroing
+    every score via scorer._signed_change_pct)."""
+    if change_pct > 0.5:
+        return "up"
+    if change_pct < -0.5:
+        return "down"
+    return "flat"
+
+
 # ── Main entry point ───────────────────────────────────────────────────────────
 
 def write_predictions(
@@ -127,13 +140,7 @@ def compute_signal(
     final_pred = forecast[-1]["predictedIndex"]
     change_pct = (final_pred - last_actual) / last_actual * 100
 
-    direction: str
-    if change_pct > 0.5:
-        direction = "up"
-    elif change_pct < -0.5:
-        direction = "down"
-    else:
-        direction = "flat"
+    direction = direction_from_pct(change_pct)
 
     # Confidence: inverse of quantile spread relative to predicted magnitude
     if q10_preds and q90_preds:
