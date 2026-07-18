@@ -1,6 +1,6 @@
 {
   "coinId": "hedera-hashgraph",
-  "generatedAt": "2026-07-18T15:00:08.597366Z",
+  "generatedAt": "2026-07-18T16:31:34.030390Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -965,13 +965,13 @@
     }
   ],
   "signal": {
-    "direction": "flat",
-    "changePercent24h": 1.2161,
-    "confidence": 0.902
+    "direction": "up",
+    "changePercent24h": 1.2994,
+    "confidence": 0.9073
   },
   "commentary": {
-    "en": "Hedera's 24-hour return is +0.60%, with a predicted flat direction and neutral RSI-14. The Fear & Greed Index remains in Extreme Fear, while the CoinGecko community is 73% bullish. Market sentiment is mixed, with a 24-hour total crypto market cap change of +0.84%.",
-    "ja": "ヘダラハッシュグラフの24時間の戻りは+0.60%で、予想はフラットで、RSI-14は中立的な値を示しています。Fear & Greed Indexはエクストリーム・フィアのままであり、CoinGeckoコミュニティは73%がバブルです。マーケットの感覚は混在しており、24時間の合計暗号資産マーケットキャップの変化は+0.84%です。",
+    "en": "Hedera (HEDERA-HASHGRAPH) is expected to remain flat in the next 24 hours with a 0.0% predicted return, reflecting a neutral sentiment. The recent news on FTX's distribution of $900M to creditors may have a positive impact on the market, but the overall fear and greed index remains in extreme fear territory. The short-term trend is sideways, indicating a lack of clear direction.",
+    "ja": "ヘダラハッシュグラフ（HEDERA-HASHGRAPH）は、次の24時間に0.0％の予想リターンでフラットに維持される可能性があり、中立的な感情を反映しています。FTXによる900万ドルのcreditorsへの配布に関する最近のニュースは、市場にプラスの影響を与える可能性がありますが、全体的な恐怖と欲求不満指数は極度の恐怖の領域にあります。短期的なトレンドは横方向にあり、明確な方向性がないことを示しています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.84%",
+        "value": "+0.54%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {

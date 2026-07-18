@@ -1,6 +1,6 @@
 {
   "coinId": "ondo-us-dollar-yield",
-  "generatedAt": "2026-07-18T15:00:08.597366Z",
+  "generatedAt": "2026-07-18T16:31:34.030390Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -965,13 +965,13 @@
     }
   ],
   "signal": {
-    "direction": "flat",
-    "changePercent24h": -0.2274,
-    "confidence": 0.801
+    "direction": "down",
+    "changePercent24h": -0.6903,
+    "confidence": 0.899
   },
   "commentary": {
-    "en": "ONDO-US-DOLLAR-YIELD is expected to remain flat with a 0.1% increase in the next 24 hours, based on technical signals. The Fear & Greed Index at 25 indicates extreme fear in the market, which may impact investor sentiment. The recent news about FTX's fifth payment round and Kaspersky's malware framework targeting crypto investors may also influence market trends.",
-    "ja": "ONDO-US-DOLLAR-YIELDは、技術指標に基づいて次の24時間で0.1%の増加を予想しています。Fear & Greed Indexは25で、極度の恐怖を示しており、投資家の感情に影響を与える可能性があります。FTXの5回目の支払いラウンドやKasperskyの暗号投資家を標的にしたマルウェアフレームワークに関するニュースも市場の傾向に影響を与える可能性があります。",
+    "en": "Ondo US Dollar Yield is expected to remain flat with a 0.1% increase, as the Fear & Greed Index remains in extreme fear and the total crypto market cap sees a slight gain. The recent news of FTX's fifth payment round and Galaxy's naming rights deal may have a minimal impact on the market. The neutral RSI-14 and mid-band Bollinger Band %B suggest a sideways trend.",
+    "ja": "オンド・ユーザー・ドル・イールドは、恐れの指数が極度の恐怖にあり、総暗号資産市場キャップがわずかに増加しているため、0.1%の増加を予想しています。FTXの5回目の支払いラウンドとギャラクシーのネーミングライツ契約に関する最近のニュースは、市場に最小限の影響を与える可能性があります。RSI-14は中立的で、ボリンジャーバンド％Bは中間帯にあり、短期の傾向は横方向に進んでいます。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.84%",
+        "value": "+0.54%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {

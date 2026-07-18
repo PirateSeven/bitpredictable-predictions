@@ -1,6 +1,6 @@
 {
   "coinId": "chainlink",
-  "generatedAt": "2026-07-18T15:00:08.597366Z",
+  "generatedAt": "2026-07-18T16:31:34.030390Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -965,13 +965,13 @@
     }
   ],
   "signal": {
-    "direction": "flat",
-    "changePercent24h": 3.1739,
+    "direction": "up",
+    "changePercent24h": 2.5964,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "Chainlink's price is expected to remain relatively stable, with a predicted 24h direction of +0.1% and a neutral RSI-14 reading. The recent news on FTX's distribution of $900M to creditors may have a positive impact on the market, but the overall sentiment remains in extreme fear. The short-term trend is sideways, indicating a lack of clear direction.",
-    "ja": "チェーンリンクの価格は、予想される24時間方向は+0.1%、中立的なRSI-14値を示しています。FTXの900億ドルの債権者への分配に関する最近のニュースは、市場に肯定的な影響を与える可能性がありますが、全体的な感情は極度の恐怖のままです。短期的な傾向は横方向にあり、明確な方向性がないことを示しています。",
+    "en": "Chainlink's price is expected to remain relatively stable, with a predicted 24h direction of flat, +0.1% (confidence: 66%). The recent news of FTX distributing $900M to creditors may have a positive impact on investor sentiment. However, the overall market remains in a state of extreme fear, as indicated by the Fear & Greed Index.",
+    "ja": "Chainlinkの価格は、予測24時間方向がフラット、+0.1%（信頼度：66％）と予想されています。FTXがcreditorsに$900Mを配布するニュースは、投資家の意識にプラスの影響を与える可能性があります。ただし、Fear＆Greed Indexは極度の恐怖の状態を示しており、総市場は不安定です。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,12 +1000,12 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.84%",
+        "value": "+0.54%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "71% bullish",
+        "value": "86% bullish",
         "url": "https://www.coingecko.com/en/coins/chainlink"
       },
       {

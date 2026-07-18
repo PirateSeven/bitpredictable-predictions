@@ -1,6 +1,6 @@
 {
   "coinId": "world-liberty-financial",
-  "generatedAt": "2026-07-18T15:00:08.597366Z",
+  "generatedAt": "2026-07-18T16:31:34.030390Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -965,13 +965,13 @@
     }
   ],
   "signal": {
-    "direction": "flat",
-    "changePercent24h": 1.9141,
-    "confidence": 0.9185
+    "direction": "up",
+    "changePercent24h": 1.1539,
+    "confidence": 0.8743
   },
   "commentary": {
-    "en": "World Liberty Financial's 24-hour return is +0.49%, with a predicted flat direction and neutral RSI-14. The Fear & Greed Index remains in Extreme Fear at 25, while the total crypto market cap shows a 0.84% increase. The recent news on Kaspersky's malware framework targeting crypto investors may have a mixed impact on WORLD-LIBERTY-FINANCIAL's price.",
-    "ja": "ワールド・リバティ・フィナンシャルは24時間で+0.49%の増加を示し、予想は方向が変わりそうなくらいで、RSI-14も中立的な位置にある。恐怖と欲求不満指数は25で、極度の恐怖の状態が続いており、総暗号資産市場の24時間変化は+0.84%である。最近のニュースでは、Kasperskyが暗号投資家を標的としたマルウェアフレームワークを発見したことなど、価格に影響を与える可能性のある情報が多く出ている。",
+    "en": "The model predicts World Liberty Financial will trade sideways over the next 24 hours with moderate confidence (50%). Price moved +0.49% in the past 24 hours with volume at 0.9× average. Community sentiment on CoinGecko is 20% bullish and the Fear & Greed Index reads \"Extreme Fear\" (25), aligning with the model's forecast.",
+    "ja": "モデルはWorld Liberty Financialが今後24時間で横ばいで推移すると予測しています（信頼度: 中程度の 50%）。過去24時間のリターンは+0.49%、出来高は平均の0.9倍です。CoinGeckoコミュニティでは20%が強気を示し、Fear & Greed指数は「Extreme Fear」（25）です。予測と方向性が一致しています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,12 +1000,12 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.84%",
+        "value": "+0.54%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "17% bullish",
+        "value": "20% bullish",
         "url": "https://www.coingecko.com/en/coins/world-liberty-financial"
       },
       {

@@ -1,6 +1,6 @@
 {
   "coinId": "monero",
-  "generatedAt": "2026-07-18T15:00:08.597366Z",
+  "generatedAt": "2026-07-18T16:31:34.030390Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -965,13 +965,13 @@
     }
   ],
   "signal": {
-    "direction": "flat",
-    "changePercent24h": 2.8528,
-    "confidence": 0.944
+    "direction": "up",
+    "changePercent24h": 3.1794,
+    "confidence": 0.9494
   },
   "commentary": {
-    "en": "Monero's 24-hour direction is predicted to be flat with a 0.1% increase in confidence of 50%. The recent news on FTX's distribution of $900M to creditors may have a positive impact on the market. However, the overall sentiment remains in extreme fear.",
-    "ja": "モネロの24時間予想は、0.1%の増加を予想し、50%の確信度でフラットです。FTXの900万ドルのcreditorsへの配布に関する最近のニュースは、市場に良い影響を与える可能性があります。ただし、全体的な感覚は極度の恐怖です。",
+    "en": "The model predicts Monero will trade sideways over the next 24 hours with moderate confidence (50%). Price moved +2.78% in the past 24 hours with volume at 0.8× average. Community sentiment on CoinGecko is 100% bullish and the Fear & Greed Index reads \"Extreme Fear\" (25), diverging from the model's forecast, adding uncertainty.",
+    "ja": "モデルはMoneroが今後24時間で横ばいで推移すると予測しています（信頼度: 中程度の 50%）。過去24時間のリターンは+2.78%、出来高は平均の0.8倍です。CoinGeckoコミュニティでは100%が強気を示し、Fear & Greed指数は「Extreme Fear」（25）です。予測方向と乖離があり、不確実性が高まっています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.84%",
+        "value": "+0.54%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {

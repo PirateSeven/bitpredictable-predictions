@@ -1,6 +1,6 @@
 {
   "coinId": "bitcoin",
-  "generatedAt": "2026-07-18T15:00:08.597366Z",
+  "generatedAt": "2026-07-18T16:31:34.030390Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -965,13 +965,13 @@
     }
   ],
   "signal": {
-    "direction": "flat",
-    "changePercent24h": 1.9434,
-    "confidence": 0.9425
+    "direction": "up",
+    "changePercent24h": 1.3658,
+    "confidence": 0.922
   },
   "commentary": {
-    "en": "Bitcoin's 24-hour direction is predicted to be flat with a 0.1% increase, driven by neutral technical signals and a sideways short-term trend. The Fear & Greed Index remains in extreme fear territory, while the CoinGecko community is 74% bullish. Recent news includes developments in the crypto market, including a malware framework targeting investors and FTX's distribution of $900M to creditors.",
-    "ja": "ビットコインの24時間の方向は、0.1%の増加を予測しており、中立的な技術指標と短期的な傾向の横方向に推移しています。恐怖と欲求不満指数は極度の恐怖の領域にあり、CoinGeckoコミュニティは74％がbullishです。最近のニュースには、投資家を標的としたマルウェアフレームワークやFTXのcreditorsへの$900Mの配布など、暗号市場の発展が含まれます。",
+    "en": "Bitcoin's technical signals indicate a flat direction with a 64% confidence level, as the RSI-14 is neutral and the Bollinger Band %B is at the mid band. The recent news on FTX's distribution to creditors and Kaspersky's malware framework targeting crypto investors may have a mixed impact on the market. The Fear & Greed Index remains in extreme fear territory.",
+    "ja": "ビットコインの技術指標は、RSI-14が中立的でボリンジャーバンドの%バンドが中間にあるため、64%の確率で方向が変化しないと示唆しています。FTXのcreditorsへの配布とKasperskyのマルウェアフレームワークがcryptocurrency投資家を標的としているニュースは市場に混乱をもたらすかもしれません。恐怖と欲求不満指数はまだ極度の恐怖の領域にあります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,12 +1000,12 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.84%",
+        "value": "+0.54%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "74% bullish",
+        "value": "78% bullish",
         "url": "https://www.coingecko.com/en/coins/bitcoin"
       },
       {

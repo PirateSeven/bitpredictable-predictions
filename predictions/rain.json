@@ -1,6 +1,6 @@
 {
   "coinId": "rain",
-  "generatedAt": "2026-07-18T15:00:08.597366Z",
+  "generatedAt": "2026-07-18T16:31:34.030390Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -965,13 +965,13 @@
     }
   ],
   "signal": {
-    "direction": "flat",
-    "changePercent24h": -2.7112,
-    "confidence": 0.9317
+    "direction": "down",
+    "changePercent24h": -1.5374,
+    "confidence": 0.8868
   },
   "commentary": {
-    "en": "Rain (RAIN) is predicted to experience a flat 24-hour direction with a -0.1% change, indicating a sideways trend. The RSI-14 is oversold at 22, suggesting a potential bounce, while the Bollinger Band %B is below the lower band, indicating a bearish trend. The Fear & Greed Index is at Extreme Fear, which may influence investor sentiment.",
-    "ja": "Rain (RAIN) は24時間方向がフラットで-0.1%の変化が予想され、横方向の動きを示している。RSI-14は22でオーバーサル、ボリンジャー・バンドの%バンドが下方にあるため、下降傾向が示唆される。恐怖と欲求不満指数は極度の恐怖にあり、これが投資家の感情を影響する可能性がある。",
+    "en": "Rain's price is expected to remain relatively stable with a 24h direction of -0.1% due to its oversold RSI-14 and lower Bollinger Band %B. However, the recent news about FTX's distribution of $900M to creditors may have a positive impact on investor sentiment. The Fear & Greed Index remains in Extreme Fear territory, indicating a cautious market.",
+    "ja": "Rainの価格は、オーバーサールドのRSI-14と下方ボリンジャーバンド％Bの影響を受け、24時間方向は-0.1%の安定化が予想される。ただし、FTXの900億ドルのcreditorsへの分配に関するニュースは、投資家の気分を高める可能性がある。Fear & Greed Indexは、極度の恐怖の状態にあることを示している。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.84%",
+        "value": "+0.54%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {

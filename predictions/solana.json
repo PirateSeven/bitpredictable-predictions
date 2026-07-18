@@ -1,6 +1,6 @@
 {
   "coinId": "solana",
-  "generatedAt": "2026-07-18T15:00:08.597366Z",
+  "generatedAt": "2026-07-18T16:31:34.030390Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -965,13 +965,13 @@
     }
   ],
   "signal": {
-    "direction": "flat",
-    "changePercent24h": 1.0022,
-    "confidence": 0.8788
+    "direction": "up",
+    "changePercent24h": 0.6452,
+    "confidence": 0.8305
   },
   "commentary": {
-    "en": "Solana's short-term trend remains sideways, with a 24-hour return of +0.88% and a neutral RSI-14 reading of 48. The Fear & Greed Index at 25 indicates extreme fear in the market, while the CoinGecko community remains 77% bullish.",
-    "ja": "ソラナの短期トレンドは横方向に推移しており、24時間のリターンは+0.88%、RSI-14は中立的な値の48を示しています。Fear & Greed Indexは25で、極度の恐怖が市場に広がっている一方、CoinGeckoコミュニティは77％がバ Bullishです。",
+    "en": "Solana's 24-hour direction is predicted to be flat with a 56% confidence level, indicating a neutral sentiment. The recent news of FTX distributing $900M to creditors may have a positive impact on the market, but the overall fear and greed index remains in extreme fear. The short-term trend is sideways, suggesting a lack of clear direction.",
+    "ja": "ソラナの24時間の方向は56％の確信度でフラットと予測されており、中立的な感情を示しています。FTXがクレジットを$900Mで分配するという最近のニュースは市場に肯定的な影響を与える可能性がありますが、全体的な恐怖と欲求不満指数は極度の恐怖のままであります。短期のトレンドは横方向にあり、明確な方向性が見られないことを示しています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,12 +1000,12 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.84%",
+        "value": "+0.54%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "77% bullish",
+        "value": "81% bullish",
         "url": "https://www.coingecko.com/en/coins/solana"
       },
       {

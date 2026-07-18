@@ -1,6 +1,6 @@
 {
   "coinId": "cardano",
-  "generatedAt": "2026-07-18T15:00:08.597366Z",
+  "generatedAt": "2026-07-18T16:31:34.030390Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -965,13 +965,13 @@
     }
   ],
   "signal": {
-    "direction": "flat",
-    "changePercent24h": 2.0831,
-    "confidence": 0.9009
+    "direction": "down",
+    "changePercent24h": -1.0562,
+    "confidence": 0.823
   },
   "commentary": {
-    "en": "Cardano's 24-hour direction is predicted to be flat with a 0.3% increase, reflecting a neutral technical stance. The Fear & Greed Index remains in extreme fear territory, while the CoinGecko community remains 95% bullish. Recent news has been dominated by regulatory actions and updates from major crypto players.",
-    "ja": "カードアノの24時間の方向性は、0.3%の増加を予測しており、技術的な立場は中立的であることを示しています。恐怖と欲求不満指数は極度の恐怖の領域にあり、CoinGeckoコミュニティは95％がバ Bullishです。最近のニュースは、主要な暗号通貨プレーヤーからのアップデートと規制行動によって占められています。",
+    "en": "Cardano's short-term trend remains sideways, with a predicted 24h direction of flat and a 24h actual return of +2.00%. The Fear & Greed Index is at 25, indicating extreme fear in the market. The community remains bullish, with 94% of CoinGecko users holding a positive outlook.",
+    "ja": "カードアノの短期トレンドは横方向に動いており、24時間予想の方向はフラット、24時間実際の利回りは+2.00%です。恐怖と欲求不満指数は25、市場は恐怖状態です。コインゲックのコミュニティは、94％のユーザーがポジティブな視点を持っています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,12 +1000,12 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.84%",
+        "value": "+0.54%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "95% bullish",
+        "value": "94% bullish",
         "url": "https://www.coingecko.com/en/coins/cardano"
       },
       {

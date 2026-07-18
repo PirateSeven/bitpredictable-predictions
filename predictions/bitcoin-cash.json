@@ -1,6 +1,6 @@
 {
   "coinId": "bitcoin-cash",
-  "generatedAt": "2026-07-18T15:00:08.597366Z",
+  "generatedAt": "2026-07-18T16:31:34.030390Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -965,13 +965,13 @@
     }
   ],
   "signal": {
-    "direction": "flat",
-    "changePercent24h": -0.0047,
-    "confidence": 0.4236
+    "direction": "up",
+    "changePercent24h": 1.371,
+    "confidence": 0.8756
   },
   "commentary": {
-    "en": "Bitcoin Cash is expected to remain relatively stable with a predicted 24h direction of FLAT, +0.1% due to neutral technical signals and a sideways short-term trend. The Fear & Greed Index indicates extreme fear in the market, but the CoinGecko community remains bullish. Recent news about FTX's distribution of $900M to creditors may have a positive impact on investor sentiment.",
-    "ja": "ビットコインキャッシュは、中立的な技術指標と短期的な横方向の傾向のため、24時間の方向性はFLAT、+0.1％と予想されます。恐怖と欲求不満指数は極度の恐怖を示していますが、コインゲッコーのコミュニティはbullishです。FTXの900万ドルのクレジット支払いに関する最近のニュースは、投資家の意識に肯定的な影響を与える可能性があります。",
+    "en": "Bitcoin Cash's price is expected to remain relatively stable, with a predicted 24h direction of flat, a 0.1% increase in confidence. The recent news of FTX distributing $900M to creditors may have a positive impact on the market, but the overall sentiment remains in extreme fear. The Fear & Greed Index at 25 and the neutral RSI-14 suggest a cautious outlook.",
+    "ja": "ビットコインキャッシュの価格は、予想される24時間方向はフラット、0.1％の増加率で推定される。FTXがcreditorsに$900Mを配布するニュースは市場に肯定的な影響を与える可能性があるが、Fear＆Greed Indexは25、RSI-14は中立的な値を示しているため、慎重な姿勢が必要。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.84%",
+        "value": "+0.54%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {

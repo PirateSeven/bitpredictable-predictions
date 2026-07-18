@@ -1,6 +1,6 @@
 {
   "coinId": "litecoin",
-  "generatedAt": "2026-07-18T15:00:08.597366Z",
+  "generatedAt": "2026-07-18T16:31:34.030390Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -965,13 +965,13 @@
     }
   ],
   "signal": {
-    "direction": "flat",
-    "changePercent24h": 3.4128,
+    "direction": "up",
+    "changePercent24h": 3.1904,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "Litecoin's 24-hour direction is predicted to be flat with a 0.1% increase, but the RSI-14 is overbought at 78. The Fear & Greed Index is at 25, indicating extreme fear in the market. Litecoin's recent price surge may be due to its correlation with the overall crypto market cap.",
-    "ja": "リテコインの24時間予想は、0.1%の増加が予想されるが、RSI-14は78でオーバーボールドである。恐怖と欲求不満指数は25で、市場全体が極度の恐怖を感じている。リテコインの価格上昇は、市場全体の総コインキャップと相関関係に由来する可能性がある。",
+    "en": "Litecoin's 24-hour direction is predicted to be flat with a 0.1% increase, but its RSI-14 is overbought at 78. The Fear & Greed Index remains at extreme fear, and the total crypto market cap has a slight increase of 0.54%. Litecoin's recent news includes Kaspersky's identification of malware targeting crypto investors.",
+    "ja": "リテコインの24時間方向は、0.1%の増加が予測されますが、RSI-14は78でオーバーボールドです。恐怖と欲求不満指数は極度の恐怖のままであり、総暗号資産市場キャップは0.54%の増加です。リテコインの最近のニュースには、Kasperskyが暗号投資家を標的としたマルウェアを発見したというものがあります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,12 +1000,12 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.84%",
+        "value": "+0.54%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "87% bullish",
+        "value": "84% bullish",
         "url": "https://www.coingecko.com/en/coins/litecoin"
       },
       {

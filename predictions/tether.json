@@ -1,6 +1,6 @@
 {
   "coinId": "tether",
-  "generatedAt": "2026-07-18T15:00:08.597366Z",
+  "generatedAt": "2026-07-18T16:31:34.030390Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.0124,
+    "changePercent24h": -0.0194,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "Tether's flat direction is expected with a 95% confidence level, as the RSI-14 and Bollinger Band %B indicate a neutral position. The Fear & Greed Index at Extreme Fear and the recent news on regulatory actions may influence market sentiment. However, the overall market context remains relatively stable.",
-    "ja": "テザーの方向は、95％の信頼度でフラットと予想される。RSI-14とボリンジャー・バンド %Bは中立的な位置を示しており、恐怖と欲求不満指数が極度の恐怖にあり、最近のニュースでは規制行動が市場の感情に影響を与える可能性がある。総市場状況は比較的安定している。",
+    "en": "Tether's flat direction is confirmed by technical signals, with a 95% confidence level. The Fear & Greed Index remains in extreme fear, and the total crypto market cap shows a slight increase. However, recent news about malware and regulatory actions may impact investor sentiment.",
+    "ja": "テザーの方向性は、95％の確率でフラットであることを技術指標が裏付けています。恐怖と欲求不満指数は極度の恐怖の状態にあり、総暗号資産市場の総額は僅かに増加しています。ただし、最近のニュースでマルウェアや規制の動きは投資家の感情に影響を与える可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,12 +1000,12 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.84%",
+        "value": "+0.54%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "42% bullish",
+        "value": "46% bullish",
         "url": "https://www.coingecko.com/en/coins/tether"
       },
       {

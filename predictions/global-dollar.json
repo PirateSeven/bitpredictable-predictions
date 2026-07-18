@@ -1,6 +1,6 @@
 {
   "coinId": "global-dollar",
-  "generatedAt": "2026-07-18T15:00:08.597366Z",
+  "generatedAt": "2026-07-18T16:31:34.030390Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.2335,
-    "confidence": 0.8753
+    "changePercent24h": -0.1096,
+    "confidence": 0.8323
   },
   "commentary": {
-    "en": "The Global Dollar (GLOBAL-DOLLAR) is predicted to remain flat with a 0.0% return in the next 24 hours, with a confidence level of 82%. The current market sentiment is extreme fear, as indicated by the Fear & Greed Index of 25. The recent news on FTX's distribution of $900M to creditors may have a neutral impact on the Global Dollar's price.",
-    "ja": "グローバル・ドル（GLOBAL-DOLLAR）は、次の24時間で0.0％のリターンで平坦になる予測されており、信頼度は82％です。現在の市場感情は、恐怖指数が25であるため、極度の恐怖です。FTXによる900万ドルのcreditorsへの配布に関する最近のニュースは、グローバル・ドルの価格に中立的な影響を与える可能性があります。",
+    "en": "The model predicts Global Dollar will trade sideways over the next 24 hours with high confidence (82%). Price moved -0.31% in the past 24 hours with volume at 1.0× average. Community sentiment on CoinGecko is 33% bullish and the Fear & Greed Index reads \"Extreme Fear\" (25), aligning with the model's forecast.",
+    "ja": "モデルはGlobal Dollarが今後24時間で横ばいで推移すると予測しています（信頼度: 高い 82%）。過去24時間のリターンは-0.31%、出来高は平均の1.0倍です。CoinGeckoコミュニティでは33%が強気を示し、Fear & Greed指数は「Extreme Fear」（25）です。予測と方向性が一致しています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,12 +1000,12 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.84%",
+        "value": "+0.54%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "0% bullish",
+        "value": "33% bullish",
         "url": "https://www.coingecko.com/en/coins/global-dollar"
       },
       {

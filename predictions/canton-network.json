@@ -1,6 +1,6 @@
 {
   "coinId": "canton-network",
-  "generatedAt": "2026-07-18T15:00:08.597366Z",
+  "generatedAt": "2026-07-18T16:31:34.030390Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -965,13 +965,13 @@
     }
   ],
   "signal": {
-    "direction": "flat",
-    "changePercent24h": -5.1838,
-    "confidence": 0.942
+    "direction": "down",
+    "changePercent24h": -2.9651,
+    "confidence": 0.902
   },
   "commentary": {
-    "en": "Canton's flat 24-hour direction prediction with a 10% confidence level is based on its neutral RSI-14 and lower Bollinger Band %B. The recent news and market context, including the Extreme Fear Fear & Greed Index and the slight increase in the total crypto market cap, may influence the market's sentiment. However, the downtrend in the short-term trend and the negative 24h actual return indicate potential volatility.",
-    "ja": "キャントン・ネットワークの24時間予測は、10％の信頼度でフラットである。中立的なRSI-14と下方のボリンジャー・バンド％Bに基づいています。最近のニュースやマーケット・コンテキスト、特に極度の恐怖のFear & Greed Indexと総暗号資産マーケットキャップの微妙な増加は、市場の気分を影響する可能性があります。ただし、短期的なトレンドの下降と24時間実際のリターンの負の値は、不安定性の可能性を示しています。",
+    "en": "Canton's price is expected to remain flat with a slight decrease of -0.1% in the next 24 hours, based on technical signals. The current market context suggests a mix of fear and uncertainty, with the Fear & Greed Index at 25 and the total crypto market cap experiencing a minor increase. Recent news has been dominated by regulatory actions and security concerns.",
+    "ja": "カントン ネットワークの価格は、技術指標に基づいて次の24時間に-0.1%の小幅な減少を予測しています。現在の市場状況は、恐怖と不確実性の混在を示しており、Fear & Greed Indexは25で、総暗号資産市場キャップは小幅な増加を経験しています。最近のニュースは、規制措置とセキュリティ懸念に占められています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.84%",
+        "value": "+0.54%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
