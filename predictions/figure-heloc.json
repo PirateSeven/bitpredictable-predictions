@@ -1,6 +1,6 @@
 {
   "coinId": "figure-heloc",
-  "generatedAt": "2026-07-19T15:00:07.682426Z",
+  "generatedAt": "2026-07-19T21:00:08.488006Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -965,13 +965,13 @@
     }
   ],
   "signal": {
-    "direction": "flat",
-    "changePercent24h": -0.2587,
+    "direction": "down",
+    "changePercent24h": -0.7755,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "Figure Heloc is predicted to be flat with a 95% confidence level, as the RSI-14 is overbought and the short-term trend is sideways. The recent news about stablecoin rules and regulatory sanctions may have a limited impact on the market, but the overall fear sentiment remains high. The low volume ratio and mid-band Bollinger Band %B suggest a potential consolidation.",
-    "ja": "Figure Heloc は、RSI-14 がオーバーボールド、短期トレンドが横方向に動いていることから、95% の確率でフラットと予想されます。安定コインの規制と規制処分に関する最近のニュースは、市場に限りなく影響を与える可能性はあるものの、全体的な恐怖感は高まっています。低いボリュームレシオと中間のボリンジャー バンド %B は、潜在的な収縮を示唆しています。",
+    "en": "Figure Heloc (FIGURE-HELOC) is expected to remain flat in the next 24 hours with a predicted return of -0.0%, as the RSI-14 is overbought and the short-term trend is sideways. The recent news on stablecoin rules and regulatory sanctions may have a limited impact on the token's price. The low volume ratio and fear in the market also support a neutral outlook.",
+    "ja": "Figure Heloc (FIGURE-HELOC) は、次の24時間に-0.0%の予想リターンでフラットに推移する可能性があり、RSI-14がオーバーボールドで短期傾向が横方向に推移しているためです。安定コインの規制と規制処分に関する最近のニュースは、トークンの価格に限られた影響を与える可能性があります。低いボリュームレシオと市場の恐怖も中立的な展開を支持しています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,8 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.77%",
+        "value": "-0.15%",
         "url": "https://www.coingecko.com/en/global-charts"
-      },
-      {
-        "label": "CoinGecko Community Sentiment",
-        "value": "0% bullish",
-        "url": "https://www.coingecko.com/en/coins/figure-heloc"
       },
       {
         "label": "CoinTelegraph",
@@ -1015,13 +1010,13 @@
       },
       {
         "label": "CoinTelegraph",
-        "value": "US agencies miss GENIUS Act deadline for final stablecoin rules",
-        "url": "https://cointelegraph.com/news/federal-agencies-miss-genius-act-deadline?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        "value": "Saylor turns up heat with ‘110 reasons’ why BIP-110 is a bad idea",
+        "url": "https://cointelegraph.com/news/saylor-turns-up-heat-with-110-reasons-why-bip-110-is-a-bad-idea?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       },
       {
         "label": "CoinTelegraph",
-        "value": "Upbit parent Dunamu faces South Korean regulator sanctions process: Report",
-        "url": "https://cointelegraph.com/news/south-korean-regulator-inspection-letter-upbit-36m-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        "value": "US agencies miss GENIUS Act deadline for final stablecoin rules",
+        "url": "https://cointelegraph.com/news/federal-agencies-miss-genius-act-deadline?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       }
     ]
   }
