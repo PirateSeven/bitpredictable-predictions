@@ -1,25 +1,25 @@
 {
   "agentVersion": "crypto-ace-1.0.0",
-  "updatedAt": "2026-07-19T13:57:19.740361+00:00",
+  "updatedAt": "2026-07-19T14:15:31.071237+00:00",
   "exchange": "Binance Testnet",
   "currency": "BNB",
   "initialCapital": 1.0,
-  "currentValue": 0.971997,
+  "currentValue": 0.972479,
   "performance": {
-    "totalReturnPct": -2.8,
-    "totalTrades": 22,
-    "winRate": 0.3636,
+    "totalReturnPct": -2.75,
+    "totalTrades": 23,
+    "winRate": 0.3913,
     "maxDrawdownPct": 2.84,
-    "sharpeRatio": -7.96,
+    "sharpeRatio": -7.58,
     "startDate": "2026-06-17T19:27:34.575587+00:00"
   },
   "weeklyStats": {
-    "wins": 1,
+    "wins": 2,
     "losses": 1,
-    "winRate": 0.5,
+    "winRate": 0.6667,
     "comment": {
-      "en": "Balanced week. 2 trades. Mixed signals but risk management held firm.",
-      "ja": "\u5747\u8861\u3057\u305f\u9031\u30022\u53d6\u5f15\u3002\u30b7\u30b0\u30ca\u30eb\u306f\u6df7\u5728\u3057\u307e\u3057\u305f\u304c\u30ea\u30b9\u30af\u7ba1\u7406\u304c\u6a5f\u80fd\u3057\u307e\u3057\u305f\u3002"
+      "en": "Balanced week. 3 trades. Mixed signals but risk management held firm.",
+      "ja": "\u5747\u8861\u3057\u305f\u9031\u30023\u53d6\u5f15\u3002\u30b7\u30b0\u30ca\u30eb\u306f\u6df7\u5728\u3057\u307e\u3057\u305f\u304c\u30ea\u30b9\u30af\u7ba1\u7406\u304c\u6a5f\u80fd\u3057\u307e\u3057\u305f\u3002"
     }
   },
   "bestTrade": {
@@ -30,19 +30,10 @@
     "time": "2026-07-19T13:57:19.733328+00:00"
   },
   "currentStreak": {
-    "count": 1,
+    "count": 2,
     "type": "win"
   },
   "currentPositions": [
-    {
-      "coin": "litecoin",
-      "symbol": "LTC",
-      "direction": "long",
-      "entryPrice": 0.0825,
-      "entryTime": "2026-07-18T23:27:17.876787+00:00",
-      "sizeBtc": 0.066336,
-      "unrealizedPnlPct": 0.0
-    },
     {
       "coin": "polkadot",
       "symbol": "DOT",
@@ -168,9 +159,30 @@
       "time": "2026-07-19T13:57:19.733328+00:00",
       "value": 0.971997,
       "benchmarkBtc": 1.043572
+    },
+    {
+      "time": "2026-07-19T14:15:31.064134+00:00",
+      "value": 0.972479,
+      "benchmarkBtc": 1.043572
     }
   ],
   "recentTrades": [
+    {
+      "id": "b48e1c17",
+      "coin": "litecoin",
+      "symbol": "LTC",
+      "action": "sell",
+      "price": 0.0831,
+      "sizeBtc": 0.066336,
+      "time": "2026-07-19T14:15:31.064134+00:00",
+      "pnlBtc": 0.000482,
+      "pnlPct": 0.73,
+      "signal": {
+        "direction": "up",
+        "changePercent24h": 4.4233,
+        "confidence": 0.95
+      }
+    },
     {
       "id": "b6becfef",
       "coin": "litecoin",
@@ -309,22 +321,6 @@
       "time": "2026-07-02T10:39:46.664981+00:00",
       "pnlBtc": 0.001521,
       "pnlPct": 2.9,
-      "signal": {
-        "direction": "flat",
-        "changePercent24h": 1.0964236812140322,
-        "confidence": 0.6892
-      }
-    },
-    {
-      "id": "84139835",
-      "coin": "solana",
-      "symbol": "SOL",
-      "action": "sell",
-      "price": 0.1434,
-      "sizeBtc": 0.052411,
-      "time": "2026-07-02T09:34:37.139565+00:00",
-      "pnlBtc": 0.000779,
-      "pnlPct": 1.49,
       "signal": {
         "direction": "flat",
         "changePercent24h": 1.0964236812140322,
