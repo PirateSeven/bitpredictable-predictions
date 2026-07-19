@@ -1,6 +1,6 @@
 {
   "coinId": "hashnote-usyc",
-  "generatedAt": "2026-07-19T09:00:08.414732Z",
+  "generatedAt": "2026-07-19T15:00:07.682426Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 0.0207,
+    "changePercent24h": 0.011,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "Circle USYC (HASHNOTE-USYC) is expected to remain flat with a 95% confidence level, as the RSI-14 is overbought and the Bollinger Band %B is near the upper band. The recent news about FTX's payment distribution and the overall fear in the market may have a limited impact on HASHNOTE-USYC's price movement. The low volume ratio and sideways short-term trend also support the flat prediction.",
-    "ja": "HASHNOTE-USYCは95％の確信度で、RSI-14がオーバーボールド、ボリンジャーバンド％Bが上限近くにあり、flatに推測される。FTXの支払い分配や市場全体の恐怖がHASHNOTE-USYCの価格動向に限界の影響を与える可能性がある。低いボリューム比率と短期的な横方向の傾向もflatの予測を裏付ける。",
+    "en": "Circle USYC (HASHNOTE-USYC) is expected to remain flat with a 24-hour direction of -0.0% due to its overbought RSI-14 reading of 84 and low volume ratio of 0.0x average. The recent news on stablecoin rules and regulatory sanctions may have a limited impact on the market. The overall fear sentiment in the crypto market, as indicated by the Fear & Greed Index of 28, may also contribute to the sideways trend.",
+    "ja": "Circle USYC (HASHNOTE-USYC) は、RSI-14 のオーバーボール値 84 と低いボリュームレシオ 0.0x の平均値の影響により、24 時間方向が -0.0% のままである可能性があります。安定コイン規制と規制処分に関する最近のニュースは市場に限られた影響を与える可能性があります。Fear & Greed Index が 28 の恐怖の感情が広がっていることも、横方向のトレンドに寄与する可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.99%",
+        "value": "+0.77%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
@@ -1010,13 +1010,13 @@
       },
       {
         "label": "CoinTelegraph",
-        "value": "Kaspersky identifies malware framework targeting crypto investors",
-        "url": "https://cointelegraph.com/news/kaspersky-malware-framework-crypto-investors?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        "value": "US agencies miss GENIUS Act deadline for final stablecoin rules",
+        "url": "https://cointelegraph.com/news/federal-agencies-miss-genius-act-deadline?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       },
       {
         "label": "CoinTelegraph",
-        "value": "French gambling regulator orders ISPs to block Polymarket",
-        "url": "https://cointelegraph.com/news/french-gambling-authority-blocks-polymarket?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        "value": "Upbit parent Dunamu faces South Korean regulator sanctions process: Report",
+        "url": "https://cointelegraph.com/news/south-korean-regulator-inspection-letter-upbit-36m-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       }
     ]
   }
