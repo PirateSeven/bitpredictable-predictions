@@ -1,6 +1,6 @@
 {
   "coinId": "hashnote-usyc",
-  "generatedAt": "2026-07-18T21:00:08.008590Z",
+  "generatedAt": "2026-07-19T03:00:08.327773Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,16 +966,16 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 0.0102,
+    "changePercent24h": 0.0132,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "Circle USYC (HASHNOTE-USYC) is expected to remain flat in the next 24 hours with a 0.0% return, based on technical signals. The asset's RSI-14 is overbought, and the Bollinger Band %B is near the upper band, indicating potential price correction. The low volume ratio and sideways short-term trend also support a flat prediction.",
-    "ja": "Circle USYC (HASHNOTE-USYC) は、次の24時間に0.0%のリターンでフラットとなる可能性があります。技術指標から見ると、RSI-14はオーバーボールド、ボリンジャー・バンド %Bは上限に近いことから、価格の修正が起こる可能性があります。低いボリューム・レシオと短期の横方向のトレンドもフラットの予測を裏付けています。",
+    "en": "Circle USYC (HASHNOTE-USYC) is expected to remain flat in the next 24 hours with a 0.0% predicted return due to its overbought condition and low volume ratio. The Fear & Greed Index is currently at 28, indicating a fearful market sentiment. The recent news on FTX's creditor distribution and Polymarket's blockage may have a limited impact on HASHNOTE-USYC's price.",
+    "ja": "Circle USYC (HASHNOTE-USYC) は、次の24時間で0.0％の予想上昇率でフラットになる可能性があり、オーバーボールド状態と低いボリューム比率によりそうである。Fear & Greed Indexは28、恐怖の市場感情を示している。FTXの債権者への分配とポリマーケットのブロックに関する最近のニュースは、HASHNOTE-USYCの価格に限られた影響を与える可能性がある。",
     "sources": [
       {
         "label": "Fear & Greed Index",
-        "value": "25 — Extreme Fear",
+        "value": "28 — Fear",
         "url": "https://alternative.me/crypto/fear-and-greed-index/"
       },
       {
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+0.58%",
+        "value": "+1.12%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
