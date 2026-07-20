@@ -1,6 +1,6 @@
 {
   "coinId": "hashnote-usyc",
-  "generatedAt": "2026-07-20T09:00:07.250470Z",
+  "generatedAt": "2026-07-20T15:00:08.237011Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.0806,
+    "changePercent24h": -0.0511,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "Circle USYC (HASHNOTE-USYC) is expected to remain flat in the next 24 hours with a predicted return of -0.0% due to its oversold RSI-14 and low volume ratio. The recent news on CBDC pilot in South Korea and other market developments may have a limited impact on HASHNOTE-USYC's short-term price movement. Overall, the market sentiment remains fearful.",
-    "ja": "Circle USYC (HASHNOTE-USYC) は、次の24時間に-0.0%の予想リターンでフラットに維持される可能性があり、RSI-14がオーバーサールドで、ボリュームレシオが低いことから。CBDCの実験のニュースや他の市場の動向は、短期的な価格動向に限り影響を与える可能性が低い。市場全体の感覚は恐れに包まれている。",
+    "en": "Circle USYC's 24-hour direction is predicted to be flat with a 95% confidence level, as the RSI-14 is oversold and the Bollinger Band %B is near the lower band. The low volume ratio and sideways short-term trend also support this prediction. However, the Fear & Greed Index remains in the fear zone, which may impact the overall market sentiment.",
+    "ja": "Circle USYCの24時間の方向は、95%の確率でフラットと予想され、RSI-14がオーバーサールド、ボリンジャーバンド %Bが下方バンドに近いことから。 低いボリューム比率と短期的な傾向もこの予想を裏付ける。 しかし、Fear & Greed Indexは恐怖のゾーンにあり、全体的な市場の気分を影響する可能性がある。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,7 +1000,7 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-0.83%",
+        "value": "-0.41%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
@@ -1010,8 +1010,8 @@
       },
       {
         "label": "CoinTelegraph",
-        "value": "South Korea eyes September launch for second phase of CBDC pilot: Report",
-        "url": "https://cointelegraph.com/news/south-korea-september-second-phase-cbdc-pilot?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        "value": "Peter Brandt predicts the exact day Bitcoin’s bear market will be over",
+        "url": "https://cointelegraph.com/magazine/peter-brandt-says-bitcoins-bear-market-isnt-over-predicts-final-bottom-in-october?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       },
       {
         "label": "CoinTelegraph",
@@ -1020,8 +1020,8 @@
       },
       {
         "label": "CoinTelegraph",
-        "value": "Cardano activates van Rossem hard fork",
-        "url": "https://cointelegraph.com/news/cardano-activates-van-rossem-hard-fork-paving-way-for-leios?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        "value": "Strategy raises $263.5M through MSTR sales, holds 843,775 Bitcoin",
+        "url": "https://cointelegraph.com/news/strategy-263-5-million-mstr-raise-holds-843775-bitcoin?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       }
     ]
   }
