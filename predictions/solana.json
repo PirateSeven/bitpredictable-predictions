@@ -1,6 +1,6 @@
 {
   "coinId": "solana",
-  "generatedAt": "2026-07-21T20:23:21.784692Z",
+  "generatedAt": "2026-07-21T20:32:18.335639Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "up",
-    "changePercent24h": 1.1811,
-    "confidence": 0.8377
+    "changePercent24h": 2.2453,
+    "confidence": 0.9069
   },
   "commentary": {
-    "en": "Solana's short-term trend remains sideways, with a 24-hour return of +0.32% and a neutral RSI-14 reading. The Fear & Greed Index at 25 indicates extreme fear, while the CoinGecko community remains 78% bullish. With the market context showing a +1.20% total crypto market cap change and a +1.92% BTC return, Solana's flat direction prediction holds some confidence.",
-    "ja": "ソラナの短期トレンドは横方向に推移しており、24時間のリターンは+0.32%、RSI-14の読みは中立的なものとなっています。Fear & Greed Indexは25で極度の恐怖を示しており、CoinGeckoコミュニティは78％がバ Bullishです。総暗号資産市場キャップの24時間変化は+1.20%、BTCの24時間リターンは+1.92%と推移しており、ソラナのフラット方向予測にはある程度の信頼性があります。",
+    "en": "Solana's (SOL) 24-hour return is +0.32%, with a predicted flat direction and a neutral RSI-14 reading of 49. The market context suggests a cautious sentiment, with the Fear & Greed Index at 25 and a 24-hour total crypto market cap increase of +1.22%.",
+    "ja": "ソラナ（SOL）の24時間リターンは+0.32％、予想はフラットで、RSI-14の値は49のニュートラルです。マーケットコンテキストでは、恐怖と欲求不満指数が25、24時間の総暗号通貨マーケットキャップの増加率は+1.22％と、慎重な気分です。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+1.20%",
+        "value": "+1.22%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "78% bullish",
         "url": "https://www.coingecko.com/en/coins/solana"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Ether breaks the $1.9K resistance; is $2.1K the next target for ETH bulls?",
+        "url": "https://cointelegraph.com/markets/ether-breaks-the-1900-resistance-is-2100-the-next-target-for-eth-bulls?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Pakistan steps up crypto enforcement with dedicated federal unit",
         "url": "https://cointelegraph.com/news/pakistan-crypto-enforcement-dedicated-unit-crimes?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Pavel Durov says Telegram to roll out native Gram crypto wallet",
-        "url": "https://cointelegraph.com/news/telegram-launch-native-self-custody-gram-wallet-for-over-1-billion-users-durov?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "coinId": "bitcoin-cash",
-  "generatedAt": "2026-07-21T20:23:21.784692Z",
+  "generatedAt": "2026-07-21T20:32:18.335639Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "up",
-    "changePercent24h": 3.039,
-    "confidence": 0.9138
+    "changePercent24h": 4.9064,
+    "confidence": 0.945
   },
   "commentary": {
-    "en": "Bitcoin Cash is expected to trade flat with a minor decline of -0.2% in the next 24 hours, according to technical signals. The recent news on AI trade cooling and the White House agreeing to ethics provisions in the market structure bill may have a positive impact on the crypto market. However, the Fear & Greed Index remains in extreme fear territory.",
-    "ja": "ビットコインキャッシュは、技術指標に基づくと、次の24時間で-0.2%の小幅な下落が予想されます。AI取引の冷却と市場構造法案の倫理規制への賛成など、最近のニュースは暗号市場にpositiveな影響を与える可能性がありますが、恐怖と欲求不満指数は極度の恐怖の領域にあります。",
+    "en": "The model predicts Bitcoin Cash will trade sideways over the next 24 hours with low confidence (42%). Price moved +2.87% in the past 24 hours with volume at 1.0× average. Community sentiment on CoinGecko is 67% bullish and the Fear & Greed Index reads \"Extreme Fear\" (25), diverging from the model's forecast, adding uncertainty.",
+    "ja": "モデルはBitcoin Cashが今後24時間で横ばいで推移すると予測しています（信頼度: 低い 42%）。過去24時間のリターンは+2.87%、出来高は平均の1.0倍です。CoinGeckoコミュニティでは67%が強気を示し、Fear & Greed指数は「Extreme Fear」（25）です。予測方向と乖離があり、不確実性が高まっています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+1.20%",
+        "value": "+1.22%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "67% bullish",
         "url": "https://www.coingecko.com/en/coins/bitcoin-cash"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Ether breaks the $1.9K resistance; is $2.1K the next target for ETH bulls?",
+        "url": "https://cointelegraph.com/markets/ether-breaks-the-1900-resistance-is-2100-the-next-target-for-eth-bulls?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Pakistan steps up crypto enforcement with dedicated federal unit",
         "url": "https://cointelegraph.com/news/pakistan-crypto-enforcement-dedicated-unit-crimes?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Pavel Durov says Telegram to roll out native Gram crypto wallet",
-        "url": "https://cointelegraph.com/news/telegram-launch-native-self-custody-gram-wallet-for-over-1-billion-users-durov?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "coinId": "tether-gold",
-  "generatedAt": "2026-07-21T20:23:21.784692Z",
+  "generatedAt": "2026-07-21T20:32:18.335639Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "up",
-    "changePercent24h": 0.8344,
-    "confidence": 0.9226
+    "changePercent24h": 1.1507,
+    "confidence": 0.94
   },
   "commentary": {
-    "en": "Tether Gold (TETHER-GOLD) is expected to remain flat in the next 24 hours with a confidence level of 76%. The current technical signals indicate a neutral RSI-14 reading and a position near the upper Bollinger Band. The recent news and market context suggest a cautious sentiment in the crypto market.",
-    "ja": "Tether Gold (TETHER-GOLD) は、来る24時間にフラットの動きが予想される。信頼度は76％。RSI-14は中立的な値域にあり、ボリンジャー・バンドの上部に位置している。最近のニュースとマーケット・コンテキストから、暗号マーケットの慎重な意識が示唆される。",
+    "en": "Tether Gold is expected to remain flat in the next 24 hours with a confidence level of 76%. The recent price movement is in line with the overall crypto market, which saw a 1.22% increase in the total market cap. However, the Fear & Greed Index remains in the extreme fear zone.",
+    "ja": "Tether Goldは来る24時間で0.0%の変動が予想され、信頼度は76%です。価格の変動は総市場規模の1.22%の増加に沿っていますが、Fear & Greed Indexは極度の恐怖の状態にあります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,8 +1000,13 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+1.20%",
+        "value": "+1.22%",
         "url": "https://www.coingecko.com/en/global-charts"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Ether breaks the $1.9K resistance; is $2.1K the next target for ETH bulls?",
+        "url": "https://cointelegraph.com/markets/ether-breaks-the-1900-resistance-is-2100-the-next-target-for-eth-bulls?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       },
       {
         "label": "CoinTelegraph",
@@ -1012,11 +1017,6 @@
         "label": "CoinTelegraph",
         "value": "Pakistan steps up crypto enforcement with dedicated federal unit",
         "url": "https://cointelegraph.com/news/pakistan-crypto-enforcement-dedicated-unit-crimes?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Pavel Durov says Telegram to roll out native Gram crypto wallet",
-        "url": "https://cointelegraph.com/news/telegram-launch-native-self-custody-gram-wallet-for-over-1-billion-users-durov?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       }
     ]
   }

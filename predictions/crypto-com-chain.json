@@ -1,6 +1,6 @@
 {
   "coinId": "crypto-com-chain",
-  "generatedAt": "2026-07-21T20:23:21.784692Z",
+  "generatedAt": "2026-07-21T20:32:18.335639Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "up",
-    "changePercent24h": 2.333,
-    "confidence": 0.9256
+    "changePercent24h": 3.8031,
+    "confidence": 0.95
   },
   "commentary": {
-    "en": "Cronos is expected to trade flat with a slight decline of -0.2% in the next 24 hours, based on technical signals. The Fear & Greed Index is at an extreme fear level, which may impact investor sentiment. The recent news on AI trade cooling and potential market breakout could influence the crypto market.",
-    "ja": "Cronos は、技術的シグナルに基づくと、来る24時間で-0.2%の小幅な下落が予想されます。恐怖と欲求不満指数は極度の恐怖のレベルにあり、これが投資家の感情に影響を与える可能性があります。AI取引の冷却と市場ブレイクアウトの可能性に関する最近のニュースは、暗号市場に影響を与える可能性があります。",
+    "en": "Cronos's 24h direction is predicted to be flat with a -0.2% change, indicating a neutral sentiment. The recent news of Ether breaking the $1.9K resistance and the overall crypto market's positive 24h change may influence Cronos's price. However, the Fear & Greed Index remains in Extreme Fear, suggesting caution.",
+    "ja": "Cronosの24時間の予測は、-0.2％の変化でフラットであることを示しています。エーテルの$1.9Kの抵抗を破ったニュースや、総cryptoマーケットの24時間の変化がCronosの価格に影響を与える可能性があります。ただし、Fear & Greed Indexはエクストリーム フィアにあり、注意が必要です。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+1.20%",
+        "value": "+1.22%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "75% bullish",
         "url": "https://www.coingecko.com/en/coins/crypto-com-chain"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Ether breaks the $1.9K resistance; is $2.1K the next target for ETH bulls?",
+        "url": "https://cointelegraph.com/markets/ether-breaks-the-1900-resistance-is-2100-the-next-target-for-eth-bulls?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Pakistan steps up crypto enforcement with dedicated federal unit",
         "url": "https://cointelegraph.com/news/pakistan-crypto-enforcement-dedicated-unit-crimes?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Pavel Durov says Telegram to roll out native Gram crypto wallet",
-        "url": "https://cointelegraph.com/news/telegram-launch-native-self-custody-gram-wallet-for-over-1-billion-users-durov?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       }
     ]
   }

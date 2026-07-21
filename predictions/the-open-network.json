@@ -1,6 +1,6 @@
 {
   "coinId": "the-open-network",
-  "generatedAt": "2026-07-21T20:23:21.784692Z",
+  "generatedAt": "2026-07-21T20:32:18.335639Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "up",
-    "changePercent24h": 4.6241,
-    "confidence": 0.9277
+    "changePercent24h": 7.2095,
+    "confidence": 0.95
   },
   "commentary": {
-    "en": "Gram (prev. Toncoin) (THE-OPEN-NETWORK) is experiencing a short-term uptrend, but with an overbought RSI-14 and high volume ratio, a potential correction is possible. The recent news about crypto market breakout and AI trade cooling may have a positive impact on THE-OPEN-NETWORK's price. However, the Fear & Greed Index remains in Extreme Fear, indicating a cautious outlook.",
-    "ja": "THE-OPEN-NETWORKは短期的な上昇傾向にあるが、オーバーボールドRSI-14と高いボリューム比率により、価格の下落が起こり得る。最近のニュースで、暗号通貨市場のブレイクアウトとAI取引の冷却により、THE-OPEN-NETWORKの価格にプラスの影響を与える可能性がある。しかし、Fear & Greed Indexはエクストリーム・フィアにあり、慎重な姿勢を示している。",
+    "en": "Gram (prev. Toncoin) (THE-OPEN-NETWORK) is expected to experience a flat 24-hour direction with a slight decline of -0.1% due to its overbought condition. The recent surge in price has pushed the RSI-14 to 73, and the Bollinger Band %B is at 0.95, indicating a potential reversal. The short-term trend remains in an uptrend, but the high volume ratio and extreme fear in the market may lead to a correction.",
+    "ja": "THE-OPEN-NETWORKは、過剰売れすぎた状態から来る可能性のある、24時間間の方向性はフラットで-0.1%の下落が見込まれる。RSI-14は73に達し、ボリンジャー・バンドの%Bは0.95に達しており、反転の可能性が高い。短期のトレンドは上昇中であるが、高いボリューム・レシオと極度の恐怖感は、調整を引き起こす可能性がある。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+1.20%",
+        "value": "+1.22%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "32% bullish",
         "url": "https://www.coingecko.com/en/coins/the-open-network"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Ether breaks the $1.9K resistance; is $2.1K the next target for ETH bulls?",
+        "url": "https://cointelegraph.com/markets/ether-breaks-the-1900-resistance-is-2100-the-next-target-for-eth-bulls?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Pakistan steps up crypto enforcement with dedicated federal unit",
         "url": "https://cointelegraph.com/news/pakistan-crypto-enforcement-dedicated-unit-crimes?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Pavel Durov says Telegram to roll out native Gram crypto wallet",
-        "url": "https://cointelegraph.com/news/telegram-launch-native-self-custody-gram-wallet-for-over-1-billion-users-durov?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       }
     ]
   }

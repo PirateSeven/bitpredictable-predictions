@@ -1,6 +1,6 @@
 {
   "coinId": "usd1-wlfi",
-  "generatedAt": "2026-07-21T20:23:21.784692Z",
+  "generatedAt": "2026-07-21T20:32:18.335639Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 0.0243,
+    "changePercent24h": 0.041,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "USD1-WLFI is expected to remain flat with a 95% confidence level, as its RSI-14 and Bollinger Band %B indicate neutral conditions. The recent news and market context, including the Fear & Greed Index and Total crypto market cap 24h change, suggest a cautious outlook. The short-term trend and volume ratio also support a sideways movement.",
-    "ja": "USD1-WLFIは95％の確率でフラットの動きが予想され、RSI-14とボリンジャーバンド％Bは中立的な条件を示しています。最近のニュースとマーケットコンテキスト、恐怖と欲求不満指数と総暗号資産マーケットキャップ24時間変化は、慎重な姿勢を示しています。短期傾向とボリュームレシオも横方向の動きを支持しています。",
+    "en": "USD1-WLFI is expected to remain flat with a 0.0% return in the next 24 hours, based on technical signals. The Fear & Greed Index is at 25, indicating extreme fear in the market. Recent news on AI trade cooling and crypto market breakout could influence WLFI's price movement.",
+    "ja": "USD1-WLFIは、技術指標に基づいて次の24時間で0.0％のリターンを維持する可能性があります。恐怖と欲求不満指数は25で、市場は極度の恐怖状態です。AI取引の冷却や暗号通貨市場ブレイクアウトに関する最近のニュースはWLFIの価格動向に影響を与える可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+1.20%",
+        "value": "+1.22%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "0% bullish",
         "url": "https://www.coingecko.com/en/coins/usd1-wlfi"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Ether breaks the $1.9K resistance; is $2.1K the next target for ETH bulls?",
+        "url": "https://cointelegraph.com/markets/ether-breaks-the-1900-resistance-is-2100-the-next-target-for-eth-bulls?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Pakistan steps up crypto enforcement with dedicated federal unit",
         "url": "https://cointelegraph.com/news/pakistan-crypto-enforcement-dedicated-unit-crimes?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Pavel Durov says Telegram to roll out native Gram crypto wallet",
-        "url": "https://cointelegraph.com/news/telegram-launch-native-self-custody-gram-wallet-for-over-1-billion-users-durov?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "coinId": "whitebit",
-  "generatedAt": "2026-07-21T20:23:21.784692Z",
+  "generatedAt": "2026-07-21T20:32:18.335639Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "up",
-    "changePercent24h": 1.8732,
-    "confidence": 0.9139
+    "changePercent24h": 2.918,
+    "confidence": 0.9423
   },
   "commentary": {
-    "en": "WhiteBIT Coin's 24-hour direction is predicted to be flat with a -0.1% return, indicating a neutral sentiment. The Fear & Greed Index is at 25, reflecting extreme fear in the market. The recent news on crypto enforcement and market structure bill may have a mixed impact on WhiteBIT Coin's price.",
-    "ja": "ホワイトビットの24時間予想は、-0.1%のリターンでフラットであることを示しています。恐怖と欲求不満指数は25で、市場は極度の恐怖を示しています。最近のニュースで、暗号資産の規制強化と市場構造法案がホワイトビットの価格に混乱をもたらす可能性があります。",
+    "en": "WhiteBIT Coin's predicted 24h direction is flat with a confidence of 47%, indicating a neutral short-term outlook. The recent 1.84% increase in 24h actual return is somewhat offset by the sideways short-term trend and the Fear & Greed Index's extreme fear level. The overall market context suggests a cautious approach.",
+    "ja": "ホワイトビットの24時間予想は、47％の確信度でフラットであるため、短期的な展開は中立的であると考えられます。24時間実際のリターンは1.84％増加したものの、短期的な傾向は横方向で推移しており、恐怖と欲求の指数が極度の恐怖レベルであるため、慎重なアプローチが必要です。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+1.20%",
+        "value": "+1.22%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "25% bullish",
         "url": "https://www.coingecko.com/en/coins/whitebit"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Ether breaks the $1.9K resistance; is $2.1K the next target for ETH bulls?",
+        "url": "https://cointelegraph.com/markets/ether-breaks-the-1900-resistance-is-2100-the-next-target-for-eth-bulls?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Pakistan steps up crypto enforcement with dedicated federal unit",
         "url": "https://cointelegraph.com/news/pakistan-crypto-enforcement-dedicated-unit-crimes?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Pavel Durov says Telegram to roll out native Gram crypto wallet",
-        "url": "https://cointelegraph.com/news/telegram-launch-native-self-custody-gram-wallet-for-over-1-billion-users-durov?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "coinId": "paypal-usd",
-  "generatedAt": "2026-07-21T20:23:21.784692Z",
+  "generatedAt": "2026-07-21T20:32:18.335639Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.0029,
+    "changePercent24h": 0.0151,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "PayPal USD is expected to remain flat in the next 24 hours with a 95% confidence level. The current market context, including the Fear & Greed Index and Total crypto market cap, suggests a cautious sentiment. The recent news about crypto market developments and regulations may have a limited impact on PayPal USD.",
-    "ja": "PayPal USDは次の24時間で95％の確率でフラットに推移することが予想されます。Fear & Greed Indexや総暗号資産市場キャップなどの現在の市場状況は、慎重な感性を示しています。暗号市場の開発や規制に関する最近のニュースはPayPal USDに限りなく影響を与える可能性は低いです。",
+    "en": "PayPal USD is expected to remain relatively stable in the short term, with a predicted 24h direction of FLAT and a confidence level of 95%. The current market context suggests a cautious approach, with an Extreme Fear Fear & Greed Index and a positive total crypto market cap change. However, the recent news on AI trade cooling and potential market breakout could influence the market in the long term.",
+    "ja": "PayPal USDは短期的には比較的安定した動きを示す可能性があり、24時間予想方向はFLAT、信頼度は95%です。現在の市場状況は慎重なアプローチを示しており、Fear & Greed Indexは極度の恐怖、総暗号資産市場キャップは正の変化を示しています。ただし、AI取引の冷却と市場ブレイクアウトの可能性に関する最近のニュースは長期的には市場に影響を与える可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+1.20%",
+        "value": "+1.22%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "25% bullish",
         "url": "https://www.coingecko.com/en/coins/paypal-usd"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Ether breaks the $1.9K resistance; is $2.1K the next target for ETH bulls?",
+        "url": "https://cointelegraph.com/markets/ether-breaks-the-1900-resistance-is-2100-the-next-target-for-eth-bulls?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Pakistan steps up crypto enforcement with dedicated federal unit",
         "url": "https://cointelegraph.com/news/pakistan-crypto-enforcement-dedicated-unit-crimes?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Pavel Durov says Telegram to roll out native Gram crypto wallet",
-        "url": "https://cointelegraph.com/news/telegram-launch-native-self-custody-gram-wallet-for-over-1-billion-users-durov?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       }
     ]
   }

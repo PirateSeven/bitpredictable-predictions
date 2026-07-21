@@ -1,6 +1,6 @@
 {
   "coinId": "ondo-us-dollar-yield",
-  "generatedAt": "2026-07-21T20:23:21.784692Z",
+  "generatedAt": "2026-07-21T20:32:18.335639Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.1649,
-    "confidence": 0.6499
+    "changePercent24h": -0.3787,
+    "confidence": 0.7689
   },
   "commentary": {
-    "en": "The Ondo US Dollar Yield is expected to remain flat in the next 24 hours with a 58% confidence level, as the RSI-14 and Bollinger Band %B indicate a neutral trend. The recent news about AI trade cooling and the White House agreeing to ethics provisions in the market structure bill may have a positive impact on the crypto market, but its effect on ONDO-US-DOLLAR-YIELD is uncertain. The Fear & Greed Index remains in extreme fear, which may limit the potential for significant price movements.",
-    "ja": "ONDO-US-DOLLAR-YIELDは来日24時間にフラットの動きを示す可能性が58％あり、RSI-14とボリンジャーバンド％Bは中立的な傾向を示している。AI取引の冷却と市場構造法案における倫理規定への白宮の同意は、暗号市場に肯定的な影響を与える可能性があるが、ONDO-US-DOLLAR-YIELDへの影響は不明である。恐怖と欲望指数は極度の恐怖の状態にあり、これは価格の大きな動きを制限する可能性がある。",
+    "en": "ONDO-US-DOLLAR-YIELD is expected to remain flat with a 0.0% 24h direction, based on current technical signals. The Fear & Greed Index is at 25, indicating extreme fear in the market. The recent news on Ether breaking the $1.9K resistance may have a limited impact on ONDO-US-DOLLAR-YIELD.",
+    "ja": "ONDO-US-DOLLAR-YIELDは、現在の技術指標から見て、24時間方向は0.0％のフラットが予想される。恐怖と欲求不満指数は25で、市場は極度の恐怖の状態にある。エーテルの$1.9K抵抗を突破したニュースは、ONDO-US-DOLLAR-YIELDに限りなく影響を与える可能性は低い。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,8 +1000,13 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+1.20%",
+        "value": "+1.22%",
         "url": "https://www.coingecko.com/en/global-charts"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Ether breaks the $1.9K resistance; is $2.1K the next target for ETH bulls?",
+        "url": "https://cointelegraph.com/markets/ether-breaks-the-1900-resistance-is-2100-the-next-target-for-eth-bulls?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       },
       {
         "label": "CoinTelegraph",
@@ -1012,11 +1017,6 @@
         "label": "CoinTelegraph",
         "value": "Pakistan steps up crypto enforcement with dedicated federal unit",
         "url": "https://cointelegraph.com/news/pakistan-crypto-enforcement-dedicated-unit-crimes?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Pavel Durov says Telegram to roll out native Gram crypto wallet",
-        "url": "https://cointelegraph.com/news/telegram-launch-native-self-custody-gram-wallet-for-over-1-billion-users-durov?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       }
     ]
   }

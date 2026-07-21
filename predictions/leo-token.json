@@ -1,6 +1,6 @@
 {
   "coinId": "leo-token",
-  "generatedAt": "2026-07-21T20:23:21.784692Z",
+  "generatedAt": "2026-07-21T20:32:18.335639Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -965,13 +965,13 @@
     }
   ],
   "signal": {
-    "direction": "flat",
-    "changePercent24h": -0.1256,
-    "confidence": 0.8462
+    "direction": "up",
+    "changePercent24h": 0.5284,
+    "confidence": 0.9258
   },
   "commentary": {
-    "en": "LEO Token (LEO-TOKEN) is expected to experience a flat 24-hour period with a 0.1% increase, based on technical signals. The RSI-14 is oversold, indicating potential for a short-term rebound. However, the Fear & Greed Index remains in extreme fear, suggesting caution is warranted.",
-    "ja": "LEO Token (LEO-TOKEN) は24時間で0.1%の増加を経験する可能性があります。RSI-14はオーバーサルドであり、短期的な反発が起こり得ることを示しています。Fear & Greed Indexは極度の恐怖の状態であり、注意が必要です。",
+    "en": "LEO Token (LEO-TOKEN) is expected to experience a flat 24-hour period with a 0.1% increase, based on 83% confidence. The token's RSI-14 is oversold at 26, and Bollinger Band %B is at -0.52, indicating potential buying opportunities. However, the Fear & Greed Index remains in extreme fear, suggesting caution.",
+    "ja": "LEO Token (LEO-TOKEN) は 24 時間で 0.1% の増加を経験する可能性があり、83% の信頼性で予測される。トークンの RSI-14 は 26 でオーバーサルド、ボリンジャー バンド %B は -0.52 で、買い機の機会が見込まれる。ただし、恐怖と欲求不満指数は極度の恐怖の状態であり、注意が必要。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+1.20%",
+        "value": "+1.22%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "0% bullish",
         "url": "https://www.coingecko.com/en/coins/leo-token"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Ether breaks the $1.9K resistance; is $2.1K the next target for ETH bulls?",
+        "url": "https://cointelegraph.com/markets/ether-breaks-the-1900-resistance-is-2100-the-next-target-for-eth-bulls?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Pakistan steps up crypto enforcement with dedicated federal unit",
         "url": "https://cointelegraph.com/news/pakistan-crypto-enforcement-dedicated-unit-crimes?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Pavel Durov says Telegram to roll out native Gram crypto wallet",
-        "url": "https://cointelegraph.com/news/telegram-launch-native-self-custody-gram-wallet-for-over-1-billion-users-durov?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "coinId": "shiba-inu",
-  "generatedAt": "2026-07-21T20:23:21.784692Z",
+  "generatedAt": "2026-07-21T20:32:18.335639Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "up",
-    "changePercent24h": 1.1362,
-    "confidence": 0.8468
+    "changePercent24h": 1.3518,
+    "confidence": 0.8674
   },
   "commentary": {
-    "en": "Shiba Inu's price movement is expected to remain flat in the next 24 hours, with a low confidence level of 39%. The current market conditions, including the Fear & Greed Index and the total crypto market cap, suggest a cautious outlook. The recent news on crypto enforcement and market structure bill may have a moderate impact on SHIB's price.",
-    "ja": "Shiba Inuの価格変動は、次の24時間でフラットのままであることが予想され、信頼度は39％です。Fear & Greed Indexと総暗号資産市場キャップなどの市場状況は、慎重な視点を示しています。暗号資産規制と市場構造法案に関する最近のニュースは、SHIBの価格に中程度の影響を与える可能性があります。",
+    "en": "Shiba Inu's price is likely to remain flat in the next 24 hours with a confidence level of 39%. The recent news of Ether breaking the $1.9K resistance and the overall crypto market's positive 24-hour change may have a neutral impact on SHIBA-INU's price. However, the Fear & Greed Index remains in Extreme Fear, indicating potential volatility.",
+    "ja": "Shiba Inu の価格は、次の 24 時間で 39% の信頼度でフラットに推移する可能性があります。エーテルの $1.9K での抵抗を破り、総合的な暗号資産市場の 24 時間でのプラスの変化は、SHIBA-INU の価格に中立的な影響を与えるかもしれません。ただし、Fear & Greed Index は極度の恐怖にあり、潜在的な波動性を示しています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+1.20%",
+        "value": "+1.22%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "87% bullish",
         "url": "https://www.coingecko.com/en/coins/shiba-inu"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Ether breaks the $1.9K resistance; is $2.1K the next target for ETH bulls?",
+        "url": "https://cointelegraph.com/markets/ether-breaks-the-1900-resistance-is-2100-the-next-target-for-eth-bulls?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Pakistan steps up crypto enforcement with dedicated federal unit",
         "url": "https://cointelegraph.com/news/pakistan-crypto-enforcement-dedicated-unit-crimes?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Pavel Durov says Telegram to roll out native Gram crypto wallet",
-        "url": "https://cointelegraph.com/news/telegram-launch-native-self-custody-gram-wallet-for-over-1-billion-users-durov?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       }
     ]
   }

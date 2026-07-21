@@ -1,6 +1,6 @@
 {
   "coinId": "dai",
-  "generatedAt": "2026-07-21T20:23:21.784692Z",
+  "generatedAt": "2026-07-21T20:32:18.335639Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": 0.0047,
+    "changePercent24h": 0.017,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "Dai (DAI) is expected to remain flat with a 0.0% 24h return, as the RSI-14 and Bollinger Band %B indicate a neutral sentiment. The recent news about the crypto market breakout and AI trade cooling may have a positive impact on the market, but the Fear & Greed Index remains in extreme fear. The short-term trend and volume ratio suggest a sideways movement.",
-    "ja": "Dai (DAI) は、0.0% の 24 時間のリターンで、フラットに推定されています。RSI-14 とボリンジャー・バンド %B は中立的な意見を示しており、最近のニュースで、暗号通貨市場のブレイクアウトと AI の取引の冷却が市場に良い影響を与える可能性がありますが、恐怖と欲求不満指数は極度の恐怖のままでいます。短期のトレンドとボリュームレシオは横方向の動きを示しています。",
+    "en": "Dai (DAI) is expected to remain flat with a 0.0% 24-hour return, given its neutral RSI-14 reading and sideways short-term trend. The recent news on the crypto market, including Ether's break of the $1.9K resistance, may not significantly impact DAI's price. Overall, DAI's price movement will likely be influenced by the broader crypto market trends.",
+    "ja": "DAIは、ニュートラルのRSI-14値と短期的な横方向のトレンドから、24時間の0.0%のリターンを予想しています。最近のニュースであるEtherの$1.9Kの抵抗を破ったことなど、cryptomarketの動向はDAIの価格に大きな影響を与えそうにありません。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+1.20%",
+        "value": "+1.22%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "50% bullish",
         "url": "https://www.coingecko.com/en/coins/dai"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Ether breaks the $1.9K resistance; is $2.1K the next target for ETH bulls?",
+        "url": "https://cointelegraph.com/markets/ether-breaks-the-1900-resistance-is-2100-the-next-target-for-eth-bulls?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Pakistan steps up crypto enforcement with dedicated federal unit",
         "url": "https://cointelegraph.com/news/pakistan-crypto-enforcement-dedicated-unit-crimes?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Pavel Durov says Telegram to roll out native Gram crypto wallet",
-        "url": "https://cointelegraph.com/news/telegram-launch-native-self-custody-gram-wallet-for-over-1-billion-users-durov?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       }
     ]
   }

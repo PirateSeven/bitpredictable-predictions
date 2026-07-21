@@ -1,6 +1,6 @@
 {
   "coinId": "rain",
-  "generatedAt": "2026-07-21T20:23:21.784692Z",
+  "generatedAt": "2026-07-21T20:32:18.335639Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "up",
-    "changePercent24h": 2.4822,
-    "confidence": 0.91
+    "changePercent24h": 4.9919,
+    "confidence": 0.95
   },
   "commentary": {
-    "en": "Rain (RAIN) is predicted to be flat with a 0.1% increase in the next 24 hours, with a confidence level of 29%. The current market sentiment is extreme fear, as indicated by the Fear & Greed Index of 25. The recent news about AI trade cooling and the White House agreeing to ethics provisions in a market structure bill may have a positive impact on the crypto market.",
-    "ja": "Rain (RAIN) は、次の24時間で0.1%の増加が予想され、信頼度は29%である。 Fear & Greed Indexは25で、極度の恐怖の市場感情を示している。 AI取引の冷却と、市場構造法案における倫理規定への白宮の同意など、最近のニュースは、暗号市場にプラスの影響を与える可能性がある。",
+    "en": "Rain (RAIN) is expected to remain flat with a 0.1% increase in the next 24 hours, based on current technical signals. The Fear & Greed Index at 25 indicates extreme fear in the market, which may influence investor sentiment. Recent news on AI trade cooling and potential market breakout could impact Rain's price movement.",
+    "ja": "Rain（RAIN）は、現在の技術指標に基づいて、次の24時間で0.1％の増加を予想しています。Fear & Greed Indexが25に達していることは、市場全体で極度の恐怖を示しており、投資家の意見を左右する可能性があります。AI取引の冷却と市場ブレイクアウトの可能性に関する最近のニュースは、Rainの価格動向に影響を与える可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+1.20%",
+        "value": "+1.22%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "57% bullish",
         "url": "https://www.coingecko.com/en/coins/rain"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Ether breaks the $1.9K resistance; is $2.1K the next target for ETH bulls?",
+        "url": "https://cointelegraph.com/markets/ether-breaks-the-1900-resistance-is-2100-the-next-target-for-eth-bulls?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Pakistan steps up crypto enforcement with dedicated federal unit",
         "url": "https://cointelegraph.com/news/pakistan-crypto-enforcement-dedicated-unit-crimes?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Pavel Durov says Telegram to roll out native Gram crypto wallet",
-        "url": "https://cointelegraph.com/news/telegram-launch-native-self-custody-gram-wallet-for-over-1-billion-users-durov?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "coinId": "memecore",
-  "generatedAt": "2026-07-21T20:23:21.784692Z",
+  "generatedAt": "2026-07-21T20:32:18.335639Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -2.3264,
-    "confidence": 0.8532
+    "changePercent24h": -4.9766,
+    "confidence": 0.9276
   },
   "commentary": {
-    "en": "MemeCore's 24-hour direction is predicted to be flat with a -0.2% return, indicating a neutral stance. The recent news on crypto market developments, including AI trade cooling and the White House's agreement on market structure bill, may have a mixed impact on the market. MemeCore's price movement is expected to be influenced by the overall crypto market trend.",
-    "ja": "メムコアの24時間の動向は、-0.2％のリターンでフラットであると予測されています。これは中立的な立場です。最近のニュースの中で、AI取引の冷却とホワイトハウスの市場構造法案に関する合意など、クリプトマーケットの発展についてのニュースは、市場にさまざまな影響を与える可能性があります。メムコアの価格動向は、クリプトマーケットの総合的なトレンドに影響を受ける可能性があります。",
+    "en": "MemeCore's flat 24h direction prediction is based on neutral RSI-14 and sideways short-term trend, but the recent 24h actual return of -3.39% and lower Bollinger Band %B indicate potential volatility. The Fear & Greed Index at 25 suggests extreme fear in the market, which may impact MemeCore's price. The overall crypto market cap is slightly positive, but MemeCore's price movement is uncertain.",
+    "ja": "メムコアの24時間の予想は、中立的なRSI-14と短期の傾向が横方向に動いていることから、フラットであると予測されています。しかし、24時間の実際のリターンが-3.39%とボリンジャー・バンドの%バンドが下方にあり、ボリュームは平均値の1.1倍であることを考えると、価格の変動が予測できません。恐怖と欲求不満指数が25であることを考えると、市場全体の恐怖感が価格に影響を与える可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+1.20%",
+        "value": "+1.22%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "50% bullish",
         "url": "https://www.coingecko.com/en/coins/memecore"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Ether breaks the $1.9K resistance; is $2.1K the next target for ETH bulls?",
+        "url": "https://cointelegraph.com/markets/ether-breaks-the-1900-resistance-is-2100-the-next-target-for-eth-bulls?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Pakistan steps up crypto enforcement with dedicated federal unit",
         "url": "https://cointelegraph.com/news/pakistan-crypto-enforcement-dedicated-unit-crimes?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Pavel Durov says Telegram to roll out native Gram crypto wallet",
-        "url": "https://cointelegraph.com/news/telegram-launch-native-self-custody-gram-wallet-for-over-1-billion-users-durov?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       }
     ]
   }

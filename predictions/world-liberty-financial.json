@@ -1,6 +1,6 @@
 {
   "coinId": "world-liberty-financial",
-  "generatedAt": "2026-07-21T20:23:21.784692Z",
+  "generatedAt": "2026-07-21T20:32:18.335639Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.1302,
-    "confidence": 0.6373
+    "changePercent24h": -0.3314,
+    "confidence": 0.7628
   },
   "commentary": {
-    "en": "World Liberty Financial (WORLD-LIBERTY-FINANCIAL) is expected to remain relatively stable in the short term, with a predicted 24h direction of +0.1% and a neutral RSI-14 reading of 45. The recent news on AI trade cooling and the White House agreeing to ethics provisions could positively impact the crypto market, potentially benefiting WORLD-LIBERTY-FINANCIAL.",
-    "ja": "ワールド・リバティ・フィナンシャル（WORLD-LIBERTY-FINANCIAL）は、短期的には比較的安定する可能性があり、予想24時間方向は+0.1%、RSI-14は45の中立的な値を示しています。AI取引の冷却やホワイトハウスが倫理規定に同意するニュースは、暗号市場に良い影響を与える可能性があり、ワールド・リバティ・フィナンシャルに利益をもたらす可能性があります。",
+    "en": "The model predicts World Liberty Financial will trade sideways over the next 24 hours with moderate confidence (60%). Price moved -0.15% in the past 24 hours with volume at 1.0× average. Community sentiment on CoinGecko is 67% bullish and the Fear & Greed Index reads \"Extreme Fear\" (25), diverging from the model's forecast, adding uncertainty.",
+    "ja": "モデルはWorld Liberty Financialが今後24時間で横ばいで推移すると予測しています（信頼度: 中程度の 60%）。過去24時間のリターンは-0.15%、出来高は平均の1.0倍です。CoinGeckoコミュニティでは67%が強気を示し、Fear & Greed指数は「Extreme Fear」（25）です。予測方向と乖離があり、不確実性が高まっています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+1.20%",
+        "value": "+1.22%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "67% bullish",
         "url": "https://www.coingecko.com/en/coins/world-liberty-financial"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Ether breaks the $1.9K resistance; is $2.1K the next target for ETH bulls?",
+        "url": "https://cointelegraph.com/markets/ether-breaks-the-1900-resistance-is-2100-the-next-target-for-eth-bulls?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Pakistan steps up crypto enforcement with dedicated federal unit",
         "url": "https://cointelegraph.com/news/pakistan-crypto-enforcement-dedicated-unit-crimes?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Pavel Durov says Telegram to roll out native Gram crypto wallet",
-        "url": "https://cointelegraph.com/news/telegram-launch-native-self-custody-gram-wallet-for-over-1-billion-users-durov?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       }
     ]
   }

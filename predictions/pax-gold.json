@@ -1,6 +1,6 @@
 {
   "coinId": "pax-gold",
-  "generatedAt": "2026-07-21T20:23:21.784692Z",
+  "generatedAt": "2026-07-21T20:32:18.335639Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "up",
-    "changePercent24h": 0.8414,
-    "confidence": 0.921
+    "changePercent24h": 1.1614,
+    "confidence": 0.9389
   },
   "commentary": {
-    "en": "PAX Gold (PAX-GOLD) is predicted to remain flat in the next 24 hours with a confidence level of 75%. The recent price movement is influenced by the overall crypto market trend, which is experiencing a slight increase in the Fear & Greed Index. The current market context suggests a cautious approach, with the total crypto market cap and BTC return showing moderate growth.",
-    "ja": "PAX Gold (PAX-GOLD) は、次の24時間にflatの動きを予測し、信頼度は75%です。 最近の価格動向は、Fear & Greed Indexが総合暗号市場の動向に影響を与えていることを示しています。 総合暗号市場の総資産とBTCのリターンは、慎重なアプローチを示しています。",
+    "en": "PAX Gold's (PAX-GOLD) 24-hour direction is predicted to be flat with a confidence of 75%, supported by neutral RSI-14 and Bollinger Band %B readings. The recent news of a potential crypto market breakout may have a positive impact on the market, but the Fear & Greed Index remains in extreme fear territory. A short-term sideways trend is expected to continue.",
+    "ja": "PAX Gold（PAX-GOLD）の24時間の方向は、75％の確信度で平坦と予想され、中立的なRSI-14とボリンジャーバンド％Bの値が支持しています。最近のニュースで、ポジティブな影響を与える可能性のある暗号通貨市場のブレイクアウトが見られるかもしれませんが、恐怖と欲求不満指数は極度の恐怖の領域にあります。短期的な横方向のトレンドが続く可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,8 +1000,13 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+1.20%",
+        "value": "+1.22%",
         "url": "https://www.coingecko.com/en/global-charts"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Ether breaks the $1.9K resistance; is $2.1K the next target for ETH bulls?",
+        "url": "https://cointelegraph.com/markets/ether-breaks-the-1900-resistance-is-2100-the-next-target-for-eth-bulls?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       },
       {
         "label": "CoinTelegraph",
@@ -1012,11 +1017,6 @@
         "label": "CoinTelegraph",
         "value": "Pakistan steps up crypto enforcement with dedicated federal unit",
         "url": "https://cointelegraph.com/news/pakistan-crypto-enforcement-dedicated-unit-crimes?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Pavel Durov says Telegram to roll out native Gram crypto wallet",
-        "url": "https://cointelegraph.com/news/telegram-launch-native-self-custody-gram-wallet-for-over-1-billion-users-durov?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "coinId": "okb",
-  "generatedAt": "2026-07-21T20:23:21.784692Z",
+  "generatedAt": "2026-07-21T20:32:18.335639Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "up",
-    "changePercent24h": 1.7626,
-    "confidence": 0.9247
+    "changePercent24h": 1.9317,
+    "confidence": 0.9305
   },
   "commentary": {
-    "en": "OKB's short-term trend remains sideways, with a 24h return of +0.58% and a neutral RSI-14 reading of 58. The Fear & Greed Index at 25 indicates extreme fear in the market, which may influence OKB's price movement. With the Total crypto market cap increasing by 1.20% and BTC by 1.92%, OKB's performance is relatively flat.",
-    "ja": "OKBの短期のトレンドは横方向に推移しており、24時間のリターンは+0.58%、RSI-14の値は58と中立的な値です。Fear & Greed Indexが25の場合、市場は極度の恐怖の状態であり、これがOKBの価格動向に影響を与える可能性があります。総コインマーケットキャップが1.20%増加し、BTCが1.92%増加した場合、OKBのパフォーマンスは比較的フラットです。",
+    "en": "OKB's 24-hour direction is predicted to be flat with a confidence of 56%, as the RSI-14 and Bollinger Band %B indicate a neutral stance. The recent news of Ether breaking the $1.9K resistance and the overall crypto market's positive 24-hour change may have a limited impact on OKB's price movement. The Fear & Greed Index remains in extreme fear, suggesting a cautious outlook for the market.",
+    "ja": "OKBの24時間の方向性は、56%の確率でフラットと予想されます。RSI-14とボリンジャー・バンド％Bは中立的な立場を示しており、Etherが$1.9Kの抵抗を破ったニュースや、総コインマーケットキャップの24時間変化がOKBの価格動向に影響を与える可能性は限られているようです。恐怖と欲求不満指数は極度の恐怖の状態にあり、市場全体の慎重な姿勢を示しています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,8 +1000,13 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+1.20%",
+        "value": "+1.22%",
         "url": "https://www.coingecko.com/en/global-charts"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Ether breaks the $1.9K resistance; is $2.1K the next target for ETH bulls?",
+        "url": "https://cointelegraph.com/markets/ether-breaks-the-1900-resistance-is-2100-the-next-target-for-eth-bulls?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       },
       {
         "label": "CoinTelegraph",
@@ -1012,11 +1017,6 @@
         "label": "CoinTelegraph",
         "value": "Pakistan steps up crypto enforcement with dedicated federal unit",
         "url": "https://cointelegraph.com/news/pakistan-crypto-enforcement-dedicated-unit-crimes?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Pavel Durov says Telegram to roll out native Gram crypto wallet",
-        "url": "https://cointelegraph.com/news/telegram-launch-native-self-custody-gram-wallet-for-over-1-billion-users-durov?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "coinId": "binancecoin",
-  "generatedAt": "2026-07-21T20:23:21.784692Z",
+  "generatedAt": "2026-07-21T20:32:18.335639Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "up",
-    "changePercent24h": 1.0374,
-    "confidence": 0.8687
+    "changePercent24h": 1.2491,
+    "confidence": 0.8872
   },
   "commentary": {
-    "en": "BNB's 24-hour direction is predicted to be flat with a 0.1% increase, reflecting a neutral RSI-14 reading of 46. The recent news on AI trade cooling and the White House agreeing to ethics provisions may influence market sentiment. However, the Fear & Greed Index remains in extreme fear at 25.",
-    "ja": "ビナンスコインの24時間の方向は、0.1%の増加を予測しており、RSI-14の値は46で中立的な状態です。AI取引の冷却やホワイトハウスが倫理規定への賛成を発表したニュースが市場の意識に影響を与える可能性があります。ただし、恐怖と欲求の指数は25で極度の恐怖の状態です。",
+    "en": "BNB's 24-hour direction is predicted to be flat with a 0.1% increase, but the confidence level is relatively low at 51%. The recent news about the crypto market breakout and AI trade cooling could positively impact BNB's price. However, the Fear & Greed Index remains in extreme fear, indicating a cautious market.",
+    "ja": "ビナンスコインの24時間の動向は、0.1%の増加が予想されるが、信頼度は比較的低い51%である。最近のニュースで、暗号通貨市場のブレイクアウトとAI取引の冷却がビナンスコインの価格にプラスに影響する可能性がある。ただし、恐怖と欲求不満指数は極度の恐怖の状態にあり、慎重な市場である。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+1.20%",
+        "value": "+1.22%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "52% bullish",
+        "value": "50% bullish",
         "url": "https://www.coingecko.com/en/coins/binancecoin"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Ether breaks the $1.9K resistance; is $2.1K the next target for ETH bulls?",
+        "url": "https://cointelegraph.com/markets/ether-breaks-the-1900-resistance-is-2100-the-next-target-for-eth-bulls?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Pakistan steps up crypto enforcement with dedicated federal unit",
         "url": "https://cointelegraph.com/news/pakistan-crypto-enforcement-dedicated-unit-crimes?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Pavel Durov says Telegram to roll out native Gram crypto wallet",
-        "url": "https://cointelegraph.com/news/telegram-launch-native-self-custody-gram-wallet-for-over-1-billion-users-durov?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       }
     ]
   }

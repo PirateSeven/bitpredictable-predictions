@@ -1,6 +1,6 @@
 {
   "coinId": "dogecoin",
-  "generatedAt": "2026-07-21T20:23:21.784692Z",
+  "generatedAt": "2026-07-21T20:32:18.335639Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "up",
-    "changePercent24h": 1.152,
-    "confidence": 0.8421
+    "changePercent24h": 1.9089,
+    "confidence": 0.8975
   },
   "commentary": {
-    "en": "Dogecoin's 24-hour direction is predicted to be flat with a -0.1% change, indicating a neutral sentiment. The recent price increase of 2.02% is likely due to the overall crypto market's 1.20% gain and Bitcoin's 1.92% return. However, the Fear & Greed Index remains in extreme fear territory, suggesting caution.",
-    "ja": "ドージコインの24時間の予想方向は、-0.1%の変化でフラットと予想されています。最近の価格上昇2.02%は、総合的な暗号通貨市場の1.20%の増加とビットコインの1.92%の増加によるものと思われます。ただし、恐怖と欲求不満指数は極度の恐怖の領域にあり、注意が必要です。",
+    "en": "Dogecoin's 24-hour direction is predicted to be flat with a -0.1% change, indicating a neutral sentiment. The recent price increase of 2.02% is in line with the overall crypto market, which saw a 1.22% increase in total market cap. However, the Fear & Greed Index remains in extreme fear, suggesting caution in the market.",
+    "ja": "ドージコインの24時間の方向性は、-0.1%の変化を予測しており、中立的な感情を示しています。最近の価格上昇率は2.02%で、総市場キャップの1.22%の増加と一致しています。ただし、恐怖と欲求不満指数は極度の恐怖を示しており、市場には注意が必要です。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+1.20%",
+        "value": "+1.22%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "69% bullish",
         "url": "https://www.coingecko.com/en/coins/dogecoin"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Ether breaks the $1.9K resistance; is $2.1K the next target for ETH bulls?",
+        "url": "https://cointelegraph.com/markets/ether-breaks-the-1900-resistance-is-2100-the-next-target-for-eth-bulls?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Pakistan steps up crypto enforcement with dedicated federal unit",
         "url": "https://cointelegraph.com/news/pakistan-crypto-enforcement-dedicated-unit-crimes?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Pavel Durov says Telegram to roll out native Gram crypto wallet",
-        "url": "https://cointelegraph.com/news/telegram-launch-native-self-custody-gram-wallet-for-over-1-billion-users-durov?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       }
     ]
   }

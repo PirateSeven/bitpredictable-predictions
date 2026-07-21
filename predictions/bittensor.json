@@ -1,6 +1,6 @@
 {
   "coinId": "bittensor",
-  "generatedAt": "2026-07-21T20:23:21.784692Z",
+  "generatedAt": "2026-07-21T20:32:18.335639Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "up",
-    "changePercent24h": 1.2998,
-    "confidence": 0.8257
+    "changePercent24h": 3.1954,
+    "confidence": 0.9216
   },
   "commentary": {
-    "en": "Bittensor's 24h direction is predicted to be flat with a -0.1% change, indicating a neutral trend. The recent news on AI trade cooling and the White House agreeing to ethics provisions in the market structure bill may positively impact the crypto market. However, the Fear & Greed Index at 25 suggests extreme fear among investors.",
-    "ja": "ビットテンソルの24時間の予想は、-0.1％の変化でフラットであることを示しています。AI取引の冷却と市場構造法案における倫理規制への同意などの最近のニュースは、暗号市場にプラスの影響を与える可能性があります。ただし、恐怖と欲求不満指数が25であることは、投資家の中で極度の恐怖があることを示しています。",
+    "en": "The model predicts Bittensor will trade sideways over the next 24 hours with low confidence (24%). The short-term SMA has crossed above the medium-term SMA, signalling positive momentum. Community sentiment on CoinGecko is 61% bullish and the Fear & Greed Index reads \"Extreme Fear\" (25), diverging from the model's forecast, adding uncertainty.",
+    "ja": "モデルはBittensorが今後24時間で横ばいで推移すると予測しています（信頼度: 低い 24%）。短期移動平均が中期移動平均を上回り、ポジティブなモメンタムが示されています。CoinGeckoコミュニティでは61%が強気を示し、Fear & Greed指数は「Extreme Fear」（25）です。予測方向と乖離があり、不確実性が高まっています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+1.20%",
+        "value": "+1.22%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "61% bullish",
         "url": "https://www.coingecko.com/en/coins/bittensor"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Ether breaks the $1.9K resistance; is $2.1K the next target for ETH bulls?",
+        "url": "https://cointelegraph.com/markets/ether-breaks-the-1900-resistance-is-2100-the-next-target-for-eth-bulls?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Pakistan steps up crypto enforcement with dedicated federal unit",
         "url": "https://cointelegraph.com/news/pakistan-crypto-enforcement-dedicated-unit-crimes?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Pavel Durov says Telegram to roll out native Gram crypto wallet",
-        "url": "https://cointelegraph.com/news/telegram-launch-native-self-custody-gram-wallet-for-over-1-billion-users-durov?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       }
     ]
   }

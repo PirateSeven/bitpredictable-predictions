@@ -1,6 +1,6 @@
 {
   "coinId": "avalanche-2",
-  "generatedAt": "2026-07-21T20:23:21.784692Z",
+  "generatedAt": "2026-07-21T20:32:18.335639Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "up",
-    "changePercent24h": 1.5225,
-    "confidence": 0.8574
+    "changePercent24h": 1.2655,
+    "confidence": 0.8332
   },
   "commentary": {
-    "en": "Avalanche's flat 24-hour direction prediction reflects the neutral RSI-14 reading and mid-band Bollinger Band %B. The recent news on AI trade cooling and the White House agreeing to ethics provisions in a market structure bill may influence the crypto market. However, the Extreme Fear sentiment and recent price movements suggest caution.",
-    "ja": "アバランチ2の24時間方向予測は中立的なRSI-14の読みとボリンジャーバンドの%Bの中心値を反映している。AIのトレードが冷却し、市場構造法案で倫理規定を承認する白宮のニュースは、暗号市場に影響を与える可能性があるが、極度の恐怖感と最近の価格動向は注意が必要である。",
+    "en": "The model predicts Avalanche will trade sideways over the next 24 hours with low confidence (27%). Price moved +0.67% in the past 24 hours with volume at 0.8× average. Community sentiment on CoinGecko is 92% bullish and the Fear & Greed Index reads \"Extreme Fear\" (25), diverging from the model's forecast, adding uncertainty.",
+    "ja": "モデルはAvalancheが今後24時間で横ばいで推移すると予測しています（信頼度: 低い 27%）。過去24時間のリターンは+0.67%、出来高は平均の0.8倍です。CoinGeckoコミュニティでは92%が強気を示し、Fear & Greed指数は「Extreme Fear」（25）です。予測方向と乖離があり、不確実性が高まっています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+1.20%",
+        "value": "+1.22%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "92% bullish",
         "url": "https://www.coingecko.com/en/coins/avalanche-2"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Ether breaks the $1.9K resistance; is $2.1K the next target for ETH bulls?",
+        "url": "https://cointelegraph.com/markets/ether-breaks-the-1900-resistance-is-2100-the-next-target-for-eth-bulls?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Pakistan steps up crypto enforcement with dedicated federal unit",
         "url": "https://cointelegraph.com/news/pakistan-crypto-enforcement-dedicated-unit-crimes?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Pavel Durov says Telegram to roll out native Gram crypto wallet",
-        "url": "https://cointelegraph.com/news/telegram-launch-native-self-custody-gram-wallet-for-over-1-billion-users-durov?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       }
     ]
   }

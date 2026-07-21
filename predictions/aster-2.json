@@ -1,6 +1,6 @@
 {
   "coinId": "aster-2",
-  "generatedAt": "2026-07-21T20:23:21.784692Z",
+  "generatedAt": "2026-07-21T20:32:18.335639Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "up",
-    "changePercent24h": 0.6422,
-    "confidence": 0.8698
+    "changePercent24h": 1.019,
+    "confidence": 0.9085
   },
   "commentary": {
-    "en": "Aster's short-term trend remains sideways, with a 24h direction predicted to be flat and a 24h return of +0.28%. The Fear & Greed Index is at 25, indicating extreme fear in the market. The recent news on AI trade cooling and the White House agreeing to ethics provisions may impact the market.",
-    "ja": "アステル2の短期トレンドは横方向に推移しており、24時間の方向は予想されるフラット、24時間のリターンは+0.28％です。恐怖と欲求不満指数は25、市場全体では恐怖の状態です。AI取引の冷却とホワイトハウスが倫理規定に同意するニュースは市場に影響を与える可能性があります。",
+    "en": "The model predicts Aster will trade sideways over the next 24 hours with moderate confidence (66%). Price is near lower Bollinger Band support, where rebounds are historically more frequent. Community sentiment on CoinGecko is 33% bullish and the Fear & Greed Index reads \"Extreme Fear\" (25), aligning with the model's forecast.",
+    "ja": "モデルはAsterが今後24時間で横ばいで推移すると予測しています（信頼度: 中程度の 66%）。価格がボリンジャーバンド下限付近で、サポートからの反発が過去パターンより多く観察されます。CoinGeckoコミュニティでは33%が強気を示し、Fear & Greed指数は「Extreme Fear」（25）です。予測と方向性が一致しています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+1.20%",
+        "value": "+1.22%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "33% bullish",
         "url": "https://www.coingecko.com/en/coins/aster-2"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Ether breaks the $1.9K resistance; is $2.1K the next target for ETH bulls?",
+        "url": "https://cointelegraph.com/markets/ether-breaks-the-1900-resistance-is-2100-the-next-target-for-eth-bulls?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Pakistan steps up crypto enforcement with dedicated federal unit",
         "url": "https://cointelegraph.com/news/pakistan-crypto-enforcement-dedicated-unit-crimes?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Pavel Durov says Telegram to roll out native Gram crypto wallet",
-        "url": "https://cointelegraph.com/news/telegram-launch-native-self-custody-gram-wallet-for-over-1-billion-users-durov?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       }
     ]
   }

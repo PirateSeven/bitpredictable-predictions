@@ -1,6 +1,6 @@
 {
   "coinId": "hashnote-usyc",
-  "generatedAt": "2026-07-21T20:23:21.784692Z",
+  "generatedAt": "2026-07-21T20:32:18.335639Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.0232,
+    "changePercent24h": -0.0057,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "Circle USYC (HASHNOTE-USYC) is expected to remain flat in the next 24 hours with a 95% confidence level, as the RSI-14 is oversold and the short-term trend is sideways. The recent news on AI trade cooling and the White House agreeing to ethics provisions in the market structure bill may have a positive impact on the market. However, the Fear & Greed Index remains in extreme fear, indicating caution.",
-    "ja": "Circle USYC (HASHNOTE-USYC) は、次の24時間に95%の確率でフラットで推定され、RSI-14がオーバーサルド、短期傾向がサイドウェイズである。AI取引の冷却や白宮が市場構造法案の倫理規定に同意するニュースが市場に良い影響を与える可能性があるが、恐怖と欲求不満指数は極度の恐怖の状態にあるため、注意が必要。",
+    "en": "Circle USYC (HASHNOTE-USYC) is expected to remain flat in the next 24 hours with a 95% confidence level, despite being oversold according to the RSI-14 indicator. The recent news on the crypto market, including Ether's break of the $1.9K resistance and Pakistan's crypto enforcement, may have a limited impact on HASHNOTE-USYC's price movement. The overall crypto market context, with a Fear & Greed Index of 25, suggests a cautious approach.",
+    "ja": "Circle USYC (HASHNOTE-USYC) は、次の24時間に95%の確率でフラットに推移する可能性があります。RSI-14指標ではオーバーサルドと評価されているにもかかわらず。Etherの$1.9K抵抗線突破やパキスタンの暗号資産取締強化など、最近のニュースはHASHNOTE-USYCの価格動向に限りなく影響を与える可能性は低い。総合的な暗号資産市場状況、Fear & Greed Index 25の状況では、慎重なアプローチが必要である。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+1.20%",
+        "value": "+1.22%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "0% bullish",
         "url": "https://www.coingecko.com/en/coins/hashnote-usyc"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Ether breaks the $1.9K resistance; is $2.1K the next target for ETH bulls?",
+        "url": "https://cointelegraph.com/markets/ether-breaks-the-1900-resistance-is-2100-the-next-target-for-eth-bulls?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Pakistan steps up crypto enforcement with dedicated federal unit",
         "url": "https://cointelegraph.com/news/pakistan-crypto-enforcement-dedicated-unit-crimes?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Pavel Durov says Telegram to roll out native Gram crypto wallet",
-        "url": "https://cointelegraph.com/news/telegram-launch-native-self-custody-gram-wallet-for-over-1-billion-users-durov?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "coinId": "litecoin",
-  "generatedAt": "2026-07-21T20:23:21.784692Z",
+  "generatedAt": "2026-07-21T20:32:18.335639Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "up",
-    "changePercent24h": 0.7287,
-    "confidence": 0.7386
+    "changePercent24h": 1.7973,
+    "confidence": 0.875
   },
   "commentary": {
-    "en": "Litecoin's short-term trend remains sideways, with a predicted 24h direction of FLAT, +0.1%. The Fear & Greed Index is at 25, indicating Extreme Fear, while the CoinGecko community is 86% bullish. The recent news on AI trade cooling and the White House agreeing to ethics provisions may influence the market.",
-    "ja": "リテコインの短期トレンドは横方向に推移し、24時間予想方向はFLAT、+0.1%です。恐怖と欲求不満指数は25で、極度の恐怖を示しており、コインゲッココミュニティは86％がバ Bullishです。AI取引の冷却とホワイトハウスが倫理規定に同意するなどの最近のニュースは市場に影響を与える可能性があります。",
+    "en": "Litecoin's 24-hour direction is predicted to be flat with a 0.1% increase, but the confidence level is low at 26%. The recent news of Ether breaking the $1.9K resistance and the overall crypto market's positive 1.22% change in total market cap may have a mixed impact on Litecoin's price. However, the Fear & Greed Index remains in Extreme Fear territory, indicating a cautious outlook.",
+    "ja": "リテコインの24時間の予測は、0.1%の増加を予想していますが、信頼度は26%に低いです。エーテルの$1.9Kの抵抗を破ったニュースや、総市場キャップの1.22%の増加など、リテコインの価格に影響を与える可能性のあるニュースが複数あります。ただし、恐怖と欲求不満指数は極度の恐怖の領域にあり、慎重な姿勢を示しています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+1.20%",
+        "value": "+1.22%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "86% bullish",
         "url": "https://www.coingecko.com/en/coins/litecoin"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Ether breaks the $1.9K resistance; is $2.1K the next target for ETH bulls?",
+        "url": "https://cointelegraph.com/markets/ether-breaks-the-1900-resistance-is-2100-the-next-target-for-eth-bulls?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Pakistan steps up crypto enforcement with dedicated federal unit",
         "url": "https://cointelegraph.com/news/pakistan-crypto-enforcement-dedicated-unit-crimes?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Pavel Durov says Telegram to roll out native Gram crypto wallet",
-        "url": "https://cointelegraph.com/news/telegram-launch-native-self-custody-gram-wallet-for-over-1-billion-users-durov?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       }
     ]
   }

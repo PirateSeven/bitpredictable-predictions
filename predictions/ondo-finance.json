@@ -1,6 +1,6 @@
 {
   "coinId": "ondo-finance",
-  "generatedAt": "2026-07-21T20:23:21.784692Z",
+  "generatedAt": "2026-07-21T20:32:18.335639Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "up",
-    "changePercent24h": 6.4004,
-    "confidence": 0.9183
+    "changePercent24h": 11.7159,
+    "confidence": 0.95
   },
   "commentary": {
-    "en": "Ondo is predicted to move downward with a 71% confidence level, despite the recent 12.63% 24-hour return. The Fear & Greed Index remains in Extreme Fear at 25, and the short-term trend indicates an uptrend. However, the RSI-14 is neutral at 69, suggesting a potential reversal.",
-    "ja": "オンド・フィナンスは71％の確実性で下降する予想されていますが、24時間で12.63％の利益を上げたにもかかわらず。恐怖と欲求不満指数は25で極度の恐怖の状態にあり、短期傾向は上昇傾向にある。ただし、RSI-14は69で中立的な状態にあり、反転の可能性が示唆されている。",
+    "en": "Ondo (ONDO-FINANCE) is predicted to move downward by 1.7% in the next 24 hours with a confidence level of 71%. The recent surge of 12.63% may be followed by a correction. The short-term trend remains in an uptrend despite the neutral RSI-14 reading.",
+    "ja": "オンド・ファイナンス（ONDO-FINANCE）は、次の24時間で1.7%下落する可能性があり、信頼度は71%です。最近の12.63%の急上昇は、次の調整につながる可能性があります。短期的なトレンドは、中立的なRSI-14値にもかかわらず、上昇傾向にあります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+1.20%",
+        "value": "+1.22%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "90% bullish",
         "url": "https://www.coingecko.com/en/coins/ondo-finance"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Ether breaks the $1.9K resistance; is $2.1K the next target for ETH bulls?",
+        "url": "https://cointelegraph.com/markets/ether-breaks-the-1900-resistance-is-2100-the-next-target-for-eth-bulls?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Pakistan steps up crypto enforcement with dedicated federal unit",
         "url": "https://cointelegraph.com/news/pakistan-crypto-enforcement-dedicated-unit-crimes?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Pavel Durov says Telegram to roll out native Gram crypto wallet",
-        "url": "https://cointelegraph.com/news/telegram-launch-native-self-custody-gram-wallet-for-over-1-billion-users-durov?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       }
     ]
   }

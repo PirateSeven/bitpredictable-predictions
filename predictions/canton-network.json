@@ -1,6 +1,6 @@
 {
   "coinId": "canton-network",
-  "generatedAt": "2026-07-21T20:23:21.784692Z",
+  "generatedAt": "2026-07-21T20:32:18.335639Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -965,13 +965,13 @@
     }
   ],
   "signal": {
-    "direction": "flat",
-    "changePercent24h": 0.3645,
-    "confidence": 0.5255
+    "direction": "up",
+    "changePercent24h": 2.5854,
+    "confidence": 0.8972
   },
   "commentary": {
-    "en": "Canton's predicted 24h direction is flat, with a 0.2% increase in confidence. The current market sentiment is extreme fear, as indicated by the Fear & Greed Index. The recent news on AI trade cooling and White House agreements may impact the market, but Canton's short-term trend remains sideways.",
-    "ja": "カントン ネットワークの予想24時間の方向は、0.2%の増加率でフラットである。現在の市場感情は、恐怖の極端な状態である。AI取引の冷却とホワイトハウスの合意などの最近のニュースは市場に影響を与える可能性があるが、カントン ネットワークの短期的な傾向は横方向に維持されている。",
+    "en": "Canton (CANTON-NETWORK) is expected to remain flat with a 0.2% increase in the next 24 hours, based on technical signals. The current market context, including the Fear & Greed Index at 25, suggests a cautious approach. Recent news on AI trade cooling and crypto market breakout could influence the market.",
+    "ja": "Canton (CANTON-NETWORK) は、技術指標に基づいて次の24時間で0.2%の増加が予想されます。Fear & Greed Indexが25の現在の市場状況は、慎重なアプローチを示唆しています。AI取引の冷却と暗号通貨市場のブレークアウトに関する最近のニュースは市場に影響を与える可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+1.20%",
+        "value": "+1.22%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "38% bullish",
         "url": "https://www.coingecko.com/en/coins/canton-network"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Ether breaks the $1.9K resistance; is $2.1K the next target for ETH bulls?",
+        "url": "https://cointelegraph.com/markets/ether-breaks-the-1900-resistance-is-2100-the-next-target-for-eth-bulls?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Pakistan steps up crypto enforcement with dedicated federal unit",
         "url": "https://cointelegraph.com/news/pakistan-crypto-enforcement-dedicated-unit-crimes?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Pavel Durov says Telegram to roll out native Gram crypto wallet",
-        "url": "https://cointelegraph.com/news/telegram-launch-native-self-custody-gram-wallet-for-over-1-billion-users-durov?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       }
     ]
   }

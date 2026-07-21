@@ -1,6 +1,6 @@
 {
   "coinId": "usds",
-  "generatedAt": "2026-07-21T20:23:21.784692Z",
+  "generatedAt": "2026-07-21T20:32:18.335639Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -970,8 +970,8 @@
     "confidence": 0.95
   },
   "commentary": {
-    "en": "USDS is expected to remain flat in the next 24 hours with a 95% confidence level due to its neutral RSI-14 and mid-band Bollinger Band %B. The sideways short-term trend and normal volume ratio support this prediction. However, the Extreme Fear sentiment and recent news may influence market volatility.",
-    "ja": "USDSは来日24時間に95％の確実性でフラットを予想する。中立的なRSI-14とマイブランドのボリンジャーブンドパーセントBはこの予想を裏付けています。短期のトレンドは横ばいで、ボリューム比率は通常です。しかし、極度の恐怖感と最近のニュースは市場の動揺に影響を与える可能性があります。",
+    "en": "USDS is expected to remain flat in the next 24 hours with a 95% confidence level. The current market conditions, including a Fear & Greed Index of 25 and a sideways short-term trend, suggest a neutral stance. The recent news on Ether's price movement and AI trade cooling may have a limited impact on USDS.",
+    "ja": "USDSは来日24時間で95％の確率でフラットになる予想です。Fear & Greed Indexが25と短期的な傾向が横方向にあることから中立的な立場が示唆されます。エーテルの価格動向やAI取引の冷却に関する最近のニュースはUSDSに限りなく影響を与える可能性は低いです。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+1.20%",
+        "value": "+1.22%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "0% bullish",
         "url": "https://www.coingecko.com/en/coins/usds"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Ether breaks the $1.9K resistance; is $2.1K the next target for ETH bulls?",
+        "url": "https://cointelegraph.com/markets/ether-breaks-the-1900-resistance-is-2100-the-next-target-for-eth-bulls?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Pakistan steps up crypto enforcement with dedicated federal unit",
         "url": "https://cointelegraph.com/news/pakistan-crypto-enforcement-dedicated-unit-crimes?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Pavel Durov says Telegram to roll out native Gram crypto wallet",
-        "url": "https://cointelegraph.com/news/telegram-launch-native-self-custody-gram-wallet-for-over-1-billion-users-durov?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       }
     ]
   }

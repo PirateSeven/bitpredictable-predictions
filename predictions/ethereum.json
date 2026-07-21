@@ -1,6 +1,6 @@
 {
   "coinId": "ethereum",
-  "generatedAt": "2026-07-21T20:23:21.784692Z",
+  "generatedAt": "2026-07-21T20:32:18.335639Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "up",
-    "changePercent24h": 1.6076,
-    "confidence": 0.8758
+    "changePercent24h": 2.4636,
+    "confidence": 0.915
   },
   "commentary": {
-    "en": "Ethereum's 24-hour direction is predicted to be flat with a -0.1% change, indicating a neutral market sentiment. The Fear & Greed Index remains at 25, indicating extreme fear among investors. Recent news on AI trade cooling and the White House agreeing to ethics provisions may impact the market.",
-    "ja": "エーテレムの24時間の予測は、-0.1%の変化でフラットと予想されています。これは、市場のニュアンスが中立的であることを示しています。Fear & Greed Indexは25で、投資家の恐怖感が極めて高いことを示しています。AIの取引が冷え、ホワイトハウスが倫理規定に同意するなどの最近のニュースが市場に影響を与える可能性があります。",
+    "en": "Ethereum's technical signals suggest a flat direction with a 38% confidence level. The recent price increase above $1.9K resistance may indicate a potential target of $2.1K, but the overall market sentiment remains in extreme fear. Ethereum's price movement is closely tied to the broader crypto market, which is experiencing a slight increase.",
+    "ja": "イーサリアムの技術指標は、38%の信頼度でフラット方向を示しています。 最近の価格上昇は$1.9Kの抵抗を上回った可能性があり、$2.1Kが次の目標となる可能性がありますが、市場全体の感情は極度の恐怖の状態です。 イーサリアムの価格動向は、より広範な暗号資産市場と密接に関連していますが、現在はわずかな増加傾向にあります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+1.20%",
+        "value": "+1.22%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "85% bullish",
         "url": "https://www.coingecko.com/en/coins/ethereum"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Ether breaks the $1.9K resistance; is $2.1K the next target for ETH bulls?",
+        "url": "https://cointelegraph.com/markets/ether-breaks-the-1900-resistance-is-2100-the-next-target-for-eth-bulls?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Pakistan steps up crypto enforcement with dedicated federal unit",
         "url": "https://cointelegraph.com/news/pakistan-crypto-enforcement-dedicated-unit-crimes?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Pavel Durov says Telegram to roll out native Gram crypto wallet",
-        "url": "https://cointelegraph.com/news/telegram-launch-native-self-custody-gram-wallet-for-over-1-billion-users-durov?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       }
     ]
   }

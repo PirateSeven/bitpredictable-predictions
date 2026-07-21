@@ -1,6 +1,6 @@
 {
   "coinId": "sui",
-  "generatedAt": "2026-07-21T20:23:21.784692Z",
+  "generatedAt": "2026-07-21T20:32:18.335639Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "up",
-    "changePercent24h": 1.4568,
-    "confidence": 0.8529
+    "changePercent24h": 2.4398,
+    "confidence": 0.9067
   },
   "commentary": {
-    "en": "Sui (SUI) is expected to trade flat with a minor decline of -0.1% in the next 24 hours, driven by a neutral RSI-14 reading and a sideways short-term trend. The Fear & Greed Index remains in extreme fear territory, while the total crypto market cap and BTC have shown moderate gains. Sui's price movement may be influenced by the overall market sentiment and recent news developments.",
-    "ja": "Sui（SUI）は、次の24時間に-0.1％の小幅な下落を予想しており、中立的なRSI-14の読みと短期の傾向が横方向に動いていることが原因です。恐怖と欲求不満指数は極度の恐怖の領域にあり、総暗号資産市場キャップとBTCは小幅な上昇を示しています。Suiの価格動向は、総市場の感情と最近のニュース報道によって影響を受ける可能性があります。",
+    "en": "The model predicts Sui will trade sideways over the next 24 hours with low confidence (32%). Price moved +0.12% in the past 24 hours with volume at 0.9× average. Community sentiment on CoinGecko is 80% bullish and the Fear & Greed Index reads \"Extreme Fear\" (25), diverging from the model's forecast, adding uncertainty.",
+    "ja": "モデルはSuiが今後24時間で横ばいで推移すると予測しています（信頼度: 低い 32%）。過去24時間のリターンは+0.12%、出来高は平均の0.9倍です。CoinGeckoコミュニティでは80%が強気を示し、Fear & Greed指数は「Extreme Fear」（25）です。予測方向と乖離があり、不確実性が高まっています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+1.20%",
+        "value": "+1.22%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "80% bullish",
         "url": "https://www.coingecko.com/en/coins/sui"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Ether breaks the $1.9K resistance; is $2.1K the next target for ETH bulls?",
+        "url": "https://cointelegraph.com/markets/ether-breaks-the-1900-resistance-is-2100-the-next-target-for-eth-bulls?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Pakistan steps up crypto enforcement with dedicated federal unit",
         "url": "https://cointelegraph.com/news/pakistan-crypto-enforcement-dedicated-unit-crimes?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Pavel Durov says Telegram to roll out native Gram crypto wallet",
-        "url": "https://cointelegraph.com/news/telegram-launch-native-self-custody-gram-wallet-for-over-1-billion-users-durov?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       }
     ]
   }

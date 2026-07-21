@@ -1,6 +1,6 @@
 {
   "coinId": "tron",
-  "generatedAt": "2026-07-21T20:23:21.784692Z",
+  "generatedAt": "2026-07-21T20:32:18.335639Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "up",
-    "changePercent24h": 0.606,
+    "changePercent24h": 1.387,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "TRON's technical signals indicate a flat 24-hour direction with a confidence of 89%, suggesting a potential consolidation phase. The overbought RSI-14 and upper Bollinger Band %B suggest a possible correction. However, the recent news and market context may influence investor sentiment.",
-    "ja": "トロンの技術指標は、24時間の方向性がフラットである可能性が89％あり、潜在的な収縮期を示唆している。オーバーボールドRSI-14と上のボリンジャーバンド％Bは、可能な調整を示唆している。ただし、最近のニュースと市場状況は投資家の感情に影響を与える可能性がある。",
+    "en": "TRON's 24-hour return of +0.84% is consistent with the predicted flat direction. The overbought RSI-14 and upper Bollinger Band %B suggest potential short-term consolidation. The market context remains cautious with an Extreme Fear Fear & Greed Index.",
+    "ja": "トロンの24時間リターンは+0.84%で予測のフラット方向に一致しています。オーバーボールドのRSI-14と上部ボリンジャーバンド％Bは短期的な安定化を示唆しています。マーケットコンテキストは極度の恐怖のFear & Greed Indexで慎重です。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+1.20%",
+        "value": "+1.22%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "62% bullish",
         "url": "https://www.coingecko.com/en/coins/tron"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Ether breaks the $1.9K resistance; is $2.1K the next target for ETH bulls?",
+        "url": "https://cointelegraph.com/markets/ether-breaks-the-1900-resistance-is-2100-the-next-target-for-eth-bulls?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Pakistan steps up crypto enforcement with dedicated federal unit",
         "url": "https://cointelegraph.com/news/pakistan-crypto-enforcement-dedicated-unit-crimes?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Pavel Durov says Telegram to roll out native Gram crypto wallet",
-        "url": "https://cointelegraph.com/news/telegram-launch-native-self-custody-gram-wallet-for-over-1-billion-users-durov?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       }
     ]
   }

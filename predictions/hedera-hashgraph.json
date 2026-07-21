@@ -1,6 +1,6 @@
 {
   "coinId": "hedera-hashgraph",
-  "generatedAt": "2026-07-21T20:23:21.784692Z",
+  "generatedAt": "2026-07-21T20:32:18.335639Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "up",
-    "changePercent24h": 3.4752,
-    "confidence": 0.9419
+    "changePercent24h": 5.7512,
+    "confidence": 0.95
   },
   "commentary": {
-    "en": "Hedera's 24-hour direction is predicted to be flat with a -0.2% change, indicating a potential correction after a 5.87% increase. The RSI-14 is overbought at 79, and the Bollinger Band %B is at 1.10, suggesting a possible pullback. The short-term trend remains in an uptrend.",
-    "ja": "ヘデラハッシュグラフの24時間の予測方向は、-0.2％の変化でフラットになり、5.87％の増加後は調整が起こりそうです。RSI-14は79でオーバーボールになり、ボリンジャーバンドの％Bは1.10でした。短期のトレンドは上昇中です。",
+    "en": "Hedera's 24-hour direction is predicted to be flat with a 0.2% decline, driven by overbought conditions and a short-term uptrend. The recent surge in price has pushed the RSI-14 to 79, indicating a potential reversal. The Fear & Greed Index remains at extreme fear, which may impact investor sentiment.",
+    "ja": "ヘダラ ハッシュグラフの24時間の予測方向は、0.2％の下落が予想され、オーバーボールド状態と短期的な上昇傾向によって推進される。価格の上昇により、RSI-14は79に達し、逆転の可能性が生じている。恐怖と欲望指数は極度の恐怖のままであり、これは投資家の意識に影響を与える可能性がある。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+1.20%",
+        "value": "+1.22%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "96% bullish",
         "url": "https://www.coingecko.com/en/coins/hedera-hashgraph"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Ether breaks the $1.9K resistance; is $2.1K the next target for ETH bulls?",
+        "url": "https://cointelegraph.com/markets/ether-breaks-the-1900-resistance-is-2100-the-next-target-for-eth-bulls?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Pakistan steps up crypto enforcement with dedicated federal unit",
         "url": "https://cointelegraph.com/news/pakistan-crypto-enforcement-dedicated-unit-crimes?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Pavel Durov says Telegram to roll out native Gram crypto wallet",
-        "url": "https://cointelegraph.com/news/telegram-launch-native-self-custody-gram-wallet-for-over-1-billion-users-durov?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       }
     ]
   }

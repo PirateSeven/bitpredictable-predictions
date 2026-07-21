@@ -1,6 +1,6 @@
 {
   "coinId": "figure-heloc",
-  "generatedAt": "2026-07-21T20:23:21.784692Z",
+  "generatedAt": "2026-07-21T20:32:18.335639Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "down",
-    "changePercent24h": -1.323,
+    "changePercent24h": -0.7374,
     "confidence": 0.95
   },
   "commentary": {
-    "en": "Figure Heloc (FIGURE-HELOC) is expected to remain flat with a 0.0% 24-hour direction, as indicated by a 95% confidence level. The RSI-14 is oversold at 29, and the Bollinger Band %B is near the upper band at 1.12, suggesting potential volatility. The low volume ratio and sideways short-term trend also support a cautious outlook.",
-    "ja": "Figure Heloc (FIGURE-HELOC) は、95% の信頼度で 0.0% の 24 時間方向を維持する可能性があります。 RSI-14 は 29 でオーバーサルド、ボリンジャー バンド %B は 1.12 で上限に近いため、波動性が高まりそうです。 低いボリューム レートと短期的な傾向も慎重な姿勢を支持しています。",
+    "en": "Figure Heloc is predicted to be flat with a 0.0% return in the next 24 hours, given its oversold RSI-14 and low volume ratio. The sideways short-term trend and upper Bollinger Band %B suggest a potential consolidation phase. The overall market context, including the Fear & Greed Index and recent news, does not provide a clear direction for FIGURE-HELOC.",
+    "ja": "Figure Heloc は、次の 24 時間で 0.0% のリターンを予想しており、RSI-14 がオーバーサルドと低いボリュームレシオが示唆しています。短期の傾向は横方向で、上のボリンジャー バンド %B も横方向を示唆しています。Fear & Greed Index と最近のニュースは FIGURE-HELOC の方向性を明確に示していません。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+1.20%",
+        "value": "+1.22%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "20% bullish",
         "url": "https://www.coingecko.com/en/coins/figure-heloc"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Ether breaks the $1.9K resistance; is $2.1K the next target for ETH bulls?",
+        "url": "https://cointelegraph.com/markets/ether-breaks-the-1900-resistance-is-2100-the-next-target-for-eth-bulls?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Pakistan steps up crypto enforcement with dedicated federal unit",
         "url": "https://cointelegraph.com/news/pakistan-crypto-enforcement-dedicated-unit-crimes?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Pavel Durov says Telegram to roll out native Gram crypto wallet",
-        "url": "https://cointelegraph.com/news/telegram-launch-native-self-custody-gram-wallet-for-over-1-billion-users-durov?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       }
     ]
   }

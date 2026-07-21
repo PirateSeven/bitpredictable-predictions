@@ -1,6 +1,6 @@
 {
   "coinId": "global-dollar",
-  "generatedAt": "2026-07-21T20:23:21.784692Z",
+  "generatedAt": "2026-07-21T20:32:18.335639Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "flat",
-    "changePercent24h": -0.0154,
+    "changePercent24h": -0.0161,
     "confidence": 0.9389
   },
   "commentary": {
-    "en": "The Global Dollar (GLOBAL-DOLLAR) is expected to remain flat with a 24-hour direction of +0.0% due to neutral technical signals and a sideways short-term trend. The Fear & Greed Index remains in Extreme Fear territory, which may contribute to the flat direction. The overall crypto market is experiencing a slight increase, but GLOBAL-DOLLAR's performance is likely to be muted.",
-    "ja": "グローバル ドル (GLOBAL-DOLLAR) は、中立的な技術指標と短期的な横方向のトレンドにより、24 時間の方向性は +0.0% であると予想されます。恐怖と欲求不満指数は極度の恐怖の領域にあり、これが平坦な方向性に貢献する可能性があります。総合暗号通貨市場はわずかに増加しているが、グローバル ドル (GLOBAL-DOLLAR) のパフォーマンスは抑制される可能性があります。",
+    "en": "The model predicts Global Dollar will trade sideways over the next 24 hours with high confidence (93%). Price moved +0.02% in the past 24 hours with volume at 1.0× average. Market sentiment stands at \"Extreme Fear\" (Fear & Greed: 25); the broader crypto market moved +1.2% over the past 24 hours.",
+    "ja": "モデルはGlobal Dollarが今後24時間で横ばいで推移すると予測しています（信頼度: 高い 93%）。過去24時間のリターンは+0.02%、出来高は平均の1.0倍です。Fear & Greed指数は「Extreme Fear」（25）で、暗号資産市場全体の24時間変動率は+1.2%です。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,8 +1000,13 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+1.20%",
+        "value": "+1.22%",
         "url": "https://www.coingecko.com/en/global-charts"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Ether breaks the $1.9K resistance; is $2.1K the next target for ETH bulls?",
+        "url": "https://cointelegraph.com/markets/ether-breaks-the-1900-resistance-is-2100-the-next-target-for-eth-bulls?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       },
       {
         "label": "CoinTelegraph",
@@ -1012,11 +1017,6 @@
         "label": "CoinTelegraph",
         "value": "Pakistan steps up crypto enforcement with dedicated federal unit",
         "url": "https://cointelegraph.com/news/pakistan-crypto-enforcement-dedicated-unit-crimes?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Pavel Durov says Telegram to roll out native Gram crypto wallet",
-        "url": "https://cointelegraph.com/news/telegram-launch-native-self-custody-gram-wallet-for-over-1-billion-users-durov?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       }
     ]
   }

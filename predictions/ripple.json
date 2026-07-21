@@ -1,6 +1,6 @@
 {
   "coinId": "ripple",
-  "generatedAt": "2026-07-21T20:23:21.784692Z",
+  "generatedAt": "2026-07-21T20:32:18.335639Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "up",
-    "changePercent24h": 2.9593,
-    "confidence": 0.9241
+    "changePercent24h": 4.7939,
+    "confidence": 0.95
   },
   "commentary": {
-    "en": "XRP's price is expected to remain flat with a slight decrease of -0.2% in the next 24 hours due to its overbought condition. The recent news on AI trade cooling and the White House agreeing to ethics provisions in the market structure bill may have a positive impact on the cryptocurrency market. However, the overall market sentiment remains in extreme fear.",
-    "ja": "XRPの価格は、過剰売買状態のため、来週24時間で-0.2%程度の小幅な下落が予想される。AI取引の冷却や市場構造法案における倫理規制への賛成など、最近のニュースは暗号資産市場に肯定的な影響を与える可能性があるが、市場全体の感情は極度の恐怖のままである。",
+    "en": "XRP's 24-hour direction is predicted to be flat with a -0.2% change, indicating a potential consolidation phase. The overbought RSI-14 and high Bollinger Band %B suggest a possible correction. XRP's short-term trend remains in an uptrend, but the market context of extreme fear and recent news may impact its price movement.",
+    "ja": "リップルは24時間の予測方向は、-0.2％の変化でフラットである可能性があり、consolidation phaseに入る可能性があります。オーバーボールドのRSI-14と高いボリンジャー・バンド％Bは、可能な調整を示しています。短期のトレンドは上昇傾向ですが、極度の恐怖と最近のニュースは価格動向に影響を与える可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+1.20%",
+        "value": "+1.22%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "82% bullish",
         "url": "https://www.coingecko.com/en/coins/ripple"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Ether breaks the $1.9K resistance; is $2.1K the next target for ETH bulls?",
+        "url": "https://cointelegraph.com/markets/ether-breaks-the-1900-resistance-is-2100-the-next-target-for-eth-bulls?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Pakistan steps up crypto enforcement with dedicated federal unit",
         "url": "https://cointelegraph.com/news/pakistan-crypto-enforcement-dedicated-unit-crimes?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Pavel Durov says Telegram to roll out native Gram crypto wallet",
-        "url": "https://cointelegraph.com/news/telegram-launch-native-self-custody-gram-wallet-for-over-1-billion-users-durov?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       }
     ]
   }

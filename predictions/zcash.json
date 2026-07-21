@@ -1,6 +1,6 @@
 {
   "coinId": "zcash",
-  "generatedAt": "2026-07-21T20:23:21.784692Z",
+  "generatedAt": "2026-07-21T20:32:18.335639Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "up",
-    "changePercent24h": 1.1355,
-    "confidence": 0.7806
+    "changePercent24h": 3.7579,
+    "confidence": 0.9241
   },
   "commentary": {
-    "en": "Zcash (ZCASH) is expected to remain flat with a 24-hour direction of -0.0% due to neutral technical signals and a sideways short-term trend. The Fear & Greed Index is at an extreme fear level, which may impact investor sentiment. Recent news on crypto enforcement and market structure bill may have a limited impact on Zcash's price.",
-    "ja": "Zcash (ZCASH)は、ニュートラルの技術シグナルと短期の横方向のトレンドにより24時間の方向性が-0.0%のままであると予想されます。Fear & Greed Indexは極度の恐怖のレベルにあり、これは投資家の意識に影響を与える可能性があります。最近のニュースでは、暗号資産の規制と市場構造法案に関するニュースがZcashの価格に限られた影響を与える可能性があります。",
+    "en": "Zcash (ZCASH) is likely to experience a flat 24-hour period with a -0.0% return, based on current technical signals. The recent news surrounding the crypto market, including the establishment of a dedicated federal unit in Pakistan to enforce crypto regulations, may have a limited impact on Zcash's price. The Fear & Greed Index remains in the extreme fear zone, which could contribute to a stable market.",
+    "ja": "Zcash (ZCASH)は、現在の技術指標に基づいて24時間の-0.0%のリターンを経験する可能性があります。最近のニュース、パキスタンにおける暗号資産規制の強化など、Zcashの価格に影響を与える可能性のある情報はあるものの、恐怖と欲求不満指数は極度の恐怖の状態にあり、安定した市場を維持する可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+1.20%",
+        "value": "+1.22%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "38% bullish",
         "url": "https://www.coingecko.com/en/coins/zcash"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Ether breaks the $1.9K resistance; is $2.1K the next target for ETH bulls?",
+        "url": "https://cointelegraph.com/markets/ether-breaks-the-1900-resistance-is-2100-the-next-target-for-eth-bulls?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Pakistan steps up crypto enforcement with dedicated federal unit",
         "url": "https://cointelegraph.com/news/pakistan-crypto-enforcement-dedicated-unit-crimes?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Pavel Durov says Telegram to roll out native Gram crypto wallet",
-        "url": "https://cointelegraph.com/news/telegram-launch-native-self-custody-gram-wallet-for-over-1-billion-users-durov?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       }
     ]
   }

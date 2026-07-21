@@ -1,6 +1,6 @@
 {
   "coinId": "polkadot",
-  "generatedAt": "2026-07-21T20:23:21.784692Z",
+  "generatedAt": "2026-07-21T20:32:18.335639Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -966,12 +966,12 @@
   ],
   "signal": {
     "direction": "up",
-    "changePercent24h": 3.654,
-    "confidence": 0.9308
+    "changePercent24h": 6.2909,
+    "confidence": 0.95
   },
   "commentary": {
-    "en": "Polkadot's 24-hour return of +3.97% is a positive sign, but the predicted 24h direction is flat with a -0.2% confidence level, indicating potential consolidation. The RSI-14 and Bollinger Band %B are neutral, while the short-term trend remains in an uptrend. The Fear & Greed Index at 25 indicates extreme fear in the market.",
-    "ja": "ポラードットの24時間リターンは+3.97%とプラスの兆候ですが、予想24時間方向はフラットで-0.2%の信頼度があり、潜在的な収縮が見込まれます。RSI-14とボリンジャーバンド％Bは中立的な状態ですが、短期傾向は上昇傾向を維持しています。恐怖と欲求不満指数は25と恐怖の域にあります。",
+    "en": "Polkadot's short-term trend remains in an uptrend, but the predicted 24h direction is flat with a slight decline of -0.2%. The Fear & Greed Index is at 25, indicating extreme fear in the market. With the recent news of Ether breaking the $1.9K resistance, Polkadot's price may be affected by the overall market sentiment.",
+    "ja": "ポラードットの短期トレンドは上昇中ですが、24時間予想はフラットで-0.2%の下落が予想されています。恐怖と欲求不満指数は25、市場全体の恐怖感が高まります。エーテルの$1.9Kの抵抗を破ったニュースにより、ポラードットの価格は市場全体の感覚に影響を受ける可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "+1.20%",
+        "value": "+1.22%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "65% bullish",
         "url": "https://www.coingecko.com/en/coins/polkadot"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Ether breaks the $1.9K resistance; is $2.1K the next target for ETH bulls?",
+        "url": "https://cointelegraph.com/markets/ether-breaks-the-1900-resistance-is-2100-the-next-target-for-eth-bulls?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Pakistan steps up crypto enforcement with dedicated federal unit",
         "url": "https://cointelegraph.com/news/pakistan-crypto-enforcement-dedicated-unit-crimes?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Pavel Durov says Telegram to roll out native Gram crypto wallet",
-        "url": "https://cointelegraph.com/news/telegram-launch-native-self-custody-gram-wallet-for-over-1-billion-users-durov?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       }
     ]
   }
