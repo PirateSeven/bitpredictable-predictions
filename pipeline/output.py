@@ -167,7 +167,8 @@ def _git_push(generated_at_iso: str) -> None:
     try:
         subprocess.run(["git", "add", str(OUTPUT_DIR)], check=True)
         diff = subprocess.run(
-            ["git", "diff", "--cached", "--quiet"], capture_output=True
+            ["git", "diff", "--cached", "--quiet"],
+            stdout=subprocess.PIPE, stderr=subprocess.PIPE,
         )
         if diff.returncode == 0:
             logger.info("No prediction changes to commit.")
