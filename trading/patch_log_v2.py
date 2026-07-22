@@ -60,7 +60,11 @@ def compute_risk_metrics(log):
         'cbStatus': 'active',
         'kellyF': round(max(0.0, win_rate - (1.0 - win_rate)) * 0.25, 4),
         'openPositions': open_pos,
-        'maxPositions': 3,
+        # This repo can't import crypto-ace's config.py (separate repo), so this
+        # is a manually-kept-in-sync copy of CONFIG.max_positions. Was stuck at
+        # the stale value 3 for a while after crypto-ace raised it to 8 — check
+        # ~/crypto-ace/config.py's max_positions before trusting this number.
+        'maxPositions': 8,
     }
 
 def compute_signal_scores(pdir):
