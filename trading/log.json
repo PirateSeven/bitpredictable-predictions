@@ -1,25 +1,25 @@
 {
   "agentVersion": "crypto-ace-1.0.0",
-  "updatedAt": "2026-07-22T17:07:00.473127+00:00",
+  "updatedAt": "2026-07-22T17:25:04.056528+00:00",
   "exchange": "Binance Testnet",
   "currency": "BNB",
   "initialCapital": 1.0,
-  "currentValue": 0.976303,
+  "currentValue": 0.975122,
   "performance": {
-    "totalReturnPct": -2.37,
-    "totalTrades": 30,
-    "winRate": 0.5,
+    "totalReturnPct": -2.49,
+    "totalTrades": 31,
+    "winRate": 0.4839,
     "maxDrawdownPct": 2.84,
-    "sharpeRatio": -5.39,
+    "sharpeRatio": -5.57,
     "startDate": "2026-06-17T19:27:34.575587+00:00"
   },
   "weeklyStats": {
     "wins": 8,
-    "losses": 2,
-    "winRate": 0.8,
+    "losses": 3,
+    "winRate": 0.7273,
     "comment": {
-      "en": "Strong week. 10 trades with 80% win rate. Signal quality was high.",
-      "ja": "\u597d\u8abf\u306a\u9031\u300210\u53d6\u5f15\u3001\u52dd\u738780%\u3002\u30b7\u30b0\u30ca\u30eb\u54c1\u8cea\u304c\u9ad8\u304f\u898f\u5f8b\u3042\u308b\u904b\u7528\u3067\u3057\u305f\u3002"
+      "en": "Strong week. 11 trades with 73% win rate. Signal quality was high.",
+      "ja": "\u597d\u8abf\u306a\u9031\u300211\u53d6\u5f15\u3001\u52dd\u738773%\u3002\u30b7\u30b0\u30ca\u30eb\u54c1\u8cea\u304c\u9ad8\u304f\u898f\u5f8b\u3042\u308b\u904b\u7528\u3067\u3057\u305f\u3002"
     }
   },
   "bestTrade": {
@@ -30,8 +30,8 @@
     "time": "2026-07-22T16:44:46.394784+00:00"
   },
   "currentStreak": {
-    "count": 6,
-    "type": "win"
+    "count": 1,
+    "type": "loss"
   },
   "currentPositions": [
     {
@@ -168,40 +168,61 @@
     {
       "time": "2026-07-21T19:57:07.118624+00:00",
       "value": 0.972479,
-      "benchmarkBtc": 1.060907
+      "benchmarkBtc": 1.06054
     },
     {
       "time": "2026-07-22T10:33:35.694923+00:00",
       "value": 0.97286,
-      "benchmarkBtc": 1.060907
+      "benchmarkBtc": 1.06054
     },
     {
       "time": "2026-07-22T13:03:16.744616+00:00",
       "value": 0.973421,
-      "benchmarkBtc": 1.060907
+      "benchmarkBtc": 1.06054
     },
     {
       "time": "2026-07-22T15:15:53.530009+00:00",
       "value": 0.97399,
-      "benchmarkBtc": 1.060907
+      "benchmarkBtc": 1.06054
     },
     {
       "time": "2026-07-22T15:21:11.363905+00:00",
       "value": 0.974247,
-      "benchmarkBtc": 1.060907
+      "benchmarkBtc": 1.06054
     },
     {
       "time": "2026-07-22T15:57:29.396353+00:00",
       "value": 0.974724,
-      "benchmarkBtc": 1.060907
+      "benchmarkBtc": 1.06054
     },
     {
       "time": "2026-07-22T16:44:46.394784+00:00",
       "value": 0.976303,
-      "benchmarkBtc": 1.060907
+      "benchmarkBtc": 1.06054
+    },
+    {
+      "time": "2026-07-22T17:25:04.048286+00:00",
+      "value": 0.975122,
+      "benchmarkBtc": 1.06054
     }
   ],
   "recentTrades": [
+    {
+      "id": "4fff7560",
+      "coin": "hedera-hashgraph",
+      "symbol": "HBAR",
+      "action": "sell",
+      "price": 0.00012648,
+      "sizeBtc": 0.084593,
+      "time": "2026-07-22T17:25:04.048286+00:00",
+      "pnlBtc": -0.00118,
+      "pnlPct": -1.4,
+      "signal": {
+        "direction": "up",
+        "changePercent24h": 1.2093,
+        "confidence": 0.7993
+      }
+    },
     {
       "id": "74e1d99b",
       "coin": "hedera-hashgraph",
@@ -343,22 +364,6 @@
       "signal": {
         "direction": "up",
         "changePercent24h": 4.4233,
-        "confidence": 0.95
-      }
-    },
-    {
-      "id": "77ad515a",
-      "coin": "litecoin",
-      "symbol": "LTC",
-      "action": "sell",
-      "price": 0.082,
-      "sizeBtc": 0.102203,
-      "time": "2026-07-18T20:01:07.163311+00:00",
-      "pnlBtc": -0.000987,
-      "pnlPct": -0.97,
-      "signal": {
-        "direction": "up",
-        "changePercent24h": 3.1904,
         "confidence": 0.95
       }
     }
