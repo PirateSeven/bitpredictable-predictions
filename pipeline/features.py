@@ -172,7 +172,16 @@ def build_sequences(
         X, y = [], []
         for i in range(max_start):
             X.append(feat[i : i + seq_len])
-            future_prices  = prices[i + seq_len : i + seq_len + horizon + 1]
+            # Window's last known price is at i+seq_len-1 (X's final row). Targets
+            # must start counting returns from THAT point, not from i+seq_len —
+            # the previous code started one bar late, so y[0] ("1h-ahead") actually
+            # measured the return from i+seq_len to i+seq_len+1, silently shifting
+            # every predicted horizon forward by 1h versus what predict.py's
+            # future_times/comments claim (2026-07 audit finding). Inference
+            # (predict.py) builds its input windows the same way but doesn't call
+            # this function, so this only affects the next retrain, not the
+            # currently-deployed model.
+            future_prices  = prices[i + seq_len - 1 : i + seq_len - 1 + horizon + 1]
             hourly_returns = np.diff(future_prices) / future_prices[:-1] * 100
             y.append(hourly_returns)
 
