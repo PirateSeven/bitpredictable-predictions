@@ -1,36 +1,36 @@
 {
   "agentVersion": "crypto-ace-1.0.0",
-  "updatedAt": "2026-07-22T15:57:29.403990+00:00",
+  "updatedAt": "2026-07-22T16:44:46.402675+00:00",
   "exchange": "Binance Testnet",
   "currency": "BNB",
   "initialCapital": 1.0,
-  "currentValue": 0.974724,
+  "currentValue": 0.976303,
   "performance": {
-    "totalReturnPct": -2.53,
-    "totalTrades": 29,
-    "winRate": 0.4828,
+    "totalReturnPct": -2.37,
+    "totalTrades": 30,
+    "winRate": 0.5,
     "maxDrawdownPct": 2.84,
-    "sharpeRatio": -5.96,
+    "sharpeRatio": -5.39,
     "startDate": "2026-06-17T19:27:34.575587+00:00"
   },
   "weeklyStats": {
-    "wins": 7,
+    "wins": 8,
     "losses": 2,
-    "winRate": 0.7778,
+    "winRate": 0.8,
     "comment": {
-      "en": "Strong week. 9 trades with 78% win rate. Signal quality was high.",
-      "ja": "\u597d\u8abf\u306a\u9031\u30029\u53d6\u5f15\u3001\u52dd\u738778%\u3002\u30b7\u30b0\u30ca\u30eb\u54c1\u8cea\u304c\u9ad8\u304f\u898f\u5f8b\u3042\u308b\u904b\u7528\u3067\u3057\u305f\u3002"
+      "en": "Strong week. 10 trades with 80% win rate. Signal quality was high.",
+      "ja": "\u597d\u8abf\u306a\u9031\u300210\u53d6\u5f15\u3001\u52dd\u738780%\u3002\u30b7\u30b0\u30ca\u30eb\u54c1\u8cea\u304c\u9ad8\u304f\u898f\u5f8b\u3042\u308b\u904b\u7528\u3067\u3057\u305f\u3002"
     }
   },
   "bestTrade": {
     "symbol": "HBAR",
     "coin": "hedera-hashgraph",
-    "pnlPct": 2.23,
-    "pnlBtc": 0.000569,
-    "time": "2026-07-22T15:15:53.530009+00:00"
+    "pnlPct": 3.34,
+    "pnlBtc": 0.001579,
+    "time": "2026-07-22T16:44:46.394784+00:00"
   },
   "currentStreak": {
-    "count": 5,
+    "count": 6,
     "type": "win"
   },
   "currentPositions": [
@@ -41,15 +41,6 @@
       "entryPrice": 0.001677,
       "entryTime": "2026-07-22T04:06:10.640726+00:00",
       "sizeBtc": 0.095691,
-      "unrealizedPnlPct": 0.0
-    },
-    {
-      "coin": "hedera-hashgraph",
-      "symbol": "HBAR",
-      "direction": "long",
-      "entryPrice": 0.0001241,
-      "entryTime": "2026-07-22T13:06:48.321922+00:00",
-      "sizeBtc": 0.047334,
       "unrealizedPnlPct": 0.0
     }
   ],
@@ -177,35 +168,56 @@
     {
       "time": "2026-07-21T19:57:07.118624+00:00",
       "value": 0.972479,
-      "benchmarkBtc": 1.060173
+      "benchmarkBtc": 1.060907
     },
     {
       "time": "2026-07-22T10:33:35.694923+00:00",
       "value": 0.97286,
-      "benchmarkBtc": 1.060173
+      "benchmarkBtc": 1.060907
     },
     {
       "time": "2026-07-22T13:03:16.744616+00:00",
       "value": 0.973421,
-      "benchmarkBtc": 1.060173
+      "benchmarkBtc": 1.060907
     },
     {
       "time": "2026-07-22T15:15:53.530009+00:00",
       "value": 0.97399,
-      "benchmarkBtc": 1.060173
+      "benchmarkBtc": 1.060907
     },
     {
       "time": "2026-07-22T15:21:11.363905+00:00",
       "value": 0.974247,
-      "benchmarkBtc": 1.060173
+      "benchmarkBtc": 1.060907
     },
     {
       "time": "2026-07-22T15:57:29.396353+00:00",
       "value": 0.974724,
-      "benchmarkBtc": 1.060173
+      "benchmarkBtc": 1.060907
+    },
+    {
+      "time": "2026-07-22T16:44:46.394784+00:00",
+      "value": 0.976303,
+      "benchmarkBtc": 1.060907
     }
   ],
   "recentTrades": [
+    {
+      "id": "74e1d99b",
+      "coin": "hedera-hashgraph",
+      "symbol": "HBAR",
+      "action": "sell",
+      "price": 0.00012824,
+      "sizeBtc": 0.047334,
+      "time": "2026-07-22T16:44:46.394784+00:00",
+      "pnlBtc": 0.001579,
+      "pnlPct": 3.34,
+      "signal": {
+        "direction": "up",
+        "changePercent24h": 3.0773,
+        "confidence": 0.9249
+      }
+    },
     {
       "id": "1a0309a5",
       "coin": "ripple",
@@ -348,22 +360,6 @@
         "direction": "up",
         "changePercent24h": 3.1904,
         "confidence": 0.95
-      }
-    },
-    {
-      "id": "465e19fc",
-      "coin": "hedera-hashgraph",
-      "symbol": "HBAR",
-      "action": "sell",
-      "price": 0.00012514,
-      "sizeBtc": 0.102423,
-      "time": "2026-07-06T21:09:51.127545+00:00",
-      "pnlBtc": -0.002289,
-      "pnlPct": -2.23,
-      "signal": {
-        "direction": "flat",
-        "changePercent24h": 1.0868859366277106,
-        "confidence": 0.6696
       }
     }
   ]
