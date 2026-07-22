@@ -1,6 +1,6 @@
 {
   "coinId": "hashnote-usyc",
-  "generatedAt": "2026-07-22T09:00:06.212025Z",
+  "generatedAt": "2026-07-22T15:00:07.771932Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -970,8 +970,8 @@
     "confidence": 0.95
   },
   "commentary": {
-    "en": "Circle USYC's flat 24h direction suggests a neutral market sentiment. The recent news about Bitcoin ETFs and AI model exploits may have a limited impact on HASHNOTE-USYC, given its low volume ratio and sideways short-term trend. The Fear & Greed Index remains in the fear zone, which could influence investor behavior.",
-    "ja": "HASHNOTE-USYCの24時間方向はフラットであり、市場のニュアンスが高まっているようだ。ビットコインETFやAIモデルエクスプロイトに関するニュースは、HASHNOTE-USYCに限り影響を与える可能性は低いようだ。恐怖と欲求不満指数は恐怖のゾーンにあり、投資家の行動に影響を与える可能性がある。",
+    "en": "Circle USYC (HASHNOTE-USYC) is expected to remain flat with a 0.0% 24h direction due to its oversold RSI-14 and low volume ratio. The recent market context, including the Fear & Greed Index at 33 and total crypto market cap 24h change of -1.15%, also supports this prediction. However, the short-term trend remains sideways.",
+    "ja": "HASHNOTE-USYCは、RSI-14がオーバーサルドで、ボリュームレシオが低いことから、24時間方向は0.0%と予想される。Fear & Greed Indexが33、総暗号資産市場キャップ24時間変化が-1.15%という最近の市場状況もこの予想を裏付けている。短期トレンドは横方向に進んでいる。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,28 +1000,23 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-0.49%",
+        "value": "-1.15%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
-        "label": "CoinGecko Community Sentiment",
-        "value": "0% bullish",
-        "url": "https://www.coingecko.com/en/coins/hashnote-usyc"
+        "label": "CoinTelegraph",
+        "value": "The digital euro: Surveillance money, or a better alternative to cash?",
+        "url": "https://cointelegraph.com/magazine/what-is-the-digital-euro-all-you-need-to-know-about-europes-cbdc?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       },
       {
         "label": "CoinTelegraph",
-        "value": "Bitcoin ETFs extend inflow streak to six days with $203M added",
-        "url": "https://cointelegraph.com/news/bitcoin-etfs-203-million-inflow-streak-six-days?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+        "value": "Franklin Templeton calls agentic AI next ‘killer’ use case for blockchain",
+        "url": "https://cointelegraph.com/news/agentic-ai-killer-use-case-blockchain-franklin-templeton?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       },
       {
         "label": "CoinTelegraph",
         "value": "Here’s what happened in crypto today",
         "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Balance Coin crashes 99% after reported $915K exploit",
-        "url": "https://cointelegraph.com/news/algorithmic-stablecoin-balance-coin-plummets-99-after-exploit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       }
     ]
   }
