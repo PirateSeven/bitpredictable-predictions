@@ -1,25 +1,25 @@
 {
   "agentVersion": "crypto-ace-1.0.0",
-  "updatedAt": "2026-07-22T15:15:53.537892+00:00",
+  "updatedAt": "2026-07-22T15:21:11.371349+00:00",
   "exchange": "Binance Testnet",
   "currency": "BNB",
   "initialCapital": 1.0,
-  "currentValue": 0.97399,
+  "currentValue": 0.974247,
   "performance": {
-    "totalReturnPct": -2.6,
-    "totalTrades": 27,
-    "winRate": 0.4444,
+    "totalReturnPct": -2.58,
+    "totalTrades": 28,
+    "winRate": 0.4643,
     "maxDrawdownPct": 2.84,
-    "sharpeRatio": -6.42,
+    "sharpeRatio": -6.22,
     "startDate": "2026-06-17T19:27:34.575587+00:00"
   },
   "weeklyStats": {
-    "wins": 5,
+    "wins": 6,
     "losses": 2,
-    "winRate": 0.7143,
+    "winRate": 0.75,
     "comment": {
-      "en": "Strong week. 7 trades with 71% win rate. Signal quality was high.",
-      "ja": "\u597d\u8abf\u306a\u9031\u30027\u53d6\u5f15\u3001\u52dd\u738771%\u3002\u30b7\u30b0\u30ca\u30eb\u54c1\u8cea\u304c\u9ad8\u304f\u898f\u5f8b\u3042\u308b\u904b\u7528\u3067\u3057\u305f\u3002"
+      "en": "Strong week. 8 trades with 75% win rate. Signal quality was high.",
+      "ja": "\u597d\u8abf\u306a\u9031\u30028\u53d6\u5f15\u3001\u52dd\u738775%\u3002\u30b7\u30b0\u30ca\u30eb\u54c1\u8cea\u304c\u9ad8\u304f\u898f\u5f8b\u3042\u308b\u904b\u7528\u3067\u3057\u305f\u3002"
     }
   },
   "bestTrade": {
@@ -30,7 +30,7 @@
     "time": "2026-07-22T15:15:53.530009+00:00"
   },
   "currentStreak": {
-    "count": 3,
+    "count": 4,
     "type": "win"
   },
   "currentPositions": [
@@ -49,7 +49,7 @@
       "direction": "long",
       "entryPrice": 0.0019955,
       "entryTime": "2026-07-22T04:06:32.836907+00:00",
-      "sizeBtc": 0.095691,
+      "sizeBtc": 0.062199,
       "unrealizedPnlPct": 0.0
     },
     {
@@ -202,9 +202,30 @@
       "time": "2026-07-22T15:15:53.530009+00:00",
       "value": 0.97399,
       "benchmarkBtc": 1.060173
+    },
+    {
+      "time": "2026-07-22T15:21:11.363905+00:00",
+      "value": 0.974247,
+      "benchmarkBtc": 1.060173
     }
   ],
   "recentTrades": [
+    {
+      "id": "0e55eee2",
+      "coin": "ripple",
+      "symbol": "XRP",
+      "action": "sell",
+      "price": 0.0020108,
+      "sizeBtc": 0.033492,
+      "time": "2026-07-22T15:21:11.363905+00:00",
+      "pnlBtc": 0.000257,
+      "pnlPct": 0.77,
+      "signal": {
+        "direction": "up",
+        "changePercent24h": 4.7939,
+        "confidence": 0.95
+      }
+    },
     {
       "id": "b818a8c0",
       "coin": "hedera-hashgraph",
@@ -347,22 +368,6 @@
         "direction": "down",
         "changePercent24h": 0.872253776307934,
         "confidence": 0.6807
-      }
-    },
-    {
-      "id": "7d901aa2",
-      "coin": "ripple",
-      "symbol": "XRP",
-      "action": "sell",
-      "price": 0.0019639,
-      "sizeBtc": 0.103212,
-      "time": "2026-07-05T09:53:49.222226+00:00",
-      "pnlBtc": -0.003493,
-      "pnlPct": -3.38,
-      "signal": {
-        "direction": "flat",
-        "changePercent24h": 1.0771190049756694,
-        "confidence": 0.8131
       }
     }
   ]
