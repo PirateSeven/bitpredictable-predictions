@@ -83,8 +83,14 @@ def reconcile_and_update_bias(current_prices: Dict[str, float]) -> Dict[str, flo
             continue  # prune: do not add to `kept`
         kept.append(entry)
 
-        # Reconcile entries from the ≈24h window (12–36h tolerance)
-        if not (12.0 <= age_h <= 36.0):
+        # Reconcile entries from the ≈24h window (12–36h tolerance). The window
+        # is wider than the actual cron interval (6h, not the hourly cadence the
+        # "Run N -> Run N+1" docstring above assumes), so without the
+        # already-reconciled guard below, the same entry would get reconciled
+        # on ~4 consecutive runs as its age drifts through [12,36] — updating
+        # the EWMA on the same prediction repeatedly instead of once per
+        # ALPHA-weighted "day" as intended (2026-07 audit finding).
+        if not (12.0 <= age_h <= 36.0) or entry.get("reconciled"):
             continue
 
         coin       = entry.get("coin")
@@ -102,6 +108,7 @@ def reconcile_and_update_bias(current_prices: Dict[str, float]) -> Dict[str, flo
         new_bias       = ALPHA * error + (1.0 - ALPHA) * old_bias
         bias[coin]     = new_bias
         reconciled.add(coin)
+        entry["reconciled"] = True
 
         logger.info(
             "[%s] bias: pred=%+.2f%% actual=%+.2f%% err=%+.2f%%  "
@@ -134,6 +141,30 @@ def apply_bias(results: List[Dict], bias: Dict[str, float]) -> None:
         new_pct = round(old + b, 4)
         r["signal"]["changePercent24h"] = new_pct
         r["signal"]["direction"] = direction_from_pct(new_pct)
+
+        # series (the chart curve) also needs correcting, not just the signal
+        # summary fields — crypto-ace's _short_term_momentum() reads
+        # series[].predictedIndex directly, so an uncorrected series silently
+        # mixes a bias-corrected headline number with a stale momentum term
+        # (2026-07 audit finding). Ramp the correction in linearly across the
+        # future points so the last point's implied % change from last_actual
+        # matches new_pct exactly, while the earlier hours shift proportionally
+        # less (preserves the forecast's shape instead of just offsetting it
+        # uniformly).
+        series = r.get("series")
+        if series:
+            future = [p for p in series if p.get("actualIndex") is None]
+            if future:
+                last_actual = next(
+                    (p["actualIndex"] for p in reversed(series) if p["actualIndex"] is not None),
+                    100.0,
+                )
+                n = len(future)
+                for i, p in enumerate(future):
+                    frac = (i + 1) / n
+                    p["predictedIndex"] = round(
+                        p["predictedIndex"] + last_actual * (b * frac) / 100, 4
+                    )
 
         # Recalculate confidence using the pre-stored quantile spread
         spread = r["signal"].get("_spread")
