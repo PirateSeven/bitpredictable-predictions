@@ -1,6 +1,6 @@
 {
   "coinId": "hashnote-usyc",
-  "generatedAt": "2026-07-22T21:00:08.005495Z",
+  "generatedAt": "2026-07-23T03:00:08.407284Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -970,12 +970,12 @@
     "confidence": 0.95
   },
   "commentary": {
-    "en": "Circle USYC's 24-hour direction is predicted to be flat with a 95% confidence level, as it is currently oversold according to the RSI-14 indicator. The low volume ratio and sideways short-term trend also support this prediction. The recent news on regulatory developments in the crypto space may have a limited impact on HASHNOTE-USYC's price movement.",
-    "ja": "HASHNOTE-USYCの24時間の動向は95％の信頼度でフラットであると予想され、RSI-14指標によるとオーバーサルドである。低いボリュームレシオと短期の横方向の傾向もこの予想を裏付ける。最近のニュースでは、暗号通貨の規制開発についてのニュースがHASHNOTE-USYCの価格動向に限りなく影響を与える可能性はある。",
+    "en": "Circle USYC (HASHNOTE-USYC) is expected to remain flat in the next 24 hours with a 95% confidence level. The asset's RSI-14 is oversold, but the low volume ratio and sideways short-term trend suggest caution. The recent news of AFX protocol's bridge exploit and US officials' token issuance ban may impact investor sentiment.",
+    "ja": "HASHNOTE-USYCは、来日24時間で95％の確実性でフラットとなる可能性があります。RSI-14はオーバーサルドですが、低いボリュームレシオと短期の横方向のトレンドは注意を要します。AFXプロトコルのブリッジのハックや米国の官僚のトークン発行の禁止など、最近のニュースは投資家の気分を動かす可能性があります。",
     "sources": [
       {
         "label": "Fear & Greed Index",
-        "value": "33 — Fear",
+        "value": "31 — Fear",
         "url": "https://alternative.me/crypto/fear-and-greed-index/"
       },
       {
@@ -1000,23 +1000,23 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-0.53%",
+        "value": "-0.59%",
         "url": "https://www.coingecko.com/en/global-charts"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "AFX protocol reportedly loses $24M in bridge exploit",
+        "url": "https://cointelegraph.com/news/afx-protocol-reportedly-loses-24m-in-bridge-exploit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "S&P launches blockchain fundamentals index for digital assets",
+        "url": "https://cointelegraph.com/news/sp-launches-blockchain-fundamentals-index-digital-assets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       },
       {
         "label": "CoinTelegraph",
         "value": "Crypto PAC pours $1M into Michigan Democratic primary race",
         "url": "https://cointelegraph.com/news/crypto-pac-michigan-democratic-primary-race?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Here’s what happened in crypto today",
-        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "US officials barred until 2029 from issuing or sponsoring tokens under CLARITY’s proposed ethics rules",
-        "url": "https://cointelegraph.com/news/clarity-act-ethics-public-officials-president-barred-crypto?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       }
     ]
   }
