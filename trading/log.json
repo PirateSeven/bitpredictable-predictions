@@ -1,25 +1,25 @@
 {
   "agentVersion": "crypto-ace-1.0.0",
-  "updatedAt": "2026-07-24T21:23:38.685521+00:00",
+  "updatedAt": "2026-07-24T22:46:39.746772+00:00",
   "exchange": "Binance Testnet",
   "currency": "BNB",
   "initialCapital": 1.0,
-  "currentValue": 0.976155,
+  "currentValue": 0.974525,
   "performance": {
-    "totalReturnPct": -2.38,
-    "totalTrades": 34,
-    "winRate": 0.5,
+    "totalReturnPct": -2.55,
+    "totalTrades": 35,
+    "winRate": 0.4857,
     "maxDrawdownPct": 2.84,
-    "sharpeRatio": -5.04,
+    "sharpeRatio": -5.3,
     "startDate": "2026-06-17T19:27:34.575587+00:00"
   },
   "weeklyStats": {
     "wins": 10,
-    "losses": 4,
-    "winRate": 0.7143,
+    "losses": 5,
+    "winRate": 0.6667,
     "comment": {
-      "en": "Strong week. 14 trades with 71% win rate. Signal quality was high.",
-      "ja": "\u597d\u8abf\u306a\u9031\u300214\u53d6\u5f15\u3001\u52dd\u738771%\u3002\u30b7\u30b0\u30ca\u30eb\u54c1\u8cea\u304c\u9ad8\u304f\u898f\u5f8b\u3042\u308b\u904b\u7528\u3067\u3057\u305f\u3002"
+      "en": "Balanced week. 15 trades. Mixed signals but risk management held firm.",
+      "ja": "\u5747\u8861\u3057\u305f\u9031\u300215\u53d6\u5f15\u3002\u30b7\u30b0\u30ca\u30eb\u306f\u6df7\u5728\u3057\u307e\u3057\u305f\u304c\u30ea\u30b9\u30af\u7ba1\u7406\u304c\u6a5f\u80fd\u3057\u307e\u3057\u305f\u3002"
     }
   },
   "bestTrade": {
@@ -30,7 +30,7 @@
     "time": "2026-07-22T16:44:46.394784+00:00"
   },
   "currentStreak": {
-    "count": 1,
+    "count": 2,
     "type": "loss"
   },
   "currentPositions": [],
@@ -208,10 +208,31 @@
     {
       "time": "2026-07-24T04:06:19.294924+00:00",
       "value": 0.976155,
-      "benchmarkBtc": 1.045114
+      "benchmarkBtc": 1.044757
+    },
+    {
+      "time": "2026-07-24T22:46:39.738032+00:00",
+      "value": 0.974525,
+      "benchmarkBtc": 1.044757
     }
   ],
   "recentTrades": [
+    {
+      "id": "9b73c73f",
+      "coin": "hedera-hashgraph",
+      "symbol": "HBAR",
+      "action": "sell",
+      "price": 0.00012573,
+      "sizeBtc": 0.084596,
+      "time": "2026-07-24T22:46:39.738032+00:00",
+      "pnlBtc": -0.00163,
+      "pnlPct": -1.93,
+      "signal": {
+        "direction": "up",
+        "changePercent24h": 0.695,
+        "confidence": 0.7013
+      }
+    },
     {
       "id": "9b7d3005",
       "coin": "polkadot",
@@ -350,22 +371,6 @@
       "time": "2026-07-22T13:03:16.744616+00:00",
       "pnlBtc": 0.000561,
       "pnlPct": 0.9,
-      "signal": {
-        "direction": "up",
-        "changePercent24h": 5.7512,
-        "confidence": 0.95
-      }
-    },
-    {
-      "id": "c3ffab07",
-      "coin": "hedera-hashgraph",
-      "symbol": "HBAR",
-      "action": "sell",
-      "price": 0.00012453,
-      "sizeBtc": 0.033492,
-      "time": "2026-07-22T10:33:35.694923+00:00",
-      "pnlBtc": 0.000381,
-      "pnlPct": 1.14,
       "signal": {
         "direction": "up",
         "changePercent24h": 5.7512,
