@@ -1,25 +1,25 @@
 {
   "agentVersion": "crypto-ace-1.0.0",
-  "updatedAt": "2026-07-25T10:24:24.353318+00:00",
+  "updatedAt": "2026-07-25T14:06:50.905063+00:00",
   "exchange": "Binance Testnet",
   "currency": "BNB",
   "initialCapital": 1.0,
-  "currentValue": 0.974525,
+  "currentValue": 0.973197,
   "performance": {
-    "totalReturnPct": -2.55,
-    "totalTrades": 35,
-    "winRate": 0.4857,
+    "totalReturnPct": -2.68,
+    "totalTrades": 36,
+    "winRate": 0.4722,
     "maxDrawdownPct": 2.84,
-    "sharpeRatio": -5.3,
+    "sharpeRatio": -5.5,
     "startDate": "2026-06-17T19:27:34.575587+00:00"
   },
   "weeklyStats": {
     "wins": 10,
-    "losses": 5,
-    "winRate": 0.6667,
+    "losses": 6,
+    "winRate": 0.625,
     "comment": {
-      "en": "Balanced week. 15 trades. Mixed signals but risk management held firm.",
-      "ja": "\u5747\u8861\u3057\u305f\u9031\u300215\u53d6\u5f15\u3002\u30b7\u30b0\u30ca\u30eb\u306f\u6df7\u5728\u3057\u307e\u3057\u305f\u304c\u30ea\u30b9\u30af\u7ba1\u7406\u304c\u6a5f\u80fd\u3057\u307e\u3057\u305f\u3002"
+      "en": "Balanced week. 16 trades. Mixed signals but risk management held firm.",
+      "ja": "\u5747\u8861\u3057\u305f\u9031\u300216\u53d6\u5f15\u3002\u30b7\u30b0\u30ca\u30eb\u306f\u6df7\u5728\u3057\u307e\u3057\u305f\u304c\u30ea\u30b9\u30af\u7ba1\u7406\u304c\u6a5f\u80fd\u3057\u307e\u3057\u305f\u3002"
     }
   },
   "bestTrade": {
@@ -30,17 +30,17 @@
     "time": "2026-07-22T16:44:46.394784+00:00"
   },
   "currentStreak": {
-    "count": 2,
+    "count": 3,
     "type": "loss"
   },
   "currentPositions": [
     {
-      "coin": "hedera-hashgraph",
-      "symbol": "HBAR",
+      "coin": "polkadot",
+      "symbol": "DOT",
       "direction": "long",
-      "entryPrice": 0.00012515,
-      "entryTime": "2026-07-25T03:24:01.315278+00:00",
-      "sizeBtc": 0.084388,
+      "entryPrice": 0.001677,
+      "entryTime": "2026-07-25T10:24:23.127834+00:00",
+      "sizeBtc": 0.051361,
       "unrealizedPnlPct": 0.0
     }
   ],
@@ -223,10 +223,31 @@
     {
       "time": "2026-07-24T22:46:39.738032+00:00",
       "value": 0.974525,
-      "benchmarkBtc": 1.040973
+      "benchmarkBtc": 1.038857
+    },
+    {
+      "time": "2026-07-25T14:06:50.896158+00:00",
+      "value": 0.973197,
+      "benchmarkBtc": 1.038857
     }
   ],
   "recentTrades": [
+    {
+      "id": "1049b7db",
+      "coin": "hedera-hashgraph",
+      "symbol": "HBAR",
+      "action": "sell",
+      "price": 0.00012318,
+      "sizeBtc": 0.084388,
+      "time": "2026-07-25T14:06:50.896158+00:00",
+      "pnlBtc": -0.001328,
+      "pnlPct": -1.57,
+      "signal": {
+        "direction": "up",
+        "changePercent24h": 0.9673,
+        "confidence": 0.7644
+      }
+    },
     {
       "id": "9b73c73f",
       "coin": "hedera-hashgraph",
@@ -369,22 +390,6 @@
         "direction": "up",
         "changePercent24h": 3.0773,
         "confidence": 0.9249
-      }
-    },
-    {
-      "id": "f441c9b7",
-      "coin": "hedera-hashgraph",
-      "symbol": "HBAR",
-      "action": "sell",
-      "price": 0.00012424,
-      "sizeBtc": 0.062199,
-      "time": "2026-07-22T13:03:16.744616+00:00",
-      "pnlBtc": 0.000561,
-      "pnlPct": 0.9,
-      "signal": {
-        "direction": "up",
-        "changePercent24h": 5.7512,
-        "confidence": 0.95
       }
     }
   ]
