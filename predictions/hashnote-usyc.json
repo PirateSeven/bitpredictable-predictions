@@ -1,6 +1,6 @@
 {
   "coinId": "hashnote-usyc",
-  "generatedAt": "2026-07-24T21:00:07.201440Z",
+  "generatedAt": "2026-07-25T03:00:05.981473Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -896,7 +896,7 @@
     {
       "time": "2026-07-22T01:00:00Z",
       "actualIndex": null,
-      "predictedIndex": 99.9218
+      "predictedIndex": 99.9219
     },
     {
       "time": "2026-07-22T02:00:00Z",
@@ -970,12 +970,12 @@
     "confidence": 0.95
   },
   "commentary": {
-    "en": "Circle USYC (HASHNOTE-USYC) is expected to remain flat in the next 24 hours with a predicted return of -0.0% due to its oversold RSI-14 reading and low volume ratio. The recent news on insider trading bills and ethics rules may not have a direct impact on HASHNOTE-USYC's price movement. The overall crypto market is experiencing a fear-driven sentiment.",
-    "ja": "HASHNOTE-USYCは次の24時間に-0.0%の予想リターンでフラットな動きを続ける可能性があり、RSI-14がオーバーサルド、ボリューム比率が低いことから。インサイダー取引法案や倫理規則に関するニュースはHASHNOTE-USYCの価格動向に直接影響を与える可能性は低い。総合的に、暗号資産市場は恐怖感に駆られている。",
+    "en": "Circle USYC (HASHNOTE-USYC) is expected to remain flat with a 24h direction of -0.0% due to its oversold RSI-14 and mid-band Bollinger Band %B. The low volume ratio and sideways short-term trend also support this prediction. The overall market context, including the Fear & Greed Index and total crypto market cap change, is bearish.",
+    "ja": "Circle USYC (HASHNOTE-USYC) は、オーバーサルドのRSI-14とミッドバンドのボリンジャー・バンド %Bを理由に、24時間方向が-0.0%のままである可能性があります。低いボリューム・レシオと短期の横方向のトレンドもこの予測を裏付けています。Fear & Greed Indexと総暗号資産市場キャップの変化など、総合的な市場状況は恐怖の状態です。",
     "sources": [
       {
         "label": "Fear & Greed Index",
-        "value": "28 — Fear",
+        "value": "27 — Fear",
         "url": "https://alternative.me/crypto/fear-and-greed-index/"
       },
       {
@@ -1000,28 +1000,28 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-1.28%",
+        "value": "-1.15%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
-        "value": "0% bullish",
+        "value": "50% bullish",
         "url": "https://www.coingecko.com/en/coins/hashnote-usyc"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "EU authorities include HTX exchange in Russian sanctions",
+        "url": "https://cointelegraph.com/news/htx-exchange-european-union-russia-sanctions?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Strive’s SATA recovers most of June decline, trades within 3% of par",
+        "url": "https://cointelegraph.com/news/strives-sata-recovers-most-of-june-decline-trades-within-3-of-par?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       },
       {
         "label": "CoinTelegraph",
         "value": "House passes bill on lawmakers using insider information for stock trading",
         "url": "https://cointelegraph.com/news/house-bill-lawmakers-insider-information-stock-trading?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Here’s what happened in crypto today",
-        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "Crypto advocacy groups support CLARITY passage as ethics rules face pushback",
-        "url": "https://cointelegraph.com/news/crypto-advocacy-groups-support-clarity-act-pushback-ethics-rules?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       }
     ]
   }
