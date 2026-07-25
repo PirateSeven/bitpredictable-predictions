@@ -1,6 +1,6 @@
 {
   "coinId": "hashnote-usyc",
-  "generatedAt": "2026-07-25T03:00:05.981473Z",
+  "generatedAt": "2026-07-25T09:00:07.916048Z",
   "modelVersion": "lstm-2.0.0",
   "series": [
     {
@@ -970,8 +970,8 @@
     "confidence": 0.95
   },
   "commentary": {
-    "en": "Circle USYC (HASHNOTE-USYC) is expected to remain flat with a 24h direction of -0.0% due to its oversold RSI-14 and mid-band Bollinger Band %B. The low volume ratio and sideways short-term trend also support this prediction. The overall market context, including the Fear & Greed Index and total crypto market cap change, is bearish.",
-    "ja": "Circle USYC (HASHNOTE-USYC) は、オーバーサルドのRSI-14とミッドバンドのボリンジャー・バンド %Bを理由に、24時間方向が-0.0%のままである可能性があります。低いボリューム・レシオと短期の横方向のトレンドもこの予測を裏付けています。Fear & Greed Indexと総暗号資産市場キャップの変化など、総合的な市場状況は恐怖の状態です。",
+    "en": "Circle USYC (HASHNOTE-USYC) is predicted to remain flat in the next 24 hours with a 95% confidence level. The RSI-14 is at 12, indicating oversold conditions, while the Bollinger Band %B is at 0.21, suggesting a mid-band position. The low volume ratio and sideways short-term trend also support this prediction.",
+    "ja": "Circle USYC (HASHNOTE-USYC) は、来る24時間に95%の確率でフラットな動きを予測しています。RSI-14は12に達し、オーバーサールド状態を示しています。ボリンジャーバンドの%Bは0.21で、ミッドバンドの位置を示しています。低いボリュームレシオと短期の横方向のトレンドも、この予測を裏付けています。",
     "sources": [
       {
         "label": "Fear & Greed Index",
@@ -1000,13 +1000,18 @@
       },
       {
         "label": "Crypto market cap (24 h)",
-        "value": "-1.15%",
+        "value": "-1.79%",
         "url": "https://www.coingecko.com/en/global-charts"
       },
       {
         "label": "CoinGecko Community Sentiment",
         "value": "50% bullish",
         "url": "https://www.coingecko.com/en/coins/hashnote-usyc"
+      },
+      {
+        "label": "CoinTelegraph",
+        "value": "Ethereum ETFs close week in red, end 5-day inflow streak",
+        "url": "https://cointelegraph.com/markets/ethereum-etfs-week-red-end-inflow-streak?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       },
       {
         "label": "CoinTelegraph",
@@ -1017,11 +1022,6 @@
         "label": "CoinTelegraph",
         "value": "Strive’s SATA recovers most of June decline, trades within 3% of par",
         "url": "https://cointelegraph.com/news/strives-sata-recovers-most-of-june-decline-trades-within-3-of-par?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-      },
-      {
-        "label": "CoinTelegraph",
-        "value": "House passes bill on lawmakers using insider information for stock trading",
-        "url": "https://cointelegraph.com/news/house-bill-lawmakers-insider-information-stock-trading?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
       }
     ]
   }
