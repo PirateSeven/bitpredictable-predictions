@@ -1,25 +1,25 @@
 {
   "agentVersion": "crypto-ace-1.0.0",
-  "updatedAt": "2026-07-27T17:26:22.259580+00:00",
+  "updatedAt": "2026-07-27T18:31:22.380882+00:00",
   "exchange": "Binance Testnet",
   "currency": "BNB",
   "initialCapital": 1.0,
-  "currentValue": 0.971304,
+  "currentValue": 0.970541,
   "performance": {
-    "totalReturnPct": -2.87,
-    "totalTrades": 38,
-    "winRate": 0.4474,
-    "maxDrawdownPct": 2.87,
-    "sharpeRatio": -5.73,
+    "totalReturnPct": -2.95,
+    "totalTrades": 39,
+    "winRate": 0.4359,
+    "maxDrawdownPct": 2.95,
+    "sharpeRatio": -5.82,
     "startDate": "2026-06-17T19:27:34.575587+00:00"
   },
   "weeklyStats": {
     "wins": 8,
-    "losses": 7,
-    "winRate": 0.5333,
+    "losses": 8,
+    "winRate": 0.5,
     "comment": {
-      "en": "Caution: currently on a 5-trade losing streak (15 trades this week, 53% win rate). Monitoring closely.",
-      "ja": "\u6ce8\u610f: \u73fe\u57285\u9023\u6557\u4e2d\uff08\u4eca\u903115\u53d6\u5f15\u3001\u52dd\u738753%\uff09\u3002\u52d5\u5411\u3092\u6ce8\u8996\u3057\u3066\u3044\u307e\u3059\u3002"
+      "en": "Caution: currently on a 6-trade losing streak (16 trades this week, 50% win rate). Monitoring closely.",
+      "ja": "\u6ce8\u610f: \u73fe\u57286\u9023\u6557\u4e2d\uff08\u4eca\u903116\u53d6\u5f15\u3001\u52dd\u738750%\uff09\u3002\u52d5\u5411\u3092\u6ce8\u8996\u3057\u3066\u3044\u307e\u3059\u3002"
     }
   },
   "bestTrade": {
@@ -30,7 +30,7 @@
     "time": "2026-07-22T16:44:46.394784+00:00"
   },
   "currentStreak": {
-    "count": 5,
+    "count": 6,
     "type": "loss"
   },
   "currentPositions": [],
@@ -228,10 +228,31 @@
     {
       "time": "2026-07-27T00:07:04.283415+00:00",
       "value": 0.971304,
-      "benchmarkBtc": 1.042271
+      "benchmarkBtc": 1.038153
+    },
+    {
+      "time": "2026-07-27T18:31:22.371847+00:00",
+      "value": 0.970541,
+      "benchmarkBtc": 1.038153
     }
   ],
   "recentTrades": [
+    {
+      "id": "8b8f599c",
+      "coin": "solana",
+      "symbol": "SOL",
+      "action": "sell",
+      "price": 0.1315,
+      "sizeBtc": 0.084421,
+      "time": "2026-07-27T18:31:22.371847+00:00",
+      "pnlBtc": -0.000763,
+      "pnlPct": -0.9,
+      "signal": {
+        "direction": "up",
+        "changePercent24h": 0.9728,
+        "confidence": 0.8085
+      }
+    },
     {
       "id": "c371821c",
       "coin": "litecoin",
@@ -374,22 +395,6 @@
         "direction": "up",
         "changePercent24h": 3.0773,
         "confidence": 0.9249
-      }
-    },
-    {
-      "id": "1a0309a5",
-      "coin": "ripple",
-      "symbol": "XRP",
-      "action": "sell",
-      "price": 0.0020108,
-      "sizeBtc": 0.062199,
-      "time": "2026-07-22T15:57:29.396353+00:00",
-      "pnlBtc": 0.000477,
-      "pnlPct": 0.77,
-      "signal": {
-        "direction": "up",
-        "changePercent24h": 4.7939,
-        "confidence": 0.95
       }
     }
   ]
